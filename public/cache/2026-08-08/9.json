@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T15:54:21+00:00",
+  "generated_at": "2026-07-14T17:16:28+00:00",
   "date": "2026-08-08",
   "holes": "9",
   "results": [
@@ -150,10 +150,18 @@
     },
     {
       "site_name": "Kwinana",
-      "url": "https://www.kwinanagolfclub.com.au",
+      "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-08&feeGroupId=1502727564",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T15:54:18+00:00",
+  "generated_at": "2026-07-14T17:16:41+00:00",
   "date": "2026-07-16",
   "holes": "9",
   "results": [
@@ -17,7 +17,7 @@
         "location_name": "Altone Park",
         "tmax": 19,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 24.1,
         "rain_amount_label": "24.1 mm",
         "wind": 17
@@ -473,7 +473,7 @@
         "location_name": "Araluen",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 38.0,
         "rain_amount_label": "38 mm",
         "wind": 19
@@ -1312,7 +1312,7 @@
         "location_name": "Carramar",
         "tmax": 21,
         "tmin": 15,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 20.8,
         "rain_amount_label": "20.8 mm",
         "wind": 30
@@ -1339,7 +1339,7 @@
         "location_name": "Collier Park",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 32.4,
         "rain_amount_label": "32.4 mm",
         "wind": 25
@@ -1360,7 +1360,7 @@
         "location_name": "Embleton",
         "tmax": 19,
         "tmin": 13,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 33.2,
         "rain_amount_label": "33.2 mm",
         "wind": 19
@@ -1474,7 +1474,7 @@
         {
           "time": "09:02 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=103961"
         },
         {
@@ -1570,7 +1570,7 @@
         {
           "time": "11:08 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=103961"
         },
         {
@@ -1958,7 +1958,7 @@
         {
           "time": "09:02 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=103961",
           "course": "",
           "minutes": 542
@@ -2086,7 +2086,7 @@
         {
           "time": "11:08 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=103961",
           "course": "",
           "minutes": 668
@@ -2432,7 +2432,9 @@
         "2": {
           "": [
             "07:03 am",
-            "09:09 am"
+            "09:02 am",
+            "09:09 am",
+            "11:08 am"
           ]
         },
         "4": {
@@ -2452,7 +2454,6 @@
             "08:41 am",
             "08:48 am",
             "08:55 am",
-            "09:02 am",
             "09:16 am",
             "09:37 am",
             "09:44 am",
@@ -2466,7 +2467,6 @@
             "10:47 am",
             "10:54 am",
             "11:01 am",
-            "11:08 am",
             "11:15 am",
             "11:22 am",
             "11:29 am",
@@ -2542,7 +2542,7 @@
         "location_name": "Fremantle",
         "tmax": 19,
         "tmin": 15,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 20.6,
         "rain_amount_label": "20.6 mm",
         "wind": 36
@@ -2555,18 +2555,6 @@
       "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
       "hole_label": "9 holes",
       "rows": [
-        {
-          "time": "8:16 am",
-          "course_raw": "Hamersley",
-          "spots": 2,
-          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
-        },
-        {
-          "time": "8:25 am",
-          "course_raw": "Hamersley",
-          "spots": 1,
-          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
-        },
         {
           "time": "9:41 am",
           "course_raw": "Hamersley",
@@ -2731,22 +2719,6 @@
         }
       ],
       "decorated_rows": [
-        {
-          "time": "8:16 am",
-          "course_raw": "Hamersley",
-          "spots": 2,
-          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
-          "course": "Hamersley",
-          "minutes": 496
-        },
-        {
-          "time": "8:25 am",
-          "course_raw": "Hamersley",
-          "spots": 1,
-          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
-          "course": "Hamersley",
-          "minutes": 505
-        },
         {
           "time": "9:41 am",
           "course_raw": "Hamersley",
@@ -2965,27 +2937,6 @@
         }
       ],
       "grouped": {
-        "2": {
-          "Hamersley": [
-            "8:16 am",
-            "11:49 am",
-            "12:48 pm",
-            "1:05 pm",
-            "2:05 pm",
-            "2:39 pm"
-          ]
-        },
-        "1": {
-          "Hamersley": [
-            "8:25 am",
-            "12:14 pm",
-            "12:31 pm"
-          ],
-          "Back 9 Afternoon": [
-            "3:00 pm",
-            "3:08 pm"
-          ]
-        },
         "4": {
           "Hamersley": [
             "9:41 am",
@@ -3007,24 +2958,43 @@
             "3:13 pm",
             "3:21 pm"
           ]
+        },
+        "2": {
+          "Hamersley": [
+            "11:49 am",
+            "12:48 pm",
+            "1:05 pm",
+            "2:05 pm",
+            "2:39 pm"
+          ]
+        },
+        "1": {
+          "Hamersley": [
+            "12:14 pm",
+            "12:31 pm"
+          ],
+          "Back 9 Afternoon": [
+            "3:00 pm",
+            "3:08 pm"
+          ]
         }
       },
-      "preference_text": "Best overall option: 8:16 am",
+      "preference_text": "Best overall option: 9:41 am",
       "preference_course": "Hamersley",
       "display_group": 4,
-      "display_earliest": "8:16 am",
+      "display_earliest": "9:41 am",
       "earliest_group_times": [
-        [
-          2,
-          "8:16 am"
-        ],
-        [
-          1,
-          "8:25 am"
-        ],
         [
           4,
           "9:41 am"
+        ],
+        [
+          2,
+          "11:49 am"
+        ],
+        [
+          1,
+          "12:14 pm"
         ]
       ],
       "weather": {
@@ -3034,7 +3004,7 @@
         "location_name": "Hamersley",
         "tmax": 19,
         "tmin": 15,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 36.7,
         "rain_amount_label": "36.7 mm",
         "wind": 27
@@ -3061,7 +3031,7 @@
         "location_name": "Hartfield",
         "tmax": 19,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 30.8,
         "rain_amount_label": "30.8 mm",
         "wind": 17
@@ -3082,7 +3052,7 @@
         "location_name": "Hillview",
         "tmax": 19,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 30.8,
         "rain_amount_label": "30.8 mm",
         "wind": 17
@@ -3105,7 +3075,7 @@
         "location_name": "Joondalup Resort",
         "tmax": 20,
         "tmin": 16,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 35.6,
         "rain_amount_label": "35.6 mm",
         "wind": 32
@@ -3297,7 +3267,7 @@
         {
           "time": "12:52 pm",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1502727564"
         },
         {
@@ -3675,7 +3645,7 @@
         {
           "time": "12:52 pm",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1502727564",
           "course": "",
           "minutes": 772
@@ -3927,7 +3897,8 @@
             "10:36 am",
             "10:44 am",
             "11:08 am",
-            "12:36 pm"
+            "12:36 pm",
+            "12:52 pm"
           ]
         },
         "2": {
@@ -3935,7 +3906,6 @@
             "11:16 am",
             "11:24 am",
             "12:44 pm",
-            "12:52 pm",
             "02:04 pm"
           ]
         }
@@ -3969,7 +3939,7 @@
         "location_name": "Kwinana",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 85,
+        "rain_chance": 100,
         "rain_mm": 23.8,
         "rain_amount_label": "23.8 mm",
         "wind": 29
@@ -4826,7 +4796,7 @@
         "location_name": "Lake Claremont",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 36.0,
         "rain_amount_label": "36 mm",
         "wind": 27
@@ -5804,7 +5774,7 @@
         "location_name": "Links Kennedy Bay",
         "tmax": 18,
         "tmin": 13,
-        "rain_chance": 90,
+        "rain_chance": 96,
         "rain_mm": 27.1,
         "rain_amount_label": "27.1 mm",
         "wind": 29
@@ -5825,7 +5795,7 @@
         "location_name": "Mandurah Country Club",
         "tmax": 18,
         "tmin": 13,
-        "rain_chance": 90,
+        "rain_chance": 96,
         "rain_mm": 23.4,
         "rain_amount_label": "23.4 mm",
         "wind": 31
@@ -6563,7 +6533,7 @@
         "location_name": "Marangaroo",
         "tmax": 19,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 26.2,
         "rain_amount_label": "26.2 mm",
         "wind": 20
@@ -6584,7 +6554,7 @@
         "location_name": "Marri Park",
         "tmax": 17,
         "tmin": 14,
-        "rain_chance": 85,
+        "rain_chance": 100,
         "rain_mm": 25.3,
         "rain_amount_label": "25.3 mm",
         "wind": 22
@@ -6607,7 +6577,7 @@
         "location_name": "Maylands",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 41.4,
         "rain_amount_label": "41.4 mm",
         "wind": 19
@@ -6630,7 +6600,7 @@
         "location_name": "Meadow Springs",
         "tmax": 18,
         "tmin": 13,
-        "rain_chance": 90,
+        "rain_chance": 96,
         "rain_mm": 24.7,
         "rain_amount_label": "24.7 mm",
         "wind": 25
@@ -6653,7 +6623,7 @@
         "location_name": "Pinjarra",
         "tmax": 18,
         "tmin": 12,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 26.6,
         "rain_amount_label": "26.6 mm",
         "wind": 24
@@ -6676,7 +6646,7 @@
         "location_name": "Point Walter",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 32.4,
         "rain_amount_label": "32.4 mm",
         "wind": 25
@@ -6699,7 +6669,7 @@
         "location_name": "Rockingham",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 90,
+        "rain_chance": 96,
         "rain_mm": 28.4,
         "rain_amount_label": "28.4 mm",
         "wind": 36
@@ -6722,7 +6692,7 @@
         "location_name": "Rottnest Island",
         "tmax": 20,
         "tmin": 19,
-        "rain_chance": 86,
+        "rain_chance": 91,
         "rain_mm": 20.9,
         "rain_amount_label": "20.9 mm",
         "wind": 50
@@ -6745,7 +6715,7 @@
         "location_name": "Sea View",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 36.0,
         "rain_amount_label": "36 mm",
         "wind": 27
@@ -7521,7 +7491,7 @@
         "location_name": "Secret Harbour",
         "tmax": 18,
         "tmin": 13,
-        "rain_chance": 90,
+        "rain_chance": 96,
         "rain_mm": 27.1,
         "rain_amount_label": "27.1 mm",
         "wind": 29
@@ -7542,7 +7512,7 @@
         "location_name": "Sun City",
         "tmax": 22,
         "tmin": 14,
-        "rain_chance": 86,
+        "rain_chance": 88,
         "rain_mm": 21.4,
         "rain_amount_label": "21.4 mm",
         "wind": 32
@@ -8439,7 +8409,7 @@
         "location_name": "The Springs",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 85,
+        "rain_chance": 100,
         "rain_mm": 25.0,
         "rain_amount_label": "25 mm",
         "wind": 22
@@ -8967,7 +8937,7 @@
         "location_name": "The Vines",
         "tmax": 20,
         "tmin": 15,
-        "rain_chance": 84,
+        "rain_chance": 92,
         "rain_mm": 15.9,
         "rain_amount_label": "15.9 mm",
         "wind": 22
@@ -8994,7 +8964,7 @@
         "location_name": "Wembley",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 94,
         "rain_mm": 36.0,
         "rain_amount_label": "36 mm",
         "wind": 27
@@ -9541,7 +9511,7 @@
         "location_name": "Whaleback",
         "tmax": 18,
         "tmin": 14,
-        "rain_chance": 88,
+        "rain_chance": 96,
         "rain_mm": 37.5,
         "rain_amount_label": "37.5 mm",
         "wind": 20

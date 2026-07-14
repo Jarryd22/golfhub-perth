@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T15:52:56+00:00",
+  "generated_at": "2026-07-14T17:18:13+00:00",
   "date": "2026-07-22",
   "holes": "9",
   "results": [
@@ -2402,18 +2402,7 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
-        "location_name": "Embleton",
-        "tmax": 18,
-        "tmin": 10,
-        "rain_chance": 31,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 12
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,

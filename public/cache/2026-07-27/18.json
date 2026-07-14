@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T15:53:25+00:00",
+  "generated_at": "2026-07-14T17:16:06+00:00",
   "date": "2026-07-27",
   "holes": "18",
   "results": [
@@ -3432,7 +3432,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Maylands",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 28,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -3536,7 +3547,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Sea View",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 28,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,

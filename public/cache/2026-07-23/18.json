@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T15:53:24+00:00",
+  "generated_at": "2026-07-14T17:16:02+00:00",
   "date": "2026-07-23",
   "holes": "18",
   "results": [
@@ -2810,7 +2810,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
+        "location_name": "Mandurah Country Club",
+        "tmax": 18,
+        "tmin": 12,
+        "rain_chance": 23,
+        "rain_mm": 1.5,
+        "rain_amount_label": "1.5 mm",
+        "wind": 12
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -3322,7 +3333,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
+        "location_name": "Rottnest Island",
+        "tmax": 19,
+        "tmin": 18,
+        "rain_chance": 31,
+        "rain_mm": 0.9,
+        "rain_amount_label": "< 1 mm",
+        "wind": 28
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,

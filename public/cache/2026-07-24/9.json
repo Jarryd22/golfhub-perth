@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T15:54:02+00:00",
+  "generated_at": "2026-07-14T17:16:39+00:00",
   "date": "2026-07-24",
   "holes": "9",
   "results": [
@@ -1575,12 +1575,6 @@
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1502727564"
         },
         {
-          "time": "08:36 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1502727564"
-        },
-        {
           "time": "08:44 am",
           "course_raw": "1st Tee",
           "spots": 4,
@@ -2009,14 +2003,6 @@
           "minutes": 492
         },
         {
-          "time": "08:36 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1502727564",
-          "course": "",
-          "minutes": 516
-        },
-        {
           "time": "08:44 am",
           "course_raw": "1st Tee",
           "spots": 4,
@@ -2404,7 +2390,6 @@
             "07:48 am",
             "07:56 am",
             "08:12 am",
-            "08:36 am",
             "08:44 am",
             "09:08 am",
             "09:40 am",
