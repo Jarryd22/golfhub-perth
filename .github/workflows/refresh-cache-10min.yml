@@ -1,0 +1,60 @@
+name: Refresh four-week tee-time cache
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "*/10 * * * *"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: golfhub-four-week-cache
+  cancel-in-progress: true
+
+jobs:
+  refresh-shard:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    strategy:
+      fail-fast: false
+      matrix:
+        start: [0, 4, 8, 12, 16, 20, 24]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Refresh four Perth calendar days
+        run: >-
+          python scripts/refresh_cache_shard.py
+          --start-offset ${{ matrix.start }}
+          --days 4
+          --workers 8
+          --output cache-shard
+      - uses: actions/upload-artifact@v4
+        with:
+          name: cache-${{ matrix.start }}
+          path: cache-shard
+          retention-days: 1
+
+  publish:
+    needs: refresh-shard
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: cache-*
+          path: public/cache
+          merge-multiple: true
+      - name: Build manifest and remove expired dates
+        run: python scripts/build_cache_index.py
+      - name: Commit cache snapshot
+        run: |
+          git config user.name "golfhub-cache-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add public/cache
+          git diff --cached --quiet || git commit -m "cache: refresh four-week tee times"
+          git push
