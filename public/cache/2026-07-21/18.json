@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T18:34:46+00:00",
+  "generated_at": "2026-07-14T19:55:26+00:00",
   "date": "2026-07-21",
   "holes": "18",
   "results": [
@@ -11,16 +11,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Altone Park",
-        "tmax": 16,
-        "tmin": 10,
+        "tmax": 17,
+        "tmin": 5,
         "rain_chance": 31,
-        "rain_mm": 4.2,
-        "rain_amount_label": "4.2 mm",
-        "wind": 14
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -585,16 +585,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Araluen",
-        "tmax": 14,
-        "tmin": 9,
+        "tmax": 17,
+        "tmin": 3,
         "rain_chance": 31,
-        "rain_mm": 5.4,
-        "rain_amount_label": "5.4 mm",
-        "wind": 12
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -1015,16 +1015,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Carramar",
         "tmax": 17,
-        "tmin": 12,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 7.8,
-        "rain_amount_label": "7.8 mm",
-        "wind": 17
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
       },
       "error": null,
       "not_configured": false
@@ -1036,16 +1036,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Chequers",
-        "tmax": 16,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 5,
         "rain_chance": 25,
-        "rain_mm": 7.8,
-        "rain_amount_label": "7.8 mm",
-        "wind": 13
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -1512,16 +1512,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Collier Park",
-        "tmax": 18,
-        "tmin": 11,
+        "tmax": 16,
+        "tmin": 6,
         "rain_chance": 31,
-        "rain_mm": 6.3,
-        "rain_amount_label": "6.3 mm",
-        "wind": 14
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 7
       },
       "error": null,
       "not_configured": false
@@ -2166,16 +2166,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Fremantle",
-        "tmax": 18,
-        "tmin": 13,
+        "tmax": 17,
+        "tmin": 7,
         "rain_chance": 31,
-        "rain_mm": 3.3,
-        "rain_amount_label": "3.3 mm",
-        "wind": 19
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false
@@ -2326,16 +2326,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Hamersley",
-        "tmax": 18,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 16
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false
@@ -2668,16 +2668,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Hartfield",
-        "tmax": 16,
-        "tmin": 10,
+        "tmax": 17,
+        "tmin": 4,
         "rain_chance": 31,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 12
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false
@@ -2689,16 +2689,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Hillview",
-        "tmax": 16,
-        "tmin": 10,
+        "tmax": 17,
+        "tmin": 4,
         "rain_chance": 31,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 12
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -2712,16 +2712,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Joondalup Resort",
         "tmax": 17,
-        "tmin": 14,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 5.4,
-        "rain_amount_label": "5.4 mm",
-        "wind": 18
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false,
@@ -2730,416 +2730,10 @@
     },
     {
       "site_name": "Kwinana",
-      "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+      "url": "https://www.kwinanagolfclub.com.au",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "09:16 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "09:24 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "09:32 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "09:40 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "09:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "09:56 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:04 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:12 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:20 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:28 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:36 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:44 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "10:52 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "11:00 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "11:08 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "11:16 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "11:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "11:56 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:04 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:12 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:20 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:28 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:36 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:44 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "09:16 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 556
-        },
-        {
-          "time": "09:24 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 564
-        },
-        {
-          "time": "09:32 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 572
-        },
-        {
-          "time": "09:40 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 580
-        },
-        {
-          "time": "09:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 588
-        },
-        {
-          "time": "09:56 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 596
-        },
-        {
-          "time": "10:04 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 604
-        },
-        {
-          "time": "10:12 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 612
-        },
-        {
-          "time": "10:20 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 620
-        },
-        {
-          "time": "10:28 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 628
-        },
-        {
-          "time": "10:36 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 636
-        },
-        {
-          "time": "10:44 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 644
-        },
-        {
-          "time": "10:52 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 652
-        },
-        {
-          "time": "11:00 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 660
-        },
-        {
-          "time": "11:08 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 668
-        },
-        {
-          "time": "11:16 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 676
-        },
-        {
-          "time": "11:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 708
-        },
-        {
-          "time": "11:56 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 716
-        },
-        {
-          "time": "12:04 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 724
-        },
-        {
-          "time": "12:12 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 732
-        },
-        {
-          "time": "12:20 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 740
-        },
-        {
-          "time": "12:28 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 748
-        },
-        {
-          "time": "12:36 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 756
-        },
-        {
-          "time": "12:44 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 764
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 772
-        }
-      ],
-      "grouped": {
-        "4": {
-          "": [
-            "09:16 am",
-            "09:24 am",
-            "09:32 am",
-            "09:40 am",
-            "09:48 am",
-            "09:56 am",
-            "10:04 am",
-            "10:12 am",
-            "10:20 am",
-            "10:28 am",
-            "10:36 am",
-            "10:44 am",
-            "10:52 am",
-            "11:00 am",
-            "11:08 am",
-            "11:16 am",
-            "11:48 am",
-            "11:56 am",
-            "12:04 pm",
-            "12:12 pm",
-            "12:20 pm",
-            "12:28 pm",
-            "12:36 pm",
-            "12:44 pm",
-            "12:52 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 09:16 am",
-      "preference_course": "",
-      "display_group": 4,
-      "display_earliest": "09:16 am",
-      "earliest_group_times": [
-        [
-          4,
-          "09:16 am"
-        ]
-      ],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
-        "location_name": "Kwinana",
-        "tmax": 18,
-        "tmin": 11,
-        "rain_chance": 33,
-        "rain_mm": 4.8,
-        "rain_amount_label": "4.8 mm",
-        "wind": 16
-      },
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -4271,16 +3865,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Links Kennedy Bay",
-        "tmax": 18,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 4,
         "rain_chance": 39,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 19
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false
@@ -4292,16 +3886,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
         "location_name": "Mandurah Country Club",
-        "tmax": 17,
-        "tmin": 11,
+        "tmax": 16,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 18
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false,
@@ -4739,16 +4333,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Marangaroo",
         "tmax": 17,
-        "tmin": 11,
+        "tmin": 4,
         "rain_chance": 39,
-        "rain_mm": 5.4,
-        "rain_amount_label": "5.4 mm",
-        "wind": 13
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false
@@ -4760,16 +4354,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌧️",
-        "icon_file": "sheet_rain.png",
-        "label": "Heavy drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Marri Park",
-        "tmax": 18,
-        "tmin": 10,
+        "tmax": 17,
+        "tmin": 4,
         "rain_chance": 33,
-        "rain_mm": 7.5,
-        "rain_amount_label": "7.5 mm",
-        "wind": 15
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -4783,16 +4377,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Maylands",
         "tmax": 17,
-        "tmin": 10,
+        "tmin": 5,
         "rain_chance": 31,
-        "rain_mm": 4.5,
-        "rain_amount_label": "4.5 mm",
-        "wind": 14
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false,
@@ -4806,16 +4400,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Meadow Springs",
-        "tmax": 18,
-        "tmin": 10,
+        "tmax": 17,
+        "tmin": 4,
         "rain_chance": 39,
-        "rain_mm": 3.9,
-        "rain_amount_label": "3.9 mm",
-        "wind": 18
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false,
@@ -4829,16 +4423,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Pinjarra",
         "tmax": 16,
-        "tmin": 10,
+        "tmin": 4,
         "rain_chance": 33,
-        "rain_mm": 1.8,
-        "rain_amount_label": "1.8 mm",
-        "wind": 12
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false,
@@ -4852,16 +4446,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Rockingham",
-        "tmax": 18,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 6.6,
-        "rain_amount_label": "6.6 mm",
-        "wind": 19
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
       },
       "error": null,
       "not_configured": false,
@@ -4875,16 +4469,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Rottnest Island",
-        "tmax": 18,
-        "tmin": 17,
+        "tmax": 17,
+        "tmin": 13,
         "rain_chance": 39,
-        "rain_mm": 4.2,
-        "rain_amount_label": "4.2 mm",
-        "wind": 31
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 21
       },
       "error": null,
       "not_configured": false,
@@ -4898,16 +4492,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Sea View",
-        "tmax": 17,
-        "tmin": 12,
+        "tmax": 16,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 15
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false,
@@ -4916,470 +4510,10 @@
     },
     {
       "site_name": "Secret Harbour",
-      "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+      "url": "https://secretharbour.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "07:36 am",
-          "course_raw": "1st Tee",
-          "spots": 3,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "07:44 am",
-          "course_raw": "1st Tee",
-          "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "08:08 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "08:16 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "08:32 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "09:36 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "10:08 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "10:32 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "10:40 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "10:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "10:56 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:04 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:12 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:20 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:28 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:36 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:44 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "11:52 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:08 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:24 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:32 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:40 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:48 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "12:56 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "01:04 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        },
-        {
-          "time": "01:12 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "07:36 am",
-          "course_raw": "1st Tee",
-          "spots": 3,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 456
-        },
-        {
-          "time": "07:44 am",
-          "course_raw": "1st Tee",
-          "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 464
-        },
-        {
-          "time": "08:08 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 488
-        },
-        {
-          "time": "08:16 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 496
-        },
-        {
-          "time": "08:32 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 512
-        },
-        {
-          "time": "09:36 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 576
-        },
-        {
-          "time": "10:08 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 608
-        },
-        {
-          "time": "10:32 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 632
-        },
-        {
-          "time": "10:40 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 640
-        },
-        {
-          "time": "10:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 648
-        },
-        {
-          "time": "10:56 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 656
-        },
-        {
-          "time": "11:04 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 664
-        },
-        {
-          "time": "11:12 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 672
-        },
-        {
-          "time": "11:20 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 680
-        },
-        {
-          "time": "11:28 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 688
-        },
-        {
-          "time": "11:36 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 696
-        },
-        {
-          "time": "11:44 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 704
-        },
-        {
-          "time": "11:52 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 712
-        },
-        {
-          "time": "12:08 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 728
-        },
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 736
-        },
-        {
-          "time": "12:24 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 744
-        },
-        {
-          "time": "12:32 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 752
-        },
-        {
-          "time": "12:40 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 760
-        },
-        {
-          "time": "12:48 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 768
-        },
-        {
-          "time": "12:56 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 776
-        },
-        {
-          "time": "01:04 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 784
-        },
-        {
-          "time": "01:12 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
-          "course": "",
-          "minutes": 792
-        }
-      ],
-      "grouped": {
-        "3": {
-          "": [
-            "07:36 am"
-          ]
-        },
-        "2": {
-          "": [
-            "07:44 am"
-          ]
-        },
-        "1": {
-          "": [
-            "08:08 am",
-            "08:16 am",
-            "08:32 am",
-            "09:36 am",
-            "10:08 am"
-          ]
-        },
-        "4": {
-          "": [
-            "10:32 am",
-            "10:40 am",
-            "10:48 am",
-            "10:56 am",
-            "11:04 am",
-            "11:12 am",
-            "11:20 am",
-            "11:28 am",
-            "11:36 am",
-            "11:44 am",
-            "11:52 am",
-            "12:08 pm",
-            "12:16 pm",
-            "12:24 pm",
-            "12:32 pm",
-            "12:40 pm",
-            "12:48 pm",
-            "12:56 pm",
-            "01:04 pm",
-            "01:12 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 07:36 am",
-      "preference_course": "",
-      "display_group": 4,
-      "display_earliest": "07:36 am",
-      "earliest_group_times": [
-        [
-          3,
-          "07:36 am"
-        ],
-        [
-          2,
-          "07:44 am"
-        ],
-        [
-          1,
-          "08:08 am"
-        ],
-        [
-          4,
-          "10:32 am"
-        ]
-      ],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
-        "location_name": "Secret Harbour",
-        "tmax": 18,
-        "tmin": 11,
-        "rain_chance": 39,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 19
-      },
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -5389,16 +4523,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Sun City",
         "tmax": 18,
-        "tmin": 12,
+        "tmin": 7,
         "rain_chance": 28,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 19
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
       },
       "error": null,
       "not_configured": false,
@@ -5411,18 +4545,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "The Cut",
-        "tmax": 17,
-        "tmin": 12,
-        "rain_chance": 33,
-        "rain_mm": 2.4,
-        "rain_amount_label": "2.4 mm",
-        "wind": 25
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -5430,851 +4553,10 @@
     },
     {
       "site_name": "The Springs",
-      "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
+      "url": "https://springs.quick18.com",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "7:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "7:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "7:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "8:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "8:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "8:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "8:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "8:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "8:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:07 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:15 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "9:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:07 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:15 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "10:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:07 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:15 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "11:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:00 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:07 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:15 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:22 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:30 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:37 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:45 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:00 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:07 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:15 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:22 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:30 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:37 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:45 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "1:52 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "2:00 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "2:07 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "2:15 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "2:22 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        },
-        {
-          "time": "2:30 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "7:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 457
-        },
-        {
-          "time": "7:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 465
-        },
-        {
-          "time": "7:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 472
-        },
-        {
-          "time": "8:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 480
-        },
-        {
-          "time": "8:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 502
-        },
-        {
-          "time": "8:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 510
-        },
-        {
-          "time": "8:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 517
-        },
-        {
-          "time": "8:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 525
-        },
-        {
-          "time": "8:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 532
-        },
-        {
-          "time": "9:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 540
-        },
-        {
-          "time": "9:07 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 547
-        },
-        {
-          "time": "9:15 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 555
-        },
-        {
-          "time": "9:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 562
-        },
-        {
-          "time": "9:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 570
-        },
-        {
-          "time": "9:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 577
-        },
-        {
-          "time": "9:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 585
-        },
-        {
-          "time": "9:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 592
-        },
-        {
-          "time": "10:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 600
-        },
-        {
-          "time": "10:07 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 607
-        },
-        {
-          "time": "10:15 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 615
-        },
-        {
-          "time": "10:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 622
-        },
-        {
-          "time": "10:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 630
-        },
-        {
-          "time": "10:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 637
-        },
-        {
-          "time": "10:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 645
-        },
-        {
-          "time": "10:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 652
-        },
-        {
-          "time": "11:00 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 660
-        },
-        {
-          "time": "11:07 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 667
-        },
-        {
-          "time": "11:15 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 675
-        },
-        {
-          "time": "11:22 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 682
-        },
-        {
-          "time": "11:30 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 690
-        },
-        {
-          "time": "11:37 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 697
-        },
-        {
-          "time": "11:45 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 705
-        },
-        {
-          "time": "11:52 am",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 712
-        },
-        {
-          "time": "12:00 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 720
-        },
-        {
-          "time": "12:07 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 727
-        },
-        {
-          "time": "12:15 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 735
-        },
-        {
-          "time": "12:22 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 742
-        },
-        {
-          "time": "12:30 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 750
-        },
-        {
-          "time": "12:37 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 757
-        },
-        {
-          "time": "12:45 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 765
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 772
-        },
-        {
-          "time": "1:00 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 780
-        },
-        {
-          "time": "1:07 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 787
-        },
-        {
-          "time": "1:15 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 795
-        },
-        {
-          "time": "1:22 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 802
-        },
-        {
-          "time": "1:30 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 810
-        },
-        {
-          "time": "1:37 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 817
-        },
-        {
-          "time": "1:45 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 825
-        },
-        {
-          "time": "1:52 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 832
-        },
-        {
-          "time": "2:00 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 840
-        },
-        {
-          "time": "2:07 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 847
-        },
-        {
-          "time": "2:15 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 855
-        },
-        {
-          "time": "2:22 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 862
-        },
-        {
-          "time": "2:30 pm",
-          "course_raw": "18 Holes (Double Loop)",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
-          "course": "18 Holes",
-          "minutes": 870
-        }
-      ],
-      "grouped": {
-        "4": {
-          "18 Holes": [
-            "7:37 am",
-            "7:45 am",
-            "7:52 am",
-            "8:00 am",
-            "8:22 am",
-            "8:30 am",
-            "8:37 am",
-            "8:45 am",
-            "8:52 am",
-            "9:00 am",
-            "9:07 am",
-            "9:15 am",
-            "9:22 am",
-            "9:30 am",
-            "9:37 am",
-            "9:45 am",
-            "9:52 am",
-            "10:00 am",
-            "10:07 am",
-            "10:15 am",
-            "10:22 am",
-            "10:30 am",
-            "10:37 am",
-            "10:45 am",
-            "10:52 am",
-            "11:00 am",
-            "11:07 am",
-            "11:15 am",
-            "11:22 am",
-            "11:30 am",
-            "11:37 am",
-            "11:45 am",
-            "11:52 am",
-            "12:00 pm",
-            "12:07 pm",
-            "12:15 pm",
-            "12:22 pm",
-            "12:30 pm",
-            "12:37 pm",
-            "12:45 pm",
-            "12:52 pm",
-            "1:00 pm",
-            "1:07 pm",
-            "1:15 pm",
-            "1:22 pm",
-            "1:30 pm",
-            "1:37 pm",
-            "1:45 pm",
-            "1:52 pm",
-            "2:00 pm",
-            "2:07 pm",
-            "2:15 pm",
-            "2:22 pm",
-            "2:30 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 7:37 am",
-      "preference_course": "18 Holes",
-      "display_group": 4,
-      "display_earliest": "7:37 am",
-      "earliest_group_times": [
-        [
-          4,
-          "7:37 am"
-        ]
-      ],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
-        "location_name": "The Springs",
-        "tmax": 18,
-        "tmin": 10,
-        "rain_chance": 33,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 14
-      },
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -6347,16 +4629,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "The Vines",
-        "tmax": 16,
-        "tmin": 10,
+        "tmax": 17,
+        "tmin": 5,
         "rain_chance": 25,
-        "rain_mm": 4.8,
-        "rain_amount_label": "4.8 mm",
-        "wind": 12
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -6374,16 +4656,16 @@
       "display_earliest": null,
       "earliest_group_times": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Wembley",
-        "tmax": 18,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 6,
         "rain_chance": 39,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
-        "wind": 15
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false
@@ -6744,16 +5026,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Whaleback",
         "tmax": 17,
-        "tmin": 10,
+        "tmin": 5,
         "rain_chance": 31,
-        "rain_mm": 3.9,
-        "rain_amount_label": "3.9 mm",
-        "wind": 13
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false

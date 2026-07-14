@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T18:33:36+00:00",
+  "generated_at": "2026-07-14T19:54:19+00:00",
   "date": "2026-07-19",
   "holes": "18",
   "results": [
@@ -12,15 +12,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Altone Park",
         "tmax": 16,
-        "tmin": 8,
+        "tmin": 9,
         "rain_chance": 39,
-        "rain_mm": 1.2,
-        "rain_amount_label": "1.2 mm",
-        "wind": 5
+        "rain_mm": 2.1,
+        "rain_amount_label": "2.1 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -474,15 +474,15 @@
       ],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
         "location_name": "Araluen",
         "tmax": 15,
-        "tmin": 6,
+        "tmin": 8,
         "rain_chance": 39,
-        "rain_mm": 2.4,
-        "rain_amount_label": "2.4 mm",
-        "wind": 8
+        "rain_mm": 1.8,
+        "rain_amount_label": "1.8 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -546,11 +546,11 @@
         "icon_file": "sheet_partly_rain.png",
         "label": "Light drizzle",
         "location_name": "Carramar",
-        "tmax": 15,
+        "tmax": 16,
         "tmin": 10,
         "rain_chance": 64,
-        "rain_mm": 3.3,
-        "rain_amount_label": "3.3 mm",
+        "rain_mm": 2.7,
+        "rain_amount_label": "2.7 mm",
         "wind": 8
       },
       "error": null,
@@ -570,9 +570,9 @@
         "tmax": 16,
         "tmin": 8,
         "rain_chance": 24,
-        "rain_mm": 2.1,
-        "rain_amount_label": "2.1 mm",
-        "wind": 7
+        "rain_mm": 0.9,
+        "rain_amount_label": "< 1 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false,
@@ -711,16 +711,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
+        "icon": "🌧️",
         "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "label": "Heavy drizzle",
         "location_name": "Collier Park",
         "tmax": 16,
-        "tmin": 9,
+        "tmin": 10,
         "rain_chance": 39,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 8
+        "rain_mm": 6.9,
+        "rain_amount_label": "6.9 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -739,14 +739,14 @@
       "earliest_group_times": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Fremantle",
-        "tmax": 15,
-        "tmin": 10,
+        "tmax": 16,
+        "tmin": 11,
         "rain_chance": 39,
-        "rain_mm": 3.0,
-        "rain_amount_label": "3 mm",
+        "rain_mm": 5.1,
+        "rain_amount_label": "5.1 mm",
         "wind": 11
       },
       "error": null,
@@ -766,15 +766,15 @@
       "earliest_group_times": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Hamersley",
-        "tmax": 16,
+        "tmax": 15,
         "tmin": 10,
         "rain_chance": 64,
-        "rain_mm": 3.0,
-        "rain_amount_label": "3 mm",
-        "wind": 11
+        "rain_mm": 3.6,
+        "rain_amount_label": "3.6 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -797,11 +797,11 @@
         "label": "Light drizzle",
         "location_name": "Hartfield",
         "tmax": 16,
-        "tmin": 8,
+        "tmin": 9,
         "rain_chance": 39,
-        "rain_mm": 0.9,
-        "rain_amount_label": "< 1 mm",
-        "wind": 5
+        "rain_mm": 1.8,
+        "rain_amount_label": "1.8 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false
@@ -818,11 +818,11 @@
         "label": "Light drizzle",
         "location_name": "Hillview",
         "tmax": 16,
-        "tmin": 8,
+        "tmin": 9,
         "rain_chance": 39,
-        "rain_mm": 0.9,
-        "rain_amount_label": "< 1 mm",
-        "wind": 5
+        "rain_mm": 1.8,
+        "rain_amount_label": "1.8 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false,
@@ -841,11 +841,11 @@
         "label": "Drizzle",
         "location_name": "Joondalup Resort",
         "tmax": 15,
-        "tmin": 10,
+        "tmin": 11,
         "rain_chance": 64,
-        "rain_mm": 3.3,
-        "rain_amount_label": "3.3 mm",
-        "wind": 8
+        "rain_mm": 3.6,
+        "rain_amount_label": "3.6 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false,
@@ -866,15 +866,15 @@
       "earliest_group_times": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Kwinana",
-        "tmax": 15,
+        "tmax": 16,
         "tmin": 9,
         "rain_chance": 49,
-        "rain_mm": 2.4,
-        "rain_amount_label": "2.4 mm",
-        "wind": 10
+        "rain_mm": 3.0,
+        "rain_amount_label": "3 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -1123,9 +1123,9 @@
         "tmax": 16,
         "tmin": 9,
         "rain_chance": 62,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 11
+        "rain_mm": 3.9,
+        "rain_amount_label": "3.9 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -1138,15 +1138,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Mandurah Country Club",
-        "tmax": 14,
-        "tmin": 9,
+        "tmax": 15,
+        "tmin": 10,
         "rain_chance": 62,
-        "rain_mm": 2.4,
-        "rain_amount_label": "2.4 mm",
-        "wind": 9
+        "rain_mm": 3.9,
+        "rain_amount_label": "3.9 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false,
@@ -1291,15 +1291,15 @@
         ]
       ],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy drizzle",
         "location_name": "Marangaroo",
         "tmax": 16,
-        "tmin": 9,
+        "tmin": 8,
         "rain_chance": 64,
-        "rain_mm": 2.7,
-        "rain_amount_label": "2.7 mm",
+        "rain_mm": 4.8,
+        "rain_amount_label": "4.8 mm",
         "wind": 6
       },
       "error": null,
@@ -1316,11 +1316,11 @@
         "icon_file": "sheet_partly_rain.png",
         "label": "Light drizzle",
         "location_name": "Marri Park",
-        "tmax": 15,
+        "tmax": 16,
         "tmin": 7,
         "rain_chance": 49,
-        "rain_mm": 1.2,
-        "rain_amount_label": "1.2 mm",
+        "rain_mm": 2.1,
+        "rain_amount_label": "2.1 mm",
         "wind": 7
       },
       "error": null,
@@ -1336,15 +1336,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Maylands",
         "tmax": 16,
         "tmin": 9,
         "rain_chance": 39,
-        "rain_mm": 2.1,
-        "rain_amount_label": "2.1 mm",
-        "wind": 6
+        "rain_mm": 3.9,
+        "rain_amount_label": "3.9 mm",
+        "wind": 7
       },
       "error": null,
       "not_configured": false,
@@ -1362,12 +1362,12 @@
         "icon_file": "sheet_partly_rain.png",
         "label": "Light drizzle",
         "location_name": "Meadow Springs",
-        "tmax": 15,
+        "tmax": 16,
         "tmin": 8,
         "rain_chance": 62,
-        "rain_mm": 2.1,
-        "rain_amount_label": "2.1 mm",
-        "wind": 9
+        "rain_mm": 2.7,
+        "rain_amount_label": "2.7 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -1385,12 +1385,12 @@
         "icon_file": "sheet_partly_rain.png",
         "label": "Light drizzle",
         "location_name": "Pinjarra",
-        "tmax": 14,
-        "tmin": 7,
+        "tmax": 15,
+        "tmin": 8,
         "rain_chance": 61,
-        "rain_mm": 0.9,
-        "rain_amount_label": "< 1 mm",
-        "wind": 6
+        "rain_mm": 2.4,
+        "rain_amount_label": "2.4 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false,
@@ -1405,15 +1405,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Rockingham",
-        "tmax": 15,
+        "tmax": 16,
         "tmin": 10,
         "rain_chance": 62,
-        "rain_mm": 3.0,
-        "rain_amount_label": "3 mm",
-        "wind": 14
+        "rain_mm": 4.2,
+        "rain_amount_label": "4.2 mm",
+        "wind": 11
       },
       "error": null,
       "not_configured": false,
@@ -1428,15 +1428,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
         "location_name": "Rottnest Island",
-        "tmax": 16,
-        "tmin": 13,
+        "tmax": 17,
+        "tmin": 14,
         "rain_chance": 62,
-        "rain_mm": 5.4,
-        "rain_amount_label": "5.4 mm",
-        "wind": 24
+        "rain_mm": 4.2,
+        "rain_amount_label": "4.2 mm",
+        "wind": 26
       },
       "error": null,
       "not_configured": false,
@@ -1451,15 +1451,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Sea View",
-        "tmax": 16,
+        "tmax": 15,
         "tmin": 10,
         "rain_chance": 64,
-        "rain_mm": 2.7,
-        "rain_amount_label": "2.7 mm",
-        "wind": 11
+        "rain_mm": 4.8,
+        "rain_amount_label": "4.8 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false,
@@ -1486,9 +1486,9 @@
         "tmax": 16,
         "tmin": 9,
         "rain_chance": 62,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 11
+        "rain_mm": 3.9,
+        "rain_amount_label": "3.9 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -1501,15 +1501,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Sun City",
-        "tmax": 15,
-        "tmin": 10,
+        "tmax": 16,
+        "tmin": 11,
         "rain_chance": 49,
-        "rain_mm": 3.3,
-        "rain_amount_label": "3.3 mm",
-        "wind": 11
+        "rain_mm": 2.4,
+        "rain_amount_label": "2.4 mm",
+        "wind": 12
       },
       "error": null,
       "not_configured": false,
@@ -1524,15 +1524,15 @@
       "decorated_rows": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "The Cut",
-        "tmax": 14,
-        "tmin": 9,
+        "tmax": 15,
+        "tmin": 10,
         "rain_chance": 61,
-        "rain_mm": 2.7,
-        "rain_amount_label": "2.7 mm",
-        "wind": 9
+        "rain_mm": 3.9,
+        "rain_amount_label": "3.9 mm",
+        "wind": 10
       },
       "error": null,
       "not_configured": false,
@@ -1553,15 +1553,15 @@
       "earliest_group_times": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "The Springs",
         "tmax": 16,
         "tmin": 8,
         "rain_chance": 49,
-        "rain_mm": 1.5,
-        "rain_amount_label": "1.5 mm",
-        "wind": 6
+        "rain_mm": 3.0,
+        "rain_amount_label": "3 mm",
+        "wind": 8
       },
       "error": null,
       "not_configured": false
@@ -1588,7 +1588,7 @@
         "rain_chance": 24,
         "rain_mm": 1.2,
         "rain_amount_label": "1.2 mm",
-        "wind": 6
+        "wind": 8
       },
       "error": null,
       "not_configured": false
@@ -1607,15 +1607,15 @@
       "earliest_group_times": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Wembley",
         "tmax": 16,
         "tmin": 10,
         "rain_chance": 64,
-        "rain_mm": 2.7,
-        "rain_amount_label": "2.7 mm",
-        "wind": 11
+        "rain_mm": 4.8,
+        "rain_amount_label": "4.8 mm",
+        "wind": 9
       },
       "error": null,
       "not_configured": false
@@ -1634,14 +1634,14 @@
       "earliest_group_times": [],
       "weather": {
         "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
         "location_name": "Whaleback",
         "tmax": 16,
-        "tmin": 8,
+        "tmin": 9,
         "rain_chance": 39,
-        "rain_mm": 1.5,
-        "rain_amount_label": "1.5 mm",
+        "rain_mm": 4.2,
+        "rain_amount_label": "4.2 mm",
         "wind": 6
       },
       "error": null,

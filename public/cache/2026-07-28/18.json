@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T18:34:09+00:00",
+  "generated_at": "2026-07-14T19:54:53+00:00",
   "date": "2026-07-28",
   "holes": "18",
   "results": [
@@ -15,8 +15,8 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Altone Park",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
@@ -627,12 +627,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Araluen",
-        "tmax": 20,
-        "tmin": 10,
+        "tmax": 16,
+        "tmin": 8,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 16
+        "wind": 18
       },
       "error": null,
       "not_configured": false
@@ -654,12 +654,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Carramar",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 25,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 18
+        "wind": 15
       },
       "error": null,
       "not_configured": false
@@ -675,12 +675,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Chequers",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 21,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 19
+        "wind": 18
       },
       "error": null,
       "not_configured": false,
@@ -704,12 +704,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Collier Park",
-        "tmax": 20,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 10,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 15
+        "wind": 11
       },
       "error": null,
       "not_configured": false
@@ -731,12 +731,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Fremantle",
-        "tmax": 21,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 10,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 17
+        "wind": 13
       },
       "error": null,
       "not_configured": false
@@ -898,12 +898,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Hamersley",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 25,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 15
+        "wind": 12
       },
       "error": null,
       "not_configured": false
@@ -1277,12 +1277,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Hartfield",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 17
+        "wind": 18
       },
       "error": null,
       "not_configured": false
@@ -1298,12 +1298,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Hillview",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 17
+        "wind": 18
       },
       "error": null,
       "not_configured": false,
@@ -1321,12 +1321,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Joondalup Resort",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 25,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 18
+        "wind": 15
       },
       "error": null,
       "not_configured": false,
@@ -1797,12 +1797,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Kwinana",
-        "tmax": 22,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 18
+        "wind": 13
       },
       "error": null,
       "not_configured": false
@@ -2936,16 +2936,16 @@
         ]
       ],
       "weather": {
-        "icon": "☀️",
+        "icon": "🌤️",
         "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "label": "Mostly clear",
         "location_name": "Links Kennedy Bay",
-        "tmax": 22,
-        "tmin": 12,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 20
+        "wind": 14
       },
       "error": null,
       "not_configured": false
@@ -2957,16 +2957,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Mandurah Country Club",
-        "tmax": 21,
-        "tmin": 12,
+        "tmax": 16,
+        "tmin": 9,
         "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 21
+        "wind": 17
       },
       "error": null,
       "not_configured": false,
@@ -2975,10 +2975,29 @@
     },
     {
       "site_name": "Marangaroo",
-      "url": "https://marangaroo.miclub.com.au",
+      "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=1500406571",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Marangaroo",
+        "tmax": 18,
+        "tmin": 9,
+        "rain_chance": 25,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -2992,12 +3011,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Marri Park",
-        "tmax": 22,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 20
+        "wind": 16
       },
       "error": null,
       "not_configured": false,
@@ -3015,12 +3034,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Maylands",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 10,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 15
+        "wind": 13
       },
       "error": null,
       "not_configured": false,
@@ -3034,16 +3053,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Meadow Springs",
-        "tmax": 22,
-        "tmin": 12,
+        "tmax": 18,
+        "tmin": 8,
         "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 21
+        "wind": 16
       },
       "error": null,
       "not_configured": false,
@@ -3057,16 +3076,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Pinjarra",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 22
+        "wind": 20
       },
       "error": null,
       "not_configured": false,
@@ -3084,12 +3103,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Rockingham",
-        "tmax": 22,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 18
+        "wind": 13
       },
       "error": null,
       "not_configured": false,
@@ -3107,12 +3126,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Rottnest Island",
-        "tmax": 20,
-        "tmin": 16,
+        "tmax": 17,
+        "tmin": 13,
         "rain_chance": 32,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 34
+        "wind": 30
       },
       "error": null,
       "not_configured": false,
@@ -3130,12 +3149,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Sea View",
-        "tmax": 20,
-        "tmin": 11,
+        "tmax": 17,
+        "tmin": 10,
         "rain_chance": 25,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 15
+        "wind": 11
       },
       "error": null,
       "not_configured": false,
@@ -3144,10 +3163,605 @@
     },
     {
       "site_name": "Secret Harbour",
-      "url": "https://secretharbour.miclub.com.au",
+      "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "07:12 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "07:28 am",
+          "course_raw": "1st Tee",
+          "spots": 3,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "07:36 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "08:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "09:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "09:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "09:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "10:08 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "10:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "10:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "10:32 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "10:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:04 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:08 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:16 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "12:56 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "01:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        },
+        {
+          "time": "01:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:12 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 432
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 440
+        },
+        {
+          "time": "07:28 am",
+          "course_raw": "1st Tee",
+          "spots": 3,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 448
+        },
+        {
+          "time": "07:36 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 456
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 464
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 480
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 488
+        },
+        {
+          "time": "08:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 504
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 512
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 520
+        },
+        {
+          "time": "09:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 568
+        },
+        {
+          "time": "09:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 576
+        },
+        {
+          "time": "09:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 592
+        },
+        {
+          "time": "10:08 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 608
+        },
+        {
+          "time": "10:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 616
+        },
+        {
+          "time": "10:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 624
+        },
+        {
+          "time": "10:32 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 632
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 640
+        },
+        {
+          "time": "10:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 656
+        },
+        {
+          "time": "11:04 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 664
+        },
+        {
+          "time": "11:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 672
+        },
+        {
+          "time": "11:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 680
+        },
+        {
+          "time": "11:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 688
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 696
+        },
+        {
+          "time": "11:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 704
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 712
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 720
+        },
+        {
+          "time": "12:08 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 728
+        },
+        {
+          "time": "12:16 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 736
+        },
+        {
+          "time": "12:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 744
+        },
+        {
+          "time": "12:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 752
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 760
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 768
+        },
+        {
+          "time": "12:56 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 776
+        },
+        {
+          "time": "01:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 784
+        },
+        {
+          "time": "01:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12445",
+          "course": "",
+          "minutes": 792
+        }
+      ],
+      "grouped": {
+        "1": {
+          "": [
+            "07:12 am",
+            "07:20 am",
+            "08:00 am",
+            "08:08 am"
+          ]
+        },
+        "3": {
+          "": [
+            "07:28 am"
+          ]
+        },
+        "2": {
+          "": [
+            "07:36 am",
+            "07:44 am",
+            "08:32 am",
+            "12:00 pm"
+          ]
+        },
+        "4": {
+          "": [
+            "08:24 am",
+            "08:40 am",
+            "09:28 am",
+            "09:36 am",
+            "09:52 am",
+            "10:08 am",
+            "10:16 am",
+            "10:24 am",
+            "10:32 am",
+            "10:40 am",
+            "10:56 am",
+            "11:04 am",
+            "11:12 am",
+            "11:20 am",
+            "11:28 am",
+            "11:36 am",
+            "11:44 am",
+            "11:52 am",
+            "12:08 pm",
+            "12:16 pm",
+            "12:24 pm",
+            "12:32 pm",
+            "12:40 pm",
+            "12:48 pm",
+            "12:56 pm",
+            "01:04 pm",
+            "01:12 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:12 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "07:12 am",
+      "earliest_group_times": [
+        [
+          1,
+          "07:12 am"
+        ],
+        [
+          3,
+          "07:28 am"
+        ],
+        [
+          2,
+          "07:36 am"
+        ],
+        [
+          4,
+          "08:24 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Secret Harbour",
+        "tmax": 18,
+        "tmin": 9,
+        "rain_chance": 26,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -3161,12 +3775,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Sun City",
-        "tmax": 22,
-        "tmin": 12,
-        "rain_chance": 20,
+        "tmax": 19,
+        "tmin": 10,
+        "rain_chance": 19,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 20
+        "wind": 19
       },
       "error": null,
       "not_configured": false,
@@ -3180,16 +3794,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
+        "icon": "🌤️",
         "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "label": "Mostly clear",
         "location_name": "The Cut",
-        "tmax": 20,
-        "tmin": 12,
+        "tmax": 16,
+        "tmin": 9,
         "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 19
+        "wind": 15
       },
       "error": null,
       "not_configured": false,
@@ -3615,12 +4229,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "The Springs",
-        "tmax": 22,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 9,
         "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 18
+        "wind": 14
       },
       "error": null,
       "not_configured": false
@@ -3699,8 +4313,8 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "The Vines",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 21,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
@@ -3726,12 +4340,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Wembley",
-        "tmax": 21,
-        "tmin": 12,
+        "tmax": 17,
+        "tmin": 10,
         "rain_chance": 25,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 15
+        "wind": 11
       },
       "error": null,
       "not_configured": false
@@ -3753,12 +4367,12 @@
         "icon_file": "sheet_clear.png",
         "label": "Clear",
         "location_name": "Whaleback",
-        "tmax": 21,
-        "tmin": 11,
+        "tmax": 18,
+        "tmin": 9,
         "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 17
+        "wind": 15
       },
       "error": null,
       "not_configured": false

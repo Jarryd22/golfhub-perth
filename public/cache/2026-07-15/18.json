@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T18:33:40+00:00",
+  "generated_at": "2026-07-14T19:54:19+00:00",
   "date": "2026-07-15",
   "holes": "18",
   "results": [
@@ -11,16 +11,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Altone Park",
-        "tmax": 23,
+        "tmax": 22,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 18
+        "wind": 17
       },
       "error": null,
       "not_configured": false,
@@ -368,9 +368,9 @@
         ]
       ],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Araluen",
         "tmax": 22,
         "tmin": 10,
@@ -437,16 +437,16 @@
         ]
       ],
       "weather": {
-        "icon": "🌤️",
+        "icon": "☀️",
         "icon_file": "sheet_clear.png",
-        "label": "Mostly clear",
+        "label": "Clear",
         "location_name": "Carramar",
         "tmax": 23,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 21
+        "wind": 20
       },
       "error": null,
       "not_configured": false
@@ -458,12 +458,12 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
+        "icon": "🌤️",
         "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "label": "Mostly clear",
         "location_name": "Chequers",
         "tmax": 22,
-        "tmin": 12,
+        "tmin": 11,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
@@ -1134,12 +1134,12 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Fremantle",
         "tmax": 22,
-        "tmin": 13,
+        "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
@@ -1161,9 +1161,9 @@
       "display_earliest": null,
       "earliest_group_times": [],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Hamersley",
         "tmax": 23,
         "tmin": 12,
@@ -1215,11 +1215,11 @@
         ]
       ],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Hartfield",
-        "tmax": 23,
+        "tmax": 22,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
@@ -1236,11 +1236,11 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Hillview",
-        "tmax": 23,
+        "tmax": 22,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
@@ -1259,9 +1259,9 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Joondalup Resort",
         "tmax": 23,
         "tmin": 12,
@@ -1315,9 +1315,9 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Kwinana",
         "tmax": 22,
         "tmin": 12,
@@ -1863,7 +1863,7 @@
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 19
+        "wind": 18
       },
       "error": null,
       "not_configured": false,
@@ -1877,16 +1877,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌤️",
-        "icon_file": "sheet_clear.png",
-        "label": "Mostly clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Maylands",
-        "tmax": 23,
+        "tmax": 22,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 15
+        "wind": 14
       },
       "error": null,
       "not_configured": false,
@@ -1900,9 +1900,9 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Meadow Springs",
         "tmax": 22,
         "tmin": 12,
@@ -1923,9 +1923,9 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Pinjarra",
         "tmax": 21,
         "tmin": 12,
@@ -1992,16 +1992,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Sea View",
         "tmax": 22,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 17
+        "wind": 16
       },
       "error": null,
       "not_configured": false,
@@ -2513,16 +2513,16 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌤️",
+        "icon": "☀️",
         "icon_file": "sheet_clear.png",
-        "label": "Mostly clear",
+        "label": "Clear",
         "location_name": "Sun City",
         "tmax": 24,
-        "tmin": 13,
+        "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 24
+        "wind": 23
       },
       "error": null,
       "not_configured": false,
@@ -2785,9 +2785,9 @@
       "display_earliest": null,
       "earliest_group_times": [],
       "weather": {
-        "icon": "☀️",
+        "icon": "🌤️",
         "icon_file": "sheet_clear.png",
-        "label": "Clear",
+        "label": "Mostly clear",
         "location_name": "The Vines",
         "tmax": 23,
         "tmin": 12,
@@ -2812,16 +2812,16 @@
       "display_earliest": null,
       "earliest_group_times": [],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Wembley",
         "tmax": 22,
         "tmin": 12,
         "rain_chance": 0,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
-        "wind": 17
+        "wind": 16
       },
       "error": null,
       "not_configured": false
@@ -2881,9 +2881,9 @@
         ]
       ],
       "weather": {
-        "icon": "🌤️",
-        "icon_file": "sheet_clear.png",
-        "label": "Mostly clear",
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
         "location_name": "Whaleback",
         "tmax": 22,
         "tmin": 12,

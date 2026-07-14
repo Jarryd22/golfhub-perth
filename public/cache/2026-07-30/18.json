@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T18:35:13+00:00",
+  "generated_at": "2026-07-14T19:56:20+00:00",
   "date": "2026-07-30",
   "holes": "18",
   "results": [
@@ -73,7 +73,7 @@
       "url": "https://www.hartfieldgolf.com.au",
       "hole_label": "18 holes",
       "decorated_rows": [],
-      "error": "int() argument must be a string, a bytes-like object or a real number, not 'NoneType'",
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -265,7 +265,7 @@
       "url": "https://thevines.miclub.com.au",
       "hole_label": "18 holes",
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "error": "int() argument must be a string, a bytes-like object or a real number, not 'NoneType'",
       "not_configured": false
     },
     {
@@ -273,7 +273,7 @@
       "url": "https://www.wembleygolf.com.au",
       "hole_label": "18 holes",
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "error": "int() argument must be a string, a bytes-like object or a real number, not 'NoneType'",
       "not_configured": false
     },
     {
