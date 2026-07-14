@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T19:56:31+00:00",
+  "generated_at": "2026-07-14T21:03:35+00:00",
   "date": "2026-07-26",
   "holes": "9",
   "results": [
@@ -2607,18 +2607,7 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
-        "location_name": "Point Walter",
-        "tmax": 19,
-        "tmin": 11,
-        "rain_chance": 18,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 7
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,

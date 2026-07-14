@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T19:56:06+00:00",
+  "generated_at": "2026-07-14T21:03:15+00:00",
   "date": "2026-07-22",
   "holes": "9",
   "results": [
@@ -4284,14 +4284,733 @@
       "site_name": "Hartfield",
       "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
       "hole_label": "9 holes",
-      "rows": [],
-      "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
+      "rows": [
+        {
+          "time": "07:30 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "07:37 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "07:51 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "07:58 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:12 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:19 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:26 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:33 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:47 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "08:54 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "09:15 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "09:22 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "09:29 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:07 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:14 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:21 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:28 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:35 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "12:42 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:17 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:31 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:38 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:45 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:52 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "01:59 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:06 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:13 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:27 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:34 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:41 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:48 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "02:55 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:02 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:09 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:16 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:23 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:30 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:37 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:44 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:51 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        },
+        {
+          "time": "03:58 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:30 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 450
+        },
+        {
+          "time": "07:37 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 457
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 464
+        },
+        {
+          "time": "07:51 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 471
+        },
+        {
+          "time": "07:58 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 478
+        },
+        {
+          "time": "08:12 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 492
+        },
+        {
+          "time": "08:19 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 499
+        },
+        {
+          "time": "08:26 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 506
+        },
+        {
+          "time": "08:33 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 513
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 520
+        },
+        {
+          "time": "08:47 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 527
+        },
+        {
+          "time": "08:54 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 534
+        },
+        {
+          "time": "09:15 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 555
+        },
+        {
+          "time": "09:22 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 562
+        },
+        {
+          "time": "09:29 am",
+          "course_raw": "10th Tee am",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "10th Tee am",
+          "minutes": 569
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 720
+        },
+        {
+          "time": "12:07 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 727
+        },
+        {
+          "time": "12:14 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 734
+        },
+        {
+          "time": "12:21 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 741
+        },
+        {
+          "time": "12:28 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 748
+        },
+        {
+          "time": "12:35 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 755
+        },
+        {
+          "time": "12:42 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 762
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 790
+        },
+        {
+          "time": "01:17 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 797
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 804
+        },
+        {
+          "time": "01:31 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 811
+        },
+        {
+          "time": "01:38 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 818
+        },
+        {
+          "time": "01:45 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 825
+        },
+        {
+          "time": "01:52 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 832
+        },
+        {
+          "time": "01:59 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 839
+        },
+        {
+          "time": "02:06 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 846
+        },
+        {
+          "time": "02:13 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 853
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 860
+        },
+        {
+          "time": "02:27 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 867
+        },
+        {
+          "time": "02:34 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 874
+        },
+        {
+          "time": "02:41 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 881
+        },
+        {
+          "time": "02:48 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 888
+        },
+        {
+          "time": "02:55 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 895
+        },
+        {
+          "time": "03:02 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 902
+        },
+        {
+          "time": "03:09 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 909
+        },
+        {
+          "time": "03:16 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 916
+        },
+        {
+          "time": "03:23 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 923
+        },
+        {
+          "time": "03:30 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 930
+        },
+        {
+          "time": "03:37 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 937
+        },
+        {
+          "time": "03:44 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 944
+        },
+        {
+          "time": "03:51 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 951
+        },
+        {
+          "time": "03:58 pm",
+          "course_raw": "1st Tee pm",
+          "spots": 4,
+          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784389",
+          "course": "",
+          "minutes": 958
+        }
+      ],
+      "grouped": {
+        "4": {
+          "10th Tee am": [
+            "07:30 am",
+            "07:37 am",
+            "07:44 am",
+            "07:51 am",
+            "07:58 am",
+            "08:12 am",
+            "08:19 am",
+            "08:26 am",
+            "08:33 am",
+            "08:40 am",
+            "08:47 am",
+            "08:54 am",
+            "09:15 am",
+            "09:22 am",
+            "09:29 am"
+          ],
+          "": [
+            "12:00 pm",
+            "12:07 pm",
+            "12:14 pm",
+            "12:21 pm",
+            "12:28 pm",
+            "12:35 pm",
+            "12:42 pm",
+            "01:10 pm",
+            "01:17 pm",
+            "01:24 pm",
+            "01:31 pm",
+            "01:38 pm",
+            "01:45 pm",
+            "01:52 pm",
+            "01:59 pm",
+            "02:06 pm",
+            "02:13 pm",
+            "02:20 pm",
+            "02:27 pm",
+            "02:34 pm",
+            "02:41 pm",
+            "02:48 pm",
+            "02:55 pm",
+            "03:02 pm",
+            "03:09 pm",
+            "03:16 pm",
+            "03:23 pm",
+            "03:30 pm",
+            "03:37 pm",
+            "03:44 pm",
+            "03:51 pm",
+            "03:58 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:30 am",
+      "preference_course": "10th Tee am",
+      "display_group": 4,
+      "display_earliest": "07:30 am",
+      "earliest_group_times": [
+        [
+          4,
+          "07:30 am"
+        ]
+      ],
       "weather": {
         "icon": "☁️",
         "icon_file": "sheet_cloud.png",

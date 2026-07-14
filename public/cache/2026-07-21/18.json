@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T19:55:26+00:00",
+  "generated_at": "2026-07-14T21:02:39+00:00",
   "date": "2026-07-21",
   "holes": "18",
   "results": [
@@ -2730,10 +2730,416 @@
     },
     {
       "site_name": "Kwinana",
-      "url": "https://www.kwinanagolfclub.com.au",
+      "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "09:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "09:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "09:32 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "09:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "09:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "09:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:04 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "10:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "11:08 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "11:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "11:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "11:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:20 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:28 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:36 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:44 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        },
+        {
+          "time": "12:52 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "09:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 556
+        },
+        {
+          "time": "09:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 564
+        },
+        {
+          "time": "09:32 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 572
+        },
+        {
+          "time": "09:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 580
+        },
+        {
+          "time": "09:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 588
+        },
+        {
+          "time": "09:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 596
+        },
+        {
+          "time": "10:04 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 604
+        },
+        {
+          "time": "10:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 612
+        },
+        {
+          "time": "10:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 620
+        },
+        {
+          "time": "10:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 628
+        },
+        {
+          "time": "10:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 636
+        },
+        {
+          "time": "10:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 644
+        },
+        {
+          "time": "10:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 652
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 660
+        },
+        {
+          "time": "11:08 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 668
+        },
+        {
+          "time": "11:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 676
+        },
+        {
+          "time": "11:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 708
+        },
+        {
+          "time": "11:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 716
+        },
+        {
+          "time": "12:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 724
+        },
+        {
+          "time": "12:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 732
+        },
+        {
+          "time": "12:20 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 740
+        },
+        {
+          "time": "12:28 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 748
+        },
+        {
+          "time": "12:36 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 756
+        },
+        {
+          "time": "12:44 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 764
+        },
+        {
+          "time": "12:52 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 772
+        }
+      ],
+      "grouped": {
+        "4": {
+          "": [
+            "09:16 am",
+            "09:24 am",
+            "09:32 am",
+            "09:40 am",
+            "09:48 am",
+            "09:56 am",
+            "10:04 am",
+            "10:12 am",
+            "10:20 am",
+            "10:28 am",
+            "10:36 am",
+            "10:44 am",
+            "10:52 am",
+            "11:00 am",
+            "11:08 am",
+            "11:16 am",
+            "11:48 am",
+            "11:56 am",
+            "12:04 pm",
+            "12:12 pm",
+            "12:20 pm",
+            "12:28 pm",
+            "12:36 pm",
+            "12:44 pm",
+            "12:52 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 09:16 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "09:16 am",
+      "earliest_group_times": [
+        [
+          4,
+          "09:16 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Kwinana",
+        "tmax": 17,
+        "tmin": 4,
+        "rain_chance": 33,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -4510,10 +4916,470 @@
     },
     {
       "site_name": "Secret Harbour",
-      "url": "https://secretharbour.miclub.com.au",
+      "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "07:36 am",
+          "course_raw": "1st Tee",
+          "spots": 3,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "08:16 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "09:36 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "10:08 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "10:32 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "10:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "10:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:04 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:08 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:16 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "12:56 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "01:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        },
+        {
+          "time": "01:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:36 am",
+          "course_raw": "1st Tee",
+          "spots": 3,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 456
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 464
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 488
+        },
+        {
+          "time": "08:16 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 496
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 512
+        },
+        {
+          "time": "09:36 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 576
+        },
+        {
+          "time": "10:08 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 608
+        },
+        {
+          "time": "10:32 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 632
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 640
+        },
+        {
+          "time": "10:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 648
+        },
+        {
+          "time": "10:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 656
+        },
+        {
+          "time": "11:04 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 664
+        },
+        {
+          "time": "11:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 672
+        },
+        {
+          "time": "11:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 680
+        },
+        {
+          "time": "11:28 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 688
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 696
+        },
+        {
+          "time": "11:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 704
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 712
+        },
+        {
+          "time": "12:08 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 728
+        },
+        {
+          "time": "12:16 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 736
+        },
+        {
+          "time": "12:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 744
+        },
+        {
+          "time": "12:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 752
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 760
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 768
+        },
+        {
+          "time": "12:56 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 776
+        },
+        {
+          "time": "01:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 784
+        },
+        {
+          "time": "01:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=12445",
+          "course": "",
+          "minutes": 792
+        }
+      ],
+      "grouped": {
+        "3": {
+          "": [
+            "07:36 am"
+          ]
+        },
+        "2": {
+          "": [
+            "07:44 am"
+          ]
+        },
+        "1": {
+          "": [
+            "08:08 am",
+            "08:16 am",
+            "08:32 am",
+            "09:36 am",
+            "10:08 am"
+          ]
+        },
+        "4": {
+          "": [
+            "10:32 am",
+            "10:40 am",
+            "10:48 am",
+            "10:56 am",
+            "11:04 am",
+            "11:12 am",
+            "11:20 am",
+            "11:28 am",
+            "11:36 am",
+            "11:44 am",
+            "11:52 am",
+            "12:08 pm",
+            "12:16 pm",
+            "12:24 pm",
+            "12:32 pm",
+            "12:40 pm",
+            "12:48 pm",
+            "12:56 pm",
+            "01:04 pm",
+            "01:12 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:36 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "07:36 am",
+      "earliest_group_times": [
+        [
+          3,
+          "07:36 am"
+        ],
+        [
+          2,
+          "07:44 am"
+        ],
+        [
+          1,
+          "08:08 am"
+        ],
+        [
+          4,
+          "10:32 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Secret Harbour",
+        "tmax": 17,
+        "tmin": 4,
+        "rain_chance": 39,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -4545,7 +5411,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "The Cut",
+        "tmax": 16,
+        "tmin": 6,
+        "rain_chance": 33,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 8
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -4553,10 +5430,29 @@
     },
     {
       "site_name": "The Springs",
-      "url": "https://springs.quick18.com",
+      "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260721",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "Could not load live results",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "The Springs",
+        "tmax": 17,
+        "tmin": 4,
+        "rain_chance": 33,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 8
+      },
+      "error": "<urlopen error [Errno 104] Connection reset by peer>",
       "not_configured": false
     },
     {

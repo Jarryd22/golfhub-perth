@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T19:54:46+00:00",
+  "generated_at": "2026-07-14T21:01:31+00:00",
   "date": "2026-07-15",
   "holes": "9",
   "results": [
@@ -303,224 +303,14 @@
       "site_name": "Carramar",
       "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
       "hole_label": "9 holes",
-      "rows": [
-        {
-          "time": "07:06 am",
-          "course_raw": "10TH TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "12:02 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "12:42 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "01:30 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "01:38 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "01:46 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "01:54 pm",
-          "course_raw": "1ST TEE",
-          "spots": 3,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "02:10 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "02:18 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "02:26 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "02:42 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        },
-        {
-          "time": "03:38 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "07:06 am",
-          "course_raw": "10TH TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "10TH TEE",
-          "minutes": 426
-        },
-        {
-          "time": "12:02 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 722
-        },
-        {
-          "time": "12:42 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 762
-        },
-        {
-          "time": "01:30 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 810
-        },
-        {
-          "time": "01:38 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 818
-        },
-        {
-          "time": "01:46 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 826
-        },
-        {
-          "time": "01:54 pm",
-          "course_raw": "1ST TEE",
-          "spots": 3,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 834
-        },
-        {
-          "time": "02:10 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 850
-        },
-        {
-          "time": "02:18 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 858
-        },
-        {
-          "time": "02:26 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 866
-        },
-        {
-          "time": "02:42 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 882
-        },
-        {
-          "time": "03:38 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 938
-        }
-      ],
-      "grouped": {
-        "1": {
-          "10TH TEE": [
-            "07:06 am"
-          ],
-          "": [
-            "12:02 pm",
-            "12:42 pm",
-            "01:30 pm",
-            "01:38 pm",
-            "02:26 pm",
-            "02:42 pm",
-            "03:38 pm"
-          ]
-        },
-        "2": {
-          "": [
-            "01:46 pm",
-            "02:10 pm",
-            "02:18 pm"
-          ]
-        },
-        "3": {
-          "": [
-            "01:54 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 07:06 am",
-      "preference_course": "10TH TEE",
-      "display_group": 3,
-      "display_earliest": "07:06 am",
-      "earliest_group_times": [
-        [
-          1,
-          "07:06 am"
-        ],
-        [
-          2,
-          "01:46 pm"
-        ],
-        [
-          3,
-          "01:54 pm"
-        ]
-      ],
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
       "weather": {
         "icon": "☀️",
         "icon_file": "sheet_clear.png",
@@ -927,7 +717,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "Embleton",
+        "tmax": 23,
+        "tmin": 11,
+        "rain_chance": 0,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 15
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2159,41 +1960,14 @@
       "site_name": "Hartfield",
       "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1511784389",
       "hole_label": "9 holes",
-      "rows": [
-        {
-          "time": "07:00 am",
-          "course_raw": "10th Tee am",
-          "spots": 2,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1511784389"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "07:00 am",
-          "course_raw": "10th Tee am",
-          "spots": 2,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1511784389",
-          "course": "10th Tee am",
-          "minutes": 420
-        }
-      ],
-      "grouped": {
-        "2": {
-          "10th Tee am": [
-            "07:00 am"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 07:00 am",
-      "preference_course": "10th Tee am",
-      "display_group": 2,
-      "display_earliest": "07:00 am",
-      "earliest_group_times": [
-        [
-          2,
-          "07:00 am"
-        ]
-      ],
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
       "weather": {
         "icon": "⛅",
         "icon_file": "sheet_partly_cloudy.png",
@@ -2284,10 +2058,29 @@
     },
     {
       "site_name": "Lake Claremont",
-      "url": "https://lakeclaremont.quick18.com",
+      "url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260715",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Lake Claremont",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 0,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 16
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -3206,7 +2999,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "Point Walter",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 0,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 16
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,

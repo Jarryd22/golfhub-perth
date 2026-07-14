@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T19:54:19+00:00",
+  "generated_at": "2026-07-14T21:01:26+00:00",
   "date": "2026-07-15",
   "holes": "18",
   "results": [
@@ -386,56 +386,14 @@
       "site_name": "Carramar",
       "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500624075",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "12:02 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500624075"
-        },
-        {
-          "time": "12:42 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500624075"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "12:02 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500624075",
-          "course": "",
-          "minutes": 722
-        },
-        {
-          "time": "12:42 pm",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500624075",
-          "course": "",
-          "minutes": 762
-        }
-      ],
-      "grouped": {
-        "1": {
-          "": [
-            "12:02 pm",
-            "12:42 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 12:02 pm",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
       "preference_course": "",
-      "display_group": 1,
-      "display_earliest": "12:02 pm",
-      "earliest_group_times": [
-        [
-          1,
-          "12:02 pm"
-        ]
-      ],
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
       "weather": {
         "icon": "☀️",
         "icon_file": "sheet_clear.png",
@@ -1179,41 +1137,14 @@
       "site_name": "Hartfield",
       "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1511784382",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "07:00 am",
-          "course_raw": "10th Tee am",
-          "spots": 2,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1511784382"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "07:00 am",
-          "course_raw": "10th Tee am",
-          "spots": 2,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1511784382",
-          "course": "10th Tee am",
-          "minutes": 420
-        }
-      ],
-      "grouped": {
-        "2": {
-          "10th Tee am": [
-            "07:00 am"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 07:00 am",
-      "preference_course": "10th Tee am",
-      "display_group": 2,
-      "display_earliest": "07:00 am",
-      "earliest_group_times": [
-        [
-          2,
-          "07:00 am"
-        ]
-      ],
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
       "weather": {
         "icon": "⛅",
         "icon_file": "sheet_partly_cloudy.png",

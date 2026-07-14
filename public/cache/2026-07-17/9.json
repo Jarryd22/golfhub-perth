@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T19:55:55+00:00",
+  "generated_at": "2026-07-14T21:01:58+00:00",
   "date": "2026-07-17",
   "holes": "9",
   "results": [
@@ -1194,7 +1194,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
+        "location_name": "Embleton",
+        "tmax": 20,
+        "tmin": 12,
+        "rain_chance": 82,
+        "rain_mm": 13.0,
+        "rain_amount_label": "13 mm",
+        "wind": 18
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -5298,7 +5309,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
+        "location_name": "Point Walter",
+        "tmax": 19,
+        "tmin": 13,
+        "rain_chance": 82,
+        "rain_mm": 14.5,
+        "rain_amount_label": "14.5 mm",
+        "wind": 22
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
