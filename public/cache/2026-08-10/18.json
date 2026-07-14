@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T21:02:59+00:00",
+  "generated_at": "2026-07-14T22:11:50+00:00",
   "date": "2026-08-10",
   "holes": "18",
   "results": [
@@ -2219,122 +2219,26 @@
     },
     {
       "site_name": "The Springs",
-      "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260810",
+      "url": "https://springs.quick18.com",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
       "site_name": "The Vines",
-      "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812",
+      "url": "https://thevines.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "12:44 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812"
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812"
-        },
-        {
-          "time": "01:00 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812"
-        },
-        {
-          "time": "01:08 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "12:44 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812",
-          "course": "Vines 1st",
-          "minutes": 764
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812",
-          "course": "Vines 1st",
-          "minutes": 772
-        },
-        {
-          "time": "01:00 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812",
-          "course": "Vines 1st",
-          "minutes": 780
-        },
-        {
-          "time": "01:08 pm",
-          "course_raw": "Vines 1st",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-10&feeGroupId=25803812",
-          "course": "Vines 1st",
-          "minutes": 788
-        }
-      ],
-      "grouped": {
-        "4": {
-          "Vines 1st": [
-            "12:44 pm",
-            "12:52 pm",
-            "01:00 pm",
-            "01:08 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 12:44 pm",
-      "preference_course": "Vines 1st",
-      "display_group": 4,
-      "display_earliest": "12:44 pm",
-      "earliest_group_times": [
-        [
-          4,
-          "12:44 pm"
-        ]
-      ],
-      "weather": null,
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
       "site_name": "Wembley",
-      "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-10&feeGroupId=102184",
+      "url": "https://www.wembleygolf.com.au",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {

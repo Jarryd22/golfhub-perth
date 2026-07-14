@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T21:01:41+00:00",
+  "generated_at": "2026-07-14T22:10:52+00:00",
   "date": "2026-07-16",
   "holes": "18",
   "results": [
@@ -3741,12 +3741,6 @@
       "hole_label": "18 holes",
       "rows": [
         {
-          "time": "07:20 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=12445"
-        },
-        {
           "time": "08:48 am",
           "course_raw": "1st Tee",
           "spots": 1,
@@ -3868,14 +3862,6 @@
         }
       ],
       "decorated_rows": [
-        {
-          "time": "07:20 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=12445",
-          "course": "",
-          "minutes": 440
-        },
         {
           "time": "08:48 am",
           "course_raw": "1st Tee",
@@ -4040,7 +4026,6 @@
       "grouped": {
         "1": {
           "": [
-            "07:20 am",
             "08:48 am",
             "10:00 am",
             "10:40 am",
@@ -4076,14 +4061,14 @@
           ]
         }
       },
-      "preference_text": "Best overall option: 07:20 am",
+      "preference_text": "Best overall option: 08:48 am",
       "preference_course": "",
       "display_group": 4,
-      "display_earliest": "07:20 am",
+      "display_earliest": "08:48 am",
       "earliest_group_times": [
         [
           1,
-          "07:20 am"
+          "08:48 am"
         ],
         [
           4,

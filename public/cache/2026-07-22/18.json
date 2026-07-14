@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T21:03:11+00:00",
+  "generated_at": "2026-07-14T22:12:01+00:00",
   "date": "2026-07-22",
   "holes": "18",
   "results": [
@@ -95,7 +95,7 @@
         {
           "time": "10:00 am",
           "course_raw": "1st Tee - Comp / Social",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=102807"
         },
         {
@@ -285,7 +285,7 @@
         {
           "time": "10:00 am",
           "course_raw": "1st Tee - Comp / Social",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=102807",
           "course": "",
           "minutes": 600
@@ -444,7 +444,6 @@
             "09:20 am",
             "09:30 am",
             "09:50 am",
-            "10:00 am",
             "10:10 am",
             "10:20 am",
             "10:30 am",
@@ -463,6 +462,11 @@
             "12:50 pm",
             "01:00 pm"
           ]
+        },
+        "3": {
+          "": [
+            "10:00 am"
+          ]
         }
       },
       "preference_text": "Best overall option: 08:00 am",
@@ -477,6 +481,10 @@
         [
           4,
           "08:20 am"
+        ],
+        [
+          3,
+          "10:00 am"
         ]
       ],
       "weather": {
@@ -2596,13 +2604,13 @@
         {
           "time": "07:30 am",
           "course_raw": "10th Tee am",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382"
         },
         {
           "time": "07:37 am",
           "course_raw": "10th Tee am",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382"
         },
         {
@@ -2614,7 +2622,7 @@
         {
           "time": "07:51 am",
           "course_raw": "10th Tee am",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382"
         },
         {
@@ -2880,7 +2888,7 @@
         {
           "time": "07:30 am",
           "course_raw": "10th Tee am",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382",
           "course": "10th Tee am",
           "minutes": 450
@@ -2888,7 +2896,7 @@
         {
           "time": "07:37 am",
           "course_raw": "10th Tee am",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382",
           "course": "10th Tee am",
           "minutes": 457
@@ -2904,7 +2912,7 @@
         {
           "time": "07:51 am",
           "course_raw": "10th Tee am",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382",
           "course": "10th Tee am",
           "minutes": 471
@@ -3255,12 +3263,20 @@
         }
       ],
       "grouped": {
+        "1": {
+          "10th Tee am": [
+            "07:30 am"
+          ]
+        },
+        "2": {
+          "10th Tee am": [
+            "07:37 am",
+            "07:51 am"
+          ]
+        },
         "4": {
           "10th Tee am": [
-            "07:30 am",
-            "07:37 am",
             "07:44 am",
-            "07:51 am",
             "07:58 am",
             "08:12 am",
             "08:19 am",
@@ -3315,8 +3331,16 @@
       "display_earliest": "07:30 am",
       "earliest_group_times": [
         [
-          4,
+          1,
           "07:30 am"
+        ],
+        [
+          2,
+          "07:37 am"
+        ],
+        [
+          4,
+          "07:44 am"
         ]
       ],
       "weather": {
@@ -4603,7 +4627,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Pinjarra",
+        "tmax": 18,
+        "tmin": 5,
+        "rain_chance": 32,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -5227,7 +5262,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "The Cut",
+        "tmax": 17,
+        "tmin": 7,
+        "rain_chance": 32,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 9
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -5237,14 +5283,806 @@
       "site_name": "The Springs",
       "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
       "hole_label": "18 holes",
-      "rows": [],
-      "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "Could not load live results",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
+      "rows": [
+        {
+          "time": "7:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "7:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "7:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "7:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "7:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "8:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "8:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "8:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "8:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:07 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:15 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "9:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:00 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:07 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:15 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "10:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:07 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:15 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:07 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:15 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:22 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:37 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:45 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "12:52 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:00 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:07 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:15 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:22 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:30 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:37 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:45 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "1:52 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "2:00 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "2:07 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "2:15 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "2:22 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "7:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 442
+        },
+        {
+          "time": "7:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 450
+        },
+        {
+          "time": "7:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 457
+        },
+        {
+          "time": "7:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 465
+        },
+        {
+          "time": "7:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 472
+        },
+        {
+          "time": "8:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 510
+        },
+        {
+          "time": "8:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 517
+        },
+        {
+          "time": "8:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 525
+        },
+        {
+          "time": "8:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 532
+        },
+        {
+          "time": "9:07 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 547
+        },
+        {
+          "time": "9:15 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 555
+        },
+        {
+          "time": "9:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 562
+        },
+        {
+          "time": "9:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 570
+        },
+        {
+          "time": "9:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 577
+        },
+        {
+          "time": "9:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 585
+        },
+        {
+          "time": "9:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 592
+        },
+        {
+          "time": "10:00 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 600
+        },
+        {
+          "time": "10:07 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 607
+        },
+        {
+          "time": "10:15 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 615
+        },
+        {
+          "time": "10:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 622
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 630
+        },
+        {
+          "time": "10:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 637
+        },
+        {
+          "time": "10:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 645
+        },
+        {
+          "time": "10:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 652
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 660
+        },
+        {
+          "time": "11:07 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 667
+        },
+        {
+          "time": "11:15 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 675
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 682
+        },
+        {
+          "time": "11:37 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 697
+        },
+        {
+          "time": "11:45 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 705
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 712
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 720
+        },
+        {
+          "time": "12:07 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 727
+        },
+        {
+          "time": "12:15 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 735
+        },
+        {
+          "time": "12:22 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 742
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 750
+        },
+        {
+          "time": "12:37 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 757
+        },
+        {
+          "time": "12:45 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 765
+        },
+        {
+          "time": "12:52 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 772
+        },
+        {
+          "time": "1:00 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 780
+        },
+        {
+          "time": "1:07 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 787
+        },
+        {
+          "time": "1:15 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 795
+        },
+        {
+          "time": "1:22 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 802
+        },
+        {
+          "time": "1:30 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 810
+        },
+        {
+          "time": "1:37 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 817
+        },
+        {
+          "time": "1:45 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 825
+        },
+        {
+          "time": "1:52 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 832
+        },
+        {
+          "time": "2:00 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 840
+        },
+        {
+          "time": "2:07 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 847
+        },
+        {
+          "time": "2:15 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 855
+        },
+        {
+          "time": "2:22 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 862
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "18 Holes (Double Loop)",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260722",
+          "course": "18 Holes",
+          "minutes": 870
+        }
+      ],
+      "grouped": {
+        "4": {
+          "18 Holes": [
+            "7:22 am",
+            "7:30 am",
+            "7:37 am",
+            "7:45 am",
+            "7:52 am",
+            "8:30 am",
+            "8:37 am",
+            "8:45 am",
+            "8:52 am",
+            "9:07 am",
+            "9:15 am",
+            "9:22 am",
+            "9:30 am",
+            "9:37 am",
+            "9:45 am",
+            "9:52 am",
+            "10:00 am",
+            "10:07 am",
+            "10:15 am",
+            "10:22 am",
+            "10:30 am",
+            "10:37 am",
+            "10:45 am",
+            "10:52 am",
+            "11:00 am",
+            "11:07 am",
+            "11:15 am",
+            "11:22 am",
+            "11:37 am",
+            "11:45 am",
+            "11:52 am",
+            "12:00 pm",
+            "12:07 pm",
+            "12:15 pm",
+            "12:22 pm",
+            "12:30 pm",
+            "12:37 pm",
+            "12:45 pm",
+            "12:52 pm",
+            "1:00 pm",
+            "1:07 pm",
+            "1:15 pm",
+            "1:22 pm",
+            "1:30 pm",
+            "1:37 pm",
+            "1:45 pm",
+            "1:52 pm",
+            "2:00 pm",
+            "2:07 pm",
+            "2:15 pm",
+            "2:22 pm",
+            "2:30 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 7:22 am",
+      "preference_course": "18 Holes",
+      "display_group": 4,
+      "display_earliest": "7:22 am",
+      "earliest_group_times": [
+        [
+          4,
+          "7:22 am"
+        ]
+      ],
       "weather": {
         "icon": "☁️",
         "icon_file": "sheet_cloud.png",
@@ -5257,15 +6095,34 @@
         "rain_amount_label": "0 mm",
         "wind": 12
       },
-      "error": "<urlopen error [Errno 104] Connection reset by peer>",
+      "error": null,
       "not_configured": false
     },
     {
       "site_name": "The Vines",
-      "url": "https://thevines.miclub.com.au",
+      "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-22&feeGroupId=25803812",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "The Vines",
+        "tmax": 20,
+        "tmin": 6,
+        "rain_chance": 25,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 16
+      },
+      "error": null,
       "not_configured": false
     },
     {

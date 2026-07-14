@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T21:01:31+00:00",
+  "generated_at": "2026-07-14T22:10:43+00:00",
   "date": "2026-07-15",
   "holes": "9",
   "results": [
@@ -717,18 +717,7 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
-        "location_name": "Embleton",
-        "tmax": 23,
-        "tmin": 11,
-        "rain_chance": 0,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 15
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2058,29 +2047,10 @@
     },
     {
       "site_name": "Lake Claremont",
-      "url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260715",
+      "url": "https://lakeclaremont.quick18.com",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "🌤️",
-        "icon_file": "sheet_clear.png",
-        "label": "Mostly clear",
-        "location_name": "Lake Claremont",
-        "tmax": 22,
-        "tmin": 12,
-        "rain_chance": 0,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 16
-      },
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -2999,18 +2969,7 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
-        "location_name": "Point Walter",
-        "tmax": 22,
-        "tmin": 12,
-        "rain_chance": 0,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 16
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -3145,18 +3104,6 @@
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
         },
         {
-          "time": "09:20 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
-        },
-        {
-          "time": "09:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
-        },
-        {
           "time": "10:00 am",
           "course_raw": "1st Tee",
           "spots": 2,
@@ -3211,21 +3158,9 @@
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
         },
         {
-          "time": "11:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
-        },
-        {
           "time": "12:08 pm",
           "course_raw": "1st Tee",
           "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
-        },
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 1,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
         },
         {
@@ -3417,22 +3352,6 @@
           "minutes": 504
         },
         {
-          "time": "09:20 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
-          "course": "",
-          "minutes": 560
-        },
-        {
-          "time": "09:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
-          "course": "",
-          "minutes": 584
-        },
-        {
           "time": "10:00 am",
           "course_raw": "1st Tee",
           "spots": 2,
@@ -3505,28 +3424,12 @@
           "minutes": 688
         },
         {
-          "time": "11:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
-          "course": "",
-          "minutes": 704
-        },
-        {
           "time": "12:08 pm",
           "course_raw": "1st Tee",
           "spots": 2,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
           "course": "",
           "minutes": 728
-        },
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
-          "course": "",
-          "minutes": 736
         },
         {
           "time": "12:24 pm",
@@ -3716,11 +3619,7 @@
             "07:20 am"
           ],
           "": [
-            "09:20 am",
-            "09:44 am",
             "10:32 am",
-            "11:44 am",
-            "12:16 pm",
             "12:32 pm",
             "02:08 pm",
             "03:20 pm"

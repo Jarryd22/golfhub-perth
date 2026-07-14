@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T21:01:26+00:00",
+  "generated_at": "2026-07-14T22:10:17+00:00",
   "date": "2026-07-15",
   "holes": "18",
   "results": [
@@ -2011,18 +2011,6 @@
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
         },
         {
-          "time": "09:20 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
-        },
-        {
-          "time": "09:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
-        },
-        {
           "time": "10:00 am",
           "course_raw": "1st Tee",
           "spots": 2,
@@ -2077,21 +2065,9 @@
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
         },
         {
-          "time": "11:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
-        },
-        {
           "time": "12:08 pm",
           "course_raw": "1st Tee",
           "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
-        },
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 1,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445"
         },
         {
@@ -2209,22 +2185,6 @@
           "minutes": 552
         },
         {
-          "time": "09:20 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445",
-          "course": "",
-          "minutes": 560
-        },
-        {
-          "time": "09:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445",
-          "course": "",
-          "minutes": 584
-        },
-        {
           "time": "10:00 am",
           "course_raw": "1st Tee",
           "spots": 2,
@@ -2297,28 +2257,12 @@
           "minutes": 688
         },
         {
-          "time": "11:44 am",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445",
-          "course": "",
-          "minutes": 704
-        },
-        {
           "time": "12:08 pm",
           "course_raw": "1st Tee",
           "spots": 2,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445",
           "course": "",
           "minutes": 728
-        },
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12445",
-          "course": "",
-          "minutes": 736
         },
         {
           "time": "12:24 pm",
@@ -2362,11 +2306,7 @@
             "08:48 am",
             "08:56 am",
             "09:04 am",
-            "09:20 am",
-            "09:44 am",
             "10:32 am",
-            "11:44 am",
-            "12:16 pm",
             "12:32 pm"
           ]
         },

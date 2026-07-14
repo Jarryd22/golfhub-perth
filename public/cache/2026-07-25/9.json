@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T21:03:00+00:00",
+  "generated_at": "2026-07-14T22:11:53+00:00",
   "date": "2026-07-25",
   "holes": "9",
   "results": [
@@ -10,18 +10,7 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
-        "location_name": "Altone Park",
-        "tmax": 21,
-        "tmin": 12,
-        "rain_chance": 26,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 10
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -442,29 +431,10 @@
     },
     {
       "site_name": "Collier Park",
-      "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500323733",
+      "url": "https://bookings.collierparkgolf.com.au",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
-        "location_name": "Collier Park",
-        "tmax": 20,
-        "tmin": 11,
-        "rain_chance": 26,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 9
-      },
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -3617,14 +3587,471 @@
       "site_name": "Whaleback",
       "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
       "hole_label": "9 holes",
-      "rows": [],
-      "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
+      "rows": [
+        {
+          "time": "07:02 am",
+          "course_raw": "10th Tee",
+          "spots": 1,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "07:08 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "07:15 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "07:22 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "07:29 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "07:37 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "11:37 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "11:45 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "11:53 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "12:01 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "12:09 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "12:33 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "12:41 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "12:49 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "12:57 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "01:05 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "01:13 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "01:21 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "01:29 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "01:45 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "01:53 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "02:01 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "02:17 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "02:25 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "02:33 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "02:41 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "02:49 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "03:05 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        },
+        {
+          "time": "03:13 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:02 am",
+          "course_raw": "10th Tee",
+          "spots": 1,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "10th Tee",
+          "minutes": 422
+        },
+        {
+          "time": "07:08 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "10th Tee",
+          "minutes": 428
+        },
+        {
+          "time": "07:15 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "10th Tee",
+          "minutes": 435
+        },
+        {
+          "time": "07:22 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "10th Tee",
+          "minutes": 442
+        },
+        {
+          "time": "07:29 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "10th Tee",
+          "minutes": 449
+        },
+        {
+          "time": "07:37 am",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "10th Tee",
+          "minutes": 457
+        },
+        {
+          "time": "11:37 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 697
+        },
+        {
+          "time": "11:45 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 705
+        },
+        {
+          "time": "11:53 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 713
+        },
+        {
+          "time": "12:01 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 721
+        },
+        {
+          "time": "12:09 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 729
+        },
+        {
+          "time": "12:33 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 753
+        },
+        {
+          "time": "12:41 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 761
+        },
+        {
+          "time": "12:49 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 769
+        },
+        {
+          "time": "12:57 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 777
+        },
+        {
+          "time": "01:05 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 785
+        },
+        {
+          "time": "01:13 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 793
+        },
+        {
+          "time": "01:21 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 801
+        },
+        {
+          "time": "01:29 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 809
+        },
+        {
+          "time": "01:45 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 825
+        },
+        {
+          "time": "01:53 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 833
+        },
+        {
+          "time": "02:01 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 841
+        },
+        {
+          "time": "02:17 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 857
+        },
+        {
+          "time": "02:25 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 865
+        },
+        {
+          "time": "02:33 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 873
+        },
+        {
+          "time": "02:41 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 881
+        },
+        {
+          "time": "02:49 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 889
+        },
+        {
+          "time": "03:05 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 905
+        },
+        {
+          "time": "03:13 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 913
+        }
+      ],
+      "grouped": {
+        "1": {
+          "10th Tee": [
+            "07:02 am"
+          ]
+        },
+        "4": {
+          "10th Tee": [
+            "07:08 am",
+            "07:15 am",
+            "07:22 am",
+            "07:29 am",
+            "07:37 am"
+          ],
+          "": [
+            "11:37 am",
+            "11:45 am",
+            "11:53 am",
+            "12:01 pm",
+            "12:09 pm",
+            "12:33 pm",
+            "12:41 pm",
+            "12:49 pm",
+            "12:57 pm",
+            "01:05 pm",
+            "01:13 pm",
+            "01:21 pm",
+            "01:29 pm",
+            "01:45 pm",
+            "01:53 pm",
+            "02:01 pm",
+            "02:17 pm",
+            "02:25 pm",
+            "02:33 pm",
+            "02:41 pm",
+            "02:49 pm",
+            "03:05 pm",
+            "03:13 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:02 am",
+      "preference_course": "10th Tee",
+      "display_group": 4,
+      "display_earliest": "07:02 am",
+      "earliest_group_times": [
+        [
+          1,
+          "07:02 am"
+        ],
+        [
+          4,
+          "07:08 am"
+        ]
+      ],
       "weather": {
         "icon": "☁️",
         "icon_file": "sheet_cloud.png",
