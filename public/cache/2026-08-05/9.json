@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:17:09+00:00",
+  "generated_at": "2026-07-14T18:34:41+00:00",
   "date": "2026-08-05",
   "holes": "9",
   "results": [
@@ -18,26 +18,469 @@
     },
     {
       "site_name": "Araluen",
-      "url": "https://araluenestategolfcourse.miclub.com.au",
+      "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
       "hole_label": "9 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "07:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "07:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "07:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "07:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "08:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "08:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "08:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "01:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "01:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "01:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "01:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "02:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "02:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "02:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "02:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "02:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "03:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "03:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "03:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        },
+        {
+          "time": "03:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 420
+        },
+        {
+          "time": "07:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 430
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 440
+        },
+        {
+          "time": "07:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 450
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 460
+        },
+        {
+          "time": "07:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 470
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 480
+        },
+        {
+          "time": "08:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 490
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 500
+        },
+        {
+          "time": "08:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 510
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 520
+        },
+        {
+          "time": "08:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 530
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 790
+        },
+        {
+          "time": "01:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 800
+        },
+        {
+          "time": "01:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 810
+        },
+        {
+          "time": "01:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 820
+        },
+        {
+          "time": "01:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 830
+        },
+        {
+          "time": "02:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 840
+        },
+        {
+          "time": "02:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 850
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 860
+        },
+        {
+          "time": "02:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 870
+        },
+        {
+          "time": "02:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 880
+        },
+        {
+          "time": "02:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 890
+        },
+        {
+          "time": "03:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 900
+        },
+        {
+          "time": "03:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 910
+        },
+        {
+          "time": "03:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 920
+        },
+        {
+          "time": "03:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=102808",
+          "course": "",
+          "minutes": 930
+        }
+      ],
+      "grouped": {
+        "4": {
+          "10th Tee - Social": [
+            "07:00 am",
+            "07:10 am",
+            "07:20 am",
+            "07:30 am",
+            "07:40 am",
+            "07:50 am",
+            "08:00 am",
+            "08:10 am",
+            "08:20 am",
+            "08:30 am",
+            "08:40 am",
+            "08:50 am"
+          ],
+          "": [
+            "01:10 pm",
+            "01:20 pm",
+            "01:30 pm",
+            "01:40 pm",
+            "01:50 pm",
+            "02:00 pm",
+            "02:10 pm",
+            "02:20 pm",
+            "02:30 pm",
+            "02:40 pm",
+            "02:50 pm",
+            "03:00 pm",
+            "03:10 pm",
+            "03:20 pm",
+            "03:30 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:00 am",
+      "preference_course": "10th Tee - Social",
+      "display_group": 4,
+      "display_earliest": "07:00 am",
+      "earliest_group_times": [
+        [
+          4,
+          "07:00 am"
+        ]
+      ],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
       "site_name": "Carramar",
-      "url": "https://carramar.miclub.com.au",
+      "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=1500682805",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
       "site_name": "Collier Park",
-      "url": "https://bookings.collierparkgolf.com.au",
+      "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=1500323733",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
@@ -54,26 +497,50 @@
     },
     {
       "site_name": "Fremantle",
-      "url": "https://fremantlepublic.miclub.com.au",
+      "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=103961",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
       "site_name": "Hamersley",
-      "url": "https://hamersley.quick18.com",
+      "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260805",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
       "site_name": "Hartfield",
-      "url": "https://www.hartfieldgolf.com.au",
+      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=1511784389",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {

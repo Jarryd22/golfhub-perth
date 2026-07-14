@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:16:41+00:00",
+  "generated_at": "2026-07-14T18:34:17+00:00",
   "date": "2026-07-16",
   "holes": "9",
   "results": [
@@ -3177,7 +3177,7 @@
         {
           "time": "10:12 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1502727564"
         },
         {
@@ -3525,7 +3525,7 @@
         {
           "time": "10:12 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1502727564",
           "course": "",
           "minutes": 612
@@ -3853,7 +3853,6 @@
           ],
           "": [
             "10:04 am",
-            "10:12 am",
             "10:20 am",
             "11:32 am",
             "11:40 am",
@@ -3892,6 +3891,15 @@
             "03:00 pm"
           ]
         },
+        "2": {
+          "": [
+            "10:12 am",
+            "11:16 am",
+            "11:24 am",
+            "12:44 pm",
+            "02:04 pm"
+          ]
+        },
         "1": {
           "": [
             "10:36 am",
@@ -3899,14 +3907,6 @@
             "11:08 am",
             "12:36 pm",
             "12:52 pm"
-          ]
-        },
-        "2": {
-          "": [
-            "11:16 am",
-            "11:24 am",
-            "12:44 pm",
-            "02:04 pm"
           ]
         }
       },
@@ -3924,12 +3924,12 @@
           "08:24 am"
         ],
         [
-          1,
-          "10:36 am"
+          2,
+          "10:12 am"
         ],
         [
-          2,
-          "11:16 am"
+          1,
+          "10:36 am"
         ]
       ],
       "weather": {
@@ -7860,7 +7860,7 @@
         {
           "time": "3:22 pm",
           "course_raw": "9 Holes",
-          "spots": 3,
+          "spots": 4,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
         }
       ],
@@ -8308,7 +8308,7 @@
         {
           "time": "3:22 pm",
           "course_raw": "9 Holes",
-          "spots": 3,
+          "spots": 4,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "9 Holes",
           "minutes": 922
@@ -8366,7 +8366,8 @@
             "2:37 pm",
             "3:00 pm",
             "3:07 pm",
-            "3:15 pm"
+            "3:15 pm",
+            "3:22 pm"
           ]
         },
         "2": {
@@ -8376,11 +8377,6 @@
             "9:30 am",
             "2:30 pm",
             "2:52 pm"
-          ]
-        },
-        "3": {
-          "9 Holes": [
-            "3:22 pm"
           ]
         }
       },
@@ -8396,10 +8392,6 @@
         [
           2,
           "7:45 am"
-        ],
-        [
-          3,
-          "3:22 pm"
         ]
       ],
       "weather": {

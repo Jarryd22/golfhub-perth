@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:17:06+00:00",
+  "generated_at": "2026-07-14T18:34:47+00:00",
   "date": "2026-07-25",
   "holes": "18",
   "results": [
@@ -2134,10 +2134,29 @@
     },
     {
       "site_name": "Whaleback",
-      "url": "https://www.whalebackgolfcourse.com.au",
+      "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344723",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Whaleback",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 26,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 16
+      },
+      "error": null,
       "not_configured": false
     }
   ]

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:16:40+00:00",
+  "generated_at": "2026-07-14T18:34:09+00:00",
   "date": "2026-07-28",
   "holes": "18",
   "results": [
@@ -2975,29 +2975,10 @@
     },
     {
       "site_name": "Marangaroo",
-      "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=1500406571",
+      "url": "https://marangaroo.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Marangaroo",
-        "tmax": 21,
-        "tmin": 11,
-        "rain_chance": 25,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 13
-      },
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -3052,7 +3033,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Meadow Springs",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 26,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 21
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -3746,10 +3738,29 @@
     },
     {
       "site_name": "Whaleback",
-      "url": "https://www.whalebackgolfcourse.com.au",
+      "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=1500344723",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Whaleback",
+        "tmax": 21,
+        "tmin": 11,
+        "rain_chance": 23,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 17
+      },
+      "error": null,
       "not_configured": false
     }
   ]

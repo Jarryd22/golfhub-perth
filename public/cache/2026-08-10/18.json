@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:17:41+00:00",
+  "generated_at": "2026-07-14T18:35:20+00:00",
   "date": "2026-08-10",
   "holes": "18",
   "results": [
@@ -1354,10 +1354,18 @@
     },
     {
       "site_name": "Marangaroo",
-      "url": "https://marangaroo.miclub.com.au",
+      "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-10&feeGroupId=1500406571",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {

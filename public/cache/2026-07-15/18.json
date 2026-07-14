@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:16:03+00:00",
+  "generated_at": "2026-07-14T18:33:40+00:00",
   "date": "2026-07-15",
   "holes": "18",
   "results": [
@@ -2832,12 +2832,6 @@
       "hole_label": "18 holes",
       "rows": [
         {
-          "time": "12:09 pm",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500344723"
-        },
-        {
           "time": "12:41 pm",
           "course_raw": "1st Tee",
           "spots": 1,
@@ -2851,14 +2845,6 @@
         }
       ],
       "decorated_rows": [
-        {
-          "time": "12:09 pm",
-          "course_raw": "1st Tee",
-          "spots": 1,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500344723",
-          "course": "",
-          "minutes": 729
-        },
         {
           "time": "12:41 pm",
           "course_raw": "1st Tee",
@@ -2879,20 +2865,19 @@
       "grouped": {
         "1": {
           "": [
-            "12:09 pm",
             "12:41 pm",
             "12:49 pm"
           ]
         }
       },
-      "preference_text": "Best overall option: 12:09 pm",
+      "preference_text": "Best overall option: 12:41 pm",
       "preference_course": "",
       "display_group": 1,
-      "display_earliest": "12:09 pm",
+      "display_earliest": "12:41 pm",
       "earliest_group_times": [
         [
           1,
-          "12:09 pm"
+          "12:41 pm"
         ]
       ],
       "weather": {

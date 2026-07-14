@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T17:18:14+00:00",
+  "generated_at": "2026-07-14T18:35:50+00:00",
   "date": "2026-08-10",
   "holes": "9",
   "results": [
@@ -70,18 +70,10 @@
     },
     {
       "site_name": "Hartfield",
-      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-10&feeGroupId=1511784389",
+      "url": "https://www.hartfieldgolf.com.au",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
