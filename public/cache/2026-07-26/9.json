@@ -1,0 +1,4640 @@
+{
+  "schema": 1,
+  "generated_at": "2026-07-14T12:24:41+00:00",
+  "date": "2026-07-26",
+  "holes": "9",
+  "results": [
+    {
+      "site_name": "Altone Park",
+      "url": "https://www.altoneparkgolfcourse.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Altone Park",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Araluen",
+      "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "07:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "07:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "07:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "07:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "08:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "08:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "08:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "01:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "01:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "01:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "01:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "02:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "02:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "02:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "02:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "02:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "03:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "03:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "03:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        },
+        {
+          "time": "03:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 420
+        },
+        {
+          "time": "07:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 430
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 440
+        },
+        {
+          "time": "07:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 450
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 460
+        },
+        {
+          "time": "07:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 470
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 480
+        },
+        {
+          "time": "08:10 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 490
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 500
+        },
+        {
+          "time": "08:30 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 510
+        },
+        {
+          "time": "08:40 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 520
+        },
+        {
+          "time": "08:50 am",
+          "course_raw": "10th Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "10th Tee - Social",
+          "minutes": 530
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 790
+        },
+        {
+          "time": "01:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 800
+        },
+        {
+          "time": "01:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 810
+        },
+        {
+          "time": "01:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 820
+        },
+        {
+          "time": "01:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 830
+        },
+        {
+          "time": "02:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 840
+        },
+        {
+          "time": "02:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 850
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 860
+        },
+        {
+          "time": "02:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 870
+        },
+        {
+          "time": "02:40 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 880
+        },
+        {
+          "time": "02:50 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 890
+        },
+        {
+          "time": "03:00 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 900
+        },
+        {
+          "time": "03:10 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 910
+        },
+        {
+          "time": "03:20 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 920
+        },
+        {
+          "time": "03:30 pm",
+          "course_raw": "1st Tee - Social (9 Holes)",
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102808",
+          "course": "",
+          "minutes": 930
+        }
+      ],
+      "grouped": {
+        "4": {
+          "10th Tee - Social": [
+            "07:00 am",
+            "07:10 am",
+            "07:20 am",
+            "07:30 am",
+            "07:40 am",
+            "07:50 am",
+            "08:00 am",
+            "08:10 am",
+            "08:20 am",
+            "08:30 am",
+            "08:40 am",
+            "08:50 am"
+          ],
+          "": [
+            "01:10 pm",
+            "01:20 pm",
+            "01:30 pm",
+            "01:40 pm",
+            "01:50 pm",
+            "02:00 pm",
+            "02:10 pm",
+            "02:20 pm",
+            "02:30 pm",
+            "02:40 pm",
+            "02:50 pm",
+            "03:00 pm",
+            "03:10 pm",
+            "03:20 pm",
+            "03:30 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:00 am",
+      "preference_course": "10th Tee - Social",
+      "display_group": 4,
+      "display_earliest": "07:00 am",
+      "earliest_group_times": [
+        [
+          4,
+          "07:00 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Araluen",
+        "tmax": 22,
+        "tmin": 8,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Carramar",
+      "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1500468370",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Carramar",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 17
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Collier Park",
+      "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1500323733",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Collier Park",
+        "tmax": 21,
+        "tmin": 12,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Embleton",
+      "url": "https://embletongolf.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": null,
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Fremantle",
+      "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=103961",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Fremantle",
+        "tmax": 21,
+        "tmin": 13,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Hamersley",
+      "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "11:06 am",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:40 am",
+          "course_raw": "Hamersley",
+          "spots": 2,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:49 am",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:06 pm",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:23 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:31 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:57 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:05 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:14 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:22 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:31 pm",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:39 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:48 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:56 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:05 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:13 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:22 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:39 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:47 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:56 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:04 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:08 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:13 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:17 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:21 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:25 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "11:06 am",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 666
+        },
+        {
+          "time": "11:40 am",
+          "course_raw": "Hamersley",
+          "spots": 2,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 700
+        },
+        {
+          "time": "11:49 am",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 709
+        },
+        {
+          "time": "12:06 pm",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 726
+        },
+        {
+          "time": "12:23 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 743
+        },
+        {
+          "time": "12:31 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 751
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 760
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 768
+        },
+        {
+          "time": "12:57 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 777
+        },
+        {
+          "time": "1:05 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 785
+        },
+        {
+          "time": "1:14 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 794
+        },
+        {
+          "time": "1:22 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 802
+        },
+        {
+          "time": "1:31 pm",
+          "course_raw": "Hamersley",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 811
+        },
+        {
+          "time": "1:39 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 819
+        },
+        {
+          "time": "1:48 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 828
+        },
+        {
+          "time": "1:56 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 836
+        },
+        {
+          "time": "2:05 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 845
+        },
+        {
+          "time": "2:13 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 853
+        },
+        {
+          "time": "2:22 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 862
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 870
+        },
+        {
+          "time": "2:39 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 879
+        },
+        {
+          "time": "2:47 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 887
+        },
+        {
+          "time": "2:56 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 896
+        },
+        {
+          "time": "3:04 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 904
+        },
+        {
+          "time": "3:08 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Back 9 Afternoon",
+          "minutes": 908
+        },
+        {
+          "time": "3:13 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 913
+        },
+        {
+          "time": "3:17 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Back 9 Afternoon",
+          "minutes": 917
+        },
+        {
+          "time": "3:21 pm",
+          "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Hamersley",
+          "minutes": 921
+        },
+        {
+          "time": "3:25 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "Back 9 Afternoon",
+          "minutes": 925
+        }
+      ],
+      "grouped": {
+        "1": {
+          "Hamersley": [
+            "11:06 am",
+            "11:49 am",
+            "12:06 pm",
+            "1:31 pm"
+          ]
+        },
+        "2": {
+          "Hamersley": [
+            "11:40 am"
+          ]
+        },
+        "4": {
+          "Hamersley": [
+            "12:23 pm",
+            "12:31 pm",
+            "12:40 pm",
+            "12:48 pm",
+            "12:57 pm",
+            "1:05 pm",
+            "1:14 pm",
+            "1:22 pm",
+            "1:39 pm",
+            "1:48 pm",
+            "1:56 pm",
+            "2:05 pm",
+            "2:13 pm",
+            "2:22 pm",
+            "2:30 pm",
+            "2:39 pm",
+            "2:47 pm",
+            "2:56 pm",
+            "3:04 pm",
+            "3:13 pm",
+            "3:21 pm"
+          ],
+          "Back 9 Afternoon": [
+            "3:08 pm",
+            "3:17 pm",
+            "3:25 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 11:06 am",
+      "preference_course": "Hamersley",
+      "display_group": 4,
+      "display_earliest": "11:06 am",
+      "earliest_group_times": [
+        [
+          1,
+          "11:06 am"
+        ],
+        [
+          2,
+          "11:40 am"
+        ],
+        [
+          4,
+          "12:23 pm"
+        ]
+      ],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Hamersley",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 15
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Hartfield",
+      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1517030949",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Hartfield",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Hillview",
+      "url": "https://hillviewgolfcourse.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Hillview",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Joondalup Resort",
+      "url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3900000",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Joondalup Resort",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 19
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Kwinana",
+      "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "01:00 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:08 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:08 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:16 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:16 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "01:32 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "03:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "03:32 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "03:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "03:48 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "03:56 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "03:56 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "04:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "04:04 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "04:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        },
+        {
+          "time": "04:12 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "01:00 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 780
+        },
+        {
+          "time": "01:08 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 788
+        },
+        {
+          "time": "01:08 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 788
+        },
+        {
+          "time": "01:16 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 796
+        },
+        {
+          "time": "01:16 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 796
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 804
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 804
+        },
+        {
+          "time": "01:32 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 812
+        },
+        {
+          "time": "03:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 932
+        },
+        {
+          "time": "03:32 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 932
+        },
+        {
+          "time": "03:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 948
+        },
+        {
+          "time": "03:48 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 948
+        },
+        {
+          "time": "03:56 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 956
+        },
+        {
+          "time": "03:56 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 956
+        },
+        {
+          "time": "04:04 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 964
+        },
+        {
+          "time": "04:04 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 964
+        },
+        {
+          "time": "04:12 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "",
+          "minutes": 972
+        },
+        {
+          "time": "04:12 pm",
+          "course_raw": "10th Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1502727564",
+          "course": "10th Tee",
+          "minutes": 972
+        }
+      ],
+      "grouped": {
+        "4": {
+          "10th Tee": [
+            "01:00 pm",
+            "01:08 pm",
+            "01:16 pm",
+            "01:24 pm",
+            "01:32 pm",
+            "03:32 pm",
+            "03:48 pm",
+            "03:56 pm",
+            "04:04 pm",
+            "04:12 pm"
+          ],
+          "": [
+            "01:08 pm",
+            "01:16 pm",
+            "01:24 pm",
+            "03:32 pm",
+            "03:48 pm",
+            "03:56 pm",
+            "04:04 pm",
+            "04:12 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 01:00 pm",
+      "preference_course": "10th Tee",
+      "display_group": 4,
+      "display_earliest": "01:00 pm",
+      "earliest_group_times": [
+        [
+          4,
+          "01:00 pm"
+        ]
+      ],
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "Kwinana",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Lake Claremont",
+      "url": "https://lakeclaremont.quick18.com",
+      "hole_label": "9 holes",
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "not_configured": false
+    },
+    {
+      "site_name": "Links Kennedy Bay",
+      "url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "06:40 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "06:48 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "06:56 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:04 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:12 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:28 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:36 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "07:52 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "08:16 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "08:24 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "09:42 am",
+          "course_raw": "Social Play",
+          "spots": 2,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "09:58 am",
+          "course_raw": "Social Play",
+          "spots": 2,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "10:06 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "10:14 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "10:22 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "10:46 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "10:54 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:02 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:10 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:18 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:34 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:42 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:50 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "11:58 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:06 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:14 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:22 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:38 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:46 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "12:54 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:02 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:26 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:34 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:42 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:50 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "01:58 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "02:06 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "02:14 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "02:22 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "02:38 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "02:46 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "02:54 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:02 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:10 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:18 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:26 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:34 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:42 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:50 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "03:58 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "04:06 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "04:14 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "04:22 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "04:30 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "04:38 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        },
+        {
+          "time": "04:46 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "06:40 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 400
+        },
+        {
+          "time": "06:48 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 408
+        },
+        {
+          "time": "06:56 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 416
+        },
+        {
+          "time": "07:04 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 424
+        },
+        {
+          "time": "07:12 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 432
+        },
+        {
+          "time": "07:20 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 440
+        },
+        {
+          "time": "07:28 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 448
+        },
+        {
+          "time": "07:36 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 456
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 464
+        },
+        {
+          "time": "07:52 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 472
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 480
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 488
+        },
+        {
+          "time": "08:16 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 496
+        },
+        {
+          "time": "08:24 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 504
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "10th tee walking",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "10th tee walking",
+          "minutes": 512
+        },
+        {
+          "time": "09:42 am",
+          "course_raw": "Social Play",
+          "spots": 2,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 582
+        },
+        {
+          "time": "09:58 am",
+          "course_raw": "Social Play",
+          "spots": 2,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 598
+        },
+        {
+          "time": "10:06 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 606
+        },
+        {
+          "time": "10:14 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 614
+        },
+        {
+          "time": "10:22 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 622
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 630
+        },
+        {
+          "time": "10:46 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 646
+        },
+        {
+          "time": "10:54 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 654
+        },
+        {
+          "time": "11:02 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 662
+        },
+        {
+          "time": "11:10 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 670
+        },
+        {
+          "time": "11:18 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 678
+        },
+        {
+          "time": "11:34 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 694
+        },
+        {
+          "time": "11:42 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 702
+        },
+        {
+          "time": "11:50 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 710
+        },
+        {
+          "time": "11:58 am",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 718
+        },
+        {
+          "time": "12:06 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 726
+        },
+        {
+          "time": "12:14 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 734
+        },
+        {
+          "time": "12:22 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 742
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 750
+        },
+        {
+          "time": "12:38 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 758
+        },
+        {
+          "time": "12:46 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 766
+        },
+        {
+          "time": "12:54 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 774
+        },
+        {
+          "time": "01:02 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 782
+        },
+        {
+          "time": "01:10 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 790
+        },
+        {
+          "time": "01:26 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 806
+        },
+        {
+          "time": "01:34 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 814
+        },
+        {
+          "time": "01:42 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 822
+        },
+        {
+          "time": "01:50 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 830
+        },
+        {
+          "time": "01:58 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 838
+        },
+        {
+          "time": "02:06 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 846
+        },
+        {
+          "time": "02:14 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 854
+        },
+        {
+          "time": "02:22 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 862
+        },
+        {
+          "time": "02:38 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 878
+        },
+        {
+          "time": "02:46 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 886
+        },
+        {
+          "time": "02:54 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 894
+        },
+        {
+          "time": "03:02 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 902
+        },
+        {
+          "time": "03:10 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 910
+        },
+        {
+          "time": "03:18 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 918
+        },
+        {
+          "time": "03:26 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 926
+        },
+        {
+          "time": "03:34 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 934
+        },
+        {
+          "time": "03:42 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 942
+        },
+        {
+          "time": "03:50 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 950
+        },
+        {
+          "time": "03:58 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 958
+        },
+        {
+          "time": "04:06 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 966
+        },
+        {
+          "time": "04:14 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 974
+        },
+        {
+          "time": "04:22 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 982
+        },
+        {
+          "time": "04:30 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 990
+        },
+        {
+          "time": "04:38 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 998
+        },
+        {
+          "time": "04:46 pm",
+          "course_raw": "Social Play",
+          "spots": 4,
+          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=3451283",
+          "course": "Social Play",
+          "minutes": 1006
+        }
+      ],
+      "grouped": {
+        "4": {
+          "10th tee walking": [
+            "06:40 am",
+            "06:48 am",
+            "06:56 am",
+            "07:04 am",
+            "07:12 am",
+            "07:20 am",
+            "07:28 am",
+            "07:36 am",
+            "07:44 am",
+            "07:52 am",
+            "08:00 am",
+            "08:08 am",
+            "08:16 am",
+            "08:24 am",
+            "08:32 am"
+          ],
+          "Social Play": [
+            "10:06 am",
+            "10:14 am",
+            "10:22 am",
+            "10:30 am",
+            "10:46 am",
+            "10:54 am",
+            "11:02 am",
+            "11:10 am",
+            "11:18 am",
+            "11:34 am",
+            "11:42 am",
+            "11:50 am",
+            "11:58 am",
+            "12:06 pm",
+            "12:14 pm",
+            "12:22 pm",
+            "12:30 pm",
+            "12:38 pm",
+            "12:46 pm",
+            "12:54 pm",
+            "01:02 pm",
+            "01:10 pm",
+            "01:26 pm",
+            "01:34 pm",
+            "01:42 pm",
+            "01:50 pm",
+            "01:58 pm",
+            "02:06 pm",
+            "02:14 pm",
+            "02:22 pm",
+            "02:38 pm",
+            "02:46 pm",
+            "02:54 pm",
+            "03:02 pm",
+            "03:10 pm",
+            "03:18 pm",
+            "03:26 pm",
+            "03:34 pm",
+            "03:42 pm",
+            "03:50 pm",
+            "03:58 pm",
+            "04:06 pm",
+            "04:14 pm",
+            "04:22 pm",
+            "04:30 pm",
+            "04:38 pm",
+            "04:46 pm"
+          ]
+        },
+        "2": {
+          "Social Play": [
+            "09:42 am",
+            "09:58 am"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 06:40 am",
+      "preference_course": "10th tee walking",
+      "display_group": 4,
+      "display_earliest": "06:40 am",
+      "earliest_group_times": [
+        [
+          4,
+          "06:40 am"
+        ],
+        [
+          2,
+          "09:42 am"
+        ]
+      ],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Links Kennedy Bay",
+        "tmax": 21,
+        "tmin": 11,
+        "rain_chance": 22,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Mandurah Country Club",
+      "url": "https://www.mandcountryclub.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Mandurah Country Club",
+        "tmax": 20,
+        "tmin": 12,
+        "rain_chance": 22,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Marangaroo",
+      "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1500406575",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Marangaroo",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 14
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Marri Park",
+      "url": "https://marriparkgolf.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "Marri Park",
+        "tmax": 22,
+        "tmin": 10,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Maylands",
+      "url": "https://maylandsgolfcourse.com.au/golf/bookings",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Maylands",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Meadow Springs",
+      "url": "https://www.msgcc.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Meadow Springs",
+        "tmax": 21,
+        "tmin": 11,
+        "rain_chance": 22,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 15
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Pinjarra",
+      "url": "https://www.pinjarragolf.com.au/cms/public-bookings",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Pinjarra",
+        "tmax": 20,
+        "tmin": 11,
+        "rain_chance": 21,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Point Walter",
+      "url": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": null,
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Rockingham",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Rockingham",
+        "tmax": 21,
+        "tmin": 12,
+        "rain_chance": 22,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Rottnest Island",
+      "url": "https://www.rigcclubhouse.com.au/home",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Rottnest Island",
+        "tmax": 20,
+        "tmin": 17,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 22
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Sea View",
+      "url": "https://seaviewgolfclub.com.au",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Sea View",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "Secret Harbour",
+      "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "07:20 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "07:28 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "07:36 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "07:52 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "08:16 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "08:24 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "12:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "12:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "01:28 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "01:36 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "01:44 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "01:52 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:00 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:08 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:16 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:24 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:32 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:40 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:48 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "02:56 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "03:04 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "03:12 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        },
+        {
+          "time": "03:20 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:20 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 1,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 440
+        },
+        {
+          "time": "07:28 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 448
+        },
+        {
+          "time": "07:36 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 456
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 464
+        },
+        {
+          "time": "07:52 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 472
+        },
+        {
+          "time": "08:00 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 480
+        },
+        {
+          "time": "08:08 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 488
+        },
+        {
+          "time": "08:16 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 496
+        },
+        {
+          "time": "08:24 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 504
+        },
+        {
+          "time": "08:32 am",
+          "course_raw": "10th Tee 9 Holes Only",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "10th Tee 9 Holes Only",
+          "minutes": 512
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 2,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 696
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 712
+        },
+        {
+          "time": "12:24 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 744
+        },
+        {
+          "time": "12:32 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 752
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 760
+        },
+        {
+          "time": "12:48 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 768
+        },
+        {
+          "time": "01:28 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 808
+        },
+        {
+          "time": "01:36 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 816
+        },
+        {
+          "time": "01:44 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 824
+        },
+        {
+          "time": "01:52 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 832
+        },
+        {
+          "time": "02:00 pm",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 840
+        },
+        {
+          "time": "02:08 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 848
+        },
+        {
+          "time": "02:16 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 856
+        },
+        {
+          "time": "02:24 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 864
+        },
+        {
+          "time": "02:32 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 872
+        },
+        {
+          "time": "02:40 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 880
+        },
+        {
+          "time": "02:48 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 888
+        },
+        {
+          "time": "02:56 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 896
+        },
+        {
+          "time": "03:04 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 904
+        },
+        {
+          "time": "03:12 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 912
+        },
+        {
+          "time": "03:20 pm",
+          "course_raw": "1st Tee 9 Holes Only PM",
+          "spots": 4,
+          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=12449",
+          "course": "",
+          "minutes": 920
+        }
+      ],
+      "grouped": {
+        "1": {
+          "10th Tee 9 Holes Only": [
+            "07:20 am"
+          ]
+        },
+        "4": {
+          "10th Tee 9 Holes Only": [
+            "07:28 am",
+            "07:36 am",
+            "07:44 am",
+            "07:52 am",
+            "08:00 am",
+            "08:08 am",
+            "08:16 am",
+            "08:24 am",
+            "08:32 am"
+          ],
+          "": [
+            "11:52 am",
+            "12:24 pm",
+            "12:32 pm",
+            "12:40 pm",
+            "12:48 pm",
+            "01:28 pm",
+            "01:36 pm",
+            "01:44 pm",
+            "01:52 pm",
+            "02:00 pm",
+            "02:08 pm",
+            "02:16 pm",
+            "02:24 pm",
+            "02:32 pm",
+            "02:40 pm",
+            "02:48 pm",
+            "02:56 pm",
+            "03:04 pm",
+            "03:12 pm",
+            "03:20 pm"
+          ]
+        },
+        "2": {
+          "": [
+            "11:36 am"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:20 am",
+      "preference_course": "10th Tee 9 Holes Only",
+      "display_group": 4,
+      "display_earliest": "07:20 am",
+      "earliest_group_times": [
+        [
+          1,
+          "07:20 am"
+        ],
+        [
+          4,
+          "07:28 am"
+        ],
+        [
+          2,
+          "11:36 am"
+        ]
+      ],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Secret Harbour",
+        "tmax": 21,
+        "tmin": 11,
+        "rain_chance": 22,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Sun City",
+      "url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Sun City",
+        "tmax": 23,
+        "tmin": 11,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 19
+      },
+      "error": null,
+      "not_configured": false,
+      "direct_booking": true,
+      "booking_note": "Open the official course page to view current booking options."
+    },
+    {
+      "site_name": "The Springs",
+      "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "8:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:30 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "8:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "9:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "10:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:37 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:45 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "12:52 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:37 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:45 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "1:52 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:37 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:45 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "2:52 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        },
+        {
+          "time": "3:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "8:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 480
+        },
+        {
+          "time": "8:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 487
+        },
+        {
+          "time": "8:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 495
+        },
+        {
+          "time": "8:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 502
+        },
+        {
+          "time": "8:30 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 510
+        },
+        {
+          "time": "8:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 517
+        },
+        {
+          "time": "8:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 525
+        },
+        {
+          "time": "8:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 532
+        },
+        {
+          "time": "9:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 540
+        },
+        {
+          "time": "9:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 547
+        },
+        {
+          "time": "9:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 555
+        },
+        {
+          "time": "9:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 562
+        },
+        {
+          "time": "9:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 577
+        },
+        {
+          "time": "9:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 585
+        },
+        {
+          "time": "9:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 592
+        },
+        {
+          "time": "10:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 600
+        },
+        {
+          "time": "10:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 607
+        },
+        {
+          "time": "10:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 615
+        },
+        {
+          "time": "10:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 622
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 630
+        },
+        {
+          "time": "10:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 637
+        },
+        {
+          "time": "10:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 645
+        },
+        {
+          "time": "10:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 652
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 660
+        },
+        {
+          "time": "11:07 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 667
+        },
+        {
+          "time": "11:15 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 675
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 682
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 690
+        },
+        {
+          "time": "11:37 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 697
+        },
+        {
+          "time": "11:45 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 705
+        },
+        {
+          "time": "11:52 am",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 712
+        },
+        {
+          "time": "12:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 720
+        },
+        {
+          "time": "12:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 727
+        },
+        {
+          "time": "12:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 735
+        },
+        {
+          "time": "12:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 742
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 750
+        },
+        {
+          "time": "12:37 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 757
+        },
+        {
+          "time": "12:45 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 765
+        },
+        {
+          "time": "12:52 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 772
+        },
+        {
+          "time": "1:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 780
+        },
+        {
+          "time": "1:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 787
+        },
+        {
+          "time": "1:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 795
+        },
+        {
+          "time": "1:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 802
+        },
+        {
+          "time": "1:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 810
+        },
+        {
+          "time": "1:37 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 817
+        },
+        {
+          "time": "1:45 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 825
+        },
+        {
+          "time": "1:52 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 832
+        },
+        {
+          "time": "2:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 840
+        },
+        {
+          "time": "2:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 847
+        },
+        {
+          "time": "2:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 855
+        },
+        {
+          "time": "2:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 862
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 870
+        },
+        {
+          "time": "2:37 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 877
+        },
+        {
+          "time": "2:45 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 885
+        },
+        {
+          "time": "2:52 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 892
+        },
+        {
+          "time": "3:00 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 900
+        },
+        {
+          "time": "3:07 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 907
+        },
+        {
+          "time": "3:15 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 915
+        },
+        {
+          "time": "3:22 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 922
+        },
+        {
+          "time": "3:30 pm",
+          "course_raw": "9 Holes",
+          "spots": 4,
+          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260726",
+          "course": "9 Holes",
+          "minutes": 930
+        }
+      ],
+      "grouped": {
+        "4": {
+          "9 Holes": [
+            "8:00 am",
+            "8:07 am",
+            "8:15 am",
+            "8:22 am",
+            "8:30 am",
+            "8:37 am",
+            "8:45 am",
+            "8:52 am",
+            "9:00 am",
+            "9:07 am",
+            "9:15 am",
+            "9:22 am",
+            "9:37 am",
+            "9:45 am",
+            "9:52 am",
+            "10:00 am",
+            "10:07 am",
+            "10:15 am",
+            "10:22 am",
+            "10:30 am",
+            "10:37 am",
+            "10:45 am",
+            "10:52 am",
+            "11:00 am",
+            "11:07 am",
+            "11:15 am",
+            "11:22 am",
+            "11:30 am",
+            "11:37 am",
+            "11:45 am",
+            "11:52 am",
+            "12:00 pm",
+            "12:07 pm",
+            "12:15 pm",
+            "12:22 pm",
+            "12:30 pm",
+            "12:37 pm",
+            "12:45 pm",
+            "12:52 pm",
+            "1:00 pm",
+            "1:07 pm",
+            "1:15 pm",
+            "1:22 pm",
+            "1:30 pm",
+            "1:37 pm",
+            "1:45 pm",
+            "1:52 pm",
+            "2:00 pm",
+            "2:07 pm",
+            "2:15 pm",
+            "2:22 pm",
+            "2:30 pm",
+            "2:37 pm",
+            "2:45 pm",
+            "2:52 pm",
+            "3:00 pm",
+            "3:07 pm",
+            "3:15 pm",
+            "3:22 pm",
+            "3:30 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 8:00 am",
+      "preference_course": "9 Holes",
+      "display_group": 4,
+      "display_earliest": "8:00 am",
+      "earliest_group_times": [
+        [
+          4,
+          "8:00 am"
+        ]
+      ],
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "The Springs",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 11
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "The Vines",
+      "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+      "hole_label": "9 holes",
+      "rows": [
+        {
+          "time": "07:16 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "07:24 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "07:32 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "07:48 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "07:56 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "08:04 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "08:12 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "01:16 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "01:32 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "01:40 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "01:48 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "01:56 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:04 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:12 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:28 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:36 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:44 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "02:52 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "03:00 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "03:08 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "03:16 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        },
+        {
+          "time": "03:24 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:16 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 436
+        },
+        {
+          "time": "07:24 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 444
+        },
+        {
+          "time": "07:32 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 452
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 460
+        },
+        {
+          "time": "07:48 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 468
+        },
+        {
+          "time": "07:56 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 476
+        },
+        {
+          "time": "08:04 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 484
+        },
+        {
+          "time": "08:12 am",
+          "course_raw": "Vines 10th",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 10th",
+          "minutes": 492
+        },
+        {
+          "time": "01:16 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 796
+        },
+        {
+          "time": "01:24 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 804
+        },
+        {
+          "time": "01:32 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 812
+        },
+        {
+          "time": "01:40 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 820
+        },
+        {
+          "time": "01:48 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 828
+        },
+        {
+          "time": "01:56 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 836
+        },
+        {
+          "time": "02:04 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 844
+        },
+        {
+          "time": "02:12 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 852
+        },
+        {
+          "time": "02:20 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 860
+        },
+        {
+          "time": "02:28 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 868
+        },
+        {
+          "time": "02:36 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 876
+        },
+        {
+          "time": "02:44 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 884
+        },
+        {
+          "time": "02:52 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 892
+        },
+        {
+          "time": "03:00 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 900
+        },
+        {
+          "time": "03:08 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 908
+        },
+        {
+          "time": "03:16 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 916
+        },
+        {
+          "time": "03:24 pm",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-26&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 924
+        }
+      ],
+      "grouped": {
+        "4": {
+          "Vines 10th": [
+            "07:16 am",
+            "07:24 am",
+            "07:32 am",
+            "07:40 am",
+            "07:48 am",
+            "07:56 am",
+            "08:04 am",
+            "08:12 am"
+          ],
+          "Vines 1st": [
+            "01:16 pm",
+            "01:24 pm",
+            "01:32 pm",
+            "01:40 pm",
+            "01:48 pm",
+            "01:56 pm",
+            "02:04 pm",
+            "02:12 pm",
+            "02:20 pm",
+            "02:28 pm",
+            "02:36 pm",
+            "02:44 pm",
+            "02:52 pm",
+            "03:00 pm",
+            "03:08 pm",
+            "03:16 pm",
+            "03:24 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:16 am",
+      "preference_course": "Vines 10th",
+      "display_group": 4,
+      "display_earliest": "07:16 am",
+      "earliest_group_times": [
+        [
+          4,
+          "07:16 am"
+        ]
+      ],
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "The Vines",
+        "tmax": 22,
+        "tmin": 11,
+        "rain_chance": 20,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 18
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Wembley",
+      "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=102211",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Wembley",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 24,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
+      "error": null,
+      "not_configured": false
+    },
+    {
+      "site_name": "Whaleback",
+      "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-26&feeGroupId=1500344725",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Whaleback",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 18,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 12
+      },
+      "error": null,
+      "not_configured": false
+    }
+  ]
+}
