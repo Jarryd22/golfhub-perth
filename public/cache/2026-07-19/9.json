@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T14:19:41+00:00",
+  "generated_at": "2026-07-14T15:53:46+00:00",
   "date": "2026-07-19",
   "holes": "9",
   "results": [
@@ -939,7 +939,7 @@
         {
           "time": "03:12 pm",
           "course_raw": "Island 9 Holes ONLY",
-          "spots": 3,
+          "spots": 4,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500323733"
         },
         {
@@ -1063,7 +1063,7 @@
         {
           "time": "03:12 pm",
           "course_raw": "Island 9 Holes ONLY",
-          "spots": 3,
+          "spots": 4,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500323733",
           "course": "Island 9 Holes ONLY",
           "minutes": 912
@@ -1107,13 +1107,9 @@
             "12:56 pm"
           ]
         },
-        "3": {
-          "Island 9 Holes ONLY": [
-            "03:12 pm"
-          ]
-        },
         "4": {
           "Island 9 Holes ONLY": [
+            "03:12 pm",
             "03:20 pm"
           ],
           "Lake/Island": [
@@ -1131,12 +1127,8 @@
           "07:20 am"
         ],
         [
-          3,
-          "03:12 pm"
-        ],
-        [
           4,
-          "03:20 pm"
+          "03:12 pm"
         ]
       ],
       "weather": {
@@ -2057,12 +2049,6 @@
       "hole_label": "9 holes",
       "rows": [
         {
-          "time": "7:34 am",
-          "course_raw": "Back 9 Morning",
-          "spots": 1,
-          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260719"
-        },
-        {
           "time": "1:14 pm",
           "course_raw": "Hamersley",
           "spots": 1,
@@ -2124,14 +2110,6 @@
         }
       ],
       "decorated_rows": [
-        {
-          "time": "7:34 am",
-          "course_raw": "Back 9 Morning",
-          "spots": 1,
-          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260719",
-          "course": "Back 9 Morning",
-          "minutes": 454
-        },
         {
           "time": "1:14 pm",
           "course_raw": "Hamersley",
@@ -2215,9 +2193,6 @@
       ],
       "grouped": {
         "1": {
-          "Back 9 Morning": [
-            "7:34 am"
-          ],
           "Hamersley": [
             "1:14 pm"
           ]
@@ -2240,14 +2215,14 @@
           ]
         }
       },
-      "preference_text": "Best overall option: 7:34 am",
-      "preference_course": "Back 9 Morning",
+      "preference_text": "Best overall option: 1:14 pm",
+      "preference_course": "Hamersley",
       "display_group": 4,
-      "display_earliest": "7:34 am",
+      "display_earliest": "1:14 pm",
       "earliest_group_times": [
         [
           1,
-          "7:34 am"
+          "1:14 pm"
         ],
         [
           4,
@@ -2609,7 +2584,7 @@
         {
           "time": "2:00 pm",
           "course_raw": "",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260719"
         },
         {
@@ -3011,7 +2986,7 @@
         {
           "time": "2:00 pm",
           "course_raw": "",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260719",
           "course": "",
           "minutes": 840
@@ -3177,7 +3152,6 @@
             "1:30 pm",
             "1:40 pm",
             "1:50 pm",
-            "2:00 pm",
             "2:10 pm",
             "2:20 pm",
             "2:30 pm",
@@ -3197,7 +3171,8 @@
         },
         "2": {
           "": [
-            "8:40 am"
+            "8:40 am",
+            "2:00 pm"
           ]
         }
       },

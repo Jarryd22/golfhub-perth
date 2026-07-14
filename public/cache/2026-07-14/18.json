@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T14:19:03+00:00",
+  "generated_at": "2026-07-14T15:53:09+00:00",
   "date": "2026-07-14",
   "holes": "18",
   "results": [
@@ -525,29 +525,10 @@
     },
     {
       "site_name": "Secret Harbour",
-      "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-14&feeGroupId=12445",
+      "url": "https://secretharbour.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Secret Harbour",
-        "tmax": 20,
-        "tmin": 6,
-        "rain_chance": 0,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 16
-      },
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {

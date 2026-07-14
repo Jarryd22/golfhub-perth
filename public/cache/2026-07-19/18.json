@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T14:19:35+00:00",
+  "generated_at": "2026-07-14T15:53:41+00:00",
   "date": "2026-07-19",
   "holes": "18",
   "results": [
@@ -10,7 +10,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
+        "location_name": "Altone Park",
+        "tmax": 16,
+        "tmin": 8,
+        "rain_chance": 59,
+        "rain_mm": 1.2,
+        "rain_amount_label": "1.2 mm",
+        "wind": 5
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -570,148 +581,10 @@
     },
     {
       "site_name": "Collier Park",
-      "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
+      "url": "https://bookings.collierparkgolf.com.au",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "09:44 am",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        },
-        {
-          "time": "10:08 am",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        },
-        {
-          "time": "11:44 am",
-          "course_raw": "Island (9) or Island & Pines(18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        },
-        {
-          "time": "12:00 pm",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        },
-        {
-          "time": "12:24 pm",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        },
-        {
-          "time": "12:32 pm",
-          "course_raw": "Island (9) or Island & Pines(18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        },
-        {
-          "time": "12:56 pm",
-          "course_raw": "Island (9) or Island & Pines(18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "09:44 am",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Pines/Lake",
-          "minutes": 584
-        },
-        {
-          "time": "10:08 am",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Pines/Lake",
-          "minutes": 608
-        },
-        {
-          "time": "11:44 am",
-          "course_raw": "Island (9) or Island & Pines(18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Island/Pines",
-          "minutes": 704
-        },
-        {
-          "time": "12:00 pm",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Pines/Lake",
-          "minutes": 720
-        },
-        {
-          "time": "12:24 pm",
-          "course_raw": "Pines (9) or Pines & Lake (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Pines/Lake",
-          "minutes": 744
-        },
-        {
-          "time": "12:32 pm",
-          "course_raw": "Island (9) or Island & Pines(18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Island/Pines",
-          "minutes": 752
-        },
-        {
-          "time": "12:56 pm",
-          "course_raw": "Island (9) or Island & Pines(18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500257612",
-          "course": "Island/Pines",
-          "minutes": 776
-        }
-      ],
-      "grouped": {
-        "1": {
-          "Pines/Lake": [
-            "09:44 am",
-            "10:08 am",
-            "12:00 pm",
-            "12:24 pm"
-          ],
-          "Island/Pines": [
-            "11:44 am",
-            "12:32 pm",
-            "12:56 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 09:44 am",
-      "preference_course": "Pines/Lake",
-      "display_group": 1,
-      "display_earliest": "09:44 am",
-      "earliest_group_times": [
-        [
-          1,
-          "09:44 am"
-        ]
-      ],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
-        "location_name": "Collier Park",
-        "tmax": 16,
-        "tmin": 9,
-        "rain_chance": 59,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
-        "wind": 8
-      },
-      "error": null,
+      "decorated_rows": [],
+      "error": "HTTP Error 429: Too Many Requests",
       "not_configured": false
     },
     {
@@ -724,29 +597,10 @@
     },
     {
       "site_name": "Hamersley",
-      "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260719",
+      "url": "https://hamersley.quick18.com",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Hamersley",
-        "tmax": 16,
-        "tmin": 10,
-        "rain_chance": 76,
-        "rain_mm": 3.0,
-        "rain_amount_label": "3 mm",
-        "wind": 11
-      },
-      "error": null,
+      "error": "HTTP Error 429: Too Many Requests",
       "not_configured": false
     },
     {
@@ -1327,18 +1181,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Meadow Springs",
-        "tmax": 15,
-        "tmin": 8,
-        "rain_chance": 76,
-        "rain_mm": 2.1,
-        "rain_amount_label": "2.1 mm",
-        "wind": 9
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1373,18 +1216,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Rockingham",
-        "tmax": 15,
-        "tmin": 10,
-        "rain_chance": 76,
-        "rain_mm": 3.0,
-        "rain_amount_label": "3 mm",
-        "wind": 14
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,

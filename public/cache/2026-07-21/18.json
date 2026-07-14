@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T14:20:43+00:00",
+  "generated_at": "2026-07-14T15:55:17+00:00",
   "date": "2026-07-21",
   "holes": "18",
   "results": [
@@ -2688,7 +2688,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
+        "location_name": "Hillview",
+        "tmax": 16,
+        "tmin": 10,
+        "rain_chance": 31,
+        "rain_mm": 3.6,
+        "rain_amount_label": "3.6 mm",
+        "wind": 12
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -4299,10 +4310,447 @@
     },
     {
       "site_name": "Marangaroo",
-      "url": "https://marangaroo.miclub.com.au",
+      "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "06:58 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:06 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "10:18 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "10:26 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "10:34 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "10:42 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "10:50 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "10:58 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:06 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:38 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:46 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:02 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:10 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:18 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:26 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:34 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:42 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:50 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:58 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "06:58 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 418
+        },
+        {
+          "time": "07:06 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 426
+        },
+        {
+          "time": "07:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 434
+        },
+        {
+          "time": "07:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 442
+        },
+        {
+          "time": "07:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 474
+        },
+        {
+          "time": "10:18 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 618
+        },
+        {
+          "time": "10:26 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 626
+        },
+        {
+          "time": "10:34 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 634
+        },
+        {
+          "time": "10:42 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 642
+        },
+        {
+          "time": "10:50 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 650
+        },
+        {
+          "time": "10:58 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 658
+        },
+        {
+          "time": "11:06 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 666
+        },
+        {
+          "time": "11:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 674
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 682
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 690
+        },
+        {
+          "time": "11:38 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 698
+        },
+        {
+          "time": "11:46 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 706
+        },
+        {
+          "time": "11:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 714
+        },
+        {
+          "time": "12:02 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 722
+        },
+        {
+          "time": "12:10 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 730
+        },
+        {
+          "time": "12:18 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 738
+        },
+        {
+          "time": "12:26 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 746
+        },
+        {
+          "time": "12:34 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 754
+        },
+        {
+          "time": "12:42 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 762
+        },
+        {
+          "time": "12:50 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 770
+        },
+        {
+          "time": "12:58 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 778
+        }
+      ],
+      "grouped": {
+        "2": {
+          "": [
+            "06:58 am",
+            "07:06 am",
+            "10:18 am",
+            "11:22 am"
+          ]
+        },
+        "4": {
+          "": [
+            "07:14 am",
+            "07:22 am",
+            "10:26 am",
+            "10:34 am",
+            "10:42 am",
+            "10:50 am",
+            "10:58 am",
+            "11:06 am",
+            "11:14 am",
+            "11:30 am",
+            "11:38 am",
+            "11:46 am",
+            "11:54 am",
+            "12:02 pm",
+            "12:10 pm",
+            "12:18 pm",
+            "12:26 pm",
+            "12:34 pm",
+            "12:42 pm",
+            "12:50 pm",
+            "12:58 pm"
+          ]
+        },
+        "1": {
+          "": [
+            "07:54 am"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 06:58 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "06:58 am",
+      "earliest_group_times": [
+        [
+          2,
+          "06:58 am"
+        ],
+        [
+          4,
+          "07:14 am"
+        ],
+        [
+          1,
+          "07:54 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_rain.png",
+        "label": "Drizzle",
+        "location_name": "Marangaroo",
+        "tmax": 17,
+        "tmin": 11,
+        "rain_chance": 39,
+        "rain_mm": 5.4,
+        "rain_amount_label": "5.4 mm",
+        "wind": 13
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -4334,18 +4782,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_rain.png",
-        "label": "Drizzle",
-        "location_name": "Maylands",
-        "tmax": 17,
-        "tmin": 10,
-        "rain_chance": 31,
-        "rain_mm": 4.5,
-        "rain_amount_label": "4.5 mm",
-        "wind": 14
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -4357,18 +4794,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Meadow Springs",
-        "tmax": 18,
-        "tmin": 10,
-        "rain_chance": 39,
-        "rain_mm": 3.9,
-        "rain_amount_label": "3.9 mm",
-        "wind": 18
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -4380,18 +4806,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Pinjarra",
-        "tmax": 16,
-        "tmin": 10,
-        "rain_chance": 33,
-        "rain_mm": 1.8,
-        "rain_amount_label": "1.8 mm",
-        "wind": 12
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T14:19:07+00:00",
+  "generated_at": "2026-07-14T15:53:14+00:00",
   "date": "2026-07-18",
   "holes": "9",
   "results": [
@@ -404,12 +404,6 @@
       "hole_label": "9 holes",
       "rows": [
         {
-          "time": "07:46 am",
-          "course_raw": "10TH TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-18&feeGroupId=1500468370"
-        },
-        {
           "time": "08:02 am",
           "course_raw": "10TH TEE",
           "spots": 1,
@@ -549,14 +543,6 @@
         }
       ],
       "decorated_rows": [
-        {
-          "time": "07:46 am",
-          "course_raw": "10TH TEE",
-          "spots": 2,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-18&feeGroupId=1500468370",
-          "course": "10TH TEE",
-          "minutes": 466
-        },
         {
           "time": "08:02 am",
           "course_raw": "10TH TEE",
@@ -743,17 +729,6 @@
         }
       ],
       "grouped": {
-        "2": {
-          "10TH TEE": [
-            "07:46 am"
-          ],
-          "": [
-            "01:14 pm",
-            "01:22 pm",
-            "01:30 pm",
-            "02:42 pm"
-          ]
-        },
         "1": {
           "10TH TEE": [
             "08:02 am",
@@ -763,6 +738,14 @@
             "12:18 pm",
             "12:26 pm",
             "12:34 pm"
+          ]
+        },
+        "2": {
+          "": [
+            "01:14 pm",
+            "01:22 pm",
+            "01:30 pm",
+            "02:42 pm"
           ]
         },
         "4": {
@@ -784,18 +767,18 @@
           ]
         }
       },
-      "preference_text": "Best overall option: 07:46 am",
+      "preference_text": "Best overall option: 08:02 am",
       "preference_course": "10TH TEE",
       "display_group": 4,
-      "display_earliest": "07:46 am",
+      "display_earliest": "08:02 am",
       "earliest_group_times": [
-        [
-          2,
-          "07:46 am"
-        ],
         [
           1,
           "08:02 am"
+        ],
+        [
+          2,
+          "01:14 pm"
         ],
         [
           4,

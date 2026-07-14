@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T14:19:02+00:00",
+  "generated_at": "2026-07-14T15:53:09+00:00",
   "date": "2026-07-18",
   "holes": "18",
   "results": [
@@ -1549,18 +1549,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Rain showers",
-        "location_name": "The Cut",
-        "tmax": 16,
-        "tmin": 13,
-        "rain_chance": 87,
-        "rain_mm": 7.4,
-        "rain_amount_label": "7.4 mm",
-        "wind": 41
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
