@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:21+00:00",
+  "generated_at": "2026-07-14T14:19:07+00:00",
   "date": "2026-07-22",
   "holes": "9",
   "results": [
@@ -1533,7 +1533,7 @@
         {
           "time": "09:36 am",
           "course_raw": "Pines 9 Holes ONLY",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500323733"
         },
         {
@@ -1575,7 +1575,7 @@
         {
           "time": "10:40 am",
           "course_raw": "Lake (9) Lake & Island (18)",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500323733"
         },
         {
@@ -1929,7 +1929,7 @@
         {
           "time": "09:36 am",
           "course_raw": "Pines 9 Holes ONLY",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500323733",
           "course": "Pines 9 Holes ONLY",
           "minutes": 576
@@ -1984,18 +1984,18 @@
         },
         {
           "time": "10:40 am",
-          "course_raw": "Lake (9) Lake & Island (18)",
-          "spots": 4,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500323733",
-          "course": "Lake/Island",
-          "minutes": 640
-        },
-        {
-          "time": "10:40 am",
           "course_raw": "Pines 9 Holes ONLY",
           "spots": 4,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500323733",
           "course": "Pines 9 Holes ONLY",
+          "minutes": 640
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "Lake (9) Lake & Island (18)",
+          "spots": 2,
+          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500323733",
+          "course": "Lake/Island",
           "minutes": 640
         },
         {
@@ -2277,6 +2277,7 @@
             "07:12 am",
             "07:20 am",
             "07:28 am",
+            "09:36 am",
             "10:24 am"
           ],
           "Lake/Island": [
@@ -2308,14 +2309,12 @@
           "Pines 9 Holes ONLY": [
             "07:44 am",
             "07:52 am",
-            "09:36 am",
             "10:32 am",
             "10:40 am",
             "10:48 am",
             "10:56 am"
           ],
           "Lake/Island": [
-            "10:40 am",
             "10:48 am",
             "10:56 am",
             "11:04 am",
@@ -2352,7 +2351,8 @@
           ],
           "Lake/Island": [
             "07:44 am",
-            "10:08 am"
+            "10:08 am",
+            "10:40 am"
           ],
           "Island 9 Holes ONLY": [
             "08:16 am",

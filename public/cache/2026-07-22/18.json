@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:16+00:00",
+  "generated_at": "2026-07-14T14:19:01+00:00",
   "date": "2026-07-22",
   "holes": "18",
   "results": [
@@ -1170,7 +1170,7 @@
         {
           "time": "10:40 am",
           "course_raw": "Lake (9) Lake & Island (18)",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500257612"
         },
         {
@@ -1390,7 +1390,7 @@
         {
           "time": "10:40 am",
           "course_raw": "Lake (9) Lake & Island (18)",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1500257612",
           "course": "Lake/Island",
           "minutes": 640
@@ -1623,7 +1623,8 @@
         "2": {
           "Lake/Island": [
             "07:44 am",
-            "10:08 am"
+            "10:08 am",
+            "10:40 am"
           ],
           "Pines/Lake": [
             "11:44 am"
@@ -1631,7 +1632,6 @@
         },
         "4": {
           "Lake/Island": [
-            "10:40 am",
             "10:48 am",
             "10:56 am",
             "11:04 am",
@@ -1673,7 +1673,7 @@
         ],
         [
           4,
-          "10:40 am"
+          "10:48 am"
         ]
       ],
       "weather": {
@@ -1693,10 +1693,686 @@
     },
     {
       "site_name": "Fremantle",
-      "url": "https://fremantlepublic.miclub.com.au",
+      "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "HTTP Error 429: Too Many Requests",
+      "rows": [
+        {
+          "time": "07:03 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:10 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:17 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:31 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:38 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:45 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "07:59 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:06 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:13 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:27 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:34 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:41 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "08:55 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:02 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:09 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:23 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:30 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:37 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:51 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "09:58 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:05 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:19 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:26 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:33 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:47 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "10:54 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:01 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:08 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:15 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:29 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:43 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:50 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        },
+        {
+          "time": "11:57 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:03 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 423
+        },
+        {
+          "time": "07:10 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 430
+        },
+        {
+          "time": "07:17 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 437
+        },
+        {
+          "time": "07:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 444
+        },
+        {
+          "time": "07:31 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 451
+        },
+        {
+          "time": "07:38 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 458
+        },
+        {
+          "time": "07:45 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 465
+        },
+        {
+          "time": "07:52 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 472
+        },
+        {
+          "time": "07:59 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 479
+        },
+        {
+          "time": "08:06 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 486
+        },
+        {
+          "time": "08:13 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 493
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 500
+        },
+        {
+          "time": "08:27 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 507
+        },
+        {
+          "time": "08:34 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 514
+        },
+        {
+          "time": "08:41 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 521
+        },
+        {
+          "time": "08:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 528
+        },
+        {
+          "time": "08:55 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 535
+        },
+        {
+          "time": "09:02 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 542
+        },
+        {
+          "time": "09:09 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 549
+        },
+        {
+          "time": "09:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 556
+        },
+        {
+          "time": "09:23 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 563
+        },
+        {
+          "time": "09:30 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 570
+        },
+        {
+          "time": "09:37 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 577
+        },
+        {
+          "time": "09:44 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 584
+        },
+        {
+          "time": "09:51 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 591
+        },
+        {
+          "time": "09:58 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 598
+        },
+        {
+          "time": "10:05 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 605
+        },
+        {
+          "time": "10:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 612
+        },
+        {
+          "time": "10:19 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 619
+        },
+        {
+          "time": "10:26 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 626
+        },
+        {
+          "time": "10:33 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 633
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 640
+        },
+        {
+          "time": "10:47 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 647
+        },
+        {
+          "time": "10:54 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 654
+        },
+        {
+          "time": "11:01 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 661
+        },
+        {
+          "time": "11:08 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 668
+        },
+        {
+          "time": "11:15 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 675
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 682
+        },
+        {
+          "time": "11:29 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 689
+        },
+        {
+          "time": "11:36 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 696
+        },
+        {
+          "time": "11:43 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 703
+        },
+        {
+          "time": "11:50 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 710
+        },
+        {
+          "time": "11:57 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=112751",
+          "course": "",
+          "minutes": 717
+        }
+      ],
+      "grouped": {
+        "4": {
+          "": [
+            "07:03 am",
+            "07:10 am",
+            "07:17 am",
+            "07:24 am",
+            "07:31 am",
+            "07:38 am",
+            "07:45 am",
+            "07:52 am",
+            "07:59 am",
+            "08:06 am",
+            "08:13 am",
+            "08:20 am",
+            "08:27 am",
+            "08:34 am",
+            "08:41 am",
+            "08:48 am",
+            "08:55 am",
+            "09:02 am",
+            "09:09 am",
+            "09:16 am",
+            "09:23 am",
+            "09:30 am",
+            "09:37 am",
+            "09:44 am",
+            "09:51 am",
+            "09:58 am",
+            "10:05 am",
+            "10:12 am",
+            "10:19 am",
+            "10:26 am",
+            "10:33 am",
+            "10:40 am",
+            "10:47 am",
+            "10:54 am",
+            "11:01 am",
+            "11:08 am",
+            "11:15 am",
+            "11:22 am",
+            "11:29 am",
+            "11:36 am",
+            "11:43 am",
+            "11:50 am",
+            "11:57 am"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:03 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "07:03 am",
+      "earliest_group_times": [
+        [
+          4,
+          "07:03 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
+        "location_name": "Fremantle",
+        "tmax": 19,
+        "tmin": 15,
+        "rain_chance": 31,
+        "rain_mm": 1.5,
+        "rain_amount_label": "1.5 mm",
+        "wind": 18
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -2009,12 +2685,6 @@
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1505795368"
         },
         {
-          "time": "07:24 am",
-          "course_raw": "1st TEE am",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1505795368"
-        },
-        {
           "time": "07:48 am",
           "course_raw": "1st TEE am",
           "spots": 2,
@@ -2059,14 +2729,6 @@
           "minutes": 436
         },
         {
-          "time": "07:24 am",
-          "course_raw": "1st TEE am",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 444
-        },
-        {
           "time": "07:48 am",
           "course_raw": "1st TEE am",
           "spots": 2,
@@ -2105,16 +2767,11 @@
             "07:48 am",
             "07:56 am"
           ]
-        },
-        "4": {
-          "": [
-            "07:24 am"
-          ]
         }
       },
       "preference_text": "Best overall option: 07:00 am",
       "preference_course": "",
-      "display_group": 4,
+      "display_group": 2,
       "display_earliest": "07:00 am",
       "earliest_group_times": [
         [
@@ -2124,10 +2781,6 @@
         [
           2,
           "07:16 am"
-        ],
-        [
-          4,
-          "07:24 am"
         ]
       ],
       "weather": {

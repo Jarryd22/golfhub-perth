@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:15+00:00",
+  "generated_at": "2026-07-14T14:19:08+00:00",
   "date": "2026-07-30",
   "holes": "18",
   "results": [
@@ -2432,7 +2432,7 @@
         {
           "time": "08:32 am",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-30&feeGroupId=12445"
         },
         {
@@ -2684,7 +2684,7 @@
         {
           "time": "08:32 am",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-30&feeGroupId=12445",
           "course": "",
           "minutes": 512
@@ -2936,7 +2936,6 @@
             "07:12 am",
             "08:00 am",
             "08:16 am",
-            "08:32 am",
             "08:40 am",
             "08:48 am",
             "08:56 am",
@@ -2983,6 +2982,7 @@
         "1": {
           "": [
             "07:44 am",
+            "08:32 am",
             "10:48 am"
           ]
         }

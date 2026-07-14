@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:25:49+00:00",
+  "generated_at": "2026-07-14T14:20:18+00:00",
   "date": "2026-07-28",
   "holes": "9",
   "results": [
@@ -17,7 +17,7 @@
         "location_name": "Altone Park",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 17
@@ -465,7 +465,7 @@
         "location_name": "Araluen",
         "tmax": 20,
         "tmin": 10,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 16
@@ -519,7 +519,7 @@
         "location_name": "Collier Park",
         "tmax": 20,
         "tmin": 12,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 15
@@ -533,7 +533,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Embleton",
+        "tmax": 21,
+        "tmin": 11,
+        "rain_chance": 23,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 13
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -558,7 +569,7 @@
         "location_name": "Fremantle",
         "tmax": 21,
         "tmin": 12,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 17
@@ -1545,7 +1556,7 @@
         "location_name": "Hartfield",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 17
@@ -1566,7 +1577,7 @@
         "location_name": "Hillview",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 17
@@ -2607,7 +2618,7 @@
         "location_name": "Kwinana",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 24,
+        "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 18
@@ -2617,10 +2628,881 @@
     },
     {
       "site_name": "Lake Claremont",
-      "url": "https://lakeclaremont.quick18.com",
+      "url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
       "hole_label": "9 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "7:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "7:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "7:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "7:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "7:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "8:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "8:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "8:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "8:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "8:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "8:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "9:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "9:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "9:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "9:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "9:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "9:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "10:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "10:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "10:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "10:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "11:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "11:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "11:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "11:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "12:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "12:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "12:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "1:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "1:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "1:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "1:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "1:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "1:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "2:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "2:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "2:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "2:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "2:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "3:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "3:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "3:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "3:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "3:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "3:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "4:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "4:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "4:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        },
+        {
+          "time": "4:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "7:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 430
+        },
+        {
+          "time": "7:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 440
+        },
+        {
+          "time": "7:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 450
+        },
+        {
+          "time": "7:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 460
+        },
+        {
+          "time": "7:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 470
+        },
+        {
+          "time": "8:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 480
+        },
+        {
+          "time": "8:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 490
+        },
+        {
+          "time": "8:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 500
+        },
+        {
+          "time": "8:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 510
+        },
+        {
+          "time": "8:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 520
+        },
+        {
+          "time": "8:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 530
+        },
+        {
+          "time": "9:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 540
+        },
+        {
+          "time": "9:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 550
+        },
+        {
+          "time": "9:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 560
+        },
+        {
+          "time": "9:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 570
+        },
+        {
+          "time": "9:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 580
+        },
+        {
+          "time": "9:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 590
+        },
+        {
+          "time": "10:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 600
+        },
+        {
+          "time": "10:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 610
+        },
+        {
+          "time": "10:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 620
+        },
+        {
+          "time": "10:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 630
+        },
+        {
+          "time": "10:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 640
+        },
+        {
+          "time": "10:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 650
+        },
+        {
+          "time": "11:00 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 660
+        },
+        {
+          "time": "11:10 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 670
+        },
+        {
+          "time": "11:20 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 680
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 690
+        },
+        {
+          "time": "11:40 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 700
+        },
+        {
+          "time": "11:50 am",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 710
+        },
+        {
+          "time": "12:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 730
+        },
+        {
+          "time": "12:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 740
+        },
+        {
+          "time": "12:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 750
+        },
+        {
+          "time": "12:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 760
+        },
+        {
+          "time": "12:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 770
+        },
+        {
+          "time": "1:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 780
+        },
+        {
+          "time": "1:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 790
+        },
+        {
+          "time": "1:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 800
+        },
+        {
+          "time": "1:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 810
+        },
+        {
+          "time": "1:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 820
+        },
+        {
+          "time": "1:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 830
+        },
+        {
+          "time": "2:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 840
+        },
+        {
+          "time": "2:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 850
+        },
+        {
+          "time": "2:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 860
+        },
+        {
+          "time": "2:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 870
+        },
+        {
+          "time": "2:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 880
+        },
+        {
+          "time": "2:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 890
+        },
+        {
+          "time": "3:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 900
+        },
+        {
+          "time": "3:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 910
+        },
+        {
+          "time": "3:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 920
+        },
+        {
+          "time": "3:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 930
+        },
+        {
+          "time": "3:40 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 940
+        },
+        {
+          "time": "3:50 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 950
+        },
+        {
+          "time": "4:00 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 960
+        },
+        {
+          "time": "4:10 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 970
+        },
+        {
+          "time": "4:20 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 980
+        },
+        {
+          "time": "4:30 pm",
+          "course_raw": "",
+          "spots": 4,
+          "source_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260728",
+          "course": "",
+          "minutes": 990
+        }
+      ],
+      "grouped": {
+        "4": {
+          "": [
+            "7:10 am",
+            "7:20 am",
+            "7:30 am",
+            "7:40 am",
+            "7:50 am",
+            "8:00 am",
+            "8:10 am",
+            "8:20 am",
+            "8:30 am",
+            "8:40 am",
+            "8:50 am",
+            "9:00 am",
+            "9:10 am",
+            "9:20 am",
+            "9:30 am",
+            "9:40 am",
+            "9:50 am",
+            "10:00 am",
+            "10:10 am",
+            "10:20 am",
+            "10:30 am",
+            "10:40 am",
+            "10:50 am",
+            "11:00 am",
+            "11:10 am",
+            "11:20 am",
+            "11:30 am",
+            "11:40 am",
+            "11:50 am",
+            "12:10 pm",
+            "12:20 pm",
+            "12:30 pm",
+            "12:40 pm",
+            "12:50 pm",
+            "1:00 pm",
+            "1:10 pm",
+            "1:20 pm",
+            "1:30 pm",
+            "1:40 pm",
+            "1:50 pm",
+            "2:00 pm",
+            "2:10 pm",
+            "2:20 pm",
+            "2:30 pm",
+            "2:40 pm",
+            "2:50 pm",
+            "3:00 pm",
+            "3:10 pm",
+            "3:20 pm",
+            "3:30 pm",
+            "3:40 pm",
+            "3:50 pm",
+            "4:00 pm",
+            "4:10 pm",
+            "4:20 pm",
+            "4:30 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 7:10 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "7:10 am",
+      "earliest_group_times": [
+        [
+          4,
+          "7:10 am"
+        ]
+      ],
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Lake Claremont",
+        "tmax": 21,
+        "tmin": 12,
+        "rain_chance": 25,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 15
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -2727,7 +3609,7 @@
         {
           "time": "09:18 am",
           "course_raw": "Social Play",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=3451283"
         },
         {
@@ -3193,7 +4075,7 @@
         {
           "time": "09:18 am",
           "course_raw": "Social Play",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=3451283",
           "course": "Social Play",
           "minutes": 558
@@ -3661,7 +4543,6 @@
             "08:54 am",
             "09:02 am",
             "09:10 am",
-            "09:18 am",
             "09:26 am",
             "09:42 am",
             "09:50 am",
@@ -3725,7 +4606,8 @@
         },
         "1": {
           "Social Play": [
-            "08:30 am"
+            "08:30 am",
+            "09:18 am"
           ]
         }
       },
@@ -3758,7 +4640,7 @@
         "location_name": "Links Kennedy Bay",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 30,
+        "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 20
@@ -3779,7 +4661,7 @@
         "location_name": "Mandurah Country Club",
         "tmax": 21,
         "tmin": 12,
-        "rain_chance": 35,
+        "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 21
@@ -3829,7 +4711,7 @@
         "location_name": "Marri Park",
         "tmax": 22,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 20
@@ -3852,7 +4734,7 @@
         "location_name": "Maylands",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 15
@@ -3875,7 +4757,7 @@
         "location_name": "Meadow Springs",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 30,
+        "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 21
@@ -3898,7 +4780,7 @@
         "location_name": "Pinjarra",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 30,
+        "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 22
@@ -3914,7 +4796,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
+        "location_name": "Point Walter",
+        "tmax": 20,
+        "tmin": 12,
+        "rain_chance": 23,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 15
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -3933,7 +4826,7 @@
         "location_name": "Rockingham",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 30,
+        "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 18
@@ -4159,7 +5052,7 @@
         {
           "time": "12:00 pm",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12449"
         },
         {
@@ -4539,7 +5432,7 @@
         {
           "time": "12:00 pm",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-28&feeGroupId=12449",
           "course": "",
           "minutes": 720
@@ -4785,7 +5678,6 @@
             "11:36 am",
             "11:44 am",
             "11:52 am",
-            "12:00 pm",
             "12:08 pm",
             "12:16 pm",
             "12:24 pm",
@@ -4813,6 +5705,11 @@
             "03:20 pm",
             "03:28 pm"
           ]
+        },
+        "2": {
+          "": [
+            "12:00 pm"
+          ]
         }
       },
       "preference_text": "Best overall option: 07:04 am",
@@ -4823,6 +5720,10 @@
         [
           4,
           "07:04 am"
+        ],
+        [
+          2,
+          "12:00 pm"
         ]
       ],
       "weather": {
@@ -4832,7 +5733,7 @@
         "location_name": "Secret Harbour",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 30,
+        "rain_chance": 26,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 20
@@ -4853,7 +5754,7 @@
         "location_name": "Sun City",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 20
@@ -5494,7 +6395,7 @@
         "location_name": "The Springs",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 24,
+        "rain_chance": 20,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 18
@@ -5903,7 +6804,7 @@
         "location_name": "The Vines",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 21,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 19
@@ -5957,7 +6858,7 @@
         "location_name": "Whaleback",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 24,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 17

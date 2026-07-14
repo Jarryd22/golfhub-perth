@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:25:56+00:00",
+  "generated_at": "2026-07-14T14:20:53+00:00",
   "date": "2026-07-29",
   "holes": "18",
   "results": [
@@ -17,7 +17,7 @@
         "location_name": "Altone Park",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 27
@@ -547,7 +547,7 @@
         "location_name": "Araluen",
         "tmax": 19,
         "tmin": 10,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 19
@@ -574,7 +574,7 @@
         "location_name": "Carramar",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 26,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 27
@@ -595,7 +595,7 @@
         "location_name": "Chequers",
         "tmax": 20,
         "tmin": 10,
-        "rain_chance": 26,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 28
@@ -624,7 +624,7 @@
         "location_name": "Collier Park",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 26
@@ -651,7 +651,7 @@
         "location_name": "Fremantle",
         "tmax": 21,
         "tmin": 13,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 33
@@ -825,7 +825,7 @@
         "location_name": "Hamersley",
         "tmax": 21,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 33
@@ -852,7 +852,7 @@
         "location_name": "Hartfield",
         "tmax": 21,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 23
@@ -873,7 +873,7 @@
         "location_name": "Hillview",
         "tmax": 20,
         "tmin": 11,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 25
@@ -896,7 +896,7 @@
         "location_name": "Joondalup Resort",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 26,
+        "rain_chance": 23,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 27
@@ -925,7 +925,7 @@
         "location_name": "Kwinana",
         "tmax": 20,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 30
@@ -935,642 +935,10 @@
     },
     {
       "site_name": "Links Kennedy Bay",
-      "url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
+      "url": "https://kennedybay.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "07:40 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "07:48 am",
-          "course_raw": "Social Play",
-          "spots": 1,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "07:56 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "08:28 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "08:36 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "08:44 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "08:52 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "09:24 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "09:32 am",
-          "course_raw": "Social Play",
-          "spots": 1,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "09:40 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "09:56 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "10:36 am",
-          "course_raw": "Social Play",
-          "spots": 3,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "10:44 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "10:52 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "11:00 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "11:08 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "11:32 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "11:40 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "11:48 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "11:56 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:04 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:12 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:20 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:28 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:36 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:44 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:00 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:08 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:16 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:24 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:32 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:40 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:48 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "01:56 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "02:04 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "02:12 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "02:20 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        },
-        {
-          "time": "02:28 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "07:40 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 460
-        },
-        {
-          "time": "07:48 am",
-          "course_raw": "Social Play",
-          "spots": 1,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 468
-        },
-        {
-          "time": "07:56 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 476
-        },
-        {
-          "time": "08:28 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 508
-        },
-        {
-          "time": "08:36 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 516
-        },
-        {
-          "time": "08:44 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 524
-        },
-        {
-          "time": "08:52 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 532
-        },
-        {
-          "time": "09:24 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 564
-        },
-        {
-          "time": "09:32 am",
-          "course_raw": "Social Play",
-          "spots": 1,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 572
-        },
-        {
-          "time": "09:40 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 580
-        },
-        {
-          "time": "09:56 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 596
-        },
-        {
-          "time": "10:36 am",
-          "course_raw": "Social Play",
-          "spots": 3,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 636
-        },
-        {
-          "time": "10:44 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 644
-        },
-        {
-          "time": "10:52 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 652
-        },
-        {
-          "time": "11:00 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 660
-        },
-        {
-          "time": "11:08 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 668
-        },
-        {
-          "time": "11:32 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 692
-        },
-        {
-          "time": "11:40 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 700
-        },
-        {
-          "time": "11:48 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 708
-        },
-        {
-          "time": "11:56 am",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 716
-        },
-        {
-          "time": "12:04 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 724
-        },
-        {
-          "time": "12:12 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 732
-        },
-        {
-          "time": "12:20 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 740
-        },
-        {
-          "time": "12:28 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 748
-        },
-        {
-          "time": "12:36 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 756
-        },
-        {
-          "time": "12:44 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 764
-        },
-        {
-          "time": "12:52 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 772
-        },
-        {
-          "time": "01:00 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 780
-        },
-        {
-          "time": "01:08 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 788
-        },
-        {
-          "time": "01:16 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 796
-        },
-        {
-          "time": "01:24 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 804
-        },
-        {
-          "time": "01:32 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 812
-        },
-        {
-          "time": "01:40 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 820
-        },
-        {
-          "time": "01:48 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 828
-        },
-        {
-          "time": "01:56 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 836
-        },
-        {
-          "time": "02:04 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 844
-        },
-        {
-          "time": "02:12 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 852
-        },
-        {
-          "time": "02:20 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 860
-        },
-        {
-          "time": "02:28 pm",
-          "course_raw": "Social Play",
-          "spots": 4,
-          "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-29&feeGroupId=3451280",
-          "course": "Social Play",
-          "minutes": 868
-        }
-      ],
-      "grouped": {
-        "4": {
-          "Social Play": [
-            "07:40 am",
-            "07:56 am",
-            "08:28 am",
-            "08:36 am",
-            "08:44 am",
-            "08:52 am",
-            "09:24 am",
-            "09:40 am",
-            "09:56 am",
-            "10:44 am",
-            "10:52 am",
-            "11:00 am",
-            "11:08 am",
-            "11:32 am",
-            "11:40 am",
-            "11:48 am",
-            "11:56 am",
-            "12:04 pm",
-            "12:12 pm",
-            "12:20 pm",
-            "12:28 pm",
-            "12:36 pm",
-            "12:44 pm",
-            "12:52 pm",
-            "01:00 pm",
-            "01:08 pm",
-            "01:16 pm",
-            "01:24 pm",
-            "01:32 pm",
-            "01:40 pm",
-            "01:48 pm",
-            "01:56 pm",
-            "02:04 pm",
-            "02:12 pm",
-            "02:20 pm",
-            "02:28 pm"
-          ]
-        },
-        "1": {
-          "Social Play": [
-            "07:48 am",
-            "09:32 am"
-          ]
-        },
-        "3": {
-          "Social Play": [
-            "10:36 am"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 07:40 am",
-      "preference_course": "Social Play",
-      "display_group": 4,
-      "display_earliest": "07:40 am",
-      "earliest_group_times": [
-        [
-          4,
-          "07:40 am"
-        ],
-        [
-          1,
-          "07:48 am"
-        ],
-        [
-          3,
-          "10:36 am"
-        ]
-      ],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Links Kennedy Bay",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 32,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 29
-      },
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -1579,18 +947,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Mandurah Country Club",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 35,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 27
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1615,7 +972,7 @@
         "location_name": "Marangaroo",
         "tmax": 20,
         "tmin": 11,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 31
@@ -1636,7 +993,7 @@
         "location_name": "Marri Park",
         "tmax": 20,
         "tmin": 11,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 25
@@ -1652,18 +1009,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Maylands",
-        "tmax": 22,
-        "tmin": 12,
-        "rain_chance": 32,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 27
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1675,18 +1021,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Meadow Springs",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 32,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 27
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1698,18 +1033,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Pinjarra",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 32,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 26
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1721,18 +1045,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Rockingham",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 32,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 30
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1744,18 +1057,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Rottnest Island",
-        "tmax": 20,
-        "tmin": 16,
-        "rain_chance": 35,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 42
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -1767,18 +1069,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "☀️",
-        "icon_file": "sheet_clear.png",
-        "label": "Clear",
-        "location_name": "Sea View",
-        "tmax": 21,
-        "tmin": 12,
-        "rain_chance": 32,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 33
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2490,7 +1781,7 @@
         "location_name": "Secret Harbour",
         "tmax": 20,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 29
@@ -2511,7 +1802,7 @@
         "location_name": "Sun City",
         "tmax": 21,
         "tmin": 11,
-        "rain_chance": 35,
+        "rain_chance": 27,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 27
@@ -2534,7 +1825,7 @@
         "location_name": "The Cut",
         "tmax": 19,
         "tmin": 12,
-        "rain_chance": 35,
+        "rain_chance": 33,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 33
@@ -2563,7 +1854,7 @@
         "location_name": "The Springs",
         "tmax": 21,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 25
@@ -2590,7 +1881,7 @@
         "location_name": "The Vines",
         "tmax": 20,
         "tmin": 11,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 28
@@ -2617,7 +1908,7 @@
         "location_name": "Wembley",
         "tmax": 21,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 33
@@ -2644,7 +1935,7 @@
         "location_name": "Whaleback",
         "tmax": 22,
         "tmin": 12,
-        "rain_chance": 32,
+        "rain_chance": 29,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 26

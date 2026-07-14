@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:50+00:00",
+  "generated_at": "2026-07-14T14:19:33+00:00",
   "date": "2026-08-07",
   "holes": "9",
   "results": [
@@ -1082,13 +1082,13 @@
       "rows": [],
       "decorated_rows": [],
       "grouped": {},
-      "preference_text": "Could not load live results",
+      "preference_text": "No available times",
       "preference_course": "",
       "display_group": null,
       "display_earliest": null,
       "earliest_group_times": [],
       "weather": null,
-      "error": "<urlopen error [Errno 104] Connection reset by peer>",
+      "error": null,
       "not_configured": false
     },
     {

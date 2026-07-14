@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:25:28+00:00",
+  "generated_at": "2026-07-14T14:20:19+00:00",
   "date": "2026-07-24",
   "holes": "9",
   "results": [
@@ -8029,12 +8029,6 @@
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1500344725"
         },
         {
-          "time": "10:01 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1500344725"
-        },
-        {
           "time": "10:09 am",
           "course_raw": "1st Tee",
           "spots": 4,
@@ -8311,14 +8305,6 @@
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1500344725",
           "course": "",
           "minutes": 585
-        },
-        {
-          "time": "10:01 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-24&feeGroupId=1500344725",
-          "course": "",
-          "minutes": 601
         },
         {
           "time": "10:09 am",
@@ -8604,7 +8590,6 @@
             "08:25 am"
           ],
           "": [
-            "10:01 am",
             "10:09 am",
             "10:17 am",
             "10:33 am",

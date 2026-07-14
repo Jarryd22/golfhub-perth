@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:54+00:00",
+  "generated_at": "2026-07-14T14:19:39+00:00",
   "date": "2026-07-23",
   "holes": "9",
   "results": [
@@ -4963,7 +4963,7 @@
         {
           "time": "08:10 am",
           "course_raw": "10TH TEE",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500406575"
         },
         {
@@ -5287,7 +5287,7 @@
         {
           "time": "08:10 am",
           "course_raw": "10TH TEE",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500406575",
           "course": "10TH TEE",
           "minutes": 490
@@ -5605,8 +5605,7 @@
             "07:30 am",
             "07:38 am",
             "07:46 am",
-            "08:02 am",
-            "08:10 am"
+            "08:02 am"
           ],
           "": [
             "07:14 am",
@@ -5661,6 +5660,7 @@
             "10:18 am"
           ],
           "10TH TEE": [
+            "08:10 am",
             "08:26 am",
             "08:34 am"
           ]

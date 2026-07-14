@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:40+00:00",
+  "generated_at": "2026-07-14T14:19:29+00:00",
   "date": "2026-08-03",
   "holes": "9",
   "results": [
@@ -497,15 +497,7 @@
     },
     {
       "site_name": "Fremantle",
-      "url": "https://fremantlepublic.miclub.com.au",
-      "hole_label": "9 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
-      "not_configured": false
-    },
-    {
-      "site_name": "Hamersley",
-      "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260803",
+      "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=103961",
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
@@ -520,11 +512,27 @@
       "not_configured": false
     },
     {
-      "site_name": "Hartfield",
-      "url": "https://www.hartfieldgolf.com.au",
+      "site_name": "Hamersley",
+      "url": "https://hamersley.quick18.com",
       "hole_label": "9 holes",
       "decorated_rows": [],
       "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "not_configured": false
+    },
+    {
+      "site_name": "Hartfield",
+      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1511784389",
+      "hole_label": "9 holes",
+      "rows": [],
+      "decorated_rows": [],
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
@@ -559,12 +567,6 @@
         {
           "time": "07:00 am",
           "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1502727564"
-        },
-        {
-          "time": "07:08 am",
-          "course_raw": "1st Tee",
           "spots": 4,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1502727564"
         },
@@ -745,14 +747,6 @@
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1502727564",
           "course": "10th Tee",
           "minutes": 420
-        },
-        {
-          "time": "07:08 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1502727564",
-          "course": "",
-          "minutes": 428
         },
         {
           "time": "07:08 am",
@@ -994,7 +988,6 @@
             "08:12 am"
           ],
           "": [
-            "07:08 am",
             "07:16 am",
             "07:24 am",
             "07:40 am",

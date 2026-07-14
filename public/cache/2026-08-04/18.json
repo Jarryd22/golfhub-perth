@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:50+00:00",
+  "generated_at": "2026-07-14T14:19:38+00:00",
   "date": "2026-08-04",
   "holes": "18",
   "results": [
@@ -630,10 +630,18 @@
     },
     {
       "site_name": "Fremantle",
-      "url": "https://fremantlepublic.miclub.com.au",
+      "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-04&feeGroupId=112751",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "HTTP Error 429: Too Many Requests",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
@@ -654,10 +662,18 @@
     },
     {
       "site_name": "Hartfield",
-      "url": "https://www.hartfieldgolf.com.au",
+      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-04&feeGroupId=1511784382",
       "hole_label": "18 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "HTTP Error 429: Too Many Requests",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {

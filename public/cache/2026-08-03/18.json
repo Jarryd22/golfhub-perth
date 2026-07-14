@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:15+00:00",
+  "generated_at": "2026-07-14T14:19:02+00:00",
   "date": "2026-08-03",
   "holes": "18",
   "results": [
@@ -729,12 +729,6 @@
       "hole_label": "18 holes",
       "rows": [
         {
-          "time": "07:08 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
-        },
-        {
           "time": "07:16 am",
           "course_raw": "1st Tee",
           "spots": 4,
@@ -778,14 +772,6 @@
         }
       ],
       "decorated_rows": [
-        {
-          "time": "07:08 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
-          "course": "",
-          "minutes": 428
-        },
         {
           "time": "07:16 am",
           "course_raw": "1st Tee",
@@ -846,7 +832,6 @@
       "grouped": {
         "4": {
           "": [
-            "07:08 am",
             "07:16 am",
             "07:24 am",
             "07:40 am",
@@ -857,14 +842,14 @@
           ]
         }
       },
-      "preference_text": "Best overall option: 07:08 am",
+      "preference_text": "Best overall option: 07:16 am",
       "preference_course": "",
       "display_group": 4,
-      "display_earliest": "07:08 am",
+      "display_earliest": "07:16 am",
       "earliest_group_times": [
         [
           4,
-          "07:08 am"
+          "07:16 am"
         ]
       ],
       "weather": null,

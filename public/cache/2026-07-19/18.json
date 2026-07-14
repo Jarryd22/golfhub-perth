@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T12:24:50+00:00",
+  "generated_at": "2026-07-14T14:19:35+00:00",
   "date": "2026-07-19",
   "holes": "18",
   "results": [
@@ -10,18 +10,7 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Altone Park",
-        "tmax": 16,
-        "tmin": 8,
-        "rain_chance": 59,
-        "rain_mm": 1.2,
-        "rain_amount_label": "1.2 mm",
-        "wind": 5
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -727,29 +716,10 @@
     },
     {
       "site_name": "Fremantle",
-      "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=112751",
+      "url": "https://fremantlepublic.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "Fremantle",
-        "tmax": 15,
-        "tmin": 10,
-        "rain_chance": 59,
-        "rain_mm": 3.0,
-        "rain_amount_label": "3 mm",
-        "wind": 11
-      },
-      "error": null,
+      "error": "HTTP Error 429: Too Many Requests",
       "not_configured": false
     },
     {
@@ -1159,12 +1129,6 @@
       "hole_label": "18 holes",
       "rows": [
         {
-          "time": "10:10 am",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500406571"
-        },
-        {
           "time": "10:18 am",
           "course_raw": "1ST TEE",
           "spots": 2,
@@ -1205,23 +1169,9 @@
           "course_raw": "1ST TEE",
           "spots": 1,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500406571"
-        },
-        {
-          "time": "12:58 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500406571"
         }
       ],
       "decorated_rows": [
-        {
-          "time": "10:10 am",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500406571",
-          "course": "",
-          "minutes": 610
-        },
         {
           "time": "10:18 am",
           "course_raw": "1ST TEE",
@@ -1277,22 +1227,12 @@
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500406571",
           "course": "",
           "minutes": 770
-        },
-        {
-          "time": "12:58 pm",
-          "course_raw": "1ST TEE",
-          "spots": 2,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-19&feeGroupId=1500406571",
-          "course": "",
-          "minutes": 778
         }
       ],
       "grouped": {
         "2": {
           "": [
-            "10:10 am",
-            "10:18 am",
-            "12:58 pm"
+            "10:18 am"
           ]
         },
         "1": {
@@ -1306,14 +1246,14 @@
           ]
         }
       },
-      "preference_text": "Best overall option: 10:10 am",
+      "preference_text": "Best overall option: 10:18 am",
       "preference_course": "",
       "display_group": 2,
-      "display_earliest": "10:10 am",
+      "display_earliest": "10:18 am",
       "earliest_group_times": [
         [
           2,
-          "10:10 am"
+          "10:18 am"
         ],
         [
           1,
@@ -1598,29 +1538,10 @@
     },
     {
       "site_name": "The Vines",
-      "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-19&feeGroupId=25803812",
+      "url": "https://thevines.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Light drizzle",
-        "location_name": "The Vines",
-        "tmax": 16,
-        "tmin": 8,
-        "rain_chance": 53,
-        "rain_mm": 1.2,
-        "rain_amount_label": "1.2 mm",
-        "wind": 6
-      },
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
