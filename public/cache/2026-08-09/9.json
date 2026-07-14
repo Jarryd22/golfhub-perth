@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:11:21+00:00",
+  "generated_at": "2026-07-14T23:12:32+00:00",
   "date": "2026-08-09",
   "holes": "9",
   "results": [
@@ -18,34 +18,18 @@
     },
     {
       "site_name": "Araluen",
-      "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=102808",
+      "url": "https://araluenestategolfcourse.miclub.com.au",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
       "site_name": "Carramar",
-      "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=1500468370",
+      "url": "https://carramar.miclub.com.au",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -94,34 +78,18 @@
     },
     {
       "site_name": "Hamersley",
-      "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260809",
+      "url": "https://hamersley.quick18.com",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
       "site_name": "Hartfield",
-      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=1517030949",
+      "url": "https://www.hartfieldgolf.com.au",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
@@ -2558,150 +2526,10 @@
     },
     {
       "site_name": "The Vines",
-      "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
+      "url": "https://thevines.miclub.com.au",
       "hole_label": "9 holes",
-      "rows": [
-        {
-          "time": "07:16 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "07:24 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "07:32 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "07:40 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "07:48 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "07:56 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "08:04 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        },
-        {
-          "time": "08:12 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "07:16 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 436
-        },
-        {
-          "time": "07:24 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 444
-        },
-        {
-          "time": "07:32 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 452
-        },
-        {
-          "time": "07:40 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 460
-        },
-        {
-          "time": "07:48 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 468
-        },
-        {
-          "time": "07:56 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 476
-        },
-        {
-          "time": "08:04 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 484
-        },
-        {
-          "time": "08:12 am",
-          "course_raw": "Vines 10th",
-          "spots": 4,
-          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=22289426",
-          "course": "Vines 10th",
-          "minutes": 492
-        }
-      ],
-      "grouped": {
-        "4": {
-          "Vines 10th": [
-            "07:16 am",
-            "07:24 am",
-            "07:32 am",
-            "07:40 am",
-            "07:48 am",
-            "07:56 am",
-            "08:04 am",
-            "08:12 am"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 07:16 am",
-      "preference_course": "Vines 10th",
-      "display_group": 4,
-      "display_earliest": "07:16 am",
-      "earliest_group_times": [
-        [
-          4,
-          "07:16 am"
-        ]
-      ],
-      "weather": null,
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {

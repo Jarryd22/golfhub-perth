@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:10:43+00:00",
+  "generated_at": "2026-07-14T23:11:26+00:00",
   "date": "2026-07-15",
   "holes": "9",
   "results": [
@@ -333,14 +333,20 @@
       "rows": [
         {
           "time": "07:20 am",
+          "course_raw": "Island 9 Holes ONLY",
+          "spots": 1,
+          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
+        },
+        {
+          "time": "07:20 am",
           "course_raw": "Lake 9 Holes ONLY",
           "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
         },
         {
-          "time": "07:44 am",
-          "course_raw": "Lake 9 Holes ONLY",
-          "spots": 2,
+          "time": "07:28 am",
+          "course_raw": "Island 9 Holes ONLY",
+          "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
         },
         {
@@ -368,12 +374,6 @@
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
         },
         {
-          "time": "09:36 am",
-          "course_raw": "Lake 9 Holes ONLY",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
-        },
-        {
           "time": "10:00 am",
           "course_raw": "Lake 9 Holes ONLY",
           "spots": 1,
@@ -394,12 +394,6 @@
         {
           "time": "10:48 am",
           "course_raw": "Lake 9 Holes ONLY",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
-        },
-        {
-          "time": "11:52 am",
-          "course_raw": "Lake (9) Lake & Pines (18)",
           "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733"
         },
@@ -467,6 +461,14 @@
       "decorated_rows": [
         {
           "time": "07:20 am",
+          "course_raw": "Island 9 Holes ONLY",
+          "spots": 1,
+          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733",
+          "course": "Island 9 Holes ONLY",
+          "minutes": 440
+        },
+        {
+          "time": "07:20 am",
           "course_raw": "Lake 9 Holes ONLY",
           "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733",
@@ -474,12 +476,12 @@
           "minutes": 440
         },
         {
-          "time": "07:44 am",
-          "course_raw": "Lake 9 Holes ONLY",
-          "spots": 2,
+          "time": "07:28 am",
+          "course_raw": "Island 9 Holes ONLY",
+          "spots": 1,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733",
-          "course": "Lake 9 Holes ONLY",
-          "minutes": 464
+          "course": "Island 9 Holes ONLY",
+          "minutes": 448
         },
         {
           "time": "07:52 am",
@@ -514,14 +516,6 @@
           "minutes": 520
         },
         {
-          "time": "09:36 am",
-          "course_raw": "Lake 9 Holes ONLY",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733",
-          "course": "Lake 9 Holes ONLY",
-          "minutes": 576
-        },
-        {
           "time": "10:00 am",
           "course_raw": "Lake 9 Holes ONLY",
           "spots": 1,
@@ -552,14 +546,6 @@
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733",
           "course": "Lake 9 Holes ONLY",
           "minutes": 648
-        },
-        {
-          "time": "11:52 am",
-          "course_raw": "Lake (9) Lake & Pines (18)",
-          "spots": 1,
-          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500323733",
-          "course": "Pines/Lake",
-          "minutes": 712
         },
         {
           "time": "12:16 pm",
@@ -644,9 +630,16 @@
       ],
       "grouped": {
         "1": {
+          "Island 9 Holes ONLY": [
+            "07:20 am",
+            "07:28 am",
+            "07:52 am",
+            "08:00 am",
+            "08:32 am",
+            "08:40 am"
+          ],
           "Lake 9 Holes ONLY": [
             "07:20 am",
-            "09:36 am",
             "10:00 am",
             "10:24 am",
             "10:40 am",
@@ -654,14 +647,7 @@
             "02:48 pm",
             "02:56 pm"
           ],
-          "Island 9 Holes ONLY": [
-            "07:52 am",
-            "08:00 am",
-            "08:32 am",
-            "08:40 am"
-          ],
           "Pines/Lake": [
-            "11:52 am",
             "12:16 pm",
             "12:32 pm",
             "12:48 pm",
@@ -673,9 +659,6 @@
           ]
         },
         "2": {
-          "Lake 9 Holes ONLY": [
-            "07:44 am"
-          ],
           "Pines/Lake": [
             "01:28 pm",
             "02:16 pm"
@@ -683,7 +666,7 @@
         }
       },
       "preference_text": "Best overall option: 07:20 am",
-      "preference_course": "Lake 9 Holes ONLY",
+      "preference_course": "Island 9 Holes ONLY",
       "display_group": 2,
       "display_earliest": "07:20 am",
       "earliest_group_times": [
@@ -693,7 +676,7 @@
         ],
         [
           2,
-          "07:44 am"
+          "01:28 pm"
         ]
       ],
       "weather": {
@@ -717,7 +700,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "Embleton",
+        "tmax": 23,
+        "tmin": 11,
+        "rain_chance": 0,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 15
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -989,7 +983,7 @@
         {
           "time": "01:21 pm",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=103961"
         },
         {
@@ -1467,7 +1461,7 @@
         {
           "time": "01:21 pm",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=103961",
           "course": "",
           "minutes": 801
@@ -1673,6 +1667,7 @@
             "11:57 am",
             "12:11 pm",
             "12:32 pm",
+            "01:21 pm",
             "01:35 pm",
             "01:42 pm",
             "02:10 pm",
@@ -1707,7 +1702,6 @@
             "12:53 pm",
             "01:07 pm",
             "01:14 pm",
-            "01:21 pm",
             "01:28 pm",
             "01:49 pm",
             "01:56 pm",
@@ -2047,10 +2041,29 @@
     },
     {
       "site_name": "Lake Claremont",
-      "url": "https://lakeclaremont.quick18.com",
+      "url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20260715",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
+        "location_name": "Lake Claremont",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 0,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 16
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -2169,7 +2182,7 @@
         {
           "time": "01:24 pm",
           "course_raw": "Social Play",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=3451283"
         },
         {
@@ -2489,7 +2502,7 @@
         {
           "time": "01:24 pm",
           "course_raw": "Social Play",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=3451283",
           "course": "Social Play",
           "minutes": 804
@@ -2750,6 +2763,7 @@
             "11:48 am",
             "11:56 am",
             "12:04 pm",
+            "01:24 pm",
             "02:04 pm"
           ]
         },
@@ -2757,7 +2771,6 @@
           "Social Play": [
             "12:36 pm",
             "01:16 pm",
-            "01:24 pm",
             "01:40 pm",
             "02:12 pm",
             "02:20 pm",
@@ -2969,7 +2982,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛅",
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "location_name": "Point Walter",
+        "tmax": 22,
+        "tmin": 12,
+        "rain_chance": 0,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 16
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -3050,12 +3074,6 @@
       "hole_label": "9 holes",
       "rows": [
         {
-          "time": "07:04 am",
-          "course_raw": "10th Tee 9 Holes Only",
-          "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
-        },
-        {
           "time": "07:12 am",
           "course_raw": "10th Tee 9 Holes Only",
           "spots": 3,
@@ -3076,7 +3094,7 @@
         {
           "time": "07:36 am",
           "course_raw": "10th Tee 9 Holes Only",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
         },
         {
@@ -3123,12 +3141,6 @@
         },
         {
           "time": "10:48 am",
-          "course_raw": "1st Tee",
-          "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
-        },
-        {
-          "time": "10:56 am",
           "course_raw": "1st Tee",
           "spots": 2,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449"
@@ -3280,14 +3292,6 @@
       ],
       "decorated_rows": [
         {
-          "time": "07:04 am",
-          "course_raw": "10th Tee 9 Holes Only",
-          "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
-          "course": "10th Tee 9 Holes Only",
-          "minutes": 424
-        },
-        {
           "time": "07:12 am",
           "course_raw": "10th Tee 9 Holes Only",
           "spots": 3,
@@ -3314,7 +3318,7 @@
         {
           "time": "07:36 am",
           "course_raw": "10th Tee 9 Holes Only",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
           "course": "10th Tee 9 Holes Only",
           "minutes": 456
@@ -3382,14 +3386,6 @@
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
           "course": "",
           "minutes": 648
-        },
-        {
-          "time": "10:56 am",
-          "course_raw": "1st Tee",
-          "spots": 2,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=12449",
-          "course": "",
-          "minutes": 656
         },
         {
           "time": "11:04 am",
@@ -3585,28 +3581,10 @@
         }
       ],
       "grouped": {
-        "2": {
-          "10th Tee 9 Holes Only": [
-            "07:04 am",
-            "08:24 am"
-          ],
-          "": [
-            "10:00 am",
-            "10:16 am",
-            "10:48 am",
-            "10:56 am",
-            "11:04 am",
-            "11:20 am",
-            "11:28 am",
-            "12:08 pm",
-            "12:24 pm",
-            "12:56 pm",
-            "03:04 pm"
-          ]
-        },
         "3": {
           "10th Tee 9 Holes Only": [
             "07:12 am",
+            "07:36 am",
             "07:44 am",
             "08:16 am"
           ],
@@ -3628,7 +3606,6 @@
         "4": {
           "10th Tee 9 Holes Only": [
             "07:28 am",
-            "07:36 am",
             "08:08 am"
           ],
           "": [
@@ -3646,17 +3623,30 @@
             "02:56 pm",
             "03:12 pm"
           ]
+        },
+        "2": {
+          "10th Tee 9 Holes Only": [
+            "08:24 am"
+          ],
+          "": [
+            "10:00 am",
+            "10:16 am",
+            "10:48 am",
+            "11:04 am",
+            "11:20 am",
+            "11:28 am",
+            "12:08 pm",
+            "12:24 pm",
+            "12:56 pm",
+            "03:04 pm"
+          ]
         }
       },
-      "preference_text": "Best overall option: 07:04 am",
+      "preference_text": "Best overall option: 07:12 am",
       "preference_course": "10th Tee 9 Holes Only",
       "display_group": 4,
-      "display_earliest": "07:04 am",
+      "display_earliest": "07:12 am",
       "earliest_group_times": [
-        [
-          2,
-          "07:04 am"
-        ],
         [
           3,
           "07:12 am"
@@ -3668,6 +3658,10 @@
         [
           4,
           "07:28 am"
+        ],
+        [
+          2,
+          "08:24 am"
         ]
       ],
       "weather": {
@@ -3722,7 +3716,7 @@
         {
           "time": "7:22 am",
           "course_raw": "9 Holes",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260715"
         },
         {
@@ -3960,7 +3954,7 @@
         {
           "time": "7:22 am",
           "course_raw": "9 Holes",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260715",
           "course": "9 Holes",
           "minutes": 442
@@ -4266,7 +4260,6 @@
         "2": {
           "9 Holes": [
             "7:15 am",
-            "7:22 am",
             "7:52 am",
             "10:22 am",
             "12:00 pm",
@@ -4274,6 +4267,22 @@
             "1:00 pm",
             "1:07 pm",
             "1:15 pm"
+          ]
+        },
+        "1": {
+          "9 Holes": [
+            "7:22 am",
+            "8:37 am",
+            "8:52 am",
+            "9:15 am",
+            "9:45 am",
+            "9:52 am",
+            "11:22 am",
+            "11:30 am",
+            "12:30 pm",
+            "1:30 pm",
+            "2:22 pm",
+            "3:22 pm"
           ]
         },
         "4": {
@@ -4298,21 +4307,6 @@
             "3:00 pm",
             "3:07 pm"
           ]
-        },
-        "1": {
-          "9 Holes": [
-            "8:37 am",
-            "8:52 am",
-            "9:15 am",
-            "9:45 am",
-            "9:52 am",
-            "11:22 am",
-            "11:30 am",
-            "12:30 pm",
-            "1:30 pm",
-            "2:22 pm",
-            "3:22 pm"
-          ]
         }
       },
       "preference_text": "Best overall option: 7:15 am",
@@ -4325,12 +4319,12 @@
           "7:15 am"
         ],
         [
-          4,
-          "7:30 am"
+          1,
+          "7:22 am"
         ],
         [
-          1,
-          "8:37 am"
+          4,
+          "7:30 am"
         ]
       ],
       "weather": {
@@ -4420,6 +4414,12 @@
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500344725"
         },
         {
+          "time": "09:21 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500344725"
+        },
+        {
           "time": "12:41 pm",
           "course_raw": "1st Tee",
           "spots": 1,
@@ -4466,6 +4466,14 @@
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500344725",
           "course": "10th Tee",
           "minutes": 513
+        },
+        {
+          "time": "09:21 am",
+          "course_raw": "1st Tee",
+          "spots": 1,
+          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-15&feeGroupId=1500344725",
+          "course": "",
+          "minutes": 561
         },
         {
           "time": "12:41 pm",
@@ -4519,6 +4527,7 @@
             "08:33 am"
           ],
           "": [
+            "09:21 am",
             "12:41 pm",
             "12:49 pm",
             "02:33 pm",

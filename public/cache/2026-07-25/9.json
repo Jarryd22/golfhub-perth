@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:11:53+00:00",
+  "generated_at": "2026-07-14T23:12:56+00:00",
   "date": "2026-07-25",
   "holes": "9",
   "results": [
@@ -10,7 +10,18 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Altone Park",
+        "tmax": 21,
+        "tmin": 12,
+        "rain_chance": 26,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 10
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -431,10 +442,29 @@
     },
     {
       "site_name": "Collier Park",
-      "url": "https://bookings.collierparkgolf.com.au",
+      "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500323733",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": {
+        "icon": "☁️",
+        "icon_file": "sheet_cloud.png",
+        "label": "Overcast",
+        "location_name": "Collier Park",
+        "tmax": 20,
+        "tmin": 11,
+        "rain_chance": 26,
+        "rain_mm": 0.0,
+        "rain_amount_label": "0 mm",
+        "wind": 9
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -1392,12 +1422,6 @@
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575"
         },
         {
-          "time": "07:46 am",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575"
-        },
-        {
           "time": "07:54 am",
           "course_raw": "10TH TEE",
           "spots": 4,
@@ -1442,12 +1466,6 @@
         {
           "time": "08:34 am",
           "course_raw": "10TH TEE",
-          "spots": 4,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575"
-        },
-        {
-          "time": "08:34 am",
-          "course_raw": "1ST TEE",
           "spots": 4,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575"
         },
@@ -1641,14 +1659,6 @@
         },
         {
           "time": "07:46 am",
-          "course_raw": "1ST TEE",
-          "spots": 1,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575",
-          "course": "",
-          "minutes": 466
-        },
-        {
-          "time": "07:46 am",
           "course_raw": "10TH TEE",
           "spots": 1,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575",
@@ -1710,14 +1720,6 @@
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575",
           "course": "",
           "minutes": 506
-        },
-        {
-          "time": "08:34 am",
-          "course_raw": "1ST TEE",
-          "spots": 4,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500406575",
-          "course": "",
-          "minutes": 514
         },
         {
           "time": "08:34 am",
@@ -1947,8 +1949,7 @@
       "grouped": {
         "1": {
           "": [
-            "07:22 am",
-            "07:46 am"
+            "07:22 am"
           ],
           "10TH TEE": [
             "07:38 am",
@@ -1971,7 +1972,6 @@
             "08:42 am"
           ],
           "": [
-            "08:34 am",
             "08:42 am",
             "10:42 am",
             "10:50 am",
@@ -3601,25 +3601,7 @@
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
         },
         {
-          "time": "07:15 am",
-          "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
-        },
-        {
           "time": "07:22 am",
-          "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
-        },
-        {
-          "time": "07:29 am",
-          "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
-        },
-        {
-          "time": "07:37 am",
           "course_raw": "10th Tee",
           "spots": 4,
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725"
@@ -3781,36 +3763,12 @@
           "minutes": 428
         },
         {
-          "time": "07:15 am",
-          "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
-          "course": "10th Tee",
-          "minutes": 435
-        },
-        {
           "time": "07:22 am",
           "course_raw": "10th Tee",
           "spots": 4,
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
           "course": "10th Tee",
           "minutes": 442
-        },
-        {
-          "time": "07:29 am",
-          "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
-          "course": "10th Tee",
-          "minutes": 449
-        },
-        {
-          "time": "07:37 am",
-          "course_raw": "10th Tee",
-          "spots": 4,
-          "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-25&feeGroupId=1500344725",
-          "course": "10th Tee",
-          "minutes": 457
         },
         {
           "time": "11:37 am",
@@ -4006,10 +3964,7 @@
         "4": {
           "10th Tee": [
             "07:08 am",
-            "07:15 am",
-            "07:22 am",
-            "07:29 am",
-            "07:37 am"
+            "07:22 am"
           ],
           "": [
             "11:37 am",

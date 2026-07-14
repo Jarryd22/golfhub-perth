@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:13:09+00:00",
+  "generated_at": "2026-07-14T23:14:05+00:00",
   "date": "2026-08-03",
   "holes": "18",
   "results": [
@@ -725,10 +725,135 @@
     },
     {
       "site_name": "Kwinana",
-      "url": "https://www.kwinanagolfclub.com.au",
+      "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "07:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        },
+        {
+          "time": "07:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        },
+        {
+          "time": "07:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        },
+        {
+          "time": "07:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        },
+        {
+          "time": "08:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "07:16 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 436
+        },
+        {
+          "time": "07:24 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 444
+        },
+        {
+          "time": "07:40 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 460
+        },
+        {
+          "time": "07:48 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 468
+        },
+        {
+          "time": "07:56 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 476
+        },
+        {
+          "time": "08:12 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 492
+        },
+        {
+          "time": "08:20 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-03&feeGroupId=1505795368",
+          "course": "",
+          "minutes": 500
+        }
+      ],
+      "grouped": {
+        "4": {
+          "": [
+            "07:16 am",
+            "07:24 am",
+            "07:40 am",
+            "07:48 am",
+            "07:56 am",
+            "08:12 am",
+            "08:20 am"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 07:16 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "07:16 am",
+      "earliest_group_times": [
+        [
+          4,
+          "07:16 am"
+        ]
+      ],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {

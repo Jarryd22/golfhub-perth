@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:12:01+00:00",
+  "generated_at": "2026-07-14T23:13:05+00:00",
   "date": "2026-07-22",
   "holes": "18",
   "results": [
@@ -2626,18 +2626,6 @@
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382"
         },
         {
-          "time": "07:58 am",
-          "course_raw": "10th Tee am",
-          "spots": 4,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382"
-        },
-        {
-          "time": "08:12 am",
-          "course_raw": "10th Tee am",
-          "spots": 4,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382"
-        },
-        {
           "time": "08:19 am",
           "course_raw": "10th Tee am",
           "spots": 4,
@@ -2916,22 +2904,6 @@
           "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382",
           "course": "10th Tee am",
           "minutes": 471
-        },
-        {
-          "time": "07:58 am",
-          "course_raw": "10th Tee am",
-          "spots": 4,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382",
-          "course": "10th Tee am",
-          "minutes": 478
-        },
-        {
-          "time": "08:12 am",
-          "course_raw": "10th Tee am",
-          "spots": 4,
-          "source_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-22&feeGroupId=1511784382",
-          "course": "10th Tee am",
-          "minutes": 492
         },
         {
           "time": "08:19 am",
@@ -3277,8 +3249,6 @@
         "4": {
           "10th Tee am": [
             "07:44 am",
-            "07:58 am",
-            "08:12 am",
             "08:19 am",
             "08:26 am",
             "08:33 am",

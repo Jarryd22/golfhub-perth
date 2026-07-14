@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:11:15+00:00",
+  "generated_at": "2026-07-14T23:11:58+00:00",
   "date": "2026-08-09",
   "holes": "18",
   "results": [
@@ -1529,10 +1529,128 @@
     },
     {
       "site_name": "The Vines",
-      "url": "https://thevines.miclub.com.au",
+      "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "09:48 am",
+          "course_raw": "Vines 1st",
+          "spots": 2,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812"
+        },
+        {
+          "time": "09:56 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812"
+        },
+        {
+          "time": "10:04 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812"
+        },
+        {
+          "time": "09:48 am",
+          "course_raw": "Vines 1st",
+          "spots": 2,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803814"
+        },
+        {
+          "time": "09:56 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803814"
+        },
+        {
+          "time": "10:04 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803814"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "09:48 am",
+          "course_raw": "Vines 1st",
+          "spots": 2,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812",
+          "course": "Vines 1st",
+          "minutes": 588
+        },
+        {
+          "time": "09:48 am",
+          "course_raw": "Vines 1st",
+          "spots": 2,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803814",
+          "course": "Vines 1st",
+          "minutes": 588
+        },
+        {
+          "time": "09:56 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812",
+          "course": "Vines 1st",
+          "minutes": 596
+        },
+        {
+          "time": "09:56 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803814",
+          "course": "Vines 1st",
+          "minutes": 596
+        },
+        {
+          "time": "10:04 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803812",
+          "course": "Vines 1st",
+          "minutes": 604
+        },
+        {
+          "time": "10:04 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-08-09&feeGroupId=25803814",
+          "course": "Vines 1st",
+          "minutes": 604
+        }
+      ],
+      "grouped": {
+        "2": {
+          "Vines 1st": [
+            "09:48 am",
+            "09:48 am"
+          ]
+        },
+        "4": {
+          "Vines 1st": [
+            "09:56 am",
+            "09:56 am",
+            "10:04 am",
+            "10:04 am"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 09:48 am",
+      "preference_course": "Vines 1st",
+      "display_group": 4,
+      "display_earliest": "09:48 am",
+      "earliest_group_times": [
+        [
+          2,
+          "09:48 am"
+        ],
+        [
+          4,
+          "09:56 am"
+        ]
+      ],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {

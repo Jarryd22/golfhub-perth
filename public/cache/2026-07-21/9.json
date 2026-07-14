@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:11:52+00:00",
+  "generated_at": "2026-07-14T23:12:56+00:00",
   "date": "2026-07-21",
   "holes": "9",
   "results": [
@@ -4499,12 +4499,6 @@
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1502727564"
         },
         {
-          "time": "11:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1502727564"
-        },
-        {
           "time": "11:56 am",
           "course_raw": "1st Tee",
           "spots": 4,
@@ -4923,14 +4917,6 @@
           "minutes": 676
         },
         {
-          "time": "11:48 am",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-21&feeGroupId=1502727564",
-          "course": "",
-          "minutes": 708
-        },
-        {
           "time": "11:56 am",
           "course_raw": "1st Tee",
           "spots": 4,
@@ -5220,7 +5206,6 @@
             "11:00 am",
             "11:08 am",
             "11:16 am",
-            "11:48 am",
             "11:56 am",
             "12:04 pm",
             "12:12 pm",
@@ -7289,18 +7274,7 @@
       "hole_label": "9 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": {
-        "icon": "🌤️",
-        "icon_file": "sheet_clear.png",
-        "label": "Mostly clear",
-        "location_name": "Point Walter",
-        "tmax": 16,
-        "tmin": 6,
-        "rain_chance": 31,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
-        "wind": 7
-      },
+      "weather": null,
       "error": null,
       "not_configured": false,
       "direct_booking": true,

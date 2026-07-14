@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T22:10:17+00:00",
+  "generated_at": "2026-07-14T23:11:21+00:00",
   "date": "2026-07-23",
   "holes": "18",
   "results": [
@@ -1309,7 +1309,7 @@
         {
           "time": "09:16 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1505795368"
         },
         {
@@ -1345,7 +1345,7 @@
         {
           "time": "10:04 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1505795368"
         },
         {
@@ -1511,7 +1511,7 @@
         {
           "time": "09:16 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1505795368",
           "course": "",
           "minutes": 556
@@ -1559,7 +1559,7 @@
         {
           "time": "10:04 am",
           "course_raw": "1st Tee",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1505795368",
           "course": "",
           "minutes": 604
@@ -1743,18 +1743,18 @@
         },
         "2": {
           "": [
-            "07:16 am"
+            "07:16 am",
+            "09:16 am",
+            "10:04 am"
           ]
         },
         "4": {
           "": [
-            "09:16 am",
             "09:24 am",
             "09:32 am",
             "09:40 am",
             "09:48 am",
             "09:56 am",
-            "10:04 am",
             "10:12 am",
             "10:20 am",
             "10:28 am",
@@ -1794,7 +1794,7 @@
         ],
         [
           4,
-          "09:16 am"
+          "09:24 am"
         ]
       ],
       "weather": {
@@ -5163,7 +5163,7 @@
         {
           "time": "10:01 am",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500344723"
         },
         {
@@ -5291,7 +5291,7 @@
         {
           "time": "10:01 am",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500344723",
           "course": "",
           "minutes": 601
@@ -5458,7 +5458,7 @@
         }
       ],
       "grouped": {
-        "2": {
+        "1": {
           "": [
             "10:01 am"
           ]
@@ -5494,7 +5494,7 @@
       "display_earliest": "10:01 am",
       "earliest_group_times": [
         [
-          2,
+          1,
           "10:01 am"
         ],
         [
