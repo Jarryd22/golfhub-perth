@@ -13,7 +13,7 @@ CONFIG = ROOT / "data" / "cache_config.json"
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("repository", help="GitHub repository as owner/name")
-    parser.add_argument("--branch", default="main")
+    parser.add_argument("--branch", default="cache")
     args = parser.parse_args()
     if args.repository.count("/") != 1:
         parser.error("repository must be in owner/name form")

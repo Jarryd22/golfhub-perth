@@ -255,12 +255,16 @@ class DirectCourseCard(QFrame):
         name = QLabel(str(result.get("site_name") or "Course"))
         name.setObjectName("DirectTitle")
         layout.addWidget(name, 0, 0)
-        button = QPushButton("BOOK DIRECT")
+        button = QPushButton("VIEW COURSE")
         button.setObjectName("MiniButton")
         button.setStyleSheet("QPushButton { background-color: #F59E0B; color: #090909; border: 0; border-radius: 7px; padding: 8px 13px; font-weight: 800; } QPushButton:hover { background-color: #FFB020; } QPushButton:pressed { background-color: #E48700; }")
         button.clicked.connect(self.open_url)
         layout.addWidget(button, 0, 1, alignment=Qt.AlignRight)
-        layout.addWidget(WeatherBadge(result.get("weather"), compact=True), 1, 0, 1, 2)
+        note = QLabel(str(result.get("booking_note") or "Official booking or visitor information."))
+        note.setObjectName("Muted")
+        note.setWordWrap(True)
+        layout.addWidget(note, 1, 0, 1, 2)
+        layout.addWidget(WeatherBadge(result.get("weather"), compact=True), 2, 0, 1, 2)
 
     def open_url(self):
         if self.result.get("url"):
@@ -326,8 +330,15 @@ class ResultCard(QFrame):
         title = QLabel(str(result.get("site_name") or "Golf course"))
         title.setObjectName("ResultTitle")
         title_col.addWidget(title)
-        if result.get("direct_booking"):
-            meta_text = "Direct booking - availability opens on the course website"
+        calendar_status = result.get("calendar_availability")
+        if calendar_status == "available":
+            meta_text = f"Official calendar shows bookings available - {result.get('hole_label', '')}"
+        elif calendar_status == "full":
+            meta_text = f"Official calendar currently shows this round as full - {result.get('hole_label', '')}"
+        elif calendar_status == "unreleased":
+            meta_text = f"Timesheet not released yet - {result.get('hole_label', '')}"
+        elif result.get("direct_booking"):
+            meta_text = "Official course link - booking or visitor instructions"
         elif result.get("error"):
             meta_text = "Could not read live availability - direct booking is still available"
         else:
@@ -338,7 +349,11 @@ class ResultCard(QFrame):
         meta.setSizePolicy(QSizePolicy.Ignored, QSizePolicy.Preferred)
         title_col.addWidget(meta)
         top.addLayout(title_col, 0, 0)
-        open_button = QPushButton("VIEW COURSE" if result.get("direct_booking") else "OPEN BOOKING PAGE")
+        open_button = QPushButton(
+            "CHECK WEMBLEY TIMES"
+            if calendar_status
+            else ("VIEW COURSE" if result.get("direct_booking") else "OPEN BOOKING PAGE")
+        )
         open_button.setObjectName("OutlineButton")
         open_button.clicked.connect(self.open_url)
         top.addWidget(open_button, 0, 1, alignment=Qt.AlignTop | Qt.AlignRight)
@@ -351,6 +366,11 @@ class ResultCard(QFrame):
             warning.setObjectName("Warning")
             warning.setWordWrap(True)
             outer.addWidget(warning)
+        elif calendar_status:
+            note = QLabel(result.get("booking_note") or "Open Wembley's official calendar to check exact times.")
+            note.setObjectName("AvailabilityAvailable" if calendar_status == "available" else "AvailabilityNotice")
+            note.setWordWrap(True)
+            outer.addWidget(note)
         elif result.get("direct_booking"):
             note = QLabel(result.get("booking_note") or "Check current times on the official course website.")
             note.setObjectName("DirectNote")
@@ -438,7 +458,7 @@ class GolfHub(QMainWindow):
         row.addWidget(perth)
         row.addStretch()
         brand.addLayout(row)
-        tagline = QLabel("One search. Every public course. Book direct with confidence.")
+        tagline = QLabel("One search. Every public course. Plan your round with confidence.")
         tagline.setObjectName("Tagline")
         brand.addWidget(tagline)
         layout.addLayout(brand, 1)
@@ -697,7 +717,7 @@ class GolfHub(QMainWindow):
         if hasattr(self, "selected_count"):
             self.selected_count.setText(f"{count} selected")
         if hasattr(self, "course_button"):
-            self.course_button.setText(f"COURSES  {count}")
+            self.course_button.setText(f"COURSES  {count} OF {len(self.sites)}")
 
     def set_visible(self, checked):
         for row in self.course_rows:
@@ -907,7 +927,7 @@ class GolfHub(QMainWindow):
         matches = sum(len(self.filtered_rows(r.get("decorated_rows", []))) for r in visible_results)
         live_count = sum(1 for r in visible_results if not r.get("error") and not r.get("direct_booking"))
         direct_count = sum(1 for r in visible_results if r.get("direct_booking"))
-        no_match_count = sum(1 for r in visible_results if not r.get("direct_booking") and not r.get("error") and not self.filtered_rows(r.get("decorated_rows", [])))
+        no_match_count = sum(1 for r in visible_results if not r.get("direct_booking") and not r.get("error") and not r.get("calendar_availability") and not self.filtered_rows(r.get("decorated_rows", [])))
         summary = QFrame()
         summary.setObjectName("Summary")
         line = QGridLayout(summary)
@@ -918,7 +938,7 @@ class GolfHub(QMainWindow):
         label.setObjectName("SummaryValue")
         line.addWidget(label, 0, 0)
         line.addWidget(QLabel(f"{live_count} availability feeds"), 0, 1)
-        line.addWidget(QLabel(f"{direct_count} direct-booking courses"), 0, 2)
+        line.addWidget(QLabel(f"{direct_count} official course links"), 0, 2)
         if no_match_count:
             line.addWidget(QLabel(f"{no_match_count} courses with no matching times"), 0, 3)
         source_label = QLabel(source)
@@ -942,7 +962,7 @@ class GolfHub(QMainWindow):
             rows = self.filtered_rows(result.get("decorated_rows", []))
             if result.get("direct_booking"):
                 direct_results.append(result)
-            elif rows or result.get("error"):
+            elif rows or result.get("error") or result.get("calendar_availability"):
                 self.results_layout.addWidget(ResultCard(result, rows))
                 rendered_live += 1
 
@@ -957,7 +977,7 @@ class GolfHub(QMainWindow):
             direct_layout.setSpacing(10)
             direct_title = QLabel("More Perth courses")
             direct_title.setObjectName("ResultTitle")
-            direct_subtitle = QLabel("These courses publish bookings on their own website.")
+            direct_subtitle = QLabel("Official booking pages and visitor information for public-access courses.")
             direct_subtitle.setObjectName("Muted")
             direct_layout.addWidget(direct_title)
             direct_layout.addWidget(direct_subtitle)
@@ -1040,6 +1060,8 @@ class GolfHub(QMainWindow):
         QPushButton#MiniButton {{ background:{p['gold']}; color:#090909; border:0; border-radius:7px; padding:7px 10px; font-weight:900; }}
         QLabel#Warning {{ color:#F1B0A3; background:#351713; border-radius:8px; padding:10px; }}
         QLabel#DirectNote, QLabel#EmptyNote {{ color:{p['muted']}; background:#171717; border-radius:8px; padding:11px; }}
+        QLabel#AvailabilityAvailable {{ color:{p['mint']}; background:#10281B; border:1px solid #24583A; border-radius:8px; padding:11px; }}
+        QLabel#AvailabilityNotice {{ color:{p['gold2']}; background:#2A1C08; border:1px solid #704A0A; border-radius:8px; padding:11px; }}
         QFrame#EmptyState {{ background:{p['surface2']}; border:1px dashed {p['line2']}; border-radius:14px; }} QLabel#EmptyTitle {{ font-size:24px; font-weight:850; }}
         QScrollBar:vertical {{ background:transparent; width:10px; }} QScrollBar::handle:vertical {{ background:#4A4A4A; border-radius:5px; min-height:40px; }} QScrollBar::add-line:vertical, QScrollBar::sub-line:vertical {{ height:0; }}
         QSplitter::handle {{ background:{p['bg']}; width:8px; }}

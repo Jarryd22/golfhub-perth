@@ -6,14 +6,57 @@ on:
     - cron: "*/10 * * * *"
 
 permissions:
-  contents: write
+  contents: read
 
 concurrency:
   group: golfhub-four-week-cache
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
+  prepare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      base_date: ${{ steps.perth_date.outputs.base_date }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Anchor one Perth calendar date
+        id: perth_date
+        shell: bash
+        run: echo "base_date=$(TZ=Australia/Perth date +%F)" >> "$GITHUB_OUTPUT"
+      - name: Prepare one shared forecast per course
+        run: >-
+          python scripts/prepare_weather_cache.py
+          --base-date "${{ steps.perth_date.outputs.base_date }}"
+          --workers 4
+          --output "$RUNNER_TEMP/weather-cache.json"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: weather-cache
+          path: ${{ runner.temp }}/weather-cache.json
+          retention-days: 1
+      - name: Export prior cache branch for transient fallback
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p "$RUNNER_TEMP/previous-cache/public/cache"
+          echo "First-run placeholder" > "$RUNNER_TEMP/previous-cache/public/cache/placeholder.txt"
+          if git fetch --depth=1 origin cache; then
+            git archive --format=tar FETCH_HEAD public/cache | tar -xf - -C "$RUNNER_TEMP/previous-cache"
+          fi
+      - uses: actions/upload-artifact@v4
+        with:
+          name: previous-cache
+          path: ${{ runner.temp }}/previous-cache/public/cache
+          retention-days: 1
+
   refresh-shard:
+    needs: prepare
     runs-on: ubuntu-latest
     timeout-minutes: 12
     strategy:
@@ -22,15 +65,28 @@ jobs:
         start: [0, 4, 8, 12, 16, 20, 24]
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Refresh four Perth calendar days
+      - uses: actions/download-artifact@v4
+        with:
+          name: weather-cache
+          path: ${{ runner.temp }}/weather
+      - uses: actions/download-artifact@v4
+        with:
+          name: previous-cache
+          path: ${{ runner.temp }}/previous-cache
+      - name: Refresh four anchored Perth calendar days
         run: >-
           python scripts/refresh_cache_shard.py
+          --base-date "${{ needs.prepare.outputs.base_date }}"
           --start-offset ${{ matrix.start }}
           --days 4
           --workers 8
+          --weather-cache "${{ runner.temp }}/weather/weather-cache.json"
+          --fallback "${{ runner.temp }}/previous-cache"
           --output cache-shard
       - uses: actions/upload-artifact@v4
         with:
@@ -39,22 +95,45 @@ jobs:
           retention-days: 1
 
   publish:
-    needs: refresh-shard
+    needs: [prepare, refresh-shard]
     runs-on: ubuntu-latest
     timeout-minutes: 5
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
       - uses: actions/download-artifact@v4
         with:
           pattern: cache-*
-          path: public/cache
+          path: ${{ runner.temp }}/cache-publish
           merge-multiple: true
-      - name: Build manifest and remove expired dates
-        run: python scripts/build_cache_index.py
-      - name: Commit cache snapshot
+      - name: Strictly validate the clean 28-day stage
+        run: >-
+          python scripts/build_cache_index.py
+          --base-date "${{ needs.prepare.outputs.base_date }}"
+          --cache "${{ runner.temp }}/cache-publish"
+      - name: Publish one history-free cache snapshot
+        shell: bash
         run: |
+          set -euo pipefail
           git config user.name "golfhub-cache-bot"
           git config user.email "actions@users.noreply.github.com"
+          git checkout --orphan cache-publish
+          git rm -rf .
+          mkdir -p public
+          cp -a "$RUNNER_TEMP/cache-publish" public/cache
           git add public/cache
-          git diff --cached --quiet || git commit -m "cache: refresh four-week tee times"
-          git push
+          git commit -m "cache: refresh four-week tee times"
+          for attempt in 1 2 3; do
+            if git push --force origin HEAD:cache; then
+              exit 0
+            fi
+            sleep $((attempt * 2))
+          done
+          echo "Cache-branch publish failed after three attempts" >&2
+          exit 1

@@ -32,9 +32,25 @@
       }
     },
     {
+      "name": "Boddington Golf Club",
+      "provider": "direct",
+      "domain": "www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+      "weather_query": "coords:-32.801000,116.459153",
+      "holes": {
+        "18": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        },
+        "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        }
+      }
+    },
+    {
       "name": "Carramar",
       "domain": "carramar.miclub.com.au",
-      "weather_query": "Golf Links Drive, Carramar WA 6031, Australia",
+      "weather_query": "coords:-31.7059055,115.7858636",
       "holes": {
         "18": {
           "booking_resource_id": "3000000",
@@ -63,7 +79,7 @@
     {
       "name": "Collier Park",
       "domain": "bookings.collierparkgolf.com.au",
-      "weather_query": "Hayman Road, Como WA 6152, Australia",
+      "weather_query": "coords:-31.9916705,115.8816811",
       "holes": {
         "18": {
           "booking_resource_id": "3000000",
@@ -99,6 +115,21 @@
         "9": {
           "booking_resource_id": "3000000",
           "fee_group_id": "103961"
+        }
+      }
+    },
+    {
+      "name": "Gosnells Golf Club",
+      "domain": "www.gosnellsgc.com.au",
+      "weather_query": "coords:-32.093751,115.937443",
+      "holes": {
+        "18": {
+          "booking_resource_id": "3000000",
+          "fee_group_id": "19995128"
+        },
+        "9": {
+          "booking_resource_id": "3000000",
+          "fee_group_id": "4981964"
         }
       }
     },
@@ -153,17 +184,16 @@
     },
     {
       "name": "Joondalup Resort",
-      "provider": "direct",
-      "domain": "golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3900000",
+      "domain": "golfbookings.joondalupresort.com.au",
       "weather_query": "coords:-31.7444,115.7519",
       "holes": {
         "18": {
-          "booking_resource_id": "direct",
-          "fee_group_id": "direct"
+          "booking_resource_id": "3900000",
+          "fee_group_id": "1508198355"
         },
         "9": {
-          "booking_resource_id": "direct",
-          "fee_group_id": "direct"
+          "booking_resource_id": "3900000",
+          "fee_group_id": "1508504524"
         }
       }
     },
@@ -228,7 +258,7 @@
     {
       "name": "Marangaroo",
       "domain": "marangaroo.miclub.com.au",
-      "weather_query": "Aylesford Drive, Marangaroo WA 6064, Australia",
+      "weather_query": "coords:-31.8238078,115.8304028",
       "holes": {
         "18": {
           "booking_resource_id": "3000000",
@@ -258,17 +288,16 @@
     },
     {
       "name": "Maylands",
-      "provider": "direct",
-      "domain": "maylandsgolfcourse.com.au/golf/bookings",
+      "domain": "maylandsembleton.miclub.com.au",
       "weather_query": "coords:-31.9464,115.9096",
       "holes": {
         "18": {
-          "booking_resource_id": "direct",
-          "fee_group_id": "direct"
+          "booking_resource_id": "3000000",
+          "fee_group_id": "100795"
         },
         "9": {
-          "booking_resource_id": "direct",
-          "fee_group_id": "direct"
+          "booking_resource_id": "3000000",
+          "fee_group_id": "100797"
         }
       }
     },
@@ -283,6 +312,44 @@
           "fee_group_id": "direct"
         },
         "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        }
+      }
+    },
+    {
+      "name": "Mosman Park",
+      "domain": "www.mosmanparkgolfclub.com.au",
+      "weather_query": "coords:-32.020092,115.777474",
+      "holes": {
+        "18": {
+          "booking_resource_id": "3000000",
+          "fee_group_id": "2100233"
+        },
+        "9": {
+          "booking_resource_id": "3000000",
+          "fee_group_id": "2100238"
+        }
+      }
+    },
+    {
+      "name": "Nedlands Golf Club",
+      "domain": "www.nedlandsgolfclub.com.au",
+      "weather_query": "coords:-31.989393,115.806030",
+      "holes": {
+        "18": {
+          "booking_resource_id": "3000000",
+          "fee_group_id": "3579395"
+        }
+      }
+    },
+    {
+      "name": "Pickering Brook",
+      "provider": "direct",
+      "domain": "www.pickeringbrooksportsclub.org/golf",
+      "weather_query": "coords:-32.033437,116.109506",
+      "holes": {
+        "18": {
           "booking_resource_id": "direct",
           "fee_group_id": "direct"
         }
@@ -309,6 +376,18 @@
       "provider": "direct",
       "domain": "www.pointwaltergolf.com.au/play-golf/golf-bookings",
       "weather_query": "coords:-32.0117,115.7872",
+      "holes": {
+        "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        }
+      }
+    },
+    {
+      "name": "Preston Beach",
+      "provider": "direct",
+      "domain": "www.visitwaroona.com.au/adventure/sport-and-recreation.aspx",
+      "weather_query": "coords:-32.879901,115.656375",
       "holes": {
         "9": {
           "booking_resource_id": "direct",
@@ -380,6 +459,22 @@
       }
     },
     {
+      "name": "Serpentine & Districts",
+      "provider": "direct",
+      "domain": "serpentinegolfclub.org/fees/",
+      "weather_query": "coords:-32.363757,115.968904",
+      "holes": {
+        "18": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        },
+        "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        }
+      }
+    },
+    {
       "name": "Sun City",
       "provider": "direct",
       "domain": "suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
@@ -442,6 +537,38 @@
       }
     },
     {
+      "name": "Wanneroo Golf Club",
+      "provider": "direct",
+      "domain": "wanneroo.miclub.com.au/cms/public-bookings/",
+      "weather_query": "coords:-31.684936,115.814327",
+      "holes": {
+        "18": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        },
+        "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        }
+      }
+    },
+    {
+      "name": "Waroona Golf Club",
+      "provider": "direct",
+      "domain": "www.waroonagolfclub.com.au/green-fees",
+      "weather_query": "coords:-32.851180,115.931379",
+      "holes": {
+        "18": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        },
+        "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        }
+      }
+    },
+    {
       "name": "Wembley",
       "domain": "www.wembleygolf.com.au",
       "weather_query": "coords:-31.9342,115.7930",
@@ -456,7 +583,8 @@
         "9": {
           "booking_resource_id": "3000000",
           "fee_group_ids": [
-            "102211"
+            "102211",
+            "102202"
           ]
         }
       }
@@ -464,7 +592,7 @@
     {
       "name": "Whaleback",
       "domain": "www.whalebackgolfcourse.com.au",
-      "weather_query": "40 Whaleback Avenue, Parkwood WA 6147, Australia",
+      "weather_query": "coords:-32.049599,115.9197441",
       "holes": {
         "18": {
           "booking_resource_id": "3000000",
@@ -473,6 +601,22 @@
         "9": {
           "booking_resource_id": "3000000",
           "fee_group_id": "1500344725"
+        }
+      }
+    },
+    {
+      "name": "Yanchep National Park",
+      "provider": "direct",
+      "domain": "exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+      "weather_query": "coords:-31.541992,115.683043",
+      "holes": {
+        "18": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
+        },
+        "9": {
+          "booking_resource_id": "direct",
+          "fee_group_id": "direct"
         }
       }
     }

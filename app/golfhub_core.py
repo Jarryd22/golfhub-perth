@@ -22,7 +22,12 @@ import logging
 
 CONFIG_FILE = "courses.json"
 GEOCODE_CACHE: dict[str, tuple[float, float]] = {}
-WEATHER_CACHE: dict[tuple[str, str], dict] = {}
+# One Open-Meteo response already contains the complete available forecast.
+# Keeping it by location avoids refetching the same payload for every date and
+# round during the 28-day GitHub cache build.
+WEATHER_CACHE: dict[str, dict[str, dict]] = {}
+WEATHER_CACHE_LOCK = threading.Lock()
+WEATHER_INFLIGHT: dict[str, threading.Event] = {}
 
 APP_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = APP_ROOT / "data"
@@ -352,6 +357,103 @@ def _same_fee_group(url: str, fee_group_ids: set[str]) -> bool:
     q = _url_query_map(url)
     fee = (q.get("feeGroupId") or [""])[0]
     return fee in fee_group_ids
+
+
+def wembley_calendar_url(site: Site, date_str: str) -> str:
+    query = urllib.parse.urlencode({
+        "bookingResourceId": "3000000",
+        "selectedDate": date_str,
+        "mobile": "true",
+    })
+    return f"https://{site.domain}/guests/bookings/ViewPublicCalendar.msp?{query}"
+
+
+def parse_wembley_calendar_availability(
+    html: str,
+    date_str: str,
+    fee_group_ids: set[str],
+) -> tuple[str, list[str]]:
+    """Read trustworthy product-level availability from Wembley's calendar.
+
+    Wembley protects individual slots with its booking check. The public
+    calendar still exposes whether each Old/Tuart product is open or full, so
+    GolfHub reports that status and hands exact-slot selection to Wembley.
+    """
+    row_starts = list(re.finditer(
+        r"""(?is)<div\b[^>]*class=["'][^"']*\bfeeGroupRow\b[^"']*["'][^>]*>""",
+        html,
+    ))
+    relevant_labels: list[str] = []
+    available_labels: list[str] = []
+    for index, match in enumerate(row_starts):
+        end = row_starts[index + 1].start() if index + 1 < len(row_starts) else len(html)
+        block = html[match.start():end]
+        fee_match = re.search(r"""data-feeid=["'](\d+)["']""", block, re.I)
+        if not fee_match or fee_match.group(1) not in fee_group_ids:
+            continue
+        fee_id = fee_match.group(1)
+        label_match = re.search(r"(?is)<h3\b[^>]*>(.*?)</h3>", block)
+        label = html_to_text(label_match.group(1)).strip() if label_match else fee_id
+        relevant_labels.append(label)
+        open_pattern = re.compile(
+            rf"""redirectToTimesheet\(\s*["']{re.escape(fee_id)}["']\s*,\s*["']{re.escape(date_str)}["']""",
+            re.I,
+        )
+        if open_pattern.search(block):
+            available_labels.append(label)
+
+    if available_labels:
+        return "available", available_labels
+
+    target = datetime.strptime(date_str, "%Y-%m-%d")
+    header_pattern = re.compile(
+        rf"<p\b[^>]*>\s*{target.day}\s+{target.strftime('%B')}\s*</p>",
+        re.I,
+    )
+    if relevant_labels and header_pattern.search(html):
+        return "full", relevant_labels
+    if relevant_labels:
+        return "unreleased", relevant_labels
+    return "unknown", []
+
+
+def fetch_wembley_calendar_result(site: Site, date_str: str, hole_type: str, weather: dict | None) -> dict:
+    url = wembley_calendar_url(site, date_str)
+    html = fetch_text(url)
+    option = site.holes[hole_type]
+    fee_group_ids = set(option.resolve_fee_group_ids(date_str))
+    status, course_labels = parse_wembley_calendar_availability(html, date_str, fee_group_ids)
+    if status == "unknown":
+        raise RuntimeError("Wembley calendar response did not contain the configured booking products")
+
+    names = ", ".join(course_labels)
+    if status == "available":
+        note = f"Wembley's official calendar shows bookings available for {names}. Open Wembley to choose the exact tee time and complete its booking check."
+    elif status == "full":
+        note = f"Wembley's official calendar currently shows {names} as full. Open Wembley to re-check cancellations."
+    else:
+        note = "Wembley releases timesheets 10 days ahead from 6 am. This date is not open yet; use the official calendar to check again."
+
+    return {
+        "site": site,
+        "site_name": site.name,
+        "url": url,
+        "hole_label": "18 holes" if hole_type == "18" else "9 holes",
+        "rows": [],
+        "decorated_rows": [],
+        "grouped": {},
+        "preference_text": note,
+        "preference_course": "",
+        "display_group": None,
+        "display_earliest": None,
+        "earliest_group_times": [],
+        "weather": weather,
+        "error": None,
+        "not_configured": False,
+        "calendar_availability": status,
+        "calendar_courses": course_labels,
+        "booking_note": note,
+    }
 
 
 def fetch_wembley_timesheet_urls_from_calendar(site: Site, date_str: str, hole_type: str, timeout: int = 25) -> list[str]:
@@ -1017,55 +1119,108 @@ def rain_amount_label(mm: float) -> str:
     return f"{mm:.1f} mm"
 
 
+def _weather_daily_value(daily: dict, key: str, index: int, default: float = 0) -> float:
+    values = daily.get(key) or []
+    if index >= len(values) or values[index] is None:
+        return default
+    return float(values[index])
+
+
+def _fetch_weather_forecast(query: str) -> dict[str, dict]:
+    """Fetch every forecast day once for one location.
+
+    Empty mappings are cached too, so a provider outage or an out-of-horizon
+    date cannot expand into hundreds of retries during one cache run.
+    """
+    with WEATHER_CACHE_LOCK:
+        if query in WEATHER_CACHE:
+            return WEATHER_CACHE[query]
+        pending = WEATHER_INFLIGHT.get(query)
+        if pending is None:
+            pending = threading.Event()
+            WEATHER_INFLIGHT[query] = pending
+            owns_request = True
+        else:
+            owns_request = False
+
+    if not owns_request:
+        pending.wait()
+        with WEATHER_CACHE_LOCK:
+            return WEATHER_CACHE.get(query, {})
+
+    forecast: dict[str, dict] = {}
+    try:
+        coords = geocode_location(query)
+        if coords:
+            lat, lon = coords
+            params = {
+                "latitude": lat,
+                "longitude": lon,
+                "daily": "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,wind_speed_10m_max",
+                "timezone": "auto",
+                "forecast_days": 16,
+            }
+            url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
+            daily = fetch_json(url).get("daily", {})
+            for index, forecast_date in enumerate(daily.get("time") or []):
+                code = int(_weather_daily_value(daily, "weather_code", index))
+                icon, label = WEATHER_CODE_MAP.get(code, ("Weather", "Forecast"))
+                rain_mm = _weather_daily_value(daily, "precipitation_sum", index)
+                forecast[str(forecast_date)] = {
+                    "icon": icon,
+                    "icon_file": weather_icon_filename_for_code(code),
+                    "label": label,
+                    "tmax": round(_weather_daily_value(daily, "temperature_2m_max", index)),
+                    "tmin": round(_weather_daily_value(daily, "temperature_2m_min", index)),
+                    "rain_chance": round(_weather_daily_value(daily, "precipitation_probability_max", index)),
+                    "rain_mm": round(rain_mm, 1),
+                    "rain_amount_label": rain_amount_label(rain_mm),
+                    "wind": round(_weather_daily_value(daily, "wind_speed_10m_max", index)),
+                }
+    except Exception as exc:
+        logging.warning("Weather forecast unavailable for %s: %s", query, exc)
+    finally:
+        with WEATHER_CACHE_LOCK:
+            WEATHER_CACHE[query] = forecast
+            WEATHER_INFLIGHT.pop(query, None)
+            pending.set()
+    return forecast
+
+
+def weather_cache_snapshot() -> dict[str, dict[str, dict]]:
+    with WEATHER_CACHE_LOCK:
+        return json.loads(json.dumps(WEATHER_CACHE, ensure_ascii=False))
+
+
+def preload_weather_cache(forecasts: dict[str, dict[str, dict]]) -> None:
+    """Replace in-process forecasts with a validated workflow artifact."""
+    clean: dict[str, dict[str, dict]] = {}
+    for query, by_date in forecasts.items():
+        if isinstance(query, str) and isinstance(by_date, dict):
+            clean[query] = {
+                str(date_key): dict(weather)
+                for date_key, weather in by_date.items()
+                if isinstance(date_key, str) and isinstance(weather, dict)
+            }
+    with WEATHER_CACHE_LOCK:
+        WEATHER_CACHE.clear()
+        WEATHER_CACHE.update(clean)
+        WEATHER_INFLIGHT.clear()
+
+
 def get_weather_for_date(query: str | None, date_str: str, location_name: str | None) -> dict | None:
     if not query:
         return None
-
-    cache_key = (query, date_str)
-    if cache_key in WEATHER_CACHE:
-        weather = dict(WEATHER_CACHE[cache_key])
-        weather["location_name"] = location_name or weather.get("location_name")
-        return weather
-
-    coords = geocode_location(query)
-    if not coords:
+    try:
+        weather = _fetch_weather_forecast(query).get(date_str)
+    except Exception as exc:
+        logging.warning("Weather lookup failed for %s: %s", query, exc)
         return None
-
-    lat, lon = coords
-    params = {
-        "latitude": lat,
-        "longitude": lon,
-        "daily": "weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,precipitation_sum,wind_speed_10m_max",
-        "timezone": "auto",
-        "forecast_days": 16,
-    }
-    url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
-    data = fetch_json(url)
-    daily = data.get("daily", {})
-    times = daily.get("time", [])
-
-    if date_str not in times:
+    if weather is None:
         return None
-
-    idx = times.index(date_str)
-    code = int(daily.get("weather_code", [0])[idx])
-    icon, label = WEATHER_CODE_MAP.get(code, ("🌤️", "Forecast"))
-    icon_file = weather_icon_filename_for_code(code)
-    weather = {
-        "icon": icon,
-        "icon_file": icon_file,
-        "label": label,
-        "location_name": location_name,
-        "tmax": round(float(daily.get("temperature_2m_max", [0])[idx])),
-        "tmin": round(float(daily.get("temperature_2m_min", [0])[idx])),
-        "rain_chance": round(float(daily.get("precipitation_probability_max", [0])[idx])),
-        "rain_mm": round(float(daily.get("precipitation_sum", [0])[idx]), 1),
-        "rain_amount_label": rain_amount_label(float(daily.get("precipitation_sum", [0])[idx])),
-        "wind": round(float(daily.get("wind_speed_10m_max", [0])[idx])),
-    }
-    WEATHER_CACHE[cache_key] = dict(weather)
-    return weather
-
+    selected = dict(weather)
+    selected["location_name"] = location_name
+    return selected
 
 def weather_summary_text(weather: dict | None) -> str:
     if not weather:
@@ -1088,7 +1243,12 @@ def fetch_site_result(
     pref_group: int | None,
 ) -> dict:
     hole_label = "18 holes" if hole_type == "18" else "9 holes"
-    weather = get_weather_for_date(site.weather_query, date_str, site.name)
+    try:
+        weather = get_weather_for_date(site.weather_query, date_str, site.name)
+    except Exception as exc:
+        # Tee-time availability remains useful when weather is unavailable.
+        logging.warning("Weather lookup failed for %s: %s", site.name, exc)
+        weather = None
 
     if hole_type not in site.holes:
         return {
@@ -1108,6 +1268,29 @@ def fetch_site_result(
             "error": None,
             "not_configured": True,
         }
+
+    if "wembleygolf.com.au" in site.domain.lower():
+        url = wembley_calendar_url(site, date_str)
+        try:
+            return fetch_wembley_calendar_result(site, date_str, hole_type, weather)
+        except Exception as exc:
+            return {
+                "site": site,
+                "site_name": site.name,
+                "url": url,
+                "hole_label": hole_label,
+                "rows": [],
+                "decorated_rows": [],
+                "grouped": {},
+                "preference_text": "Could not load Wembley calendar status",
+                "preference_course": "",
+                "display_group": None,
+                "display_earliest": None,
+                "earliest_group_times": [],
+                "weather": weather,
+                "error": str(exc),
+                "not_configured": False,
+            }
 
     urls = site.build_urls(date_str, hole_type)
     url = urls[0] if urls else ""

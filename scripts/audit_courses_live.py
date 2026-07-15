@@ -30,11 +30,16 @@ def audit(site, date_str):
             return {"course": site.name, "mode": "direct", "ok": False, "error": str(exc), "url": url, "seconds": round(time.monotonic() - started, 2)}
 
     result = fetch_site_result(site, date_str, hole, None, None, None)
+    calendar_status = result.get("calendar_availability")
+    ok = not bool(result.get("error"))
+    if site.name == "Wembley":
+        ok = ok and calendar_status in {"available", "full", "unreleased"}
     return {
         "course": site.name,
         "mode": "live",
-        "ok": not bool(result.get("error")),
+        "ok": ok,
         "rows": len(result.get("decorated_rows", [])),
+        "calendar_availability": calendar_status,
         "error": result.get("error"),
         "url": result.get("url"),
         "seconds": round(time.monotonic() - started, 2),

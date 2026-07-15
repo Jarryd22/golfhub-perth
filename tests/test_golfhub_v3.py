@@ -15,8 +15,47 @@ class GolfHubV3Tests(unittest.TestCase):
 
     def test_comprehensive_directory_is_unique(self):
         names = [site.name for site in self.sites]
-        self.assertGreaterEqual(len(names), 30)
+        self.assertEqual(len(names), 41)
         self.assertEqual(len(names), len(set(names)))
+        self.assertEqual(sum(site.provider == "direct" for site in self.sites), 21)
+        self.assertEqual(sum(site.provider != "direct" for site in self.sites), 20)
+        self.assertEqual(sum("18" in site.holes for site in self.sites), 37)
+        self.assertEqual(sum("9" in site.holes for site in self.sites), 37)
+        expected_additions = {
+            "Boddington Golf Club",
+            "Gosnells Golf Club",
+            "Mosman Park",
+            "Nedlands Golf Club",
+            "Pickering Brook",
+            "Preston Beach",
+            "Serpentine & Districts",
+            "Wanneroo Golf Club",
+            "Waroona Golf Club",
+            "Yanchep National Park",
+        }
+        self.assertTrue(expected_additions.issubset(names))
+        self.assertTrue(all(site.weather_query.startswith("coords:") for site in self.sites))
+        wembley = next(site for site in self.sites if site.name == "Wembley")
+        self.assertEqual(set(wembley.holes["18"].resolve_fee_group_ids("2026-07-15")), {"102184", "102193"})
+        self.assertEqual(set(wembley.holes["9"].resolve_fee_group_ids("2026-07-15")), {"102211", "102202"})
+
+    def test_maylands_joondalup_and_yanchep_booking_routes(self):
+        maylands = next(site for site in self.sites if site.name == "Maylands")
+        self.assertEqual(maylands.provider, "miclub")
+        self.assertEqual(maylands.domain, "maylandsembleton.miclub.com.au")
+        self.assertIn("bookingResourceId=3000000", maylands.build_url("2026-07-19", "18"))
+        self.assertIn("feeGroupId=100795", maylands.build_url("2026-07-19", "18"))
+        self.assertIn("feeGroupId=100797", maylands.build_url("2026-07-19", "9"))
+
+        joondalup = next(site for site in self.sites if site.name == "Joondalup Resort")
+        self.assertEqual(joondalup.provider, "miclub")
+        self.assertIn("bookingResourceId=3900000", joondalup.build_url("2026-07-19", "18"))
+        self.assertIn("feeGroupId=1508198355", joondalup.build_url("2026-07-19", "18"))
+        self.assertIn("feeGroupId=1508504524", joondalup.build_url("2026-07-19", "9"))
+
+        yanchep = next(site for site in self.sites if site.name == "Yanchep National Park")
+        self.assertEqual(yanchep.provider, "direct")
+        self.assertEqual(yanchep.domain, "exploreparks.dbca.wa.gov.au/site/yanchep-golf-course")
 
     def test_each_course_has_a_round_and_valid_domain(self):
         for site in self.sites:
@@ -26,7 +65,7 @@ class GolfHubV3Tests(unittest.TestCase):
 
     def test_direct_courses_create_bookable_results(self):
         direct_sites = [site for site in self.sites if site.provider == "direct"]
-        self.assertGreaterEqual(len(direct_sites), 15)
+        self.assertEqual(len(direct_sites), 21)
         for site in direct_sites:
             hole = next(iter(site.holes))
             result = direct_result(site, hole)
@@ -90,11 +129,29 @@ class GolfHubV3Tests(unittest.TestCase):
         self.assertIsNotNone(icon.pixmap())
         self.assertFalse(icon.pixmap().isNull())
 
+    def test_wembley_calendar_card_is_explicit_and_actionable(self):
+        import os
+        os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
+        from PySide6.QtWidgets import QApplication, QLabel, QPushButton
+        from app.qt_golfhub_app import ResultCard
+        app = QApplication.instance() or QApplication([])
+        note = "Wembley's official calendar shows bookings available for Old and Tuart."
+        card = ResultCard({
+            "site_name": "Wembley",
+            "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp",
+            "hole_label": "18 holes",
+            "calendar_availability": "available",
+            "booking_note": note,
+            "weather": None,
+        }, [])
+        self.assertIn("CHECK WEMBLEY TIMES", [button.text() for button in card.findChildren(QPushButton)])
+        self.assertIn(note, [label.text() for label in card.findChildren(QLabel)])
+
     def test_cache_config_targets_public_repository(self):
         config = json.loads((Path(__file__).parents[1] / "data/cache_config.json").read_text())
         self.assertEqual(
             config["cache_base_url"],
-            "https://raw.githubusercontent.com/Jarryd22/golfhub-perth/main/public/cache",
+            "https://raw.githubusercontent.com/Jarryd22/golfhub-perth/cache/public/cache",
         )
 
     def test_production_core_has_no_retired_gui_dependency(self):
@@ -166,7 +223,7 @@ class GolfHubV3Tests(unittest.TestCase):
         workflow = (Path(__file__).parents[1] / ".github/workflows/refresh-cache-10min.yml").read_text()
         self.assertIn('cron: "*/10 * * * *"', workflow)
         self.assertIn("start: [0, 4, 8, 12, 16, 20, 24]", workflow)
-        self.assertIn("cancel-in-progress: true", workflow)
+        self.assertIn("cancel-in-progress: false", workflow)
 
     def test_cache_workflow_has_no_gui_runtime_dependencies(self):
         workflow = (

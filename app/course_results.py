@@ -23,5 +23,5 @@ def direct_result(site, hole_type: str, date_str: str | None = None) -> dict[str
         "error": None,
         "not_configured": False,
         "direct_booking": True,
-        "booking_note": "Open the official course page to view current booking options.",
+        "booking_note": "Open the official course page for booking options or visitor instructions.",
     }

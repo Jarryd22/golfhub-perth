@@ -73,8 +73,8 @@ results = [
     live("Wembley", [("7:12 am", 432, 4), ("7:28 am", 448, 2), ("8:04 am", 484, 3)], weather("Mostly clear", 9, 18, 10, 13, "sheet_clear.png")),
     live("Collier Park", [("8:16 am", 496, 4), ("8:32 am", 512, 2), ("9:04 am", 544, 4)], weather("Partly cloudy", 10, 19, 20, 16)),
     live("Secret Harbour", [("9:20 am", 560, 3), ("9:36 am", 576, 4)], weather("Light showers", 11, 17, 45, 22, "sheet_partly_rain.png")),
-    direct("Joondalup Resort", weather("Mostly clear", 9, 19, 10, 12)),
-    direct("Maylands", weather("Partly cloudy", 10, 19, 20, 14)),
+    live("Joondalup Resort", [("7:04 am", 424, 3), ("7:12 am", 432, 4)], weather("Mostly clear", 9, 19, 10, 12)),
+    live("Maylands", [("9:04 am", 544, 1), ("9:20 am", 560, 2)], weather("Partly cloudy", 10, 19, 20, 14)),
     direct("Point Walter", weather("Sunny", 11, 20, 5, 18, "sheet_clear.png")),
 ]
 window.render_results(results, "Shared cache - updated 4 minutes ago")
