@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T23:12:31+00:00",
+  "generated_at": "2026-07-15T00:09:58+00:00",
   "date": "2026-07-17",
   "holes": "18",
   "results": [
@@ -15,11 +15,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Altone Park",
-        "tmax": 20,
+        "tmax": 21,
         "tmin": 12,
-        "rain_chance": 82,
-        "rain_mm": 14.7,
-        "rain_amount_label": "14.7 mm",
+        "rain_chance": 80,
+        "rain_mm": 8.4,
+        "rain_amount_label": "8.4 mm",
         "wind": 20
       },
       "error": null,
@@ -569,9 +569,9 @@
         "location_name": "Araluen",
         "tmax": 20,
         "tmin": 12,
-        "rain_chance": 82,
-        "rain_mm": 16.8,
-        "rain_amount_label": "16.8 mm",
+        "rain_chance": 80,
+        "rain_mm": 8.9,
+        "rain_amount_label": "8.9 mm",
         "wind": 22
       },
       "error": null,
@@ -896,15 +896,15 @@
         ]
       ],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Rain showers",
         "location_name": "Carramar",
-        "tmax": 21,
+        "tmax": 22,
         "tmin": 14,
         "rain_chance": 84,
-        "rain_mm": 6.0,
-        "rain_amount_label": "6 mm",
+        "rain_mm": 4.3,
+        "rain_amount_label": "4.3 mm",
         "wind": 30
       },
       "error": null,
@@ -921,11 +921,11 @@
         "icon_file": "sheet_partly_rain.png",
         "label": "Rain showers",
         "location_name": "Chequers",
-        "tmax": 20,
+        "tmax": 21,
         "tmin": 13,
-        "rain_chance": 80,
-        "rain_mm": 5.1,
-        "rain_amount_label": "5.1 mm",
+        "rain_chance": 76,
+        "rain_mm": 3.7,
+        "rain_amount_label": "3.7 mm",
         "wind": 25
       },
       "error": null,
@@ -950,11 +950,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Collier Park",
-        "tmax": 19,
+        "tmax": 21,
         "tmin": 13,
-        "rain_chance": 82,
-        "rain_mm": 14.5,
-        "rain_amount_label": "14.5 mm",
+        "rain_chance": 80,
+        "rain_mm": 8.3,
+        "rain_amount_label": "8.3 mm",
         "wind": 22
       },
       "error": null,
@@ -997,6 +997,12 @@
         },
         {
           "time": "07:59 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=112751"
+        },
+        {
+          "time": "08:06 am",
           "course_raw": "1st Tee",
           "spots": 4,
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=112751"
@@ -1230,6 +1236,14 @@
           "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=112751",
           "course": "",
           "minutes": 479
+        },
+        {
+          "time": "08:06 am",
+          "course_raw": "1st Tee",
+          "spots": 4,
+          "source_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=112751",
+          "course": "",
+          "minutes": 486
         },
         {
           "time": "08:13 am",
@@ -1480,6 +1494,7 @@
             "07:24 am",
             "07:38 am",
             "07:59 am",
+            "08:06 am",
             "08:20 am",
             "08:27 am",
             "08:34 am",
@@ -1537,11 +1552,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Fremantle",
-        "tmax": 20,
+        "tmax": 21,
         "tmin": 15,
-        "rain_chance": 82,
-        "rain_mm": 9.2,
-        "rain_amount_label": "9.2 mm",
+        "rain_chance": 80,
+        "rain_mm": 8.7,
+        "rain_amount_label": "8.7 mm",
         "wind": 31
       },
       "error": null,
@@ -1652,11 +1667,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Hamersley",
-        "tmax": 20,
+        "tmax": 21,
         "tmin": 14,
         "rain_chance": 84,
-        "rain_mm": 14.0,
-        "rain_amount_label": "14 mm",
+        "rain_mm": 6.3,
+        "rain_amount_label": "6.3 mm",
         "wind": 29
       },
       "error": null,
@@ -1789,11 +1804,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Hartfield",
-        "tmax": 19,
+        "tmax": 21,
         "tmin": 12,
-        "rain_chance": 82,
-        "rain_mm": 13.0,
-        "rain_amount_label": "13 mm",
+        "rain_chance": 80,
+        "rain_mm": 6.2,
+        "rain_amount_label": "6.2 mm",
         "wind": 21
       },
       "error": null,
@@ -1810,11 +1825,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Hillview",
-        "tmax": 19,
+        "tmax": 21,
         "tmin": 12,
-        "rain_chance": 82,
-        "rain_mm": 13.0,
-        "rain_amount_label": "13 mm",
+        "rain_chance": 80,
+        "rain_mm": 6.2,
+        "rain_amount_label": "6.2 mm",
         "wind": 21
       },
       "error": null,
@@ -1833,11 +1848,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Joondalup Resort",
-        "tmax": 20,
-        "tmin": 14,
+        "tmax": 21,
+        "tmin": 15,
         "rain_chance": 84,
-        "rain_mm": 9.4,
-        "rain_amount_label": "9.4 mm",
+        "rain_mm": 6.1,
+        "rain_amount_label": "6.1 mm",
         "wind": 35
       },
       "error": null,
@@ -1949,11 +1964,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Kwinana",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 84,
-        "rain_mm": 12.2,
-        "rain_amount_label": "12.2 mm",
+        "tmax": 21,
+        "tmin": 13,
+        "rain_chance": 82,
+        "rain_mm": 7.9,
+        "rain_amount_label": "7.9 mm",
         "wind": 26
       },
       "error": null,
@@ -2129,15 +2144,15 @@
         ]
       ],
       "weather": {
-        "icon": "🌧️",
-        "icon_file": "sheet_rain.png",
-        "label": "Heavy showers",
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
         "location_name": "Links Kennedy Bay",
         "tmax": 20,
-        "tmin": 14,
-        "rain_chance": 84,
-        "rain_mm": 9.8,
-        "rain_amount_label": "9.8 mm",
+        "tmin": 13,
+        "rain_chance": 80,
+        "rain_mm": 5.1,
+        "rain_amount_label": "5.1 mm",
         "wind": 22
       },
       "error": null,
@@ -2149,7 +2164,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
+        "location_name": "Mandurah Country Club",
+        "tmax": 18,
+        "tmin": 14,
+        "rain_chance": 80,
+        "rain_mm": 10.5,
+        "rain_amount_label": "10.5 mm",
+        "wind": 24
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2157,10 +2183,357 @@
     },
     {
       "site_name": "Marangaroo",
-      "url": "https://marangaroo.miclub.com.au",
+      "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
       "hole_label": "18 holes",
-      "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "rows": [
+        {
+          "time": "06:58 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:06 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "07:30 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "09:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "09:38 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "09:46 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "09:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:38 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:46 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "11:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:02 pm",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:18 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:26 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:34 pm",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:50 pm",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        },
+        {
+          "time": "12:58 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571"
+        }
+      ],
+      "decorated_rows": [
+        {
+          "time": "06:58 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 418
+        },
+        {
+          "time": "07:06 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 426
+        },
+        {
+          "time": "07:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 434
+        },
+        {
+          "time": "07:30 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 450
+        },
+        {
+          "time": "09:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 554
+        },
+        {
+          "time": "09:38 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 578
+        },
+        {
+          "time": "09:46 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 586
+        },
+        {
+          "time": "09:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 594
+        },
+        {
+          "time": "11:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 674
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 682
+        },
+        {
+          "time": "11:30 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 690
+        },
+        {
+          "time": "11:38 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 698
+        },
+        {
+          "time": "11:46 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 706
+        },
+        {
+          "time": "11:54 am",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 714
+        },
+        {
+          "time": "12:02 pm",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 722
+        },
+        {
+          "time": "12:18 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 738
+        },
+        {
+          "time": "12:26 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 746
+        },
+        {
+          "time": "12:34 pm",
+          "course_raw": "1ST TEE",
+          "spots": 2,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 754
+        },
+        {
+          "time": "12:50 pm",
+          "course_raw": "1ST TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 770
+        },
+        {
+          "time": "12:58 pm",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=1500406571",
+          "course": "",
+          "minutes": 778
+        }
+      ],
+      "grouped": {
+        "2": {
+          "": [
+            "06:58 am",
+            "07:30 am",
+            "11:22 am",
+            "12:02 pm",
+            "12:34 pm"
+          ]
+        },
+        "1": {
+          "": [
+            "07:06 am",
+            "09:14 am",
+            "09:38 am",
+            "09:46 am",
+            "09:54 am",
+            "11:14 am",
+            "11:30 am",
+            "11:38 am",
+            "11:46 am",
+            "11:54 am",
+            "12:50 pm"
+          ]
+        },
+        "4": {
+          "": [
+            "07:14 am",
+            "12:18 pm",
+            "12:26 pm",
+            "12:58 pm"
+          ]
+        }
+      },
+      "preference_text": "Best overall option: 06:58 am",
+      "preference_course": "",
+      "display_group": 4,
+      "display_earliest": "06:58 am",
+      "earliest_group_times": [
+        [
+          2,
+          "06:58 am"
+        ],
+        [
+          1,
+          "07:06 am"
+        ],
+        [
+          4,
+          "07:14 am"
+        ]
+      ],
+      "weather": {
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Rain showers",
+        "location_name": "Marangaroo",
+        "tmax": 21,
+        "tmin": 12,
+        "rain_chance": 84,
+        "rain_mm": 5.6,
+        "rain_amount_label": "5.6 mm",
+        "wind": 23
+      },
+      "error": null,
       "not_configured": false
     },
     {
@@ -2169,7 +2542,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
+        "location_name": "Marri Park",
+        "tmax": 20,
+        "tmin": 13,
+        "rain_chance": 82,
+        "rain_mm": 8.4,
+        "rain_amount_label": "8.4 mm",
+        "wind": 26
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2181,7 +2565,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
+        "location_name": "Maylands",
+        "tmax": 21,
+        "tmin": 12,
+        "rain_chance": 80,
+        "rain_mm": 9.6,
+        "rain_amount_label": "9.6 mm",
+        "wind": 20
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2193,7 +2588,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
+        "location_name": "Meadow Springs",
+        "tmax": 20,
+        "tmin": 12,
+        "rain_chance": 80,
+        "rain_mm": 6.6,
+        "rain_amount_label": "6.6 mm",
+        "wind": 20
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2206,15 +2612,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌦️",
-        "icon_file": "sheet_partly_rain.png",
-        "label": "Rain showers",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Pinjarra",
         "tmax": 19,
         "tmin": 12,
-        "rain_chance": 80,
-        "rain_mm": 6.0,
-        "rain_amount_label": "6 mm",
+        "rain_chance": 76,
+        "rain_mm": 7.4,
+        "rain_amount_label": "7.4 mm",
         "wind": 17
       },
       "error": null,
@@ -2235,9 +2641,9 @@
         "location_name": "Rockingham",
         "tmax": 20,
         "tmin": 15,
-        "rain_chance": 84,
-        "rain_mm": 8.9,
-        "rain_amount_label": "8.9 mm",
+        "rain_chance": 80,
+        "rain_mm": 8.0,
+        "rain_amount_label": "8 mm",
         "wind": 28
       },
       "error": null,
@@ -2251,7 +2657,18 @@
       "hole_label": "18 holes",
       "rows": [],
       "decorated_rows": [],
-      "weather": null,
+      "weather": {
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
+        "location_name": "Rottnest Island",
+        "tmax": 20,
+        "tmin": 18,
+        "rain_chance": 67,
+        "rain_mm": 5.5,
+        "rain_amount_label": "5.5 mm",
+        "wind": 48
+      },
       "error": null,
       "not_configured": false,
       "direct_booking": true,
@@ -2268,11 +2685,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Sea View",
-        "tmax": 19,
+        "tmax": 21,
         "tmin": 13,
         "rain_chance": 84,
-        "rain_mm": 12.8,
-        "rain_amount_label": "12.8 mm",
+        "rain_mm": 8.8,
+        "rain_amount_label": "8.8 mm",
         "wind": 26
       },
       "error": null,
@@ -2354,7 +2771,7 @@
         {
           "time": "09:04 am",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 4,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=12445"
         },
         {
@@ -2606,7 +3023,7 @@
         {
           "time": "09:04 am",
           "course_raw": "1st Tee",
-          "spots": 2,
+          "spots": 4,
           "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-17&feeGroupId=12445",
           "course": "",
           "minutes": 544
@@ -2825,7 +3242,6 @@
           "": [
             "07:20 am",
             "07:52 am",
-            "09:04 am",
             "09:44 am",
             "10:00 am",
             "10:08 am",
@@ -2855,6 +3271,7 @@
             "08:40 am",
             "08:48 am",
             "08:56 am",
+            "09:04 am",
             "09:12 am",
             "10:24 am",
             "10:40 am",
@@ -2899,15 +3316,15 @@
         ]
       ],
       "weather": {
-        "icon": "🌧️",
-        "icon_file": "sheet_rain.png",
-        "label": "Heavy showers",
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
         "location_name": "Secret Harbour",
         "tmax": 20,
-        "tmin": 14,
-        "rain_chance": 84,
-        "rain_mm": 9.8,
-        "rain_amount_label": "9.8 mm",
+        "tmin": 13,
+        "rain_chance": 80,
+        "rain_mm": 5.1,
+        "rain_amount_label": "5.1 mm",
         "wind": 22
       },
       "error": null,
@@ -2920,15 +3337,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌧️",
+        "icon": "🌦️",
         "icon_file": "sheet_rain.png",
-        "label": "Heavy drizzle",
+        "label": "Drizzle",
         "location_name": "Sun City",
-        "tmax": 21,
+        "tmax": 22,
         "tmin": 14,
-        "rain_chance": 80,
-        "rain_mm": 3.6,
-        "rain_amount_label": "3.6 mm",
+        "rain_chance": 71,
+        "rain_mm": 2.5,
+        "rain_amount_label": "2.5 mm",
         "wind": 31
       },
       "error": null,
@@ -2943,15 +3360,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "🌧️",
-        "icon_file": "sheet_rain.png",
-        "label": "Heavy showers",
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Thunderstorm",
         "location_name": "The Cut",
         "tmax": 18,
-        "tmin": 14,
-        "rain_chance": 80,
-        "rain_mm": 9.1,
-        "rain_amount_label": "9.1 mm",
+        "tmin": 13,
+        "rain_chance": 76,
+        "rain_mm": 10.2,
+        "rain_amount_label": "10.2 mm",
         "wind": 28
       },
       "error": null,
@@ -3570,15 +3987,15 @@
         ]
       ],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "The Springs",
-        "tmax": 20,
-        "tmin": 12,
-        "rain_chance": 84,
-        "rain_mm": 13.3,
-        "rain_amount_label": "13.3 mm",
+        "tmax": 21,
+        "tmin": 13,
+        "rain_chance": 82,
+        "rain_mm": 7.1,
+        "rain_amount_label": "7.1 mm",
         "wind": 21
       },
       "error": null,
@@ -3601,11 +4018,11 @@
         "icon_file": "sheet_rain.png",
         "label": "Heavy drizzle",
         "location_name": "The Vines",
-        "tmax": 20,
+        "tmax": 21,
         "tmin": 13,
-        "rain_chance": 80,
-        "rain_mm": 5.8,
-        "rain_amount_label": "5.8 mm",
+        "rain_chance": 76,
+        "rain_mm": 3.7,
+        "rain_amount_label": "3.7 mm",
         "wind": 22
       },
       "error": null,
@@ -3628,11 +4045,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Wembley",
-        "tmax": 20,
-        "tmin": 13,
+        "tmax": 21,
+        "tmin": 14,
         "rain_chance": 84,
-        "rain_mm": 12.8,
-        "rain_amount_label": "12.8 mm",
+        "rain_mm": 8.8,
+        "rain_amount_label": "8.8 mm",
         "wind": 26
       },
       "error": null,

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T23:11:58+00:00",
+  "generated_at": "2026-07-15T00:09:54+00:00",
   "date": "2026-08-09",
   "holes": "18",
   "results": [
@@ -1356,135 +1356,10 @@
     },
     {
       "site_name": "Secret Harbour",
-      "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
+      "url": "https://secretharbour.miclub.com.au",
       "hole_label": "18 holes",
-      "rows": [
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        },
-        {
-          "time": "12:24 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        },
-        {
-          "time": "12:32 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        },
-        {
-          "time": "12:40 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        },
-        {
-          "time": "12:48 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        },
-        {
-          "time": "12:56 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        },
-        {
-          "time": "01:04 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445"
-        }
-      ],
-      "decorated_rows": [
-        {
-          "time": "12:16 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 736
-        },
-        {
-          "time": "12:24 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 744
-        },
-        {
-          "time": "12:32 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 752
-        },
-        {
-          "time": "12:40 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 760
-        },
-        {
-          "time": "12:48 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 768
-        },
-        {
-          "time": "12:56 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 776
-        },
-        {
-          "time": "01:04 pm",
-          "course_raw": "1st Tee",
-          "spots": 4,
-          "source_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-09&feeGroupId=12445",
-          "course": "",
-          "minutes": 784
-        }
-      ],
-      "grouped": {
-        "4": {
-          "": [
-            "12:16 pm",
-            "12:24 pm",
-            "12:32 pm",
-            "12:40 pm",
-            "12:48 pm",
-            "12:56 pm",
-            "01:04 pm"
-          ]
-        }
-      },
-      "preference_text": "Best overall option: 12:16 pm",
-      "preference_course": "",
-      "display_group": 4,
-      "display_earliest": "12:16 pm",
-      "earliest_group_times": [
-        [
-          4,
-          "12:16 pm"
-        ]
-      ],
-      "weather": null,
-      "error": null,
+      "decorated_rows": [],
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {

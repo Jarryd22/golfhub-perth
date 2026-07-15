@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T23:11:58+00:00",
+  "generated_at": "2026-07-15T00:09:29+00:00",
   "date": "2026-07-16",
   "holes": "9",
   "results": [
@@ -11,15 +11,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Rain showers",
         "location_name": "Altone Park",
         "tmax": 20,
-        "tmin": 14,
+        "tmin": 15,
         "rain_chance": 96,
-        "rain_mm": 25.8,
-        "rain_amount_label": "25.8 mm",
+        "rain_mm": 6.8,
+        "rain_amount_label": "6.8 mm",
         "wind": 19
       },
       "error": null,
@@ -467,15 +467,15 @@
         ]
       ],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Araluen",
-        "tmax": 19,
-        "tmin": 13,
+        "tmax": 18,
+        "tmin": 14,
         "rain_chance": 96,
-        "rain_mm": 25.2,
-        "rain_amount_label": "25.2 mm",
+        "rain_mm": 16.4,
+        "rain_amount_label": "16.4 mm",
         "wind": 20
       },
       "error": null,
@@ -692,12 +692,6 @@
         },
         {
           "time": "01:22 pm",
-          "course_raw": "1ST TEE",
-          "spots": 4,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500682805"
-        },
-        {
-          "time": "01:30 pm",
           "course_raw": "1ST TEE",
           "spots": 4,
           "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500682805"
@@ -1081,14 +1075,6 @@
           "minutes": 802
         },
         {
-          "time": "01:30 pm",
-          "course_raw": "1ST TEE",
-          "spots": 4,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500682805",
-          "course": "",
-          "minutes": 810
-        },
-        {
           "time": "01:38 pm",
           "course_raw": "1ST TEE",
           "spots": 4,
@@ -1248,7 +1234,6 @@
             "12:58 pm",
             "01:06 pm",
             "01:22 pm",
-            "01:30 pm",
             "01:38 pm",
             "01:46 pm",
             "01:54 pm",
@@ -1306,15 +1291,15 @@
         ]
       ],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Carramar",
-        "tmax": 22,
-        "tmin": 16,
-        "rain_chance": 94,
-        "rain_mm": 34.0,
-        "rain_amount_label": "34 mm",
+        "tmax": 21,
+        "tmin": 15,
+        "rain_chance": 96,
+        "rain_mm": 9.8,
+        "rain_amount_label": "9.8 mm",
         "wind": 27
       },
       "error": null,
@@ -1335,13 +1320,13 @@
       "weather": {
         "icon": "⛈️",
         "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "label": "Thunderstorm",
         "location_name": "Collier Park",
-        "tmax": 19,
-        "tmin": 14,
+        "tmax": 18,
+        "tmin": 15,
         "rain_chance": 96,
-        "rain_mm": 28.0,
-        "rain_amount_label": "28 mm",
+        "rain_mm": 21.1,
+        "rain_amount_label": "21.1 mm",
         "wind": 25
       },
       "error": null,
@@ -1354,15 +1339,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Embleton",
         "tmax": 20,
         "tmin": 14,
         "rain_chance": 96,
-        "rain_mm": 27.2,
-        "rain_amount_label": "27.2 mm",
+        "rain_mm": 11.9,
+        "rain_amount_label": "11.9 mm",
         "wind": 20
       },
       "error": null,
@@ -2540,11 +2525,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Fremantle",
-        "tmax": 20,
-        "tmin": 15,
+        "tmax": 19,
+        "tmin": 16,
         "rain_chance": 96,
-        "rain_mm": 39.4,
-        "rain_amount_label": "39.4 mm",
+        "rain_mm": 27.7,
+        "rain_amount_label": "27.7 mm",
         "wind": 32
       },
       "error": null,
@@ -2556,15 +2541,21 @@
       "hole_label": "9 holes",
       "rows": [
         {
+          "time": "7:59 am",
+          "course_raw": "Back 9 Morning",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
+        },
+        {
           "time": "9:41 am",
           "course_raw": "Hamersley",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
         },
         {
           "time": "9:50 am",
           "course_raw": "Hamersley",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
         },
         {
@@ -2702,7 +2693,7 @@
         {
           "time": "3:08 pm",
           "course_raw": "Back 9 Afternoon",
-          "spots": 1,
+          "spots": 4,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
         },
         {
@@ -2712,17 +2703,37 @@
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
         },
         {
+          "time": "3:17 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
+        },
+        {
           "time": "3:21 pm",
           "course_raw": "Hamersley",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
+        },
+        {
+          "time": "3:25 pm",
+          "course_raw": "Back 9 Afternoon",
           "spots": 4,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716"
         }
       ],
       "decorated_rows": [
         {
+          "time": "7:59 am",
+          "course_raw": "Back 9 Morning",
+          "spots": 1,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
+          "course": "Back 9 Morning",
+          "minutes": 479
+        },
+        {
           "time": "9:41 am",
           "course_raw": "Hamersley",
-          "spots": 4,
+          "spots": 3,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "Hamersley",
           "minutes": 581
@@ -2730,7 +2741,7 @@
         {
           "time": "9:50 am",
           "course_raw": "Hamersley",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "Hamersley",
           "minutes": 590
@@ -2914,7 +2925,7 @@
         {
           "time": "3:08 pm",
           "course_raw": "Back 9 Afternoon",
-          "spots": 1,
+          "spots": 4,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "Back 9 Afternoon",
           "minutes": 908
@@ -2928,19 +2939,60 @@
           "minutes": 913
         },
         {
+          "time": "3:17 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
+          "course": "Back 9 Afternoon",
+          "minutes": 917
+        },
+        {
           "time": "3:21 pm",
           "course_raw": "Hamersley",
           "spots": 4,
           "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "Hamersley",
           "minutes": 921
+        },
+        {
+          "time": "3:25 pm",
+          "course_raw": "Back 9 Afternoon",
+          "spots": 4,
+          "source_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260716",
+          "course": "Back 9 Afternoon",
+          "minutes": 925
         }
       ],
       "grouped": {
+        "1": {
+          "Back 9 Morning": [
+            "7:59 am"
+          ],
+          "Hamersley": [
+            "12:14 pm",
+            "12:31 pm"
+          ],
+          "Back 9 Afternoon": [
+            "3:00 pm"
+          ]
+        },
+        "3": {
+          "Hamersley": [
+            "9:41 am"
+          ]
+        },
+        "2": {
+          "Hamersley": [
+            "9:50 am",
+            "11:49 am",
+            "12:48 pm",
+            "1:05 pm",
+            "2:05 pm",
+            "2:39 pm"
+          ]
+        },
         "4": {
           "Hamersley": [
-            "9:41 am",
-            "9:50 am",
             "12:40 pm",
             "12:57 pm",
             "1:14 pm",
@@ -2957,56 +3009,46 @@
             "3:04 pm",
             "3:13 pm",
             "3:21 pm"
-          ]
-        },
-        "2": {
-          "Hamersley": [
-            "11:49 am",
-            "12:48 pm",
-            "1:05 pm",
-            "2:05 pm",
-            "2:39 pm"
-          ]
-        },
-        "1": {
-          "Hamersley": [
-            "12:14 pm",
-            "12:31 pm"
           ],
           "Back 9 Afternoon": [
-            "3:00 pm",
-            "3:08 pm"
+            "3:08 pm",
+            "3:17 pm",
+            "3:25 pm"
           ]
         }
       },
-      "preference_text": "Best overall option: 9:41 am",
-      "preference_course": "Hamersley",
+      "preference_text": "Best overall option: 7:59 am",
+      "preference_course": "Back 9 Morning",
       "display_group": 4,
-      "display_earliest": "9:41 am",
+      "display_earliest": "7:59 am",
       "earliest_group_times": [
         [
-          4,
+          1,
+          "7:59 am"
+        ],
+        [
+          3,
           "9:41 am"
         ],
         [
           2,
-          "11:49 am"
+          "9:50 am"
         ],
         [
-          1,
-          "12:14 pm"
+          4,
+          "12:40 pm"
         ]
       ],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Hamersley",
         "tmax": 20,
         "tmin": 15,
-        "rain_chance": 94,
-        "rain_mm": 26.5,
-        "rain_amount_label": "26.5 mm",
+        "rain_chance": 96,
+        "rain_mm": 11.1,
+        "rain_amount_label": "11.1 mm",
         "wind": 28
       },
       "error": null,
@@ -3030,10 +3072,10 @@
         "label": "Heavy showers",
         "location_name": "Hartfield",
         "tmax": 19,
-        "tmin": 14,
+        "tmin": 15,
         "rain_chance": 96,
-        "rain_mm": 23.4,
-        "rain_amount_label": "23.4 mm",
+        "rain_mm": 9.4,
+        "rain_amount_label": "9.4 mm",
         "wind": 18
       },
       "error": null,
@@ -3051,10 +3093,10 @@
         "label": "Heavy showers",
         "location_name": "Hillview",
         "tmax": 19,
-        "tmin": 14,
+        "tmin": 15,
         "rain_chance": 96,
-        "rain_mm": 23.4,
-        "rain_amount_label": "23.4 mm",
+        "rain_mm": 9.4,
+        "rain_amount_label": "9.4 mm",
         "wind": 18
       },
       "error": null,
@@ -3069,15 +3111,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Joondalup Resort",
         "tmax": 20,
         "tmin": 16,
-        "rain_chance": 94,
-        "rain_mm": 29.7,
-        "rain_amount_label": "29.7 mm",
+        "rain_chance": 96,
+        "rain_mm": 10.8,
+        "rain_amount_label": "10.8 mm",
         "wind": 31
       },
       "error": null,
@@ -3938,10 +3980,10 @@
         "label": "Thunderstorm",
         "location_name": "Kwinana",
         "tmax": 18,
-        "tmin": 13,
-        "rain_chance": 100,
-        "rain_mm": 29.9,
-        "rain_amount_label": "29.9 mm",
+        "tmin": 14,
+        "rain_chance": 92,
+        "rain_mm": 29.2,
+        "rain_amount_label": "29.2 mm",
         "wind": 25
       },
       "error": null,
@@ -4792,13 +4834,13 @@
       "weather": {
         "icon": "⛈️",
         "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "label": "Thunderstorm",
         "location_name": "Lake Claremont",
         "tmax": 19,
-        "tmin": 14,
-        "rain_chance": 94,
-        "rain_mm": 33.2,
-        "rain_amount_label": "33.2 mm",
+        "tmin": 15,
+        "rain_chance": 96,
+        "rain_mm": 16.1,
+        "rain_amount_label": "16.1 mm",
         "wind": 26
       },
       "error": null,
@@ -5772,11 +5814,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Links Kennedy Bay",
-        "tmax": 18,
+        "tmax": 19,
         "tmin": 14,
-        "rain_chance": 96,
-        "rain_mm": 30.2,
-        "rain_amount_label": "30.2 mm",
+        "rain_chance": 92,
+        "rain_mm": 31.4,
+        "rain_amount_label": "31.4 mm",
         "wind": 28
       },
       "error": null,
@@ -5789,15 +5831,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Mandurah Country Club",
         "tmax": 18,
         "tmin": 13,
-        "rain_chance": 96,
-        "rain_mm": 26.3,
-        "rain_amount_label": "26.3 mm",
+        "rain_chance": 92,
+        "rain_mm": 21.6,
+        "rain_amount_label": "21.6 mm",
         "wind": 32
       },
       "error": null,
@@ -5861,7 +5903,7 @@
         {
           "time": "07:54 am",
           "course_raw": "10TH TEE",
-          "spots": 2,
+          "spots": 1,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575"
         },
         {
@@ -5877,9 +5919,15 @@
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575"
         },
         {
+          "time": "08:18 am",
+          "course_raw": "10TH TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575"
+        },
+        {
           "time": "08:26 am",
           "course_raw": "10TH TEE",
-          "spots": 1,
+          "spots": 4,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575"
         },
         {
@@ -5926,6 +5974,12 @@
         },
         {
           "time": "11:14 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575"
+        },
+        {
+          "time": "11:22 am",
           "course_raw": "1ST TEE",
           "spots": 4,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575"
@@ -6148,18 +6202,18 @@
         },
         {
           "time": "07:54 am",
-          "course_raw": "10TH TEE",
-          "spots": 2,
-          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
-          "course": "10TH TEE",
-          "minutes": 474
-        },
-        {
-          "time": "07:54 am",
           "course_raw": "1ST TEE",
           "spots": 1,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
           "course": "",
+          "minutes": 474
+        },
+        {
+          "time": "07:54 am",
+          "course_raw": "10TH TEE",
+          "spots": 1,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
+          "course": "10TH TEE",
           "minutes": 474
         },
         {
@@ -6171,9 +6225,17 @@
           "minutes": 482
         },
         {
+          "time": "08:18 am",
+          "course_raw": "10TH TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
+          "course": "10TH TEE",
+          "minutes": 498
+        },
+        {
           "time": "08:26 am",
           "course_raw": "10TH TEE",
-          "spots": 1,
+          "spots": 4,
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
           "course": "10TH TEE",
           "minutes": 506
@@ -6241,6 +6303,14 @@
           "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
           "course": "",
           "minutes": 674
+        },
+        {
+          "time": "11:22 am",
+          "course_raw": "1ST TEE",
+          "spots": 4,
+          "source_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500406575",
+          "course": "",
+          "minutes": 682
         },
         {
           "time": "11:30 am",
@@ -6447,11 +6517,14 @@
         "4": {
           "10TH TEE": [
             "06:58 am",
-            "07:14 am"
+            "07:14 am",
+            "08:18 am",
+            "08:26 am"
           ],
           "": [
             "10:58 am",
             "11:14 am",
+            "11:22 am",
             "11:38 am",
             "11:46 am",
             "11:54 am",
@@ -6486,7 +6559,6 @@
             "12:50 pm"
           ],
           "10TH TEE": [
-            "07:54 am",
             "08:02 am"
           ]
         },
@@ -6503,7 +6575,7 @@
           "10TH TEE": [
             "07:22 am",
             "07:30 am",
-            "08:26 am",
+            "07:54 am",
             "08:34 am"
           ]
         }
@@ -6527,15 +6599,15 @@
         ]
       ],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Marangaroo",
         "tmax": 20,
         "tmin": 14,
-        "rain_chance": 94,
-        "rain_mm": 32.6,
-        "rain_amount_label": "32.6 mm",
+        "rain_chance": 96,
+        "rain_mm": 9.9,
+        "rain_amount_label": "9.9 mm",
         "wind": 22
       },
       "error": null,
@@ -6552,11 +6624,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Marri Park",
-        "tmax": 17,
-        "tmin": 13,
-        "rain_chance": 100,
-        "rain_mm": 39.6,
-        "rain_amount_label": "39.6 mm",
+        "tmax": 18,
+        "tmin": 14,
+        "rain_chance": 92,
+        "rain_mm": 30.0,
+        "rain_amount_label": "30 mm",
         "wind": 22
       },
       "error": null,
@@ -6571,15 +6643,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Maylands",
         "tmax": 20,
         "tmin": 14,
         "rain_chance": 96,
-        "rain_mm": 24.0,
-        "rain_amount_label": "24 mm",
+        "rain_mm": 16.3,
+        "rain_amount_label": "16.3 mm",
         "wind": 18
       },
       "error": null,
@@ -6600,9 +6672,9 @@
         "location_name": "Meadow Springs",
         "tmax": 18,
         "tmin": 13,
-        "rain_chance": 96,
-        "rain_mm": 31.0,
-        "rain_amount_label": "31 mm",
+        "rain_chance": 92,
+        "rain_mm": 30.0,
+        "rain_amount_label": "30 mm",
         "wind": 23
       },
       "error": null,
@@ -6619,13 +6691,13 @@
       "weather": {
         "icon": "⛈️",
         "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "label": "Thunderstorm",
         "location_name": "Pinjarra",
-        "tmax": 17,
+        "tmax": 16,
         "tmin": 13,
-        "rain_chance": 96,
-        "rain_mm": 29.5,
-        "rain_amount_label": "29.5 mm",
+        "rain_chance": 97,
+        "rain_mm": 21.4,
+        "rain_amount_label": "21.4 mm",
         "wind": 23
       },
       "error": null,
@@ -6642,13 +6714,13 @@
       "weather": {
         "icon": "⛈️",
         "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "label": "Thunderstorm",
         "location_name": "Point Walter",
-        "tmax": 19,
-        "tmin": 14,
+        "tmax": 18,
+        "tmin": 15,
         "rain_chance": 96,
-        "rain_mm": 28.0,
-        "rain_amount_label": "28 mm",
+        "rain_mm": 21.1,
+        "rain_amount_label": "21.1 mm",
         "wind": 25
       },
       "error": null,
@@ -6667,11 +6739,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Rockingham",
-        "tmax": 18,
-        "tmin": 15,
-        "rain_chance": 96,
-        "rain_mm": 28.1,
-        "rain_amount_label": "28.1 mm",
+        "tmax": 19,
+        "tmin": 14,
+        "rain_chance": 92,
+        "rain_mm": 29.3,
+        "rain_amount_label": "29.3 mm",
         "wind": 33
       },
       "error": null,
@@ -6690,11 +6762,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Rottnest Island",
-        "tmax": 20,
+        "tmax": 21,
         "tmin": 18,
-        "rain_chance": 91,
-        "rain_mm": 27.6,
-        "rain_amount_label": "27.6 mm",
+        "rain_chance": 90,
+        "rain_mm": 26.2,
+        "rain_amount_label": "26.2 mm",
         "wind": 45
       },
       "error": null,
@@ -6711,13 +6783,13 @@
       "weather": {
         "icon": "⛈️",
         "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "label": "Thunderstorm",
         "location_name": "Sea View",
         "tmax": 19,
-        "tmin": 14,
-        "rain_chance": 94,
-        "rain_mm": 33.2,
-        "rain_amount_label": "33.2 mm",
+        "tmin": 15,
+        "rain_chance": 96,
+        "rain_mm": 16.1,
+        "rain_amount_label": "16.1 mm",
         "wind": 26
       },
       "error": null,
@@ -7489,11 +7561,11 @@
         "icon_file": "sheet_storm.png",
         "label": "Thunderstorm",
         "location_name": "Secret Harbour",
-        "tmax": 18,
+        "tmax": 19,
         "tmin": 14,
-        "rain_chance": 96,
-        "rain_mm": 30.2,
-        "rain_amount_label": "30.2 mm",
+        "rain_chance": 92,
+        "rain_mm": 31.4,
+        "rain_amount_label": "31.4 mm",
         "wind": 28
       },
       "error": null,
@@ -7506,15 +7578,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛈️",
-        "icon_file": "sheet_storm.png",
-        "label": "Thunderstorm",
+        "icon": "🌧️",
+        "icon_file": "sheet_rain.png",
+        "label": "Heavy showers",
         "location_name": "Sun City",
-        "tmax": 22,
+        "tmax": 21,
         "tmin": 15,
-        "rain_chance": 88,
-        "rain_mm": 22.6,
-        "rain_amount_label": "22.6 mm",
+        "rain_chance": 84,
+        "rain_mm": 7.9,
+        "rain_amount_label": "7.9 mm",
         "wind": 26
       },
       "error": null,
@@ -7600,21 +7672,9 @@
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
         },
         {
-          "time": "9:30 am",
-          "course_raw": "9 Holes",
-          "spots": 2,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
-        },
-        {
-          "time": "9:37 am",
-          "course_raw": "9 Holes",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
-        },
-        {
           "time": "9:45 am",
           "course_raw": "9 Holes",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
         },
         {
@@ -7673,18 +7733,6 @@
         },
         {
           "time": "11:15 am",
-          "course_raw": "9 Holes",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
-        },
-        {
-          "time": "11:22 am",
-          "course_raw": "9 Holes",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
-        },
-        {
-          "time": "11:37 am",
           "course_raw": "9 Holes",
           "spots": 4,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716"
@@ -7962,25 +8010,9 @@
           "minutes": 547
         },
         {
-          "time": "9:30 am",
-          "course_raw": "9 Holes",
-          "spots": 2,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
-          "course": "9 Holes",
-          "minutes": 570
-        },
-        {
-          "time": "9:37 am",
-          "course_raw": "9 Holes",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
-          "course": "9 Holes",
-          "minutes": 577
-        },
-        {
           "time": "9:45 am",
           "course_raw": "9 Holes",
-          "spots": 4,
+          "spots": 2,
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "9 Holes",
           "minutes": 585
@@ -8064,22 +8096,6 @@
           "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
           "course": "9 Holes",
           "minutes": 675
-        },
-        {
-          "time": "11:22 am",
-          "course_raw": "9 Holes",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
-          "course": "9 Holes",
-          "minutes": 682
-        },
-        {
-          "time": "11:37 am",
-          "course_raw": "9 Holes",
-          "spots": 4,
-          "source_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20260716",
-          "course": "9 Holes",
-          "minutes": 697
         },
         {
           "time": "11:45 am",
@@ -8327,8 +8343,6 @@
             "8:52 am",
             "9:00 am",
             "9:07 am",
-            "9:37 am",
-            "9:45 am",
             "10:07 am",
             "10:15 am",
             "10:22 am",
@@ -8339,8 +8353,6 @@
             "11:00 am",
             "11:07 am",
             "11:15 am",
-            "11:22 am",
-            "11:37 am",
             "11:45 am",
             "11:52 am",
             "12:00 pm",
@@ -8374,7 +8386,7 @@
           "9 Holes": [
             "7:45 am",
             "8:30 am",
-            "9:30 am",
+            "9:45 am",
             "2:30 pm",
             "2:52 pm"
           ]
@@ -8400,10 +8412,10 @@
         "label": "Thunderstorm",
         "location_name": "The Springs",
         "tmax": 18,
-        "tmin": 13,
-        "rain_chance": 100,
-        "rain_mm": 38.0,
-        "rain_amount_label": "38 mm",
+        "tmin": 14,
+        "rain_chance": 92,
+        "rain_mm": 27.9,
+        "rain_amount_label": "27.9 mm",
         "wind": 22
       },
       "error": null,
@@ -8417,7 +8429,7 @@
         {
           "time": "07:32 am",
           "course_raw": "Vines 1st",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-16&feeGroupId=22289426"
         },
         {
@@ -8454,6 +8466,12 @@
           "time": "10:36 am",
           "course_raw": "Vines 1st",
           "spots": 2,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-16&feeGroupId=22289426"
+        },
+        {
+          "time": "10:44 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
           "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-16&feeGroupId=22289426"
         },
         {
@@ -8605,7 +8623,7 @@
         {
           "time": "07:32 am",
           "course_raw": "Vines 1st",
-          "spots": 4,
+          "spots": 1,
           "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-16&feeGroupId=22289426",
           "course": "Vines 1st",
           "minutes": 452
@@ -8657,6 +8675,14 @@
           "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-16&feeGroupId=22289426",
           "course": "Vines 1st",
           "minutes": 636
+        },
+        {
+          "time": "10:44 am",
+          "course_raw": "Vines 1st",
+          "spots": 4,
+          "source_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-07-16&feeGroupId=22289426",
+          "course": "Vines 1st",
+          "minutes": 644
         },
         {
           "time": "10:52 am",
@@ -8852,9 +8878,32 @@
         }
       ],
       "grouped": {
-        "4": {
+        "1": {
           "Vines 1st": [
             "07:32 am",
+            "10:04 am"
+          ]
+        },
+        "3": {
+          "Vines 1st": [
+            "09:32 am",
+            "09:40 am",
+            "09:56 am",
+            "02:04 pm",
+            "03:24 pm"
+          ]
+        },
+        "2": {
+          "Vines 1st": [
+            "10:20 am",
+            "10:36 am",
+            "10:52 am",
+            "11:00 am"
+          ]
+        },
+        "4": {
+          "Vines 1st": [
+            "10:44 am",
             "11:16 am",
             "11:24 am",
             "11:40 am",
@@ -8876,28 +8925,6 @@
             "03:08 pm",
             "03:16 pm"
           ]
-        },
-        "3": {
-          "Vines 1st": [
-            "09:32 am",
-            "09:40 am",
-            "09:56 am",
-            "02:04 pm",
-            "03:24 pm"
-          ]
-        },
-        "1": {
-          "Vines 1st": [
-            "10:04 am"
-          ]
-        },
-        "2": {
-          "Vines 1st": [
-            "10:20 am",
-            "10:36 am",
-            "10:52 am",
-            "11:00 am"
-          ]
         }
       },
       "preference_text": "Best overall option: 07:32 am",
@@ -8906,7 +8933,7 @@
       "display_earliest": "07:32 am",
       "earliest_group_times": [
         [
-          4,
+          1,
           "07:32 am"
         ],
         [
@@ -8914,24 +8941,24 @@
           "09:32 am"
         ],
         [
-          1,
-          "10:04 am"
-        ],
-        [
           2,
           "10:20 am"
+        ],
+        [
+          4,
+          "10:44 am"
         ]
       ],
       "weather": {
-        "icon": "🌧️",
-        "icon_file": "sheet_rain.png",
-        "label": "Heavy showers",
+        "icon": "⛈️",
+        "icon_file": "sheet_storm.png",
+        "label": "Violent showers",
         "location_name": "The Vines",
-        "tmax": 21,
-        "tmin": 15,
-        "rain_chance": 92,
-        "rain_mm": 22.2,
-        "rain_amount_label": "22.2 mm",
+        "tmax": 20,
+        "tmin": 16,
+        "rain_chance": 84,
+        "rain_mm": 16.3,
+        "rain_amount_label": "16.3 mm",
         "wind": 21
       },
       "error": null,
@@ -8952,13 +8979,13 @@
       "weather": {
         "icon": "⛈️",
         "icon_file": "sheet_storm.png",
-        "label": "Violent showers",
+        "label": "Thunderstorm",
         "location_name": "Wembley",
         "tmax": 19,
-        "tmin": 14,
-        "rain_chance": 94,
-        "rain_mm": 33.2,
-        "rain_amount_label": "33.2 mm",
+        "tmin": 15,
+        "rain_chance": 96,
+        "rain_mm": 16.1,
+        "rain_amount_label": "16.1 mm",
         "wind": 26
       },
       "error": null,
@@ -9038,7 +9065,7 @@
         {
           "time": "11:37 am",
           "course_raw": "1st Tee",
-          "spots": 3,
+          "spots": 4,
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500344725"
         },
         {
@@ -9254,7 +9281,7 @@
         {
           "time": "11:37 am",
           "course_raw": "1st Tee",
-          "spots": 3,
+          "spots": 4,
           "source_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-16&feeGroupId=1500344725",
           "course": "",
           "minutes": 697
@@ -9439,6 +9466,7 @@
             "08:25 am"
           ],
           "": [
+            "11:37 am",
             "11:45 am",
             "11:53 am",
             "12:09 pm",
@@ -9460,7 +9488,6 @@
         "3": {
           "": [
             "10:17 am",
-            "11:37 am",
             "12:49 pm",
             "01:13 pm"
           ]
@@ -9502,10 +9529,10 @@
         "label": "Thunderstorm",
         "location_name": "Whaleback",
         "tmax": 19,
-        "tmin": 14,
+        "tmin": 15,
         "rain_chance": 96,
-        "rain_mm": 25.3,
-        "rain_amount_label": "25.3 mm",
+        "rain_mm": 24.2,
+        "rain_amount_label": "24.2 mm",
         "wind": 18
       },
       "error": null,

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T23:11:21+00:00",
+  "generated_at": "2026-07-15T00:08:53+00:00",
   "date": "2026-07-23",
   "holes": "18",
   "results": [
@@ -17,7 +17,7 @@
         "location_name": "Altone Park",
         "tmax": 21,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -621,7 +621,7 @@
         "location_name": "Araluen",
         "tmax": 20,
         "tmin": 7,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -666,12 +666,6 @@
         },
         {
           "time": "10:10 am",
-          "course_raw": "1ST TEE",
-          "spots": 4,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500624075"
-        },
-        {
-          "time": "10:18 am",
           "course_raw": "1ST TEE",
           "spots": 4,
           "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500624075"
@@ -847,14 +841,6 @@
           "minutes": 610
         },
         {
-          "time": "10:18 am",
-          "course_raw": "1ST TEE",
-          "spots": 4,
-          "source_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-23&feeGroupId=1500624075",
-          "course": "",
-          "minutes": 618
-        },
-        {
           "time": "10:26 am",
           "course_raw": "1ST TEE",
           "spots": 4,
@@ -1024,7 +1010,6 @@
             "09:54 am",
             "10:02 am",
             "10:10 am",
-            "10:18 am",
             "10:26 am",
             "10:34 am",
             "10:42 am",
@@ -1065,7 +1050,7 @@
         "location_name": "Carramar",
         "tmax": 21,
         "tmin": 9,
-        "rain_chance": 25,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 10
@@ -1086,7 +1071,7 @@
         "location_name": "Chequers",
         "tmax": 21,
         "tmin": 9,
-        "rain_chance": 22,
+        "rain_chance": 4,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -1115,7 +1100,7 @@
         "location_name": "Collier Park",
         "tmax": 19,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 6
@@ -1142,7 +1127,7 @@
         "location_name": "Fremantle",
         "tmax": 19,
         "tmin": 9,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 6
@@ -1196,7 +1181,7 @@
         "location_name": "Hamersley",
         "tmax": 20,
         "tmin": 8,
-        "rain_chance": 25,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -1223,7 +1208,7 @@
         "location_name": "Hartfield",
         "tmax": 20,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -1244,7 +1229,7 @@
         "location_name": "Hillview",
         "tmax": 20,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -1267,7 +1252,7 @@
         "location_name": "Joondalup Resort",
         "tmax": 20,
         "tmin": 9,
-        "rain_chance": 25,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 10
@@ -1804,7 +1789,7 @@
         "location_name": "Kwinana",
         "tmax": 20,
         "tmin": 7,
-        "rain_chance": 25,
+        "rain_chance": 4,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -2796,7 +2781,7 @@
         "location_name": "Links Kennedy Bay",
         "tmax": 20,
         "tmin": 7,
-        "rain_chance": 23,
+        "rain_chance": 9,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 6
@@ -2817,7 +2802,7 @@
         "location_name": "Mandurah Country Club",
         "tmax": 17,
         "tmin": 7,
-        "rain_chance": 23,
+        "rain_chance": 9,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -3204,7 +3189,7 @@
         "location_name": "Marangaroo",
         "tmax": 21,
         "tmin": 7,
-        "rain_chance": 25,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -3225,7 +3210,7 @@
         "location_name": "Marri Park",
         "tmax": 20,
         "tmin": 7,
-        "rain_chance": 25,
+        "rain_chance": 4,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -3248,7 +3233,7 @@
         "location_name": "Maylands",
         "tmax": 20,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -3271,7 +3256,7 @@
         "location_name": "Meadow Springs",
         "tmax": 20,
         "tmin": 6,
-        "rain_chance": 23,
+        "rain_chance": 9,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -3294,7 +3279,7 @@
         "location_name": "Pinjarra",
         "tmax": 19,
         "tmin": 6,
-        "rain_chance": 22,
+        "rain_chance": 7,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -3317,7 +3302,7 @@
         "location_name": "Rockingham",
         "tmax": 19,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 9,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 6
@@ -3340,7 +3325,7 @@
         "location_name": "Rottnest Island",
         "tmax": 20,
         "tmin": 16,
-        "rain_chance": 31,
+        "rain_chance": 9,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 18
@@ -3363,7 +3348,7 @@
         "location_name": "Sea View",
         "tmax": 19,
         "tmin": 8,
-        "rain_chance": 25,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -3870,7 +3855,7 @@
         "location_name": "Secret Harbour",
         "tmax": 20,
         "tmin": 7,
-        "rain_chance": 23,
+        "rain_chance": 9,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 6
@@ -3891,7 +3876,7 @@
         "location_name": "Sun City",
         "tmax": 21,
         "tmin": 8,
-        "rain_chance": 24,
+        "rain_chance": 4,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -3914,7 +3899,7 @@
         "location_name": "The Cut",
         "tmax": 17,
         "tmin": 8,
-        "rain_chance": 22,
+        "rain_chance": 7,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 6
@@ -4645,7 +4630,7 @@
         "location_name": "The Springs",
         "tmax": 20,
         "tmin": 7,
-        "rain_chance": 25,
+        "rain_chance": 4,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -5120,7 +5105,7 @@
         "location_name": "The Vines",
         "tmax": 21,
         "tmin": 9,
-        "rain_chance": 22,
+        "rain_chance": 4,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -5147,7 +5132,7 @@
         "location_name": "Wembley",
         "tmax": 19,
         "tmin": 8,
-        "rain_chance": 25,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -5509,7 +5494,7 @@
         "location_name": "Whaleback",
         "tmax": 20,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 6,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7

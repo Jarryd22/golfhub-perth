@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T23:12:21+00:00",
+  "generated_at": "2026-07-15T00:09:53+00:00",
   "date": "2026-07-20",
   "holes": "9",
   "results": [
@@ -11,13 +11,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Altone Park",
         "tmax": 17,
-        "tmin": 8,
-        "rain_chance": 17,
+        "tmin": 7,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -463,9 +463,9 @@
         "icon_file": "sheet_partly_cloudy.png",
         "label": "Partly cloudy",
         "location_name": "Araluen",
-        "tmax": 16,
+        "tmax": 17,
         "tmin": 6,
-        "rain_chance": 17,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -1253,13 +1253,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Carramar",
         "tmax": 17,
-        "tmin": 8,
-        "rain_chance": 23,
+        "tmin": 7,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -1300,6 +1300,12 @@
           "time": "07:44 am",
           "course_raw": "Island (9) or Island & Pines(18)",
           "spots": 1,
+          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-20&feeGroupId=1500323733"
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "Pines 9 Holes ONLY",
+          "spots": 4,
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-20&feeGroupId=1500323733"
         },
         {
@@ -1599,6 +1605,14 @@
           "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-20&feeGroupId=1500323733",
           "course": "Island/Pines",
           "minutes": 448
+        },
+        {
+          "time": "07:44 am",
+          "course_raw": "Pines 9 Holes ONLY",
+          "spots": 4,
+          "source_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-07-20&feeGroupId=1500323733",
+          "course": "Pines 9 Holes ONLY",
+          "minutes": 464
         },
         {
           "time": "07:44 am",
@@ -1965,6 +1979,7 @@
         "4": {
           "Pines 9 Holes ONLY": [
             "07:12 am",
+            "07:44 am",
             "07:52 am",
             "08:24 am",
             "08:48 am",
@@ -2063,13 +2078,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Collier Park",
         "tmax": 16,
         "tmin": 8,
-        "rain_chance": 17,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -3232,13 +3247,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Fremantle",
-        "tmax": 17,
-        "tmin": 9,
-        "rain_chance": 17,
+        "tmax": 16,
+        "tmin": 8,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -3865,13 +3880,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Hamersley",
-        "tmax": 17,
+        "tmax": 16,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -4588,13 +4603,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Hartfield",
         "tmax": 17,
         "tmin": 7,
-        "rain_chance": 17,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -4609,13 +4624,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Hillview",
         "tmax": 17,
         "tmin": 7,
-        "rain_chance": 17,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -4632,13 +4647,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Joondalup Resort",
-        "tmax": 17,
+        "tmax": 16,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 10
@@ -5485,13 +5500,13 @@
         ]
       ],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Kwinana",
         "tmax": 17,
-        "tmin": 7,
-        "rain_chance": 26,
+        "tmin": 6,
+        "rain_chance": 10,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 9
@@ -6546,13 +6561,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Links Kennedy Bay",
         "tmax": 17,
-        "tmin": 7,
-        "rain_chance": 23,
+        "tmin": 6,
+        "rain_chance": 12,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -6572,8 +6587,8 @@
         "label": "Overcast",
         "location_name": "Mandurah Country Club",
         "tmax": 15,
-        "tmin": 8,
-        "rain_chance": 23,
+        "tmin": 7,
+        "rain_chance": 12,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 10
@@ -7408,8 +7423,8 @@
         "label": "Overcast",
         "location_name": "Marangaroo",
         "tmax": 17,
-        "tmin": 7,
-        "rain_chance": 23,
+        "tmin": 6,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -7424,13 +7439,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Marri Park",
         "tmax": 17,
         "tmin": 6,
-        "rain_chance": 26,
+        "rain_chance": 10,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -7447,13 +7462,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Maylands",
         "tmax": 17,
-        "tmin": 8,
-        "rain_chance": 17,
+        "tmin": 7,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -7470,13 +7485,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Meadow Springs",
         "tmax": 16,
-        "tmin": 6,
-        "rain_chance": 23,
+        "tmin": 5,
+        "rain_chance": 12,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 10
@@ -7493,13 +7508,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Pinjarra",
         "tmax": 16,
         "tmin": 5,
-        "rain_chance": 24,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -7528,13 +7543,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "⛅",
-        "icon_file": "sheet_partly_cloudy.png",
-        "label": "Partly cloudy",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Rockingham",
-        "tmax": 17,
-        "tmin": 8,
-        "rain_chance": 23,
+        "tmax": 16,
+        "tmin": 7,
+        "rain_chance": 12,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 10
@@ -7551,13 +7566,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "Rottnest Island",
-        "tmax": 16,
+        "tmax": 17,
         "tmin": 14,
-        "rain_chance": 36,
+        "rain_chance": 27,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 24
@@ -7574,13 +7589,13 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Sea View",
         "tmax": 16,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -8423,13 +8438,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Secret Harbour",
         "tmax": 17,
-        "tmin": 7,
-        "rain_chance": 23,
+        "tmin": 6,
+        "rain_chance": 12,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -8444,15 +8459,15 @@
       "rows": [],
       "decorated_rows": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌦️",
+        "icon_file": "sheet_partly_rain.png",
+        "label": "Light drizzle",
         "location_name": "Sun City",
-        "tmax": 18,
+        "tmax": 17,
         "tmin": 8,
-        "rain_chance": 20,
-        "rain_mm": 0.0,
-        "rain_amount_label": "0 mm",
+        "rain_chance": 7,
+        "rain_mm": 0.6,
+        "rain_amount_label": "< 1 mm",
         "wind": 14
       },
       "error": null,
@@ -9393,13 +9408,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "The Springs",
         "tmax": 17,
-        "tmin": 6,
-        "rain_chance": 26,
+        "tmin": 5,
+        "rain_chance": 10,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 7
@@ -10266,13 +10281,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "🌤️",
+        "icon_file": "sheet_clear.png",
+        "label": "Mostly clear",
         "location_name": "The Vines",
         "tmax": 17,
         "tmin": 7,
-        "rain_chance": 17,
+        "rain_chance": 7,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 11
@@ -10293,13 +10308,13 @@
       "display_earliest": null,
       "earliest_group_times": [],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Wembley",
         "tmax": 16,
         "tmin": 8,
-        "rain_chance": 23,
+        "rain_chance": 11,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8
@@ -10937,13 +10952,13 @@
         ]
       ],
       "weather": {
-        "icon": "☁️",
-        "icon_file": "sheet_cloud.png",
-        "label": "Overcast",
+        "icon": "☀️",
+        "icon_file": "sheet_clear.png",
+        "label": "Clear",
         "location_name": "Whaleback",
         "tmax": 17,
-        "tmin": 8,
-        "rain_chance": 17,
+        "tmin": 7,
+        "rain_chance": 8,
         "rain_mm": 0.0,
         "rain_amount_label": "0 mm",
         "wind": 8

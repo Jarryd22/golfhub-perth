@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-07-14T23:12:27+00:00",
+  "generated_at": "2026-07-15T00:10:24+00:00",
   "date": "2026-08-05",
   "holes": "9",
   "results": [
@@ -34,10 +34,18 @@
     },
     {
       "site_name": "Collier Park",
-      "url": "https://bookings.collierparkgolf.com.au",
+      "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=1500323733",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
@@ -62,18 +70,34 @@
     },
     {
       "site_name": "Hamersley",
-      "url": "https://hamersley.quick18.com",
+      "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20260805",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
       "site_name": "Hartfield",
-      "url": "https://www.hartfieldgolf.com.au",
+      "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=1511784389",
       "hole_label": "9 holes",
+      "rows": [],
       "decorated_rows": [],
-      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
+      "grouped": {},
+      "preference_text": "No available times",
+      "preference_course": "",
+      "display_group": null,
+      "display_earliest": null,
+      "earliest_group_times": [],
+      "weather": null,
+      "error": null,
       "not_configured": false
     },
     {
@@ -102,18 +126,10 @@
     },
     {
       "site_name": "Kwinana",
-      "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-08-05&feeGroupId=1502727564",
+      "url": "https://www.kwinanagolfclub.com.au",
       "hole_label": "9 holes",
-      "rows": [],
       "decorated_rows": [],
-      "grouped": {},
-      "preference_text": "No available times",
-      "preference_course": "",
-      "display_group": null,
-      "display_earliest": null,
-      "earliest_group_times": [],
-      "weather": null,
-      "error": null,
+      "error": "<urlopen error _ssl.c:993: The handshake operation timed out>",
       "not_configured": false
     },
     {
