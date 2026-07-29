@@ -2,6 +2,11 @@ name: Refresh four-week tee-time cache
 
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/refresh-cache-10min.yml"
+      - "scripts/**"
   schedule:
     # Keep the 10-minute cadence away from minute 00, when GitHub says
     # scheduled Actions are most likely to be delayed or dropped.
