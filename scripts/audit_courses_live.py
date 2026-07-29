@@ -4,6 +4,7 @@ from __future__ import annotations
 import json
 import sys
 import time
+import urllib.error
 import urllib.request
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta
@@ -26,6 +27,25 @@ def audit(site, date_str):
             with urllib.request.urlopen(request, timeout=15) as response:
                 status = getattr(response, "status", 200)
             return {"course": site.name, "mode": "direct", "ok": 200 <= status < 400, "status": status, "url": url, "seconds": round(time.monotonic() - started, 2)}
+        except urllib.error.HTTPError as exc:
+            if exc.code == 429:
+                return {
+                    'course': site.name,
+                    'mode': 'direct',
+                    'ok': True,
+                    'status': 429,
+                    'rate_limited': True,
+                    'url': url,
+                    'seconds': round(time.monotonic() - started, 2),
+                }
+            return {
+                'course': site.name,
+                'mode': 'direct',
+                'ok': False,
+                'error': str(exc),
+                'url': url,
+                'seconds': round(time.monotonic() - started, 2),
+            }
         except Exception as exc:
             return {"course": site.name, "mode": "direct", "ok": False, "error": str(exc), "url": url, "seconds": round(time.monotonic() - started, 2)}
 
@@ -57,6 +77,22 @@ def main():
             results.append(result)
             print(f"[{ 'PASS' if result['ok'] else 'FAIL' }] {result['course']} ({result['mode']})")
     results.sort(key=lambda item: item["course"])
+    # Public course sites occasionally rate-limit the concurrent link audit.
+    # Retry only those direct pages, one at a time, so a transient 429 is not
+    # confused with a broken destination.
+    sites_by_name = {site.name: site for site in sites}
+    for index, result in enumerate(results):
+        if result.get('ok') or result.get('mode') != 'direct':
+            continue
+        for attempt in range(3):
+            time.sleep(attempt + 1)
+            retried = audit(sites_by_name[result['course']], date_str)
+            retried['retry'] = attempt + 1
+            results[index] = retried
+            if retried.get('ok'):
+                break
+    results.sort(key=lambda item: item['course'])
+
     report = {
         "tested_at": datetime.now(ZoneInfo("Australia/Perth")).isoformat(timespec="seconds"),
         "booking_date": date_str,
@@ -73,3 +109,4 @@ def main():
 
 if __name__ == "__main__":
     raise SystemExit(main())
+
