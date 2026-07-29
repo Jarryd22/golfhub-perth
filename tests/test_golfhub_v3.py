@@ -2,6 +2,7 @@ import json
 import tempfile
 import unittest
 from pathlib import Path
+from unittest.mock import patch
 
 from app.golfhub_core import CONFIG_FILE, DATA_DIR, decorate_rows, load_sites, parse_user_time
 from app.course_results import direct_result
@@ -136,16 +137,25 @@ class GolfHubV3Tests(unittest.TestCase):
         from app.qt_golfhub_app import ResultCard
         app = QApplication.instance() or QApplication([])
         note = "Wembley's official calendar shows bookings available for Old and Tuart."
+        url = (
+            "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp"
+            "?bookingResourceId=3000000&selectedDate=2026-07-23&mobile=true"
+        )
         card = ResultCard({
             "site_name": "Wembley",
-            "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp",
+            "url": url,
             "hole_label": "18 holes",
             "calendar_availability": "available",
             "booking_note": note,
             "weather": None,
         }, [])
-        self.assertIn("CHECK WEMBLEY TIMES", [button.text() for button in card.findChildren(QPushButton)])
+        self.assertIn("VIEW WEMBLEY TIMES", [button.text() for button in card.findChildren(QPushButton)])
         self.assertIn(note, [label.text() for label in card.findChildren(QLabel)])
+        with patch("app.qt_golfhub_app.webbrowser.open") as open_page:
+            card.open_url()
+        open_page.assert_called_once_with(url)
+        self.assertIn("selectedDate=2026-07-23", url)
+        self.assertNotIn("recaptchaResponse", url)
 
     def test_cache_config_targets_public_repository(self):
         config = json.loads((Path(__file__).parents[1] / "data/cache_config.json").read_text())
@@ -237,3 +247,4 @@ class GolfHubV3Tests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
