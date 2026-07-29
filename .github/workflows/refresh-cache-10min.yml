@@ -3,7 +3,9 @@ name: Refresh four-week tee-time cache
 on:
   workflow_dispatch:
   schedule:
-    - cron: "*/10 * * * *"
+    # Keep the 10-minute cadence away from minute 00, when GitHub says
+    # scheduled Actions are most likely to be delayed or dropped.
+    - cron: "7,17,27,37,47,57 * * * *"
 
 permissions:
   contents: read
