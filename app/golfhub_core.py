@@ -68,34 +68,34 @@ def enable_high_dpi() -> None:
 
 
 WEATHER_CODE_MAP = {
-    0: ("☀️", "Clear"),
-    1: ("🌤️", "Mostly clear"),
-    2: ("⛅", "Partly cloudy"),
-    3: ("☁️", "Overcast"),
-    45: ("🌫️", "Fog"),
-    48: ("🌫️", "Rime fog"),
-    51: ("🌦️", "Light drizzle"),
-    53: ("🌦️", "Drizzle"),
-    55: ("🌧️", "Heavy drizzle"),
-    56: ("🌧️", "Freezing drizzle"),
-    57: ("🌧️", "Heavy freezing drizzle"),
-    61: ("🌦️", "Light rain"),
-    63: ("🌧️", "Rain"),
-    65: ("🌧️", "Heavy rain"),
-    66: ("🌧️", "Freezing rain"),
-    67: ("🌧️", "Heavy freezing rain"),
-    71: ("🌨️", "Light snow"),
-    73: ("🌨️", "Snow"),
-    75: ("❄️", "Heavy snow"),
-    77: ("❄️", "Snow grains"),
-    80: ("🌦️", "Rain showers"),
-    81: ("🌧️", "Heavy showers"),
-    82: ("⛈️", "Violent showers"),
-    85: ("🌨️", "Snow showers"),
-    86: ("❄️", "Heavy snow showers"),
-    95: ("⛈️", "Thunderstorm"),
-    96: ("⛈️", "Storm with hail"),
-    99: ("⛈️", "Severe storm"),
+    0: ("â˜€ï¸", "Clear"),
+    1: ("ðŸŒ¤ï¸", "Mostly clear"),
+    2: ("â›…", "Partly cloudy"),
+    3: ("â˜ï¸", "Overcast"),
+    45: ("ðŸŒ«ï¸", "Fog"),
+    48: ("ðŸŒ«ï¸", "Rime fog"),
+    51: ("ðŸŒ¦ï¸", "Light drizzle"),
+    53: ("ðŸŒ¦ï¸", "Drizzle"),
+    55: ("ðŸŒ§ï¸", "Heavy drizzle"),
+    56: ("ðŸŒ§ï¸", "Freezing drizzle"),
+    57: ("ðŸŒ§ï¸", "Heavy freezing drizzle"),
+    61: ("ðŸŒ¦ï¸", "Light rain"),
+    63: ("ðŸŒ§ï¸", "Rain"),
+    65: ("ðŸŒ§ï¸", "Heavy rain"),
+    66: ("ðŸŒ§ï¸", "Freezing rain"),
+    67: ("ðŸŒ§ï¸", "Heavy freezing rain"),
+    71: ("ðŸŒ¨ï¸", "Light snow"),
+    73: ("ðŸŒ¨ï¸", "Snow"),
+    75: ("â„ï¸", "Heavy snow"),
+    77: ("â„ï¸", "Snow grains"),
+    80: ("ðŸŒ¦ï¸", "Rain showers"),
+    81: ("ðŸŒ§ï¸", "Heavy showers"),
+    82: ("â›ˆï¸", "Violent showers"),
+    85: ("ðŸŒ¨ï¸", "Snow showers"),
+    86: ("â„ï¸", "Heavy snow showers"),
+    95: ("â›ˆï¸", "Thunderstorm"),
+    96: ("â›ˆï¸", "Storm with hail"),
+    99: ("â›ˆï¸", "Severe storm"),
 }
 
 WEATHER_ICON_FILE_MAP = {
@@ -133,6 +133,30 @@ WEATHER_ICON_FILE_MAP = {
 def weather_icon_filename_for_code(code: int) -> str:
     return WEATHER_ICON_FILE_MAP.get(code, "sheet_partly_cloudy.png")
 
+
+
+COLLIER_PUBLIC_CALENDAR_URL = (
+    'https://bookings.collierparkgolf.com.au/guests/bookings/'
+    'ViewPublicCalendar.msp?booking_resource_id=3000000'
+)
+COLLIER_EMPTY_BOOKING_NOTE = (
+    'Collier Park releases public tee times 8 days in advance at 12:00 pm. '
+    'No public times are showing for this date, so it may not be released yet '
+    'or may already be full. Open the official calendar to check other dates.'
+)
+
+
+def _collier_empty_result_fields(site: 'Site', has_rows: bool) -> dict:
+    # Keep exact tee-time URLs when rows exist; use the official calendar only
+    # when Collier has no rows to show.
+    if site.name != 'Collier Park' or has_rows:
+        return {}
+    return {
+        'url': COLLIER_PUBLIC_CALENDAR_URL,
+        'official_calendar_url': COLLIER_PUBLIC_CALENDAR_URL,
+        'show_when_empty': True,
+        'booking_note': COLLIER_EMPTY_BOOKING_NOTE,
+    }
 
 
 @dataclass(frozen=True)
@@ -297,7 +321,13 @@ def fetch_site_text(site: Site, url: str, timeout: int = 25) -> str:
     )
 
     base = f"https://{site.domain}"
-    calendar_url = f"{base}/guests/bookings/ViewPublicCalendar.msp"
+    query = _url_query_map(url)
+    selected_date = (query.get("selectedDate") or [""])[0]
+    calendar_url = (
+        wembley_calendar_url(site, selected_date)
+        if selected_date
+        else f"{base}/guests/bookings/ViewPublicCalendar.msp"
+    )
 
     # Prime cookies/session from the main booking page.
     calendar_request = urllib.request.Request(calendar_url, headers=_browser_headers())
@@ -360,12 +390,34 @@ def _same_fee_group(url: str, fee_group_ids: set[str]) -> bool:
 
 
 def wembley_calendar_url(site: Site, date_str: str) -> str:
+    resource_id = next(
+        (option.booking_resource_id for option in site.holes.values()),
+        "3000000",
+    )
     query = urllib.parse.urlencode({
-        "bookingResourceId": "3000000",
+        "bookingResourceId": resource_id,
         "selectedDate": date_str,
         "mobile": "true",
     })
     return f"https://{site.domain}/guests/bookings/ViewPublicCalendar.msp?{query}"
+
+
+def parse_wembley_public_captcha_enabled(html: str) -> bool | None:
+    """Return Wembley's published public-timesheet protection setting.
+
+    The calendar itself defines this JavaScript flag. A true value means the
+    official site requires a fresh browser-generated reCAPTCHA response before
+    it will reveal individual slots. GolfHub never attempts to manufacture,
+    cache, or replay that response.
+    """
+    match = re.search(
+        r"\b(?:var|let|const)\s+publicCaptchaEnabled\s*=\s*(true|false)\b",
+        html,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+    return match.group(1).lower() == "true"
 
 
 def parse_wembley_calendar_availability(
@@ -417,9 +469,15 @@ def parse_wembley_calendar_availability(
     return "unknown", []
 
 
-def fetch_wembley_calendar_result(site: Site, date_str: str, hole_type: str, weather: dict | None) -> dict:
+def fetch_wembley_calendar_result(
+    site: Site,
+    date_str: str,
+    hole_type: str,
+    weather: dict | None,
+    calendar_html: str | None = None,
+) -> dict:
     url = wembley_calendar_url(site, date_str)
-    html = fetch_text(url)
+    html = calendar_html if calendar_html is not None else fetch_text(url)
     option = site.holes[hole_type]
     fee_group_ids = set(option.resolve_fee_group_ids(date_str))
     status, course_labels = parse_wembley_calendar_availability(html, date_str, fee_group_ids)
@@ -427,8 +485,14 @@ def fetch_wembley_calendar_result(site: Site, date_str: str, hole_type: str, wea
         raise RuntimeError("Wembley calendar response did not contain the configured booking products")
 
     names = ", ".join(course_labels)
-    if status == "available":
-        note = f"Wembley's official calendar shows bookings available for {names}. Open Wembley to choose the exact tee time and complete its booking check."
+    captcha_enabled = parse_wembley_public_captcha_enabled(html)
+    if status == "available" and captcha_enabled is True:
+        note = (
+            f"Wembley has bookings available for {names}. Select VIEW WEMBLEY TIMES, "
+            "choose a course, and complete Wembley's quick check to see the exact tee times."
+        )
+    elif status == "available":
+        note = f"Wembley's official calendar shows bookings available for {names}. Open Wembley to choose the exact tee time."
     elif status == "full":
         note = f"Wembley's official calendar currently shows {names} as full. Open Wembley to re-check cancellations."
     else:
@@ -452,6 +516,7 @@ def fetch_wembley_calendar_result(site: Site, date_str: str, hole_type: str, wea
         "not_configured": False,
         "calendar_availability": status,
         "calendar_courses": course_labels,
+        "calendar_captcha_enabled": captcha_enabled,
         "booking_note": note,
     }
 
@@ -683,6 +748,22 @@ def parse_wembley_timesheet(html: str) -> list[dict]:
     """
     rows: list[dict] = []
 
+    minimum_booking_limits: dict[str, int] = {}
+    limits_match = re.search(
+        r"minimumBookingLimitJson\s*=\s*JSON\.parse\(\s*'([^']*)'\s*\)",
+        html,
+        flags=re.IGNORECASE | re.DOTALL,
+    )
+    if limits_match:
+        try:
+            decoded_limits = json.loads(unescape(limits_match.group(1)))
+            minimum_booking_limits = {
+                str(row_id): int(limit)
+                for row_id, limit in decoded_limits.items()
+            }
+        except (TypeError, ValueError, json.JSONDecodeError):
+            minimum_booking_limits = {}
+
     # Page-level course label, e.g. "OLD Course 18 Holes" or "TUART Course 18 Holes".
     fee_name = ""
     fee_match = re.search(r'(?is)<h1\b[^>]*class="[^"]*\bfeeName\b[^"]*"[^>]*>(.*?)</h1>', html)
@@ -690,7 +771,10 @@ def parse_wembley_timesheet(html: str) -> list[dict]:
         fee_name = html_to_text(fee_match.group(1)).strip()
 
     # Extract each row-time block by locating row div starts and taking content until the next row/no-rows block.
-    row_starts = list(re.finditer(r'(?is)<div\b[^>]*id=["\']row-[^"\']+["\'][^>]*class=["\'][^"\']*\brow-time\b[^"\']*["\'][^>]*>', html))
+    row_starts = list(re.finditer(
+        r'(?is)<div\b[^>]*id=["\']row-(?P<row_id>[^"\']+)["\'][^>]*class=["\'][^"\']*\brow-time\b[^"\']*["\'][^>]*>',
+        html,
+    ))
     for idx, match in enumerate(row_starts):
         block_start = match.start()
         block_end = row_starts[idx + 1].start() if idx + 1 < len(row_starts) else len(html)
@@ -716,8 +800,38 @@ def parse_wembley_timesheet(html: str) -> list[dict]:
         if not course_label:
             course_label = fee_name or extract_course_line(block_text)
 
-        available_count = len(re.findall(r'\bcell-available\b', block, flags=re.IGNORECASE))
-        taken_count = len(re.findall(r'\bcell-taken\b', block, flags=re.IGNORECASE))
+        # Keep the actual Old/Tuart course name while removing presentation-only
+        # tee and hole-count suffixes that confuse the generic label cleaner.
+        course_label = re.sub(
+            r"\s+(?:1st|first)\s+tee\b.*$",
+            "",
+            course_label,
+            flags=re.IGNORECASE,
+        ).strip()
+        course_label = re.sub(
+            r"\s+(?:9|18)\s*(?:h|holes?)\b.*$",
+            "",
+            course_label,
+            flags=re.IGNORECASE,
+        ).strip()
+
+        row_id = match.group("row_id")
+        available_slot_ids: list[str] = []
+        available_count = 0
+        taken_count = 0
+        for cell_match in re.finditer(r"(?is)<div\b([^>]*)>", block):
+            attrs = cell_match.group(1)
+            class_match = re.search(r'''(?i)\bclass\s*=\s*["']([^"']*)["']''', attrs)
+            if not class_match:
+                continue
+            classes = class_match.group(1).lower().split()
+            if "cell-available" in classes:
+                available_count += 1
+                id_match = re.search(r'''(?i)\bid\s*=\s*["']([^"']+)["']''', attrs)
+                if id_match:
+                    available_slot_ids.append(id_match.group(1))
+            elif "cell-taken" in classes:
+                taken_count += 1
 
         # Fallback to visible text if classes change.
         if available_count + taken_count <= 0:
@@ -729,13 +843,16 @@ def parse_wembley_timesheet(html: str) -> list[dict]:
         if available_count + taken_count <= 0:
             continue
 
-        rows.append(
-            {
-                "time": f"{time_match.group(1)} {time_match.group(2).lower()}",
-                "course_raw": course_label,
-                "spots": available_count,
-            }
-        )
+        row = {
+            "time": f"{time_match.group(1)} {time_match.group(2).lower()}",
+            "course_raw": course_label,
+            "spots": available_count,
+            "booking_row_id": row_id,
+            "available_slot_ids": available_slot_ids,
+        }
+        if row_id in minimum_booking_limits:
+            row["minimum_booking_limit"] = minimum_booking_limits[row_id]
+        rows.append(row)
 
     if rows:
         return rows
@@ -1224,12 +1341,12 @@ def get_weather_for_date(query: str | None, date_str: str, location_name: str | 
 
 def weather_summary_text(weather: dict | None) -> str:
     if not weather:
-        return "🌤️ Weather unavailable"
+        return "ðŸŒ¤ï¸ Weather unavailable"
     location = weather.get("location_name") or "Course"
     return (
-        f"{weather['icon']} {location}: {weather['label']} • "
-        f"{weather['tmax']}°/{weather['tmin']}° • "
-        f"{weather['rain_chance']}% rain • {weather['rain_amount_label']} • "
+        f"{weather['icon']} {location}: {weather['label']} â€¢ "
+        f"{weather['tmax']}Â°/{weather['tmin']}Â° â€¢ "
+        f"{weather['rain_chance']}% rain â€¢ {weather['rain_amount_label']} â€¢ "
         f"{weather['wind']} km/h wind"
     )
 
@@ -1269,10 +1386,28 @@ def fetch_site_result(
             "not_configured": True,
         }
 
+    wembley_fallback = None
     if "wembleygolf.com.au" in site.domain.lower():
         url = wembley_calendar_url(site, date_str)
         try:
-            return fetch_wembley_calendar_result(site, date_str, hole_type, weather)
+            calendar_html = fetch_text(url)
+            wembley_fallback = fetch_wembley_calendar_result(
+                site,
+                date_str,
+                hole_type,
+                weather,
+                calendar_html=calendar_html,
+            )
+
+            # The official page explicitly requires a fresh browser reCAPTCHA
+            # before revealing individual slots. Do not replay a captured token.
+            # If protection is disabled (or absent), continue through the normal
+            # MiClub row-fetching path below and parse exact times.
+            if (
+                wembley_fallback["calendar_availability"] != "available"
+                or wembley_fallback["calendar_captcha_enabled"] is True
+            ):
+                return wembley_fallback
         except Exception as exc:
             return {
                 "site": site,
@@ -1313,6 +1448,11 @@ def fetch_site_result(
                 rows.extend(page_rows)
             except Exception as page_exc:
                 fetch_errors.append(str(page_exc))
+
+        if not rows and wembley_fallback is not None:
+            # A calendar-level result is more truthful and useful than an empty
+            # or redirected timesheet response.
+            return wembley_fallback
 
         if not rows and fetch_errors:
             raise RuntimeError("; ".join(fetch_errors))
@@ -1374,8 +1514,12 @@ def fetch_site_result(
                 display_earliest = earliest_group_times[0][1]
 
         url = best_url
+        collier_fields = _collier_empty_result_fields(site, bool(decorated))
+        if collier_fields:
+            url = collier_fields['url']
 
         return {
+            **collier_fields,
             "site": site,
             "site_name": site.name,
             "url": url,
@@ -1393,7 +1537,11 @@ def fetch_site_result(
             "not_configured": False,
         }
     except Exception as exc:
+        collier_fields = _collier_empty_result_fields(site, False)
+        if collier_fields:
+            url = collier_fields['url']
         return {
+            **collier_fields,
             "site": site,
             "site_name": site.name,
             "url": url,
@@ -1410,3 +1558,4 @@ def fetch_site_result(
             "error": str(exc),
             "not_configured": False,
         }
+
