@@ -12,6 +12,8 @@ from app.golfhub_core import (
     fetch_site_result,
     load_sites,
     parse_wembley_calendar_availability,
+    parse_wembley_public_captcha_enabled,
+    parse_wembley_timesheet,
 )
 from app.shared_cache import make_snapshot
 from scripts import build_cache_index, prepare_weather_cache, refresh_cache_shard
@@ -87,6 +89,7 @@ class WeatherCacheTests(unittest.TestCase):
 
 class WembleyCalendarTests(unittest.TestCase):
     html = """
+        <script>var publicCaptchaEnabled = true;</script>
         <div class="cell-heading"><p>15 July</p></div>
         <div class="row feeGroupRow feeGroupId-102184" data-feeid="102184">
           <h3>OLD Course 18 Holes</h3>
@@ -96,6 +99,27 @@ class WembleyCalendarTests(unittest.TestCase):
           <h3>TUART Course 18H</h3>
           <div class="cell cell-na" data-date="0">Timesheet Full</div>
         </div>
+    """
+
+    timesheet_html = """
+        <h1 class="feeName">TUART Course 18H</h1>
+        <div id="row-16232519" class="row row-time am_row" data-value="16232519">
+          <h3>09:48 am </h3><h4>Tuart Course 1st Tee</h4>
+          <div id="16232519_0" class="cell cell-taken">Taken</div>
+          <div id="16232519_1" class="cell cell-taken">Taken</div>
+          <div id="16232519_2" class="cell cell-taken">Taken</div>
+          <div id="16232519_3" class="cell cell-available">Available</div>
+        </div>
+        <div id="row-16232537" class="row row-time pm_row" data-value="16232537">
+          <h3>12:12 pm </h3><h4>Tuart Course 1st Tee</h4>
+          <div id="16232537_0" class="cell cell-available">Available</div>
+          <div id="16232537_1" class="cell cell-available">Available</div>
+          <div id="16232537_2" class="cell cell-available">Available</div>
+          <div id="16232537_3" class="cell cell-available">Available</div>
+        </div>
+        <script>
+          let minimumBookingLimitJson = JSON.parse('{"16232519":1,"16232537":2}');
+        </script>
     """
 
     def test_calendar_parser_distinguishes_available_full_and_unreleased(self):
@@ -110,17 +134,75 @@ class WembleyCalendarTests(unittest.TestCase):
         self.assertEqual(parse_wembley_calendar_availability(full_html, "2026-07-15", fee_ids)[0], "full")
         self.assertEqual(parse_wembley_calendar_availability(self.html, "2026-07-25", fee_ids)[0], "unreleased")
 
-    def test_wembley_result_uses_calendar_status_not_protected_timesheet(self):
+    def test_calendar_reports_public_captcha_setting_without_a_token(self):
+        self.assertIs(parse_wembley_public_captcha_enabled(self.html), True)
+        self.assertIs(
+            parse_wembley_public_captcha_enabled(self.html.replace("= true", "= false")),
+            False,
+        )
+        self.assertIsNone(parse_wembley_public_captcha_enabled("<html></html>"))
+
+    def test_timesheet_parser_reads_times_courses_spots_and_booking_metadata(self):
+        rows = parse_wembley_timesheet(self.timesheet_html)
+        self.assertEqual(len(rows), 2)
+        self.assertEqual(rows[0]["time"], "09:48 am")
+        self.assertEqual(rows[0]["course_raw"], "Tuart Course")
+        self.assertEqual(rows[0]["spots"], 1)
+        self.assertEqual(rows[0]["booking_row_id"], "16232519")
+        self.assertEqual(rows[0]["available_slot_ids"], ["16232519_3"])
+        self.assertEqual(rows[0]["minimum_booking_limit"], 1)
+        self.assertEqual(rows[1]["spots"], 4)
+        self.assertEqual(rows[1]["minimum_booking_limit"], 2)
+
+    def test_protected_wembley_result_uses_honest_calendar_fallback(self):
         site = next(site for site in load_sites(DATA_DIR / CONFIG_FILE) if site.name == "Wembley")
         with (
             patch.object(golfhub_core, "get_weather_for_date", return_value=None),
             patch.object(golfhub_core, "fetch_text", return_value=self.html) as fetch,
+            patch.object(golfhub_core, "fetch_site_text") as timesheet_fetch,
         ):
             result = fetch_site_result(site, "2026-07-15", "18", None, None, None)
         self.assertEqual(result["calendar_availability"], "available")
+        self.assertIs(result["calendar_captcha_enabled"], True)
         self.assertEqual(result["decorated_rows"], [])
         self.assertIn("selectedDate=2026-07-15", result["url"])
+        self.assertNotIn("recaptchaResponse", result["url"])
         self.assertEqual(fetch.call_count, 1)
+        timesheet_fetch.assert_not_called()
+
+    def test_unprotected_wembley_flow_returns_real_rows_and_safe_product_urls(self):
+        site = next(site for site in load_sites(DATA_DIR / CONFIG_FILE) if site.name == "Wembley")
+        calendar_html = self.html.replace("= true", "= false")
+        old_sheet = (
+            self.timesheet_html
+            .replace("TUART", "OLD")
+            .replace("Tuart", "Old")
+            .replace("16232519", "16232518")
+            .replace("16232537", "16232536")
+            .replace("09:48 am", "08:12 am")
+            .replace("12:12 pm", "09:16 am")
+        )
+        with (
+            patch.object(golfhub_core, "get_weather_for_date", return_value=None),
+            patch.object(golfhub_core, "fetch_text", return_value=calendar_html),
+            patch.object(
+                golfhub_core,
+                "fetch_site_text",
+                side_effect=[old_sheet, self.timesheet_html],
+            ) as timesheet_fetch,
+        ):
+            result = fetch_site_result(site, "2026-07-15", "18", None, None, None)
+
+        self.assertIsNone(result["error"])
+        self.assertNotIn("calendar_availability", result)
+        self.assertEqual(len(result["decorated_rows"]), 4)
+        self.assertEqual({row["course"] for row in result["decorated_rows"]}, {"Old Course", "Tuart Course"})
+        self.assertEqual(timesheet_fetch.call_count, 2)
+        for row in result["decorated_rows"]:
+            self.assertIn("booking_row_id", row)
+            self.assertIn("available_slot_ids", row)
+            self.assertIn("feeGroupId=", row["source_url"])
+            self.assertNotIn("recaptchaResponse", row["source_url"])
 
 
 class CachePipelineTests(unittest.TestCase):
