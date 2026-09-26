@@ -1,0 +1,17 @@
+{
+  "app/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "app/golfhub_core.py": "ba8a4041fb35708b325b44d9518ec819f2897e56ac08ef9e901202a61e15828b",
+  "app/availability.py": "b1e48693c545a9a33f08b0dbde2231a2fe7bd6687bf17fac054d2ac06cd05db8",
+  "app/cache_schema.py": "8daa2ec70e1187936a14f2712c1eb72cad28d0562c10ebca978d1cddbc56ae10",
+  "service/__init__.py": "327e61c821e2bbe029eb9d2075dd2c5bdeecc4a9b72e66a4ca964586b3120b1c",
+  "service/catalog.py": "36cfecf9527c0d156115778723ce7860a1293dca6cf22927e97b256cf9fc0886",
+  "service/search.py": "51593ea3281d1bb1179cba2152e404c23695e299887dcb4065068c069074f069",
+  "service/push_logic.py": "062755bb4a54e1c50492e13ddfde97cf8343621dc29cdb6a1d34ae0a0b76129c",
+  "service/push_worker.py": "96ead863f9e0dcc4179a0e42e4668c25e2c913c152722cf3b1ebb808bb681b9c",
+  "service/requirements-push.txt": "d74b7556c511200f4556f0646c0dc224f9f79b2ff06a4b022e6ffa5902c9a30d",
+  "data/courses.json": "d2e156d3dabe065b9e6ce523a3ecafa9c804cc89b4552dc3d7dd79a40ce13e34",
+  "data/course_ids.json": "eae94a2e54bedd0a1796a315d2a96079a60fab4913e0d2e91e975c6cfadb5623",
+  "data/course_locations.json": "7bf68f818388cb0d1d566339ddc69acf8d5535cc05e53aea073f3fed55d6ee25",
+  "data/course_profiles.json": "606b373b8d32dd7baaa1f0eaa5452b32974d7a36694a587198a5c1912749e02a",
+  "bundle_sha256": "d5310fa0230da29b5dc9aba4e2dac643fa6257485264f2e7145c88b6b5915587"
+}

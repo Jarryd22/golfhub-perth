@@ -1,0 +1,44 @@
+name: Check preferred-date alerts
+on:
+  workflow_dispatch:
+    inputs:
+      tests_only:
+        description: Send requested phone tests without scanning courses
+        type: boolean
+        default: false
+  schedule:
+    - cron: '3,13,23,33,43,53 * * * *'
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: golfhub-alert-checker
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Extract reviewed checker runtime
+        run: python -m zipfile -e .github/alerts-runtime.zip "$RUNNER_TEMP/golfhub-alerts"
+      - name: Install checker dependencies
+        run: python -m pip install -r "$RUNNER_TEMP/golfhub-alerts/service/requirements-push.txt"
+      - uses: google-github-actions/auth@v3
+        with:
+          project_id: golfhub-perth
+          workload_identity_provider: projects/663445764650/locations/global/workloadIdentityPools/golfhub-github/providers/github
+          service_account: golfhub-alerts@golfhub-perth.iam.gserviceaccount.com
+      - name: Check alerts and requested notification tests
+        env:
+          TESTS_ONLY: ${{ inputs.tests_only }}
+        run: |
+          cd "$RUNNER_TEMP/golfhub-alerts"
+          if [ "$TESTS_ONLY" = 'true' ]; then
+            python -m service.push_worker --tests-only
+          else
+            python -m service.push_worker
+          fi
