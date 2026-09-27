@@ -6,13 +6,13 @@
   "service/__init__.py": "327e61c821e2bbe029eb9d2075dd2c5bdeecc4a9b72e66a4ca964586b3120b1c",
   "service/catalog.py": "36cfecf9527c0d156115778723ce7860a1293dca6cf22927e97b256cf9fc0886",
   "service/search.py": "e9576123dd1ca9bae42bfb6398364badfaa357415b3fccab65ad271beb734f6e",
-  "service/push_logic.py": "2d701a4d532a914354715c4a38b6aa81c97ec631781b32e5d53f5ebc87e6e497",
-  "service/push_worker.py": "6e62f4498d9a072d88128eb6c37f647e26bc0a7c1fed83fecd6577d5e25372a9",
+  "service/push_logic.py": "653a01b6b8aae67a4bd3f269923d8b864c7c16a3d1ea1c6f9891d8736ccf6985",
+  "service/push_worker.py": "8566c3d4afa6e5954dfc332beafb2c5e92156bce1cfe58162262320063feeee6",
   "service/checker_gate.py": "1f7b74ea34843ab516f9f7716ef011347095366aaa9587e8e81bc3990c26f5c0",
   "service/requirements-push.txt": "d74b7556c511200f4556f0646c0dc224f9f79b2ff06a4b022e6ffa5902c9a30d",
   "data/courses.json": "d2e156d3dabe065b9e6ce523a3ecafa9c804cc89b4552dc3d7dd79a40ce13e34",
   "data/course_ids.json": "eae94a2e54bedd0a1796a315d2a96079a60fab4913e0d2e91e975c6cfadb5623",
   "data/course_locations.json": "7bf68f818388cb0d1d566339ddc69acf8d5535cc05e53aea073f3fed55d6ee25",
   "data/course_profiles.json": "55016dd938b573bd0b3dcb2bf9ce2b48d7f16976b373fd5a049c81dd2878ff91",
-  "bundle_sha256": "a8bf6c018fc1656043b91a0445c30425726b27542a459d274acd0bb063b0faf8"
+  "bundle_sha256": "575b6dc74943cbd8cb535e45daf704ed404919137869967dc88b6617925dd2dd"
 }
