@@ -660,18 +660,23 @@ def extract_course_line(block: str) -> str:
 
 
 def miclub_row_price(block: str) -> dict | None:
-    """Read one explicit MiClub player fee; ambiguous packages stay unpriced."""
+    """Select the published standard visitor fee, never a concession price."""
     fees = re.findall(r'''(?is)<li\b[^>]*>\s*<span\b[^>]*class=["'][^"']*\bprice\b[^"']*["'][^>]*>(.*?)</span>(.*?)</li>''', block)
+    fees = [(html_to_text(value).strip(), html_to_text(label).strip()) for value, label in fees]
+    fees = [(value, label) for value, label in fees if not re.search(
+        r'(?i)\b(?:concession|seniors?|juniors?|children|child|students?|pensioners?|members?)\b', label)]
+    # Repeated labels with exactly the same amount are common across products.
+    fees = list(dict.fromkeys(fees))
     if len(fees) != 1:
         return None
-    value, label = (html_to_text(part).strip() for part in fees[0])
+    value, label = fees[0]
     amount = re.fullmatch(r'(?:AUD\s*)?\$(\d{1,4}(?:\.\d{2})?)', value)
     if not amount or not 0 < float(amount[1]) <= 10000:
         return None
     if re.search(r'(?i)\b(?:package|group|couple|two|three|four|[2-9])\s*(?:ball|players?|people|persons?)\b|\bper\s+(?:group|cart)\b|\bfrom\b', label):
         return None
     cart = 'unknown'
-    if re.search(r'(?i)\b(?:including|includes?|with)\s+(?:a\s+|shared\s+)?(?:golf\s+)?cart\b|\bcart\s+included\b', label):
+    if re.search(r'(?i)\b(?:including|includes?|with)\s+(?:a\s+|shared\s+)?(?:golf\s+)?cart\b|\bcart\s+included\b|\+\s*(?:shared\s+)?cart\b', label):
         cart = 'included'
     elif re.search(r'(?i)\bwalking\b|\b(?:excluding|excludes?|without)\s+(?:a\s+)?cart\b|\bcart\s+(?:extra|excluded)\b', label):
         cart = 'excluded'
@@ -680,17 +685,22 @@ def miclub_row_price(block: str) -> dict | None:
 
 def attach_miclub_prices(rows: list[dict], html: str) -> list[dict]:
     starts = list(re.finditer(r'''(?is)<div\b[^>]*id=["']row-[^"']+["'][^>]*class=["'][^"']*\brow-time\b[^"']*["'][^>]*>''', html))
-    by_time = {}
+    by_row = {}
     for i, start in enumerate(starts):
         block = html[start.end():starts[i+1].start() if i+1 < len(starts) else len(html)]
         match = re.search(r'(?is)<h3[^>]*>\s*(\d{1,2}:\d{2})\s*([ap]m)\s*</h3>', block)
         if match:
-            key = f'{match[1]} {match[2].lower()}'
-            # Two physical rows at one time are ambiguous; do not guess a fee.
-            by_time[key] = None if key in by_time else miclub_row_price(block)
+            label = re.search(r'(?is)<h4[^>]*>(.*?)</h4>', block)
+            key = (f'{match[1]} {match[2].lower()}', html_to_text(label[1]).strip() if label else '')
+            price = miclub_row_price(block)
+            # Simultaneous tees/courses must retain their own rate.
+            by_row[key] = price if key not in by_row or by_row[key] == price else None
     for row in rows:
-        if by_time.get(row['time']) is not None:
-            row['price'] = by_time[row['time']]
+        key = (row['time'], row.get('course_raw', ''))
+        if by_row.get(key) is not None:
+            row['price'] = by_row[key]
+        elif (row['time'], '') in by_row and by_row[(row['time'], '')] is not None:
+            row['price'] = by_row[(row['time'], '')]
     return rows
 
 
@@ -1047,7 +1057,46 @@ def _quick18_product_flags(lines: list[str], start_idx: int) -> list[bool]:
     return flags
 
 
+def parse_quick18_matrix(html: str, hole_type: str) -> list[dict] | None:
+    """Match actual product headings; courses do not all use five columns."""
+    table = re.search(r'''(?is)<table\b[^>]*class=["'][^"']*\bmatrixTable\b[^"']*["'][^>]*>(.*?)</table>''', html)
+    if not table:
+        return None
+    blocks = re.findall(r'(?is)<tr\b[^>]*>(.*?)</tr>', table[1])
+    if not blocks:
+        return []
+    headings = [html_to_text(v).strip() for v in re.findall(r'(?is)<th\b[^>]*>(.*?)</th>', blocks[0])]
+    products = [i for i, h in enumerate(headings) if re.fullmatch(rf'{re.escape(hole_type)}\s+holes?', h, re.I)]
+    if len(products) != 1 or 'Players' not in headings or 'Tee Time' not in headings:
+        return []
+    rows = []
+    for block in blocks[1:]:
+        cells = re.findall(r'(?is)<td\b[^>]*>(.*?)</td>', block)
+        if len(cells) != len(headings):
+            continue
+        cell = cells[products[0]]
+        value = re.search(r'''(?is)<div\b[^>]*class=["']mtrxPrice["'][^>]*>(.*?)</div>''', cell)
+        if not value or not re.search(r'(?is)<a\b[^>]*href=', cell):
+            continue
+        amount = re.fullmatch(r'\$(\d{1,4}(?:\.\d{2})?)', html_to_text(value[1]).strip())
+        if not amount or not 0 < float(amount[1]) <= 10000:
+            continue
+        time = re.search(r'(\d{1,2}:\d{2})\s*([ap]m)', html_to_text(cells[headings.index('Tee Time')]), re.I)
+        spots = _quick18_parse_player_spots(html_to_text(cells[headings.index('Players')]).strip())
+        if not time or spots is None or spots <= 0:
+            continue
+        dt = datetime.strptime(' '.join(time.groups()).upper(), '%I:%M %p')
+        rows.append(dict(time=dt.strftime('%I:%M %p').lstrip('0').lower(),
+            course_raw=html_to_text(cells[headings.index('Course')]).strip() if 'Course' in headings else '',
+            spots=spots, price=dict(amount=float(amount[1]), currency='AUD', unit='player', cart='unknown')))
+    return rows
+
+
+
 def parse_quick18_timesheet(html: str, hole_type: str) -> list[dict]:
+    matrix = parse_quick18_matrix(html, hole_type)
+    if matrix is not None:
+        return matrix
     text = html_to_text(html)
     lines = [line.strip() for line in text.splitlines() if line.strip()]
     idx = _quick18_find_table_start(lines)
