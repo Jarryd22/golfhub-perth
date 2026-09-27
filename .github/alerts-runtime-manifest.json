@@ -1,6 +1,6 @@
 {
   "app/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-  "app/golfhub_core.py": "a0ebcd34a2efdf72881e26fa325b2353f337c3577938906d0e7be49c71472e54",
+  "app/golfhub_core.py": "d3b21cd5975342182ccc3945af7feb48ab4cbb76898aa6234551dd2c96225945",
   "app/availability.py": "b1e48693c545a9a33f08b0dbde2231a2fe7bd6687bf17fac054d2ac06cd05db8",
   "app/cache_schema.py": "8daa2ec70e1187936a14f2712c1eb72cad28d0562c10ebca978d1cddbc56ae10",
   "service/__init__.py": "327e61c821e2bbe029eb9d2075dd2c5bdeecc4a9b72e66a4ca964586b3120b1c",
@@ -14,5 +14,5 @@
   "data/course_ids.json": "eae94a2e54bedd0a1796a315d2a96079a60fab4913e0d2e91e975c6cfadb5623",
   "data/course_locations.json": "7bf68f818388cb0d1d566339ddc69acf8d5535cc05e53aea073f3fed55d6ee25",
   "data/course_profiles.json": "55016dd938b573bd0b3dcb2bf9ce2b48d7f16976b373fd5a049c81dd2878ff91",
-  "bundle_sha256": "575b6dc74943cbd8cb535e45daf704ed404919137869967dc88b6617925dd2dd"
+  "bundle_sha256": "e4ed3445708528bbfc489367ca88019224bd2e9d27c184ddfee5e7fd2757f3f2"
 }

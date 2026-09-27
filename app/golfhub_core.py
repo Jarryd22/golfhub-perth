@@ -311,6 +311,19 @@ def fetch_site_text(site: Site, url: str, timeout: int = 25) -> str:
     Other MiClub sites continue to use the normal fetch path.
     """
     if "wembleygolf.com.au" not in site.domain.lower():
+        # Quick18 occasionally closes a connection while the shared cache is
+        # refreshing. Retry that transport failure once before using old data;
+        # never retry an HTTP denial, rate limit or certificate error.
+        if site.provider.lower() == "quick18":
+            import time
+            from urllib import error as urlerror
+            try:
+                return fetch_text(url, timeout=timeout)
+            except (urlerror.URLError, ConnectionError, TimeoutError) as exc:
+                reason = exc.reason if isinstance(exc, urlerror.URLError) else exc
+                if not isinstance(reason, (ConnectionError, TimeoutError)):
+                    raise
+                time.sleep(1)
         return fetch_text(url, timeout=timeout)
 
     context = ssl.create_default_context()
@@ -664,7 +677,8 @@ def miclub_row_price(block: str) -> dict | None:
     fees = re.findall(r'''(?is)<li\b[^>]*>\s*<span\b[^>]*class=["'][^"']*\bprice\b[^"']*["'][^>]*>(.*?)</span>(.*?)</li>''', block)
     fees = [(html_to_text(value).strip(), html_to_text(label).strip()) for value, label in fees]
     fees = [(value, label) for value, label in fees if not re.search(
-        r'(?i)\b(?:concession|seniors?|juniors?|children|child|students?|pensioners?|members?)\b', label)]
+        r'(?i)\b(?:concession|seniors?|juniors?|children|child|students?|pensioners?|members?)\b',
+        re.sub(r'(?i)\bnon[ -]?members?\b', 'visitor', label))]
     # Repeated labels with exactly the same amount are common across products.
     fees = list(dict.fromkeys(fees))
     if len(fees) != 1:
