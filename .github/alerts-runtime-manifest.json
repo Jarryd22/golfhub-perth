@@ -7,11 +7,12 @@
   "service/catalog.py": "36cfecf9527c0d156115778723ce7860a1293dca6cf22927e97b256cf9fc0886",
   "service/search.py": "51593ea3281d1bb1179cba2152e404c23695e299887dcb4065068c069074f069",
   "service/push_logic.py": "b9699a66b5aa6c3f3704ed16b06466565d98fcba2dcf2b02d4d430a0d3410438",
-  "service/push_worker.py": "85202a85ad3a8392c7e6f6a748de53927931c877ba20c0a8cca78dd47774a8d5",
+  "service/push_worker.py": "e396adc0baa04752498f7efbcf2cbf15db834275a3a36d907e2dfc7300e99c24",
+  "service/checker_gate.py": "1f7b74ea34843ab516f9f7716ef011347095366aaa9587e8e81bc3990c26f5c0",
   "service/requirements-push.txt": "d74b7556c511200f4556f0646c0dc224f9f79b2ff06a4b022e6ffa5902c9a30d",
   "data/courses.json": "d2e156d3dabe065b9e6ce523a3ecafa9c804cc89b4552dc3d7dd79a40ce13e34",
   "data/course_ids.json": "eae94a2e54bedd0a1796a315d2a96079a60fab4913e0d2e91e975c6cfadb5623",
   "data/course_locations.json": "7bf68f818388cb0d1d566339ddc69acf8d5535cc05e53aea073f3fed55d6ee25",
   "data/course_profiles.json": "606b373b8d32dd7baaa1f0eaa5452b32974d7a36694a587198a5c1912749e02a",
-  "bundle_sha256": "2bd980a88aedbf82305d102d49a5e521aed343deaaca1309edf798f4726fd9da"
+  "bundle_sha256": "914532c01537dab41f30eb687f5df40ad3db77c94a8e81bcc745843dac7e646d"
 }
