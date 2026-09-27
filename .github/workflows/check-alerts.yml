@@ -6,8 +6,6 @@ on:
         description: Send requested phone tests without scanning courses
         type: boolean
         default: false
-  schedule:
-    - cron: '3,13,23,33,43,53 * * * *'
 permissions:
   contents: read
   id-token: write
