@@ -659,6 +659,41 @@ def extract_course_line(block: str) -> str:
     return ""
 
 
+def miclub_row_price(block: str) -> dict | None:
+    """Read one explicit MiClub player fee; ambiguous packages stay unpriced."""
+    fees = re.findall(r'''(?is)<li\b[^>]*>\s*<span\b[^>]*class=["'][^"']*\bprice\b[^"']*["'][^>]*>(.*?)</span>(.*?)</li>''', block)
+    if len(fees) != 1:
+        return None
+    value, label = (html_to_text(part).strip() for part in fees[0])
+    amount = re.fullmatch(r'(?:AUD\s*)?\$(\d{1,4}(?:\.\d{2})?)', value)
+    if not amount or not 0 < float(amount[1]) <= 10000:
+        return None
+    if re.search(r'(?i)\b(?:package|group|couple|two|three|four|[2-9])\s*(?:ball|players?|people|persons?)\b|\bper\s+(?:group|cart)\b|\bfrom\b', label):
+        return None
+    cart = 'unknown'
+    if re.search(r'(?i)\b(?:including|includes?|with)\s+(?:a\s+|shared\s+)?(?:golf\s+)?cart\b|\bcart\s+included\b', label):
+        cart = 'included'
+    elif re.search(r'(?i)\bwalking\b|\b(?:excluding|excludes?|without)\s+(?:a\s+)?cart\b|\bcart\s+(?:extra|excluded)\b', label):
+        cart = 'excluded'
+    return dict(amount=float(amount[1]), currency='AUD', unit='player', cart=cart)
+
+
+def attach_miclub_prices(rows: list[dict], html: str) -> list[dict]:
+    starts = list(re.finditer(r'''(?is)<div\b[^>]*id=["']row-[^"']+["'][^>]*class=["'][^"']*\brow-time\b[^"']*["'][^>]*>''', html))
+    by_time = {}
+    for i, start in enumerate(starts):
+        block = html[start.end():starts[i+1].start() if i+1 < len(starts) else len(html)]
+        match = re.search(r'(?is)<h3[^>]*>\s*(\d{1,2}:\d{2})\s*([ap]m)\s*</h3>', block)
+        if match:
+            key = f'{match[1]} {match[2].lower()}'
+            # Two physical rows at one time are ambiguous; do not guess a fee.
+            by_time[key] = None if key in by_time else miclub_row_price(block)
+    for row in rows:
+        if by_time.get(row['time']) is not None:
+            row['price'] = by_time[row['time']]
+    return rows
+
+
 def parse_timesheet(html: str) -> list[dict]:
     """Parse MiClub-style public timesheets.
 
@@ -702,7 +737,7 @@ def parse_timesheet(html: str) -> list[dict]:
     # Backward-compatible fallback for older MiClub pages if a browser renders
     # the row text differently.
     if rows:
-        return rows
+        return attach_miclub_prices(rows, html)
 
     pattern = re.compile(
         r"(?ims)(?:^|\n)(\d{1,2}:\d{2}\s*[ap]m)\s*\n(.*?)(?=\nClick to select row\.|\Z)"
@@ -850,6 +885,9 @@ def parse_wembley_timesheet(html: str) -> list[dict]:
             "booking_row_id": row_id,
             "available_slot_ids": available_slot_ids,
         }
+        price = miclub_row_price(block)
+        if price is not None:
+            row['price'] = price
         if row_id in minimum_booking_limits:
             row["minimum_booking_limit"] = minimum_booking_limits[row_id]
         rows.append(row)
