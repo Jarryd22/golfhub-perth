@@ -1,0 +1,28 @@
+name: Refresh official course news
+on:
+  schedule:
+    - cron: '23 21 * * *'
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: golfhub-course-news
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Collect recent official announcements
+        run: |
+          curl --fail --silent --show-error https://raw.githubusercontent.com/Jarryd22/golfhub-perth/news/public/news.json --output "$RUNNER_TEMP/previous-news.json" || true
+          python scripts/collect_course_news.py --previous "$RUNNER_TEMP/previous-news.json" --output "$RUNNER_TEMP/news.json"
+      - name: Publish the shared feed
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          python scripts/publish_course_news.py "$RUNNER_TEMP/news.json"
