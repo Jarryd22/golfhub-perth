@@ -1,5 +1,11 @@
 name: Refresh official course news
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/course-news.yml'
+      - 'scripts/collect_course_news.py'
+      - 'data/course_news_sources.json'
   schedule:
     - cron: '23 21 * * *'
   workflow_dispatch:
