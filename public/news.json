@@ -1,7 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-29T01:03:25.980220+00:00",
+  "generated_at": "2026-09-30T00:33:57.211088+00:00",
   "items": [
+    {
+      "id": "8019ba1b6cdc8d8da98f",
+      "course_id": "sun-city",
+      "title": "Vale Ron Gillies – Funeral Service Details",
+      "summary": "Funeral Service for Ron The family would like to extend an invitation to any",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/09/vale-ron-gillies/",
+      "image": null,
+      "published_at": "2026-09-29T05:47:42+00:00",
+      "category": "Course news"
+    },
     {
       "id": "20a5bc5c42cd775880dc",
       "course_id": "sun-city",
@@ -190,16 +200,6 @@
       "url": "https://www.nedlandsgolfclub.com.au/cms/2026/09/morris-makes-his-mark-in-cam-wilson-bowl/",
       "image": null,
       "published_at": "2026-09-16T01:10:13+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "d52e2de0c14b494eb79e",
-      "course_id": "sun-city",
-      "title": "Kitchen Update",
-      "summary": "Dear Members, Thank you for your patience and continued support during the kitchen upgrade",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/09/kitchen-update/",
-      "image": null,
-      "published_at": "2026-09-15T07:03:15+00:00",
       "category": "Course news"
     },
     {
@@ -488,7 +488,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
