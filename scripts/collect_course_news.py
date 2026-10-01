@@ -31,7 +31,12 @@ class Page(HTMLParser):
         if tag == 'link' and a.get('type', '') in ('application/rss+xml', 'application/atom+xml'):
             self.feeds.append(a.get('href', ''))
         if tag == 'img' and a.get('src') and a.get('width') != '1' and a.get('height') != '1':
-            self.images.append(a['src'])
+            candidates = []
+            for candidate in a.get('srcset', '').split(','):
+                parts = candidate.split()
+                if len(parts) == 2 and re.fullmatch(r'\d+w', parts[1]):
+                    candidates.append((int(parts[1][:-1]), parts[0]))
+            self.images.append(max(candidates)[1] if candidates else a['src'])
     def handle_endtag(self, tag):
         if tag in ('script', 'style'): self.hidden = max(0, self.hidden - 1)
     def handle_data(self, data):
@@ -43,6 +48,17 @@ def safe_url(value):
         u = urlparse(value)
         return value if u.scheme == 'https' and u.hostname and not u.username else None
     except ValueError: return None
+
+
+def article_image(value):
+    """Ignore tiny feed decorations and document scans as card photographs."""
+    if not value or not safe_url(value): return None
+    path = urlparse(value).path.lower()
+    if re.search(r'emoji|/icons?/|/logos?/|facebook|twitter|instagram|\.pdf|\.docx|results-table|t-cs-|conditions-of-play', path):
+        return None
+    size = re.search(r'(?:-|/)(\d+)x(\d+)(?:/|\.)', path)
+    if size and min(map(int, size.groups())) < 150: return None
+    return value
 
 
 def fetch(url):
@@ -79,10 +95,15 @@ def parse_feed(text, course, clock):
         page = Page(body)
         # Short excerpts only: at most 25 combined title + excerpt words.
         summary = ' '.join(page.words[:max(0, min(14, 25 - len(title.split())))])
-        photo = next((safe_url(urljoin(url, p)) for p in page.images if safe_url(urljoin(url, p))), None)
+        # Keep pictures from this article only. Full feed content often contains
+        # a gallery even when the short description has no image.
+        images = []
+        for content in (body, values.get('encoded', ''), values.get('content', '')):
+            images.extend(safe_url(urljoin(url, p)) for p in Page(content).images)
         for n in entry:
             if n.tag.split('}')[-1] in ('thumbnail', 'content', 'enclosure') and n.get('url') and ('image' in n.get('type', 'image') or n.get('medium') == 'image'):
-                photo = safe_url(n.get('url')) or photo
+                images.insert(0, safe_url(urljoin(url, n.get('url'))))
+        images = list(dict.fromkeys(image for image in images if article_image(image)))[:4]
         topic = title.lower()
         category = ('Course works' if re.search(r'\b(renovat|maintenance|coring|closure|closed|upgrade|redevelop)', topic) else
                     'Offers' if re.search(r'\b(offer|deal|special|discount|twilight)', topic) else
@@ -90,7 +111,8 @@ def parse_feed(text, course, clock):
         if category == 'Offers' and stamp < clock - timedelta(days=30): continue
         result.append({'id': hashlib.sha256(url.encode()).hexdigest()[:20], 'course_id': course['id'],
                        'title': html.unescape(title), 'summary': html.unescape(summary), 'url': url,
-                       'image': photo, 'published_at': stamp.astimezone(timezone.utc).isoformat(), 'category': category})
+                       'image': images[0] if images else None, 'images': images,
+                       'published_at': stamp.astimezone(timezone.utc).isoformat(), 'category': category})
     return sorted(result, key=lambda v: v['published_at'], reverse=True)[:4]
 
 
