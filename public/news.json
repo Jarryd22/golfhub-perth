@@ -1,7 +1,17 @@
 {
   "schema": 1,
-  "generated_at": "2026-09-30T00:33:57.211088+00:00",
+  "generated_at": "2026-10-01T00:36:50.453359+00:00",
   "items": [
+    {
+      "id": "64c6876c2be845ef4f63",
+      "course_id": "nedlands-golf-club",
+      "title": "Oktoberfest",
+      "summary": "Friday 16th October From 6.30pm $60 per person – main buffet The post Oktoberfest",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/09/oktoberfest/",
+      "image": null,
+      "published_at": "2026-09-30T06:04:45+00:00",
+      "category": "Course news"
+    },
     {
       "id": "8019ba1b6cdc8d8da98f",
       "course_id": "sun-city",
@@ -191,16 +201,6 @@
       "image": null,
       "published_at": "2026-09-16T02:13:35+00:00",
       "category": "Events"
-    },
-    {
-      "id": "79deb4d21749b16914e6",
-      "course_id": "nedlands-golf-club",
-      "title": "Morris Makes His Mark in Cam Wilson Bowl",
-      "summary": "The 2026 Cam Wilson Bowl will be remembered for the emergence of one of",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/09/morris-makes-his-mark-in-cam-wilson-bowl/",
-      "image": null,
-      "published_at": "2026-09-16T01:10:13+00:00",
-      "category": "Course news"
     },
     {
       "id": "ff8a24f2434582f76c4f",
