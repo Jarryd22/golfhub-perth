@@ -2,14 +2,19 @@ name: Refresh four-week tee-time cache
 
 on:
   workflow_dispatch:
+  # Reuse the existing external ten-minute heartbeat, even if the alert check
+  # fails. This does not dispatch the checker or change notification behavior.
+  workflow_run:
+    workflows: ["Check preferred-date alerts"]
+    types: [completed]
+    branches: [main]
   push:
     branches: [main]
     paths:
       - ".github/workflows/refresh-cache-10min.yml"
       - "scripts/**"
   schedule:
-    # Keep the 10-minute cadence away from minute 00, when GitHub says
-    # scheduled Actions are most likely to be delayed or dropped.
+    # Best-effort fallback if the external heartbeat stops.
     - cron: "7,17,27,37,47,57 * * * *"
 
 permissions:
@@ -21,10 +26,15 @@ concurrency:
 
 jobs:
   prepare:
+    if: >-
+      github.event_name != 'workflow_run' ||
+      (github.event.workflow_run.event == 'workflow_dispatch' &&
+       github.event.workflow_run.head_repository.full_name == github.repository)
     runs-on: ubuntu-latest
     timeout-minutes: 5
     outputs:
       base_date: ${{ steps.perth_date.outputs.base_date }}
+      refresh: ${{ steps.freshness.outputs.refresh }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -36,17 +46,6 @@ jobs:
         id: perth_date
         shell: bash
         run: echo "base_date=$(TZ=Australia/Perth date +%F)" >> "$GITHUB_OUTPUT"
-      - name: Prepare one shared forecast per course
-        run: >-
-          python scripts/prepare_weather_cache.py
-          --base-date "${{ steps.perth_date.outputs.base_date }}"
-          --workers 4
-          --output "$RUNNER_TEMP/weather-cache.json"
-      - uses: actions/upload-artifact@v4
-        with:
-          name: weather-cache
-          path: ${{ runner.temp }}/weather-cache.json
-          retention-days: 1
       - name: Export prior cache branch for transient fallback
         shell: bash
         run: |
@@ -56,7 +55,34 @@ jobs:
           if git fetch --depth=1 origin cache; then
             git archive --format=tar FETCH_HEAD public/cache | tar -xf - -C "$RUNNER_TEMP/previous-cache"
           fi
+      - name: Report freshness and coalesce nearby automatic triggers
+        id: freshness
+        env:
+          REFRESH_EVENT: ${{ github.event_name }}
+          HEARTBEAT_RUN: ${{ github.event.workflow_run.html_url }}
+        run: >-
+          python scripts/cache_refresh_status.py
+          --cache "$RUNNER_TEMP/previous-cache/public/cache"
+          --base-date "${{ steps.perth_date.outputs.base_date }}"
+          --event "$REFRESH_EVENT"
+          --heartbeat-run "$HEARTBEAT_RUN"
+          --output "$GITHUB_OUTPUT"
+          --summary "$GITHUB_STEP_SUMMARY"
+      - name: Prepare one shared forecast per course
+        if: steps.freshness.outputs.refresh == 'true'
+        run: >-
+          python scripts/prepare_weather_cache.py
+          --base-date "${{ steps.perth_date.outputs.base_date }}"
+          --workers 4
+          --output "$RUNNER_TEMP/weather-cache.json"
       - uses: actions/upload-artifact@v4
+        if: steps.freshness.outputs.refresh == 'true'
+        with:
+          name: weather-cache
+          path: ${{ runner.temp }}/weather-cache.json
+          retention-days: 1
+      - uses: actions/upload-artifact@v4
+        if: steps.freshness.outputs.refresh == 'true'
         with:
           name: previous-cache
           path: ${{ runner.temp }}/previous-cache/public/cache
@@ -64,6 +90,7 @@ jobs:
 
   refresh-shard:
     needs: prepare
+    if: needs.prepare.outputs.refresh == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 12
     strategy:
@@ -138,6 +165,13 @@ jobs:
           git commit -m "cache: refresh four-week tee times"
           for attempt in 1 2 3; do
             if git push --force origin HEAD:cache; then
+              {
+                echo "### Cache publication succeeded"
+                echo "- Published cache commit: $(git rev-parse HEAD)"
+                python -c 'import json; p=json.load(open("public/cache/index.json")); print("- Index generated_at (UTC):", p["generated_at"]); print("- Validated coverage:", len(p["dates"]), "dates / 56 snapshots"); print("- Date range:", p["dates"][0]["date"], "through", p["dates"][-1]["date"])'
+                echo "- Target refresh cadence: 10 minutes (verify successive publications; not a timing guarantee)."
+                echo "- Individual course results may still carry stale fallback metadata."
+              } >> "$GITHUB_STEP_SUMMARY"
               exit 0
             fi
             sleep $((attempt * 2))

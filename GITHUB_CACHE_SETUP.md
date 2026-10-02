@@ -8,7 +8,9 @@ Index: `https://raw.githubusercontent.com/Jarryd22/golfhub-perth/cache/public/ca
 
 ## Operation
 
-- `.github/workflows/refresh-cache-10min.yml` uses the nominal cron `*/10 * * * *` and supports manual dispatch. GitHub scheduled workflows are best-effort, so runs can start later than ten minutes.
+- `.github/workflows/refresh-cache-10min.yml` listens for completion of **Check preferred-date alerts** on `main`. That workflow already receives an external `workflow_dispatch` roughly every ten minutes. Its completion triggers a cache check regardless of success, failure or cancellation; notification-test runs can also trigger a cache check. The cache workflow does not dispatch the alert checker, consume its artifacts, or alter notification behavior.
+- The existing cron `7,17,27,37,47,57 * * * *` remains a best-effort fallback, alongside manual dispatch and source-change pushes. No new credentials, scheduler setup or token permissions are required.
+- Automatic triggers skip provider fetching only when the prior index covers the current 28 Perth dates, all 56 snapshot files exist, and its timestamp is under five minutes old. This coalesces nearby cron/heartbeat events. Missing, invalid, future-dated or incomplete cache data triggers a refresh. Manual and source-change runs always refresh; the shared concurrency group prevents overlapping publishers.
 - One prepare job anchors a single Perth calendar date, fetches one shared forecast per course with transient retry, and attempts to export the previous cache snapshot for transient fallback.
 - Seven parallel jobs refresh four anchored calendar days each: offsets 0, 4, 8, 12, 16, 20 and 24.
 - A strict publisher accepts only 28 dates with complete 18-hole and 9-hole files: 56 date/round snapshots in total, with valid schemas, expected course counts and a strict live-provider majority.
@@ -18,6 +20,24 @@ Index: `https://raw.githubusercontent.com/Jarryd22/golfhub-perth/cache/public/ca
 - GolfHub v5 can combine up to 28 individually selected cached dates, including nonconsecutive dates, in one request. Results remain grouped by date and courses are ordered A-Z within each date.
 
 GitHub scheduled workflows are best-effort and can start later than the nominal ten-minute mark. The app displays cache age; cache availability is a fast discovery view and the official course or booking page remains the final source of truth.
+
+### Freshness and activation verification
+
+The prepare-job summary records the trigger, upstream alert run and prior complete-cache age, with an Actions warning above 20 minutes. The publish-job summary is written only after the cache push succeeds and records the commit, index `generated_at` and 28-date/56-snapshot coverage. A duplicate skip is explicitly labelled; a green run alone does not prove a new publication. An index timestamp describes the published batch, not every provider result: inspect `health.stale_fallbacks` and per-course `stale_since` for reused results.
+
+The October 2 investigation found successful cache runs taking about two minutes but scheduled starts hours apart, while externally dispatched alert runs were ten minutes apart. This is consistent with GitHub's documented schedule delays/drops, but the exact cause was not proven. See [GitHub's event documentation](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#schedule) and [workflow_run behavior](https://docs.github.com/en/actions/reference/workflows-and-actions/events-that-trigger-workflows#workflow_run).
+
+Activation requires an approved merge of the fix to `main`: GitHub only enables `workflow_run` listeners from the default branch. The workflow-file change also starts one normal refresh through the existing push trigger. Do not dispatch the alert checker merely to test this change; wait for its existing external schedule. Branch CI runs offline tests and workflow lint only; it does not publish cache data or send notifications.
+
+After activation, observe at least **three successive heartbeat-driven publications** (two intervals, approximately 20–30 minutes):
+
+1. In Actions, pair each completed `main` alert run with a cache run whose event is `workflow_run`; check the linked heartbeat and freshness decision in the prepare summary. A close cron publication may cause an intentional duplicate skip.
+2. For each publication, record the run URL, published commit and advancing `generated_at`. Verify the commit against `gh api repos/Jarryd22/golfhub-perth/commits/cache --jq .sha`. Expected publication intervals are approximately ten minutes, allowing runner duration/queue variation. Investigate any cache age over 20 minutes, even if the alert checker is green.
+3. Fetch the index and first/last dates' `18.json` and `9.json` from the raw cache root above. Check the current Perth 28-day window, timestamps and stale-fallback metadata. The publisher's strict validation must still pass all 56 snapshots. If raw branch URLs lag because of CDN caching, compare `https://raw.githubusercontent.com/Jarryd22/golfhub-perth/<published-commit>/public/cache/index.json` to distinguish publication from anonymous-client visibility.
+
+If no cache run follows a heartbeat, check the exact alert workflow name, `main` branch, upstream event and default-branch listener. If both heartbeat and cron stop, no workflow can emit its own warning; the published index age is still the evidence of staleness. This change improves triggering but does not promise an exact delivery time or add an independent monitoring service.
+
+Rollback: revert the fix commit on `main` to restore the previous cron/manual refresh behavior. Do not disable the alert checker or change its external scheduler.
 
 ## Wembley protected-calendar behavior
 
