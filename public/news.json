@@ -1,7 +1,53 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-02T00:53:24.431501+00:00",
+  "generated_at": "2026-10-03T00:33:03.810964+00:00",
   "items": [
+    {
+      "id": "5cdf9083ac52df2fa54a",
+      "course_id": "mosman-park",
+      "title": "2026 Melbourne Cup",
+      "summary": "The post 2026 Melbourne Cup appeared first on Mosman Park Golf Club .",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/2026-melbourne-cup/",
+      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Blue-Elegant-Background-Poster.png",
+      "images": [
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Blue-Elegant-Background-Poster.png"
+      ],
+      "published_at": "2026-10-02T03:39:59+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "61307a16dfbfbc5fc599",
+      "course_id": "sun-city",
+      "title": "Upcoming Course Renovation Works – Volunteers Wanted",
+      "summary": "As part of our ongoing commitment to improving course conditions, the Club will be",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/upcoming-course-renovation-works-volunteers-wanted/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-02T03:08:09+00:00",
+      "category": "Course works"
+    },
+    {
+      "id": "92f702db4a7262e67069",
+      "course_id": "mosman-park",
+      "title": "Demo MGI Electric Buggies at the Pro Shop",
+      "summary": "The Pro Shop is now stocking MGI Electric Golf Buggies. We current have four",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/demo-mgi-electric-buggies-at-the-pro-shop/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-02T02:36:25+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "01a2fbce64dc71dbafe5",
+      "course_id": "mosman-park",
+      "title": "Course Maintenance Week & Volunteer Call Out",
+      "summary": "The course will be closed from 3pm on Sunday October 4 until Saturday October",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/course-maintenance-week-volunteer-call-out/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-02T01:14:52+00:00",
+      "category": "Course works"
+    },
     {
       "id": "de61b33cef58044b89ca",
       "course_id": "rockingham",
@@ -108,17 +154,6 @@
       "category": "Course news"
     },
     {
-      "id": "a2a2e781048ec1733dc8",
-      "course_id": "sun-city",
-      "title": "Important Kitchen Update",
-      "summary": "Dear Memebrs, We sincerely apologise for the late notice that the normal Friday Dinner",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/09/19885/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-25T07:15:09+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "0730960ce91c0ce5971f",
       "course_id": "rockingham",
       "title": "Junior School Holiday Camp",
@@ -188,17 +223,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-23T04:01:27+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "ba4a8eb8e757952614af",
-      "course_id": "mosman-park",
-      "title": "Vale Dr Brian Osler",
-      "summary": "I am saddened to advise members of the recent passing of Dr Brian Osler.",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/09/vale-dr-brian-osler/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-23T01:31:53+00:00",
       "category": "Course news"
     },
     {
