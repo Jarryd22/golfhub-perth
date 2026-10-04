@@ -4,10 +4,12 @@ from __future__ import annotations
 
 import argparse
 import json
+import re
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
+from time import sleep
 from zoneinfo import ZoneInfo
 
 ROOT = Path(__file__).resolve().parents[1]
@@ -24,6 +26,8 @@ from app.golfhub_core import (
 from app.shared_cache import make_snapshot, validate_snapshot
 
 PERTH = ZoneInfo("Australia/Perth")
+MAX_TRANSIENT_RETRY_DOMAINS = 3
+TRANSIENT_RETRY_DELAY_SECONDS = 3
 
 
 def parse_base_date(value: str | None) -> date:
@@ -93,6 +97,69 @@ def fetch_one(site, date_str: str, hole_type: str) -> dict:
     return fetch_site_result(site, date_str, hole_type, None, None, None)
 
 
+def is_transient_transport_error(error) -> bool:
+    """Recognize only transport failures retained as strings by the core fetcher."""
+    if not isinstance(error, str) or not error.strip():
+        return False
+    for part in error.lower().split(";"):
+        part = part.strip()
+        if part.startswith("<urlopen error ") and part.endswith(">"):
+            part = part[len("<urlopen error "):-1]
+        # Full matches keep HTTP errors, certificate failures, parser errors,
+        # and mixed transport/HTTP failures out of the retry path.
+        if not re.fullmatch(
+            r"timed out|the read operation timed out|"
+            r"(?:_ssl\.c:\d+: )?the handshake operation timed out|"
+            r"(?:\[errno (?:54|104)\] )?connection reset by peer|"
+            r"\[winerror 10054\] an existing connection was forcibly closed by the remote host\.?|"
+            r"remote end closed connection without response",
+            part,
+        ):
+            return False
+    return True
+
+
+def retry_transient_results(
+    sites, by_name: dict[str, dict], date_str: str, hole_type: str, retried_domains: set[str]
+) -> tuple[int, int]:
+    """Give isolated Quick18 failures one delayed, serial chance per domain/shard.
+
+    Quick18 already retries once inside fetch_site_text. This later attempt is
+    deliberately limited to three domains across the entire shard, adding at
+    most six HTTP requests with today's one-URL Quick18 fetch path. Persistent
+    failures therefore cannot start a retry sweep over every date and round.
+    """
+    attempts = recovered = 0
+    for site in sites:
+        failed = by_name[site.name]
+        domain = site.domain.lower()
+        if (
+            site.provider != "quick18"
+            or domain in retried_domains
+            or len(retried_domains) >= MAX_TRANSIENT_RETRY_DOMAINS
+            or not is_transient_transport_error(failed.get("error"))
+        ):
+            continue
+        retried_domains.add(domain)
+        attempts += 1
+        print(
+            f"Delayed cache retry for {site.name} {date_str} {hole_type} holes "
+            f"after transport failure: {failed['error']}"
+        )
+        sleep(TRANSIENT_RETRY_DELAY_SECONDS)
+        try:
+            result = fetch_one(site, date_str, hole_type)
+        except Exception as exc:
+            result = {**failed, "error": str(exc)}
+        by_name[site.name] = result
+        if result.get("error"):
+            print(f"Delayed cache retry failed for {site.name}: {result['error']}")
+        else:
+            recovered += 1
+            print(f"Delayed cache retry recovered {site.name} {date_str} {hole_type} holes")
+    return attempts, recovered
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--start-offset", type=int, required=True)
@@ -111,6 +178,7 @@ def main() -> int:
     sites = load_sites(DATA_DIR / CONFIG_FILE)
     load_weather_artifact(args.weather_cache, base_date, sites)
     args.output.mkdir(parents=True, exist_ok=True)
+    retried_domains: set[str] = set()
 
     for offset in range(args.start_offset, args.start_offset + args.days):
         date_str = (base_date + timedelta(days=offset)).isoformat()
@@ -133,6 +201,9 @@ def main() -> int:
                             "not_configured": False,
                         }
 
+            retry_attempts, retry_recoveries = retry_transient_results(
+                eligible, by_name, date_str, hole_type, retried_domains
+            )
             live_sites = [site for site in eligible if site.provider != "direct"]
             fresh_live_successes = sum(not by_name[site.name].get("error") for site in live_sites)
             required = minimum_live_successes(len(live_sites))
@@ -164,6 +235,8 @@ def main() -> int:
                 "fresh_live_successes": fresh_live_successes,
                 "minimum_live_successes": required,
                 "stale_fallbacks": stale_fallbacks,
+                "transient_retries": retry_attempts,
+                "transient_retry_recoveries": retry_recoveries,
             }
             target = args.output / date_str / f"{hole_type}.json"
             target.parent.mkdir(parents=True, exist_ok=True)

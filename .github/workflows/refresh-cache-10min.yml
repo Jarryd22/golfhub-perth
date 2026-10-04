@@ -74,6 +74,7 @@ jobs:
           python scripts/prepare_weather_cache.py
           --base-date "${{ steps.perth_date.outputs.base_date }}"
           --workers 4
+          --budget-seconds 90
           --output "$RUNNER_TEMP/weather-cache.json"
       - uses: actions/upload-artifact@v4
         if: steps.freshness.outputs.refresh == 'true'
