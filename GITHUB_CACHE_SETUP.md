@@ -11,7 +11,7 @@ Index: `https://raw.githubusercontent.com/Jarryd22/golfhub-perth/cache/public/ca
 - `.github/workflows/refresh-cache-10min.yml` listens for completion of **Check preferred-date alerts** on `main`. That workflow already receives an external `workflow_dispatch` roughly every ten minutes. Its completion triggers a cache check regardless of success, failure or cancellation; notification-test runs can also trigger a cache check. The cache workflow does not dispatch the alert checker, consume its artifacts, or alter notification behavior.
 - The existing cron `7,17,27,37,47,57 * * * *` remains a best-effort fallback, alongside manual dispatch and source-change pushes. No new credentials, scheduler setup or token permissions are required.
 - Automatic triggers skip provider fetching only when the prior index covers the current 28 Perth dates, all 56 snapshot files exist, and its timestamp is under five minutes old. This coalesces nearby cron/heartbeat events. Missing, invalid, future-dated or incomplete cache data triggers a refresh. Manual and source-change runs always refresh; the shared concurrency group prevents overlapping publishers.
-- One prepare job anchors a single Perth calendar date, fetches one shared forecast per course with transient retry, and attempts to export the previous cache snapshot for transient fallback.
+- One prepare job anchors a single Perth calendar date, fetches one shared forecast per course within a 90-second network budget, and attempts to export the previous cache snapshot for transient fallback.
 - Seven parallel jobs refresh four anchored calendar days each: offsets 0, 4, 8, 12, 16, 20 and 24.
 - A strict publisher accepts only 28 dates with complete 18-hole and 9-hole files: 56 date/round snapshots in total, with valid schemas, expected course counts and a strict live-provider majority.
 - Isolated provider failures reuse the prior same-course result with stale metadata; widespread outages cannot replace a healthy snapshot.
@@ -20,6 +20,16 @@ Index: `https://raw.githubusercontent.com/Jarryd22/golfhub-perth/cache/public/ca
 - GolfHub v5 can combine up to 28 individually selected cached dates, including nonconsecutive dates, in one request. Results remain grouped by date and courses are ordered A-Z within each date.
 
 GitHub scheduled workflows are best-effort and can start later than the nominal ten-minute mark. The app displays cache age; cache availability is a fast discovery view and the official course or booking page remains the final source of truth.
+
+### Weather isolation and bounded transport recovery
+
+The October 3 weather outage exhausted the five-minute prepare job, so every tee-time shard was skipped despite weather being optional. Weather now runs in a child process with a 90-second deadline. Completed forecasts are checkpointed atomically; if the worker times out or fails, the parent retains completed weather and supplies empty entries for unavailable locations. All shards preload those entries, so they make no additional weather requests. The prepare summary and Actions warning expose incomplete weather. The next heartbeat provides the next attempt; there is no production retry sweep of empty forecasts (which can be rate-limit responses).
+
+The October 4 Quick18 timeout/reset incidents persisted as stale fallback results across publications. Quick18 already has one immediate transport retry in the shared fetcher. The cache shard now permits a separate, delayed recovery attempt after the initial batch, restricted to recognized Quick18 timeout/reset failures. Attempts run serially, at most once per domain and at most three times across the entire four-day shard. Each recovery fetch can use the existing immediate retry, so this adds at most six HTTP requests per shard. HTTP errors (including 429), certificate failures, parser errors and mixed failure messages do not qualify. These limits deliberately leave some failed results for the next heartbeat instead of retrying every date and round.
+
+Recovery is not guaranteed. The strict fresh-provider majority is still evaluated before stale fallback substitution; prior `stale_since` timestamps and the current failure reason remain visible when recovery fails or its budget is exhausted. Neither the index timestamp nor a successful workflow means all course results are fresh.
+
+Branch CI exercises a real hung weather process, retained checkpoints, malformed/failed weather preparation, negative caching in shards, transient retry limits and exclusions, repeated stale timestamps, and the existing publication gates. After an approved merge, check weather summaries and successive publications, including per-course stale metadata. Revert only the resilience change if needed; keep the existing heartbeat and cron cadence fix. This repair does not release an Android or Windows update or change booking/notification behavior.
 
 ### Freshness and activation verification
 
@@ -37,7 +47,7 @@ After activation, observe at least **three successive heartbeat-driven publicati
 
 If no cache run follows a heartbeat, check the exact alert workflow name, `main` branch, upstream event and default-branch listener. If both heartbeat and cron stop, no workflow can emit its own warning; the published index age is still the evidence of staleness. This change improves triggering but does not promise an exact delivery time or add an independent monitoring service.
 
-Rollback: revert the fix commit on `main` to restore the previous cron/manual refresh behavior. Do not disable the alert checker or change its external scheduler.
+Cadence rollback (PR #1 only): reverting the heartbeat change restores the previous cron/manual refresh behavior. This is separate from reverting the resilience repair; keep the heartbeat for a resilience-only rollback. Do not disable the alert checker or change its external scheduler.
 
 ## Wembley protected-calendar behavior
 
