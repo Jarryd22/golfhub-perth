@@ -18,6 +18,8 @@ from dataclasses import dataclass
 from datetime import datetime
 from html import unescape
 from pathlib import Path
+from time import sleep
+from urllib import error as urlerror
 import logging
 
 CONFIG_FILE = "courses.json"
@@ -1344,7 +1346,40 @@ def _weather_daily_value(daily: dict, key: str, index: int, default: float = 0) 
     return float(values[index])
 
 
-def _fetch_weather_forecast(query: str) -> dict[str, dict]:
+class WeatherRetryBudget:
+    """Share at most four extra forecast requests across one preparation run."""
+
+    def __init__(self) -> None:
+        self._remaining = 4
+        self._lock = threading.Lock()
+
+    def claim(self) -> bool:
+        with self._lock:
+            if self._remaining == 0:
+                return False
+            self._remaining -= 1
+            return True
+
+
+def _fetch_weather_json(url: str, retry_budget: WeatherRetryBudget | None = None) -> dict:
+    try:
+        return fetch_json(url)
+    except (urlerror.URLError, TimeoutError) as exc:
+        # urllib wraps connect/TLS-handshake timeouts in URLError. Require the
+        # typed timeout, never a matching error string or an HTTP response.
+        reason = exc.reason if isinstance(exc, urlerror.URLError) else exc
+        if (isinstance(exc, urlerror.HTTPError) or not isinstance(reason, TimeoutError)
+                or retry_budget is None or not retry_budget.claim()):
+            raise
+        logging.warning("Retrying weather forecast once after transport timeout: %s", exc)
+        sleep(1)
+    # Outside the handler: a failed retry cannot recurse or consume more tokens.
+    return fetch_json(url)
+
+
+def _fetch_weather_forecast(
+    query: str, *, retry_budget: WeatherRetryBudget | None = None,
+) -> dict[str, dict]:
     """Fetch every forecast day once for one location.
 
     Empty mappings are cached too, so a provider outage or an out-of-horizon
@@ -1379,7 +1414,7 @@ def _fetch_weather_forecast(query: str) -> dict[str, dict]:
                 "forecast_days": 16,
             }
             url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
-            daily = fetch_json(url).get("daily", {})
+            daily = _fetch_weather_json(url, retry_budget).get("daily", {})
             for index, forecast_date in enumerate(daily.get("time") or []):
                 code = int(_weather_daily_value(daily, "weather_code", index))
                 icon, label = WEATHER_CODE_MAP.get(code, ("Weather", "Forecast"))
@@ -1426,11 +1461,14 @@ def preload_weather_cache(forecasts: dict[str, dict[str, dict]]) -> None:
         WEATHER_INFLIGHT.clear()
 
 
-def get_weather_for_date(query: str | None, date_str: str, location_name: str | None) -> dict | None:
+def get_weather_for_date(
+    query: str | None, date_str: str, location_name: str | None,
+    *, retry_budget: WeatherRetryBudget | None = None,
+) -> dict | None:
     if not query:
         return None
     try:
-        weather = _fetch_weather_forecast(query).get(date_str)
+        weather = _fetch_weather_forecast(query, retry_budget=retry_budget).get(date_str)
     except Exception as exc:
         logging.warning("Weather lookup failed for %s: %s", query, exc)
         return None

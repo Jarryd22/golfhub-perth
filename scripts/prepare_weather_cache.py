@@ -20,6 +20,7 @@ sys.path.insert(0, str(ROOT))
 from app.golfhub_core import (
     CONFIG_FILE,
     DATA_DIR,
+    WeatherRetryBudget,
     get_weather_for_date,
     load_sites,
     preload_weather_cache,
@@ -34,13 +35,16 @@ def prepare_forecasts(
     retry_delays: tuple[float, ...] = (),
     checkpoint: Callable[[dict], None] | None = None,
 ) -> dict[str, dict[str, dict]]:
-    """Fetch once per location, checkpointing completed work.
+    """Fetch each location with a shared, bounded timeout retry allowance.
 
-    Production leaves retries to the next heartbeat: an empty forecast can mean
-    HTTP 429, so sweeping all empty locations again can extend a rate limit.
+    Production never sweeps empty forecasts: they can mean HTTP 429. Only typed
+    transport timeouts qualify for one retry, at most four extras per run, all
+    inside the existing killable worker and its unchanged preparation deadline.
     """
+    retry_budget = WeatherRetryBudget()
     with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
-        jobs = [pool.submit(get_weather_for_date, query, base_date.isoformat(), None) for query in queries]
+        jobs = [pool.submit(get_weather_for_date, query, base_date.isoformat(), None,
+                            retry_budget=retry_budget) for query in queries]
         for job in as_completed(jobs):
             job.result()
             if checkpoint:
