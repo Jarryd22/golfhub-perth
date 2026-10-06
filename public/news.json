@@ -1,7 +1,36 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-04T23:59:35.784448+00:00",
+  "generated_at": "2026-10-06T01:47:09.379882+00:00",
   "items": [
+    {
+      "id": "98ec516b6674ae93305a",
+      "course_id": "nedlands-golf-club",
+      "title": "2026 DALKEITH CUP CHAMPIONS KRYSTYNA KNOTTNERUS and TONY COWAN",
+      "summary": "The 62nd playing of the DALKEITH CUP, a mixed four ball combined stableford event,",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/2026-dalkeith-cup-champions-krystyna-knottnerus-and-tony-cowan/",
+      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Dalkeith-Cup-3.jpg",
+      "images": [
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Dalkeith-Cup-3.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Tony-Krystyna-2-scaled-1.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Eliza-Brenton-scaled-1.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Joe-Alexander.jpeg"
+      ],
+      "published_at": "2026-10-05T05:19:18+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "23d61e4cf00b4b1f3ef7",
+      "course_id": "collier-park",
+      "title": "DRIVING RANGE HOURS | OCTOBER",
+      "summary": "October Driving Range Opening Hours The range stays open all month, but a couple",
+      "url": "https://collierparkgolf.com.au/driving-range-hours-october/",
+      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Driving-Range-Hours-October-scaled.png",
+      "images": [
+        "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Driving-Range-Hours-October-scaled.png"
+      ],
+      "published_at": "2026-10-05T05:05:42+00:00",
+      "category": "Course news"
+    },
     {
       "id": "5cdf9083ac52df2fa54a",
       "course_id": "mosman-park",
@@ -263,19 +292,6 @@
       "category": "Course news"
     },
     {
-      "id": "ec4768a2821411305c0e",
-      "course_id": "nedlands-golf-club",
-      "title": "Junior Club Championship",
-      "summary": "XGolf Nedlands 2026 Bill Burbridge This year’s Junior Club Championship was played on Sunday",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/09/junior-club-championship/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/09/Winners-and-Sponsors-1.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/09/Winners-and-Sponsors-1.jpg"
-      ],
-      "published_at": "2026-09-16T02:13:35+00:00",
-      "category": "Events"
-    },
-    {
       "id": "9e5745febf9f513790c0",
       "course_id": "collier-park",
       "title": "Take The Next Step: October Sessions",
@@ -445,17 +461,6 @@
       "category": "Course news"
     },
     {
-      "id": "30516b979af42ac5b2e7",
-      "course_id": "the-vines",
-      "title": "Coring & Sanding",
-      "summary": "Please note that we will be coring & sanding the Championship course on 24th",
-      "url": "https://www.vines.com.au/uncategorized/coring-sanding/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-08-21T04:44:22+00:00",
-      "category": "Course works"
-    },
-    {
       "id": "4b748ab30de8dc3a545f",
       "course_id": "gosnells-golf-club",
       "title": "Course Works Update",
@@ -477,17 +482,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-08-18T02:59:37+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "8b4d4e566d6709ed8c3f",
-      "course_id": "collier-park",
-      "title": "Father’s Day at Collier Park",
-      "summary": "This Father’s Day, bring the family to Collier Park for mini golf, friendly competition",
-      "url": "https://collierparkgolf.com.au/fathers-day-at-collier-park/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-08-14T07:33:29+00:00",
       "category": "Course news"
     },
     {
@@ -522,6 +516,17 @@
       "images": [],
       "published_at": "2026-07-09T01:01:50+00:00",
       "category": "Course news"
+    },
+    {
+      "id": "db761ad3f49d1bb5ec2a",
+      "course_id": "the-vines",
+      "title": "Christmas to Go",
+      "summary": "All the deliciousness of a festive feast without the cooking! The post Christmas to",
+      "url": "https://www.vines.com.au/takeawaychristmas/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-07-08T07:28:33+00:00",
+      "category": "Events"
     }
   ],
   "sources": [
@@ -599,7 +604,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
