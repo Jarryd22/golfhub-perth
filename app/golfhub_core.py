@@ -450,6 +450,7 @@ def parse_wembley_calendar_availability(
     ))
     relevant_labels: list[str] = []
     available_labels: list[str] = []
+    seen_fee_ids: set[str] = set()
     for index, match in enumerate(row_starts):
         end = row_starts[index + 1].start() if index + 1 < len(row_starts) else len(html)
         block = html[match.start():end]
@@ -457,6 +458,7 @@ def parse_wembley_calendar_availability(
         if not fee_match or fee_match.group(1) not in fee_group_ids:
             continue
         fee_id = fee_match.group(1)
+        seen_fee_ids.add(fee_id)
         label_match = re.search(r"(?is)<h3\b[^>]*>(.*?)</h3>", block)
         label = html_to_text(label_match.group(1)).strip() if label_match else fee_id
         relevant_labels.append(label)
@@ -469,6 +471,10 @@ def parse_wembley_calendar_availability(
 
     if available_labels:
         return "available", available_labels
+    # A missing product is not evidence that it is full or outside the booking
+    # horizon. Only classify those states when all configured products appear.
+    if not fee_group_ids or seen_fee_ids != fee_group_ids:
+        return "unknown", []
 
     target = datetime.strptime(date_str, "%Y-%m-%d")
     header_pattern = re.compile(
@@ -494,8 +500,11 @@ def fetch_wembley_calendar_result(
     option = site.holes[hole_type]
     fee_group_ids = set(option.resolve_fee_group_ids(date_str))
     status, course_labels = parse_wembley_calendar_availability(html, date_str, fee_group_ids)
-    if status == "unknown":
-        raise RuntimeError("Wembley calendar response did not contain the configured booking products")
+    product_error = (
+        "Wembley calendar response did not contain all configured booking products; "
+        "current availability is unknown"
+        if status == "unknown" else None
+    )
 
     names = ", ".join(course_labels)
     captcha_enabled = parse_wembley_public_captcha_enabled(html)
@@ -508,6 +517,8 @@ def fetch_wembley_calendar_result(
         note = f"Wembley's official calendar shows bookings available for {names}. Open Wembley to choose the exact tee time."
     elif status == "full":
         note = f"Wembley's official calendar currently shows {names} as full. Open Wembley to re-check cancellations."
+    elif status == "unknown":
+        note = "Current availability for this round is unknown because its booking products are missing. Open Wembley's official calendar to check."
     else:
         note = "Wembley releases timesheets 10 days ahead from 6 am. This date is not open yet; use the official calendar to check again."
 
@@ -525,12 +536,13 @@ def fetch_wembley_calendar_result(
         "display_earliest": None,
         "earliest_group_times": [],
         "weather": weather,
-        "error": None,
+        "error": product_error,
         "not_configured": False,
         "calendar_availability": status,
         "calendar_courses": course_labels,
         "calendar_captcha_enabled": captcha_enabled,
         "booking_note": note,
+        **({"calendar_error_kind": "products_missing"} if product_error else {}),
     }
 
 

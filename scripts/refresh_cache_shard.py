@@ -28,6 +28,7 @@ from app.shared_cache import make_snapshot, validate_snapshot
 PERTH = ZoneInfo("Australia/Perth")
 MAX_TRANSIENT_RETRY_DOMAINS = 3
 TRANSIENT_RETRY_DELAY_SECONDS = 3
+WEMBLEY_FALLBACK_MAX_AGE = timedelta(minutes=30)
 
 
 def parse_base_date(value: str | None) -> date:
@@ -70,7 +71,9 @@ def load_previous_snapshot(root: Path | None, date_str: str, hole_type: str) -> 
         return None
 
 
-def reuse_prior_good_result(site, fresh: dict, previous: dict | None) -> tuple[dict, bool]:
+def reuse_prior_good_result(
+    site, fresh: dict, previous: dict | None, *, now: datetime | None = None
+) -> tuple[dict, bool]:
     """Substitute a prior same-course result after an isolated live failure."""
     if site.provider == "direct" or not fresh.get("error") or not previous:
         return fresh, False
@@ -82,12 +85,37 @@ def reuse_prior_good_result(site, fresh: dict, previous: dict | None) -> tuple[d
     prior = prior_by_name.get(site.name)
     if not isinstance(prior, dict) or prior.get("error"):
         return fresh, False
+    attempted_at = now or datetime.now(timezone.utc)
+    if "wembleygolf.com.au" in site.domain.lower():
+        # Missing products describe a current unknown, not a transient read
+        # failure. Never restore a historical available/full/unreleased state.
+        if fresh.get("calendar_error_kind") == "products_missing":
+            return fresh, False
+        # Republication must not renew the original observation's age. Legacy
+        # stale results without a trustworthy source timestamp fail closed.
+        source_stamp = prior.get("stale_since") if prior.get("stale") else previous.get("generated_at")
+        try:
+            source_at = datetime.fromisoformat(source_stamp.replace("Z", "+00:00"))
+            if source_at.tzinfo is None or source_at.utcoffset() is None:
+                return fresh, False
+            age = attempted_at - source_at
+        except (AttributeError, TypeError, ValueError):
+            return fresh, False
+        if not timedelta(0) <= age <= WEMBLEY_FALLBACK_MAX_AGE:
+            return fresh, False
     reused = dict(prior)
     reused["error"] = None
     reused["stale"] = True
     reused["stale_reason"] = str(fresh.get("error"))
     reused["stale_since"] = reused.get("stale_since") or previous.get("generated_at")
-    reused["last_refresh_attempt_at"] = datetime.now(timezone.utc).isoformat(timespec="seconds")
+    reused["last_refresh_attempt_at"] = attempted_at.isoformat(timespec="seconds")
+    if "wembleygolf.com.au" in site.domain.lower():
+        # Weather and the official handoff belong to this refresh, even while
+        # tee-time availability temporarily falls back to an earlier result.
+        reused["weather"] = fresh.get("weather")
+        for key in ("url", "hole_label"):
+            if key in fresh:
+                reused[key] = fresh[key]
     return reused, True
 
 
