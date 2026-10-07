@@ -1,7 +1,7 @@
 import json
 import tempfile
 import unittest
-from datetime import date, timedelta
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from unittest.mock import patch
 
@@ -128,11 +128,13 @@ class WembleyCalendarTests(unittest.TestCase):
         self.assertEqual(status, "available")
         self.assertEqual(labels, ["OLD Course 18 Holes"])
         full_html = self.html.replace(
-            'onclick="redirectToTimesheet(\'102184\',\'2026-07-15\');"',
-            "",
+            'onclick="redirectToTimesheet(\'102184\',\'2026-07-15\');"></div>',
+            '>Timesheet Full</div>',
         )
         self.assertEqual(parse_wembley_calendar_availability(full_html, "2026-07-15", fee_ids)[0], "full")
-        self.assertEqual(parse_wembley_calendar_availability(self.html, "2026-07-25", fee_ids)[0], "unreleased")
+        self.assertEqual(parse_wembley_calendar_availability(
+            self.html, "2026-07-25", fee_ids, now=datetime(2026, 7, 14, tzinfo=timezone.utc),
+        )[0], "unreleased")
 
     def test_calendar_reports_public_captcha_setting_without_a_token(self):
         self.assertIs(parse_wembley_public_captcha_enabled(self.html), True)

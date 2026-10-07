@@ -5,6 +5,7 @@ on:
     paths:
       - ".github/workflows/**"
       - "app/**"
+      - "requirements-browser.txt"
       - "data/courses.json"
       - "scripts/**"
       - "tests/test_cache*.py"
@@ -13,6 +14,7 @@ on:
     paths:
       - ".github/workflows/**"
       - "app/**"
+      - "requirements-browser.txt"
       - "data/courses.json"
       - "scripts/**"
       - "tests/test_cache*.py"
@@ -23,15 +25,20 @@ permissions:
 jobs:
   test:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install browser for offline rendered-calendar tests
+        run: |
+          python -m pip install -r requirements-browser.txt
+          python -m playwright install --with-deps chromium
       - name: Run offline cache pipeline and freshness tests
         env:
           LOCALAPPDATA: ${{ runner.temp }}/golfhub-test
+          GOLFHUB_BROWSER_TESTS: "1"
         run: python -m unittest discover -s tests -p 'test_cache*.py' -v
       - name: Validate workflow syntax and expressions
         run: go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12 -color

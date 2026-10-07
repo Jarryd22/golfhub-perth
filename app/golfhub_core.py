@@ -15,8 +15,9 @@ import urllib.request
 import webbrowser
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timedelta, timezone
 from html import unescape
+from app.wembley_browser import collect_wembley_rows
 from pathlib import Path
 import logging
 
@@ -433,16 +434,122 @@ def parse_wembley_public_captcha_enabled(html: str) -> bool | None:
     return match.group(1).lower() == "true"
 
 
+def _wembley_now() -> datetime:
+    # Perth is UTC+8 year-round; a fixed offset also works on Windows without
+    # requiring a separate IANA timezone database package.
+    return datetime.now(timezone(timedelta(hours=8)))
+
+
+def _wembley_date_is_unreleased(date_str: str, now: datetime | None = None) -> bool:
+    current = now if now is not None else _wembley_now()
+    if current.tzinfo is None or current.utcoffset() is None:
+        raise ValueError("Wembley release-window checks require an aware datetime")
+    perth_timezone = timezone(timedelta(hours=8))
+    requested = datetime.strptime(date_str, "%Y-%m-%d").replace(tzinfo=perth_timezone)
+    release_at = requested.replace(hour=6) - timedelta(days=10)
+    return current < release_at
+
+
+def _wembley_selected_calendar_cells(html: str, target: datetime, fee_group_ids: set[str]) -> tuple[bool, list[str]]:
+    """Return text only from unambiguously mapped requested-day product cells."""
+    from html.parser import HTMLParser
+
+    class CalendarCells(HTMLParser):
+        def __init__(self):
+            super().__init__()
+            self.divs = []
+            self.headings = []
+            self.products = {}
+
+        def handle_starttag(self, tag, attrs):
+            if tag != "div":
+                return
+            attributes = dict(attrs)
+            classes = set((attributes.get("class") or "").split())
+            record = {"role": None, "text": [], "index": attributes.get("data-date")}
+            if "feeGroupRow" in classes:
+                record["role"] = "product"
+                record["fee"] = attributes.get("data-feeid")
+            elif "cell-heading" in classes:
+                record["role"] = "heading"
+                self.headings.append(record)
+            elif "cell" in classes:
+                product = next((item for item in reversed(self.divs) if item["role"] == "product"), None)
+                if product is not None:
+                    record["role"] = "cell"
+                    self.products.setdefault(product["fee"], []).append(record)
+            self.divs.append(record)
+
+        def handle_endtag(self, tag):
+            if tag == "div" and self.divs:
+                self.divs.pop()
+
+        def handle_startendtag(self, tag, attrs):
+            self.handle_starttag(tag, attrs)
+            self.handle_endtag(tag)
+
+        def handle_data(self, data):
+            for record in self.divs:
+                if record["role"] in {"heading", "cell"}:
+                    record["text"].append(data)
+
+    parsed = CalendarCells()
+    parsed.feed(html)
+    month_numbers = {
+        name.lower(): month
+        for month in range(1, 13)
+        for name in (pycalendar.month_abbr[month], pycalendar.month_name[month])
+    }
+    dated_headings = []
+    for heading in parsed.headings:
+        matches = [
+            (int(day), month_numbers[month.lower()])
+            for day, month in re.findall(r"\b(\d{1,2})\s+([A-Za-z]+)\.?\b", " ".join(heading["text"]))
+            if month.lower() in month_numbers
+        ]
+        if len(matches) == 1:
+            dated_headings.append((heading, matches[0]))
+    matching = [(position, heading) for position, (heading, value) in enumerate(dated_headings) if value == (target.day, target.month)]
+    if len(matching) != 1:
+        return bool(matching), []
+    position, heading = matching[0]
+    column = heading["index"]
+    # Supported MiClub markup has .cell-heading dates above .cell[data-date]
+    # columns. When every heading omits data-date, their dated-heading order
+    # supplies the index; mixed or ambiguous mappings remain unknown.
+    if column is None:
+        if (
+            len(dated_headings) != len(parsed.headings)
+            or any(item["index"] is not None for item, _ in dated_headings)
+        ):
+            return True, []
+        column = str(position)
+    elif sum(item["index"] == column for item, _ in dated_headings) != 1:
+        return True, []
+    texts = []
+    for fee in fee_group_ids:
+        cells = parsed.products.get(fee, [])
+        matches = [cell for cell in cells if cell["index"] == column]
+        if cells and all(cell["index"] is None for cell in cells) and len(cells) == len(dated_headings):
+            matches = [cells[position]]
+        if len(matches) != 1:
+            return True, []
+        texts.append(" ".join(" ".join(matches[0]["text"]).split()))
+    return True, texts
+
+
 def parse_wembley_calendar_availability(
     html: str,
     date_str: str,
     fee_group_ids: set[str],
+    *,
+    now: datetime | None = None,
 ) -> tuple[str, list[str]]:
-    """Read trustworthy product-level availability from Wembley's calendar.
+    """Read product availability and the documented Perth release window.
 
-    Wembley protects individual slots with its booking check. The public
-    calendar still exposes whether each Old/Tuart product is open or full, so
-    GolfHub reports that status and hands exact-slot selection to Wembley.
+    Missing products or a missing requested-date heading cannot establish a
+    full timesheet. An empty official calendar is only unreleased before that
+    date's 6 am opening, ten days before play.
     """
     row_starts = list(re.finditer(
         r"""(?is)<div\b[^>]*class=["'][^"']*\bfeeGroupRow\b[^"']*["'][^>]*>""",
@@ -471,19 +578,26 @@ def parse_wembley_calendar_availability(
 
     if available_labels:
         return "available", available_labels
-    # A missing product is not evidence that it is full or outside the booking
-    # horizon. Only classify those states when all configured products appear.
+
+    before_release = _wembley_date_is_unreleased(date_str, now)
+    # The mobile calendar omits all products outside its booking horizon.
+    # Require the official empty-state text, rather than treating an arbitrary
+    # empty/error response or a different round's products as unreleased.
+    empty_calendar = re.search(r"no\s+rows\s+meeting\s+(?:the\s+)?selected\s+criteria", html_to_text(html), re.I)
+    if fee_group_ids and not row_starts and empty_calendar and before_release:
+        return "unreleased", []
     if not fee_group_ids or seen_fee_ids != fee_group_ids:
         return "unknown", []
 
     target = datetime.strptime(date_str, "%Y-%m-%d")
-    header_pattern = re.compile(
-        rf"<p\b[^>]*>\s*{target.day}\s+{target.strftime('%B')}\s*</p>",
-        re.I,
-    )
-    if relevant_labels and header_pattern.search(html):
+    has_requested_header, cell_texts = _wembley_selected_calendar_cells(html, target, fee_group_ids)
+    full_pattern = r"Timesheet\s+Full(?:\s*-\s*No\s+Bookings\s+Available)?"
+    if cell_texts and all(re.fullmatch(full_pattern, text, re.I) for text in cell_texts):
         return "full", relevant_labels
-    if relevant_labels:
+    if before_release and (
+        not has_requested_header
+        or (cell_texts and all(re.fullmatch(r"(?:Timesheet\s+)?Not\s+Yet\s+Open", text, re.I) for text in cell_texts))
+    ):
         return "unreleased", relevant_labels
     return "unknown", []
 
@@ -494,14 +608,16 @@ def fetch_wembley_calendar_result(
     hole_type: str,
     weather: dict | None,
     calendar_html: str | None = None,
+    *,
+    now: datetime | None = None,
 ) -> dict:
     url = wembley_calendar_url(site, date_str)
     html = calendar_html if calendar_html is not None else fetch_text(url)
     option = site.holes[hole_type]
     fee_group_ids = set(option.resolve_fee_group_ids(date_str))
-    status, course_labels = parse_wembley_calendar_availability(html, date_str, fee_group_ids)
+    status, course_labels = parse_wembley_calendar_availability(html, date_str, fee_group_ids, now=now)
     product_error = (
-        "Wembley calendar response did not contain all configured booking products; "
+        "Wembley calendar response did not provide a recognized status for every configured booking product on the requested date; "
         "current availability is unknown"
         if status == "unknown" else None
     )
@@ -511,14 +627,14 @@ def fetch_wembley_calendar_result(
     if status == "available" and captcha_enabled is True:
         note = (
             f"Wembley has bookings available for {names}. Select VIEW WEMBLEY TIMES, "
-            "choose a course, and complete Wembley's quick check to see the exact tee times."
+            "choose a course, and follow the official page to see the exact tee times."
         )
     elif status == "available":
         note = f"Wembley's official calendar shows bookings available for {names}. Open Wembley to choose the exact tee time."
     elif status == "full":
         note = f"Wembley's official calendar currently shows {names} as full. Open Wembley to re-check cancellations."
     elif status == "unknown":
-        note = "Current availability for this round is unknown because its booking products are missing. Open Wembley's official calendar to check."
+        note = "Current availability for this round could not be confirmed from Wembley's calendar. Open the official calendar to check."
     else:
         note = "Wembley releases timesheets 10 days ahead from 6 am. This date is not open yet; use the official calendar to check again."
 
@@ -1500,6 +1616,8 @@ def fetch_site_result(
         }
 
     wembley_fallback = None
+    rendered_rows = None
+    wembley_fields = {}
     if "wembleygolf.com.au" in site.domain.lower():
         url = wembley_calendar_url(site, date_str)
         try:
@@ -1512,16 +1630,52 @@ def fetch_site_result(
                 calendar_html=calendar_html,
             )
 
-            # The official page explicitly requires a fresh browser reCAPTCHA
-            # before revealing individual slots. Do not replay a captured token.
-            # If protection is disabled (or absent), continue through the normal
-            # MiClub row-fetching path below and parse exact times.
-            if (
-                wembley_fallback["calendar_availability"] != "available"
-                or wembley_fallback["calendar_captcha_enabled"] is True
-            ):
+            if wembley_fallback["calendar_availability"] != "available":
                 return wembley_fallback
+            if wembley_fallback["calendar_captcha_enabled"] is True:
+                option = site.holes[hole_type]
+                product_states = {
+                    fee: parse_wembley_calendar_availability(calendar_html, date_str, {fee})[0]
+                    for fee in option.resolve_fee_group_ids(date_str)
+                }
+                products = {
+                    fee: product_url
+                    for fee, product_url in zip(option.resolve_fee_group_ids(date_str), site.build_urls(date_str, hole_type))
+                    if product_states[fee] == "available"
+                }
+                rendered = collect_wembley_rows(url, date_str, option.booking_resource_id, products)
+                rendered_rows = rendered["rows"]
+                complete = (
+                    rendered["stop_reason"] is None
+                    and set(rendered["completed_products"]) == set(products)
+                    and "unknown" not in product_states.values()
+                )
+                wembley_fields = {
+                    "wembley_collection": "complete" if complete else "partial",
+                    "wembley_completed_products": rendered["completed_products"],
+                    "wembley_product_status": product_states,
+                    "wembley_stop_reason": rendered["stop_reason"],
+                }
+                if not rendered_rows:
+                    # Exact collection failures never replace a current calendar
+                    # status with stale exact rows or a false zero/full result.
+                    wembley_fallback.update(wembley_fields)
+                    wembley_fallback["wembley_collection"] = "calendar_only"
+                    return wembley_fallback
+                if not complete:
+                    wembley_fields["booking_note"] = (
+                        "Only some Wembley course times could be read. Open the official calendar to check all current times."
+                    )
         except Exception as exc:
+            if wembley_fallback is not None:
+                # A browser failure cannot erase a valid current calendar, or
+                # expose a browser exception containing a protected URL.
+                wembley_fallback.update({
+                    "wembley_collection": "calendar_only",
+                    "wembley_completed_products": [],
+                    "wembley_stop_reason": "browser_error",
+                })
+                return wembley_fallback
             return {
                 "site": site,
                 "site_name": site.name,
@@ -1544,9 +1698,9 @@ def fetch_site_result(
     url = urls[0] if urls else ""
 
     try:
-        rows = []
+        rows = rendered_rows if rendered_rows is not None else []
         fetch_errors = []
-        for one_url in urls:
+        for one_url in ([] if rendered_rows is not None else urls):
             try:
                 html = fetch_site_text(site, one_url)
                 save_debug_html(site, date_str, hole_type, one_url, html)
@@ -1633,6 +1787,7 @@ def fetch_site_result(
 
         return {
             **collier_fields,
+            **wembley_fields,
             "site": site,
             "site_name": site.name,
             "url": url,

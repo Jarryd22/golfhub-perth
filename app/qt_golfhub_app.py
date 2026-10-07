@@ -731,7 +731,9 @@ class ResultCard(QFrame):
         title_col.addWidget(title)
         calendar_status = result.get("calendar_availability")
         protected_calendar = bool(result.get("calendar_captcha_enabled"))
-        if calendar_status == "available" and protected_calendar:
+        if calendar_status == "available" and result.get("wembley_collection") == "calendar_only":
+            meta_text = f"Official calendar shows bookings available - exact times could not be collected - {result.get('hole_label', '')}"
+        elif calendar_status == "available" and protected_calendar:
             meta_text = f"Times are available - Wembley asks for a quick check before showing exact times - {result.get('hole_label', '')}"
         elif calendar_status == "available":
             meta_text = f"Official calendar shows bookings available - {result.get('hole_label', '')}"
@@ -767,6 +769,12 @@ class ResultCard(QFrame):
         top.addWidget(WeatherBadge(result.get("weather")), 1, 0, 1, 2, alignment=Qt.AlignLeft)
         top.setColumnStretch(0, 1)
         outer.addLayout(top)
+
+        if result.get("wembley_collection") == "partial":
+            note = QLabel(result.get("booking_note") or "Some Wembley times could not be read; check the official calendar.")
+            note.setObjectName("AvailabilityNotice")
+            note.setWordWrap(True)
+            outer.addWidget(note)
 
         if result.get("error"):
             warning = QLabel("Live times were unavailable for this course. You can still open its official booking page.")

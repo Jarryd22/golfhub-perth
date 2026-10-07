@@ -24,6 +24,7 @@ from app.golfhub_core import (
     preload_weather_cache,
 )
 from app.shared_cache import make_snapshot, validate_snapshot
+from app.wembley_browser import reset_browser_collection_state
 
 PERTH = ZoneInfo("Australia/Perth")
 MAX_TRANSIENT_RETRY_DOMAINS = 3
@@ -207,6 +208,7 @@ def main() -> int:
     load_weather_artifact(args.weather_cache, base_date, sites)
     args.output.mkdir(parents=True, exist_ok=True)
     retried_domains: set[str] = set()
+    reset_browser_collection_state()
 
     for offset in range(args.start_offset, args.start_offset + args.days):
         date_str = (base_date + timedelta(days=offset)).isoformat()
@@ -232,6 +234,12 @@ def main() -> int:
             retry_attempts, retry_recoveries = retry_transient_results(
                 eligible, by_name, date_str, hole_type, retried_domains
             )
+            wembley = by_name.get("Wembley", {})
+            if wembley.get("wembley_stop_reason"):
+                print(
+                    f"Wembley {date_str} {hole_type} holes: {wembley['wembley_collection']} "
+                    f"({wembley['wembley_stop_reason']}); official calendar retained"
+                )
             live_sites = [site for site in eligible if site.provider != "direct"]
             fresh_live_successes = sum(not by_name[site.name].get("error") for site in live_sites)
             required = minimum_live_successes(len(live_sites))

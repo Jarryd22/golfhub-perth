@@ -105,6 +105,14 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install optional Wembley rendered-calendar collector
+        id: wembley_browser
+        timeout-minutes: 3
+        if: matrix.start < 12
+        continue-on-error: true
+        run: |
+          python -m pip install -r requirements-browser.txt
+          python -m playwright install --with-deps chromium
       - uses: actions/download-artifact@v4
         with:
           name: weather-cache
@@ -114,6 +122,8 @@ jobs:
           name: previous-cache
           path: ${{ runner.temp }}/previous-cache
       - name: Refresh four anchored Perth calendar days
+        env:
+          GOLFHUB_WEMBLEY_BROWSER: ${{ steps.wembley_browser.outcome == 'success' && '1' || '0' }}
         run: >-
           python scripts/refresh_cache_shard.py
           --base-date "${{ needs.prepare.outputs.base_date }}"
