@@ -113,7 +113,7 @@ class WeatherConsumerTests(unittest.TestCase):
         fetch.assert_called_once()
 
     def test_tee_time_fallback_uses_current_weather_including_missing_or_none(self):
-        site = SimpleNamespace(name="Course", provider="miclub")
+        site = SimpleNamespace(name="Course", provider="miclub", domain="course.example")
         prior_weather = {**weather(), "fetched_at": (NOW - timedelta(hours=2)).isoformat()}
         previous = {
             "generated_at": (NOW - timedelta(minutes=10)).isoformat(),
