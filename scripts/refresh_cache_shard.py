@@ -83,6 +83,9 @@ def reuse_prior_good_result(site, fresh: dict, previous: dict | None) -> tuple[d
     if not isinstance(prior, dict) or prior.get("error"):
         return fresh, False
     reused = dict(prior)
+    # Tee-time fallback must not revive weather rejected by the current run's
+    # age bound, validation or provider cooldown.
+    reused["weather"] = fresh.get("weather")
     reused["error"] = None
     reused["stale"] = True
     reused["stale_reason"] = str(fresh.get("error"))

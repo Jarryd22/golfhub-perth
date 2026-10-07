@@ -8,6 +8,7 @@ import sys
 import logging
 import os
 import subprocess
+import threading
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timezone
 from pathlib import Path
@@ -26,6 +27,9 @@ from app.golfhub_core import (
     preload_weather_cache,
     weather_cache_snapshot,
 )
+from scripts.weather_state import (
+    WeatherRequestPolicy, rate_limit_from, reusable_forecasts, validated_forecasts,
+)
 
 
 def prepare_forecasts(
@@ -34,14 +38,17 @@ def prepare_forecasts(
     workers: int,
     retry_delays: tuple[float, ...] = (),
     checkpoint: Callable[[dict], None] | None = None,
+    *, initial_forecasts: dict | None = None, retry_budget: WeatherRetryBudget | None = None,
 ) -> dict[str, dict[str, dict]]:
-    """Fetch each location with a shared, bounded timeout retry allowance.
+    """Reuse valid forecasts and gate requests on a shared rate-limit policy.
 
     Production never sweeps empty forecasts: they can mean HTTP 429. Only typed
     transport timeouts qualify for one retry, at most four extras per run, all
     inside the existing killable worker and its unchanged preparation deadline.
     """
-    retry_budget = WeatherRetryBudget()
+    retry_budget = retry_budget or WeatherRequestPolicy()
+    if initial_forecasts is not None:
+        preload_weather_cache(initial_forecasts)
     with ThreadPoolExecutor(max_workers=max(1, workers)) as pool:
         jobs = [pool.submit(get_weather_for_date, query, base_date.isoformat(), None,
                             retry_budget=retry_budget) for query in queries]
@@ -59,7 +66,7 @@ def prepare_forecasts(
         sleep(delay)
         preload_weather_cache({query: value for query, value in forecasts.items() if value})
         for query in empty:
-            get_weather_for_date(query, base_date.isoformat(), None)
+            get_weather_for_date(query, base_date.isoformat(), None, retry_budget=retry_budget)
         forecasts = weather_cache_snapshot()
     return forecasts
 
@@ -84,21 +91,28 @@ def write_artifact(path: Path, base_date: date, queries: list[str], forecasts: d
 def prepare_bounded(
     output: Path, base_date: date, queries: list[str], workers: int, budget_seconds: float,
     *, worker_command: list[str] | None = None,
+    previous_weather: Path | None = None,
+    skip_fetch: bool = False,
 ) -> dict:
     """Isolate network work in a killable process, retaining atomic checkpoints.
 
     A timeout on a Future is insufficient: ThreadPoolExecutor waits for its
     threads when exiting. subprocess.run kills and waits for the worker instead.
     """
-    write_artifact(output, base_date, queries, {})
+    previous = read_payload(previous_weather)
+    write_artifact(output, base_date, queries,
+                   reusable_forecasts(previous, queries, required_date=base_date.isoformat()),
+                   rate_limit=rate_limit_from(previous))
     command = worker_command or [
         sys.executable, str(Path(__file__).resolve()), "--fetch-worker",
         "--base-date", base_date.isoformat(), "--workers", str(workers),
         "--output", str(output),
+        "--previous-weather", str(output),
     ]
-    status = "complete"
+    status = "state_unavailable" if skip_fetch else "complete"
     try:
-        subprocess.run(command, timeout=budget_seconds, check=True)
+        if not skip_fetch:
+            subprocess.run(command, timeout=budget_seconds, check=True)
     except subprocess.TimeoutExpired:
         status = "timed_out"
     except (subprocess.CalledProcessError, OSError):
@@ -114,8 +128,11 @@ def prepare_bounded(
             for value in forecasts.values()
         ):
             raise ValueError("Invalid forecast checkpoint")
+        forecasts = validated_forecasts(payload, queries, required_date=base_date.isoformat())
+        rate_limit = rate_limit_from(payload)
     except (OSError, ValueError, KeyError, TypeError, AttributeError):
         forecasts = {}
+        rate_limit = rate_limit_from(previous)
         status = "invalid_checkpoint"
 
     unavailable = [query for query in queries if not forecasts.get(query)]
@@ -123,11 +140,16 @@ def prepare_bounded(
         status = "partial"
     payload = write_artifact(
         output, base_date, queries, forecasts,
-        preparation={"status": status, "budget_seconds": budget_seconds, "unavailable_locations": unavailable},
+        rate_limit=rate_limit,
+        preparation={"status": status, "budget_seconds": budget_seconds, "unavailable_locations": unavailable,
+                     "reused_locations": [q for q, days in forecasts.items()
+                                          if any(day.get("reused") for day in days.values())]},
     )
     message = (
         f"Weather preparation {status}: {len(queries) - len(unavailable)}/{len(queries)} "
         f"locations available; network budget {budget_seconds:g}s. "
+        f"{len(payload['preparation']['reused_locations'])} locations reused with original source timestamps. "
+        f"Cooldown until: {rate_limit['cooldown_until'] if rate_limit else 'none'}. "
         "Unavailable weather will not be fetched again by tee-time shards."
     )
     print(f"::warning::{message}" if status != "complete" else message, flush=True)
@@ -137,12 +159,21 @@ def prepare_bounded(
     return payload
 
 
+def read_payload(path: Path | None) -> dict:
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8")) if path else {}
+        return payload if isinstance(payload, dict) else {}
+    except (OSError, ValueError, TypeError):
+        return {}
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--base-date", required=True)
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--workers", type=int, default=4)
     parser.add_argument("--budget-seconds", type=float, default=90)
+    parser.add_argument("--previous-weather", type=Path, help="Persistent forecast and cooldown checkpoint")
     parser.add_argument("--fetch-worker", action="store_true", help=argparse.SUPPRESS)
     args = parser.parse_args()
     if not 0 < args.budget_seconds <= 120:
@@ -152,10 +183,25 @@ def main() -> int:
     sites = load_sites(DATA_DIR / CONFIG_FILE)
     queries = sorted({site.weather_query for site in sites if site.weather_query})
     if args.fetch_worker:
-        checkpoint = lambda forecasts: write_artifact(args.output, base_date, queries, forecasts)
-        checkpoint(prepare_forecasts(queries, base_date, args.workers, checkpoint=checkpoint))
+        previous = read_payload(args.previous_weather)
+        policy = WeatherRequestPolicy(rate_limit_from(previous))
+        checkpoint_lock = threading.Lock()
+
+        def checkpoint(_forecasts=None):
+            with checkpoint_lock:
+                write_artifact(args.output, base_date, queries, weather_cache_snapshot(),
+                               rate_limit=policy.snapshot())
+
+        policy.checkpoint = checkpoint
+        checkpoint(prepare_forecasts(
+            queries, base_date, args.workers, checkpoint=checkpoint,
+            initial_forecasts=reusable_forecasts(previous, queries, required_date=base_date.isoformat()),
+            retry_budget=policy,
+        ))
     else:
-        prepare_bounded(args.output, base_date, queries, args.workers, args.budget_seconds)
+        prepare_bounded(args.output, base_date, queries, args.workers, args.budget_seconds,
+                        previous_weather=args.previous_weather,
+                        skip_fetch=os.environ.get("WEATHER_CACHE_RESTORE_FAILED") == "true")
     return 0
 
 

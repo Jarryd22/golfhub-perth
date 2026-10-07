@@ -68,14 +68,37 @@ jobs:
           --heartbeat-run "$HEARTBEAT_RUN"
           --output "$GITHUB_OUTPUT"
           --summary "$GITHUB_STEP_SUMMARY"
+      - name: Restore forecast and provider cooldown state
+        id: weather_restore
+        if: steps.freshness.outputs.refresh == 'true'
+        uses: actions/cache/restore@v4
+        continue-on-error: true
+        timeout-minutes: 1
+        with:
+          path: ${{ runner.temp }}/weather-cache.json
+          key: weather-state-v1-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: weather-state-v1-
       - name: Prepare one shared forecast per course
         if: steps.freshness.outputs.refresh == 'true'
+        env:
+          WEATHER_CACHE_RESTORE_FAILED: ${{ steps.weather_restore.outcome == 'failure' }}
         run: >-
           python scripts/prepare_weather_cache.py
           --base-date "${{ steps.perth_date.outputs.base_date }}"
           --workers 4
           --budget-seconds 90
+          --previous-weather "$RUNNER_TEMP/weather-cache.json"
           --output "$RUNNER_TEMP/weather-cache.json"
+      # Save independently of tee-time shards/publication, including partial
+      # weather and rate limits checkpointed before the worker was killed.
+      - name: Save forecast and provider cooldown state
+        if: always() && steps.freshness.outputs.refresh == 'true' && steps.weather_restore.outcome != 'failure'
+        uses: actions/cache/save@v4
+        continue-on-error: true
+        timeout-minutes: 1
+        with:
+          path: ${{ runner.temp }}/weather-cache.json
+          key: weather-state-v1-${{ github.run_id }}-${{ github.run_attempt }}
       - uses: actions/upload-artifact@v4
         if: steps.freshness.outputs.refresh == 'true'
         with:

@@ -15,7 +15,7 @@ import urllib.request
 import webbrowser
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime
+from datetime import datetime, timezone
 from html import unescape
 from pathlib import Path
 from time import sleep
@@ -30,6 +30,7 @@ GEOCODE_CACHE: dict[str, tuple[float, float]] = {}
 WEATHER_CACHE: dict[str, dict[str, dict]] = {}
 WEATHER_CACHE_LOCK = threading.Lock()
 WEATHER_INFLIGHT: dict[str, threading.Event] = {}
+WEATHER_MAX_AGE_SECONDS = 3600
 
 APP_ROOT = Path(__file__).resolve().parents[1]
 DATA_DIR = APP_ROOT / "data"
@@ -1360,10 +1361,14 @@ class WeatherRetryBudget:
             self._remaining -= 1
             return True
 
+    def fetch_json(self, url: str) -> dict:
+        return fetch_json(url)
+
 
 def _fetch_weather_json(url: str, retry_budget: WeatherRetryBudget | None = None) -> dict:
+    fetch = retry_budget.fetch_json if retry_budget is not None else fetch_json
     try:
-        return fetch_json(url)
+        return fetch(url)
     except (urlerror.URLError, TimeoutError) as exc:
         # urllib wraps connect/TLS-handshake timeouts in URLError. Require the
         # typed timeout, never a matching error string or an HTTP response.
@@ -1374,7 +1379,7 @@ def _fetch_weather_json(url: str, retry_budget: WeatherRetryBudget | None = None
         logging.warning("Retrying weather forecast once after transport timeout: %s", exc)
         sleep(1)
     # Outside the handler: a failed retry cannot recurse or consume more tokens.
-    return fetch_json(url)
+    return fetch(url)
 
 
 def _fetch_weather_forecast(
@@ -1415,11 +1420,13 @@ def _fetch_weather_forecast(
             }
             url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
             daily = _fetch_weather_json(url, retry_budget).get("daily", {})
+            fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
             for index, forecast_date in enumerate(daily.get("time") or []):
                 code = int(_weather_daily_value(daily, "weather_code", index))
                 icon, label = WEATHER_CODE_MAP.get(code, ("Weather", "Forecast"))
                 rain_mm = _weather_daily_value(daily, "precipitation_sum", index)
                 forecast[str(forecast_date)] = {
+                    **({"fetched_at": fetched_at, "reused": False} if retry_budget is not None else {}),
                     "icon": icon,
                     "icon_file": weather_icon_filename_for_code(code),
                     "label": label,
@@ -1461,6 +1468,21 @@ def preload_weather_cache(forecasts: dict[str, dict[str, dict]]) -> None:
         WEATHER_INFLIGHT.clear()
 
 
+def weather_is_usable(weather: dict | None, now: datetime | None = None) -> bool:
+    """Expire timestamped shared forecasts without triggering network work."""
+    if not weather:
+        return False
+    if "fetched_at" not in weather:
+        return True  # Legacy/direct lookups retain their existing behavior.
+    try:
+        fetched_at = datetime.fromisoformat(weather["fetched_at"].replace("Z", "+00:00"))
+        return fetched_at.tzinfo is not None and 0 <= (
+            (now or datetime.now(timezone.utc)) - fetched_at
+        ).total_seconds() < WEATHER_MAX_AGE_SECONDS
+    except (ValueError, TypeError, AttributeError):
+        return False
+
+
 def get_weather_for_date(
     query: str | None, date_str: str, location_name: str | None,
     *, retry_budget: WeatherRetryBudget | None = None,
@@ -1473,6 +1495,11 @@ def get_weather_for_date(
         logging.warning("Weather lookup failed for %s: %s", query, exc)
         return None
     if weather is None:
+        return None
+    # Timestamped shared forecasts can expire while tee-time shards run. Never
+    # refill a negative/expired cache entry here: the preparation worker owns
+    # provider requests and its cross-run cooldown.
+    if not weather_is_usable(weather):
         return None
     selected = dict(weather)
     selected["location_name"] = location_name

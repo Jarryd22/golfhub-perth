@@ -44,6 +44,7 @@ from app.golfhub_core import (
     fetch_site_result,
     load_sites,
     parse_user_time,
+    weather_is_usable,
 )
 from app.course_results import direct_result
 from app.booking_assist import BookingAssistError, build_booking_assist_plan
@@ -264,6 +265,8 @@ class TeeTimeCard(QFrame):
 class WeatherBadge(QFrame):
     def __init__(self, weather: dict[str, Any] | None, compact: bool = False):
         super().__init__()
+        if not weather_is_usable(weather):
+            weather = None
         self.setObjectName("WeatherBadge")
         layout = QHBoxLayout(self)
         layout.setContentsMargins(10, 7, 11, 7)
@@ -293,9 +296,13 @@ class WeatherBadge(QFrame):
             copy.addWidget(title)
             return
         condition = str(weather.get("label") or "Forecast")
+        if weather.get("reused"):
+            condition += " (cached)"
         high = weather.get("tmax", "--")
         low = weather.get("tmin", "--")
         title = QLabel(f"{condition}   {low}-{high} C")
+        if weather.get("fetched_at"):
+            title.setToolTip(f"Forecast fetched {cache_age_label(weather['fetched_at'])}\n{weather['fetched_at']}")
         title.setObjectName("WeatherTitle")
         copy.addWidget(title)
         if not compact:
