@@ -44,7 +44,11 @@ Availability can change after a cache snapshot. The official course or booking p
 
 ### Wembley
 
-GolfHub reports Wembley's official calendar-level Old/Tuart status as **Available**, **Full** or **Not released**. **Available** means the official calendar advertises booking availability; it does not mean GolfHub fetched exact tee-time rows. Wembley currently places individual rows behind an interactive CAPTCHA/browser check, so the unattended cache stores only the safe product-level status and dated official URL. GolfHub never solves, stores, replays or bypasses that check or its token. Select **View Wembley times** to complete the check yourself and inspect the exact current rows on Wembley's official page.
+GolfHub can collect Wembley's exact Old/Tuart tee times by opening the official public calendar in a normal browser and selecting an available course/date. When the page completes its own silent check, GolfHub reads the displayed times and spaces. If an interactive challenge, access denial, timeout or changed page prevents collection, GolfHub keeps the official calendar's **Available**, **Full**, **Not released** or **Unknown** status and provides **View Wembley times**. Calendar **Available** is not an exact time count. Partial collections show the times read and a notice to check the remaining courses.
+
+Wembley releases timesheets ten days ahead at 6 am Perth time. The calendar parser accepts short month headings such as “10 Oct”; an official empty calendar outside the release window is not a missing-product failure. Missing products within the window remain unknown.
+
+Browser collection is enabled for the Linux cache workflow where Chromium is installed; desktop-only live checks retain the calendar fallback. GolfHub never solves an interactive CAPTCHA, extracts or replays its token, or selects booking cells during collection. Browser support has offline tests; unattended live reliability still requires observation after an approved merge.
 
 ### Collier Park
 

@@ -19,10 +19,10 @@ class WembleyFallbackTests(unittest.TestCase):
         <div class="cell-heading"><p>17 October</p></div>
         <div class="row feeGroupRow" data-feeid="102184">
           <h3>OLD Course 18 Holes</h3>
-          <div onclick="redirectToTimesheet('102184','2026-10-17');"></div>
+          <div class="cell" data-date="0" onclick="redirectToTimesheet('102184','2026-10-17');"></div>
         </div>
         <div class="row feeGroupRow" data-feeid="102193">
-          <h3>TUART Course 18H</h3><div>Timesheet Full</div>
+          <h3>TUART Course 18H</h3><div class="cell cell-na" data-date="0">Timesheet Full</div>
         </div>
     """
 
@@ -61,6 +61,7 @@ class WembleyFallbackTests(unittest.TestCase):
 
     def fetch_calendar(self, html, date_str=None, holes="18"):
         with (
+            patch.object(core, "_wembley_now", return_value=self.now),
             patch.object(core, "get_weather_for_date", return_value=None),
             patch.object(core, "fetch_text", return_value=html) as calendar_fetch,
             patch.object(core, "fetch_site_text") as exact_fetch,
@@ -101,7 +102,7 @@ class WembleyFallbackTests(unittest.TestCase):
                 self.assertEqual(result["calendar_error_kind"], "products_missing")
 
     def test_complete_calendar_still_distinguishes_full_from_booking_horizon(self):
-        full_html = self.html.replace("redirectToTimesheet('102184','2026-10-17');", "")
+        full_html = self.html.replace("redirectToTimesheet('102184','2026-10-17');\"></div>", "\">Timesheet Full</div>")
         full = self.fetch_calendar(full_html)
         unreleased = self.fetch_calendar(self.html, "2026-10-25")
         self.assertEqual(full["calendar_availability"], "full")
