@@ -55,6 +55,10 @@ Wembley's official public calendar exposes safe product-level Old/Tuart **Availa
 
 This is an expected protected-calendar result, not a provider failure or proof of zero exact times. The desktop app labels it as product-level availability and provides **View Wembley times** for the user to complete the check and inspect exact current rows.
 
+If configured products are absent from a returned calendar, the cache records **unknown** with a product-mismatch error and never substitutes historical availability. A present product explicitly advertising availability can still be reported by name; a partial product list cannot establish that the whole round is full or not released. Complete-product booking-horizon results remain separate.
+
+Other isolated Wembley lookup failures can reuse a prior good result for at most **30 minutes** (roughly three scheduled cache intervals), retaining its original `stale_since` and the latest failure reason. Repeated publications and Perth midnight do not renew that age; missing, invalid, timezone-free or future source timestamps disable reuse. Once expired, the current error remains visible rather than claiming old availability. Fresh weather and the current official handoff remain attached to the attempt. This limit is Wembley-specific; other providers and the strict fresh-provider majority gate are unchanged.
+
 ## Booking-assist separation
 
 Player-count assistance is desktop-only and never runs in the cache workflow. After an explicit choice, a supported exact MiClub row may create a reversible temporary hold and open player details. The app fails closed on ambiguous or changed pages, attempts to release only its selected cells when the user closes without continuing, and keeps the page open if release cannot be verified. If the user continues to checkout manually, GolfHub does not alter that provider state. No hold state, cell identifier, personal information, login, checkout, payment or CAPTCHA action enters the GitHub cache.
