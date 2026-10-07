@@ -420,7 +420,10 @@ def _collect_in_browser(payload: dict, *, route_handler=None) -> dict:
     deadline = time.monotonic() + TOTAL_TIMEOUT_SECONDS
     try:
         with sync_playwright() as playwright:
-            options = {"headless": True, "timeout": _milliseconds(deadline)}
+            # Chromium can take longer than a page navigation to start on a
+            # cold runner. Startup shares the existing total budget; each
+            # subsequent navigation still has its own 15-second ceiling.
+            options = {"headless": True, "timeout": _milliseconds(deadline, TOTAL_TIMEOUT_SECONDS)}
             if payload.get("executable_path"):
                 options["executable_path"] = payload["executable_path"]
             browser = playwright.chromium.launch(**options)

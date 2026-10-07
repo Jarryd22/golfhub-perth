@@ -8,6 +8,7 @@ import tempfile
 import time
 import unittest
 from pathlib import Path
+from types import SimpleNamespace
 from unittest.mock import MagicMock, patch
 from urllib.parse import parse_qs, urlsplit
 
@@ -345,12 +346,66 @@ class WembleyRenderedBrowserTests(unittest.TestCase):
         self.assertEqual(self.timesheet_loads, ["102184"])
 
     def test_access_denial_and_login_text_stop_before_click(self):
+        from playwright.sync_api import BrowserType, Page
+        launch = BrowserType.launch
+        goto = Page.goto
+
         for html, reason in (("Access denied", "access_denied"), ("Verify you are human", "interactive_challenge"), ('<input type="password">', "login_required")):
             with self.subTest(reason=reason):
                 self.calendar_prefix = html
-                result = self.collect()
-                self.assertEqual(result, browser._result(reason))
+                stages = []
+                requests_before = len(self.requests)
+
+                def observed_launch(instance, **kwargs):
+                    stages.append("browser_launch")
+                    launched = launch(instance, **kwargs)
+                    stages.append("browser_started")
+                    return launched
+
+                def observed_goto(instance, *args, **kwargs):
+                    stages.append("calendar_navigation")
+                    response = goto(instance, *args, **kwargs)
+                    stages.append("calendar_loaded")
+                    return response
+
+                with patch.object(BrowserType, "launch", observed_launch), patch.object(Page, "goto", observed_goto):
+                    result = self.collect()
+                # Fixed stages and counts only: never print browser exceptions,
+                # navigated URLs, page text, or any CAPTCHA-bearing parameter.
+                diagnostic = f"stages={stages}; fixture_requests={len(self.requests) - requests_before}"
+                self.assertEqual(result, browser._result(reason), diagnostic)
         self.assertEqual(self.timesheet_loads, [])
+
+    def test_cold_start_uses_total_budget_and_leaves_navigation_bounded(self):
+        from playwright.sync_api import BrowserType, Page, TimeoutError as BrowserTimeout
+        launch = BrowserType.launch
+        goto = Page.goto
+        self.calendar_prefix = "Access denied"
+        for startup_seconds in (20, 40):
+            with self.subTest(startup_seconds=startup_seconds):
+                clock = SimpleNamespace(now=100.0)
+                launches = []
+                navigations = []
+
+                def cold_launch(instance, **kwargs):
+                    launches.append(kwargs["timeout"])
+                    if kwargs["timeout"] < startup_seconds * 1000:
+                        raise BrowserTimeout("simulated cold-start timeout")
+                    clock.now += startup_seconds
+                    return launch(instance, **kwargs)
+
+                def bounded_goto(instance, *args, **kwargs):
+                    navigations.append(kwargs["timeout"])
+                    return goto(instance, *args, **kwargs)
+
+                # Simulate startup duration without sleeping or changing the
+                # real Playwright event-loop clock. Normal Chromium still
+                # navigates to the locally routed fixture and reads the guard.
+                with patch.object(browser, "time", SimpleNamespace(monotonic=lambda: clock.now)), patch.object(BrowserType, "launch", cold_launch), patch.object(Page, "goto", bounded_goto):
+                    result = self.collect(("102184",))
+                self.assertEqual(result, browser._result("access_denied"))
+                self.assertEqual(launches, [45000])
+                self.assertEqual(navigations, [min(15, 45 - startup_seconds) * 1000])
 
     def test_no_rows_is_complete_only_after_matching_timesheet_identity(self):
         self.empty_sheets.add("102184")
