@@ -5,7 +5,7 @@ import sys
 import tempfile
 import time
 import unittest
-from datetime import date
+from datetime import date, datetime, timezone
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
@@ -17,6 +17,14 @@ from scripts.refresh_cache_shard import load_weather_artifact
 
 class WeatherBudgetTests(unittest.TestCase):
     base_date = date(2026, 10, 4)
+
+    def forecast(self):
+        return {"2026-10-04": {
+            "label": "Clear", "icon": "Clear", "icon_file": "sheet_clear.png",
+            "tmin": 10, "tmax": 20, "rain_chance": 0, "rain_mm": 0,
+            "rain_amount_label": "0 mm", "wind": 10,
+            "fetched_at": datetime.now(timezone.utc).isoformat(), "reused": False,
+        }}
 
     def setUp(self):
         self.temporary = tempfile.TemporaryDirectory()
@@ -42,7 +50,7 @@ class WeatherBudgetTests(unittest.TestCase):
         self.assertIn("timed_out", self.output.with_suffix(".md").read_text())
 
     def test_timeout_preserves_completed_checkpoint_and_completes_missing_keys(self):
-        completed = {"a": {"2026-10-04": {"label": "Clear"}}}
+        completed = {"a": self.forecast()}
 
         def checkpoint_then_timeout(*args, **kwargs):
             weather.write_artifact(self.output, self.base_date, ["a"], completed)
@@ -94,7 +102,7 @@ class WeatherBudgetTests(unittest.TestCase):
     def test_successful_worker_reports_weather_availability(self):
         def complete(*args, **kwargs):
             weather.write_artifact(self.output, self.base_date, ["a", "b"],
-                                   {q: {"2026-10-04": {"label": "Clear"}} for q in ("a", "b")})
+                                   {q: self.forecast() for q in ("a", "b")})
         with patch.object(weather.subprocess, "run", side_effect=complete):
             payload = self.prepare()
         self.assertEqual(payload["preparation"]["status"], "complete")
