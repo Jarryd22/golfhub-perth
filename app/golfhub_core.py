@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import calendar as pycalendar
 import json
+import math
 import http.cookiejar
 import re
 import ssl
@@ -15,7 +16,7 @@ import urllib.request
 import webbrowser
 from collections import defaultdict
 from dataclasses import dataclass
-from datetime import datetime, timezone
+from datetime import date, datetime, timezone
 from html import unescape
 from pathlib import Path
 from time import sleep
@@ -1340,11 +1341,18 @@ def rain_amount_label(mm: float) -> str:
     return f"{mm:.1f} mm"
 
 
-def _weather_daily_value(daily: dict, key: str, index: int, default: float = 0) -> float:
-    values = daily.get(key) or []
-    if index >= len(values) or values[index] is None:
-        return default
-    return float(values[index])
+def _weather_daily_value(daily: dict, key: str, index: int) -> float | None:
+    """Keep absent/invalid measurements distinct from genuine numeric zero."""
+    values = daily.get(key)
+    if not isinstance(values, list) or index >= len(values):
+        return None
+    value = values[index]
+    if isinstance(value, bool) or not isinstance(value, (int, float)):
+        return None
+    try:
+        return float(value) if math.isfinite(value) else None
+    except OverflowError:
+        return None
 
 
 class WeatherRetryBudget:
@@ -1421,22 +1429,47 @@ def _fetch_weather_forecast(
             url = "https://api.open-meteo.com/v1/forecast?" + urllib.parse.urlencode(params)
             daily = _fetch_weather_json(url, retry_budget).get("daily", {})
             fetched_at = datetime.now(timezone.utc).isoformat(timespec="seconds")
-            for index, forecast_date in enumerate(daily.get("time") or []):
-                code = int(_weather_daily_value(daily, "weather_code", index))
-                icon, label = WEATHER_CODE_MAP.get(code, ("Weather", "Forecast"))
+            days = daily.get("time")
+            if not isinstance(days, list):
+                raise ValueError("Missing forecast dates")
+            skipped = 0
+            for index, forecast_date in enumerate(days):
+                try:
+                    valid_date = (isinstance(forecast_date, str)
+                                  and date.fromisoformat(forecast_date).isoformat() == forecast_date)
+                except ValueError:
+                    valid_date = False
+                code = _weather_daily_value(daily, "weather_code", index)
+                tmax = _weather_daily_value(daily, "temperature_2m_max", index)
+                tmin = _weather_daily_value(daily, "temperature_2m_min", index)
+                rain_chance = _weather_daily_value(daily, "precipitation_probability_max", index)
                 rain_mm = _weather_daily_value(daily, "precipitation_sum", index)
-                forecast[str(forecast_date)] = {
+                wind = _weather_daily_value(daily, "wind_speed_10m_max", index)
+                # Consumers require a complete day. Omit it before deriving a
+                # condition or rounding; lookup then returns None (JSON null).
+                # Continue so one incomplete day cannot hide later good days.
+                values = (code, tmax, tmin, rain_chance, rain_mm, wind)
+                if (not valid_date or any(value is None for value in values)
+                        or code not in WEATHER_CODE_MAP or not 0 <= rain_chance <= 100
+                        or rain_mm < 0 or wind < 0):
+                    skipped += 1
+                    continue
+                code = int(code)
+                icon, label = WEATHER_CODE_MAP[code]
+                forecast[forecast_date] = {
                     **({"fetched_at": fetched_at, "reused": False} if retry_budget is not None else {}),
                     "icon": icon,
                     "icon_file": weather_icon_filename_for_code(code),
                     "label": label,
-                    "tmax": round(_weather_daily_value(daily, "temperature_2m_max", index)),
-                    "tmin": round(_weather_daily_value(daily, "temperature_2m_min", index)),
-                    "rain_chance": round(_weather_daily_value(daily, "precipitation_probability_max", index)),
+                    "tmax": round(tmax),
+                    "tmin": round(tmin),
+                    "rain_chance": round(rain_chance),
                     "rain_mm": round(rain_mm, 1),
                     "rain_amount_label": rain_amount_label(rain_mm),
-                    "wind": round(_weather_daily_value(daily, "wind_speed_10m_max", index)),
+                    "wind": round(wind),
                 }
+            if skipped:
+                logging.warning("Weather forecast omitted %d incomplete/invalid days for %s", skipped, query)
     except Exception as exc:
         logging.warning("Weather forecast unavailable for %s: %s", query, exc)
     finally:
