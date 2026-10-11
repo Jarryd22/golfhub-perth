@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-10T00:59:21.473525+00:00",
+  "generated_at": "2026-10-11T00:16:15.442419+00:00",
   "items": [
+    {
+      "id": "09eb1d475e879b65c8f7",
+      "course_id": "hartfield",
+      "title": "Hartfield Country Club AGM 2026",
+      "summary": "The Annual General Meeting was held at the Clubhouse on Thursday, October 8th. Thank",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/hartfield-country-club-agm-2026/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/AGM-Results.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/AGM-Results.png"
+      ],
+      "published_at": "2026-10-10T08:48:08+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "6eb6f8de57a491fe57f6",
+      "course_id": "gosnells-golf-club",
+      "title": "2026 Lee Sexton Memorial Trophy",
+      "summary": "2026 LEE SEXTON MEMORIAL TROPHY What a fantastic day at Gosnells Golf Club today",
+      "url": "https://www.gosnellsgc.com.au/cms/2026/10/2026-lee-sexton-memorial-trophy/",
+      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Congratulations-Wayne-on-taking-out-the-2026-Lee-Sexton-Memorial-Trophy-held-at-Gosnells-Golf-Club-today-10-October-2026.-1.png",
+      "images": [
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Congratulations-Wayne-on-taking-out-the-2026-Lee-Sexton-Memorial-Trophy-held-at-Gosnells-Golf-Club-today-10-October-2026.-1.png"
+      ],
+      "published_at": "2026-10-10T08:19:21+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "167011aa8b78a922fd4a",
+      "course_id": "mosman-park",
+      "title": "Annual Course Maintenance",
+      "summary": "This week has seen our annual maintenance, both on the course and in and",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/annual-course-maintenance/",
+      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/coring-2.jpg",
+      "images": [
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/coring-2.jpg",
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/coring-1.jpg",
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Deck-1.jpg",
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Deck-2.jpg"
+      ],
+      "published_at": "2026-10-10T03:53:04+00:00",
+      "category": "Course works"
+    },
     {
       "id": "0f1874f4356cf61df741",
       "course_id": "hartfield",
@@ -51,8 +93,8 @@
     {
       "id": "dd12df1c60ab295e797f",
       "course_id": "pinjarra",
-      "title": "2026 Womens 4BBB & Amateur – Field Draw",
-      "summary": "Welcome to the 2026 Womens 4BBB & Amateur.We hope for amazing weather and some",
+      "title": "**UPDATED**2026 Womens Amateur – Field Draw",
+      "summary": "Welcome to the 2026 Womens Amateur.We hope for amazing weather and some fantastic golf.",
       "url": "https://www.pinjarragolf.com.au/cms/2026/10/2026-womens-4bbb-amateur-draws/",
       "image": null,
       "images": [],
@@ -135,17 +177,6 @@
       "category": "Course news"
     },
     {
-      "id": "01a2fbce64dc71dbafe5",
-      "course_id": "mosman-park",
-      "title": "Course Maintenance Week & Volunteer Call Out",
-      "summary": "The course will be closed from 3pm on Sunday October 4 until Saturday October",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/course-maintenance-week-volunteer-call-out/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-02T01:14:52+00:00",
-      "category": "Course works"
-    },
-    {
       "id": "de61b33cef58044b89ca",
       "course_id": "rockingham",
       "title": "Men’s Club Championships 2026",
@@ -187,19 +218,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-01T03:19:37+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "d532a3bd9c5c97e6bf59",
-      "course_id": "hartfield",
-      "title": "Junior Order of Merit Rd 9 Leaderboard",
-      "summary": "Round 9 of 11 of the Junior Order of Merit was played last Sunday.",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/junior-order-of-merit-rd-5-leaderboard/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/09/Junior-OOM-Rd9.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/09/Junior-OOM-Rd9.png"
-      ],
-      "published_at": "2026-10-01T00:35:00+00:00",
       "category": "Course news"
     },
     {
@@ -456,17 +474,6 @@
         "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/08/course_works_update-1.png"
       ],
       "published_at": "2026-08-19T15:26:47+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "90286ade96b96aef8fe3",
-      "course_id": "gosnells-golf-club",
-      "title": "Exciting News!",
-      "summary": "A SPECIAL ANNOUNCEMENT FOR MEMBERS HOME OF CHAMPIONS, ONCE AGAIN UniSport Nationals Comes to",
-      "url": "https://www.gosnellsgc.com.au/cms/2026/08/exciting-news/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-08-18T02:59:37+00:00",
       "category": "Course news"
     },
     {
