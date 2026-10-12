@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-11T00:16:15.442419+00:00",
+  "generated_at": "2026-10-12T00:37:40.775648+00:00",
   "items": [
+    {
+      "id": "c2733455a9f17dd63d1a",
+      "course_id": "sun-city",
+      "title": "Hole in One Alert!",
+      "summary": "Congratulations to Bob Jones, the perfect shot. Hole in One on the 14th hole",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/hole-in-one-alert-2/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-11T12:26:16+00:00",
+      "category": "Course news"
+    },
     {
       "id": "09eb1d475e879b65c8f7",
       "course_id": "hartfield",
@@ -208,17 +219,6 @@
       "images": [],
       "published_at": "2026-10-01T05:12:42+00:00",
       "category": "Events"
-    },
-    {
-      "id": "7c4f484a0c619fbe9836",
-      "course_id": "sun-city",
-      "title": "Gala Dinner – Cancelled",
-      "summary": "Dear Members, Unfortunately, due to lower than anticipated bookings, the Gala Dinner scheduled for",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/gala-dinner-cancelled/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-01T03:19:37+00:00",
-      "category": "Course news"
     },
     {
       "id": "64c6876c2be845ef4f63",
@@ -563,7 +563,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
