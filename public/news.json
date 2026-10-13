@@ -1,7 +1,70 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-12T00:37:40.775648+00:00",
+  "generated_at": "2026-10-13T02:37:05.696891+00:00",
   "items": [
+    {
+      "id": "c833b37082776e1e9bac",
+      "course_id": "mosman-park",
+      "title": "Notice Calling for Committee Nominations",
+      "summary": "Nominations are hereby called for the appointment of Officers to the following positions of",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/notice-calling-for-committee-nominations/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-13T02:28:32+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "5e75181bff051539e9ad",
+      "course_id": "wembley",
+      "title": "Superintendent’s Update: Growing Into Spring",
+      "summary": "Spring is in full swing at Wembley Golf Course, with the grounds team hard",
+      "url": "https://www.wembleygolf.com.au/cms/2026/10/superintendents-update-growing-into-spring/",
+      "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/gk1-edited.png",
+      "images": [
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/gk1-edited.png",
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-121-WEB-ONLY.jpg",
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/gk-edited.png"
+      ],
+      "published_at": "2026-10-13T02:18:23+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "0bd6e8697836f9797c26",
+      "course_id": "sun-city",
+      "title": "Calling All Junior Golfers",
+      "summary": "Would you like to represent the club during the upcoming junior pennant season? Registration",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/calling-all-junior-golfers-2/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-13T00:56:23+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "358a9a5978ad653762e4",
+      "course_id": "rockingham",
+      "title": "Red Cross Charity Day – Results",
+      "summary": "Celebrating 50 Years of Friendship & Community! What a fantastic day celebrating 50 years",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/red-cross-charity-day-results/",
+      "image": "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/2026-2048x1473.jpg",
+      "images": [
+        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/2026-2048x1473.jpg",
+        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/2026-1-2048x1184.jpg",
+        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/20261-2048x1447.jpg"
+      ],
+      "published_at": "2026-10-12T08:02:56+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "6b37ffcfd0b72f587d21",
+      "course_id": "pinjarra",
+      "title": "Special General Meeting – Monday 26th October",
+      "summary": "Please see the new constitution for Pinjarra Golf Club up for member vote at",
+      "url": "https://www.pinjarragolf.com.au/cms/2026/10/special-general-meeting-monday-26th-october/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-12T02:13:12+00:00",
+      "category": "Offers"
+    },
     {
       "id": "c2733455a9f17dd63d1a",
       "course_id": "sun-city",
@@ -166,17 +229,6 @@
       "category": "Course news"
     },
     {
-      "id": "61307a16dfbfbc5fc599",
-      "course_id": "sun-city",
-      "title": "Upcoming Course Renovation Works – Volunteers Wanted",
-      "summary": "As part of our ongoing commitment to improving course conditions, the Club will be",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/upcoming-course-renovation-works-volunteers-wanted/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-02T03:08:09+00:00",
-      "category": "Course works"
-    },
-    {
       "id": "92f702db4a7262e67069",
       "course_id": "mosman-park",
       "title": "Demo MGI Electric Buggies at the Pro Shop",
@@ -280,17 +332,6 @@
       "category": "Course news"
     },
     {
-      "id": "113bdeb215a08696432c",
-      "course_id": "rockingham",
-      "title": "Junior Tee-Off – Saturday 3rd October 2026",
-      "summary": "Junior Tee-Off in October! Ready to take your golfing onto the course? Join us",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/09/junior-tee-off-saturday-18th-july-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-23T04:01:27+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "e62408443896964ffb5d",
       "course_id": "nedlands-golf-club",
       "title": "Spring Cup 2026",
@@ -339,22 +380,6 @@
       ],
       "published_at": "2026-09-15T05:47:23+00:00",
       "category": "Course news"
-    },
-    {
-      "id": "fdce671c4b0865f5b9fd",
-      "course_id": "mosman-park",
-      "title": "2026 Club Championship Results",
-      "summary": "Saturday, 5th September saw the culmination of our Club Championships and the presentation of",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/09/2026-club-championship-results/",
-      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/09/B-Division-Winner-Kate-Foster-and-Runner-up-Sue-Monger-1-scaled.jpg",
-      "images": [
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/09/B-Division-Winner-Kate-Foster-and-Runner-up-Sue-Monger-1-scaled.jpg",
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/09/Champ-1-1.jpg",
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/09/Chidley-Medal-winner-and-B-Grade-Winner-1-scaled.jpg",
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/09/Eve-Broadley-congratulates-Jude-Casey-Ladies-Champion-1-scaled.jpg"
-      ],
-      "published_at": "2026-09-10T02:37:47+00:00",
-      "category": "Events"
     },
     {
       "id": "abca41586d310a0703f9",
@@ -430,37 +455,6 @@
         "https://collierparkgolf.com.au/wp-content/uploads/2026/09/Driving-Range-Hours-September-1-scaled.png"
       ],
       "published_at": "2026-09-02T04:03:23+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "8335f2b61f4388994a66",
-      "course_id": "wembley",
-      "title": "So, You Want to Play as a Pro Golfer?",
-      "summary": "So, you want to play as a pro golfer? Learn how golfers qualify for",
-      "url": "https://www.wembleygolf.com.au/cms/2026/08/so-you-want-to-play-as-a-pro-golfer/",
-      "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/08/m-long-sept-26.png",
-      "images": [
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/08/m-long-sept-26.png",
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/08/m-long-sept-26-2.jpg",
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/08/m-long-sept-26-3.jpg",
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/08/m-long-sept-26-4.jpg"
-      ],
-      "published_at": "2026-08-26T08:30:00+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "26686f24b0e8162d488f",
-      "course_id": "pinjarra",
-      "title": "Congratulations to our 2026 Club Champion Hayley Rasmussen",
-      "summary": "See below for full results from our 2026 Women’s Championship Winners. Congratulations to all",
-      "url": "https://www.pinjarragolf.com.au/cms/2026/08/congratulations-to-our-2026-club-champion-hayley-rasmussen/",
-      "image": "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/Hayley-1.jpg",
-      "images": [
-        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/Hayley-1.jpg",
-        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/40ad99ec-77fc-47e3-acde-fe9561b68376.jpg",
-        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/1a0b77b1-26f8-4e72-99fd-875ffcac737a-1.jpg"
-      ],
-      "published_at": "2026-08-22T04:44:31+00:00",
       "category": "Course news"
     },
     {
