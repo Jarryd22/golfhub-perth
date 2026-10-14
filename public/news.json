@@ -1,7 +1,70 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T00:22:49.166399+00:00",
+  "generated_at": "2026-10-14T23:58:11.663689+00:00",
   "items": [
+    {
+      "id": "225ea62a1c296fddd49a",
+      "course_id": "rockingham",
+      "title": "Mazda Zoom Zoom Challenge",
+      "summary": "The annual Mazda challenge versus Melville Glades will be held on Wednesday 28 October.",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/mazda-zoom-zoom-challenge/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-14T07:24:11+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "95f937b9958fecbca245",
+      "course_id": "rockingham",
+      "title": "Junior Tee-Off – Saturday 24th October 2026",
+      "summary": "Junior Tee-Off in October! Ready to take your golfing onto the course? Join us",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/junior-tee-off-saturday-18th-july-2026/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-14T03:45:27+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "9a74974a08a764b48880",
+      "course_id": "hartfield",
+      "title": "Women’s Choice Winners Jeanette and John!",
+      "summary": "With a field of 24 players, Jeanette Champion and John Coyne came in as",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/womens-choice-winners/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-14T03:18:40+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "c5af08bdbac63abe10d3",
+      "course_id": "gosnells-golf-club",
+      "title": "Big Day Out 2026 Gallery",
+      "summary": "The post Big Day Out 2026 Gallery appeared first on Gosnells Golf Club .",
+      "url": "https://www.gosnellsgc.com.au/cms/2026/10/big-day-out-photos/",
+      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00019-370x240.jpg",
+      "images": [
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00019-370x240.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00100-370x240.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00269-370x240.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00341-370x240.jpg"
+      ],
+      "published_at": "2026-10-14T02:40:06+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "032e3cf745059179ec12",
+      "course_id": "wembley",
+      "title": "Wembley Women: Practice with Purpose",
+      "summary": "Learn how to make the most of your golf practice with Claire from Wembley",
+      "url": "https://www.wembleygolf.com.au/cms/2026/10/wembley-women-practice-with-purpose/",
+      "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-784-WEB-ONLY.jpg",
+      "images": [
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-784-WEB-ONLY.jpg",
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-769-WEB-ONLY.jpg"
+      ],
+      "published_at": "2026-10-14T01:55:29+00:00",
+      "category": "Course news"
+    },
     {
       "id": "ba96445f716485f09508",
       "course_id": "gosnells-golf-club",
@@ -249,17 +312,6 @@
       "category": "Course news"
     },
     {
-      "id": "0abe3a3a8f0df118dbb7",
-      "course_id": "hartfield",
-      "title": "House Director Nomination – Mike Friend",
-      "summary": "The post House Director Nomination – Mike Friend appeared first on Hartfield Country Club",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/house-director-application-mike-friend/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-06T07:43:30+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "98ec516b6674ae93305a",
       "course_id": "nedlands-golf-club",
       "title": "2026 DALKEITH CUP CHAMPIONS KRYSTYNA KNOTTNERUS and TONY COWAN",
@@ -324,17 +376,6 @@
       "category": "Events"
     },
     {
-      "id": "e19de03b7eee42d4ad19",
-      "course_id": "rockingham",
-      "title": "Ladies Championships 2026 Results",
-      "summary": "The 2026 Rockingham Golf Club Ladies Championships showcased excellent golf across all grades, with",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/ladies-championships-2026-results/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-01T05:12:42+00:00",
-      "category": "Events"
-    },
-    {
       "id": "64c6876c2be845ef4f63",
       "course_id": "nedlands-golf-club",
       "title": "Oktoberfest",
@@ -356,19 +397,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-28T06:41:59+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "0730960ce91c0ce5971f",
-      "course_id": "rockingham",
-      "title": "Junior School Holiday Camp",
-      "summary": "Junior Golf Holiday Program Looking for a fun and active way to keep the",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/09/junior-school-holiday-camp/",
-      "image": "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/09/Junior-program.png",
-      "images": [
-        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/09/Junior-program.png"
-      ],
-      "published_at": "2026-09-25T06:27:42+00:00",
       "category": "Course news"
     },
     {
@@ -444,31 +472,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-08T02:28:17+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "bc87309d7c76e5848e9e",
-      "course_id": "wembley",
-      "title": "Upcoming Perron Golf Events for Telethon",
-      "summary": "The Perron Institute Hole in One Day for $500k is back at Wembley Golf",
-      "url": "https://www.wembleygolf.com.au/cms/2026/09/upcoming-perron-golf-events-for-telethon/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-07T08:00:00+00:00",
-      "category": "Events"
-    },
-    {
-      "id": "2b0ccea5d22834e9a43d",
-      "course_id": "gosnells-golf-club",
-      "title": "Women’s Senior Pennant",
-      "summary": "17 August 2026 A Strong Finish at Royal Fremantle Our Women’s Senior Pennant team",
-      "url": "https://www.gosnellsgc.com.au/cms/2026/09/21792/",
-      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/16037-scaled.jpg",
-      "images": [
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/16037-scaled.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/16041-scaled.jpeg"
-      ],
-      "published_at": "2026-09-07T00:31:25+00:00",
       "category": "Course news"
     },
     {
