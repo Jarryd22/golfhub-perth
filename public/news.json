@@ -1,7 +1,42 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-14T23:58:11.663689+00:00",
+  "generated_at": "2026-10-15T23:42:51.652759+00:00",
   "items": [
+    {
+      "id": "d69c06be4287d3be431b",
+      "course_id": "collier-park",
+      "title": "Take The Next Step: Upcoming Sessions",
+      "summary": "Following a really successful reintroduction of the Take the Next Step program with Emma",
+      "url": "https://collierparkgolf.com.au/take-the-next-step-eoy-sessions/",
+      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/06/85730f82-0bc6-428f-bd34-aa3f9337dd5a.jpg",
+      "images": [
+        "https://collierparkgolf.com.au/wp-content/uploads/2026/06/85730f82-0bc6-428f-bd34-aa3f9337dd5a.jpg"
+      ],
+      "published_at": "2026-10-15T06:08:52+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "5ac61bca245ddbe8c17e",
+      "course_id": "wembley",
+      "title": "Get Spooky at WGC for Halloween!",
+      "summary": "Enjoy a spooky night of Halloween Mini Golf at Wembley Golf Course on 31",
+      "url": "https://www.wembleygolf.com.au/cms/2026/10/get-spooky-at-wgc-for-halloween/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-15T05:36:56+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "beed0211f60615abb3f0",
+      "course_id": "wembley",
+      "title": "November NTP Challenge",
+      "summary": "Visit the driving range at Wembley Golf Course during November to enter the NTP",
+      "url": "https://www.wembleygolf.com.au/cms/2026/10/november-ntp-challenge/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-15T02:00:00+00:00",
+      "category": "Course news"
+    },
     {
       "id": "225ea62a1c296fddd49a",
       "course_id": "rockingham",
@@ -11,17 +46,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-14T07:24:11+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "95f937b9958fecbca245",
-      "course_id": "rockingham",
-      "title": "Junior Tee-Off – Saturday 24th October 2026",
-      "summary": "Junior Tee-Off in October! Ready to take your golfing onto the course? Join us",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/junior-tee-off-saturday-18th-july-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-14T03:45:27+00:00",
       "category": "Course news"
     },
     {
@@ -158,21 +182,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-13T02:28:32+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "5e75181bff051539e9ad",
-      "course_id": "wembley",
-      "title": "Superintendent’s Update: Growing Into Spring",
-      "summary": "Spring is in full swing at Wembley Golf Course, with the grounds team hard",
-      "url": "https://www.wembleygolf.com.au/cms/2026/10/superintendents-update-growing-into-spring/",
-      "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/gk1-edited.png",
-      "images": [
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/gk1-edited.png",
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-121-WEB-ONLY.jpg",
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/gk-edited.png"
-      ],
-      "published_at": "2026-10-13T02:18:23+00:00",
       "category": "Course news"
     },
     {
@@ -376,6 +385,17 @@
       "category": "Events"
     },
     {
+      "id": "e19de03b7eee42d4ad19",
+      "course_id": "rockingham",
+      "title": "Ladies Championships 2026 Results",
+      "summary": "The 2026 Rockingham Golf Club Ladies Championships showcased excellent golf across all grades, with",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/ladies-championships-2026-results/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-01T05:12:42+00:00",
+      "category": "Events"
+    },
+    {
       "id": "64c6876c2be845ef4f63",
       "course_id": "nedlands-golf-club",
       "title": "Oktoberfest",
@@ -397,17 +417,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-28T06:41:59+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "3dd2e89cb782ff34f05b",
-      "course_id": "wembley",
-      "title": "Wembley Women: Your Golf Journey Starts Here",
-      "summary": "Start your golf journey with confidence at Wembley Golf Course. Learn the basics with",
-      "url": "https://www.wembleygolf.com.au/cms/2026/09/wembley-women-your-golf-journey-starts-here/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-25T04:11:03+00:00",
       "category": "Course news"
     },
     {
@@ -472,30 +481,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-08T02:28:17+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "4df7ec19c82ab985e181",
-      "course_id": "collier-park",
-      "title": "DRIVING RANGE HOURS | SEPTEMBER",
-      "summary": "September Driving Range Opening Hours The range stays open all month, but a couple",
-      "url": "https://collierparkgolf.com.au/driving-range-hours-september/",
-      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/09/Driving-Range-Hours-September-1-scaled.png",
-      "images": [
-        "https://collierparkgolf.com.au/wp-content/uploads/2026/09/Driving-Range-Hours-September-1-scaled.png"
-      ],
-      "published_at": "2026-09-02T04:03:23+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "edee5cc3ea5e02da0721",
-      "course_id": "links-kennedy-bay",
-      "title": "Fathers Day at Birdie (Includes Dads Zone)",
-      "summary": "Celebrate the special Father(s) in your life by booking lunch or dinner at Birdie",
-      "url": "https://linkskennedybay.com.au/fathers-day-at-birdie-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-07-17T01:32:14+00:00",
       "category": "Course news"
     }
   ],
@@ -574,7 +559,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
