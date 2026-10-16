@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-15T23:42:51.652759+00:00",
+  "generated_at": "2026-10-16T23:41:13.187780+00:00",
   "items": [
+    {
+      "id": "ec927deeaea75ae45354",
+      "course_id": "rockingham",
+      "title": "Junior Tee-Off Sunday – 1st November 2026",
+      "summary": "Dear Members, Our next Junior Tee-Off has been postponed to Sunday, 1 November 2026.",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/junior-tee-off-sunday-1st-november-2026/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-16T06:12:49+00:00",
+      "category": "Course news"
+    },
     {
       "id": "d69c06be4287d3be431b",
       "course_id": "collier-park",
@@ -65,12 +76,12 @@
       "title": "Big Day Out 2026 Gallery",
       "summary": "The post Big Day Out 2026 Gallery appeared first on Gosnells Golf Club .",
       "url": "https://www.gosnellsgc.com.au/cms/2026/10/big-day-out-photos/",
-      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00019-370x240.jpg",
+      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Conidale-2048x1365.jpg",
       "images": [
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00019-370x240.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00100-370x240.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00269-370x240.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/DSC00341-370x240.jpg"
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Conidale-2048x1365.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Adam-Walker-2048x1365.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Altitude-2048x1365.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Ettol-Engineered-2048x1365.jpg"
       ],
       "published_at": "2026-10-14T02:40:06+00:00",
       "category": "Course news"
@@ -385,17 +396,6 @@
       "category": "Events"
     },
     {
-      "id": "e19de03b7eee42d4ad19",
-      "course_id": "rockingham",
-      "title": "Ladies Championships 2026 Results",
-      "summary": "The 2026 Rockingham Golf Club Ladies Championships showcased excellent golf across all grades, with",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/ladies-championships-2026-results/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-01T05:12:42+00:00",
-      "category": "Events"
-    },
-    {
       "id": "64c6876c2be845ef4f63",
       "course_id": "nedlands-golf-club",
       "title": "Oktoberfest",
@@ -491,7 +491,7 @@
     },
     {
       "course_id": "araluen",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "boddington-golf-club",
@@ -559,7 +559,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
@@ -603,7 +603,7 @@
     },
     {
       "course_id": "sea-view",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "secret-harbour",
@@ -631,11 +631,11 @@
     },
     {
       "course_id": "wanneroo-golf-club",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "waroona-golf-club",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "wembley",
