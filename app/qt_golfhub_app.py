@@ -5,6 +5,8 @@ import sys
 import traceback
 import webbrowser
 from pathlib import Path
+from datetime import datetime, timezone
+from zoneinfo import ZoneInfo
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from typing import Any
 
@@ -59,6 +61,13 @@ from app.shared_cache import (
 
 APP_VERSION = "5.0"
 MAX_SEARCH_DAYS = 28
+
+
+def perth_today(now: datetime | None = None) -> QDate:
+    """Return the booking day in Perth, independent of the computer timezone."""
+    instant = now if now is not None else datetime.now(timezone.utc)
+    local = instant.astimezone(ZoneInfo("Australia/Perth"))
+    return QDate(local.year, local.month, local.day)
 
 
 def should_show_empty_course(result: dict[str, Any]) -> bool:
@@ -448,7 +457,7 @@ class MultiDatePopup(QFrame):
         root.addWidget(help_text)
 
         self.today_label = QLabel(
-            f"TODAY  â€¢  {QDate.currentDate().toString('dddd, d MMMM yyyy').upper()}"
+            f"TODAY  â€¢  {perth_today().toString('dddd, d MMMM yyyy').upper()}"
         )
         self.today_label.setObjectName("CalendarToday")
         root.addWidget(self.today_label)
@@ -567,7 +576,7 @@ class MultiDatePopup(QFrame):
             self.calendar.setDateTextFormat(value, empty)
             value = value.addDays(1)
 
-        today = QDate.currentDate()
+        today = perth_today()
         if self._minimum <= today <= self._maximum:
             current = QTextCharFormat()
             current.setBackground(QColor(PALETTE["surface3"]))
@@ -659,7 +668,7 @@ class MultiDateButton(QPushButton):
     def update_text(self):
         first = self._dates[0]
         if len(self._dates) == 1:
-            today = QDate.currentDate()
+            today = perth_today()
             if first == today:
                 prefix = "Today  â€¢  "
             elif first == today.addDays(1):
@@ -960,7 +969,7 @@ class GolfHub(QMainWindow):
         layout.setHorizontalSpacing(12)
         layout.setVerticalSpacing(10)
 
-        today = QDate.currentDate()
+        today = perth_today()
         self.date = MultiDateButton(
             today,
             today.addDays(27),
@@ -988,6 +997,8 @@ class GolfHub(QMainWindow):
 
         self.time_from = QComboBox()
         self.time_to = QComboBox()
+        self.time_from.setAccessibleName("Start time")
+        self.time_to.setAccessibleName("End time")
         for combo in (self.time_from, self.time_to):
             combo.setObjectName("Input")
             combo.addItem("Any")
@@ -1208,6 +1219,25 @@ class GolfHub(QMainWindow):
         if not sites:
             QMessageBox.information(self, "Choose a course", "Select at least one course for this round type.")
             return None
+        start_time = parse_user_time(self.time_from.currentText())
+        end_time = parse_user_time(self.time_to.currentText())
+        if start_time is not None and end_time is not None and start_time > end_time:
+            message = QMessageBox(self)
+            message.setWindowTitle("Check time range")
+            message.setText(
+                "The end time must be the same as or later than the start time. "
+                "Adjust your custom range and try again."
+            )
+            message.setStandardButtons(QMessageBox.Ok)
+            message.setStyleSheet(
+                "QMessageBox { background:#111111; color:#F6F6F6; }"
+                "QMessageBox QLabel { color:#F6F6F6; }"
+                "QMessageBox QPushButton { background:#F59E0B; color:#090909; "
+                "padding:8px 18px; border:0; border-radius:7px; font-weight:800; }"
+            )
+            message.exec()
+            self.time_to.setFocus()
+            return None
         players = None if self.players.currentText() == "Any" else int(self.players.currentText())
         date_strings = self.selected_dates()
         return {
@@ -1215,8 +1245,8 @@ class GolfHub(QMainWindow):
             "date": date_strings[0],
             "dates": date_strings,
             "holes": self.hole_type(),
-            "from": parse_user_time(self.time_from.currentText()),
-            "to": parse_user_time(self.time_to.currentText()),
+            "from": start_time,
+            "to": end_time,
             "players": players,
         }
 

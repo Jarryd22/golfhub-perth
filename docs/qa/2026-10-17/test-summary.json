@@ -1,0 +1,123 @@
+[
+  {
+    "module": "test_booking_assist.py",
+    "exit_code": 0,
+    "tests": 12,
+    "seconds": 0.2,
+    "failures": []
+  },
+  {
+    "module": "test_booking_assist_guards.py",
+    "exit_code": 0,
+    "tests": 3,
+    "seconds": 0.2,
+    "failures": []
+  },
+  {
+    "module": "test_booking_assist_optin.py",
+    "exit_code": 0,
+    "tests": 7,
+    "seconds": 0.2,
+    "failures": []
+  },
+  {
+    "module": "test_booking_dialog.py",
+    "exit_code": 0,
+    "tests": 9,
+    "seconds": 4.12,
+    "failures": [],
+    "environment": "Escalated local test; offscreen; workspace TEMP/TMP; Chromium sandbox unchanged"
+  },
+  {
+    "module": "test_booking_ui_integration.py",
+    "exit_code": 0,
+    "tests": 6,
+    "seconds": 0.77,
+    "failures": []
+  },
+  {
+    "module": "test_cache_pipeline.py",
+    "exit_code": 0,
+    "tests": 14,
+    "seconds": 1.27,
+    "failures": []
+  },
+  {
+    "module": "test_cache_refresh_status.py",
+    "exit_code": 0,
+    "tests": 11,
+    "seconds": 0.93,
+    "failures": []
+  },
+  {
+    "module": "test_cache_transient_retry.py",
+    "exit_code": 0,
+    "tests": 11,
+    "seconds": 0.47,
+    "failures": []
+  },
+  {
+    "module": "test_cache_weather_budget.py",
+    "exit_code": 0,
+    "tests": 7,
+    "seconds": 1.58,
+    "failures": []
+  },
+  {
+    "module": "test_collier_behavior.py",
+    "exit_code": 0,
+    "tests": 4,
+    "seconds": 0.69,
+    "failures": []
+  },
+  {
+    "module": "test_golfhub_v3.py",
+    "exit_code": 1,
+    "tests": 17,
+    "seconds": 0.77,
+    "failures": [
+      "failures=1"
+    ]
+  },
+  {
+    "module": "test_multiday_ui.py",
+    "exit_code": 0,
+    "tests": 12,
+    "seconds": 0.85,
+    "failures": []
+  },
+  {
+    "module": "test_perth_dates.py",
+    "exit_code": 0,
+    "tests": 6,
+    "seconds": 0.7,
+    "failures": []
+  },
+  {
+    "module": "test_search_race.py",
+    "exit_code": 0,
+    "tests": 4,
+    "seconds": 0.79,
+    "failures": []
+  },
+  {
+    "module": "test_time_range_ui.py",
+    "exit_code": 0,
+    "tests": 5,
+    "seconds": 0.87,
+    "failures": [],
+    "post_dialog_style_rerun": {
+      "exit_code": 0,
+      "tests": 5,
+      "seconds": 0.85,
+      "failures": []
+    }
+  },
+  {
+    "module": "test_v5_ui_requirements.py",
+    "exit_code": 0,
+    "tests": 5,
+    "seconds": 0.85,
+    "failures": []
+  }
+]

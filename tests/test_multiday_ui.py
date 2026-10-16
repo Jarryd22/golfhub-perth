@@ -18,6 +18,7 @@ from app.qt_golfhub_app import (
     MultiDatePopup,
     ResultCard,
     consecutive_date_strings,
+    perth_today,
 )
 
 
@@ -132,7 +133,7 @@ class MultiDayUITests(unittest.TestCase):
             popup.close()
 
     def test_date_control_opens_an_anchored_dropdown_and_marks_today(self):
-        today = QDate.currentDate()
+        today = perth_today()
         host = QWidget()
         layout = QVBoxLayout(host)
         button = MultiDateButton(today, today.addDays(27), [today.addDays(1)])

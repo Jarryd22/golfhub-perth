@@ -1,0 +1,54 @@
+# Golf Hub regression checklist
+
+Record the commit, app version, operating system, timezone, scale factor, device/window size, data source and test time. Mark each item **pass**, **fail**, **not run**, or **inspection only**. Do not equate a source-widget test with a packaged Windows or Android test.
+
+## Before each pass
+
+- Inspect active tasks, remote branches and draft PRs. Check dependencies before selecting work.
+- Preserve dirty checkouts; use a clean separate workspace. Read any repository and release instructions.
+- Identify whether the target is remote desktop source, a local candidate, installed Windows, or Android. Do not mix results from different versions.
+- Use isolated application/cache directories. Never complete a booking, make a temporary provider hold, send real notifications, change credentials, or publish as part of QA.
+
+## Desktop journeys
+
+| Journey | Checks and expected behavior |
+|---|---|
+| First launch | Clean state builds a usable window; no crash. Default day and 28-day bounds use Perth time. Saved data appears with truthful source/age. Cold offline startup has an actionable state. |
+| Dates | Today/tomorrow agree with Perth across UTC midnight and month/year boundaries. Single, nonconsecutive and 28-day selections persist; at least one date remains. Mouse and keyboard can select/apply dates. Live refresh is available only for one date. Test an app left open across Perth midnight separately. |
+| Course search | Case-insensitive course names filter the list. Confirm suburb behavior matches its label. Check individual selection, Select visible, Clear, selection count, and reopening the panel. |
+| Round | Switch 18→9→18. Available courses, requested cache key, card round labels and official URLs agree. Unsupported courses are excluded. |
+| Group/time | Any and 1–4 players respect available spaces. Presets and custom ranges filter correctly. Equal endpoints and open bounds work. Reversed ranges explain the error before a worker starts; controls/results remain intact and focus returns for correction. |
+| Results | Counts agree with visible rows; course names sort A–Z. Show all/first 12 retains rows. Multi-day groups expand lazily without mixing dates. Course and row links refer to the chosen date/round. |
+| Booking handoff | Intercept URL calls or use local fixtures for automated tests. Verify exact-row and official-calendar handoffs, unavailable links, ambiguous rows, cancellation, and release guards. Do not select live booking cells or submit any transaction. |
+| Weather | Complete, unavailable, partial and genuinely zero forecasts render honestly. Check cached-source age and expiry after integrating the relevant weather PRs. Never infer a valid forecast from a plausible-looking zero. |
+| Freshness | Distinguish publication time from each course's observation time. Stale fallback remains marked stale after republication. A selected-course live refresh preserves other saved courses. Failed refresh retains usable data with a warning. |
+| Empty/error/offline | Distinguish no matching times, provider error, unreleased calendar, missing date cache and network outage. Official links and recovery guidance remain usable. Check saved-cache offline and no-cache offline separately. |
+| Races/stop/close | Change dates, round and filters during startup/cache/live work. Only the submitted current search wins. Stop prevents queued work; close does not leave running Qt callbacks or threads. |
+| Layout | 980×640, 1280×800, 1600×1000, open course panel, many results, 100%/150%/200% display scale. No clipped primary actions; vertical scrolling reaches all content. Record logical vs physical dimensions. |
+| Accessibility | Accessible names for each field, course checkbox and repeated booking button; visible focus; keyboard-only date and course selection; sensible tab order; readable text/error contrast; screen-reader announcement of result/error changes. |
+
+## Android (separate versioned run)
+
+- On an isolated copy of the intended mobile baseline, run `flutter analyze` and the existing widget/unit suites; do not run tools that mutate the dirty source checkout.
+- Test clean startup, offline saved data, single/multi-date filters, 9/18 holes, group/time presets, booking handoff, returning from the browser, course details and maps.
+- Check keyboard-open course search, landscape, small screens, large text, TalkBack names, and Android tap-target guidelines.
+- Keep a map open past the freshness boundary and background/resume across Perth midnight.
+- Exercise notification logic with mocks only; do not send device test notifications or contact real users.
+
+## Repeatable source checks
+
+With the repository requirements installed, run each `tests/test_*.py` module in a fresh Python process (Qt/WebEngine state can persist within one process):
+
+```text
+python -m unittest discover -s tests -p test_perth_dates.py -v
+python -m unittest discover -s tests -p test_time_range_ui.py -v
+python -m unittest discover -s tests -p test_multiday_ui.py -v
+python -m unittest discover -s tests -p test_search_race.py -v
+python -m unittest discover -s tests -p test_cache*.py -v
+python scripts/qa_desktop_smoke.py --output <isolated-output-directory>
+git diff --check
+```
+
+Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at isolated writable test directories. Do not disable Chromium's sandbox to make tests pass. The smoke tool uses real Qt controls, synthetic data, intercepted browser calls, and no provider requests; its JSON explicitly records callback and accessibility findings. A successful process exit is not a clean product bill of health—read that report. Screenshots use application-loaded Segoe UI fonts on Windows because the offscreen plugin may not discover them automatically.
+
+Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes.

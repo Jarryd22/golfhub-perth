@@ -1,0 +1,141 @@
+{
+  "kind": "offscreen Qt widgets with synthetic data",
+  "checks": [
+    {
+      "name": "first launch",
+      "passed": true,
+      "courses": 41,
+      "default_dates": [
+        "2026-10-18"
+      ]
+    },
+    {
+      "name": "course name search",
+      "passed": true,
+      "visible_courses": [
+        "Araluen"
+      ]
+    },
+    {
+      "name": "cache search and course card",
+      "passed": true,
+      "displayed_times": 3,
+      "source": "synthetic shared cache"
+    },
+    {
+      "name": "booking handoff",
+      "passed": true,
+      "intercepted_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-18&feeGroupId=102807",
+      "actual_navigation": false
+    },
+    {
+      "name": "group and time filters",
+      "passed": true,
+      "minutes": [
+        600
+      ],
+      "spots": [
+        4
+      ]
+    },
+    {
+      "name": "9-hole search",
+      "passed": true,
+      "requested_round": "9"
+    },
+    {
+      "name": "nonconsecutive dates",
+      "passed": true,
+      "dates": [
+        "2026-10-17",
+        "2026-10-19"
+      ],
+      "live_disabled": true
+    },
+    {
+      "name": "offline without saved data",
+      "passed": true,
+      "status": "Multi-day cache temporarily unavailable"
+    },
+    {
+      "name": "offline with saved data",
+      "passed": true,
+      "status": "SAVED CACHE / LESS THAN A MINUTE AGO"
+    },
+    {
+      "name": "provider error and unavailable weather",
+      "passed": true,
+      "booking_button_available": true
+    },
+    {
+      "name": "empty filtered results",
+      "passed": true,
+      "recovery_copy_present": true
+    },
+    {
+      "name": "invalid time range",
+      "passed": true,
+      "message": "The end time must be the same as or later than the start time. Adjust your custom range and try again.",
+      "focus": "End time",
+      "no_search_started": true
+    },
+    {
+      "name": "corrected time range",
+      "passed": true,
+      "matching_times": 2
+    },
+    {
+      "name": "resize",
+      "passed": true,
+      "requested": [
+        980,
+        640
+      ],
+      "actual": [
+        980,
+        640
+      ]
+    },
+    {
+      "name": "resize",
+      "passed": true,
+      "requested": [
+        1280,
+        800
+      ],
+      "actual": [
+        1280,
+        800
+      ]
+    },
+    {
+      "name": "resize",
+      "passed": true,
+      "requested": [
+        1600,
+        1000
+      ],
+      "actual": [
+        1600,
+        1000
+      ]
+    }
+  ],
+  "accessibility": {
+    "start_time": "Start time",
+    "end_time": "End time",
+    "players": "",
+    "course_checkbox": ""
+  },
+  "limitations": [
+    "No native desktop driver, screen reader, installer, or Android test.",
+    "Provider/cache/weather data mocked; no live availability claim."
+  ],
+  "callback_errors": {
+    "count": 42,
+    "distinct": [
+      "TypeError: toggled() only accepts 0 argument(s), 1 given!\n"
+    ]
+  },
+  "status": "completed_with_known_findings"
+}
