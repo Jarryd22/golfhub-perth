@@ -8,6 +8,7 @@ os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
 from PySide6.QtCore import QDate, Qt
 from PySide6.QtTest import QTest
 from PySide6.QtWidgets import QApplication, QLabel, QTableView, QVBoxLayout, QWidget
+from tests.qt_test_support import cleanup_qt_widgets
 
 from app.qt_golfhub_app import (
     CacheWorker,
@@ -26,6 +27,10 @@ class MultiDayUITests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.app = QApplication.instance() or QApplication([])
+
+    @classmethod
+    def tearDownClass(cls):
+        cleanup_qt_widgets()
 
     def make_window(self):
         with patch.object(GolfHub, "show_initial_cache"):

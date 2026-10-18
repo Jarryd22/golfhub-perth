@@ -9,6 +9,7 @@ from PySide6.QtCore import QDate
 from PySide6.QtWidgets import QApplication, QLabel
 
 from app.qt_golfhub_app import DaySection, GolfHub, ResultCard, TeeTimeCard
+from tests.qt_test_support import cleanup_qt_widgets
 
 
 class _SignalHarness:
@@ -77,6 +78,10 @@ class SearchRaceRegressionTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.app = QApplication.instance() or QApplication([])
+
+    @classmethod
+    def tearDownClass(cls):
+        cleanup_qt_widgets()
 
     def make_window(self):
         with patch.object(GolfHub, "show_initial_cache"):

@@ -8,12 +8,17 @@ from PySide6.QtGui import QAccessible
 from PySide6.QtWidgets import QApplication, QMessageBox
 
 from app.qt_golfhub_app import GolfHub
+from tests.qt_test_support import cleanup_qt_widgets
 
 
 class TimeRangeUITests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.app = QApplication.instance() or QApplication([])
+
+    @classmethod
+    def tearDownClass(cls):
+        cleanup_qt_widgets()
 
     def setUp(self):
         with patch.object(GolfHub, "show_initial_cache"):

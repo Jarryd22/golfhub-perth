@@ -12,6 +12,7 @@ on:
       - "tests/test_perth_dates.py"
       - "tests/test_time_range_ui.py"
       - "tests/test_search_race.py"
+      - "tests/qt_test_support.py"
   push:
     branches: [main, "fix/desktop-*"]
     paths:
@@ -24,6 +25,7 @@ on:
       - "tests/test_perth_dates.py"
       - "tests/test_time_range_ui.py"
       - "tests/test_search_race.py"
+      - "tests/qt_test_support.py"
 
 permissions:
   contents: read

@@ -11,12 +11,17 @@ from PySide6.QtTest import QTest
 from PySide6.QtWidgets import QApplication, QTableView, QVBoxLayout, QWidget
 
 from app.qt_golfhub_app import MultiDateButton, MultiDatePopup
+from tests.qt_test_support import cleanup_qt_widgets
 
 
 class CalendarKeyboardTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.app = QApplication.instance() or QApplication([])
+
+    @classmethod
+    def tearDownClass(cls):
+        cleanup_qt_widgets()
 
     def setUp(self):
         self.minimum = QDate(2026, 7, 15)

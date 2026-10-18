@@ -10,6 +10,7 @@ from PySide6.QtCore import QDate
 from PySide6.QtWidgets import QApplication
 
 from app import qt_golfhub_app as ui
+from tests.qt_test_support import cleanup_qt_widgets
 
 
 class PerthDateTests(unittest.TestCase):
@@ -46,6 +47,10 @@ class PerthDateWidgetTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.app = QApplication.instance() or QApplication([])
+
+    @classmethod
+    def tearDownClass(cls):
+        cleanup_qt_widgets()
 
     def test_startup_window_and_default_selection_use_perth_day(self):
         today = QDate(2032, 12, 31)
