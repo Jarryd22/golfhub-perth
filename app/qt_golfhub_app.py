@@ -385,12 +385,18 @@ class ResponsiveCardGrid(QWidget):
 class MonthOnlyCalendar(QCalendarWidget):
     """Calendar month grid that never exposes adjacent-month date cells."""
 
+    keyboardDateActivated = Signal(QDate)
+
     def __init__(self, parent=None):
         super().__init__(parent)
         self.setFirstDayOfWeek(Qt.DayOfWeek.Monday)
         self.setVerticalHeaderFormat(QCalendarWidget.VerticalHeaderFormat.NoVerticalHeader)
+        # Native numeric date editing confirms asynchronously, which can move
+        # the cursor after Enter toggles a different date in this multi-picker.
+        self.setDateEditEnabled(False)
         self._calendar_view = self.findChild(QTableView, "qt_calendar_calendarview")
         if self._calendar_view is not None:
+            self._calendar_view.installEventFilter(self)
             self._calendar_view.viewport().installEventFilter(self)
 
     def is_displayed_month_date(self, value):
@@ -407,15 +413,26 @@ class MonthOnlyCalendar(QCalendarWidget):
         return grid_start.addDays((index.row() - 1) * 7 + index.column())
 
     def eventFilter(self, watched, event):
+        # The calendar's focused table consumes activation keys before a
+        # QCalendarWidget.keyPressEvent override can see them. Keep keyboard
+        # activation separate from activated(), which also fires on double-click.
         if (
-            self._calendar_view is not None
-            and watched is self._calendar_view.viewport()
-            and event.type()
+            event.type() == QEvent.Type.KeyPress
+            and watched is self._calendar_view
+            and event.key() in (Qt.Key_Return, Qt.Key_Enter, Qt.Key_Space)
+        ):
+            if not event.isAutoRepeat():
+                self.keyboardDateActivated.emit(self.selectedDate())
+            return True
+        if (
+            event.type()
             in (
                 QEvent.Type.MouseButtonPress,
                 QEvent.Type.MouseButtonRelease,
                 QEvent.Type.MouseButtonDblClick,
             )
+            and self._calendar_view is not None
+            and watched is self._calendar_view.viewport()
         ):
             value = self._date_at_view_position(event.position().toPoint())
             if value is not None and not self.is_displayed_month_date(value):
@@ -451,7 +468,10 @@ class MultiDatePopup(QFrame):
         title = QLabel("Choose one or more dates")
         title.setObjectName("CalendarTitle")
         root.addWidget(title)
-        help_text = QLabel("Select any dates you want to compare. They do not need to be consecutive.")
+        help_text = QLabel(
+            "Select any dates you want to compare. They do not need to be consecutive. "
+            "Use arrow keys to move, then Enter or Space to select or remove a date."
+        )
         help_text.setObjectName("CalendarHelp")
         help_text.setWordWrap(True)
         root.addWidget(help_text)
@@ -481,6 +501,11 @@ class MultiDatePopup(QFrame):
         root.addLayout(month_navigation)
 
         self.calendar = MonthOnlyCalendar()
+        self.calendar.setAccessibleName("Booking dates")
+        self.calendar.setAccessibleDescription(
+            "Use arrow keys to move and Enter or Space to select or remove a date. "
+            "Tab to Use selected dates to apply, or press Escape to cancel."
+        )
         self.calendar.setGridVisible(False)
         self.calendar.setNavigationBarVisible(False)
         self.calendar.setMinimumDate(minimum)
@@ -490,6 +515,7 @@ class MultiDatePopup(QFrame):
             self.calendar.setSelectedDate(min(self._selected))
         self.calendar.setHorizontalHeaderFormat(QCalendarWidget.HorizontalHeaderFormat.ShortDayNames)
         self.calendar.clicked.connect(self.toggle_date)
+        self.calendar.keyboardDateActivated.connect(self.toggle_date)
         self.calendar.currentPageChanged.connect(self.update_month_header)
         self.previous_month_button.clicked.connect(self.calendar.showPreviousMonth)
         self.next_month_button.clicked.connect(self.calendar.showNextMonth)

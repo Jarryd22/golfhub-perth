@@ -7,6 +7,7 @@ Record the commit, app version, operating system, timezone, scale factor, device
 - Inspect active tasks, remote branches and draft PRs. Check dependencies before selecting work.
 - Preserve dirty checkouts; use a clean separate workspace. Read any repository and release instructions.
 - Identify whether the target is remote desktop source, a local candidate, installed Windows, or Android. Do not mix results from different versions.
+- Inspect both update repositories, signed manifests and version provenance; distinguish metadata validation from an installed-client upgrade.
 - Use isolated application/cache directories. Never complete a booking, make a temporary provider hold, send real notifications, change credentials, or publish as part of QA.
 
 ## Desktop journeys
@@ -41,6 +42,7 @@ With the repository requirements installed, run each `tests/test_*.py` module in
 
 ```text
 python -m unittest discover -s tests -p test_perth_dates.py -v
+python -m unittest discover -s tests -p test_calendar_keyboard.py -v
 python -m unittest discover -s tests -p test_time_range_ui.py -v
 python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
@@ -52,3 +54,9 @@ git diff --check
 Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at isolated writable test directories. Do not disable Chromium's sandbox to make tests pass. The smoke tool uses real Qt controls, synthetic data, intercepted browser calls, and no provider requests; its JSON explicitly records callback and accessibility findings. A successful process exit is not a clean product bill of health—read that report. Screenshots use application-loaded Segoe UI fonts on Windows because the offscreen plugin may not discover them automatically.
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes.
+
+## Latest pass: 18 October 2026
+
+See [today's report](qa/2026-10-18/REPORT.md). Keyboard date selection now passes source-widget regressions on the branch stacked on #9. Deliver events to the actual focused calendar table, not directly to its parent. Check arrows without selecting, Return/Enter/Space toggles, held keys, numeric typing, month/bounds changes, at-least-one selection, Tab/Space apply, Escape cancel and click/double-click behavior. This picker uses arrow navigation, with native numeric date editing disabled.
+
+Test-only Windows CI now runs 35 focused Qt tests; cache CI remains separate. Qt test fixtures must destroy hidden top-level widgets and drain deferred deletion before interpreter shutdown; closing a window alone does not release it. Record final-head runs rather than assuming a previous green run covers a new commit. Native screen-reader, scaling and installed Windows/Android validation remain not run. Alert tests on copied local-only source must remain separate from remote-branch counts; block networking and mock delivery.

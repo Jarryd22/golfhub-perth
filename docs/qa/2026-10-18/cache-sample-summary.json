@@ -1,0 +1,273 @@
+{
+  "captured_at": "2026-10-18T00:53:19Z",
+  "scope": "Three read-only snapshot samples; no claim of full 56-snapshot or live-provider validation",
+  "index": {
+    "schema": 1,
+    "generated_at": "2026-10-18T00:48:10+00:00",
+    "range_days": 28,
+    "refresh_minutes": 10,
+    "dates": [
+      {
+        "date": "2026-10-18",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-19",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-20",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-21",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-22",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-23",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-24",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-25",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-26",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-27",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-28",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-29",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-30",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-10-31",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-01",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-02",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-03",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-04",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-05",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-06",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-07",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-08",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-09",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-10",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-11",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-12",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-13",
+        "holes": [
+          "18",
+          "9"
+        ]
+      },
+      {
+        "date": "2026-11-14",
+        "holes": [
+          "18",
+          "9"
+        ]
+      }
+    ]
+  },
+  "samples": [
+    {
+      "path": "2026-10-18/18.json",
+      "generated_at": "2026-10-18T00:46:07+00:00",
+      "date": "2026-10-18",
+      "holes": "18",
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 19,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "results_count": 37,
+      "weather_count": 37,
+      "total_rows": 61,
+      "results": {
+        "entry_count": 37,
+        "details_retained_in_local_audit": true
+      }
+    },
+    {
+      "path": "2026-10-18/9.json",
+      "generated_at": "2026-10-18T00:46:11+00:00",
+      "date": "2026-10-18",
+      "holes": "9",
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 19,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "results_count": 37,
+      "weather_count": 37,
+      "total_rows": 172,
+      "results": {
+        "entry_count": 37,
+        "details_retained_in_local_audit": true
+      }
+    },
+    {
+      "path": "2026-11-02/18.json",
+      "generated_at": "2026-10-18T00:46:27+00:00",
+      "date": "2026-11-02",
+      "holes": "18",
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "results_count": 37,
+      "weather_count": 37,
+      "total_rows": 206,
+      "results": {
+        "entry_count": 37,
+        "details_retained_in_local_audit": true
+      }
+    }
+  ]
+}

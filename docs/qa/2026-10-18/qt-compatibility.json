@@ -1,0 +1,138 @@
+{
+  "py312-qt612": [
+    {
+      "suite": "test_calendar_keyboard.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 2.2
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.83
+    },
+    {
+      "suite": "test_perth_dates.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.692
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.792
+    },
+    {
+      "suite": "test_search_race.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.762
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "repeat-1",
+      "exit_code": 0,
+      "seconds": 0.816
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "repeat-1",
+      "exit_code": 0,
+      "seconds": 0.792
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "repeat-2",
+      "exit_code": 0,
+      "seconds": 0.814
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "repeat-2",
+      "exit_code": 0,
+      "seconds": 0.836
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "repeat-3",
+      "exit_code": 0,
+      "seconds": 0.848
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "repeat-3",
+      "exit_code": 0,
+      "seconds": 0.806
+    }
+  ],
+  "py314-qt611": [
+    {
+      "suite": "test_calendar_keyboard.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 2.261
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.87
+    },
+    {
+      "suite": "test_perth_dates.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.734
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.826
+    },
+    {
+      "suite": "test_search_race.py",
+      "phase": "focused",
+      "exit_code": 0,
+      "seconds": 0.793
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "repeat-1",
+      "exit_code": 0,
+      "seconds": 0.847
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "repeat-1",
+      "exit_code": 0,
+      "seconds": 0.826
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "repeat-2",
+      "exit_code": 0,
+      "seconds": 0.881
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "repeat-2",
+      "exit_code": 0,
+      "seconds": 0.89
+    },
+    {
+      "suite": "test_multiday_ui.py",
+      "phase": "repeat-3",
+      "exit_code": 0,
+      "seconds": 0.841
+    },
+    {
+      "suite": "test_time_range_ui.py",
+      "phase": "repeat-3",
+      "exit_code": 0,
+      "seconds": 0.816
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+test_arrow_navigation_alone_does_not_change_chosen_dates (test_calendar_keyboard.CalendarKeyboardTests.test_arrow_navigation_alone_does_not_change_chosen_dates) ... ok
+Error calling Python override of QCalendarWidget::eventFilter(): Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\app\qt_golfhub_app.py", line 412, in eventFilter
+    and watched is self._calendar_view.viewport()
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: libshiboken: Internal C++ object (PySide6.QtWidgets.QTableView) already deleted.
+test_escape_discards_pending_keyboard_selection (test_calendar_keyboard.CalendarKeyboardTests.test_escape_discards_pending_keyboard_selection) ... FAIL
+test_held_activation_key_does_not_toggle_repeatedly (test_calendar_keyboard.CalendarKeyboardTests.test_held_activation_key_does_not_toggle_repeatedly) ... FAIL
+test_keyboard_can_apply_selected_dates_by_tab_and_space (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_can_apply_selected_dates_by_tab_and_space) ... FAIL
+test_keyboard_navigation_crosses_month_and_respects_bounds (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_navigation_crosses_month_and_respects_bounds) ... FAIL
+test_mouse_click_then_double_click_does_not_add_a_second_toggle (test_calendar_keyboard.CalendarKeyboardTests.test_mouse_click_then_double_click_does_not_add_a_second_toggle) ... ok
+Error calling Python override of QCalendarWidget::eventFilter(): Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\app\qt_golfhub_app.py", line 412, in eventFilter
+    and watched is self._calendar_view.viewport()
+                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
+RuntimeError: libshiboken: Internal C++ object (PySide6.QtWidgets.QTableView) already deleted.
+test_numeric_keys_cannot_start_a_delayed_date_edit (test_calendar_keyboard.CalendarKeyboardTests.test_numeric_keys_cannot_start_a_delayed_date_edit) ... FAIL
+test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) ...
+  test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) (key=<Key.Key_Return: 16777220>) ... FAIL
+  test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) (key=<Key.Key_Enter: 16777221>) ... FAIL
+  test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) (key=<Key.Key_Space: 32>) ... FAIL
+
+======================================================================
+FAIL: test_escape_discards_pending_keyboard_selection (test_calendar_keyboard.CalendarKeyboardTests.test_escape_discards_pending_keyboard_selection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 105, in test_escape_discards_pending_keyboard_selection
+    self.assertEqual(len(self.popup.selected_dates()), 2)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: 1 != 2
+
+======================================================================
+FAIL: test_held_activation_key_does_not_toggle_repeatedly (test_calendar_keyboard.CalendarKeyboardTests.test_held_activation_key_does_not_toggle_repeatedly)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 88, in test_held_activation_key_does_not_toggle_repeatedly
+    self.assertEqual(self.popup.selected_dates(), [self.minimum, self.minimum.addDays(1)])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2026, 7, 15)] != [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 16)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2026, 7, 16)
+
+- [PySide6.QtCore.QDate(2026, 7, 15)]
++ [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 16)]
+
+======================================================================
+FAIL: test_keyboard_can_apply_selected_dates_by_tab_and_space (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_can_apply_selected_dates_by_tab_and_space)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 100, in test_keyboard_can_apply_selected_dates_by_tab_and_space
+    self.assertEqual(self.button.selected_qdates(), [self.minimum, self.minimum.addDays(1)])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2026, 7, 15)] != [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 16)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2026, 7, 16)
+
+- [PySide6.QtCore.QDate(2026, 7, 15)]
++ [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 16)]
+
+======================================================================
+FAIL: test_keyboard_navigation_crosses_month_and_respects_bounds (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_navigation_crosses_month_and_respects_bounds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 71, in test_keyboard_navigation_crosses_month_and_respects_bounds
+    self.assertEqual(self.popup.selected_dates(), [self.minimum, QDate(2026, 8, 1)])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2026, 7, 15)] != [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 8, 1)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2026, 8, 1)
+
+- [PySide6.QtCore.QDate(2026, 7, 15)]
++ [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 8, 1)]
+
+======================================================================
+FAIL: test_numeric_keys_cannot_start_a_delayed_date_edit (test_calendar_keyboard.CalendarKeyboardTests.test_numeric_keys_cannot_start_a_delayed_date_edit)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 50, in test_numeric_keys_cannot_start_a_delayed_date_edit
+    self.assertEqual(self.popup.calendar.selectedDate(), focused_date)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: PySide6.QtCore.QDate(2026, 7, 20) != PySide6.QtCore.QDate(2026, 7, 16)
+
+======================================================================
+FAIL: test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) (key=<Key.Key_Return: 16777220>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 58, in test_return_enter_and_space_toggle_once_and_keep_last_date
+    self.assertEqual(self.popup.selected_dates(), [self.minimum, self.minimum.addDays(2)])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2026, 7, 15)] != [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 17)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2026, 7, 17)
+
+- [PySide6.QtCore.QDate(2026, 7, 15)]
++ [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 17)]
+
+======================================================================
+FAIL: test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) (key=<Key.Key_Enter: 16777221>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 58, in test_return_enter_and_space_toggle_once_and_keep_last_date
+    self.assertEqual(self.popup.selected_dates(), [self.minimum, self.minimum.addDays(2)])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2026, 7, 15)] != [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 17)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2026, 7, 17)
+
+- [PySide6.QtCore.QDate(2026, 7, 15)]
++ [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 17)]
+
+======================================================================
+FAIL: test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) (key=<Key.Key_Space: 32>)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\tests\test_calendar_keyboard.py", line 58, in test_return_enter_and_space_toggle_once_and_keep_last_date
+    self.assertEqual(self.popup.selected_dates(), [self.minimum, self.minimum.addDays(2)])
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2026, 7, 15)] != [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 17)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2026, 7, 17)
+
+- [PySide6.QtCore.QDate(2026, 7, 15)]
++ [PySide6.QtCore.QDate(2026, 7, 15), PySide6.QtCore.QDate(2026, 7, 17)]
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.659s
+
+FAILED (failures=8)
+Exception ignored in atexit callback <built-in function __moduleShutdown>:
+Traceback (most recent call last):
+  File "C:\Users\pip_2\Documents\Codex\2026-10-18\task\baseline-qa\app\qt_golfhub_app.py", line 412, in eventFilter
+    and watched is self._calendar_view.viewport()
+RuntimeError: Error calling Python override of QCalendarWidget::eventFilter(): libshiboken: Internal C++ object (PySide6.QtWidgets.QTableView) already deleted.

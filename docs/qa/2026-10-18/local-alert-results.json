@@ -1,0 +1,19 @@
+{
+  "scope": "isolated copy of dirty local candidate; not remote branch or published Android",
+  "tests_run": 35,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "network": "socket connect and create_connection blocked; per-test FCM/send mocks",
+  "classes": [
+    "service.tests.test_push_logic.PushLogicTests",
+    "service.tests.test_push_delivery.DeliveryTests",
+    "service.tests.test_recurrence.RecurrenceTests",
+    "service.tests.test_recurrence.AcknowledgementDeliveryTests",
+    "service.tests.test_quiet_prices.QuietTests",
+    "service.tests.test_quiet_prices.QuietDeliveryTests"
+  ],
+  "note": "DeliveryTests methods also execute via the acknowledgement/quiet subclasses.",
+  "distinct_test_methods": 23,
+  "repeated_inherited_executions": 12
+}
