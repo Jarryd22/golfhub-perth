@@ -1,0 +1,108 @@
+{
+  "kind": "isolated offscreen source-widget keyboard probe; no GolfHub main window or network",
+  "source_app_version": "5.1.17",
+  "pyside6": "6.11.1",
+  "source_root": "C:\\Users\\pip_2\\Documents\\Codex\\2026-09-10\\cna\\work\\golfhub-perth",
+  "results": [
+    {
+      "target": "actual_focus",
+      "key": "Return",
+      "actual_focus_class": "QtPrivate::QCalendarView",
+      "actual_focus_name": "qt_calendar_calendarview",
+      "cursor_date": "2026-10-19",
+      "before": [
+        "2026-10-18"
+      ],
+      "after": [
+        "2026-10-18"
+      ],
+      "clicked": [],
+      "activated": [
+        "2026-10-19"
+      ],
+      "keyboard_navigation": true
+    },
+    {
+      "target": "actual_focus",
+      "key": "Enter",
+      "actual_focus_class": "QtPrivate::QCalendarView",
+      "actual_focus_name": "qt_calendar_calendarview",
+      "cursor_date": "2026-10-19",
+      "before": [
+        "2026-10-18"
+      ],
+      "after": [
+        "2026-10-18"
+      ],
+      "clicked": [],
+      "activated": [
+        "2026-10-19"
+      ],
+      "keyboard_navigation": true
+    },
+    {
+      "target": "actual_focus",
+      "key": "Space",
+      "actual_focus_class": "QtPrivate::QCalendarView",
+      "actual_focus_name": "qt_calendar_calendarview",
+      "cursor_date": "2026-10-19",
+      "before": [
+        "2026-10-18"
+      ],
+      "after": [
+        "2026-10-18"
+      ],
+      "clicked": [],
+      "activated": [],
+      "keyboard_navigation": true
+    },
+    {
+      "target": "direct_parent",
+      "key": "Return",
+      "actual_focus_class": "QtPrivate::QCalendarView",
+      "actual_focus_name": "qt_calendar_calendarview",
+      "cursor_date": "2026-10-18",
+      "before": [
+        "2026-10-18"
+      ],
+      "after": [],
+      "clicked": [
+        "2026-10-18"
+      ],
+      "activated": [],
+      "keyboard_navigation": true
+    },
+    {
+      "target": "direct_parent",
+      "key": "Enter",
+      "actual_focus_class": "QtPrivate::QCalendarView",
+      "actual_focus_name": "qt_calendar_calendarview",
+      "cursor_date": "2026-10-18",
+      "before": [
+        "2026-10-18"
+      ],
+      "after": [],
+      "clicked": [
+        "2026-10-18"
+      ],
+      "activated": [],
+      "keyboard_navigation": true
+    },
+    {
+      "target": "direct_parent",
+      "key": "Space",
+      "actual_focus_class": "QtPrivate::QCalendarView",
+      "actual_focus_name": "qt_calendar_calendarview",
+      "cursor_date": "2026-10-18",
+      "before": [
+        "2026-10-18"
+      ],
+      "after": [],
+      "clicked": [
+        "2026-10-18"
+      ],
+      "activated": [],
+      "keyboard_navigation": true
+    }
+  ]
+}

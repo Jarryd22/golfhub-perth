@@ -1,0 +1,21 @@
+{
+  "kind": "synthetic real Qt source-widget evidence; known backlog issue",
+  "publication_age_seconds": 0,
+  "course_and_weather_fixture_age_seconds": 7200,
+  "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+  "card_labels": [
+    "Araluen",
+    "1 matching tee time - 18 holes",
+    "",
+    "Clear   12-24 C",
+    "Rain 10%   |   Wind 15 km/h",
+    "10:00 am",
+    "4 spots"
+  ],
+  "stale_marker_visible": false,
+  "status": "known_findings",
+  "limitations": [
+    "No live data freshness inferred; existing local reconciliation work covers this issue.",
+    "Forecast observation metadata in this fixture is synthetic; no weather source contacted."
+  ]
+}

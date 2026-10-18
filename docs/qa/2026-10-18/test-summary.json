@@ -1,0 +1,125 @@
+[
+  {
+    "module": "test_booking_assist.py",
+    "exit_code": 0,
+    "tests": 12,
+    "seconds": 0.2,
+    "failures": []
+  },
+  {
+    "module": "test_booking_assist_guards.py",
+    "exit_code": 0,
+    "tests": 3,
+    "seconds": 0.18,
+    "failures": []
+  },
+  {
+    "module": "test_booking_assist_optin.py",
+    "exit_code": 0,
+    "tests": 7,
+    "seconds": 0.21,
+    "failures": []
+  },
+  {
+    "module": "test_booking_dialog.py",
+    "exit_code": 0,
+    "tests": 9,
+    "seconds": 3.671,
+    "failures": [],
+    "initial_sandbox_exit_code": 2147483651,
+    "environment": "Authorized final-source local rerun with static HTML; Chromium sandbox intact"
+  },
+  {
+    "module": "test_booking_ui_integration.py",
+    "exit_code": 0,
+    "tests": 6,
+    "seconds": 0.74,
+    "failures": []
+  },
+  {
+    "module": "test_cache_pipeline.py",
+    "exit_code": 0,
+    "tests": 14,
+    "seconds": 1.34,
+    "failures": []
+  },
+  {
+    "module": "test_cache_refresh_status.py",
+    "exit_code": 0,
+    "tests": 11,
+    "seconds": 0.91,
+    "failures": []
+  },
+  {
+    "module": "test_cache_transient_retry.py",
+    "exit_code": 0,
+    "tests": 11,
+    "seconds": 0.41,
+    "failures": []
+  },
+  {
+    "module": "test_cache_weather_budget.py",
+    "exit_code": 0,
+    "tests": 7,
+    "seconds": 1.55,
+    "failures": []
+  },
+  {
+    "module": "test_calendar_keyboard.py",
+    "exit_code": 0,
+    "tests": 8,
+    "seconds": 2.19,
+    "failures": []
+  },
+  {
+    "module": "test_collier_behavior.py",
+    "exit_code": 0,
+    "tests": 4,
+    "seconds": 0.67,
+    "failures": []
+  },
+  {
+    "module": "test_golfhub_v3.py",
+    "exit_code": 1,
+    "tests": 17,
+    "seconds": 0.72,
+    "failures": [
+      "FAIL: test_workflow_is_four_weeks_every_ten_minutes (test_golfhub_v3.GolfHubV3Tests.test_workflow_is_four_weeks_every_ten_minutes)"
+    ]
+  },
+  {
+    "module": "test_multiday_ui.py",
+    "exit_code": 0,
+    "tests": 12,
+    "seconds": 0.79,
+    "failures": []
+  },
+  {
+    "module": "test_perth_dates.py",
+    "exit_code": 0,
+    "tests": 6,
+    "seconds": 0.65,
+    "failures": []
+  },
+  {
+    "module": "test_search_race.py",
+    "exit_code": 0,
+    "tests": 4,
+    "seconds": 0.73,
+    "failures": []
+  },
+  {
+    "module": "test_time_range_ui.py",
+    "exit_code": 0,
+    "tests": 5,
+    "seconds": 0.81,
+    "failures": []
+  },
+  {
+    "module": "test_v5_ui_requirements.py",
+    "exit_code": 0,
+    "tests": 5,
+    "seconds": 0.77,
+    "failures": []
+  }
+]
