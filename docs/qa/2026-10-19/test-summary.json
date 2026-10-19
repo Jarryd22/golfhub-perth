@@ -1,0 +1,176 @@
+{
+  "environment": "Linux cloud, Python 3.12.14, PySide6 6.12.0, offscreen",
+  "modules": [
+    {
+      "module": "test_booking_assist.py",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_guards.py",
+      "exit_code": 0,
+      "run": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_optin.py",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_dialog.py",
+      "exit_code": 0,
+      "class": "test_booking_dialog.ResultInterpreterTests",
+      "phase": "after",
+      "external_fixture_cleanup": true,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "scope": "ResultInterpreterTests only; four StaticBookingDialogTests blocked"
+    },
+    {
+      "module": "test_booking_ui_integration.py",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "class": null,
+      "phase": "after",
+      "external_fixture_cleanup": true
+    },
+    {
+      "module": "test_cache_pipeline.py",
+      "exit_code": 0,
+      "run": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache_refresh_status.py",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache_transient_retry.py",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache_weather_budget.py",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_collier_behavior.py",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_course_controls.py",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "final_log": "course-controls-after.log"
+    },
+    {
+      "module": "test_golfhub_v3.py",
+      "exit_code": 1,
+      "run": 17,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "class": null,
+      "phase": "after",
+      "external_fixture_cleanup": true
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_perth_dates.py",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_search_race.py",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "exit_code": 1,
+      "run": 5,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_v5_ui_requirements.py",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "passed": 143,
+  "failed": 2,
+  "blocked": 4,
+  "blocked_reason": "StaticBookingDialogTests: Chromium SUID sandbox helper cannot start. Sandbox was not disabled. Five pure interpreter tests passed separately.",
+  "separate_counts": {
+    "qt611_new_regressions": 8,
+    "archive_alert_audit_cases": 10
+  },
+  "known_failures": [
+    "Existing obsolete cron assertion",
+    "Existing Windows QAccessible combo Name assertion mismatches intentional Linux Qt semantics; reproduced on untouched #10"
+  ],
+  "notes": [
+    "Initial Qt process shutdown aborts in booking_ui_integration and golfhub_v3 reran with external cleanup_qt_widgets() after unittest; original logs retained.",
+    "Counts represent distinct test cases, not repeated runs; smoke, source probes, archived alerts and remote CI are separate."
+  ]
+}

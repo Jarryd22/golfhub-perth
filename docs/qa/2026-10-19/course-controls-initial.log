@@ -1,0 +1,257 @@
+test_checkbox_click_updates_count_once_and_keyboard_restores_it (test_course_controls.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_clear_select_visible_and_round_changes_preserve_correct_selection (test_course_controls.CourseControlTests.test_clear_select_visible_and_round_changes_preserve_correct_selection) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_course_row_click_updates_count_once (test_course_controls.CourseControlTests.test_course_row_click_updates_count_once) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_course_search_hint_matches_name_only_matching (test_course_controls.CourseControlTests.test_course_search_hint_matches_name_only_matching) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_course_search_keeps_its_accessible_name_after_typing (test_course_controls.CourseControlTests.test_course_search_keeps_its_accessible_name_after_typing) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Players') ... FAIL
+  test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Time') ... FAIL
+test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) ... FAIL
+test_hidden_selected_courses_remain_counted_during_name_search (test_course_controls.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+======================================================================
+FAIL: test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Players')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_course_controls.py", line 97, in test_filter_names_and_label_buddies_are_exposed
+    self.assertEqual(interface.text(QAccessible.Name), name)
+AssertionError: 'Any' != 'Players'
+- Any
++ Players
+
+
+======================================================================
+FAIL: test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Time')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_course_controls.py", line 97, in test_filter_names_and_label_buddies_are_exposed
+    self.assertEqual(interface.text(QAccessible.Name), name)
+AssertionError: 'Any time' != 'Time'
+- Any time
++ Time
+
+
+======================================================================
+FAIL: test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_course_controls.py", line 100, in test_filter_names_and_label_buddies_are_exposed
+    self.assertEqual(QAccessible.queryAccessibleInterface(self.window.time_from).text(QAccessible.Name), "Start time")
+AssertionError: 'Any' != 'Start time'
+- Any
++ Start time
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.535s
+
+FAILED (failures=3)

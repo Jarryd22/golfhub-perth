@@ -43,6 +43,7 @@ With the repository requirements installed, run each `tests/test_*.py` module in
 ```text
 python -m unittest discover -s tests -p test_perth_dates.py -v
 python -m unittest discover -s tests -p test_calendar_keyboard.py -v
+python -m unittest discover -s tests -p test_course_controls.py -v
 python -m unittest discover -s tests -p test_time_range_ui.py -v
 python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
@@ -55,7 +56,19 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes.
 
-## Latest pass: 18 October 2026
+## Latest pass: 19 October 2026
+
+See [today's report](qa/2026-10-19/REPORT.md). The draft stacked on #10 reconciles the known course-count signal adapter, labels filter/course controls and makes the course-name search hint accurate. New regressions cover actual checkbox/row/Space input, one notification per toggle, hidden selected courses, Clear/Select visible and 18→9→18. Check counts against `selected_sites()`, not just checkbox state. Course labels containing a literal `&` must retain it when a QLabel buddy is added.
+
+Eight new regressions pass on Linux Qt 6.12 and 6.11.1. For combo boxes, check `accessibleName()`, the visible label's buddy and actual Qt Label relationship. Qt intentionally uses current text as Name on Unix; do not treat a Windows-only Name expectation as a portable screen-reader test. Checkbox/search interface names are checked directly. Native assistive-technology testing is still required.
+
+Local branch outcome: 143 passed, 2 baseline failures (obsolete cron and Windows-specific combo Name assertion), 4 WebEngine cases blocked by the cloud Chromium sandbox helper. Do not disable the sandbox. Two older modules needed external widget cleanup after tests to avoid interpreter shutdown aborts; retain original and recheck logs. Test-only Windows CI includes 43 focused desktop cases, with cache CI separate. Verify final-head CI on the draft rather than reusing yesterday's results.
+
+Sixteen mocked offscreen journey checks and 148 intercepted course-link combinations passed; initial smoke instability remains documented. Weather sampling must check finite numeric values, boolean/null exclusions, plausible ranges, temperature order and Clear/all-zero patterns, separately from valid zero rain. Only three date/round payloads were sampled; do not infer whole-cache or forecast-age validity.
+
+Check alert deployment source before calling missing loose modules a runtime outage: the workflow uses the committed runtime ZIP. Ten isolated archive logic audit cases pass with sockets blocked; root suite imports and worker/delivery remain blocked. No actual delivery is proven. Release manifests match metadata, but current signature checks need the trusted updater key, absent in this cloud checkout.
+
+## Previous pass: 18 October 2026
 
 See [today's report](qa/2026-10-18/REPORT.md). Keyboard date selection now passes source-widget regressions on the branch stacked on #9. Deliver events to the actual focused calendar table, not directly to its parent. Check arrows without selecting, Return/Enter/Space toggles, held keys, numeric typing, month/bounds changes, at-least-one selection, Tab/Space apply, Escape cancel and click/double-click behavior. This picker uses arrow navigation, with native numeric date editing disabled.
 

@@ -1,0 +1,57 @@
+[
+  {
+    "module": "test_booking_ui_integration.py",
+    "class": null,
+    "phase": "after",
+    "exit_code": 0,
+    "external_fixture_cleanup": true,
+    "run": 6,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "module": "test_golfhub_v3.py",
+    "class": null,
+    "phase": "after",
+    "exit_code": 1,
+    "external_fixture_cleanup": true,
+    "run": 17,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "module": "test_booking_dialog.py",
+    "class": "test_booking_dialog.ResultInterpreterTests",
+    "phase": "after",
+    "exit_code": 0,
+    "external_fixture_cleanup": true,
+    "run": 5,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "module": "test_golfhub_v3.py",
+    "class": null,
+    "phase": "baseline",
+    "exit_code": 1,
+    "external_fixture_cleanup": true,
+    "run": 17,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  },
+  {
+    "module": "test_time_range_ui.py",
+    "class": null,
+    "phase": "baseline",
+    "exit_code": 1,
+    "external_fixture_cleanup": true,
+    "run": 5,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0
+  }
+]

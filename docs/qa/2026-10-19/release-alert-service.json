@@ -1,0 +1,93 @@
+{
+  "checked_at": "2026-10-19T00:21:08.775338+00:00",
+  "network": "socket connect/connect_ex/create_connection/send/sendall/sendto blocked",
+  "worker_main_invoked": false,
+  "firebase_initialized": false,
+  "real_delivery_attempted": false,
+  "archive_path": ".github/alerts-runtime.zip",
+  "archive_sha256": "63d7b944607ff8ce29f293adb64d647cbb6636f227da63971c0c1a181cfdaf30",
+  "source_imports": {
+    "service.push_logic": {
+      "imported": false,
+      "blocker": "ModuleNotFoundError: No module named 'app.cache_schema'"
+    },
+    "service.push_worker": {
+      "imported": false,
+      "blocker": "ModuleNotFoundError: No module named 'firebase_admin'"
+    },
+    "service.tests.test_push_delivery": {
+      "imported": false,
+      "blocker": "ModuleNotFoundError: No module named 'service.catalog'"
+    },
+    "service.tests.test_recurrence": {
+      "imported": false,
+      "blocker": "ModuleNotFoundError: No module named 'app.cache_schema'"
+    }
+  },
+  "root_alert_suite": {
+    "tests_run": 0,
+    "status": "not run: import blockers above; these are not assertion failures"
+  },
+  "archive_files": [
+    "app/__init__.py",
+    "app/golfhub_core.py",
+    "app/availability.py",
+    "app/cache_schema.py",
+    "service/__init__.py",
+    "service/catalog.py",
+    "service/search.py",
+    "service/push_logic.py",
+    "service/push_worker.py",
+    "service/checker_gate.py",
+    "service/requirements-push.txt",
+    "data/courses.json",
+    "data/course_ids.json",
+    "data/course_locations.json",
+    "data/course_profiles.json",
+    "service/recurrence.py"
+  ],
+  "archive_test_files": [],
+  "missing_root_modules_present_in_archive": [
+    "app/availability.py",
+    "app/cache_schema.py",
+    "service/__init__.py",
+    "service/catalog.py",
+    "service/search.py",
+    "service/checker_gate.py"
+  ],
+  "shared_module_bytes_match_archive": {
+    "app/__init__.py": true,
+    "app/golfhub_core.py": false,
+    "service/push_logic.py": true,
+    "service/push_worker.py": true,
+    "service/recurrence.py": true
+  },
+  "archive_requirements": "firebase-admin==7.1.0\ntzdata==2026.4\n",
+  "isolated_archive_pure_logic_audit": {
+    "tests_run": 10,
+    "failures": 0,
+    "errors": 0,
+    "test_methods": [
+      "test_invalid_group_time_and_course_rejected",
+      "test_invalid_recurrence_rejected",
+      "test_new_opening_once_and_old_snapshot_rejected",
+      "test_new_watch_is_quiet_unless_explicitly_requested",
+      "test_past_tee_times_are_not_matches",
+      "test_quiet_hours_and_ttl_use_perth_clock",
+      "test_reenable_and_event_identifiers",
+      "test_stale_future_and_unknown_data_preserve_baseline",
+      "test_watch_filters_and_disabled_rejection",
+      "test_weekly_recurrence_and_acknowledgement"
+    ],
+    "log": "test_invalid_group_time_and_course_rejected (__main__.run.<locals>.ArchivedLogicAudit.test_invalid_group_time_and_course_rejected) ... ok\ntest_invalid_recurrence_rejected (__main__.run.<locals>.ArchivedLogicAudit.test_invalid_recurrence_rejected) ... ok\ntest_new_opening_once_and_old_snapshot_rejected (__main__.run.<locals>.ArchivedLogicAudit.test_new_opening_once_and_old_snapshot_rejected) ... ok\ntest_new_watch_is_quiet_unless_explicitly_requested (__main__.run.<locals>.ArchivedLogicAudit.test_new_watch_is_quiet_unless_explicitly_requested) ... ok\ntest_past_tee_times_are_not_matches (__main__.run.<locals>.ArchivedLogicAudit.test_past_tee_times_are_not_matches) ... ok\ntest_quiet_hours_and_ttl_use_perth_clock (__main__.run.<locals>.ArchivedLogicAudit.test_quiet_hours_and_ttl_use_perth_clock) ... ok\ntest_reenable_and_event_identifiers (__main__.run.<locals>.ArchivedLogicAudit.test_reenable_and_event_identifiers) ... ok\ntest_stale_future_and_unknown_data_preserve_baseline (__main__.run.<locals>.ArchivedLogicAudit.test_stale_future_and_unknown_data_preserve_baseline) ... ok\ntest_watch_filters_and_disabled_rejection (__main__.run.<locals>.ArchivedLogicAudit.test_watch_filters_and_disabled_rejection) ... ok\ntest_weekly_recurrence_and_acknowledgement (__main__.run.<locals>.ArchivedLogicAudit.test_weekly_recurrence_and_acknowledgement) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.001s\n\nOK\n",
+    "scope": "New deterministic audit cases against isolated committed runtime archive; no archived test files exist. Not root suite or phone delivery tests."
+  },
+  "archive_worker_import": {
+    "imported": false,
+    "blocker": "ModuleNotFoundError: No module named 'firebase_admin'"
+  },
+  "delivery_tests": {
+    "tests_run": 0,
+    "status": "not run: firebase_admin dependency absent; no dependency installation or credential access attempted"
+  }
+}

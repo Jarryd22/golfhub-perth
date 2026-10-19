@@ -1,0 +1,17 @@
+QA_RESULT {"run": 11, "failures": 0, "errors": 0, "skipped": 0}
+test_cli_writes_action_output_and_freshness_summary (test_cache_refresh_status.CacheRefreshStatusTests.test_cli_writes_action_output_and_freshness_summary) ... ok
+test_five_minute_boundary_and_next_heartbeat_refresh (test_cache_refresh_status.CacheRefreshStatusTests.test_five_minute_boundary_and_next_heartbeat_refresh) ... ok
+test_invalid_naive_future_or_missing_timestamp_cannot_suppress_refresh (test_cache_refresh_status.CacheRefreshStatusTests.test_invalid_naive_future_or_missing_timestamp_cannot_suppress_refresh) ... ok
+test_manual_and_source_change_triggers_always_refresh (test_cache_refresh_status.CacheRefreshStatusTests.test_manual_and_source_change_triggers_always_refresh) ... ok
+test_missing_snapshot_refreshes_even_when_index_is_recent (test_cache_refresh_status.CacheRefreshStatusTests.test_missing_snapshot_refreshes_even_when_index_is_recent) ... ok
+test_missing_unreadable_or_wrong_shape_index_refreshes (test_cache_refresh_status.CacheRefreshStatusTests.test_missing_unreadable_or_wrong_shape_index_refreshes) ... ok
+test_nearby_automatic_triggers_skip_without_rewriting_timestamp (test_cache_refresh_status.CacheRefreshStatusTests.test_nearby_automatic_triggers_skip_without_rewriting_timestamp) ... ok
+test_perth_midnight_refreshes_recent_previous_day_window (test_cache_refresh_status.CacheRefreshStatusTests.test_perth_midnight_refreshes_recent_previous_day_window) ... ok
+test_stale_cache_age_is_reported (test_cache_refresh_status.CacheRefreshStatusTests.test_stale_cache_age_is_reported) ... ok
+test_utc_z_and_perth_offset_timestamps_are_supported (test_cache_refresh_status.CacheRefreshStatusTests.test_utc_z_and_perth_offset_timestamps_are_supported) ... ok
+test_wrong_schema_range_or_hole_coverage_refreshes (test_cache_refresh_status.CacheRefreshStatusTests.test_wrong_schema_range_or_hole_coverage_refreshes) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.070s
+
+OK

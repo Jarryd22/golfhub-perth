@@ -1,0 +1,10 @@
+{
+  "baseline_smoke_first_attempt": "stalled after first-launch screenshot; explicitly terminated; no complete test claim",
+  "baseline_smoke_diagnostic_retry": "exit 0; 16 assertions passed, 42 known callback errors; temporary copy added progress print and faulthandler only",
+  "after_smoke_first_attempt": "exit 139 after first-launch screenshot; no Python traceback, no complete test claim",
+  "after_smoke_retry": "exit 0; 16 checks passed, 0 callbacks, unchanged script with PYTHONFAULTHANDLER=1",
+  "after_smoke_additional_retry": "exit 0; same 16 checks passed, 0 callbacks; does not add distinct tests",
+  "focused_before_probe": "exit 0; 148 intercepted links; mismatch and unnamed controls reproduced",
+  "focused_after_probe": "exit 0; 148 intercepted links; count agrees and checkbox/search interface names present",
+  "limitations": "Transient Linux offscreen harness instability is unresolved. No genuine native Windows or Android device validation."
+}
