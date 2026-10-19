@@ -1,0 +1,838 @@
+test_checkbox_click_updates_count_once_and_keyboard_restores_it (test_course_controls.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_checkbox_click_updates_count_once_and_keyboard_restores_it (test_course_controls.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it) ... FAIL
+test_clear_select_visible_and_round_changes_preserve_correct_selection (test_course_controls.CourseControlTests.test_clear_select_visible_and_round_changes_preserve_correct_selection) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_course_row_click_updates_count_once (test_course_controls.CourseControlTests.test_course_row_click_updates_count_once) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_course_row_click_updates_count_once (test_course_controls.CourseControlTests.test_course_row_click_updates_count_once) ... FAIL
+test_course_search_hint_matches_name_only_matching (test_course_controls.CourseControlTests.test_course_search_hint_matches_name_only_matching) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_course_search_keeps_its_accessible_name_after_typing (test_course_controls.CourseControlTests.test_course_search_keeps_its_accessible_name_after_typing) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Altone Park') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Araluen') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Boddington Golf Club') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Carramar') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Chequers') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Collier Park') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Embleton') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Fremantle') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Gosnells Golf Club') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Hamersley') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Hartfield') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Hillview') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Joondalup Resort') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Kwinana') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Lake Claremont') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Links Kennedy Bay') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Mandurah Country Club') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Marangaroo') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Marri Park') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Maylands') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Meadow Springs') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Mosman Park') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Nedlands Golf Club') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Pickering Brook') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Pinjarra') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Point Walter') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Preston Beach') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Rockingham') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Rottnest Island') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Sea View') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Secret Harbour') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Serpentine & Districts') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Sun City') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='The Cut') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='The Springs') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='The Vines') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Wanneroo Golf Club') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Waroona Golf Club') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Wembley') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Whaleback') ... FAIL
+  test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Yanchep National Park') ... FAIL
+test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) ... FAIL
+test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Players') ... FAIL
+  test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Time') ... FAIL
+test_hidden_selected_courses_remain_counted_during_name_search (test_course_controls.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_hidden_selected_courses_remain_counted_during_name_search (test_course_controls.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search) ... FAIL
+
+======================================================================
+FAIL: test_checkbox_click_updates_count_once_and_keyboard_restores_it (test_course_controls.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 51, in test_checkbox_click_updates_count_once_and_keyboard_restores_it
+    self.assert_count_matches_selection()
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 42, in assert_count_matches_selection
+    self.assertEqual(self.window.selected_count.text(), f"{count} selected")
+AssertionError: '37 selected' != '36 selected'
+- 37 selected
+?  ^
++ 36 selected
+?  ^
+
+
+======================================================================
+FAIL: test_checkbox_click_updates_count_once_and_keyboard_restores_it (test_course_controls.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 38, in tearDown
+    self.assertEqual(self.callback_errors, [], "Qt signal callbacks must not raise")
+AssertionError: Lists differ: ['toggled() only accepts 0 argument(s), 1 given!'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'toggled() only accepts 0 argument(s), 1 given!'
+
+- ['toggled() only accepts 0 argument(s), 1 given!']
++ [] : Qt signal callbacks must not raise
+
+======================================================================
+FAIL: test_clear_select_visible_and_round_changes_preserve_correct_selection (test_course_controls.CourseControlTests.test_clear_select_visible_and_round_changes_preserve_correct_selection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 38, in tearDown
+    self.assertEqual(self.callback_errors, [], "Qt signal callbacks must not raise")
+AssertionError: Lists differ: ['toggled() only accepts 0 argument(s), 1 [2253 chars]en!'] != []
+
+First list contains 46 additional elements.
+First extra element 0:
+'toggled() only accepts 0 argument(s), 1 given!'
+
+Diff is 2443 characters long. Set self.maxDiff to None to see it. : Qt signal callbacks must not raise
+
+======================================================================
+FAIL: test_course_row_click_updates_count_once (test_course_controls.CourseControlTests.test_course_row_click_updates_count_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 64, in test_course_row_click_updates_count_once
+    self.assert_count_matches_selection()
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 42, in assert_count_matches_selection
+    self.assertEqual(self.window.selected_count.text(), f"{count} selected")
+AssertionError: '37 selected' != '36 selected'
+- 37 selected
+?  ^
++ 36 selected
+?  ^
+
+
+======================================================================
+FAIL: test_course_row_click_updates_count_once (test_course_controls.CourseControlTests.test_course_row_click_updates_count_once)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 38, in tearDown
+    self.assertEqual(self.callback_errors, [], "Qt signal callbacks must not raise")
+AssertionError: Lists differ: ['toggled() only accepts 0 argument(s), 1 given!'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'toggled() only accepts 0 argument(s), 1 given!'
+
+- ['toggled() only accepts 0 argument(s), 1 given!']
++ [] : Qt signal callbacks must not raise
+
+======================================================================
+FAIL: test_course_search_hint_matches_name_only_matching (test_course_controls.CourseControlTests.test_course_search_hint_matches_name_only_matching)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 128, in test_course_search_hint_matches_name_only_matching
+    self.assertEqual(self.window.course_search.placeholderText(), "Search course names")
+AssertionError: 'Search courses or suburbs' != 'Search course names'
+- Search courses or suburbs
++ Search course names
+
+
+======================================================================
+FAIL: test_course_search_keeps_its_accessible_name_after_typing (test_course_controls.CourseControlTests.test_course_search_keeps_its_accessible_name_after_typing)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 125, in test_course_search_keeps_its_accessible_name_after_typing
+    self.assertEqual(QAccessible.queryAccessibleInterface(self.window.course_search).text(QAccessible.Name), "Search courses")
+AssertionError: '' != 'Search courses'
++ Search courses
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Altone Park')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Altone Park'
++ Altone Park
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Araluen')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Araluen'
++ Araluen
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Boddington Golf Club')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Boddington Golf Club'
++ Boddington Golf Club
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Carramar')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Carramar'
++ Carramar
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Chequers')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Chequers'
++ Chequers
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Collier Park')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Collier Park'
++ Collier Park
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Embleton')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Embleton'
++ Embleton
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Fremantle')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Fremantle'
++ Fremantle
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Gosnells Golf Club')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Gosnells Golf Club'
++ Gosnells Golf Club
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Hamersley')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Hamersley'
++ Hamersley
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Hartfield')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Hartfield'
++ Hartfield
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Hillview')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Hillview'
++ Hillview
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Joondalup Resort')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Joondalup Resort'
++ Joondalup Resort
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Kwinana')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Kwinana'
++ Kwinana
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Lake Claremont')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Lake Claremont'
++ Lake Claremont
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Links Kennedy Bay')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Links Kennedy Bay'
++ Links Kennedy Bay
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Mandurah Country Club')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Mandurah Country Club'
++ Mandurah Country Club
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Marangaroo')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Marangaroo'
++ Marangaroo
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Marri Park')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Marri Park'
++ Marri Park
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Maylands')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Maylands'
++ Maylands
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Meadow Springs')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Meadow Springs'
++ Meadow Springs
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Mosman Park')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Mosman Park'
++ Mosman Park
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Nedlands Golf Club')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Nedlands Golf Club'
++ Nedlands Golf Club
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Pickering Brook')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Pickering Brook'
++ Pickering Brook
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Pinjarra')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Pinjarra'
++ Pinjarra
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Point Walter')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Point Walter'
++ Point Walter
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Preston Beach')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Preston Beach'
++ Preston Beach
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Rockingham')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Rockingham'
++ Rockingham
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Rottnest Island')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Rottnest Island'
++ Rottnest Island
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Sea View')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Sea View'
++ Sea View
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Secret Harbour')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Secret Harbour'
++ Secret Harbour
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Serpentine & Districts')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Serpentine & Districts'
++ Serpentine & Districts
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Sun City')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Sun City'
++ Sun City
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='The Cut')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'The Cut'
++ The Cut
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='The Springs')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'The Springs'
++ The Springs
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='The Vines')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'The Vines'
++ The Vines
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Wanneroo Golf Club')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Wanneroo Golf Club'
++ Wanneroo Golf Club
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Waroona Golf Club')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Waroona Golf Club'
++ Waroona Golf Club
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Wembley')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Wembley'
++ Wembley
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Whaleback')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Whaleback'
++ Whaleback
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) (course='Yanchep National Park')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 112, in test_each_course_checkbox_exposes_course_name_and_checked_state
+    self.assertEqual(interface.text(QAccessible.Name), row.site.name)
+AssertionError: '' != 'Yanchep National Park'
++ Yanchep National Park
+
+
+======================================================================
+FAIL: test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 38, in tearDown
+    self.assertEqual(self.callback_errors, [], "Qt signal callbacks must not raise")
+AssertionError: Lists differ: ['toggled() only accepts 0 argument(s), 1 given!'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'toggled() only accepts 0 argument(s), 1 given!'
+
+- ['toggled() only accepts 0 argument(s), 1 given!']
++ [] : Qt signal callbacks must not raise
+
+======================================================================
+FAIL: test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Players')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 97, in test_filter_names_and_label_buddies_are_exposed
+    self.assertEqual(control.accessibleName(), name)
+AssertionError: '' != 'Players'
++ Players
+
+
+======================================================================
+FAIL: test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) (name='Time')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 97, in test_filter_names_and_label_buddies_are_exposed
+    self.assertEqual(control.accessibleName(), name)
+AssertionError: '' != 'Time'
++ Time
+
+
+======================================================================
+FAIL: test_hidden_selected_courses_remain_counted_during_name_search (test_course_controls.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 88, in test_hidden_selected_courses_remain_counted_during_name_search
+    self.assert_count_matches_selection()
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 42, in assert_count_matches_selection
+    self.assertEqual(self.window.selected_count.text(), f"{count} selected")
+AssertionError: '37 selected' != '36 selected'
+- 37 selected
+?  ^
++ 36 selected
+?  ^
+
+
+======================================================================
+FAIL: test_hidden_selected_courses_remain_counted_during_name_search (test_course_controls.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261019/tests/test_course_controls.py", line 38, in tearDown
+    self.assertEqual(self.callback_errors, [], "Qt signal callbacks must not raise")
+AssertionError: Lists differ: ['toggled() only accepts 0 argument(s), 1 given!'] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+'toggled() only accepts 0 argument(s), 1 given!'
+
+- ['toggled() only accepts 0 argument(s), 1 given!']
++ [] : Qt signal callbacks must not raise
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.411s
+
+FAILED (failures=53)

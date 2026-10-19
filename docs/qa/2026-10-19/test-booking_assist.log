@@ -1,0 +1,18 @@
+QA_RESULT {"run": 12, "failures": 0, "errors": 0, "skipped": 0}
+test_captcha_and_action_parameters_are_never_replayed (test_booking_assist.BookingAssistPlanTests.test_captcha_and_action_parameters_are_never_replayed) ... ok
+test_checkout_ajax_and_credential_urls_are_rejected (test_booking_assist.BookingAssistPlanTests.test_checkout_ajax_and_credential_urls_are_rejected) ... ok
+test_invalid_time_is_rejected (test_booking_assist.BookingAssistPlanTests.test_invalid_time_is_rejected) ... ok
+test_miclub_plan_opens_exact_timesheet_but_never_preselects (test_booking_assist.BookingAssistPlanTests.test_miclub_plan_opens_exact_timesheet_but_never_preselects) ... ok
+test_player_count_and_availability_are_validated (test_booking_assist.BookingAssistPlanTests.test_player_count_and_availability_are_validated) ... ok
+test_quick18_uses_honest_provider_search_fallback (test_booking_assist.BookingAssistPlanTests.test_quick18_uses_honest_provider_search_fallback) ... ok
+test_unknown_provider_uses_direct_fallback (test_booking_assist.BookingAssistPlanTests.test_unknown_provider_uses_direct_fallback) ... ok
+test_extracts_target_cell_metadata_without_approving_automation (test_booking_assist.MiClubInspectionTests.test_extracts_target_cell_metadata_without_approving_automation) ... ok
+test_inspection_validates_players (test_booking_assist.MiClubInspectionTests.test_inspection_validates_players) ... ok
+test_minimum_booking_limit_is_respected (test_booking_assist.MiClubInspectionTests.test_minimum_booking_limit_is_respected) ... ok
+test_missing_time_returns_none (test_booking_assist.MiClubInspectionTests.test_missing_time_returns_none) ... ok
+test_selected_cells_are_read_but_not_counted_as_freely_available (test_booking_assist.MiClubInspectionTests.test_selected_cells_are_read_but_not_counted_as_freely_available) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.005s
+
+OK

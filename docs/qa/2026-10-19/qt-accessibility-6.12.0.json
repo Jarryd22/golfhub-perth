@@ -1,0 +1,44 @@
+{
+  "pyside_version": "6.12.0",
+  "qt_version": "6.12.0",
+  "system_platform": "linux",
+  "qt_platform": "offscreen",
+  "cases": [
+    {
+      "has_buddy": false,
+      "current_text": "Any",
+      "widget_accessible_name": "Start time",
+      "interface_name": "Any",
+      "interface_value": "Any",
+      "label_relations": []
+    },
+    {
+      "has_buddy": false,
+      "current_text": "9:00 am",
+      "widget_accessible_name": "Start time",
+      "interface_name": "9:00 am",
+      "interface_value": "9:00 am",
+      "label_relations": []
+    },
+    {
+      "has_buddy": true,
+      "current_text": "Any",
+      "widget_accessible_name": "Start time",
+      "interface_name": "Any",
+      "interface_value": "Any",
+      "label_relations": [
+        "Start time"
+      ]
+    },
+    {
+      "has_buddy": true,
+      "current_text": "9:00 am",
+      "widget_accessible_name": "Start time",
+      "interface_name": "9:00 am",
+      "interface_value": "9:00 am",
+      "label_relations": [
+        "Start time"
+      ]
+    }
+  ]
+}

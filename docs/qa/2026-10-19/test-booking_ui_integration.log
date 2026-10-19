@@ -1,0 +1,68 @@
+QA_RESULT {"run": 6, "failures": 0, "errors": 0, "skipped": 0}
+test_any_players_keeps_simple_official_link_behaviour (test_booking_ui_integration.BookingUIIntegrationTests.test_any_players_keeps_simple_official_link_behaviour) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_book_button_passes_the_exact_course_and_row_to_handler (test_booking_ui_integration.BookingUIIntegrationTests.test_book_button_passes_the_exact_course_and_row_to_handler) ... ok
+test_cancel_does_not_open_or_hold_anything (test_booking_ui_integration.BookingUIIntegrationTests.test_cancel_does_not_open_or_hold_anything) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_manual_choice_opens_provider_without_any_hold (test_booking_ui_integration.BookingUIIntegrationTests.test_manual_choice_opens_provider_without_any_hold) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_selected_players_builds_confirmed_plan_and_opens_safe_dialog (test_booking_ui_integration.BookingUIIntegrationTests.test_selected_players_builds_confirmed_plan_and_opens_safe_dialog) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_unsupported_provider_explains_manual_player_selection (test_booking_ui_integration.BookingUIIntegrationTests.test_unsupported_provider_explains_manual_player_selection) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.220s
+
+OK
+malloc_consolidate(): unaligned fastbin chunk detected

@@ -7,6 +7,7 @@ on:
       - "app/**"
       - "data/courses.json"
       - "requirements.txt"
+      - "tests/test_course_controls.py"
       - "tests/test_calendar_keyboard.py"
       - "tests/test_multiday_ui.py"
       - "tests/test_perth_dates.py"
@@ -20,6 +21,7 @@ on:
       - "app/**"
       - "data/courses.json"
       - "requirements.txt"
+      - "tests/test_course_controls.py"
       - "tests/test_calendar_keyboard.py"
       - "tests/test_multiday_ui.py"
       - "tests/test_perth_dates.py"
@@ -49,6 +51,7 @@ jobs:
           LOCALAPPDATA: ${{ runner.temp }}/golfhub-desktop-tests
         run: |
           $modules = @(
+            "test_course_controls.py",
             "test_calendar_keyboard.py",
             "test_multiday_ui.py",
             "test_perth_dates.py",

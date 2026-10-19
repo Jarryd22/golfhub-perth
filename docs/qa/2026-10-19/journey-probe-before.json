@@ -1,0 +1,1399 @@
+{
+  "source_app_sha256": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+  "phase": "before",
+  "kind": "Linux real Qt offscreen source-widget interaction with synthetic data and blocked sockets",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "pyside": "6.12.0",
+  "app_version": "5.0",
+  "timestamp_utc": "2026-10-19T00:24:30.537946+00:00",
+  "selection": {
+    "initial": {
+      "selected": 37,
+      "label": "37 selected"
+    },
+    "after_checkbox_click": {
+      "selected": 36,
+      "label": "37 selected",
+      "checkbox_course": "Altone Park",
+      "checked": false,
+      "callback_errors": 1
+    },
+    "count_agrees": false,
+    "after_space": {
+      "selected": 37,
+      "label": "37 selected",
+      "checked": true
+    }
+  },
+  "names": {
+    "players": {
+      "property": "",
+      "interface_name": "Any",
+      "interface_value": "Any"
+    },
+    "time_preset": {
+      "property": "",
+      "interface_name": "Any time",
+      "interface_value": "Any time"
+    },
+    "start_time": {
+      "property": "Start time",
+      "interface_name": "Any",
+      "interface_value": "Any"
+    },
+    "end_time": {
+      "property": "End time",
+      "interface_name": "Any",
+      "interface_value": "Any"
+    },
+    "course_search": {
+      "property": "",
+      "interface_name": "",
+      "interface_value": ""
+    },
+    "course_checkbox": {
+      "property": "",
+      "interface_name": "",
+      "interface_value": ""
+    }
+  },
+  "search_placeholder": "Search courses or suburbs",
+  "case_insensitive_name_search": [
+    "Altone Park"
+  ],
+  "coverage": {
+    "configured": 41,
+    "providers": {
+      "direct": 21,
+      "miclub": 17,
+      "quick18": 3
+    },
+    "dates": [
+      "2026-10-19",
+      "2026-10-20"
+    ],
+    "rounds": {
+      "18": {
+        "eligible": [
+          "Altone Park",
+          "Araluen",
+          "Boddington Golf Club",
+          "Carramar",
+          "Chequers",
+          "Collier Park",
+          "Fremantle",
+          "Gosnells Golf Club",
+          "Hamersley",
+          "Hartfield",
+          "Hillview",
+          "Joondalup Resort",
+          "Kwinana",
+          "Links Kennedy Bay",
+          "Mandurah Country Club",
+          "Marangaroo",
+          "Marri Park",
+          "Maylands",
+          "Meadow Springs",
+          "Mosman Park",
+          "Nedlands Golf Club",
+          "Pickering Brook",
+          "Pinjarra",
+          "Rockingham",
+          "Rottnest Island",
+          "Sea View",
+          "Secret Harbour",
+          "Serpentine & Districts",
+          "Sun City",
+          "The Cut",
+          "The Springs",
+          "The Vines",
+          "Wanneroo Golf Club",
+          "Waroona Golf Club",
+          "Wembley",
+          "Whaleback",
+          "Yanchep National Park"
+        ],
+        "selected": 37
+      },
+      "9": {
+        "eligible": [
+          "Altone Park",
+          "Araluen",
+          "Boddington Golf Club",
+          "Carramar",
+          "Collier Park",
+          "Embleton",
+          "Fremantle",
+          "Gosnells Golf Club",
+          "Hamersley",
+          "Hartfield",
+          "Hillview",
+          "Joondalup Resort",
+          "Kwinana",
+          "Lake Claremont",
+          "Links Kennedy Bay",
+          "Mandurah Country Club",
+          "Marangaroo",
+          "Marri Park",
+          "Maylands",
+          "Meadow Springs",
+          "Mosman Park",
+          "Pinjarra",
+          "Point Walter",
+          "Preston Beach",
+          "Rockingham",
+          "Rottnest Island",
+          "Sea View",
+          "Secret Harbour",
+          "Serpentine & Districts",
+          "Sun City",
+          "The Springs",
+          "The Vines",
+          "Wanneroo Golf Club",
+          "Waroona Golf Club",
+          "Wembley",
+          "Whaleback",
+          "Yanchep National Park"
+        ],
+        "selected": 37
+      }
+    },
+    "intercepted_course_card_clicks": 148,
+    "url_checks": [
+      {
+        "course": "Altone Park",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.altoneparkgolfcourse.com.au",
+        "intercepted_url": "https://www.altoneparkgolfcourse.com.au"
+      },
+      {
+        "course": "Araluen",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102807",
+        "intercepted_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102807"
+      },
+      {
+        "course": "Boddington Golf Club",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+        "intercepted_url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      },
+      {
+        "course": "Carramar",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500624075",
+        "intercepted_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500624075"
+      },
+      {
+        "course": "Chequers",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.chequersgolf.com",
+        "intercepted_url": "https://www.chequersgolf.com"
+      },
+      {
+        "course": "Collier Park",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500257612",
+        "intercepted_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000"
+      },
+      {
+        "course": "Fremantle",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=112751",
+        "intercepted_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=112751"
+      },
+      {
+        "course": "Gosnells Golf Club",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=19995128",
+        "intercepted_url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=19995128"
+      },
+      {
+        "course": "Hamersley",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "quick18",
+        "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261019",
+        "intercepted_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261019"
+      },
+      {
+        "course": "Hartfield",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1511784382",
+        "intercepted_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1511784382"
+      },
+      {
+        "course": "Hillview",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://hillviewgolfcourse.com.au",
+        "intercepted_url": "https://hillviewgolfcourse.com.au"
+      },
+      {
+        "course": "Joondalup Resort",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-19&feeGroupId=1508198355",
+        "intercepted_url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-19&feeGroupId=1508198355"
+      },
+      {
+        "course": "Kwinana",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1505795368",
+        "intercepted_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1505795368"
+      },
+      {
+        "course": "Links Kennedy Bay",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=3451280",
+        "intercepted_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=3451280"
+      },
+      {
+        "course": "Mandurah Country Club",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.mandcountryclub.com.au",
+        "intercepted_url": "https://www.mandcountryclub.com.au"
+      },
+      {
+        "course": "Marangaroo",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500406571",
+        "intercepted_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500406571"
+      },
+      {
+        "course": "Marri Park",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://marriparkgolf.com.au",
+        "intercepted_url": "https://marriparkgolf.com.au"
+      },
+      {
+        "course": "Maylands",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=100795",
+        "intercepted_url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=100795"
+      },
+      {
+        "course": "Meadow Springs",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.msgcc.com.au",
+        "intercepted_url": "https://www.msgcc.com.au"
+      },
+      {
+        "course": "Mosman Park",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=2100233",
+        "intercepted_url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=2100233"
+      },
+      {
+        "course": "Nedlands Golf Club",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.nedlandsgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=3579395",
+        "intercepted_url": "https://www.nedlandsgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=3579395"
+      },
+      {
+        "course": "Pickering Brook",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.pickeringbrooksportsclub.org/golf",
+        "intercepted_url": "https://www.pickeringbrooksportsclub.org/golf"
+      },
+      {
+        "course": "Pinjarra",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.pinjarragolf.com.au/cms/public-bookings",
+        "intercepted_url": "https://www.pinjarragolf.com.au/cms/public-bookings"
+      },
+      {
+        "course": "Rockingham",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+        "intercepted_url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings"
+      },
+      {
+        "course": "Rottnest Island",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.rigcclubhouse.com.au/home",
+        "intercepted_url": "https://www.rigcclubhouse.com.au/home"
+      },
+      {
+        "course": "Sea View",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://seaviewgolfclub.com.au",
+        "intercepted_url": "https://seaviewgolfclub.com.au"
+      },
+      {
+        "course": "Secret Harbour",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=12445",
+        "intercepted_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=12445"
+      },
+      {
+        "course": "Serpentine & Districts",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://serpentinegolfclub.org/fees/",
+        "intercepted_url": "https://serpentinegolfclub.org/fees/"
+      },
+      {
+        "course": "Sun City",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+        "intercepted_url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp"
+      },
+      {
+        "course": "The Cut",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://thecutgolf.com.au/Golf-Rates",
+        "intercepted_url": "https://thecutgolf.com.au/Golf-Rates"
+      },
+      {
+        "course": "The Springs",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "quick18",
+        "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261019",
+        "intercepted_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261019"
+      },
+      {
+        "course": "The Vines",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-19&feeGroupId=25803812",
+        "intercepted_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-19&feeGroupId=25803812"
+      },
+      {
+        "course": "Wanneroo Golf Club",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+        "intercepted_url": "https://wanneroo.miclub.com.au/cms/public-bookings/"
+      },
+      {
+        "course": "Waroona Golf Club",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.waroonagolfclub.com.au/green-fees",
+        "intercepted_url": "https://www.waroonagolfclub.com.au/green-fees"
+      },
+      {
+        "course": "Wembley",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102184",
+        "intercepted_url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102184"
+      },
+      {
+        "course": "Whaleback",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500344723",
+        "intercepted_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500344723"
+      },
+      {
+        "course": "Yanchep National Park",
+        "date": "2026-10-19",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+        "intercepted_url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course"
+      },
+      {
+        "course": "Altone Park",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.altoneparkgolfcourse.com.au",
+        "intercepted_url": "https://www.altoneparkgolfcourse.com.au"
+      },
+      {
+        "course": "Araluen",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102807",
+        "intercepted_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102807"
+      },
+      {
+        "course": "Boddington Golf Club",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+        "intercepted_url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      },
+      {
+        "course": "Carramar",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500624075",
+        "intercepted_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500624075"
+      },
+      {
+        "course": "Chequers",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.chequersgolf.com",
+        "intercepted_url": "https://www.chequersgolf.com"
+      },
+      {
+        "course": "Collier Park",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500257612",
+        "intercepted_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000"
+      },
+      {
+        "course": "Fremantle",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=112751",
+        "intercepted_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=112751"
+      },
+      {
+        "course": "Gosnells Golf Club",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=19995128",
+        "intercepted_url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=19995128"
+      },
+      {
+        "course": "Hamersley",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "quick18",
+        "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261020",
+        "intercepted_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261020"
+      },
+      {
+        "course": "Hartfield",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1511784382",
+        "intercepted_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1511784382"
+      },
+      {
+        "course": "Hillview",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://hillviewgolfcourse.com.au",
+        "intercepted_url": "https://hillviewgolfcourse.com.au"
+      },
+      {
+        "course": "Joondalup Resort",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-20&feeGroupId=1508198355",
+        "intercepted_url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-20&feeGroupId=1508198355"
+      },
+      {
+        "course": "Kwinana",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1505795368",
+        "intercepted_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1505795368"
+      },
+      {
+        "course": "Links Kennedy Bay",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=3451280",
+        "intercepted_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=3451280"
+      },
+      {
+        "course": "Mandurah Country Club",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.mandcountryclub.com.au",
+        "intercepted_url": "https://www.mandcountryclub.com.au"
+      },
+      {
+        "course": "Marangaroo",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500406571",
+        "intercepted_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500406571"
+      },
+      {
+        "course": "Marri Park",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://marriparkgolf.com.au",
+        "intercepted_url": "https://marriparkgolf.com.au"
+      },
+      {
+        "course": "Maylands",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=100795",
+        "intercepted_url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=100795"
+      },
+      {
+        "course": "Meadow Springs",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.msgcc.com.au",
+        "intercepted_url": "https://www.msgcc.com.au"
+      },
+      {
+        "course": "Mosman Park",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=2100233",
+        "intercepted_url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=2100233"
+      },
+      {
+        "course": "Nedlands Golf Club",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.nedlandsgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=3579395",
+        "intercepted_url": "https://www.nedlandsgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=3579395"
+      },
+      {
+        "course": "Pickering Brook",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.pickeringbrooksportsclub.org/golf",
+        "intercepted_url": "https://www.pickeringbrooksportsclub.org/golf"
+      },
+      {
+        "course": "Pinjarra",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.pinjarragolf.com.au/cms/public-bookings",
+        "intercepted_url": "https://www.pinjarragolf.com.au/cms/public-bookings"
+      },
+      {
+        "course": "Rockingham",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+        "intercepted_url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings"
+      },
+      {
+        "course": "Rottnest Island",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.rigcclubhouse.com.au/home",
+        "intercepted_url": "https://www.rigcclubhouse.com.au/home"
+      },
+      {
+        "course": "Sea View",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://seaviewgolfclub.com.au",
+        "intercepted_url": "https://seaviewgolfclub.com.au"
+      },
+      {
+        "course": "Secret Harbour",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=12445",
+        "intercepted_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=12445"
+      },
+      {
+        "course": "Serpentine & Districts",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://serpentinegolfclub.org/fees/",
+        "intercepted_url": "https://serpentinegolfclub.org/fees/"
+      },
+      {
+        "course": "Sun City",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+        "intercepted_url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp"
+      },
+      {
+        "course": "The Cut",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://thecutgolf.com.au/Golf-Rates",
+        "intercepted_url": "https://thecutgolf.com.au/Golf-Rates"
+      },
+      {
+        "course": "The Springs",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "quick18",
+        "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261020",
+        "intercepted_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261020"
+      },
+      {
+        "course": "The Vines",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-20&feeGroupId=25803812",
+        "intercepted_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-20&feeGroupId=25803812"
+      },
+      {
+        "course": "Wanneroo Golf Club",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+        "intercepted_url": "https://wanneroo.miclub.com.au/cms/public-bookings/"
+      },
+      {
+        "course": "Waroona Golf Club",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://www.waroonagolfclub.com.au/green-fees",
+        "intercepted_url": "https://www.waroonagolfclub.com.au/green-fees"
+      },
+      {
+        "course": "Wembley",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102184",
+        "intercepted_url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102184"
+      },
+      {
+        "course": "Whaleback",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "miclub",
+        "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500344723",
+        "intercepted_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500344723"
+      },
+      {
+        "course": "Yanchep National Park",
+        "date": "2026-10-20",
+        "holes": "18",
+        "provider": "direct",
+        "url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+        "intercepted_url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course"
+      },
+      {
+        "course": "Altone Park",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.altoneparkgolfcourse.com.au",
+        "intercepted_url": "https://www.altoneparkgolfcourse.com.au"
+      },
+      {
+        "course": "Araluen",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102808",
+        "intercepted_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102808"
+      },
+      {
+        "course": "Boddington Golf Club",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+        "intercepted_url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      },
+      {
+        "course": "Carramar",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500682805",
+        "intercepted_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500682805"
+      },
+      {
+        "course": "Collier Park",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500323733",
+        "intercepted_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000"
+      },
+      {
+        "course": "Embleton",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://embletongolf.com.au",
+        "intercepted_url": "https://embletongolf.com.au"
+      },
+      {
+        "course": "Fremantle",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=103961",
+        "intercepted_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=103961"
+      },
+      {
+        "course": "Gosnells Golf Club",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=4981964",
+        "intercepted_url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=4981964"
+      },
+      {
+        "course": "Hamersley",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "quick18",
+        "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261019",
+        "intercepted_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261019"
+      },
+      {
+        "course": "Hartfield",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1511784389",
+        "intercepted_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1511784389"
+      },
+      {
+        "course": "Hillview",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://hillviewgolfcourse.com.au",
+        "intercepted_url": "https://hillviewgolfcourse.com.au"
+      },
+      {
+        "course": "Joondalup Resort",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-19&feeGroupId=1508504524",
+        "intercepted_url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-19&feeGroupId=1508504524"
+      },
+      {
+        "course": "Kwinana",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1502727564",
+        "intercepted_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1502727564"
+      },
+      {
+        "course": "Lake Claremont",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "quick18",
+        "url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20261019",
+        "intercepted_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20261019"
+      },
+      {
+        "course": "Links Kennedy Bay",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=3451283",
+        "intercepted_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=3451283"
+      },
+      {
+        "course": "Mandurah Country Club",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.mandcountryclub.com.au",
+        "intercepted_url": "https://www.mandcountryclub.com.au"
+      },
+      {
+        "course": "Marangaroo",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500406575",
+        "intercepted_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500406575"
+      },
+      {
+        "course": "Marri Park",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://marriparkgolf.com.au",
+        "intercepted_url": "https://marriparkgolf.com.au"
+      },
+      {
+        "course": "Maylands",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=100797",
+        "intercepted_url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=100797"
+      },
+      {
+        "course": "Meadow Springs",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.msgcc.com.au",
+        "intercepted_url": "https://www.msgcc.com.au"
+      },
+      {
+        "course": "Mosman Park",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=2100238",
+        "intercepted_url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=2100238"
+      },
+      {
+        "course": "Pinjarra",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.pinjarragolf.com.au/cms/public-bookings",
+        "intercepted_url": "https://www.pinjarragolf.com.au/cms/public-bookings"
+      },
+      {
+        "course": "Point Walter",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings",
+        "intercepted_url": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings"
+      },
+      {
+        "course": "Preston Beach",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.visitwaroona.com.au/adventure/sport-and-recreation.aspx",
+        "intercepted_url": "https://www.visitwaroona.com.au/adventure/sport-and-recreation.aspx"
+      },
+      {
+        "course": "Rockingham",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+        "intercepted_url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings"
+      },
+      {
+        "course": "Rottnest Island",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.rigcclubhouse.com.au/home",
+        "intercepted_url": "https://www.rigcclubhouse.com.au/home"
+      },
+      {
+        "course": "Sea View",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://seaviewgolfclub.com.au",
+        "intercepted_url": "https://seaviewgolfclub.com.au"
+      },
+      {
+        "course": "Secret Harbour",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=12449",
+        "intercepted_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=12449"
+      },
+      {
+        "course": "Serpentine & Districts",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://serpentinegolfclub.org/fees/",
+        "intercepted_url": "https://serpentinegolfclub.org/fees/"
+      },
+      {
+        "course": "Sun City",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+        "intercepted_url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp"
+      },
+      {
+        "course": "The Springs",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "quick18",
+        "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261019",
+        "intercepted_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261019"
+      },
+      {
+        "course": "The Vines",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-19&feeGroupId=22289426",
+        "intercepted_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-19&feeGroupId=22289426"
+      },
+      {
+        "course": "Wanneroo Golf Club",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+        "intercepted_url": "https://wanneroo.miclub.com.au/cms/public-bookings/"
+      },
+      {
+        "course": "Waroona Golf Club",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.waroonagolfclub.com.au/green-fees",
+        "intercepted_url": "https://www.waroonagolfclub.com.au/green-fees"
+      },
+      {
+        "course": "Wembley",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102211",
+        "intercepted_url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=102211"
+      },
+      {
+        "course": "Whaleback",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500344725",
+        "intercepted_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-19&feeGroupId=1500344725"
+      },
+      {
+        "course": "Yanchep National Park",
+        "date": "2026-10-19",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+        "intercepted_url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course"
+      },
+      {
+        "course": "Altone Park",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.altoneparkgolfcourse.com.au",
+        "intercepted_url": "https://www.altoneparkgolfcourse.com.au"
+      },
+      {
+        "course": "Araluen",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102808",
+        "intercepted_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102808"
+      },
+      {
+        "course": "Boddington Golf Club",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+        "intercepted_url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      },
+      {
+        "course": "Carramar",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500682805",
+        "intercepted_url": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500682805"
+      },
+      {
+        "course": "Collier Park",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500323733",
+        "intercepted_url": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000"
+      },
+      {
+        "course": "Embleton",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://embletongolf.com.au",
+        "intercepted_url": "https://embletongolf.com.au"
+      },
+      {
+        "course": "Fremantle",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=103961",
+        "intercepted_url": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=103961"
+      },
+      {
+        "course": "Gosnells Golf Club",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=4981964",
+        "intercepted_url": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=4981964"
+      },
+      {
+        "course": "Hamersley",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "quick18",
+        "url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261020",
+        "intercepted_url": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20261020"
+      },
+      {
+        "course": "Hartfield",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1511784389",
+        "intercepted_url": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1511784389"
+      },
+      {
+        "course": "Hillview",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://hillviewgolfcourse.com.au",
+        "intercepted_url": "https://hillviewgolfcourse.com.au"
+      },
+      {
+        "course": "Joondalup Resort",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-20&feeGroupId=1508504524",
+        "intercepted_url": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2026-10-20&feeGroupId=1508504524"
+      },
+      {
+        "course": "Kwinana",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1502727564",
+        "intercepted_url": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1502727564"
+      },
+      {
+        "course": "Lake Claremont",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "quick18",
+        "url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20261020",
+        "intercepted_url": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20261020"
+      },
+      {
+        "course": "Links Kennedy Bay",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=3451283",
+        "intercepted_url": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=3451283"
+      },
+      {
+        "course": "Mandurah Country Club",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.mandcountryclub.com.au",
+        "intercepted_url": "https://www.mandcountryclub.com.au"
+      },
+      {
+        "course": "Marangaroo",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500406575",
+        "intercepted_url": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500406575"
+      },
+      {
+        "course": "Marri Park",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://marriparkgolf.com.au",
+        "intercepted_url": "https://marriparkgolf.com.au"
+      },
+      {
+        "course": "Maylands",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=100797",
+        "intercepted_url": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=100797"
+      },
+      {
+        "course": "Meadow Springs",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.msgcc.com.au",
+        "intercepted_url": "https://www.msgcc.com.au"
+      },
+      {
+        "course": "Mosman Park",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=2100238",
+        "intercepted_url": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=2100238"
+      },
+      {
+        "course": "Pinjarra",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.pinjarragolf.com.au/cms/public-bookings",
+        "intercepted_url": "https://www.pinjarragolf.com.au/cms/public-bookings"
+      },
+      {
+        "course": "Point Walter",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings",
+        "intercepted_url": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings"
+      },
+      {
+        "course": "Preston Beach",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.visitwaroona.com.au/adventure/sport-and-recreation.aspx",
+        "intercepted_url": "https://www.visitwaroona.com.au/adventure/sport-and-recreation.aspx"
+      },
+      {
+        "course": "Rockingham",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+        "intercepted_url": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings"
+      },
+      {
+        "course": "Rottnest Island",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.rigcclubhouse.com.au/home",
+        "intercepted_url": "https://www.rigcclubhouse.com.au/home"
+      },
+      {
+        "course": "Sea View",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://seaviewgolfclub.com.au",
+        "intercepted_url": "https://seaviewgolfclub.com.au"
+      },
+      {
+        "course": "Secret Harbour",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=12449",
+        "intercepted_url": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=12449"
+      },
+      {
+        "course": "Serpentine & Districts",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://serpentinegolfclub.org/fees/",
+        "intercepted_url": "https://serpentinegolfclub.org/fees/"
+      },
+      {
+        "course": "Sun City",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+        "intercepted_url": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp"
+      },
+      {
+        "course": "The Springs",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "quick18",
+        "url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261020",
+        "intercepted_url": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20261020"
+      },
+      {
+        "course": "The Vines",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-20&feeGroupId=22289426",
+        "intercepted_url": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2026-10-20&feeGroupId=22289426"
+      },
+      {
+        "course": "Wanneroo Golf Club",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+        "intercepted_url": "https://wanneroo.miclub.com.au/cms/public-bookings/"
+      },
+      {
+        "course": "Waroona Golf Club",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://www.waroonagolfclub.com.au/green-fees",
+        "intercepted_url": "https://www.waroonagolfclub.com.au/green-fees"
+      },
+      {
+        "course": "Wembley",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102211",
+        "intercepted_url": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=102211"
+      },
+      {
+        "course": "Whaleback",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "miclub",
+        "url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500344725",
+        "intercepted_url": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-20&feeGroupId=1500344725"
+      },
+      {
+        "course": "Yanchep National Park",
+        "date": "2026-10-20",
+        "holes": "9",
+        "provider": "direct",
+        "url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+        "intercepted_url": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course"
+      }
+    ]
+  },
+  "freshness_fixture": {
+    "publication_age_seconds": 0,
+    "course_and_weather_fixture_age_seconds": 7200,
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "card_labels": [
+      "Araluen",
+      "1 matching tee time - 18 holes",
+      "",
+      "Clear   12-24 C",
+      "Rain 10%   |   Wind 15 km/h",
+      "10:00 am",
+      "4 spots"
+    ],
+    "stale_marker_visible": false,
+    "known_backlog_finding": true
+  },
+  "weather_rendering": {
+    "unavailable": [
+      "",
+      "Forecast unavailable"
+    ],
+    "valid_zero_rain": [
+      "",
+      "Clear   12-24 C",
+      "Rain 0%   |   Wind 15 km/h"
+    ],
+    "zero_sentinel": [
+      "",
+      "Clear   0-0 C",
+      "Rain 0%   |   Wind 0 km/h"
+    ],
+    "partial": [
+      "",
+      "Clear   ----- C",
+      "Rain 0%   |   Wind -- km/h"
+    ]
+  },
+  "callback_errors": {
+    "count": 44,
+    "distinct": [
+      "TypeError: toggled() only accepts 0 argument(s), 1 given!\n"
+    ]
+  },
+  "limitations": [
+    "Linux offscreen widgets only; no installed Windows, Android device, display scaling, screen-reader or native input testing.",
+    "All booking opens intercepted; no provider URL visited, booking selection, hold or transaction.",
+    "Synthetic weather and stale records do not demonstrate a live outage or forecast observation age.",
+    "Combo interface Name may return current value under Qt 6.12; property and interface are recorded separately."
+  ]
+}
