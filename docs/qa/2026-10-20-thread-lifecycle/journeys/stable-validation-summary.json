@@ -1,0 +1,264 @@
+{
+  "created_utc": "2026-10-20T00:26:33.006185+00:00",
+  "app_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+  "thread_tests_sha256": "1d85f1aa6e7002a7005aacdb479004d2650c115f949966235d3a7c966c903602",
+  "harness_sha256": "e420a7930133b12c43454a426e11f4e271689b3cae353080674bdd2f3f2ee103",
+  "python": "3.12.14",
+  "qt_versions": {
+    "qt612": "6.12.0",
+    "qt611": "6.11.1"
+  },
+  "exact_original_async_harness_runs": [
+    {
+      "version": "qt612",
+      "repetition": 1,
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/journey-smoke.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-qt612-1",
+        "--phase",
+        "final-thread-diagnosis-20261020"
+      ],
+      "returncode": 0,
+      "elapsed": 1.089,
+      "log": "/tmp/golfhub-thread-diagnosis/stable-qt612-1/process.log",
+      "app_sha256_before": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "app_sha256_after": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "checks": 18,
+      "timeout": false,
+      "stack": null,
+      "synchronous_fixture": false,
+      "retained_wrapper_workaround": false
+    },
+    {
+      "version": "qt611",
+      "repetition": 1,
+      "command": [
+        "/tmp/golfhub-qt611-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/journey-smoke.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-qt611-1",
+        "--phase",
+        "final-thread-diagnosis-20261020"
+      ],
+      "returncode": 0,
+      "elapsed": 1.221,
+      "log": "/tmp/golfhub-thread-diagnosis/stable-qt611-1/process.log",
+      "app_sha256_before": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "app_sha256_after": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "checks": 18,
+      "timeout": false,
+      "stack": null,
+      "synchronous_fixture": false,
+      "retained_wrapper_workaround": false
+    },
+    {
+      "version": "qt612",
+      "repetition": 2,
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/journey-smoke.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-qt612-2",
+        "--phase",
+        "final-thread-diagnosis-20261020"
+      ],
+      "returncode": 0,
+      "elapsed": 1.034,
+      "log": "/tmp/golfhub-thread-diagnosis/stable-qt612-2/process.log",
+      "app_sha256_before": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "app_sha256_after": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "checks": 18,
+      "timeout": false,
+      "stack": null,
+      "synchronous_fixture": false,
+      "retained_wrapper_workaround": false
+    },
+    {
+      "version": "qt611",
+      "repetition": 2,
+      "command": [
+        "/tmp/golfhub-qt611-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/journey-smoke.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-qt611-2",
+        "--phase",
+        "final-thread-diagnosis-20261020"
+      ],
+      "returncode": -6,
+      "elapsed": 25.03,
+      "log": "/tmp/golfhub-thread-diagnosis/stable-qt611-2/process.log",
+      "app_sha256_before": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "app_sha256_after": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "checks": null,
+      "timeout": true,
+      "stack": "Fatal Python error: Aborted\n\nThread 0x00007f781d2506c0 (most recent call first):\n  <no Python frame>\n\nCurrent thread 0x00007f7833d54740 (most recent call first):\n  File \"/tmp/golfhub-thread-diagnosis/journey-smoke.py\", line 136 in search\n  File \"/tmp/golfhub-thread-diagnosis/journey-smoke.py\", line 179 in main\n  File \"/tmp/golfhub-thread-diagnosis/journey-smoke.py\", line 265 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore, PySide6.QtGui, PySide6.QtWidgets, PySide6.QtTest, PySide6.QtNetwork, PySide6.QtPrintSupport, PySide6.QtWebChannel, PySide6.QtWebEngineCore, PySide6.QtWebEngineWidgets (total: 10)\n",
+      "synchronous_fixture": false,
+      "retained_wrapper_workaround": false
+    },
+    {
+      "version": "qt612",
+      "repetition": 3,
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/journey-smoke.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-qt612-3",
+        "--phase",
+        "final-thread-diagnosis-20261020"
+      ],
+      "returncode": 0,
+      "elapsed": 1.137,
+      "log": "/tmp/golfhub-thread-diagnosis/stable-qt612-3/process.log",
+      "app_sha256_before": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "app_sha256_after": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "checks": 18,
+      "timeout": false,
+      "stack": null,
+      "synchronous_fixture": false,
+      "retained_wrapper_workaround": false
+    }
+  ],
+  "real_app_exec_runs": [
+    {
+      "version": "qt612",
+      "mode": "cache",
+      "status": "passed",
+      "checks": 5,
+      "callback_errors": 0,
+      "result": "/tmp/golfhub-thread-diagnosis/stable-loop-cache-qt612/result.json",
+      "log": "/tmp/golfhub-thread-diagnosis/stable-loop-cache-qt612/process.log",
+      "app_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/app-loop-probe.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--mode",
+        "cache",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-loop-cache-qt612/result.json"
+      ]
+    },
+    {
+      "version": "qt612",
+      "mode": "scan",
+      "status": "passed",
+      "checks": 5,
+      "callback_errors": 0,
+      "result": "/tmp/golfhub-thread-diagnosis/stable-loop-scan-qt612/result.json",
+      "log": "/tmp/golfhub-thread-diagnosis/stable-loop-scan-qt612/process.log",
+      "app_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/app-loop-probe.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--mode",
+        "scan",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-loop-scan-qt612/result.json"
+      ]
+    },
+    {
+      "version": "qt611",
+      "mode": "cache",
+      "status": "passed",
+      "checks": 5,
+      "callback_errors": 0,
+      "result": "/tmp/golfhub-thread-diagnosis/stable-loop-cache-qt611/result.json",
+      "log": "/tmp/golfhub-thread-diagnosis/stable-loop-cache-qt611/process.log",
+      "app_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "command": [
+        "/tmp/golfhub-qt611-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/app-loop-probe.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--mode",
+        "cache",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-loop-cache-qt611/result.json"
+      ]
+    },
+    {
+      "version": "qt611",
+      "mode": "scan",
+      "status": "passed",
+      "checks": 5,
+      "callback_errors": 0,
+      "result": "/tmp/golfhub-thread-diagnosis/stable-loop-scan-qt611/result.json",
+      "log": "/tmp/golfhub-thread-diagnosis/stable-loop-scan-qt611/process.log",
+      "app_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "command": [
+        "/tmp/golfhub-qt611-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-thread-diagnosis/app-loop-probe.py",
+        "--root",
+        "/workspace/golfhub-perth",
+        "--mode",
+        "scan",
+        "--output",
+        "/tmp/golfhub-thread-diagnosis/stable-loop-scan-qt611/result.json"
+      ]
+    }
+  ],
+  "limitations": [
+    "One final Qt 6.11 manual-event-pump smoke passed all 18 checks; the second stalled in QTest.qWait during the nonconsecutive-date search and was diagnostically aborted after 25 seconds. No SIGSEGV was observed in these final runs.",
+    "The exact native cause of the remaining Qt 6.11 stall is unresolved. Instrumentation perturbed timing and completed; three successful Qt 6.12 runs do not establish universal asynchronous stability.",
+    "Real QApplication.exec cache/scan runs and deterministic native-finish tests are separate evidence; no native Windows/Android installed-client claim."
+  ],
+  "instrumented_diagnostic": {
+    "log": "/tmp/golfhub-thread-diagnosis/trace-qt611-fixed/process.log",
+    "source": "/tmp/golfhub-thread-diagnosis/trace-source/app/qt_golfhub_app.py",
+    "source_sha256": "c1c5e08f6999b2e4524e2d3e53afd4721bc11e27ca9b3181bbdd056f0ce8bfe3",
+    "status": "completed",
+    "actual_wait_false_events": 5,
+    "example": {
+      "event": "cache_thread_done.wait_false",
+      "python_thread": 140309800208192,
+      "native_thread": 8820,
+      "monotonic": 1341.433161309,
+      "cache": {
+        "thread_present": true,
+        "worker_present": true,
+        "valid": true,
+        "running": false,
+        "finished": true
+      },
+      "scan": {
+        "thread_present": false,
+        "worker_present": false
+      },
+      "closing": false
+    },
+    "interpretation": "Observed real finished-but-not-joined intervals: wait(0) was false while running was false and finished was true, then wait succeeded before references cleared. This supports retaining references until wait succeeds. Successful tracing does not explain the remaining untraced stall."
+  }
+}

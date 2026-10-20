@@ -1,0 +1,22 @@
+[
+  {
+    "case": "events-parentless",
+    "exit_code": -11,
+    "output": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f121ffc76c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f1223d72740 (most recent call first):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 62 in cache_thread_done\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 88 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore (total: 2)\n"
+  },
+  {
+    "case": "events-parented",
+    "exit_code": -11,
+    "output": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007ff7bb84e6c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007ff7bf5f9740 (most recent call first):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 63 in cache_thread_done\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 88 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore (total: 2)\n"
+  },
+  {
+    "case": "exec-parentless",
+    "exit_code": -11,
+    "output": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f7df3a646c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f7df780f740 (most recent call first):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 62 in cache_thread_done\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 95 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore (total: 2)\n"
+  },
+  {
+    "case": "exec-parented",
+    "exit_code": -11,
+    "output": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f7d61dfb6c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f7d663a7740 (most recent call first):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 44 in start\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 66 in cache_thread_done\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 95 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore (total: 2)\n"
+  }
+]

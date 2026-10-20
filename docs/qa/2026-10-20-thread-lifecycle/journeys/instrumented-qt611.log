@@ -1,0 +1,715 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.419864817, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.420784069, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8832, "monotonic": 1341.420880541}
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8832, "monotonic": 1341.4216208}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8832, "monotonic": 1341.421691024}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.423336565, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.433067882, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_false", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.433161309, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.445545639, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.445594882, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.445625406, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.460112711, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.461382148, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8835, "monotonic": 1341.461465611}
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8835, "monotonic": 1341.461972978}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8835, "monotonic": 1341.462057452}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.46370099, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.469191008, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_false", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.469337884, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.484585026, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.484649561, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.484690581, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.502329291, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.503560663, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8838, "monotonic": 1341.503640996}
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8838, "monotonic": 1341.504236367}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8838, "monotonic": 1341.504324497}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.505691688, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.508642199, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_false", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.508761184, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.526331785, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.526390802, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.526428317, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.53899779, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.540343159, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8840, "monotonic": 1341.540419101}
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8840, "monotonic": 1341.541211888}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8840, "monotonic": 1341.541288841}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.54251222, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.549815856, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_false", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.549913209, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.563337479, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.563394613, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.563429905, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.575339457, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.576883018, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8842, "monotonic": 1341.576946256}
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8842, "monotonic": 1341.591831195}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8842, "monotonic": 1341.591946034}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.59209604, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.614899088, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.614957324, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.614986617, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.632716342, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.636371169, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8851, "monotonic": 1341.636464897}
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8851, "monotonic": 1341.637116195}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8851, "monotonic": 1341.637191506}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.638314688, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.639855946, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.639959298, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.639987579, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "start_cache_search.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.650678178, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "start_cache_search.after_start", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.653164526, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "worker.run.begin", "python_thread": 140309410076352, "native_thread": 8853, "monotonic": 1341.654166901}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "worker.finished.before_emit", "python_thread": 140309410076352, "native_thread": 8853, "monotonic": 1341.654613683}
+QA_TRACE {"event": "worker.finished.after_emit", "python_thread": 140309410076352, "native_thread": 8853, "monotonic": 1341.654663056}
+QA_TRACE {"event": "cache_finished.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.656967751, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": true, "finished": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.660910823, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_false", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.660989018, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.begin", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.677724088, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.wait_true", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.677788984, "cache": {"thread_present": true, "worker_present": true, "valid": true, "running": false, "finished": true}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+QA_TRACE {"event": "cache_thread_done.cleared", "python_thread": 140309800208192, "native_thread": 8820, "monotonic": 1341.67782727, "cache": {"thread_present": false, "worker_present": false}, "scan": {"thread_present": false, "worker_present": false}, "closing": false}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support propagateSizeHints()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "kind": "offscreen Qt widgets with synthetic data",
+  "phase": "trace-thread-diagnosis-20261020",
+  "retains_completed_worker_wrappers": false,
+  "synchronous_cache_fixture": false,
+  "timestamp_utc": "2026-10-20T00:24:30.441396+00:00",
+  "python": "3.12.14",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "source_sha256": "c1c5e08f6999b2e4524e2d3e53afd4721bc11e27ca9b3181bbdd056f0ce8bfe3",
+  "checks": [
+    {
+      "name": "first launch",
+      "passed": true,
+      "courses": 41,
+      "default_dates": [
+        "2026-10-21"
+      ]
+    },
+    {
+      "name": "course name search",
+      "passed": true,
+      "visible_courses": [
+        "Araluen"
+      ]
+    },
+    {
+      "name": "cache search and course card",
+      "passed": true,
+      "displayed_times": 3,
+      "source": "synthetic shared cache"
+    },
+    {
+      "name": "booking handoff",
+      "passed": true,
+      "intercepted_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2026-10-21&feeGroupId=102807",
+      "actual_navigation": false
+    },
+    {
+      "name": "group and time filters",
+      "passed": true,
+      "minutes": [
+        600
+      ],
+      "spots": [
+        4
+      ]
+    },
+    {
+      "name": "all player and time choices",
+      "passed": true,
+      "combinations": [
+        {
+          "players": "Any",
+          "preset": "Any time",
+          "minutes": [
+            540,
+            600,
+            900
+          ]
+        },
+        {
+          "players": "Any",
+          "preset": "Morning",
+          "minutes": [
+            540,
+            600
+          ]
+        },
+        {
+          "players": "Any",
+          "preset": "Midday",
+          "minutes": []
+        },
+        {
+          "players": "Any",
+          "preset": "Afternoon",
+          "minutes": [
+            900
+          ]
+        },
+        {
+          "players": "Any",
+          "preset": "Custom range",
+          "minutes": [
+            540,
+            600
+          ]
+        },
+        {
+          "players": "1",
+          "preset": "Any time",
+          "minutes": [
+            540,
+            600,
+            900
+          ]
+        },
+        {
+          "players": "1",
+          "preset": "Morning",
+          "minutes": [
+            540,
+            600
+          ]
+        },
+        {
+          "players": "1",
+          "preset": "Midday",
+          "minutes": []
+        },
+        {
+          "players": "1",
+          "preset": "Afternoon",
+          "minutes": [
+            900
+          ]
+        },
+        {
+          "players": "1",
+          "preset": "Custom range",
+          "minutes": [
+            540,
+            600
+          ]
+        },
+        {
+          "players": "2",
+          "preset": "Any time",
+          "minutes": [
+            540,
+            600,
+            900
+          ]
+        },
+        {
+          "players": "2",
+          "preset": "Morning",
+          "minutes": [
+            540,
+            600
+          ]
+        },
+        {
+          "players": "2",
+          "preset": "Midday",
+          "minutes": []
+        },
+        {
+          "players": "2",
+          "preset": "Afternoon",
+          "minutes": [
+            900
+          ]
+        },
+        {
+          "players": "2",
+          "preset": "Custom range",
+          "minutes": [
+            540,
+            600
+          ]
+        },
+        {
+          "players": "3",
+          "preset": "Any time",
+          "minutes": [
+            600,
+            900
+          ]
+        },
+        {
+          "players": "3",
+          "preset": "Morning",
+          "minutes": [
+            600
+          ]
+        },
+        {
+          "players": "3",
+          "preset": "Midday",
+          "minutes": []
+        },
+        {
+          "players": "3",
+          "preset": "Afternoon",
+          "minutes": [
+            900
+          ]
+        },
+        {
+          "players": "3",
+          "preset": "Custom range",
+          "minutes": [
+            600
+          ]
+        },
+        {
+          "players": "4",
+          "preset": "Any time",
+          "minutes": [
+            600,
+            900
+          ]
+        },
+        {
+          "players": "4",
+          "preset": "Morning",
+          "minutes": [
+            600
+          ]
+        },
+        {
+          "players": "4",
+          "preset": "Midday",
+          "minutes": []
+        },
+        {
+          "players": "4",
+          "preset": "Afternoon",
+          "minutes": [
+            900
+          ]
+        },
+        {
+          "players": "4",
+          "preset": "Custom range",
+          "minutes": [
+            600
+          ]
+        }
+      ]
+    },
+    {
+      "name": "9-hole search",
+      "passed": true,
+      "requested_round": "9"
+    },
+    {
+      "name": "nonconsecutive dates",
+      "passed": true,
+      "dates": [
+        "2026-10-20",
+        "2026-10-22"
+      ],
+      "live_disabled": true
+    },
+    {
+      "name": "full 28-day window and lazy expansion",
+      "passed": true,
+      "dates": [
+        "2026-10-20",
+        "2026-10-21",
+        "2026-10-22",
+        "2026-10-23",
+        "2026-10-24",
+        "2026-10-25",
+        "2026-10-26",
+        "2026-10-27",
+        "2026-10-28",
+        "2026-10-29",
+        "2026-10-30",
+        "2026-10-31",
+        "2026-11-01",
+        "2026-11-02",
+        "2026-11-03",
+        "2026-11-04",
+        "2026-11-05",
+        "2026-11-06",
+        "2026-11-07",
+        "2026-11-08",
+        "2026-11-09",
+        "2026-11-10",
+        "2026-11-11",
+        "2026-11-12",
+        "2026-11-13",
+        "2026-11-14",
+        "2026-11-15",
+        "2026-11-16"
+      ],
+      "initially_built": 1,
+      "built_after_last_open": 2
+    },
+    {
+      "name": "offline without saved data",
+      "passed": true,
+      "status": "Multi-day cache temporarily unavailable"
+    },
+    {
+      "name": "offline with saved data",
+      "passed": true,
+      "status": "SAVED CACHE / LESS THAN A MINUTE AGO"
+    },
+    {
+      "name": "provider error and unavailable weather",
+      "passed": true,
+      "booking_button_available": true
+    },
+    {
+      "name": "empty filtered results",
+      "passed": true,
+      "recovery_copy_present": true
+    },
+    {
+      "name": "invalid time range",
+      "passed": true,
+      "message": "The end time must be the same as or later than the start time. Adjust your custom range and try again.",
+      "focus": "End time",
+      "no_search_started": true
+    },
+    {
+      "name": "corrected time range",
+      "passed": true,
+      "matching_times": 2
+    },
+    {
+      "name": "resize",
+      "passed": true,
+      "requested": [
+        980,
+        640
+      ],
+      "actual": [
+        980,
+        640
+      ]
+    },
+    {
+      "name": "resize",
+      "passed": true,
+      "requested": [
+        1280,
+        800
+      ],
+      "actual": [
+        1280,
+        800
+      ]
+    },
+    {
+      "name": "resize",
+      "passed": true,
+      "requested": [
+        1600,
+        1000
+      ],
+      "actual": [
+        1600,
+        1000
+      ]
+    }
+  ],
+  "accessibility": {
+    "start_time": "9:00 am",
+    "end_time": "3:00 pm",
+    "players": "4",
+    "course_checkbox": "Araluen"
+  },
+  "limitations": [
+    "No native desktop driver, screen reader, installer, or Android test.",
+    "Provider/cache/weather data mocked; no live availability claim."
+  ],
+  "callback_errors": {
+    "count": 0,
+    "distinct": []
+  },
+  "status": "passed"
+}

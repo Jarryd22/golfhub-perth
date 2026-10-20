@@ -73,6 +73,12 @@ class _ActiveStartupThread:
     def isRunning(self):
         return self.running
 
+    def wait(self, milliseconds):
+        return not self.running
+
+    def deleteLater(self):
+        pass
+
 
 class SearchRaceRegressionTests(unittest.TestCase):
     @classmethod

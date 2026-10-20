@@ -1,0 +1,42 @@
+[
+  {
+    "case": "events-parentless-wait",
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 65, in cache_thread_done\n    assert self.cache_thread.wait(1000), \"Finished thread did not complete native cleanup in one second\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: libshiboken: Internal C++ object (PySide6.QtCore.QThread) already deleted.\n{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"events\", \"release\": \"wait\", \"requested\": 200, \"completed\": 1, \"received\": 2, \"destroyed_threads\": 2, \"destroyed_workers\": 2, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"all_completed_and_destroyed\": false}\nTraceback (most recent call last):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 112, in <module>\n    assert all_done(), result\n           ^^^^^^^^^^\nAssertionError: {'pyside6': '6.12.0', 'parented': False, 'loop': 'events', 'release': 'wait', 'requested': 200, 'completed': 1, 'received': 2, 'destroyed_threads': 2, 'destroyed_workers': 2, 'affinity_failures': 0, 'thread_python_ownership_values': [True], 'all_completed_and_destroyed': False}\n"
+  },
+  {
+    "case": "events-parented-wait",
+    "exit_code": 1,
+    "output": "Traceback (most recent call last):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 65, in cache_thread_done\n    assert self.cache_thread.wait(1000), \"Finished thread did not complete native cleanup in one second\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nRuntimeError: libshiboken: Internal C++ object (PySide6.QtCore.QThread) already deleted.\n{\"pyside6\": \"6.12.0\", \"parented\": true, \"loop\": \"events\", \"release\": \"wait\", \"requested\": 200, \"completed\": 3, \"received\": 4, \"destroyed_threads\": 4, \"destroyed_workers\": 4, \"affinity_failures\": 0, \"thread_python_ownership_values\": [false], \"all_completed_and_destroyed\": false}\nTraceback (most recent call last):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 112, in <module>\n    assert all_done(), result\n           ^^^^^^^^^^\nAssertionError: {'pyside6': '6.12.0', 'parented': True, 'loop': 'events', 'release': 'wait', 'requested': 200, 'completed': 3, 'received': 4, 'destroyed_threads': 4, 'destroyed_workers': 4, 'affinity_failures': 0, 'thread_python_ownership_values': [False], 'all_completed_and_destroyed': False}\n"
+  },
+  {
+    "case": "exec-parentless-wait",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"exec\", \"release\": \"wait\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "exec-parented-wait",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": true, \"loop\": \"exec\", \"release\": \"wait\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [false], \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "events-parentless-keep",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"events\", \"release\": \"keep\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "events-parented-keep",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": true, \"loop\": \"events\", \"release\": \"keep\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [false], \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "exec-parentless-keep",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"exec\", \"release\": \"keep\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "exec-parented-keep",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": true, \"loop\": \"exec\", \"release\": \"keep\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [false], \"all_completed_and_destroyed\": true}\n"
+  }
+]

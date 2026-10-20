@@ -1,0 +1,52 @@
+[
+  {
+    "case": "qt611-events-immediate",
+    "exit_code": -11,
+    "output": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f3d291a56c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f3d2d069740 (most recent call first):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 82 in cache_thread_done\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 108 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore (total: 2)\n"
+  },
+  {
+    "case": "qt611-events-poll",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.11.1\", \"parented\": false, \"loop\": \"events\", \"release\": \"poll\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 9, \"cleanup_delay_ms\": 0, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt611-events-destroyed",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.11.1\", \"parented\": false, \"loop\": \"events\", \"release\": \"destroyed\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 0, \"cleanup_delay_ms\": 0, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt611-exec-immediate",
+    "exit_code": -11,
+    "output": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f475ce066c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f4760cca740 (most recent call first):\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 82 in cache_thread_done\n  File \"/tmp/golfhub-thread-duplicate-audit/minimal-ownership.py\", line 115 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore (total: 2)\n"
+  },
+  {
+    "case": "qt611-exec-poll",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.11.1\", \"parented\": false, \"loop\": \"exec\", \"release\": \"poll\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 1, \"cleanup_delay_ms\": 0, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt611-exec-destroyed",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.11.1\", \"parented\": false, \"loop\": \"exec\", \"release\": \"destroyed\", \"requested\": 200, \"completed\": 200, \"received\": 200, \"destroyed_threads\": 200, \"destroyed_workers\": 200, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 0, \"cleanup_delay_ms\": 0, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt612-events-poll-delay15",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"events\", \"release\": \"poll\", \"requested\": 30, \"completed\": 30, \"received\": 30, \"destroyed_threads\": 30, \"destroyed_workers\": 30, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 442, \"cleanup_delay_ms\": 15, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt612-events-destroyed-delay15",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"events\", \"release\": \"destroyed\", \"requested\": 30, \"completed\": 30, \"received\": 30, \"destroyed_threads\": 30, \"destroyed_workers\": 30, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 0, \"cleanup_delay_ms\": 15, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt612-exec-poll-delay15",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"exec\", \"release\": \"poll\", \"requested\": 30, \"completed\": 30, \"received\": 30, \"destroyed_threads\": 30, \"destroyed_workers\": 30, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 416, \"cleanup_delay_ms\": 15, \"all_completed_and_destroyed\": true}\n"
+  },
+  {
+    "case": "qt612-exec-destroyed-delay15",
+    "exit_code": 0,
+    "output": "{\"pyside6\": \"6.12.0\", \"parented\": false, \"loop\": \"exec\", \"release\": \"destroyed\", \"requested\": 30, \"completed\": 30, \"received\": 30, \"destroyed_threads\": 30, \"destroyed_workers\": 30, \"affinity_failures\": 0, \"thread_python_ownership_values\": [true], \"poll_retries\": 0, \"cleanup_delay_ms\": 15, \"all_completed_and_destroyed\": true}\n"
+  }
+]
