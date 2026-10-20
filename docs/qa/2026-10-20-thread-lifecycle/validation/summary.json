@@ -1,0 +1,91 @@
+{
+  "timestamp_utc": "2026-10-20T00:24:34.149297+00:00",
+  "commit": "93d4763451358be608bff06fd0013936af36764c",
+  "status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n M tests/test_search_race.py\n?? docs/qa/2026-10-20-thread-lifecycle/\n?? tests/test_thread_lifecycle.py\n",
+  "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+  "regression_sha256": "1d85f1aa6e7002a7005aacdb479004d2650c115f949966235d3a7c966c903602",
+  "kind": "Linux offscreen source checks; blocked sockets and browser; separate module processes",
+  "modules": [
+    {
+      "module": "test_booking_context.py",
+      "log": "test_booking_context.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_course_controls.py",
+      "log": "test_course_controls.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "log": "test_calendar_keyboard.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "log": "test_multiday_ui.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_perth_dates.py",
+      "log": "test_perth_dates.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "log": "test_time_range_ui.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_search_race.py",
+      "log": "test_search_race.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_thread_lifecycle.py",
+      "log": "test_thread_lifecycle.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache*.py",
+      "log": "test_cache-all.log",
+      "exit_code": 0,
+      "run": 43,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

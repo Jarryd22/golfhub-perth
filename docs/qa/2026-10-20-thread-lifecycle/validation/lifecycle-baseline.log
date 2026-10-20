@@ -1,0 +1,431 @@
+test_cache_cleanup_waits_for_native_finish_before_starting_latest_search (tests.test_thread_lifecycle.ThreadLifecycleTests.test_cache_cleanup_waits_for_native_finish_before_starting_latest_search) ... FAIL
+test_close_during_cache_work_does_not_launch_queued_search (tests.test_thread_lifecycle.ThreadLifecycleTests.test_close_during_cache_work_does_not_launch_queued_search) ... FAIL
+test_close_during_native_cache_cleanup_waits_and_discards_queued_search (tests.test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_cache_cleanup_waits_and_discards_queued_search) ... FAIL
+test_close_during_native_live_cleanup_waits_for_completion (tests.test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_live_cleanup_waits_for_completion) ... FAIL
+test_latest_queued_search_runs_after_old_thread_finishes (tests.test_thread_lifecycle.ThreadLifecycleTests.test_latest_queued_search_runs_after_old_thread_finishes) ... ok
+test_live_cancel_releases_worker_without_saving_partial_data (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_cancel_releases_worker_without_saving_partial_data) ... ok
+test_live_error_retains_objects_until_native_finish (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_error_retains_objects_until_native_finish) ... FAIL
+test_live_failure_releases_worker_and_preserves_cache (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_failure_releases_worker_and_preserves_cache) ... ok
+test_live_success_releases_worker_and_thread (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_success_releases_worker_and_thread) ... ok
+test_live_success_retains_objects_until_native_finish (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_success_retains_objects_until_native_finish) ... FAIL
+test_repeated_cache_searches_release_workers_and_threads (tests.test_thread_lifecycle.ThreadLifecycleTests.test_repeated_cache_searches_release_workers_and_threads) ... ok
+
+======================================================================
+FAIL: test_cache_cleanup_waits_for_native_finish_before_starting_latest_search (tests.test_thread_lifecycle.ThreadLifecycleTests.test_cache_cleanup_waits_for_native_finish_before_starting_latest_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 62, in test_cache_cleanup_waits_for_native_finish_before_starting_latest_search
+    self.run_scenario("cache_finish_queue")
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 31, in run_scenario
+    self.assertEqual(result.returncode, 0,
+AssertionError: 1 != 0 : cache_finish_queue process exited 1
+
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 278, in _run_child
+    assert_native_finish_held(window, "cache", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 416, in <module>
+    _run_child(args.scenario, args.root.resolve())
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 278, in _run_child
+    assert_native_finish_held(window, "cache", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+
+
+======================================================================
+FAIL: test_close_during_cache_work_does_not_launch_queued_search (tests.test_thread_lifecycle.ThreadLifecycleTests.test_close_during_cache_work_does_not_launch_queued_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 50, in test_close_during_cache_work_does_not_launch_queued_search
+    self.run_scenario("cache_close")
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 31, in run_scenario
+    self.assertEqual(result.returncode, 0,
+AssertionError: 1 != 0 : cache_close process exited 1
+
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 289, in _run_child
+    assert_closing_rejects_searches()
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 229, in assert_closing_rejects_searches
+    check.assertEqual(tuple(id(getattr(window, attr)) for attr in
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1102, in assertTupleEqual
+    self.assertSequenceEqual(tuple1, tuple2, msg, seq_type=tuple)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1073, in assertSequenceEqual
+    self.fail(msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: Tuples differ: (140208233349632, 140208233349760, 140208233356928, 140208233357056) != (140208233349632, 140208233349760, 21270096, 21270096)
+
+First differing element 2:
+140208233356928
+21270096
+
+- (140208233349632, 140208233349760, 140208233356928, 140208233357056)
++ (140208233349632, 140208233349760, 21270096, 21270096) : Closing must not create or replace a cache/live worker
+WARNING:root:Weather forecast unavailable for coords:-32.1197,116.0836: Lifecycle regression has no network/browser access
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 416, in <module>
+    _run_child(args.scenario, args.root.resolve())
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 289, in _run_child
+    assert_closing_rejects_searches()
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 229, in assert_closing_rejects_searches
+    check.assertEqual(tuple(id(getattr(window, attr)) for attr in
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1102, in assertTupleEqual
+    self.assertSequenceEqual(tuple1, tuple2, msg, seq_type=tuple)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1073, in assertSequenceEqual
+    self.fail(msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 715, in fail
+    raise self.failureException(msg)
+AssertionError: Tuples differ: (140208233349632, 140208233349760, 140208233356928, 140208233357056) != (140208233349632, 140208233349760, 21270096, 21270096)
+
+First differing element 2:
+140208233356928
+21270096
+
+- (140208233349632, 140208233349760, 140208233356928, 140208233357056)
++ (140208233349632, 140208233349760, 21270096, 21270096) : Closing must not create or replace a cache/live worker
+
+
+======================================================================
+FAIL: test_close_during_native_cache_cleanup_waits_and_discards_queued_search (tests.test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_cache_cleanup_waits_and_discards_queued_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 65, in test_close_during_native_cache_cleanup_waits_and_discards_queued_search
+    self.run_scenario("cache_finish_close")
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 31, in run_scenario
+    self.assertEqual(result.returncode, 0,
+AssertionError: 1 != 0 : cache_finish_close process exited 1
+
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 278, in _run_child
+    assert_native_finish_held(window, "cache", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 416, in <module>
+    _run_child(args.scenario, args.root.resolve())
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 278, in _run_child
+    assert_native_finish_held(window, "cache", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+
+
+======================================================================
+FAIL: test_close_during_native_live_cleanup_waits_for_completion (tests.test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_live_cleanup_waits_for_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 74, in test_close_during_native_live_cleanup_waits_for_completion
+    self.run_scenario("live_finish_close")
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 31, in run_scenario
+    self.assertEqual(result.returncode, 0,
+AssertionError: 1 != 0 : live_finish_close process exited 1
+
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 337, in _run_child
+    assert_native_finish_held(window, "scan", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 416, in <module>
+    _run_child(args.scenario, args.root.resolve())
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 337, in _run_child
+    assert_native_finish_held(window, "scan", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+
+
+======================================================================
+FAIL: test_live_error_retains_objects_until_native_finish (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_error_retains_objects_until_native_finish)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 71, in test_live_error_retains_objects_until_native_finish
+    self.run_scenario("live_finish_failure")
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 31, in run_scenario
+    self.assertEqual(result.returncode, 0,
+AssertionError: 1 != 0 : live_finish_failure process exited 1
+
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 337, in _run_child
+    assert_native_finish_held(window, "scan", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 416, in <module>
+    _run_child(args.scenario, args.root.resolve())
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 337, in _run_child
+    assert_native_finish_held(window, "scan", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+
+
+======================================================================
+FAIL: test_live_success_retains_objects_until_native_finish (tests.test_thread_lifecycle.ThreadLifecycleTests.test_live_success_retains_objects_until_native_finish)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 68, in test_live_success_retains_objects_until_native_finish
+    self.run_scenario("live_finish_success")
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 31, in run_scenario
+    self.assertEqual(result.returncode, 0,
+AssertionError: 1 != 0 : live_finish_success process exited 1
+
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 337, in _run_child
+    assert_native_finish_held(window, "scan", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 416, in <module>
+    _run_child(args.scenario, args.root.resolve())
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 337, in _run_child
+    assert_native_finish_held(window, "scan", barrier)
+  File "/workspace/golfhub-perth/tests/test_thread_lifecycle.py", line 172, in assert_native_finish_held
+    check.assertFalse(expired.is_set(), "Cleanup must not block the GUI until the native barrier expires")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 721, in assertFalse
+    raise self.failureException(msg)
+AssertionError: True is not false : Cleanup must not block the GUI until the native barrier expires
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 35.503s
+
+FAILED (failures=6)

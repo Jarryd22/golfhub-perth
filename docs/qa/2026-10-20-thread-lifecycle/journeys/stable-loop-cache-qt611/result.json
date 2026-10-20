@@ -1,0 +1,39 @@
+{
+  "kind": "Real QApplication.exec event loop and real app workers, synthetic data, blocked sockets",
+  "mode": "cache",
+  "root": "/workspace/golfhub-perth",
+  "checks": [
+    {
+      "iteration": 1,
+      "result_cards": 1,
+      "status": "SHARED CACHE / 25 MINUTES AGO",
+      "in_gui_thread": true
+    },
+    {
+      "iteration": 2,
+      "result_cards": 1,
+      "status": "SHARED CACHE / 25 MINUTES AGO",
+      "in_gui_thread": true
+    },
+    {
+      "iteration": 3,
+      "result_cards": 1,
+      "status": "SHARED CACHE / 25 MINUTES AGO",
+      "in_gui_thread": true
+    },
+    {
+      "iteration": 4,
+      "result_cards": 1,
+      "status": "SHARED CACHE / 25 MINUTES AGO",
+      "in_gui_thread": true
+    },
+    {
+      "iteration": 5,
+      "result_cards": 1,
+      "status": "SHARED CACHE / 25 MINUTES AGO",
+      "in_gui_thread": true
+    }
+  ],
+  "callback_errors": [],
+  "status": "passed"
+}

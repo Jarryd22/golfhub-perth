@@ -983,6 +983,14 @@ class GolfHub(QMainWindow):
         self._close_timer = QTimer(self)
         self._close_timer.setSingleShot(True)
         self._close_timer.timeout.connect(self.close)
+        # QThread.finished can arrive before native thread cleanup completes.
+        # Keep both wrappers alive and poll without blocking the GUI event loop.
+        self._cache_cleanup_timer = QTimer(self)
+        self._cache_cleanup_timer.setSingleShot(True)
+        self._cache_cleanup_timer.timeout.connect(self.cache_thread_done)
+        self._scan_cleanup_timer = QTimer(self)
+        self._scan_cleanup_timer.setSingleShot(True)
+        self._scan_cleanup_timer.timeout.connect(self.scan_thread_done)
         self._initial_cache_timer.start(0)
 
     def build_header(self):
@@ -1365,6 +1373,8 @@ class GolfHub(QMainWindow):
         return snapshot
 
     def search_cache(self):
+        if self._closing:
+            return
         p = self.params()
         if not p:
             return
@@ -1411,7 +1421,6 @@ class GolfHub(QMainWindow):
         self.cache_worker.finished.connect(self.cache_finished)
         self.cache_worker.finished.connect(self.cache_thread.quit)
         self.cache_thread.finished.connect(self.cache_worker.deleteLater)
-        self.cache_thread.finished.connect(self.cache_thread.deleteLater)
         self.cache_thread.finished.connect(self.cache_thread_done)
         self.cache_thread.start()
 
@@ -1495,8 +1504,10 @@ class GolfHub(QMainWindow):
         return merged
 
     def search_live(self, context=None):
+        if self._closing or self.scan_thread is not None:
+            return
         p = context if isinstance(context, dict) else self.params()
-        if not p or (self.scan_thread and self._thread_running(self.scan_thread)):
+        if not p:
             return
         p = self._snapshot_search_context(p)
         if len(p.get("dates") or [p["date"]]) != 1:
@@ -1524,7 +1535,6 @@ class GolfHub(QMainWindow):
         self.scan_worker.finished.connect(self.scan_thread.quit)
         self.scan_worker.failed.connect(self.scan_thread.quit)
         self.scan_thread.finished.connect(self.scan_worker.deleteLater)
-        self.scan_thread.finished.connect(self.scan_thread.deleteLater)
         self.scan_thread.finished.connect(self.scan_thread_done)
         self.scan_thread.start()
 
@@ -1584,6 +1594,14 @@ class GolfHub(QMainWindow):
             return False
 
     def cache_thread_done(self):
+        thread = self.cache_thread
+        if thread is None:
+            return
+        if not thread.wait(0):
+            self._cache_cleanup_timer.start(10)
+            return
+        self._cache_cleanup_timer.stop()
+        thread.deleteLater()
         self.cache_thread = None
         self.cache_worker = None
         self._active_cache_context = None
@@ -1600,12 +1618,20 @@ class GolfHub(QMainWindow):
         self._finish_pending_close()
 
     def scan_thread_done(self):
+        thread = self.scan_thread
+        if thread is None:
+            return
+        if not thread.wait(0):
+            self._scan_cleanup_timer.start(10)
+            return
+        self._scan_cleanup_timer.stop()
+        thread.deleteLater()
         self.scan_thread = None
         self.scan_worker = None
         self._finish_pending_close()
 
     def _finish_pending_close(self):
-        if self._closing and not self._thread_running(self.cache_thread) and not self._thread_running(self.scan_thread):
+        if self._closing and self.cache_thread is None and self.scan_thread is None:
             self._close_timer.start(0)
 
     def _booking_choice(self, plan):
@@ -1756,7 +1782,7 @@ class GolfHub(QMainWindow):
             )
             event.ignore()
             return
-        if self._thread_running(self.cache_thread) or self._thread_running(self.scan_thread):
+        if self.cache_thread is not None or self.scan_thread is not None:
             self._closing = True
             self._stop_deferred_timers()
             if self.scan_worker:

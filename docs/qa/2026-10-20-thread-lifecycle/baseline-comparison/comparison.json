@@ -1,0 +1,163 @@
+{
+  "started_utc": "2026-10-20T00:13:39.457195+00:00",
+  "kind": "Identical committed asynchronous smoke harness; clean exact base/head worktrees; alternating bounded runs",
+  "harness_source_commit": "93d4763451358be608bff06fd0013936af36764c",
+  "harness_sha256": "e420a7930133b12c43454a426e11f4e271689b3cae353080674bdd2f3f2ee103",
+  "python": "/tmp/golfhub-qa-venv/bin/python",
+  "python_realpath": "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python3.12",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.41",
+  "timeout_seconds": 25,
+  "phase_identical": "strict-crash-comparison-20261020",
+  "synchronous_cache": false,
+  "retain_worker_wrappers": false,
+  "max_runs_each": 3,
+  "worktrees": {
+    "base": {
+      "path": "/tmp/golfhub-crash-comparison-20261020/base",
+      "commit": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "status_before": "",
+      "app_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+      "tests_sha256": {
+        "qt_test_support.py": "006b07a5c372ee1bc738a1d5bee50696e8b52cbb4b67de800932cc1f905e2812",
+        "test_booking_assist.py": "5181f9f04083a32d73f49e1e7e553f73e54958bcbe3895c12b99283959294b62",
+        "test_booking_assist_guards.py": "24e167dc04747fc0a891cf44d5e9234141591c811bb40384328fd4115cba048b",
+        "test_booking_assist_optin.py": "567cb2b848e0fb84468a7ff4f9a0bd0452db7b72e9860aa0b5851333e6f5e8da",
+        "test_booking_dialog.py": "6222d06cbcde97f28d00c8029062e9b2b8c4a2d365a6a571ccf6808bee3bfdaf",
+        "test_booking_ui_integration.py": "befae58a33f3630aa1e5f1bbf06a6f3a8fd8eaa41c4f0ca27eccf7b1664e6262",
+        "test_cache_pipeline.py": "a290c793876c63693d2895e6c6d1a951a11e4725eb1e97c73ab7d122c52cea5c",
+        "test_cache_refresh_status.py": "ad074682f9a3e0ab5c366632d48b81a64f0ca757279d8ab645dc0c7d1477b068",
+        "test_cache_transient_retry.py": "0173fe04d1fc5af15731ee1fffdef35f72e860a3f5ccac0d1d44c8f78e1d9ecf",
+        "test_cache_weather_budget.py": "b4d0f0a63061693b05dc45f03edfcf29776b7de9b291f5eef61c03574b31be14",
+        "test_calendar_keyboard.py": "ecb2557bcc65e3207d26f30482c9ba2e3d4ecccb78bc8241ea7b8d76fb9be229",
+        "test_collier_behavior.py": "b13b97520afeb1a597d01650a4f1ad2bc72a3bb389c177f5993ea8210f69763f",
+        "test_course_controls.py": "aca30284fca79a463b95d01b3eddc6dffe39e5d230756a9ac6ab617301a9d67c",
+        "test_golfhub_v3.py": "37be06fc8ec99f88c0c21765fafa794516e9eb47bb8f03d0a33eb1fd4219d3cd",
+        "test_multiday_ui.py": "b680bea8996ef5f6bccd1b392e281ca51e1305be917f236ba60b86bb7d067b22",
+        "test_perth_dates.py": "ef095d02e15b40a2d713f307bced0a06f160f7fc3856876ec9312221823c9c84",
+        "test_search_race.py": "0eb1708f437f1e9098d4a9497ca8744132307a58910fd120d779c62a0f0e3c36",
+        "test_time_range_ui.py": "763e3c1cf70bd80b3fb9328e1a496b6a4909bab1a350fabaa554766415fa196b",
+        "test_v5_ui_requirements.py": "009768ad191b9239b5df6f496ebea346abb3aeba4e422d8abf41bde73a805149"
+      }
+    },
+    "head": {
+      "path": "/tmp/golfhub-crash-comparison-20261020/head",
+      "commit": "93d4763451358be608bff06fd0013936af36764c",
+      "status_before": "",
+      "app_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+      "tests_sha256": {
+        "qt_test_support.py": "006b07a5c372ee1bc738a1d5bee50696e8b52cbb4b67de800932cc1f905e2812",
+        "test_booking_assist.py": "5181f9f04083a32d73f49e1e7e553f73e54958bcbe3895c12b99283959294b62",
+        "test_booking_assist_guards.py": "24e167dc04747fc0a891cf44d5e9234141591c811bb40384328fd4115cba048b",
+        "test_booking_assist_optin.py": "567cb2b848e0fb84468a7ff4f9a0bd0452db7b72e9860aa0b5851333e6f5e8da",
+        "test_booking_context.py": "a969f32564257652f1ca34fcca0dff706c0c6f2c4d02b96d2599f726065c5062",
+        "test_booking_dialog.py": "6222d06cbcde97f28d00c8029062e9b2b8c4a2d365a6a571ccf6808bee3bfdaf",
+        "test_booking_ui_integration.py": "befae58a33f3630aa1e5f1bbf06a6f3a8fd8eaa41c4f0ca27eccf7b1664e6262",
+        "test_cache_pipeline.py": "a290c793876c63693d2895e6c6d1a951a11e4725eb1e97c73ab7d122c52cea5c",
+        "test_cache_refresh_status.py": "ad074682f9a3e0ab5c366632d48b81a64f0ca757279d8ab645dc0c7d1477b068",
+        "test_cache_transient_retry.py": "0173fe04d1fc5af15731ee1fffdef35f72e860a3f5ccac0d1d44c8f78e1d9ecf",
+        "test_cache_weather_budget.py": "b4d0f0a63061693b05dc45f03edfcf29776b7de9b291f5eef61c03574b31be14",
+        "test_calendar_keyboard.py": "ecb2557bcc65e3207d26f30482c9ba2e3d4ecccb78bc8241ea7b8d76fb9be229",
+        "test_collier_behavior.py": "b13b97520afeb1a597d01650a4f1ad2bc72a3bb389c177f5993ea8210f69763f",
+        "test_course_controls.py": "aca30284fca79a463b95d01b3eddc6dffe39e5d230756a9ac6ab617301a9d67c",
+        "test_golfhub_v3.py": "37be06fc8ec99f88c0c21765fafa794516e9eb47bb8f03d0a33eb1fd4219d3cd",
+        "test_multiday_ui.py": "b680bea8996ef5f6bccd1b392e281ca51e1305be917f236ba60b86bb7d067b22",
+        "test_perth_dates.py": "ef095d02e15b40a2d713f307bced0a06f160f7fc3856876ec9312221823c9c84",
+        "test_search_race.py": "0eb1708f437f1e9098d4a9497ca8744132307a58910fd120d779c62a0f0e3c36",
+        "test_time_range_ui.py": "6a0fedd8659f5328f56d267f031fa1a3bca9f9dbf7c47a352135d4ab1df28e3c",
+        "test_v5_ui_requirements.py": "009768ad191b9239b5df6f496ebea346abb3aeba4e422d8abf41bde73a805149"
+      }
+    }
+  },
+  "runs": [
+    {
+      "tree": "base",
+      "repetition": 1,
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-crash-comparison-20261020/journey-smoke.py",
+        "--root",
+        "/tmp/golfhub-crash-comparison-20261020/base",
+        "--output",
+        "/tmp/golfhub-crash-comparison-20261020/base-1",
+        "--phase",
+        "strict-crash-comparison-20261020"
+      ],
+      "cwd": "/tmp/golfhub-crash-comparison-20261020",
+      "started_utc": "2026-10-20T00:13:39.577297+00:00",
+      "worktree_clean_before": true,
+      "harness_sha256": "e420a7930133b12c43454a426e11f4e271689b3cae353080674bdd2f3f2ee103",
+      "app_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+      "elapsed_seconds": 0.64,
+      "returncode": -11,
+      "log": "/tmp/golfhub-crash-comparison-20261020/base-1/process.log",
+      "harness_unchanged_after": true,
+      "worktree_clean_after": true,
+      "stack": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f6973fff6c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f698f5fb740 (most recent call first):\n  File \"/tmp/golfhub-crash-comparison-20261020/base/app/qt_golfhub_app.py\", line 1561 in cache_thread_done\n  File \"/tmp/golfhub-crash-comparison-20261020/journey-smoke.py\", line 136 in search\n  File \"/tmp/golfhub-crash-comparison-20261020/journey-smoke.py\", line 140 in main\n  File \"/tmp/golfhub-crash-comparison-20261020/journey-smoke.py\", line 265 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore, PySide6.QtGui, PySide6.QtWidgets, PySide6.QtTest, PySide6.QtNetwork, PySide6.QtPrintSupport, PySide6.QtWebChannel, PySide6.QtWebEngineCore, PySide6.QtWebEngineWidgets (total: 10)\n",
+      "signature": "SIGSEGV; Python main thread in cache_thread_done; worker thread has no Python frame"
+    },
+    {
+      "tree": "head",
+      "repetition": 1,
+      "command": [
+        "/tmp/golfhub-qa-venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/tmp/golfhub-crash-comparison-20261020/journey-smoke.py",
+        "--root",
+        "/tmp/golfhub-crash-comparison-20261020/head",
+        "--output",
+        "/tmp/golfhub-crash-comparison-20261020/head-1",
+        "--phase",
+        "strict-crash-comparison-20261020"
+      ],
+      "cwd": "/tmp/golfhub-crash-comparison-20261020",
+      "started_utc": "2026-10-20T00:13:40.223890+00:00",
+      "worktree_clean_before": true,
+      "harness_sha256": "e420a7930133b12c43454a426e11f4e271689b3cae353080674bdd2f3f2ee103",
+      "app_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+      "elapsed_seconds": 0.702,
+      "returncode": -11,
+      "log": "/tmp/golfhub-crash-comparison-20261020/head-1/process.log",
+      "harness_unchanged_after": true,
+      "worktree_clean_after": true,
+      "stack": "Fatal Python error: Segmentation fault\n\nCurrent thread 0x00007f106b39e6c0 (most recent call first):\n  <no Python frame>\n\nThread 0x00007f108287e740 (most recent call first):\n  File \"/tmp/golfhub-crash-comparison-20261020/head/app/qt_golfhub_app.py\", line 1587 in cache_thread_done\n  File \"/tmp/golfhub-crash-comparison-20261020/journey-smoke.py\", line 136 in search\n  File \"/tmp/golfhub-crash-comparison-20261020/journey-smoke.py\", line 140 in main\n  File \"/tmp/golfhub-crash-comparison-20261020/journey-smoke.py\", line 265 in <module>\n\nExtension modules: shiboken6.Shiboken, PySide6.QtCore, PySide6.QtGui, PySide6.QtWidgets, PySide6.QtTest, PySide6.QtNetwork, PySide6.QtPrintSupport, PySide6.QtWebChannel, PySide6.QtWebEngineCore, PySide6.QtWebEngineWidgets (total: 10)\n",
+      "signature": "SIGSEGV; Python main thread in cache_thread_done; worker thread has no Python frame"
+    }
+  ],
+  "environment": {
+    "QT_QPA_PLATFORM": "offscreen",
+    "QTWEBENGINE_CHROMIUM_FLAGS": null,
+    "QTWEBENGINE_DISABLE_SANDBOX": null,
+    "DISPLAY": null,
+    "WAYLAND_DISPLAY": null,
+    "PYTHONHASHSEED": "0",
+    "PYTHONUNBUFFERED": "1",
+    "TMP": "/tmp/golfhub-crash-comparison-20261020/process-temp",
+    "TEMP": "/tmp/golfhub-crash-comparison-20261020/process-temp",
+    "TMPDIR": "/tmp/golfhub-crash-comparison-20261020/process-temp"
+  },
+  "runtime_versions": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]\nPySide6 6.12.0 Qt 6.12.0",
+  "stop_reason": "Same spontaneous SIGSEGV/cache_thread_done signature reproduced on exact clean PR11 base and current head using identical harness/environment; paired comparison is conclusive for presence on baseline, not incidence or native-device impact.",
+  "finished_utc": "2026-10-20T00:13:40.930000+00:00",
+  "cache_thread_done_mapping": {
+    "base": {
+      "function_start": 1560,
+      "function_end": 1574,
+      "stack_line": 1561,
+      "statement": "self.cache_thread = None",
+      "normalized_function_sha256": "40d9c588250382ca5246a44d03228f5b64a3ee05368a815eb9dca0619624c2be",
+      "source": "def cache_thread_done(self):\n        self.cache_thread = None\n        self.cache_worker = None\n        self._active_cache_context = None\n        if not self._closing and self._pending_cache_context is not None:\n            pending = self._pending_cache_context\n            self._pending_cache_context = None\n            self._start_cache_search(pending)\n            return\n        self.search_button.setEnabled(not self._thread_running(self.scan_thread))\n        self.search_button.setText('FIND TEE TIMES')\n        if not self._thread_running(self.scan_thread):\n            self.progress.setVisible(False)\n        self.update_day_mode()\n        self._finish_pending_close()"
+    },
+    "head": {
+      "function_start": 1586,
+      "function_end": 1600,
+      "stack_line": 1587,
+      "statement": "self.cache_thread = None",
+      "normalized_function_sha256": "40d9c588250382ca5246a44d03228f5b64a3ee05368a815eb9dca0619624c2be",
+      "source": "def cache_thread_done(self):\n        self.cache_thread = None\n        self.cache_worker = None\n        self._active_cache_context = None\n        if not self._closing and self._pending_cache_context is not None:\n            pending = self._pending_cache_context\n            self._pending_cache_context = None\n            self._start_cache_search(pending)\n            return\n        self.search_button.setEnabled(not self._thread_running(self.scan_thread))\n        self.search_button.setText('FIND TEE TIMES')\n        if not self._thread_running(self.scan_thread):\n            self.progress.setVisible(False)\n        self.update_day_mode()\n        self._finish_pending_close()"
+    }
+  },
+  "function_source_identical": true
+}

@@ -1,0 +1,60 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Fatal Python error: Segmentation fault
+
+Current thread 0x00007f6973fff6c0 (most recent call first):
+  <no Python frame>
+
+Thread 0x00007f698f5fb740 (most recent call first):
+  File "/tmp/golfhub-crash-comparison-20261020/base/app/qt_golfhub_app.py", line 1561 in cache_thread_done
+  File "/tmp/golfhub-crash-comparison-20261020/journey-smoke.py", line 136 in search
+  File "/tmp/golfhub-crash-comparison-20261020/journey-smoke.py", line 140 in main
+  File "/tmp/golfhub-crash-comparison-20261020/journey-smoke.py", line 265 in <module>
+
+Extension modules: shiboken6.Shiboken, PySide6.QtCore, PySide6.QtGui, PySide6.QtWidgets, PySide6.QtTest, PySide6.QtNetwork, PySide6.QtPrintSupport, PySide6.QtWebChannel, PySide6.QtWebEngineCore, PySide6.QtWebEngineWidgets (total: 10)

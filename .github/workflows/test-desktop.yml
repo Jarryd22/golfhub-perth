@@ -14,6 +14,7 @@ on:
       - "tests/test_perth_dates.py"
       - "tests/test_time_range_ui.py"
       - "tests/test_search_race.py"
+      - "tests/test_thread_lifecycle.py"
       - "tests/qt_test_support.py"
   push:
     branches: [main, "fix/desktop-*"]
@@ -29,6 +30,7 @@ on:
       - "tests/test_perth_dates.py"
       - "tests/test_time_range_ui.py"
       - "tests/test_search_race.py"
+      - "tests/test_thread_lifecycle.py"
       - "tests/qt_test_support.py"
 
 permissions:
@@ -59,7 +61,8 @@ jobs:
             "test_multiday_ui.py",
             "test_perth_dates.py",
             "test_time_range_ui.py",
-            "test_search_race.py"
+            "test_search_race.py",
+            "test_thread_lifecycle.py"
           )
           foreach ($module in $modules) {
             python -m unittest discover -s tests -p $module -v
