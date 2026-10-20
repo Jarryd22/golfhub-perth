@@ -1,7 +1,53 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T00:26:32.096181+00:00",
+  "generated_at": "2026-10-20T23:57:35.468001+00:00",
   "items": [
+    {
+      "id": "2e9cde4bd550d347f9fb",
+      "course_id": "rockingham",
+      "title": "Volunteers Needed – Course Renovations",
+      "summary": "Dear Members, We are seeking Members to assist during our upcoming course renovations. Monday",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/volunteers-needed-course-renovations-3/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-20T08:22:14+00:00",
+      "category": "Course works"
+    },
+    {
+      "id": "3e59d57a9b5cf85c94a7",
+      "course_id": "rockingham",
+      "title": "Men’s Club Championships/Grigg Cup – Results",
+      "summary": "After four rounds of outstanding golf, fierce competition and plenty of excitement, we are",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/mens-club-championships-results/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-20T06:53:30+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "8ed880054ffbd4f5bc83",
+      "course_id": "gosnells-golf-club",
+      "title": "VALE – Andrew Gadsdon – Funeral",
+      "summary": "Vale – Andrew Gadsdon (“Drew” / “Gaddo”) Funeral Service Details The funeral service for",
+      "url": "https://www.gosnellsgc.com.au/cms/2026/10/vale-andrew-gadsdon-funeral/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-20T05:29:33+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "e6572174aef07f9db286",
+      "course_id": "hartfield",
+      "title": "Gosnells Junior Open December 6th 2026",
+      "summary": "The post Gosnells Junior Open December 6th 2026 appeared first on Hartfield Country Club",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/gosnells-junior-open-december-6th-2026/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Gosnells-Website.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Gosnells-Website.png"
+      ],
+      "published_at": "2026-10-20T02:39:28+00:00",
+      "category": "Course news"
+    },
     {
       "id": "c190dd338c8bcbb09ad2",
       "course_id": "hartfield",
@@ -272,21 +318,6 @@
       "category": "Course news"
     },
     {
-      "id": "358a9a5978ad653762e4",
-      "course_id": "rockingham",
-      "title": "Red Cross Charity Day – Results",
-      "summary": "Celebrating 50 Years of Friendship & Community! What a fantastic day celebrating 50 years",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/red-cross-charity-day-results/",
-      "image": "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/2026-2048x1473.jpg",
-      "images": [
-        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/2026-2048x1473.jpg",
-        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/2026-1-2048x1184.jpg",
-        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/10/20261-2048x1447.jpg"
-      ],
-      "published_at": "2026-10-12T08:02:56+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "6b37ffcfd0b72f587d21",
       "course_id": "pinjarra",
       "title": "Special General Meeting – Monday 26th October",
@@ -296,19 +327,6 @@
       "images": [],
       "published_at": "2026-10-12T02:13:12+00:00",
       "category": "Offers"
-    },
-    {
-      "id": "09eb1d475e879b65c8f7",
-      "course_id": "hartfield",
-      "title": "Hartfield Country Club AGM 2026",
-      "summary": "The Annual General Meeting was held at the Clubhouse on Thursday, October 8th. Thank",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/hartfield-country-club-agm-2026/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/AGM-Results.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/AGM-Results.png"
-      ],
-      "published_at": "2026-10-10T08:48:08+00:00",
-      "category": "Course news"
     },
     {
       "id": "6eb6f8de57a491fe57f6",
@@ -401,17 +419,6 @@
       "category": "Course news"
     },
     {
-      "id": "de61b33cef58044b89ca",
-      "course_id": "rockingham",
-      "title": "Men’s Club Championships 2026",
-      "summary": "MEN’S CLUB CHAMPIONSHIPS 2026 72 holes Stroke over four (4) rounds Saturday 3rd October",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/mens-club-championships-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-01T08:40:30+00:00",
-      "category": "Events"
-    },
-    {
       "id": "f0b312bafdc1ec4d1e82",
       "course_id": "fremantle",
       "title": "Women’s Golf Pathway clinic grows golf participation in Fremantle",
@@ -457,22 +464,6 @@
         "https://collierparkgolf.com.au/wp-content/uploads/2026/06/85730f82-0bc6-428f-bd34-aa3f9337dd5a.jpg"
       ],
       "published_at": "2026-09-15T05:47:23+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "abca41586d310a0703f9",
-      "course_id": "gosnells-golf-club",
-      "title": "Gala Night 2026",
-      "summary": "Relive the highlights from an unforgettable evening. The post Gala Night 2026 appeared first",
-      "url": "https://www.gosnellsgc.com.au/cms/2026/09/gala-night-2026/",
-      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/DSC09677-scaled.jpg",
-      "images": [
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/DSC09677-scaled.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/DSC09681-scaled.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/DSC09684-scaled.jpg",
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/09/DSC09690-scaled.jpg"
-      ],
-      "published_at": "2026-09-08T07:35:08+00:00",
       "category": "Course news"
     },
     {
