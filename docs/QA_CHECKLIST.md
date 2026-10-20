@@ -56,7 +56,17 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes.
 
-## Latest pass: 19 October 2026
+## Latest pass: 20 October 2026
+
+See [today's report](qa/2026-10-20/REPORT.md). The draft stacked on #11 adds context to repeated booking/course/expand actions and visible Start/End label buddies. Check actual Qt accessible names for course, tee time, round and submitted date; change the date control without submitting and expand later day sections to prove names stay tied to the displayed result. Date-independent course links deduplicated across a multi-day range must not invent a single date. Check final Collier calendar wording, literal ampersands, row URL precedence and unchanged keyboard handoff.
+
+The custom Start/End controls now have visible labels and real Qt Label relationships. Test the accessibleName property plus relationship on every platform; Unix Qt may expose the selected value as Name. Repeat compact 980×640 custom-range geometry and visibility checks. Source accessibility is not native screen-reader validation.
+
+The expanded mocked smoke also checks all 28 dates and 25 player/time preset combinations. Coverage/link checks remain intercepted and synthetic. Keep the baseline obsolete cron failure and four blocked Chromium sandbox-helper cases separate from passes. External fixture cleanup is used while QApplication is alive; do not turn a crashed process into a pass. Retain initial baseline smoke crash evidence and its successful unchanged rerun. Final threaded smoke is blocked by repeat segmentation faults in unchanged cache_thread_done; a separate synchronous-cache fixture verifies rendering/control journeys without validating thread lifecycle.
+
+Current Windows/Android metadata remains 5.1.17 / 0.1.19. Manifest metadata checks do not verify signatures or installation. Ten separate socket-blocked archived alert-logic cases pass; loose-source imports and worker delivery remain blocked. Existing freshness/subset repairs require unavailable local-source reconciliation; do not create a competing rewrite. The supplied hourly audit already covers the November 4 false Clear forecasts through draft #8, and batch publication times still do not establish per-course/forecast observation age.
+
+## Previous pass: 19 October 2026
 
 See [today's report](qa/2026-10-19/REPORT.md). The draft stacked on #10 reconciles the known course-count signal adapter, labels filter/course controls and makes the course-name search hint accurate. New regressions cover actual checkbox/row/Space input, one notification per toggle, hidden selected courses, Clear/Select visible and 18→9→18. Check counts against `selected_sites()`, not just checkbox state. Course labels containing a literal `&` must retain it when a QLabel buddy is added.
 

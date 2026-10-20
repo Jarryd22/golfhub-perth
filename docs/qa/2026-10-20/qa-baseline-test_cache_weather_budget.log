@@ -1,0 +1,21 @@
+::warning::Weather preparation worker_failed: 0/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+::warning::Weather preparation timed_out: 0/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+::warning::Weather preparation invalid_checkpoint: 0/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+::warning::Weather preparation invalid_checkpoint: 0/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+::warning::Weather preparation invalid_checkpoint: 0/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+::warning::Weather preparation invalid_checkpoint: 0/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+Weather preparation complete: 2/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+::warning::Weather preparation timed_out: 1/2 locations available; network budget 1s. Unavailable weather will not be fetched again by tee-time shards.
+QA_RESULT {"run": 7, "failures": 0, "errors": 0, "skipped": 0}
+test_empty_forecasts_are_not_retried_by_default (test_cache_weather_budget.WeatherBudgetTests.test_empty_forecasts_are_not_retried_by_default) ... ok
+test_failed_worker_still_produces_complete_negative_cache (test_cache_weather_budget.WeatherBudgetTests.test_failed_worker_still_produces_complete_negative_cache) ... ok
+test_hung_real_worker_is_killed_and_shards_do_not_refetch (test_cache_weather_budget.WeatherBudgetTests.test_hung_real_worker_is_killed_and_shards_do_not_refetch) ... ok
+test_malformed_or_wrong_date_checkpoint_is_discarded (test_cache_weather_budget.WeatherBudgetTests.test_malformed_or_wrong_date_checkpoint_is_discarded) ... ok
+test_successful_worker_reports_weather_availability (test_cache_weather_budget.WeatherBudgetTests.test_successful_worker_reports_weather_availability) ... ok
+test_timeout_preserves_completed_checkpoint_and_completes_missing_keys (test_cache_weather_budget.WeatherBudgetTests.test_timeout_preserves_completed_checkpoint_and_completes_missing_keys) ... ok
+test_worker_checkpoints_each_completed_location (test_cache_weather_budget.WeatherBudgetTests.test_worker_checkpoints_each_completed_location) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 1.010s
+
+OK

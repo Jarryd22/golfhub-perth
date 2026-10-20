@@ -1,0 +1,76 @@
+{
+  "date_perth": "2026-10-20",
+  "base": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+  "main": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+  "remote_refs_at_start": {
+    "origin/agent/golfhub-v5-final-20260729": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+    "origin/cache": "1fc5129d53d16853772a1e52d76b0cc7385a71bf",
+    "origin/fix/cache-refresh-heartbeat": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+    "origin/fix/cache-refresh-incomplete-weather": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+    "origin/fix/cache-refresh-provider-circuit": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+    "origin/fix/cache-refresh-resilience": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+    "origin/fix/cache-refresh-weather-cooldown": "e84985a713d008301cdef96db7582c420b712d61",
+    "origin/fix/cache-refresh-weather-timeouts": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+    "origin/fix/cache-refresh-wembley-fallback": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+    "origin/fix/cache-refresh-wembley-rendered": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+    "origin/fix/desktop-course-controls-20261019": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+    "origin/fix/desktop-keyboard-date-selection": "99057788e335fa8d50e0e353c2ca5613917bf600",
+    "origin/fix/desktop-search-dates-and-times": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+    "origin/main": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+    "origin/news": "19f456c00c8f0b28800cd9bec0e772dc23ced8b4"
+  },
+  "open_drafts": [
+    {
+      "number": 3,
+      "unchanged": true
+    },
+    {
+      "number": 4,
+      "unchanged": true
+    },
+    {
+      "number": 5,
+      "unchanged": true
+    },
+    {
+      "number": 6,
+      "unchanged": true
+    },
+    {
+      "number": 7,
+      "unchanged": true
+    },
+    {
+      "number": 8,
+      "unchanged": true
+    },
+    {
+      "number": 9,
+      "unchanged": true
+    },
+    {
+      "number": 10,
+      "unchanged": true
+    },
+    {
+      "number": 11,
+      "unchanged": true
+    }
+  ],
+  "open_issues": 0,
+  "repo_instructions": "No AGENTS.md or .agents skills in available checkout; /workspace/.agents is empty. Read README, QA checklist, backlog, reports and workflows.",
+  "base_ci": [
+    {
+      "name": "Test desktop search controls",
+      "id": 39180871804,
+      "conclusion": "success"
+    },
+    {
+      "name": "Test cache refresh",
+      "id": 39180871761,
+      "conclusion": "success"
+    }
+  ],
+  "publication_policy": "Production cache/news push triggers main only. No production dispatch; only repair branch push and draft PR.",
+  "local_cli_limit": "gh GraphQL Forbidden; connector metadata reads succeed. Git fetch succeeds."
+}

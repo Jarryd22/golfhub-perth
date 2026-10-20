@@ -1,0 +1,5 @@
+test_checkout_navigation_closes_without_rollback (test_booking_dialog.StaticBookingDialogTests.test_checkout_navigation_closes_without_rollback) ... QRhiGles2: Failed to create temporary context
+QRhiGles2: Failed to create context
+Failed to create RHI for backend: OpenGL
+[1093:1093:1020/000443.838446:FATAL:../../../qtwebengine/src/3rdparty/chromium/sandbox/linux/suid/client/setuid_sandbox_host.cc:180] The SUID sandbox helper binary was found, but is not configured correctly. Rather than run without sandboxing I'm aborting now. You need to make sure that /usr/lib/chromium/chrome-sandbox is owned by root and has mode 4755.
+[1096:1096:0100/000000.859069:ERROR:../../../qtwebengine/src/3rdparty/chromium/content/zygote/zygote_linux.cc:660] write: Broken pipe (32)

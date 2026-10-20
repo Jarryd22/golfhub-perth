@@ -1,0 +1,64 @@
+{
+  "final_threaded_smoke": "blocked",
+  "reason": "Two final offscreen Qt processes segfaulted at unchanged cache_thread_done while clearing worker references. Baseline also segfaulted once before a successful diagnostic run. A wrapper-lifetime diagnostic stalled and was terminated; it is not a pass. This is not established as a native-device defect.",
+  "threaded_runs": [
+    {
+      "phase": "baseline",
+      "exit_code": 139,
+      "log": "journey-smoke-baseline.log"
+    },
+    {
+      "phase": "baseline-debug",
+      "exit_code": 0,
+      "checks": 18,
+      "log": "journey-smoke-baseline-debug.log"
+    },
+    {
+      "phase": "after",
+      "exit_code": 139,
+      "log": "journey-smoke-after.log"
+    },
+    {
+      "phase": "after-recheck",
+      "exit_code": 139,
+      "log": "journey-smoke-after-recheck.log"
+    },
+    {
+      "phase": "after-lifetime",
+      "exit_code": 134,
+      "status": "Stalled at first search; explicitly terminated with SIGABRT for traceback; no pass",
+      "log": "journey-smoke-after-lifetime.log"
+    }
+  ],
+  "final_synchronous_fixture": {
+    "status": "passed",
+    "checks": 18,
+    "player_time_combinations": 25,
+    "report": "journey-smoke-after-sync.json",
+    "scope": "Real Qt controls/rendering with synchronous synthetic cache completion; no Qt worker lifecycle claim"
+  },
+  "final_link_probe": {
+    "status": "passed",
+    "intercepted_course_date_round_links": 148,
+    "configured_courses": 41,
+    "eligible_per_round": 37,
+    "rounds": [
+      "18",
+      "9"
+    ],
+    "date_count": 2,
+    "callback_errors": 0,
+    "report": "journey-probe-after.json"
+  },
+  "screenshots": [
+    "journey-results-980x640.png",
+    "journey-results-1280x800.png"
+  ],
+  "visual_inspection": "Start/End labels and primary search actions are visible at 980x640; result area scrolls. Existing date punctuation and platform styling remain.",
+  "untested": [
+    "Final asynchronous cache journey/thread lifecycle is blocked in this environment.",
+    "Native Windows/Android device UI, actual screen reader, DPI scaling, installed update flow, live bookings and device notifications."
+  ],
+  "safety": "All Python sockets blocked; booking opens intercepted; no cache/provider/weather network requests, live holds or notifications.",
+  "source_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73"
+}

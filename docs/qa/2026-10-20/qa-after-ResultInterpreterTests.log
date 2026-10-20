@@ -1,0 +1,11 @@
+QA_RESULT {"run": 5, "failures": 0, "errors": 0, "skipped": 0}
+test_checkout_detection_is_path_specific (test_booking_dialog.ResultInterpreterTests.test_checkout_detection_is_path_specific) ... ok
+test_hold_success_requires_exact_shape_and_player_count (test_booking_dialog.ResultInterpreterTests.test_hold_success_requires_exact_shape_and_player_count) ... ok
+test_known_failure_is_preserved_but_unknown_result_fails_closed (test_booking_dialog.ResultInterpreterTests.test_known_failure_is_preserved_but_unknown_result_fails_closed) ... ok
+test_plan_guard_requires_explicit_confirmation (test_booking_dialog.ResultInterpreterTests.test_plan_guard_requires_explicit_confirmation) ... ok
+test_release_uses_returned_wait_and_safe_default (test_booking_dialog.ResultInterpreterTests.test_release_uses_returned_wait_and_safe_default) ... ok
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.001s
+
+OK

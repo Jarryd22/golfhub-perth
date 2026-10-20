@@ -1,0 +1,215 @@
+QA_RESULT {"run": 12, "failures": 0, "errors": 0, "skipped": 0}
+test_cache_worker_fetches_each_date_and_returns_keyed_snapshots (test_multiday_ui.MultiDayUITests.test_cache_worker_fetches_each_date_and_returns_keyed_snapshots) ... ok
+test_calendar_hides_week_numbers_and_blocks_adjacent_month_dates (test_multiday_ui.MultiDayUITests.test_calendar_hides_week_numbers_and_blocks_adjacent_month_dates) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_calendar_keeps_single_day_default_and_accepts_nonconsecutive_dates (test_multiday_ui.MultiDayUITests.test_calendar_keeps_single_day_default_and_accepts_nonconsecutive_dates) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_calendar_stays_on_second_month_after_selecting_a_date (test_multiday_ui.MultiDayUITests.test_calendar_stays_on_second_month_after_selecting_a_date) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_consecutive_dates_are_bounded_to_cache_window (test_multiday_ui.MultiDayUITests.test_consecutive_dates_are_bounded_to_cache_window) ... ok
+test_date_control_opens_an_anchored_dropdown_and_marks_today (test_multiday_ui.MultiDayUITests.test_date_control_opens_an_anchored_dropdown_and_marks_today) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_each_day_renders_course_cards_alphabetically (test_multiday_ui.MultiDayUITests.test_each_day_renders_course_cards_alphabetically) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_multi_date_dropdown_accepts_a_real_mouse_click_and_applies (test_multiday_ui.MultiDayUITests.test_multi_date_dropdown_accepts_a_real_mouse_click_and_applies) ... This plugin does not support propagateSizeHints()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_multi_date_dropdown_toggles_dates_and_keeps_one_selected (test_multiday_ui.MultiDayUITests.test_multi_date_dropdown_toggles_dates_and_keeps_one_selected) ... ok
+test_partial_cache_still_labels_every_requested_day (test_multiday_ui.MultiDayUITests.test_partial_cache_still_labels_every_requested_day) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_results_are_grouped_by_day_and_only_open_day_is_built (test_multiday_ui.MultiDayUITests.test_results_are_grouped_by_day_and_only_open_day_is_built) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_twenty_eight_day_result_view_builds_only_one_day_body (test_multiday_ui.MultiDayUITests.test_twenty_eight_day_result_view_builds_only_one_day_body) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 0.240s
+
+OK

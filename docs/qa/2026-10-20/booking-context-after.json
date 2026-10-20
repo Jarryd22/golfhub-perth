@@ -1,0 +1,49 @@
+{
+  "kind": "Linux Qt offscreen synthetic source widgets; no native or screen-reader test",
+  "window_size": [
+    980,
+    640
+  ],
+  "controls": [
+    {
+      "name_property": "Start time",
+      "interface_name": "9:00 am",
+      "visible_label_relations": [
+        "Start time"
+      ],
+      "geometry": [
+        431,
+        241,
+        91,
+        40
+      ],
+      "inside_window": true
+    },
+    {
+      "name_property": "End time",
+      "interface_name": "3:00 pm",
+      "visible_label_relations": [
+        "End time"
+      ],
+      "geometry": [
+        553,
+        241,
+        91,
+        40
+      ],
+      "inside_window": true
+    }
+  ],
+  "actions": [
+    {
+      "visible": "OPEN BOOKING PAGE",
+      "name_property": "Open booking page: Araluen, 18 holes, 20 October 2026",
+      "interface_name": "Open booking page: Araluen, 18 holes, 20 October 2026"
+    },
+    {
+      "visible": "BOOK",
+      "name_property": "Book: Araluen, 10:00 am, 18 holes, 20 October 2026",
+      "interface_name": "Book: Araluen, 10:00 am, 18 holes, 20 October 2026"
+    }
+  ]
+}

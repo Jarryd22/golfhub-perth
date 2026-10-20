@@ -234,6 +234,19 @@ class CourseRow(QFrame):
         super().mousePressEvent(event)
 
 
+def _booking_action_name(action, result, date_str=None, tee_time=None):
+    """Identify an action using its displayed result, never pending filters."""
+    context = [str(result.get("site_name") or "Golf course")]
+    if tee_time:
+        context.append(str(tee_time))
+    if result.get("hole_label"):
+        context.append(str(result["hole_label"]))
+    date = QDate.fromString(str(date_str or ""), "yyyy-MM-dd")
+    if date.isValid():
+        context.append(date.toString("d MMMM yyyy"))
+    return f"{action}: {', '.join(context)}"
+
+
 class TeeTimeCard(QFrame):
     def __init__(
         self,
@@ -241,6 +254,8 @@ class TeeTimeCard(QFrame):
         fallback_url: str | None,
         result: dict[str, Any] | None = None,
         booking_handler=None,
+        *,
+        date_str=None,
     ):
         super().__init__()
         self.row = row
@@ -260,6 +275,7 @@ class TeeTimeCard(QFrame):
         layout.addWidget(info)
         layout.addStretch()
         book = QPushButton("BOOK")
+        book.setAccessibleName(_booking_action_name("Book", self.result, date_str, row.get("time")))
         book.setObjectName("MiniButton")
         book.setStyleSheet("QPushButton { background-color: #F59E0B; color: #090909; border: 0; border-radius: 7px; padding: 8px 13px; font-weight: 800; } QPushButton:hover { background-color: #FFB020; } QPushButton:pressed { background-color: #E48700; }")
         book.clicked.connect(self.open_url)
@@ -318,7 +334,7 @@ class WeatherBadge(QFrame):
 
 
 class DirectCourseCard(QFrame):
-    def __init__(self, result: dict[str, Any]):
+    def __init__(self, result: dict[str, Any], *, date_str=None):
         super().__init__()
         self.result = result
         self.setObjectName("DirectCourse")
@@ -330,6 +346,7 @@ class DirectCourseCard(QFrame):
         name.setObjectName("DirectTitle")
         layout.addWidget(name, 0, 0)
         button = QPushButton("VIEW COURSE")
+        button.setAccessibleName(_booking_action_name("View course", result, date_str))
         button.setObjectName("MiniButton")
         button.setStyleSheet("QPushButton { background-color: #F59E0B; color: #090909; border: 0; border-radius: 7px; padding: 8px 13px; font-weight: 800; } QPushButton:hover { background-color: #FFB020; } QPushButton:pressed { background-color: #E48700; }")
         button.clicked.connect(self.open_url)
@@ -734,11 +751,12 @@ class MultiDateButton(QPushButton):
 
 
 class ResultCard(QFrame):
-    def __init__(self, result: dict[str, Any], rows: list[dict[str, Any]], booking_handler=None):
+    def __init__(self, result: dict[str, Any], rows: list[dict[str, Any]], booking_handler=None, *, date_str=None):
         super().__init__()
         self.result = result
         self.rows = rows
         self.booking_handler = booking_handler
+        self.date_str = date_str
         self.collier_empty = (
             result.get('site_name') == 'Collier Park'
             and not result.get('decorated_rows')
@@ -799,6 +817,8 @@ class ResultCard(QFrame):
         open_button.setObjectName("OutlineButton")
         if self.collier_empty:
             open_button.setText('VIEW OFFICIAL CALENDAR')
+        action = "View Wembley times" if open_button.text() == "VIEW WEMBLEY TIMES" else open_button.text().capitalize()
+        open_button.setAccessibleName(_booking_action_name(action, result, date_str))
         open_button.clicked.connect(self.open_url)
         top.addWidget(open_button, 0, 1, alignment=Qt.AlignTop | Qt.AlignRight)
         top.addWidget(WeatherBadge(result.get("weather")), 1, 0, 1, 2, alignment=Qt.AlignLeft)
@@ -833,13 +853,14 @@ class ResultCard(QFrame):
             outer.addWidget(empty)
         else:
             cards = [
-                TeeTimeCard(row, result.get("url"), result, self.booking_handler)
+                TeeTimeCard(row, result.get("url"), result, self.booking_handler, date_str=date_str)
                 for row in rows
             ]
             self.tee_grid = ResponsiveCardGrid(cards, min_cell_width=250, max_columns=3)
             outer.addWidget(self.tee_grid)
             if len(rows) > 12:
                 self.more_button = QPushButton(f"SHOW ALL {len(rows)} TIMES")
+                self.more_button.setAccessibleName(_booking_action_name(self.more_button.text().title(), result, date_str))
                 self.more_button.setObjectName("QuietButton")
                 self.more_button.clicked.connect(self.toggle_all_times)
                 outer.addWidget(self.more_button, alignment=Qt.AlignHCenter)
@@ -849,6 +870,7 @@ class ResultCard(QFrame):
         self.expanded = not self.expanded
         self.tee_grid.set_visible_limit(len(self.rows) if self.expanded else 12)
         self.more_button.setText("SHOW FIRST 12" if self.expanded else f"SHOW ALL {len(self.rows)} TIMES")
+        self.more_button.setAccessibleName(_booking_action_name(self.more_button.text().title(), self.result, self.date_str))
 
     def open_url(self):
         if self.result.get("url"):
@@ -1035,12 +1057,16 @@ class GolfHub(QMainWindow):
                     suffix = "am" if hour < 12 else "pm"
                     combo.addItem(f"{hour % 12 or 12}:{minute:02d} {suffix}")
         times = QWidget()
-        times_layout = QHBoxLayout(times)
+        times_layout = QGridLayout(times)
         times_layout.setContentsMargins(0, 0, 0, 0)
         times_layout.setSpacing(5)
-        times_layout.addWidget(self.time_from)
-        times_layout.addWidget(QLabel("to"))
-        times_layout.addWidget(self.time_to)
+        for column, combo, title in ((0, self.time_from, "Start time"), (2, self.time_to, "End time")):
+            label = QLabel(title)
+            label.setObjectName("FieldLabel")
+            label.setBuddy(combo)
+            times_layout.addWidget(label, 0, column)
+            times_layout.addWidget(combo, 1, column)
+        times_layout.addWidget(QLabel("to"), 1, 1)
 
         self.time_preset = QComboBox()
         self.time_preset.setObjectName("Input")
@@ -1755,7 +1781,7 @@ class GolfHub(QMainWindow):
             filtered = [row for row in filtered if int(row.get("minutes", 0) or 0) <= high]
         return filtered
 
-    def _populate_day_section(self, layout, visible_results):
+    def _populate_day_section(self, layout, visible_results, date_str=None):
         ordered = sorted(
             visible_results,
             key=lambda r: str(r.get("site_name") or "").casefold(),
@@ -1764,14 +1790,14 @@ class GolfHub(QMainWindow):
         for result in ordered:
             if should_show_empty_course(result):
                 rows = self.filtered_rows(result.get('decorated_rows', []))
-                layout.addWidget(ResultCard(result, rows, self.open_tee_time))
+                layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=date_str))
                 rendered += 1
                 continue
             if result.get("direct_booking"):
                 continue
             rows = self.filtered_rows(result.get("decorated_rows", []))
             if rows or result.get("error") or result.get("calendar_availability"):
-                layout.addWidget(ResultCard(result, rows, self.open_tee_time))
+                layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=date_str))
                 rendered += 1
         if not rendered:
             note = QLabel("No live tee times matched these filters on this day.")
@@ -1860,7 +1886,7 @@ class GolfHub(QMainWindow):
                 day["date"],
                 day["detail"],
                 day.get("source", "Cache"),
-                lambda layout, results=day["visible"]: self._populate_day_section(layout, results),
+                lambda layout, results=day["visible"], date_str=day["date"]: self._populate_day_section(layout, results, date_str),
             )
             self.day_sections.append(section)
             self.results_layout.addWidget(section)
@@ -1951,7 +1977,7 @@ class GolfHub(QMainWindow):
             if should_show_empty_course(result):
                 rows = self.filtered_rows(result.get('decorated_rows', []))
                 self.results_layout.addWidget(
-                    ResultCard(result, rows, self.open_tee_time)
+                    ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date"))
                 )
                 rendered_live += 1
                 continue
@@ -1959,7 +1985,7 @@ class GolfHub(QMainWindow):
             if result.get("direct_booking"):
                 direct_results.append(result)
             elif rows or result.get("error") or result.get("calendar_availability"):
-                self.results_layout.addWidget(ResultCard(result, rows, self.open_tee_time))
+                self.results_layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date")))
                 rendered_live += 1
 
         if matches == 0 and rendered_live == 0:
@@ -1978,7 +2004,7 @@ class GolfHub(QMainWindow):
             direct_layout.addWidget(direct_title)
             direct_layout.addWidget(direct_subtitle)
             direct_cards = [
-                DirectCourseCard(result)
+                DirectCourseCard(result, date_str=self.context.get("date"))
                 for result in sorted(direct_results, key=lambda value: str(value.get("site_name") or "").casefold())
             ]
             direct_layout.addWidget(ResponsiveCardGrid(direct_cards, min_cell_width=280, max_columns=3))

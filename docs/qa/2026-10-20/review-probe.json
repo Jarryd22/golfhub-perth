@@ -1,0 +1,38 @@
+{
+  "pyside6": "6.12.0",
+  "platform": "Linux Qt offscreen",
+  "window": [
+    980,
+    640
+  ],
+  "custom_time_labels": [
+    {
+      "text": "Start time",
+      "visible": true,
+      "width": 91,
+      "text_width": 58,
+      "x": 431,
+      "y": 224,
+      "height": 12
+    },
+    {
+      "text": "End time",
+      "visible": true,
+      "width": 91,
+      "text_width": 50,
+      "x": 553,
+      "y": 224,
+      "height": 12
+    }
+  ],
+  "result_and_row_identity_preserved": true,
+  "result_nested_data_unchanged": true,
+  "invalid_date_omitted_without_error": true,
+  "real_browser_calls": 0,
+  "source_sha256": {
+    "app/qt_golfhub_app.py": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+    "tests/test_booking_context.py": "a969f32564257652f1ca34fcca0dff706c0c6f2c4d02b96d2599f726065c5062",
+    "tests/test_time_range_ui.py": "6a0fedd8659f5328f56d267f031fa1a3bca9f9dbf7c47a352135d4ab1df28e3c",
+    ".github/workflows/test-desktop.yml": "4b5a002757516948c4e4b02c71a1ea2baafc4f5d1dcc452527fbc0f1ea93a9f0"
+  }
+}

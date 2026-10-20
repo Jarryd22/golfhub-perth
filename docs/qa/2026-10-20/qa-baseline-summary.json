@@ -1,0 +1,223 @@
+{
+  "phase": "baseline",
+  "timestamp_utc": "2026-10-20T00:04:42.812499+00:00",
+  "commit": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+  "source_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+  "kind": "isolated Linux offscreen module processes with blocked sockets/browser opens",
+  "external_widget_cleanup": true,
+  "modules": [
+    {
+      "module": "test_booking_assist.py",
+      "class": null,
+      "log": "qa-baseline-test_booking_assist.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 12
+    },
+    {
+      "module": "test_booking_assist_guards.py",
+      "class": null,
+      "log": "qa-baseline-test_booking_assist_guards.log",
+      "exit_code": 0,
+      "run": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 3
+    },
+    {
+      "module": "test_booking_assist_optin.py",
+      "class": null,
+      "log": "qa-baseline-test_booking_assist_optin.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 7
+    },
+    {
+      "module": "test_booking_dialog.py",
+      "class": "test_booking_dialog.ResultInterpreterTests",
+      "log": "qa-baseline-ResultInterpreterTests.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 5
+    },
+    {
+      "module": "test_booking_dialog.py",
+      "class": "test_booking_dialog.StaticBookingDialogTests",
+      "log": "qa-baseline-StaticBookingDialogTests.log",
+      "exit_code": -5,
+      "status": "blocked by Chromium SUID sandbox helper configuration",
+      "blocked": 4
+    },
+    {
+      "module": "test_booking_ui_integration.py",
+      "class": null,
+      "log": "qa-baseline-test_booking_ui_integration.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 6
+    },
+    {
+      "module": "test_cache_pipeline.py",
+      "class": null,
+      "log": "qa-baseline-test_cache_pipeline.log",
+      "exit_code": 0,
+      "run": 14,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 14
+    },
+    {
+      "module": "test_cache_refresh_status.py",
+      "class": null,
+      "log": "qa-baseline-test_cache_refresh_status.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 11
+    },
+    {
+      "module": "test_cache_transient_retry.py",
+      "class": null,
+      "log": "qa-baseline-test_cache_transient_retry.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 11
+    },
+    {
+      "module": "test_cache_weather_budget.py",
+      "class": null,
+      "log": "qa-baseline-test_cache_weather_budget.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 7
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "class": null,
+      "log": "qa-baseline-test_calendar_keyboard.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 8
+    },
+    {
+      "module": "test_collier_behavior.py",
+      "class": null,
+      "log": "qa-baseline-test_collier_behavior.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 4
+    },
+    {
+      "module": "test_course_controls.py",
+      "class": null,
+      "log": "qa-baseline-test_course_controls.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 8
+    },
+    {
+      "module": "test_golfhub_v3.py",
+      "class": null,
+      "log": "qa-baseline-test_golfhub_v3.log",
+      "exit_code": 1,
+      "run": 17,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 16
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "class": null,
+      "log": "qa-baseline-test_multiday_ui.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 12
+    },
+    {
+      "module": "test_perth_dates.py",
+      "class": null,
+      "log": "qa-baseline-test_perth_dates.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 6
+    },
+    {
+      "module": "test_search_race.py",
+      "class": null,
+      "log": "qa-baseline-test_search_race.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 4
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "class": null,
+      "log": "qa-baseline-test_time_range_ui.log",
+      "exit_code": 1,
+      "run": 5,
+      "failures": 1,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 4
+    },
+    {
+      "module": "test_v5_ui_requirements.py",
+      "class": null,
+      "log": "qa-baseline-test_v5_ui_requirements.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "passed": 5
+    }
+  ],
+  "totals": {
+    "passed": 143,
+    "failures": 2,
+    "errors": 0,
+    "skipped": 0,
+    "blocked": 4
+  }
+}
