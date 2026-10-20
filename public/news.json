@@ -1,7 +1,50 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-18T23:21:51.605688+00:00",
+  "generated_at": "2026-10-20T00:26:32.096181+00:00",
   "items": [
+    {
+      "id": "c190dd338c8bcbb09ad2",
+      "course_id": "hartfield",
+      "title": "Men’s & Women’s Foursomes Championships October 17th",
+      "summary": "Saturday, October 17th saw our Men’s and Women’s Foursomes Championships played over 36 holes.",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/mens-womens-foursomes-championships-saturday-october-17th/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Mens-Forsomes-Champ-D-Negus-scaled.jpg",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Mens-Forsomes-Champ-D-Negus-scaled.jpg",
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/The-Boys-foursome-2026-1536x2048.jpg"
+      ],
+      "published_at": "2026-10-19T10:11:40+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "0229203ab5d1925ac173",
+      "course_id": "nedlands-golf-club",
+      "title": "CLUB CHAMPIONSHIP DRAWS",
+      "summary": "The post CLUB CHAMPIONSHIP DRAWS appeared first on Nedlands Golf Club .",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/club-championship-draws/",
+      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Club-Championship-Draw-2.jpg",
+      "images": [
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Club-Championship-Draw-2.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Minor-Championship-Draw.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/A-Grade-Championship-Draw-1.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/B-Grade-Championship-Draw-1.jpg"
+      ],
+      "published_at": "2026-10-19T05:13:59+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "29f7de891b44da6baa11",
+      "course_id": "nedlands-golf-club",
+      "title": "Melbourne Cup Lunch",
+      "summary": "The post Melbourne Cup Lunch appeared first on Nedlands Golf Club .",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/melbourne-cup-lunch-2/",
+      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Melbourne-Cup-26.jpg",
+      "images": [
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Melbourne-Cup-26.jpg"
+      ],
+      "published_at": "2026-10-19T05:06:41+00:00",
+      "category": "Course news"
+    },
     {
       "id": "cef73d3be93ea8c0db14",
       "course_id": "sun-city",
@@ -297,17 +340,6 @@
       "category": "Course works"
     },
     {
-      "id": "0f1874f4356cf61df741",
-      "course_id": "hartfield",
-      "title": "Last Slice Members Discount",
-      "summary": "The post Last Slice Members Discount appeared first on Hartfield Country Club .",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/last-slice-members-discount/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-08T00:42:19+00:00",
-      "category": "Offers"
-    },
-    {
       "id": "ae171d9d730357b7c3ea",
       "course_id": "collier-park",
       "title": "The Longest Day at Collier Park",
@@ -329,22 +361,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-07T00:35:46+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "98ec516b6674ae93305a",
-      "course_id": "nedlands-golf-club",
-      "title": "2026 DALKEITH CUP CHAMPIONS KRYSTYNA KNOTTNERUS and TONY COWAN",
-      "summary": "The 62nd playing of the DALKEITH CUP, a mixed four ball combined stableford event,",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/2026-dalkeith-cup-champions-krystyna-knottnerus-and-tony-cowan/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Dalkeith-Cup-3.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Dalkeith-Cup-3.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Tony-Krystyna-2-scaled-1.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Eliza-Brenton-scaled-1.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Joe-Alexander.jpeg"
-      ],
-      "published_at": "2026-10-05T05:19:18+00:00",
       "category": "Course news"
     },
     {
@@ -394,19 +410,6 @@
       "images": [],
       "published_at": "2026-10-01T08:40:30+00:00",
       "category": "Events"
-    },
-    {
-      "id": "64c6876c2be845ef4f63",
-      "course_id": "nedlands-golf-club",
-      "title": "Oktoberfest",
-      "summary": "Friday 16th October From 6.30pm $60 per person – main buffet The post Oktoberfest",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/09/oktoberfest/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/09/Date-Announcement-2.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/09/Date-Announcement-2.jpg"
-      ],
-      "published_at": "2026-09-30T06:04:45+00:00",
-      "category": "Course news"
     },
     {
       "id": "f0b312bafdc1ec4d1e82",
@@ -559,7 +562,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
