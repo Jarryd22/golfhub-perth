@@ -1,0 +1,148 @@
+{
+  "checked_at": "2026-10-20T00:03:25.340Z",
+  "source": "GitHub authenticated read-only connector",
+  "repos": [
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48"
+        }
+      ],
+      "open_pull_requests": [],
+      "releases": [
+        {
+          "tag": "android-v0.1.8",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-27T16:11:37Z"
+        },
+        {
+          "tag": "android-v0.1.19",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-10-02T08:28:11Z"
+        },
+        {
+          "tag": "android-v0.1.18",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-10-01T02:36:15Z"
+        },
+        {
+          "tag": "android-v0.1.17",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-28T18:33:48Z"
+        },
+        {
+          "tag": "android-v0.1.16",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-27T22:15:32Z"
+        },
+        {
+          "tag": "android-v0.1.13",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-27T20:31:07Z"
+        }
+      ],
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "notes": "GolfHub Perth 0.1.19\r\n\r\n- See when your selected date is due to open for booking on each course's tee-time card, using Perth time.\r\n- Published opening schedules are included for 12 courses. Hamersley's conflicting guidance is clearly marked as an estimate; other unconfirmed schedules say so rather than guessing a date.\r\n- Course information distinguishes online release schedules from contact or walk-in arrangements across all 41 courses.\r\n- Opening notices handle each selected date separately, preserve published availability, and prompt a fresh check when saved results predate the opening.\r\n- Removed the separate \"Plan your next round\" section from Home.\r\n\r\nBooking windows do not guarantee available spots. Course schedules can change.\r\n",
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305"
+        }
+      ],
+      "open_pull_requests": [],
+      "releases": [
+        {
+          "tag": "v5.1.17",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-25T19:20:44Z"
+        },
+        {
+          "tag": "v5.1.16",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-25T19:03:51Z"
+        },
+        {
+          "tag": "v5.1.15",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-25T18:31:59Z"
+        },
+        {
+          "tag": "v5.1.13",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-25T16:24:24Z"
+        },
+        {
+          "tag": "v5.1.11",
+          "draft": false,
+          "prerelease": false,
+          "published_at": "2026-09-25T12:59:44Z"
+        }
+      ],
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "notes": "GolfHub Perth 5.1.17\r\n\r\nUpdate verification release.\r\n\r\nThis release has the same functionality as 5.1.16 with a higher version number so users can test the automatic download, installation and restart process.\r\n\r\nIt retains faster cached tee-time loading and the improved GitHub download compatibility introduced in 5.1.16.\r\n\r\nTo test, start from 5.1.16 and use Updates > Check now > Update now, or enable both automatic-update options and leave GolfHub idle with booking windows closed. After restarting, Updates should show 5.1.17.\r\n\r\nIf the update fails, use Open update log and share the error details. A successful update on the previously affected laptop is still to be confirmed.\r\n",
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    }
+  ]
+}

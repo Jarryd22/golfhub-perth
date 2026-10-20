@@ -1,0 +1,40 @@
+QA_RESULT {"run": 4, "failures": 0, "errors": 0, "skipped": 0}
+test_config_uses_verified_collier_products (test_collier_behavior.CollierParkBehaviorTests.test_config_uses_verified_collier_products) ... ok
+test_empty_date_stays_visible_and_opens_official_calendar (test_collier_behavior.CollierParkBehaviorTests.test_empty_date_stays_visible_and_opens_official_calendar) ... ok
+test_exact_rows_keep_exact_timesheet_url (test_collier_behavior.CollierParkBehaviorTests.test_exact_rows_keep_exact_timesheet_url) ... ok
+test_old_cache_empty_result_renders_clear_calendar_action (test_collier_behavior.CollierParkBehaviorTests.test_old_cache_empty_result_renders_clear_calendar_action) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 4 tests in 0.059s
+
+OK

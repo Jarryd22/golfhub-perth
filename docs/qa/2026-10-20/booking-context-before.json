@@ -1,0 +1,45 @@
+{
+  "kind": "Linux Qt offscreen synthetic source widgets; no native or screen-reader test",
+  "window_size": [
+    980,
+    640
+  ],
+  "controls": [
+    {
+      "name_property": "Start time",
+      "interface_name": "9:00 am",
+      "visible_label_relations": [],
+      "geometry": [
+        431,
+        224,
+        91,
+        40
+      ],
+      "inside_window": true
+    },
+    {
+      "name_property": "End time",
+      "interface_name": "3:00 pm",
+      "visible_label_relations": [],
+      "geometry": [
+        553,
+        224,
+        91,
+        40
+      ],
+      "inside_window": true
+    }
+  ],
+  "actions": [
+    {
+      "visible": "OPEN BOOKING PAGE",
+      "name_property": "",
+      "interface_name": "OPEN BOOKING PAGE"
+    },
+    {
+      "visible": "BOOK",
+      "name_property": "",
+      "interface_name": "BOOK"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-10-20T00:08:40.818979+00:00",
+  "source_and_test_hashes": {
+    "app/qt_golfhub_app.py": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+    "tests/test_booking_context.py": "a969f32564257652f1ca34fcca0dff706c0c6f2c4d02b96d2599f726065c5062",
+    "tests/test_time_range_ui.py": "6a0fedd8659f5328f56d267f031fa1a3bca9f9dbf7c47a352135d4ab1df28e3c",
+    ".github/workflows/test-desktop.yml": "4b5a002757516948c4e4b02c71a1ea2baafc4f5d1dcc452527fbc0f1ea93a9f0"
+  },
+  "broad_totals": {
+    "passed": 152,
+    "failures": 1,
+    "errors": 0,
+    "skipped": 0,
+    "blocked": 4
+  },
+  "source_hash_matches_all_final_evidence": true,
+  "smoke_checks": 18,
+  "smoke_scope": "Synchronous mocked cache delivery, real Qt controls/rendering; does not validate Qt worker lifecycle",
+  "filter_combinations": 25,
+  "links_intercepted": 148,
+  "threaded_smoke_outcomes": [
+    {
+      "phase": "baseline",
+      "exit_code": 139,
+      "log": "journey-smoke-baseline.log"
+    },
+    {
+      "phase": "baseline-debug",
+      "exit_code": 0,
+      "checks": 18,
+      "log": "journey-smoke-baseline-debug.log"
+    },
+    {
+      "phase": "after",
+      "exit_code": 139,
+      "log": "journey-smoke-after.log"
+    },
+    {
+      "phase": "after-recheck",
+      "exit_code": 139,
+      "log": "journey-smoke-after-recheck.log"
+    },
+    {
+      "phase": "after-lifetime",
+      "exit_code": 134,
+      "status": "Stalled at first search; explicitly terminated with SIGABRT for traceback; no pass",
+      "log": "journey-smoke-after-lifetime.log"
+    }
+  ],
+  "commands": [
+    "/tmp/golfhub-qa-venv/bin/python docs/qa/2026-10-20/qa-run-modules.py --root /workspace/golfhub-perth --output docs/qa/2026-10-20 --phase after",
+    "timeout 45 /tmp/golfhub-qa-venv/bin/python -X faulthandler docs/qa/2026-10-20/journey-smoke.py --root /workspace/golfhub-perth --output docs/qa/2026-10-20 --phase after-sync --synchronous-cache",
+    "/tmp/golfhub-qa-venv/bin/python -X faulthandler docs/qa/2026-10-20/journey-links.py --root /workspace/golfhub-perth --output docs/qa/2026-10-20 --phase after"
+  ]
+}

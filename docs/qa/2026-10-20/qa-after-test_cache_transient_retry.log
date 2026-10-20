@@ -1,0 +1,37 @@
+Delayed cache retry for Hamersley 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry failed for Hamersley: timed out
+Delayed cache retry for Hamersley 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry recovered Hamersley 2026-10-04 18 holes
+Wrote /tmp/golfhub-after-gixk9a96/tmp9enuge83/2026-10-04/18.json (3 courses, 3/3 fresh live, 0 stale fallbacks)
+Wrote /tmp/golfhub-after-gixk9a96/tmp9enuge83/2026-10-04/9.json (3 courses, 2/3 fresh live, 0 stale fallbacks)
+Delayed cache retry for Hamersley 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry failed for Hamersley: timed out
+Delayed cache retry for Hamersley 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry failed for Hamersley: [Errno 104] Connection reset by peer
+Delayed cache retry for Hamersley 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry recovered Hamersley 2026-10-04 18 holes
+Delayed cache retry for course0 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry recovered course0 2026-10-04 18 holes
+Delayed cache retry for course1 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry recovered course1 2026-10-04 18 holes
+Delayed cache retry for course2 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry recovered course2 2026-10-04 18 holes
+Delayed cache retry for Hamersley 2026-10-04 18 holes after transport failure: timed out
+Delayed cache retry failed for Hamersley: parse failure
+QA_RESULT {"run": 11, "failures": 0, "errors": 0, "skipped": 0}
+test_does_not_retry_http_certificate_parser_or_mixed_errors (test_cache_transient_retry.TransientRetryTests.test_does_not_retry_http_certificate_parser_or_mixed_errors) ... ok
+test_does_not_retry_successes_direct_or_other_providers (test_cache_transient_retry.TransientRetryTests.test_does_not_retry_successes_direct_or_other_providers) ... ok
+test_domain_is_only_retried_once_across_dates_and_rounds (test_cache_transient_retry.TransientRetryTests.test_domain_is_only_retried_once_across_dates_and_rounds) ... ok
+test_main_publishes_recovery_and_preserves_shard_wide_budget (test_cache_transient_retry.TransientRetryTests.test_main_publishes_recovery_and_preserves_shard_wide_budget) ... ok
+test_majority_gate_still_rejects_outage_before_prior_fallback (test_cache_transient_retry.TransientRetryTests.test_majority_gate_still_rejects_outage_before_prior_fallback) ... ok
+test_persistent_failure_keeps_latest_error_and_original_stale_since (test_cache_transient_retry.TransientRetryTests.test_persistent_failure_keeps_latest_error_and_original_stale_since) ... ok
+test_rate_limit_is_not_retried (test_cache_transient_retry.TransientRetryTests.test_rate_limit_is_not_retried) ... ok
+test_recognizes_confirmed_transport_error_formats (test_cache_transient_retry.TransientRetryTests.test_recognizes_confirmed_transport_error_formats) ... ok
+test_recovery_replaces_failed_result_with_current_data (test_cache_transient_retry.TransientRetryTests.test_recovery_replaces_failed_result_with_current_data) ... ok
+test_shard_budget_is_capped_at_three_domains_even_after_recovery (test_cache_transient_retry.TransientRetryTests.test_shard_budget_is_capped_at_three_domains_even_after_recovery) ... ok
+test_unexpected_retry_exception_remains_visible (test_cache_transient_retry.TransientRetryTests.test_unexpected_retry_exception_remains_visible) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.007s
+
+OK

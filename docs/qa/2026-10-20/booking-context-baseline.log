@@ -1,0 +1,486 @@
+test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='Open booking page', course='Araluen', error=None) ... FAIL
+  test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='Open booking page', course='Araluen', error='Offline') ... FAIL
+  test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='View Wembley times', course='Wembley', error=None) ... FAIL
+  test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='View official calendar', course='Collier Park', error=None) ... FAIL
+  test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='View course', course='Serpentine & Districts', error=None) ... FAIL
+test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) ... FAIL
+test_direct_course_links_preserve_literal_ampersands_and_single_day_context (test_booking_context.BookingContextTests.test_direct_course_links_preserve_literal_ampersands_and_single_day_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_lazy_days_keep_their_own_dates_when_opened_after_filters_change (test_booking_context.BookingContextTests.test_lazy_days_keep_their_own_dates_when_opened_after_filters_change) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_missing_context_is_not_invented_and_row_url_still_wins (test_booking_context.BookingContextTests.test_missing_context_is_not_invented_and_row_url_still_wins) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_range_course_link_has_no_invented_single_date (test_booking_context.BookingContextTests.test_range_course_link_has_no_invented_single_date) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_repeated_times_distinguish_course_and_round_without_changing_visible_text (test_booking_context.BookingContextTests.test_repeated_times_distinguish_course_and_round_without_changing_visible_text) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_show_all_action_keeps_course_date_context_after_toggle (test_booking_context.BookingContextTests.test_show_all_action_keeps_course_date_context_after_toggle) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff (test_booking_context.BookingContextTests.test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+
+======================================================================
+FAIL: test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='Open booking page', course='Araluen', error=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 107, in test_course_action_variants_have_context_and_preserve_official_handoffs
+    self.assertEqual(self.name(button), f"{action}: {result['site_name']}, 18 holes")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'OPEN BOOKING PAGE' != ''
+- OPEN BOOKING PAGE
+
+
+======================================================================
+FAIL: test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='Open booking page', course='Araluen', error='Offline')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 107, in test_course_action_variants_have_context_and_preserve_official_handoffs
+    self.assertEqual(self.name(button), f"{action}: {result['site_name']}, 18 holes")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'OPEN BOOKING PAGE' != ''
+- OPEN BOOKING PAGE
+
+
+======================================================================
+FAIL: test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='View Wembley times', course='Wembley', error=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 107, in test_course_action_variants_have_context_and_preserve_official_handoffs
+    self.assertEqual(self.name(button), f"{action}: {result['site_name']}, 18 holes")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'VIEW WEMBLEY TIMES' != ''
+- VIEW WEMBLEY TIMES
+
+
+======================================================================
+FAIL: test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='View official calendar', course='Collier Park', error=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 107, in test_course_action_variants_have_context_and_preserve_official_handoffs
+    self.assertEqual(self.name(button), f"{action}: {result['site_name']}, 18 holes")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'VIEW OFFICIAL CALENDAR' != ''
+- VIEW OFFICIAL CALENDAR
+
+
+======================================================================
+FAIL: test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) (action='View course', course='Serpentine & Districts', error=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 107, in test_course_action_variants_have_context_and_preserve_official_handoffs
+    self.assertEqual(self.name(button), f"{action}: {result['site_name']}, 18 holes")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'VIEW COURSE' != ''
+- VIEW COURSE
+
+
+======================================================================
+FAIL: test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 110, in test_course_action_variants_have_context_and_preserve_official_handoffs
+    self.assertEqual(self.browser.call_count, len(cases))
+AssertionError: 0 != 5
+
+======================================================================
+FAIL: test_direct_course_links_preserve_literal_ampersands_and_single_day_context (test_booking_context.BookingContextTests.test_direct_course_links_preserve_literal_ampersands_and_single_day_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 119, in test_direct_course_links_preserve_literal_ampersands_and_single_day_context
+    self.assertEqual(self.name(button), f"View course: {name}, 18 holes, 20 October 2026")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'VIEW COURSE' != ''
+- VIEW COURSE
+
+
+======================================================================
+FAIL: test_lazy_days_keep_their_own_dates_when_opened_after_filters_change (test_booking_context.BookingContextTests.test_lazy_days_keep_their_own_dates_when_opened_after_filters_change)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 91, in test_lazy_days_keep_their_own_dates_when_opened_after_filters_change
+    self.assertEqual(self.name(button), f"Book: Araluen, 10:00 am, 18 holes, {date}")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'BOOK' != ''
+- BOOK
+
+
+======================================================================
+FAIL: test_missing_context_is_not_invented_and_row_url_still_wins (test_booking_context.BookingContextTests.test_missing_context_is_not_invented_and_row_url_still_wins)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 138, in test_missing_context_is_not_invented_and_row_url_still_wins
+    self.assertEqual(self.name(button), "Book: Golf course, 9:00 am")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'BOOK' != ''
+- BOOK
+
+
+======================================================================
+FAIL: test_range_course_link_has_no_invented_single_date (test_booking_context.BookingContextTests.test_range_course_link_has_no_invented_single_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 132, in test_range_course_link_has_no_invented_single_date
+    self.assertEqual(self.name(cards[0].findChild(QPushButton)), "View course: Araluen, 18 holes")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'VIEW COURSE' != ''
+- VIEW COURSE
+
+
+======================================================================
+FAIL: test_repeated_times_distinguish_course_and_round_without_changing_visible_text (test_booking_context.BookingContextTests.test_repeated_times_distinguish_course_and_round_without_changing_visible_text)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 75, in test_repeated_times_distinguish_course_and_round_without_changing_visible_text
+    names.append(self.name(button))
+                 ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'BOOK' != ''
+- BOOK
+
+
+======================================================================
+FAIL: test_show_all_action_keeps_course_date_context_after_toggle (test_booking_context.BookingContextTests.test_show_all_action_keeps_course_date_context_after_toggle)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 151, in test_show_all_action_keeps_course_date_context_after_toggle
+    self.assertEqual(self.name(button), "Show All 13 Times: Araluen, 18 holes, 20 October 2026")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'SHOW ALL 13 TIMES' != ''
+- SHOW ALL 13 TIMES
+
+
+======================================================================
+FAIL: test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff (test_booking_context.BookingContextTests.test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 61, in test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff
+    self.assertEqual(self.name(button), "Book: Araluen, 10:00 am, 18 holes, 20 October 2026")
+                     ^^^^^^^^^^^^^^^^^
+  File "/tmp/golfhub-qa-baseline-20261020/tests/test_booking_context.py", line 47, in name
+    self.assertEqual(interface.text(QAccessible.Name), button.accessibleName())
+AssertionError: 'BOOK' != ''
+- BOOK
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.616s
+
+FAILED (failures=13)

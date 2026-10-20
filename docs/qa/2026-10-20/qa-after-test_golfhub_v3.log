@@ -1,0 +1,105 @@
+QA_RESULT {"run": 17, "failures": 1, "errors": 0, "skipped": 0}
+test_cache_config_targets_public_repository (test_golfhub_v3.GolfHubV3Tests.test_cache_config_targets_public_repository) ... ok
+test_cache_round_trip (test_golfhub_v3.GolfHubV3Tests.test_cache_round_trip) ... ok
+test_cache_workflow_has_no_gui_runtime_dependencies (test_golfhub_v3.GolfHubV3Tests.test_cache_workflow_has_no_gui_runtime_dependencies) ... ok
+test_cached_direct_result_is_reused_without_network_call (test_golfhub_v3.GolfHubV3Tests.test_cached_direct_result_is_reused_without_network_call) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_comprehensive_directory_is_unique (test_golfhub_v3.GolfHubV3Tests.test_comprehensive_directory_is_unique) ... ok
+test_direct_courses_create_bookable_results (test_golfhub_v3.GolfHubV3Tests.test_direct_courses_create_bookable_results) ... ok
+test_each_course_has_a_round_and_valid_domain (test_golfhub_v3.GolfHubV3Tests.test_each_course_has_a_round_and_valid_domain) ... ok
+test_group_filter_support_data (test_golfhub_v3.GolfHubV3Tests.test_group_filter_support_data) ... ok
+test_maylands_joondalup_and_yanchep_booking_routes (test_golfhub_v3.GolfHubV3Tests.test_maylands_joondalup_and_yanchep_booking_routes) ... ok
+test_production_core_has_no_retired_gui_dependency (test_golfhub_v3.GolfHubV3Tests.test_production_core_has_no_retired_gui_dependency) ... ok
+test_search_controls_do_not_overlap_at_minimum_width (test_golfhub_v3.GolfHubV3Tests.test_search_controls_do_not_overlap_at_minimum_width) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_search_window_is_limited_to_four_weeks (test_golfhub_v3.GolfHubV3Tests.test_search_window_is_limited_to_four_weeks) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_show_all_times_exposes_every_cached_row (test_golfhub_v3.GolfHubV3Tests.test_show_all_times_exposes_every_cached_row) ... ok
+test_weather_badge_renders_bundled_icon (test_golfhub_v3.GolfHubV3Tests.test_weather_badge_renders_bundled_icon) ... ok
+test_wembley_calendar_card_is_explicit_and_actionable (test_golfhub_v3.GolfHubV3Tests.test_wembley_calendar_card_is_explicit_and_actionable) ... ok
+test_window_constructs (test_golfhub_v3.GolfHubV3Tests.test_window_constructs) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_workflow_is_four_weeks_every_ten_minutes (test_golfhub_v3.GolfHubV3Tests.test_workflow_is_four_weeks_every_ten_minutes) ... FAIL
+
+======================================================================
+FAIL: test_workflow_is_four_weeks_every_ten_minutes (test_golfhub_v3.GolfHubV3Tests.test_workflow_is_four_weeks_every_ten_minutes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-perth/tests/test_golfhub_v3.py", line 234, in test_workflow_is_four_weeks_every_ten_minutes
+    self.assertIn('cron: "*/10 * * * *"', workflow)
+AssertionError: 'cron: "*/10 * * * *"' not found in 'name: Refresh four-week tee-time cache\n\non:\n  workflow_dispatch:\n  # Reuse the existing external ten-minute heartbeat, even if the alert check\n  # fails. This does not dispatch the checker or change notification behavior.\n  workflow_run:\n    workflows: ["Check preferred-date alerts"]\n    types: [completed]\n    branches: [main]\n  push:\n    branches: [main]\n    paths:\n      - ".github/workflows/refresh-cache-10min.yml"\n      - "scripts/**"\n  schedule:\n    # Best-effort fallback if the external heartbeat stops.\n    - cron: "7,17,27,37,47,57 * * * *"\n\npermissions:\n  contents: read\n\nconcurrency:\n  group: golfhub-four-week-cache\n  cancel-in-progress: false\n\njobs:\n  prepare:\n    if: >-\n      github.event_name != \'workflow_run\' ||\n      (github.event.workflow_run.event == \'workflow_dispatch\' &&\n       github.event.workflow_run.head_repository.full_name == github.repository)\n    runs-on: ubuntu-latest\n    timeout-minutes: 5\n    outputs:\n      base_date: ${{ steps.perth_date.outputs.base_date }}\n      refresh: ${{ steps.freshness.outputs.refresh }}\n    steps:\n      - uses: actions/checkout@v4\n        with:\n          ref: main\n      - uses: actions/setup-python@v5\n        with:\n          python-version: "3.12"\n      - name: Anchor one Perth calendar date\n        id: perth_date\n        shell: bash\n        run: echo "base_date=$(TZ=Australia/Perth date +%F)" >> "$GITHUB_OUTPUT"\n      - name: Export prior cache branch for transient fallback\n        shell: bash\n        run: |\n          set -euo pipefail\n          mkdir -p "$RUNNER_TEMP/previous-cache/public/cache"\n          echo "First-run placeholder" > "$RUNNER_TEMP/previous-cache/public/cache/placeholder.txt"\n          if git fetch --depth=1 origin cache; then\n            git archive --format=tar FETCH_HEAD public/cache | tar -xf - -C "$RUNNER_TEMP/previous-cache"\n          fi\n      - name: Report freshness and coalesce nearby automatic triggers\n        id: freshness\n        env:\n          REFRESH_EVENT: ${{ github.event_name }}\n          HEARTBEAT_RUN: ${{ github.event.workflow_run.html_url }}\n        run: >-\n          python scripts/cache_refresh_status.py\n          --cache "$RUNNER_TEMP/previous-cache/public/cache"\n          --base-date "${{ steps.perth_date.outputs.base_date }}"\n          --event "$REFRESH_EVENT"\n          --heartbeat-run "$HEARTBEAT_RUN"\n          --output "$GITHUB_OUTPUT"\n          --summary "$GITHUB_STEP_SUMMARY"\n      - name: Prepare one shared forecast per course\n        if: steps.freshness.outputs.refresh == \'true\'\n        run: >-\n          python scripts/prepare_weather_cache.py\n          --base-date "${{ steps.perth_date.outputs.base_date }}"\n          --workers 4\n          --budget-seconds 90\n          --output "$RUNNER_TEMP/weather-cache.json"\n      - uses: actions/upload-artifact@v4\n        if: steps.freshness.outputs.refresh == \'true\'\n        with:\n          name: weather-cache\n          path: ${{ runner.temp }}/weather-cache.json\n          retention-days: 1\n      - uses: actions/upload-artifact@v4\n        if: steps.freshness.outputs.refresh == \'true\'\n        with:\n          name: previous-cache\n          path: ${{ runner.temp }}/previous-cache/public/cache\n          retention-days: 1\n\n  refresh-shard:\n    needs: prepare\n    if: needs.prepare.outputs.refresh == \'true\'\n    runs-on: ubuntu-latest\n    timeout-minutes: 12\n    strategy:\n      fail-fast: false\n      matrix:\n        start: [0, 4, 8, 12, 16, 20, 24]\n    steps:\n      - uses: actions/checkout@v4\n        with:\n          ref: main\n      - uses: actions/setup-python@v5\n        with:\n          python-version: "3.12"\n      - uses: actions/download-artifact@v4\n        with:\n          name: weather-cache\n          path: ${{ runner.temp }}/weather\n      - uses: actions/download-artifact@v4\n        with:\n          name: previous-cache\n          path: ${{ runner.temp }}/previous-cache\n      - name: Refresh four anchored Perth calendar days\n        run: >-\n          python scripts/refresh_cache_shard.py\n          --base-date "${{ needs.prepare.outputs.base_date }}"\n          --start-offset ${{ matrix.start }}\n          --days 4\n          --workers 8\n          --weather-cache "${{ runner.temp }}/weather/weather-cache.json"\n          --fallback "${{ runner.temp }}/previous-cache"\n          --output cache-shard\n      - uses: actions/upload-artifact@v4\n        with:\n          name: cache-${{ matrix.start }}\n          path: cache-shard\n          retention-days: 1\n\n  publish:\n    needs: [prepare, refresh-shard]\n    runs-on: ubuntu-latest\n    timeout-minutes: 5\n    permissions:\n      contents: write\n    steps:\n      - uses: actions/checkout@v4\n        with:\n          ref: main\n      - uses: actions/setup-python@v5\n        with:\n          python-version: "3.12"\n      - uses: actions/download-artifact@v4\n        with:\n          pattern: cache-*\n          path: ${{ runner.temp }}/cache-publish\n          merge-multiple: true\n      - name: Strictly validate the clean 28-day stage\n        run: >-\n          python scripts/build_cache_index.py\n          --base-date "${{ needs.prepare.outputs.base_date }}"\n          --cache "${{ runner.temp }}/cache-publish"\n      - name: Publish one history-free cache snapshot\n        shell: bash\n        run: |\n          set -euo pipefail\n          git config user.name "golfhub-cache-bot"\n          git config user.email "actions@users.noreply.github.com"\n          git checkout --orphan cache-publish\n          git rm -rf .\n          mkdir -p public\n          cp -a "$RUNNER_TEMP/cache-publish" public/cache\n          git add public/cache\n          git commit -m "cache: refresh four-week tee times"\n          for attempt in 1 2 3; do\n            if git push --force origin HEAD:cache; then\n              {\n                echo "### Cache publication succeeded"\n                echo "- Published cache commit: $(git rev-parse HEAD)"\n                python -c \'import json; p=json.load(open("public/cache/index.json")); print("- Index generated_at (UTC):", p["generated_at"]); print("- Validated coverage:", len(p["dates"]), "dates / 56 snapshots"); print("- Date range:", p["dates"][0]["date"], "through", p["dates"][-1]["date"])\'\n                echo "- Target refresh cadence: 10 minutes (verify successive publications; not a timing guarantee)."\n                echo "- Individual course results may still carry stale fallback metadata."\n              } >> "$GITHUB_STEP_SUMMARY"\n              exit 0\n            fi\n            sleep $((attempt * 2))\n          done\n          echo "Cache-branch publish failed after three attempts" >&2\n          exit 1\n'
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.294s
+
+FAILED (failures=1)

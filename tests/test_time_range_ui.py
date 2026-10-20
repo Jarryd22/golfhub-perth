@@ -5,7 +5,7 @@ from unittest.mock import Mock, patch
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
 
 from PySide6.QtGui import QAccessible
-from PySide6.QtWidgets import QApplication, QMessageBox
+from PySide6.QtWidgets import QApplication, QLabel, QMessageBox
 
 from app.qt_golfhub_app import GolfHub
 from tests.qt_test_support import cleanup_qt_widgets
@@ -93,10 +93,20 @@ class TimeRangeUITests(unittest.TestCase):
         rows = [{"minutes": n, "spots": 4} for n in (539, 540, 600, 900, 901)]
         self.assertEqual([r["minutes"] for r in self.window.filtered_rows(rows)], [540, 600, 900])
 
-    def test_time_controls_have_distinct_accessible_names(self):
+    def test_time_controls_have_distinct_names_and_visible_label_relationships(self):
         for control, name in [(self.window.time_from, "Start time"), (self.window.time_to, "End time")]:
-            interface = QAccessible.queryAccessibleInterface(control)
-            self.assertEqual(interface.text(QAccessible.Name), name)
+            with self.subTest(name=name):
+                self.assertEqual(control.accessibleName(), name)
+                label = next((label for label in self.window.custom_time_field.findChildren(QLabel)
+                              if label.buddy() is control), None)
+                self.assertIsNotNone(label)
+                self.assertTrue(label.isVisible())
+                self.assertEqual(label.text(), name)
+                interface = QAccessible.queryAccessibleInterface(control)
+                # Unix Qt uses the current value as combo Name; the Label
+                # relationship supplies its purpose on every supported OS.
+                labels = interface.relations(QAccessible.RelationFlag.Label)
+                self.assertTrue(any(related.object() is label for related, _ in labels))
 
 
 if __name__ == "__main__":

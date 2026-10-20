@@ -1,0 +1,23 @@
+Validated and indexed 28 complete cached days
+QA_RESULT {"run": 14, "failures": 0, "errors": 0, "skipped": 0}
+test_health_gate_requires_strict_live_provider_majority (test_cache_pipeline.CachePipelineTests.test_health_gate_requires_strict_live_provider_majority) ... ok
+test_matrix_offsets_cover_exactly_28_days (test_cache_pipeline.CachePipelineTests.test_matrix_offsets_cover_exactly_28_days) ... ok
+test_prior_good_live_result_is_reused_and_marked_stale (test_cache_pipeline.CachePipelineTests.test_prior_good_live_result_is_reused_and_marked_stale) ... ok
+test_strict_index_accepts_only_complete_28_day_snapshot (test_cache_pipeline.CachePipelineTests.test_strict_index_accepts_only_complete_28_day_snapshot) ... ok
+test_strict_index_rejects_wrong_course_count (test_cache_pipeline.CachePipelineTests.test_strict_index_rejects_wrong_course_count) ... ok
+test_empty_weather_forecasts_are_retried_sequentially (test_cache_pipeline.WeatherCacheTests.test_empty_weather_forecasts_are_retried_sequentially) ... WARNING:root:Retrying 1 empty weather forecasts after 0.0s
+ok
+test_one_forecast_response_serves_multiple_dates (test_cache_pipeline.WeatherCacheTests.test_one_forecast_response_serves_multiple_dates) ... ok
+test_preloaded_empty_forecast_prevents_shard_network_retry (test_cache_pipeline.WeatherCacheTests.test_preloaded_empty_forecast_prevents_shard_network_retry) ... ok
+test_weather_exception_does_not_suppress_tee_time_result (test_cache_pipeline.WeatherCacheTests.test_weather_exception_does_not_suppress_tee_time_result) ... WARNING:root:Weather lookup failed for Araluen: weather offline
+ok
+test_calendar_parser_distinguishes_available_full_and_unreleased (test_cache_pipeline.WembleyCalendarTests.test_calendar_parser_distinguishes_available_full_and_unreleased) ... ok
+test_calendar_reports_public_captcha_setting_without_a_token (test_cache_pipeline.WembleyCalendarTests.test_calendar_reports_public_captcha_setting_without_a_token) ... ok
+test_protected_wembley_result_uses_honest_calendar_fallback (test_cache_pipeline.WembleyCalendarTests.test_protected_wembley_result_uses_honest_calendar_fallback) ... ok
+test_timesheet_parser_reads_times_courses_spots_and_booking_metadata (test_cache_pipeline.WembleyCalendarTests.test_timesheet_parser_reads_times_courses_spots_and_booking_metadata) ... ok
+test_unprotected_wembley_flow_returns_real_rows_and_safe_product_urls (test_cache_pipeline.WembleyCalendarTests.test_unprotected_wembley_flow_returns_real_rows_and_safe_product_urls) ... ok
+
+----------------------------------------------------------------------
+Ran 14 tests in 0.051s
+
+OK
