@@ -42,6 +42,7 @@ With the repository requirements installed, run each `tests/test_*.py` module in
 
 ```text
 python -m unittest discover -s tests -p test_perth_dates.py -v
+python -m unittest discover -s tests -p test_midnight_rollover.py -v
 python -m unittest discover -s tests -p test_calendar_keyboard.py -v
 python -m unittest discover -s tests -p test_course_controls.py -v
 python -m unittest discover -s tests -p test_time_range_ui.py -v
@@ -57,7 +58,17 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes.
 
-## Latest pass: 20 October 2026
+## Latest pass: 21 October 2026
+
+See the [Perth midnight report](qa/2026-10-21-midnight/REPORT.md). A fake-clock run on unchanged #13 reproduced yesterday still labelled Today, stale 28-day bounds and a new search submitted for yesterday. The focused draft stacked on #13 refreshes editable controls every 30 seconds while idle and immediately on activation, new search, picker opening and picker apply/toggle. No automatic search is started. Preserve valid absolute dates; remove expired choices; choose today only if none remain. Tomorrow becomes Today without changing the chosen absolute date. A full 28-date choice becomes 27 dates after one day, without automatically adding the newly available last date.
+
+Fifteen new offline widget tests pass (untouched #13: four pass, ten failing methods and one missing-timer error). Include UTC midnight without Perth rollover, year/month/leap boundaries, multi-day suspension, open-picker pending choices, cancel and exactly one final Apply notification. Confirm real timer delivery and stop on close. Submitted contexts, queued searches, live fallback and lazy results retain their original dates. Mocked live construction is not native worker evidence; the separate existing 11 real-worker lifecycle tests also pass locally.
+
+The focused suite has **120 passing checks: 77 desktop and 43 cache** on Linux/Python 3.12.14/Qt 6.11.2. Test-only Windows CI includes the new module; verify its exact final head. Source screenshots at 980×640 and picker JSON show before/after state; they are not native Windows or Android evidence. The prior Qt 6.11.1 manual-event-pump stall, four WebEngine sandbox-helper blocks and obsolete cron assertion remain separate known limitations, outside today's focused pass. Do not disable the sandbox or infer their resolution from passing focused tests.
+
+Current update-release API metadata remains Windows 5.1.17 / Android 0.1.19, with identical asset sizes/digests to the prior pass. No new manifest signature, installed updater, device, screen-reader, DPI or actual notification check. The 15-ref duplicate audit found no existing midnight repair; all #3–13 remain drafts. No hourly production health audit or freshness/subset rewrite was performed. Canonical-source reconciliation still gates integration into the newer desktop/mobile candidate.
+
+## Previous pass: 20 October 2026
 
 See [today's report](qa/2026-10-20/REPORT.md). The draft stacked on #11 adds context to repeated booking/course/expand actions and visible Start/End label buddies. Check actual Qt accessible names for course, tee time, round and submitted date; change the date control without submitting and expand later day sections to prove names stay tied to the displayed result. Date-independent course links deduplicated across a multi-day range must not invent a single date. Check final Collier calendar wording, literal ampersands, row URL precedence and unchanged keyboard handoff.
 

@@ -470,7 +470,8 @@ class MultiDatePopup(QFrame):
 
     datesAccepted = Signal(list)
 
-    def __init__(self, minimum, maximum, selected, parent=None):
+    def __init__(self, minimum, maximum, selected, parent=None, *, rolling=False):
+        self._rolling = rolling
         super().__init__(parent, Qt.WindowType.Popup | Qt.WindowType.FramelessWindowHint)
         self.setObjectName("MultiDatePopup")
         self.setAttribute(Qt.WidgetAttribute.WA_DeleteOnClose)
@@ -588,7 +589,32 @@ class MultiDatePopup(QFrame):
         self.raise_()
         self.calendar.setFocus(Qt.FocusReason.PopupFocusReason)
 
+    def refresh_booking_dates(self):
+        if not self._rolling:
+            return
+        today = perth_today()
+        if today == self._minimum:
+            return
+        # Clear formats over the old window too, including dates now outside it.
+        value = self._minimum
+        while value <= self._maximum:
+            self.calendar.setDateTextFormat(value, QTextCharFormat())
+            value = value.addDays(1)
+        self._minimum, self._maximum = today, today.addDays(MAX_SEARCH_DAYS - 1)
+        self._selected = {
+            value for value in self._selected if self._minimum <= value <= self._maximum
+        } or {today}
+        self.calendar.setDateRange(self._minimum, self._maximum)
+        self.today_label.setText(
+            f"TODAY  â€¢  {today.toString('dddd, d MMMM yyyy').upper()}"
+        )
+        self.update_month_header(self.calendar.yearShown(), self.calendar.monthShown())
+        self.refresh_highlights()
+
     def toggle_date(self, value):
+        self.refresh_booking_dates()
+        if not self._minimum <= value <= self._maximum:
+            return
         if not self.calendar.is_displayed_month_date(value):
             return
         if value in self._selected:
@@ -607,10 +633,12 @@ class MultiDatePopup(QFrame):
         self.next_month_button.setEnabled(shown < last_month)
 
     def clear_dates(self):
+        self.refresh_booking_dates()
         self._selected = {min(self._selected) if self._selected else self._minimum}
         self.refresh_highlights()
 
     def apply_dates(self):
+        self.refresh_booking_dates()
         self.datesAccepted.emit(self.selected_dates())
         self.close()
 
@@ -660,8 +688,9 @@ class MultiDatePopup(QFrame):
 class MultiDateButton(QPushButton):
     datesChanged = Signal()
 
-    def __init__(self, minimum, maximum, selected, parent=None):
+    def __init__(self, minimum, maximum, selected, parent=None, *, rolling=False):
         super().__init__(parent)
+        self._rolling = rolling
         self._minimum = minimum
         self._maximum = maximum
         self._dates = []
@@ -672,7 +701,27 @@ class MultiDateButton(QPushButton):
         self.clicked.connect(self.open_picker)
         self.set_dates(selected, emit=False)
 
+    def refresh_booking_dates(self, *, emit=True):
+        if not self._rolling:
+            return
+        today = perth_today()
+        if today != self._minimum:
+            self._minimum, self._maximum = today, today.addDays(MAX_SEARCH_DAYS - 1)
+            valid = [value for value in self._dates if self._minimum <= value <= self._maximum]
+            self.set_dates(valid or [today], emit=emit)
+        if self._popup is not None:
+            self._popup.refresh_booking_dates()
+
+    def _accept_dates(self, values):
+        # Apply can arrive before the idle timer after midnight or resume.
+        previous = self.selected_qdates()
+        self.refresh_booking_dates(emit=False)
+        self.set_dates(values, emit=False)
+        if self._dates != previous:
+            self.datesChanged.emit()
+
     def open_picker(self):
+        self.refresh_booking_dates()
         if self._popup is not None and self._popup.isVisible():
             self._popup.close()
             return
@@ -681,8 +730,9 @@ class MultiDateButton(QPushButton):
             self._maximum,
             self._dates,
             self.window(),
+            rolling=self._rolling,
         )
-        self._popup.datesAccepted.connect(self.set_dates)
+        self._popup.datesAccepted.connect(self._accept_dates)
         self._popup.destroyed.connect(self._popup_closed)
         self._popup.show_below(self)
 
@@ -991,6 +1041,10 @@ class GolfHub(QMainWindow):
         self._scan_cleanup_timer = QTimer(self)
         self._scan_cleanup_timer.setSingleShot(True)
         self._scan_cleanup_timer.timeout.connect(self.scan_thread_done)
+        self._perth_date_timer = QTimer(self)
+        self._perth_date_timer.setInterval(30_000)
+        self._perth_date_timer.timeout.connect(self.refresh_booking_dates)
+        self._perth_date_timer.start()
         self._initial_cache_timer.start(0)
 
     def build_header(self):
@@ -1032,6 +1086,7 @@ class GolfHub(QMainWindow):
             today,
             today.addDays(27),
             [today.addDays(1)],
+            rolling=True,
         )
         self.date.datesChanged.connect(self.update_day_mode)
         self.date_field = self.field("DATES", self.date)
@@ -1123,6 +1178,15 @@ class GolfHub(QMainWindow):
         layout.addLayout(actions, 1, 8, 1, 4)
         self.update_day_mode()
         return card
+
+    def refresh_booking_dates(self):
+        if not self._closing:
+            self.date.refresh_booking_dates()
+
+    def changeEvent(self, event):
+        super().changeEvent(event)
+        if event.type() == QEvent.Type.ActivationChange and hasattr(self, "date"):
+            self.refresh_booking_dates()
 
     def day_count(self):
         return len(self.date.selected_qdates())
@@ -1282,6 +1346,7 @@ class GolfHub(QMainWindow):
         return [row.site for row in self.course_rows if row.check.isChecked() and hole in row.site.holes]
 
     def params(self):
+        self.refresh_booking_dates()
         sites = self.selected_sites()
         if not sites:
             QMessageBox.information(self, "Choose a course", "Select at least one course for this round type.")
@@ -1362,7 +1427,8 @@ class GolfHub(QMainWindow):
             return
 
     def _stop_deferred_timers(self):
-        for timer in (self._initial_cache_timer, self._cache_search_timer, self._scroll_timer):
+        for timer in (self._initial_cache_timer, self._cache_search_timer, self._scroll_timer,
+                      self._perth_date_timer):
             timer.stop()
 
     @staticmethod

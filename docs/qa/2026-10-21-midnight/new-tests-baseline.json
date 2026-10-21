@@ -1,0 +1,13 @@
+{
+  "root": "/workspace/golfhub-midnight-baseline-20261021",
+  "commit": "8b01866f3783d9ef021e114c81c139dede1facc1",
+  "exit_code": 1,
+  "tests": 15,
+  "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+  "tests_sha256": "4c783f5aebdd05ae60111a5d7572fed086d4894624f630d982cd58c14a07c73f",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "passed_methods": 4,
+  "failed_methods": 10,
+  "failing_assertions_including_subcases": 12,
+  "error_methods": 1
+}

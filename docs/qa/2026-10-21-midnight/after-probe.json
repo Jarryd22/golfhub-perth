@@ -1,0 +1,24 @@
+{
+  "before": {
+    "dates": [
+      "2033-01-01"
+    ],
+    "text": "Tomorrow  \u00e2\u20ac\u00a2  Sat, 1 Jan 2033   \u00e2\u2013\u00be",
+    "minimum": "2032-12-31",
+    "maximum": "2033-01-27"
+  },
+  "after_midnight": {
+    "today": "2033-01-01",
+    "dates": [
+      "2033-01-01"
+    ],
+    "text": "Today  \u00e2\u20ac\u00a2  Sat, 1 Jan 2033   \u00e2\u2013\u00be",
+    "minimum": "2033-01-01",
+    "maximum": "2033-01-28",
+    "popup_minimum": "2033-01-01",
+    "banner": "TODAY  \u00e2\u20ac\u00a2  SATURDAY, 1 JANUARY 2033",
+    "new_search_dates": [
+      "2033-01-01"
+    ]
+  }
+}
