@@ -1,0 +1,592 @@
+{
+  "plan": "10 paired rounds, alternating order; stop after fourth timeout; unchanged cache_close scenario, 30s limit, fresh isolated dirs, retain all outcomes; no retries",
+  "python": "/tmp/golfhub-qt612-followup/bin/python",
+  "harness_sha256": "1d85f1aa6e7002a7005aacdb479004d2650c115f949966235d3a7c966c903602",
+  "roots": {
+    "base": {
+      "root": "/workspace/golfhub-midnight-baseline-20261021",
+      "commit": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d"
+    },
+    "head": {
+      "root": "/workspace/golfhub-midnight-20261021",
+      "commit": "9ed31ad463e00637732162e0592442ae3f66668a",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50"
+    }
+  },
+  "runs": [
+    {
+      "pair": 1,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.836,
+      "log": "01-base.log"
+    },
+    {
+      "pair": 1,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.996,
+      "log": "01-head.log"
+    },
+    {
+      "pair": 2,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.862,
+      "log": "02-head.log"
+    },
+    {
+      "pair": 2,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.862,
+      "log": "02-base.log"
+    },
+    {
+      "pair": 3,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.008,
+      "log": "03-base.log"
+    },
+    {
+      "pair": 3,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.871,
+      "log": "03-head.log"
+    },
+    {
+      "pair": 4,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.044,
+      "log": "04-head.log"
+    },
+    {
+      "pair": 4,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.9,
+      "log": "04-base.log"
+    },
+    {
+      "pair": 5,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.023,
+      "log": "05-base.log"
+    },
+    {
+      "pair": 5,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.987,
+      "log": "05-head.log"
+    },
+    {
+      "pair": 6,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.154,
+      "log": "06-head.log"
+    },
+    {
+      "pair": 6,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.023,
+      "log": "06-base.log"
+    },
+    {
+      "pair": 7,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.107,
+      "log": "07-base.log"
+    },
+    {
+      "pair": 7,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.949,
+      "log": "07-head.log"
+    },
+    {
+      "pair": 8,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.924,
+      "log": "08-head.log"
+    },
+    {
+      "pair": 8,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.876,
+      "log": "08-base.log"
+    },
+    {
+      "pair": 9,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.91,
+      "log": "09-base.log"
+    },
+    {
+      "pair": 9,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 0.86,
+      "log": "09-head.log"
+    },
+    {
+      "pair": 10,
+      "label": "head",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.026,
+      "log": "10-head.log"
+    },
+    {
+      "pair": 10,
+      "label": "base",
+      "command": [
+        "/tmp/golfhub-qt612-followup/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "exit_code": 0,
+      "pass": true,
+      "result": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "seconds": 1.153,
+      "log": "10-base.log"
+    }
+  ],
+  "environment": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]\n6.12.0 6.12.0\n",
+  "counts": {
+    "base": {
+      "runs": 10,
+      "passed": 10,
+      "timeouts": 0
+    },
+    "head": {
+      "runs": 10,
+      "passed": 10,
+      "timeouts": 0
+    }
+  }
+}

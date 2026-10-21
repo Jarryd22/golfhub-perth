@@ -1,0 +1,527 @@
+test_activation_rechecks_clock_before_idle_timer (test_midnight_rollover.MidnightRolloverTests.test_activation_rechecks_clock_before_idle_timer) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day (test_midnight_rollover.MidnightRolloverTests.test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_applying_open_popup_revalidates_before_any_timer_tick (test_midnight_rollover.MidnightRolloverTests.test_applying_open_popup_revalidates_before_any_timer_tick) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+FAIL
+test_applying_pending_future_date_emits_only_the_final_selection (test_midnight_rollover.MidnightRolloverTests.test_applying_pending_future_date_emits_only_the_final_selection) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_default_tomorrow_becomes_today_without_changing_absolute_selection (test_midnight_rollover.MidnightRolloverTests.test_default_tomorrow_becomes_today_without_changing_absolute_selection) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_idle_timer_refreshes_controls_without_launching_a_search (test_midnight_rollover.MidnightRolloverTests.test_idle_timer_refreshes_controls_without_launching_a_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) (instant='2032-02-28T15:59:59+00:00') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) (instant='2032-02-29T15:59:59+00:00') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) (instant='2033-04-30T15:59:59+00:00') ... FAIL
+test_long_suspend_resets_only_when_no_chosen_date_remains_valid (test_midnight_rollover.MidnightRolloverTests.test_long_suspend_resets_only_when_no_chosen_date_remains_valid) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_new_cache_search_replaces_expired_selection_with_today (test_midnight_rollover.MidnightRolloverTests.test_new_cache_search_replaces_expired_selection_with_today) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_new_live_search_uses_today_after_selection_expires (test_midnight_rollover.MidnightRolloverTests.test_new_live_search_uses_today_after_selection_expires) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them (test_midnight_rollover.MidnightRolloverTests.test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+FAIL
+test_opening_picker_refreshes_bounds_and_allows_new_last_day (test_midnight_rollover.MidnightRolloverTests.test_opening_picker_refreshes_bounds_and_allows_new_last_day) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+FAIL
+test_submitted_live_fallback_keeps_its_original_date (test_midnight_rollover.MidnightRolloverTests.test_submitted_live_fallback_keeps_its_original_date) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_submitted_results_and_lazy_sections_keep_their_dates_after_rollover (test_midnight_rollover.MidnightRolloverTests.test_submitted_results_and_lazy_sections_keep_their_dates_after_rollover) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_utc_midnight_does_not_shift_the_perth_window (test_midnight_rollover.MidnightRolloverTests.test_utc_midnight_does_not_shift_the_perth_window) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+======================================================================
+ERROR: test_idle_timer_refreshes_controls_without_launching_a_search (test_midnight_rollover.MidnightRolloverTests.test_idle_timer_refreshes_controls_without_launching_a_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 211, in test_idle_timer_refreshes_controls_without_launching_a_search
+    timer = self.window._perth_date_timer
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'GolfHub' object has no attribute '_perth_date_timer'
+
+======================================================================
+FAIL: test_activation_rechecks_clock_before_idle_timer (test_midnight_rollover.MidnightRolloverTests.test_activation_rechecks_clock_before_idle_timer)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 233, in test_activation_rechecks_clock_before_idle_timer
+    self.assert_window(QDate(2033, 1, 1), [QDate(2033, 1, 1)])
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 57, in assert_window
+    self.assertEqual(self.window.date.minimumDate(), today)
+AssertionError: PySide6.QtCore.QDate(2032, 12, 31) != PySide6.QtCore.QDate(2033, 1, 1)
+
+======================================================================
+FAIL: test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day (test_midnight_rollover.MidnightRolloverTests.test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 114, in test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day
+    self.assert_window(first.addDays(1), [first.addDays(i) for i in range(1, 28)])
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 57, in assert_window
+    self.assertEqual(self.window.date.minimumDate(), today)
+AssertionError: PySide6.QtCore.QDate(2032, 12, 31) != PySide6.QtCore.QDate(2033, 1, 1)
+
+======================================================================
+FAIL: test_applying_open_popup_revalidates_before_any_timer_tick (test_midnight_rollover.MidnightRolloverTests.test_applying_open_popup_revalidates_before_any_timer_tick)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 192, in test_applying_open_popup_revalidates_before_any_timer_tick
+    self.assert_window(old.addDays(1), [old.addDays(1)])
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 57, in assert_window
+    self.assertEqual(self.window.date.minimumDate(), today)
+AssertionError: PySide6.QtCore.QDate(2032, 12, 31) != PySide6.QtCore.QDate(2033, 1, 1)
+
+======================================================================
+FAIL: test_default_tomorrow_becomes_today_without_changing_absolute_selection (test_midnight_rollover.MidnightRolloverTests.test_default_tomorrow_becomes_today_without_changing_absolute_selection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 103, in test_default_tomorrow_becomes_today_without_changing_absolute_selection
+    self.assert_window(QDate(2033, 1, 1), [QDate(2033, 1, 1)])
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 57, in assert_window
+    self.assertEqual(self.window.date.minimumDate(), today)
+AssertionError: PySide6.QtCore.QDate(2032, 12, 31) != PySide6.QtCore.QDate(2033, 1, 1)
+
+======================================================================
+FAIL: test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) (instant='2032-02-28T15:59:59+00:00')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 154, in test_leap_day_and_month_end_use_the_same_28_day_rule
+    self.assertEqual(window.params()["dates"], [first.addDays(1).toString("yyyy-MM-dd")])
+AssertionError: Lists differ: ['2032-02-28'] != ['2032-02-29']
+
+First differing element 0:
+'2032-02-28'
+'2032-02-29'
+
+- ['2032-02-28']
+?            ^
+
++ ['2032-02-29']
+?            ^
+
+
+======================================================================
+FAIL: test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) (instant='2032-02-29T15:59:59+00:00')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 154, in test_leap_day_and_month_end_use_the_same_28_day_rule
+    self.assertEqual(window.params()["dates"], [first.addDays(1).toString("yyyy-MM-dd")])
+AssertionError: Lists differ: ['2032-02-29'] != ['2032-03-01']
+
+First differing element 0:
+'2032-02-29'
+'2032-03-01'
+
+- ['2032-02-29']
+?         ^ ^^
+
++ ['2032-03-01']
+?         ^ ^^
+
+
+======================================================================
+FAIL: test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) (instant='2033-04-30T15:59:59+00:00')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 154, in test_leap_day_and_month_end_use_the_same_28_day_rule
+    self.assertEqual(window.params()["dates"], [first.addDays(1).toString("yyyy-MM-dd")])
+AssertionError: Lists differ: ['2033-04-30'] != ['2033-05-01']
+
+First differing element 0:
+'2033-04-30'
+'2033-05-01'
+
+- ['2033-04-30']
+?         ^ -
+
++ ['2033-05-01']
+?         ^  +
+
+
+======================================================================
+FAIL: test_long_suspend_resets_only_when_no_chosen_date_remains_valid (test_midnight_rollover.MidnightRolloverTests.test_long_suspend_resets_only_when_no_chosen_date_remains_valid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 124, in test_long_suspend_resets_only_when_no_chosen_date_remains_valid
+    self.assert_window(first.addDays(4), [first.addDays(7)])
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 57, in assert_window
+    self.assertEqual(self.window.date.minimumDate(), today)
+AssertionError: PySide6.QtCore.QDate(2032, 12, 31) != PySide6.QtCore.QDate(2033, 1, 4)
+
+======================================================================
+FAIL: test_new_cache_search_replaces_expired_selection_with_today (test_midnight_rollover.MidnightRolloverTests.test_new_cache_search_replaces_expired_selection_with_today)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 75, in test_new_cache_search_replaces_expired_selection_with_today
+    self.assertEqual(launch.call_args.args[0]["dates"], ["2033-01-01"])
+AssertionError: Lists differ: ['2032-12-31'] != ['2033-01-01']
+
+First differing element 0:
+'2032-12-31'
+'2033-01-01'
+
+- ['2032-12-31']
+?      ^  - ^
+
++ ['2033-01-01']
+?      ^ +  ^
+
+
+======================================================================
+FAIL: test_new_live_search_uses_today_after_selection_expires (test_midnight_rollover.MidnightRolloverTests.test_new_live_search_uses_today_after_selection_expires)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 84, in test_new_live_search_uses_today_after_selection_expires
+    self.assertEqual(worker.call_args.args[1], "2033-01-01")
+AssertionError: '2032-12-31' != '2033-01-01'
+- 2032-12-31
++ 2033-01-01
+
+
+======================================================================
+FAIL: test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them (test_midnight_rollover.MidnightRolloverTests.test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 177, in test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them
+    self.assertEqual(popup.selected_dates(), [committed, pending])
+AssertionError: Lists differ: [PySi[15 chars]e(2032, 12, 31), PySide6.QtCore.QDate(2033, 1,[33 chars], 4)] != [PySi[15 chars]e(2033, 1, 2), PySide6.QtCore.QDate(2033, 1, 4)]
+
+First differing element 0:
+PySide6.QtCore.QDate(2032, 12, 31)
+PySide6.QtCore.QDate(2033, 1, 2)
+
+First list contains 1 additional elements.
+First extra element 2:
+PySide6.QtCore.QDate(2033, 1, 4)
+
++ [PySide6.QtCore.QDate(2033, 1, 2), PySide6.QtCore.QDate(2033, 1, 4)]
+- [PySide6.QtCore.QDate(2032, 12, 31),
+-  PySide6.QtCore.QDate(2033, 1, 2),
+-  PySide6.QtCore.QDate(2033, 1, 4)]
+
+======================================================================
+FAIL: test_opening_picker_refreshes_bounds_and_allows_new_last_day (test_midnight_rollover.MidnightRolloverTests.test_opening_picker_refreshes_bounds_and_allows_new_last_day)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-midnight-baseline-20261021/tests/test_midnight_rollover.py", line 162, in test_opening_picker_refreshes_bounds_and_allows_new_last_day
+    self.assertEqual(popup.calendar.minimumDate(), today)
+AssertionError: PySide6.QtCore.QDate(2032, 12, 31) != PySide6.QtCore.QDate(2033, 1, 1)
+
+----------------------------------------------------------------------
+Ran 15 tests in 0.835s
+
+FAILED (failures=12, errors=1)

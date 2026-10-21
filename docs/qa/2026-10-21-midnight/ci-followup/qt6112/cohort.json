@@ -1,0 +1,680 @@
+{
+  "started_utc": "2026-10-21T01:09:01.509706+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "python_executable": "/workspace/golfhub-perth/.venv/bin/python",
+  "pyside": "6.11.2",
+  "qt": "6.11.2",
+  "scenario": "cache_close",
+  "planned_rounds": 10,
+  "planned_invocations": 20,
+  "timeout_seconds": 30,
+  "predeclared_stop": "Stop immediately after the fourth timeout (>3 total); no retries or discarded outcomes.",
+  "order": "Odd rounds PR13 then PR14; even rounds PR14 then PR13.",
+  "harness": "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+  "harness_sha256": "1d85f1aa6e7002a7005aacdb479004d2650c115f949966235d3a7c966c903602",
+  "sources": {
+    "pr13": {
+      "root": "/workspace/golfhub-midnight-baseline-20261021",
+      "commit": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d"
+    },
+    "pr14": {
+      "root": "/workspace/golfhub-midnight-20261021",
+      "commit": "9ed31ad463e00637732162e0592442ae3f66668a",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50"
+    }
+  },
+  "runs": [
+    {
+      "round": 1,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-01-pr13",
+      "started_utc": "2026-10-21T01:09:01.528269+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.056229,
+      "stdout_log": "round-01-pr13.stdout.log",
+      "stderr_log": "round-01-pr13.stderr.log"
+    },
+    {
+      "round": 1,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-01-pr14",
+      "started_utc": "2026-10-21T01:09:02.586002+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.944629,
+      "stdout_log": "round-01-pr14.stdout.log",
+      "stderr_log": "round-01-pr14.stderr.log"
+    },
+    {
+      "round": 2,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-02-pr14",
+      "started_utc": "2026-10-21T01:09:03.531220+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.098578,
+      "stdout_log": "round-02-pr14.stdout.log",
+      "stderr_log": "round-02-pr14.stderr.log"
+    },
+    {
+      "round": 2,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-02-pr13",
+      "started_utc": "2026-10-21T01:09:04.631069+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.968867,
+      "stdout_log": "round-02-pr13.stdout.log",
+      "stderr_log": "round-02-pr13.stderr.log"
+    },
+    {
+      "round": 3,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-03-pr13",
+      "started_utc": "2026-10-21T01:09:05.600499+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.012913,
+      "stdout_log": "round-03-pr13.stdout.log",
+      "stderr_log": "round-03-pr13.stderr.log"
+    },
+    {
+      "round": 3,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-03-pr14",
+      "started_utc": "2026-10-21T01:09:06.614616+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.92545,
+      "stdout_log": "round-03-pr14.stdout.log",
+      "stderr_log": "round-03-pr14.stderr.log"
+    },
+    {
+      "round": 4,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-04-pr14",
+      "started_utc": "2026-10-21T01:09:07.541782+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.897503,
+      "stdout_log": "round-04-pr14.stdout.log",
+      "stderr_log": "round-04-pr14.stderr.log"
+    },
+    {
+      "round": 4,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-04-pr13",
+      "started_utc": "2026-10-21T01:09:08.441199+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.975837,
+      "stdout_log": "round-04-pr13.stdout.log",
+      "stderr_log": "round-04-pr13.stderr.log"
+    },
+    {
+      "round": 5,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-05-pr13",
+      "started_utc": "2026-10-21T01:09:09.417749+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.115001,
+      "stdout_log": "round-05-pr13.stdout.log",
+      "stderr_log": "round-05-pr13.stderr.log"
+    },
+    {
+      "round": 5,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-05-pr14",
+      "started_utc": "2026-10-21T01:09:10.533967+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.226116,
+      "stdout_log": "round-05-pr14.stdout.log",
+      "stderr_log": "round-05-pr14.stderr.log"
+    },
+    {
+      "round": 6,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-06-pr14",
+      "started_utc": "2026-10-21T01:09:11.760854+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.344348,
+      "stdout_log": "round-06-pr14.stdout.log",
+      "stderr_log": "round-06-pr14.stderr.log"
+    },
+    {
+      "round": 6,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-06-pr13",
+      "started_utc": "2026-10-21T01:09:13.106248+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.051813,
+      "stdout_log": "round-06-pr13.stdout.log",
+      "stderr_log": "round-06-pr13.stderr.log"
+    },
+    {
+      "round": 7,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-07-pr13",
+      "started_utc": "2026-10-21T01:09:14.159418+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.997905,
+      "stdout_log": "round-07-pr13.stdout.log",
+      "stderr_log": "round-07-pr13.stderr.log"
+    },
+    {
+      "round": 7,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-07-pr14",
+      "started_utc": "2026-10-21T01:09:15.158602+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 1.066238,
+      "stdout_log": "round-07-pr14.stdout.log",
+      "stderr_log": "round-07-pr14.stderr.log"
+    },
+    {
+      "round": 8,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-08-pr14",
+      "started_utc": "2026-10-21T01:09:16.225639+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.938656,
+      "stdout_log": "round-08-pr14.stdout.log",
+      "stderr_log": "round-08-pr14.stderr.log"
+    },
+    {
+      "round": 8,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-08-pr13",
+      "started_utc": "2026-10-21T01:09:17.165542+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.957593,
+      "stdout_log": "round-08-pr13.stdout.log",
+      "stderr_log": "round-08-pr13.stderr.log"
+    },
+    {
+      "round": 9,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-09-pr13",
+      "started_utc": "2026-10-21T01:09:18.124071+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.938485,
+      "stdout_log": "round-09-pr13.stdout.log",
+      "stderr_log": "round-09-pr13.stderr.log"
+    },
+    {
+      "round": 9,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-09-pr14",
+      "started_utc": "2026-10-21T01:09:19.064040+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.902684,
+      "stdout_log": "round-09-pr14.stdout.log",
+      "stderr_log": "round-09-pr14.stderr.log"
+    },
+    {
+      "round": 10,
+      "source": "pr14",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-10-pr14",
+      "started_utc": "2026-10-21T01:09:19.967469+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.896557,
+      "stdout_log": "round-10-pr14.stdout.log",
+      "stderr_log": "round-10-pr14.stderr.log"
+    },
+    {
+      "round": 10,
+      "source": "pr13",
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-X",
+        "faulthandler",
+        "/workspace/golfhub-midnight-20261021/tests/test_thread_lifecycle.py",
+        "--scenario",
+        "cache_close",
+        "--root",
+        "/workspace/golfhub-midnight-baseline-20261021"
+      ],
+      "runtime": "/tmp/golfhub-midnight-ci-followup/qt6112/runtime/round-10-pr13",
+      "started_utc": "2026-10-21T01:09:20.864754+00:00",
+      "exit_code": 0,
+      "outcome": "pass",
+      "evidence": {
+        "scenario": "cache_close",
+        "worker_destroyed": 1,
+        "thread_destroyed": 1,
+        "callback_errors": [],
+        "fixture_fetches": [
+          "2026-10-22"
+        ],
+        "native_finish_checks": []
+      },
+      "evidence_valid": true,
+      "elapsed_seconds": 0.882997,
+      "stdout_log": "round-10-pr13.stdout.log",
+      "stderr_log": "round-10-pr13.stderr.log"
+    }
+  ],
+  "finished_utc": "2026-10-21T01:09:21.748628+00:00",
+  "stopped_early": false,
+  "completed_invocations": 20,
+  "summary": {
+    "pr13": {
+      "pass": 10
+    },
+    "pr14": {
+      "pass": 10
+    }
+  }
+}

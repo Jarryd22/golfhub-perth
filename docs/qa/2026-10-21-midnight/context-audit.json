@@ -1,0 +1,1032 @@
+{
+  "checked_at_utc": "2026-10-21T00:50:40.552Z",
+  "scope": "Read-only source branch/PR duplicate inspection and unchanged update release metadata; no health audit, live providers, binaries, installation, signatures, notifications or device testing.",
+  "pulls": [
+    {
+      "repository": "Jarryd22/golfhub-perth",
+      "prs": [
+        {
+          "number": 13,
+          "title": "Retain desktop workers until native thread cleanup completes",
+          "state": "open",
+          "draft": true,
+          "base": "fix/desktop-booking-context-20261020",
+          "head": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/13"
+        },
+        {
+          "number": 12,
+          "title": "Identify booking actions and label custom time controls",
+          "state": "open",
+          "draft": true,
+          "base": "fix/desktop-course-controls-20261019",
+          "head": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/12"
+        },
+        {
+          "number": 11,
+          "title": "Fix course selection counts and label desktop filters",
+          "state": "open",
+          "draft": true,
+          "base": "fix/desktop-keyboard-date-selection",
+          "head": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/11"
+        },
+        {
+          "number": 10,
+          "title": "Enable keyboard date selection and cover desktop search in CI",
+          "state": "open",
+          "draft": true,
+          "base": "fix/desktop-search-dates-and-times",
+          "head": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/10"
+        },
+        {
+          "number": 9,
+          "title": "Use Perth booking dates and reject reversed search times",
+          "state": "open",
+          "draft": true,
+          "base": "main",
+          "head": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/9"
+        },
+        {
+          "number": 8,
+          "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+          "state": "open",
+          "draft": true,
+          "base": "fix/cache-refresh-weather-cooldown",
+          "head": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/8"
+        },
+        {
+          "number": 7,
+          "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+          "state": "open",
+          "draft": true,
+          "base": "fix/cache-refresh-wembley-fallback",
+          "head": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/7"
+        },
+        {
+          "number": 6,
+          "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+          "state": "open",
+          "draft": true,
+          "base": "fix/cache-refresh-weather-timeouts",
+          "head": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/6"
+        },
+        {
+          "number": 5,
+          "title": "Keep missing Wembley products unknown and expire stale fallback",
+          "state": "open",
+          "draft": true,
+          "base": "main",
+          "head": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/5"
+        },
+        {
+          "number": 4,
+          "title": "Bound weather timeout retries within shared preparation",
+          "state": "open",
+          "draft": true,
+          "base": "main",
+          "head": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/4"
+        },
+        {
+          "number": 3,
+          "title": "Bound repeated Quick18 failures across each cache shard",
+          "state": "open",
+          "draft": true,
+          "base": "main",
+          "head": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/3"
+        }
+      ]
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "prs": []
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "prs": []
+    }
+  ],
+  "update_releases": [
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "tag": "v5.1.17",
+      "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+      "release_id": 396867076,
+      "published_at": "2026-09-25T19:20:44Z",
+      "assets": [
+        {
+          "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+          "size": 140883946,
+          "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+          "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+        },
+        {
+          "name": "release-notes.md",
+          "size": 689,
+          "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+          "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+        },
+        {
+          "name": "update.json",
+          "size": 1432,
+          "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+          "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+        }
+      ],
+      "asset_metadata_identical_to_20_october": true,
+      "manifest_bytes_downloaded_this_pass": false,
+      "signature_verified_this_pass": false
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "tag": "android-v0.1.19",
+      "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+      "release_id": 401647726,
+      "published_at": "2026-10-02T08:28:11Z",
+      "assets": [
+        {
+          "name": "android-update.json",
+          "size": 1744,
+          "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+          "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+        },
+        {
+          "name": "GolfHub_Perth_Android_0.1.19.apk",
+          "size": 77035309,
+          "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+          "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+        },
+        {
+          "name": "release-notes.md",
+          "size": 747,
+          "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+          "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+        }
+      ],
+      "asset_metadata_identical_to_20_october": true,
+      "manifest_bytes_downloaded_this_pass": false,
+      "signature_verified_this_pass": false
+    }
+  ],
+  "instructions": "No AGENTS.md or .agents/skills at PR13; /workspace/.agents empty.",
+  "limitations": [
+    "Canonical newer dirty desktop/mobile source unavailable and untouched.",
+    "Windows/Android/native updater/screen readers/DPI/real notification delivery unverified.",
+    "No WebEngine run or security/sandbox setting change."
+  ],
+  "source_duplicate_audit": {
+    "refs": [
+      {
+        "ref": "origin/agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "bc690c8580c55939395a2d21ad98dec8cea07d7f7f4df73162fc470682d122bc",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "10058df47864482c39e46a8eee0bb5f627c738e77bacc73efc46f59ae4329790",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "bc690c8580c55939395a2d21ad98dec8cea07d7f7f4df73162fc470682d122bc",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "10058df47864482c39e46a8eee0bb5f627c738e77bacc73efc46f59ae4329790",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "bc690c8580c55939395a2d21ad98dec8cea07d7f7f4df73162fc470682d122bc",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "10058df47864482c39e46a8eee0bb5f627c738e77bacc73efc46f59ae4329790",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "bc690c8580c55939395a2d21ad98dec8cea07d7f7f4df73162fc470682d122bc",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "10058df47864482c39e46a8eee0bb5f627c738e77bacc73efc46f59ae4329790",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "bc690c8580c55939395a2d21ad98dec8cea07d7f7f4df73162fc470682d122bc",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "9ea2c003b82403f0b6ef083ffc4ce246e8512e86c4b38600c1e7ad2173b7187b",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "ref": "origin/main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "date_classes": {
+          "MultiDateButton": {
+            "ast_sha256": "7eb5dddff59e31f4699d4f5ff32b338f20ded925b042f864c2e90cec51cda247",
+            "methods": [
+              "__init__",
+              "open_picker",
+              "_popup_closed",
+              "picker_popup",
+              "set_dates",
+              "selected_qdates",
+              "update_text",
+              "minimumDate",
+              "maximumDate",
+              "date",
+              "setDate"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          },
+          "MultiDatePopup": {
+            "ast_sha256": "1e45a660cf2adf2b554f97f28d660f995db39c549883370b4287f00b3d9d97b8",
+            "methods": [
+              "__init__",
+              "show_below",
+              "toggle_date",
+              "update_month_header",
+              "clear_dates",
+              "apply_dates",
+              "refresh_highlights",
+              "selected_dates"
+            ],
+            "bounds_writes": [
+              {
+                "method": "__init__",
+                "attribute": "_minimum"
+              },
+              {
+                "method": "__init__",
+                "attribute": "_maximum"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    "conclusion": "All 15 fetched main/fix/agent refs assign date bounds only during date-control/popup initialization; no existing bound-rebase method. Open PRs remain #3\u201313 with prior scopes. This is source inspection, not runtime proof."
+  },
+  "update_main_refs": {
+    "Jarryd22/golfhub-perth-updates": "b53909b8edac42055071e01914aff7d1921a8305",
+    "Jarryd22/golfhub-perth-android-updates": "cfec2bbd6205edae0f733f6931e0e535db284e48"
+  },
+  "workflow_inspection": "Desktop test push runs on fix/desktop-*; cache test PR runs on app/workflow changes. Cache/news production push triggers restrict to main; alerts only dispatch. No production workflow dispatched."
+}

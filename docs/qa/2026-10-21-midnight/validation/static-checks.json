@@ -1,0 +1,37 @@
+{
+  "checks": [
+    {
+      "command": [
+        "/tmp/golfhub-actionlint/actionlint"
+      ],
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit": 0,
+      "output": ""
+    },
+    {
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-m",
+        "py_compile",
+        "app/qt_golfhub_app.py",
+        "tests/test_midnight_rollover.py"
+      ],
+      "exit": 0,
+      "output": ""
+    }
+  ],
+  "actionlint_version": "1.7.12",
+  "actionlint_download_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+  "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+  "test_sha256": "4c783f5aebdd05ae60111a5d7572fed086d4894624f630d982cd58c14a07c73f"
+}
