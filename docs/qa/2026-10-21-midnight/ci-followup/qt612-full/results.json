@@ -1,0 +1,38 @@
+[
+  {
+    "source": "base",
+    "commit": "8b01866f3783d9ef021e114c81c139dede1facc1",
+    "command": [
+      "/tmp/golfhub-qt612-followup/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_thread_lifecycle.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "seconds": 11.136968163999882,
+    "log": "base.log"
+  },
+  {
+    "source": "head",
+    "commit": "9ed31ad463e00637732162e0592442ae3f66668a",
+    "command": [
+      "/tmp/golfhub-qt612-followup/bin/python",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "tests",
+      "-p",
+      "test_thread_lifecycle.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "seconds": 10.10271154499992,
+    "log": "head.log"
+  }
+]

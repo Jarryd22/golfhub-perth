@@ -1,0 +1,348 @@
+﻿2026-10-21T00:57:02.3767668Z Current runner version: '2.337.0'
+2026-10-21T00:57:02.3794344Z ##[group]Runner Image Provisioner
+2026-10-21T00:57:02.3795158Z Hosted Compute Agent
+2026-10-21T00:57:02.3795717Z Version: 20261002.596
+2026-10-21T00:57:02.3796357Z Commit: c3d12f3313a95f25162a1503be624f3b0617f8c0
+2026-10-21T00:57:02.3797051Z Build Date: 2026-10-02T22:28:27Z
+2026-10-21T00:57:02.3797711Z Worker ID: {5dba1aed-466d-4ecc-902a-82d4fbcf99a2}
+2026-10-21T00:57:02.3798400Z Region: eastus
+2026-10-21T00:57:02.3798910Z Cloud: Azure
+2026-10-21T00:57:02.3799409Z ##[endgroup]
+2026-10-21T00:57:02.3801312Z ##[group]Operating System
+2026-10-21T00:57:02.3802043Z Microsoft Windows Server 2025
+2026-10-21T00:57:02.3802662Z 10.0.26100
+2026-10-21T00:57:02.3803155Z Datacenter
+2026-10-21T00:57:02.3803660Z ##[endgroup]
+2026-10-21T00:57:02.3804187Z ##[group]Runner Image
+2026-10-21T00:57:02.3804738Z Image: windows-2025-vs2026
+2026-10-21T00:57:02.3805329Z Version: 20261007.264.1
+2026-10-21T00:57:02.3806753Z Included Software: https://github.com/actions/runner-images/blob/win25-vs2026/20261007.264/images/windows/Windows2025-VS2026-Readme.md
+2026-10-21T00:57:02.3808445Z Image Release: https://github.com/actions/runner-images/releases/tag/win25-vs2026%2F20261007.264
+2026-10-21T00:57:02.3809387Z ##[endgroup]
+2026-10-21T00:57:02.3810513Z ##[group]GITHUB_TOKEN Permissions
+2026-10-21T00:57:02.3812363Z Contents: read
+2026-10-21T00:57:02.3813030Z Metadata: read
+2026-10-21T00:57:02.3813581Z ##[endgroup]
+2026-10-21T00:57:02.3815680Z Secret source: Actions
+2026-10-21T00:57:02.3816572Z Cache mode: write
+2026-10-21T00:57:02.3817249Z Prepare workflow directory
+2026-10-21T00:57:02.4196742Z Prepare all required actions
+2026-10-21T00:57:02.4246919Z Getting action download info
+2026-10-21T00:57:02.5792582Z Download action repository 'actions/checkout@v4' (SHA:11d5960a326750d5838078e36cf38b85af677262)
+2026-10-21T00:57:02.7279314Z Download action repository 'actions/setup-python@v5' (SHA:a26af69be951a213d495a4c3e4e4022e16d87065)
+2026-10-21T00:57:03.0424701Z Complete job name: desktop
+2026-10-21T00:57:03.2549031Z ##[group]Run actions/checkout@v4
+2026-10-21T00:57:03.2550053Z with:
+2026-10-21T00:57:03.2550483Z   repository: Jarryd22/golfhub-perth
+2026-10-21T00:57:03.2554231Z   token: ***
+2026-10-21T00:57:03.2554645Z   ssh-strict: true
+2026-10-21T00:57:03.2555045Z   ssh-user: git
+2026-10-21T00:57:03.2555458Z   persist-credentials: true
+2026-10-21T00:57:03.2555912Z   clean: true
+2026-10-21T00:57:03.2556330Z   sparse-checkout-cone-mode: true
+2026-10-21T00:57:03.2556816Z   fetch-depth: 1
+2026-10-21T00:57:03.2557213Z   fetch-tags: false
+2026-10-21T00:57:03.2557625Z   show-progress: true
+2026-10-21T00:57:03.2558034Z   lfs: false
+2026-10-21T00:57:03.2558414Z   submodules: false
+2026-10-21T00:57:03.2558833Z   set-safe-directory: true
+2026-10-21T00:57:03.2559324Z   allow-unsafe-pr-checkout: false
+2026-10-21T00:57:03.2560013Z env:
+2026-10-21T00:57:03.2560405Z   QT_QPA_PLATFORM: offscreen
+2026-10-21T00:57:03.2560870Z ##[endgroup]
+2026-10-21T00:57:03.4148433Z Syncing repository: Jarryd22/golfhub-perth
+2026-10-21T00:57:03.4150131Z ##[group]Getting Git version info
+2026-10-21T00:57:03.4150803Z Working directory is 'D:\a\golfhub-perth\golfhub-perth'
+2026-10-21T00:57:03.5082946Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-21T00:57:03.8324686Z git version 2.56.0.windows.2
+2026-10-21T00:57:03.8400391Z ##[endgroup]
+2026-10-21T00:57:03.8424956Z Temporarily overriding HOME='D:\a\_temp\772d739d-a061-40d5-8dc5-1f4f9ca4d2ef' before making global git config changes
+2026-10-21T00:57:03.8427678Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-21T00:57:03.8439990Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\golfhub-perth\golfhub-perth
+2026-10-21T00:57:03.9136260Z Deleting the contents of 'D:\a\golfhub-perth\golfhub-perth'
+2026-10-21T00:57:03.9142463Z ##[group]Initializing the repository
+2026-10-21T00:57:03.9151623Z [command]"C:\Program Files\Git\bin\git.exe" init D:\a\golfhub-perth\golfhub-perth
+2026-10-21T00:57:04.0039091Z Initialized empty Git repository in D:/a/golfhub-perth/golfhub-perth/.git/
+2026-10-21T00:57:04.0085492Z [command]"C:\Program Files\Git\bin\git.exe" remote add origin https://github.com/Jarryd22/golfhub-perth
+2026-10-21T00:57:04.0766489Z ##[endgroup]
+2026-10-21T00:57:04.0767759Z ##[group]Disabling automatic garbage collection
+2026-10-21T00:57:04.0775487Z [command]"C:\Program Files\Git\bin\git.exe" config --local gc.auto 0
+2026-10-21T00:57:04.1173024Z ##[endgroup]
+2026-10-21T00:57:04.1174254Z ##[group]Setting up auth
+2026-10-21T00:57:04.1185644Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-21T00:57:04.1571988Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-21T00:57:05.5476284Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-21T00:57:05.5870894Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-21T00:57:06.1226037Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-21T00:57:06.1616007Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-21T00:57:06.7436457Z [command]"C:\Program Files\Git\bin\git.exe" config --local http.https://github.com/.extraheader "AUTHORIZATION: basic ***"
+2026-10-21T00:57:06.7842382Z ##[endgroup]
+2026-10-21T00:57:06.7843025Z ##[group]Fetching the repository
+2026-10-21T00:57:06.7864851Z [command]"C:\Program Files\Git\bin\git.exe" -c protocol.version=2 fetch --no-tags --prune --no-recurse-submodules --depth=1 origin +9ed31ad463e00637732162e0592442ae3f66668a:refs/remotes/origin/fix/desktop-perth-midnight-20261021
+2026-10-21T00:57:07.7292715Z From https://github.com/Jarryd22/golfhub-perth
+2026-10-21T00:57:07.7293830Z  * [new ref]         9ed31ad463e00637732162e0592442ae3f66668a -> origin/fix/desktop-perth-midnight-20261021
+2026-10-21T00:57:07.7331492Z ##[endgroup]
+2026-10-21T00:57:07.7331984Z ##[group]Determining the checkout info
+2026-10-21T00:57:07.7334946Z ##[endgroup]
+2026-10-21T00:57:07.7350448Z [command]"C:\Program Files\Git\bin\git.exe" sparse-checkout disable
+2026-10-21T00:57:07.7870545Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all extensions.worktreeConfig
+2026-10-21T00:57:07.8258574Z ##[group]Checking out the ref
+2026-10-21T00:57:07.8267849Z [command]"C:\Program Files\Git\bin\git.exe" checkout --progress --force -B fix/desktop-perth-midnight-20261021 refs/remotes/origin/fix/desktop-perth-midnight-20261021
+2026-10-21T00:57:07.9905098Z Switched to a new branch 'fix/desktop-perth-midnight-20261021'
+2026-10-21T00:57:07.9970273Z branch 'fix/desktop-perth-midnight-20261021' set up to track 'origin/fix/desktop-perth-midnight-20261021'.
+2026-10-21T00:57:08.0018223Z ##[endgroup]
+2026-10-21T00:57:08.0526026Z [command]"C:\Program Files\Git\bin\git.exe" log -1 --format=%H
+2026-10-21T00:57:08.0928293Z 9ed31ad463e00637732162e0592442ae3f66668a
+2026-10-21T00:57:08.1532756Z ##[group]Run actions/setup-python@v5
+2026-10-21T00:57:08.1533115Z with:
+2026-10-21T00:57:08.1533352Z   python-version: 3.12
+2026-10-21T00:57:08.1533627Z   check-latest: false
+2026-10-21T00:57:08.1536760Z   token: ***
+2026-10-21T00:57:08.1537006Z   update-environment: true
+2026-10-21T00:57:08.1537290Z   allow-prereleases: false
+2026-10-21T00:57:08.1537556Z   freethreaded: false
+2026-10-21T00:57:08.1537780Z env:
+2026-10-21T00:57:08.1537991Z   QT_QPA_PLATFORM: offscreen
+2026-10-21T00:57:08.1538250Z ##[endgroup]
+2026-10-21T00:57:08.3257602Z ##[group]Installed versions
+2026-10-21T00:57:08.3441477Z (node:8860) [DEP0040] DeprecationWarning: The `punycode` module is deprecated. Please use a userland alternative instead.
+2026-10-21T00:57:08.3443747Z (Use `node --trace-deprecation ...` to show where the warning was created)
+2026-10-21T00:57:08.3444459Z Successfully set up CPython (3.12.10)
+2026-10-21T00:57:08.3445415Z ##[endgroup]
+2026-10-21T00:57:08.3760087Z ##[group]Run python -m pip install -r requirements.txt
+2026-10-21T00:57:08.3760624Z [36;1mpython -m pip install -r requirements.txt[0m
+2026-10-21T00:57:08.4691156Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-21T00:57:08.4691595Z env:
+2026-10-21T00:57:08.4691806Z   QT_QPA_PLATFORM: offscreen
+2026-10-21T00:57:08.4692193Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:08.4692777Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-21T00:57:08.4693289Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:08.4693768Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:08.4694220Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:08.4694576Z ##[endgroup]
+2026-10-21T00:57:14.0816963Z Collecting PySide6>=6.7.0 (from -r requirements.txt (line 1))
+2026-10-21T00:57:14.3292172Z   Downloading pyside6-6.12.0-cp310-abi3-win_amd64.whl.metadata (5.7 kB)
+2026-10-21T00:57:14.5501866Z Collecting tzdata>=2026.1 (from -r requirements.txt (line 2))
+2026-10-21T00:57:14.5734288Z   Downloading tzdata-2026.5-py2.py3-none-any.whl.metadata (1.4 kB)
+2026-10-21T00:57:14.7183714Z Collecting PySide6_Essentials==6.12.0 (from PySide6>=6.7.0->-r requirements.txt (line 1))
+2026-10-21T00:57:14.7417166Z   Downloading pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl.metadata (3.9 kB)
+2026-10-21T00:57:14.9548482Z Collecting PySide6_Addons==6.12.0 (from PySide6>=6.7.0->-r requirements.txt (line 1))
+2026-10-21T00:57:14.9793972Z   Downloading pyside6_addons-6.12.0-cp310-abi3-win_amd64.whl.metadata (4.4 kB)
+2026-10-21T00:57:15.1168662Z Collecting PySide6_WebEngine==6.12.0.140 (from PySide6>=6.7.0->-r requirements.txt (line 1))
+2026-10-21T00:57:15.1384687Z   Downloading pyside6_webengine-6.12.0.140-cp310-abi3-win_amd64.whl.metadata (3.7 kB)
+2026-10-21T00:57:15.2518260Z Collecting PySide6_Pdf==6.12.0.140 (from PySide6>=6.7.0->-r requirements.txt (line 1))
+2026-10-21T00:57:15.2732201Z   Downloading pyside6_pdf-6.12.0.140-cp310-abi3-win_amd64.whl.metadata (3.6 kB)
+2026-10-21T00:57:15.4121678Z Collecting shiboken6==6.12.0 (from PySide6_Essentials==6.12.0->PySide6>=6.7.0->-r requirements.txt (line 1))
+2026-10-21T00:57:15.4740560Z   Downloading shiboken6-6.12.0-cp310-abi3-win_amd64.whl.metadata (2.6 kB)
+2026-10-21T00:57:15.5417759Z Downloading pyside6-6.12.0-cp310-abi3-win_amd64.whl (578 kB)
+2026-10-21T00:57:15.6727057Z    ---------------------------------------- 579.0/579.0 kB 4.0 MB/s  0:00:00
+2026-10-21T00:57:15.7012943Z Downloading pyside6_addons-6.12.0-cp310-abi3-win_amd64.whl (40.5 MB)
+2026-10-21T00:57:18.6353756Z    ---------------------------------------- 40.5/40.5 MB 13.8 MB/s  0:00:02
+2026-10-21T00:57:18.6920643Z Downloading pyside6_essentials-6.12.0-cp310-abi3-win_amd64.whl (82.2 MB)
+2026-10-21T00:57:25.9860342Z    ---------------------------------------- 82.2/82.2 MB 11.2 MB/s  0:00:07
+2026-10-21T00:57:26.0124389Z Downloading pyside6_pdf-6.12.0.140-cp310-abi3-win_amd64.whl (3.0 MB)
+2026-10-21T00:57:26.0768954Z    ---------------------------------------- 3.0/3.0 MB 43.2 MB/s  0:00:00
+2026-10-21T00:57:26.1020094Z Downloading pyside6_webengine-6.12.0.140-cp310-abi3-win_amd64.whl (131.7 MB)
+2026-10-21T00:57:37.9783694Z    ---------------------------------------- 131.7/131.7 MB 11.1 MB/s  0:00:11
+2026-10-21T00:57:38.0005578Z Downloading shiboken6-6.12.0-cp310-abi3-win_amd64.whl (1.3 MB)
+2026-10-21T00:57:38.0667769Z    ---------------------------------------- 1.3/1.3 MB 16.2 MB/s  0:00:00
+2026-10-21T00:57:38.1108048Z Downloading tzdata-2026.5-py2.py3-none-any.whl (347 kB)
+2026-10-21T00:57:38.8997196Z Installing collected packages: tzdata, shiboken6, PySide6_Essentials, PySide6_Pdf, PySide6_Addons, PySide6_WebEngine, PySide6
+2026-10-21T00:57:56.0565913Z
+2026-10-21T00:57:56.0590388Z Successfully installed PySide6-6.12.0 PySide6_Addons-6.12.0 PySide6_Essentials-6.12.0 PySide6_Pdf-6.12.0.140 PySide6_WebEngine-6.12.0.140 shiboken6-6.12.0 tzdata-2026.5
+2026-10-21T00:57:56.0603516Z
+2026-10-21T00:57:56.0606203Z [notice] A new release of pip is available: 26.2.1 -> 26.2.2
+2026-10-21T00:57:56.0607252Z [notice] To update, run: python.exe -m pip install --upgrade pip
+2026-10-21T00:57:56.2608344Z ##[group]Run $modules = @(
+2026-10-21T00:57:56.2608694Z [36;1m$modules = @([0m
+2026-10-21T00:57:56.2608946Z [36;1m  "test_booking_context.py",[0m
+2026-10-21T00:57:56.2609213Z [36;1m  "test_course_controls.py",[0m
+2026-10-21T00:57:56.2609494Z [36;1m  "test_calendar_keyboard.py",[0m
+2026-10-21T00:57:56.2609769Z [36;1m  "test_multiday_ui.py",[0m
+2026-10-21T00:57:56.2610022Z [36;1m  "test_perth_dates.py",[0m
+2026-10-21T00:57:56.2610267Z [36;1m  "test_midnight_rollover.py",[0m
+2026-10-21T00:57:56.2610524Z [36;1m  "test_time_range_ui.py",[0m
+2026-10-21T00:57:56.2610761Z [36;1m  "test_search_race.py",[0m
+2026-10-21T00:57:56.2611005Z [36;1m  "test_thread_lifecycle.py"[0m
+2026-10-21T00:57:56.2611238Z [36;1m)[0m
+2026-10-21T00:57:56.2611423Z [36;1mforeach ($module in $modules) {[0m
+2026-10-21T00:57:56.2611772Z [36;1m  python -m unittest discover -s tests -p $module -v[0m
+2026-10-21T00:57:56.2612600Z [36;1m  if ($LASTEXITCODE -ne 0) { exit $LASTEXITCODE }[0m
+2026-10-21T00:57:56.2612911Z [36;1m}[0m
+2026-10-21T00:57:56.2695648Z shell: C:\Program Files\PowerShell\7\pwsh.EXE -command ". '{0}'"
+2026-10-21T00:57:56.2695996Z env:
+2026-10-21T00:57:56.2696184Z   QT_QPA_PLATFORM: offscreen
+2026-10-21T00:57:56.2696503Z   pythonLocation: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:56.2696993Z   PKG_CONFIG_PATH: C:\hostedtoolcache\windows\Python\3.12.10\x64/lib/pkgconfig
+2026-10-21T00:57:56.2697445Z   Python_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:56.2697856Z   Python2_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:56.2698254Z   Python3_ROOT_DIR: C:\hostedtoolcache\windows\Python\3.12.10\x64
+2026-10-21T00:57:56.2698616Z   LOCALAPPDATA: D:\a\_temp/golfhub-desktop-tests
+2026-10-21T00:57:56.2698891Z ##[endgroup]
+2026-10-21T00:57:59.3913546Z test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) ... ok
+2026-10-21T00:57:59.4439328Z test_direct_course_links_preserve_literal_ampersands_and_single_day_context (test_booking_context.BookingContextTests.test_direct_course_links_preserve_literal_ampersands_and_single_day_context) ... ok
+2026-10-21T00:57:59.5054241Z test_lazy_days_keep_their_own_dates_when_opened_after_filters_change (test_booking_context.BookingContextTests.test_lazy_days_keep_their_own_dates_when_opened_after_filters_change) ... ok
+2026-10-21T00:57:59.5553923Z test_missing_context_is_not_invented_and_row_url_still_wins (test_booking_context.BookingContextTests.test_missing_context_is_not_invented_and_row_url_still_wins) ... ok
+2026-10-21T00:57:59.6082432Z test_range_course_link_has_no_invented_single_date (test_booking_context.BookingContextTests.test_range_course_link_has_no_invented_single_date) ... ok
+2026-10-21T00:57:59.6623151Z test_repeated_times_distinguish_course_and_round_without_changing_visible_text (test_booking_context.BookingContextTests.test_repeated_times_distinguish_course_and_round_without_changing_visible_text) ... ok
+2026-10-21T00:57:59.7255708Z test_show_all_action_keeps_course_date_context_after_toggle (test_booking_context.BookingContextTests.test_show_all_action_keeps_course_date_context_after_toggle) ... ok
+2026-10-21T00:57:59.7855539Z test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff (test_booking_context.BookingContextTests.test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff) ... ok
+2026-10-21T00:57:59.7857898Z
+2026-10-21T00:57:59.7858453Z ----------------------------------------------------------------------
+2026-10-21T00:57:59.7859468Z Ran 8 tests in 0.532s
+2026-10-21T00:57:59.7859756Z
+2026-10-21T00:57:59.7860022Z OK
+2026-10-21T00:58:00.6864131Z test_checkbox_click_updates_count_once_and_keyboard_restores_it (test_course_controls.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it) ... ok
+2026-10-21T00:58:00.7482074Z test_clear_select_visible_and_round_changes_preserve_correct_selection (test_course_controls.CourseControlTests.test_clear_select_visible_and_round_changes_preserve_correct_selection) ... ok
+2026-10-21T00:58:00.8018466Z test_course_row_click_updates_count_once (test_course_controls.CourseControlTests.test_course_row_click_updates_count_once) ... ok
+2026-10-21T00:58:00.8598380Z test_course_search_hint_matches_name_only_matching (test_course_controls.CourseControlTests.test_course_search_hint_matches_name_only_matching) ... ok
+2026-10-21T00:58:00.9178244Z test_course_search_keeps_its_accessible_name_after_typing (test_course_controls.CourseControlTests.test_course_search_keeps_its_accessible_name_after_typing) ... ok
+2026-10-21T00:58:00.9717185Z test_each_course_checkbox_exposes_course_name_and_checked_state (test_course_controls.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) ... ok
+2026-10-21T00:58:01.0276728Z test_filter_names_and_label_buddies_are_exposed (test_course_controls.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) ... ok
+2026-10-21T00:58:01.0819421Z test_hidden_selected_courses_remain_counted_during_name_search (test_course_controls.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search) ... ok
+2026-10-21T00:58:01.0820642Z
+2026-10-21T00:58:01.0820855Z ----------------------------------------------------------------------
+2026-10-21T00:58:01.0821632Z Ran 8 tests in 0.487s
+2026-10-21T00:58:01.0821842Z
+2026-10-21T00:58:01.0821951Z OK
+2026-10-21T00:58:01.5200606Z test_arrow_navigation_alone_does_not_change_chosen_dates (test_calendar_keyboard.CalendarKeyboardTests.test_arrow_navigation_alone_does_not_change_chosen_dates) ... ok
+2026-10-21T00:58:01.5283624Z test_escape_discards_pending_keyboard_selection (test_calendar_keyboard.CalendarKeyboardTests.test_escape_discards_pending_keyboard_selection) ... ok
+2026-10-21T00:58:01.5383836Z test_held_activation_key_does_not_toggle_repeatedly (test_calendar_keyboard.CalendarKeyboardTests.test_held_activation_key_does_not_toggle_repeatedly) ... ok
+2026-10-21T00:58:01.5500208Z test_keyboard_can_apply_selected_dates_by_tab_and_space (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_can_apply_selected_dates_by_tab_and_space) ... ok
+2026-10-21T00:58:01.5600824Z test_keyboard_navigation_crosses_month_and_respects_bounds (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_navigation_crosses_month_and_respects_bounds) ... ok
+2026-10-21T00:58:01.5716593Z test_mouse_click_then_double_click_does_not_add_a_second_toggle (test_calendar_keyboard.CalendarKeyboardTests.test_mouse_click_then_double_click_does_not_add_a_second_toggle) ... ok
+2026-10-21T00:58:03.1036304Z test_numeric_keys_cannot_start_a_delayed_date_edit (test_calendar_keyboard.CalendarKeyboardTests.test_numeric_keys_cannot_start_a_delayed_date_edit) ... ok
+2026-10-21T00:58:03.1131281Z test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) ... ok
+2026-10-21T00:58:03.1134445Z
+2026-10-21T00:58:03.1134951Z ----------------------------------------------------------------------
+2026-10-21T00:58:03.1135524Z Ran 8 tests in 1.643s
+2026-10-21T00:58:03.1135691Z
+2026-10-21T00:58:03.1135778Z OK
+2026-10-21T00:58:03.4861128Z test_cache_worker_fetches_each_date_and_returns_keyed_snapshots (test_multiday_ui.MultiDayUITests.test_cache_worker_fetches_each_date_and_returns_keyed_snapshots) ... ok
+2026-10-21T00:58:03.5294511Z test_calendar_hides_week_numbers_and_blocks_adjacent_month_dates (test_multiday_ui.MultiDayUITests.test_calendar_hides_week_numbers_and_blocks_adjacent_month_dates) ... ok
+2026-10-21T00:58:03.5665851Z test_calendar_keeps_single_day_default_and_accepts_nonconsecutive_dates (test_multiday_ui.MultiDayUITests.test_calendar_keeps_single_day_default_and_accepts_nonconsecutive_dates) ... ok
+2026-10-21T00:58:03.5800322Z test_calendar_stays_on_second_month_after_selecting_a_date (test_multiday_ui.MultiDayUITests.test_calendar_stays_on_second_month_after_selecting_a_date) ... ok
+2026-10-21T00:58:03.5802529Z test_consecutive_dates_are_bounded_to_cache_window (test_multiday_ui.MultiDayUITests.test_consecutive_dates_are_bounded_to_cache_window) ... ok
+2026-10-21T00:58:03.5884120Z test_date_control_opens_an_anchored_dropdown_and_marks_today (test_multiday_ui.MultiDayUITests.test_date_control_opens_an_anchored_dropdown_and_marks_today) ... ok
+2026-10-21T00:58:03.6390573Z test_each_day_renders_course_cards_alphabetically (test_multiday_ui.MultiDayUITests.test_each_day_renders_course_cards_alphabetically) ... ok
+2026-10-21T00:58:03.6606433Z test_multi_date_dropdown_accepts_a_real_mouse_click_and_applies (test_multiday_ui.MultiDayUITests.test_multi_date_dropdown_accepts_a_real_mouse_click_and_applies) ... ok
+2026-10-21T00:58:03.6630496Z test_multi_date_dropdown_toggles_dates_and_keeps_one_selected (test_multiday_ui.MultiDayUITests.test_multi_date_dropdown_toggles_dates_and_keeps_one_selected) ... ok
+2026-10-21T00:58:03.7043911Z test_partial_cache_still_labels_every_requested_day (test_multiday_ui.MultiDayUITests.test_partial_cache_still_labels_every_requested_day) ... ok
+2026-10-21T00:58:03.7485490Z test_results_are_grouped_by_day_and_only_open_day_is_built (test_multiday_ui.MultiDayUITests.test_results_are_grouped_by_day_and_only_open_day_is_built) ... ok
+2026-10-21T00:58:03.8016984Z test_twenty_eight_day_result_view_builds_only_one_day_body (test_multiday_ui.MultiDayUITests.test_twenty_eight_day_result_view_builds_only_one_day_body) ... ok
+2026-10-21T00:58:03.8261203Z
+2026-10-21T00:58:03.8261847Z ----------------------------------------------------------------------
+2026-10-21T00:58:03.8262451Z Ran 12 tests in 0.348s
+2026-10-21T00:58:03.8262686Z
+2026-10-21T00:58:03.8262791Z OK
+2026-10-21T00:58:04.2158577Z test_ahead_and_behind_local_dates_resolve_to_the_same_perth_day (test_perth_dates.PerthDateTests.test_ahead_and_behind_local_dates_resolve_to_the_same_perth_day) ... ok
+2026-10-21T00:58:04.2159811Z test_booking_day_changes_at_perth_midnight (test_perth_dates.PerthDateTests.test_booking_day_changes_at_perth_midnight) ... ok
+2026-10-21T00:58:04.2164540Z test_default_clock_requests_an_explicit_timezone (test_perth_dates.PerthDateTests.test_default_clock_requests_an_explicit_timezone) ... ok
+2026-10-21T00:58:04.2165956Z test_utc_midnight_does_not_change_the_perth_booking_day (test_perth_dates.PerthDateTests.test_utc_midnight_does_not_change_the_perth_booking_day) ... ok
+2026-10-21T00:58:04.2744877Z test_startup_window_and_default_selection_use_perth_day (test_perth_dates.PerthDateWidgetTests.test_startup_window_and_default_selection_use_perth_day) ... ok
+2026-10-21T00:58:04.2822140Z test_today_banner_highlight_and_relative_labels_share_perth_day (test_perth_dates.PerthDateWidgetTests.test_today_banner_highlight_and_relative_labels_share_perth_day) ... ok
+2026-10-21T00:58:04.2867961Z
+2026-10-21T00:58:04.2868819Z ----------------------------------------------------------------------
+2026-10-21T00:58:04.2869760Z Ran 6 tests in 0.081s
+2026-10-21T00:58:04.2870128Z
+2026-10-21T00:58:04.2870246Z OK
+2026-10-21T00:58:04.7186386Z test_activation_rechecks_clock_before_idle_timer (test_midnight_rollover.MidnightRolloverTests.test_activation_rechecks_clock_before_idle_timer) ... ok
+2026-10-21T00:58:04.7629859Z test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day (test_midnight_rollover.MidnightRolloverTests.test_all_28_dates_keep_27_valid_dates_without_selecting_the_new_day) ... ok
+2026-10-21T00:58:04.8167456Z test_applying_open_popup_revalidates_before_any_timer_tick (test_midnight_rollover.MidnightRolloverTests.test_applying_open_popup_revalidates_before_any_timer_tick) ... ok
+2026-10-21T00:58:04.8633565Z test_applying_pending_future_date_emits_only_the_final_selection (test_midnight_rollover.MidnightRolloverTests.test_applying_pending_future_date_emits_only_the_final_selection) ... ok
+2026-10-21T00:58:04.9055296Z test_default_tomorrow_becomes_today_without_changing_absolute_selection (test_midnight_rollover.MidnightRolloverTests.test_default_tomorrow_becomes_today_without_changing_absolute_selection) ... ok
+2026-10-21T00:58:04.9999549Z test_idle_timer_refreshes_controls_without_launching_a_search (test_midnight_rollover.MidnightRolloverTests.test_idle_timer_refreshes_controls_without_launching_a_search) ... ok
+2026-10-21T00:58:05.1664380Z test_leap_day_and_month_end_use_the_same_28_day_rule (test_midnight_rollover.MidnightRolloverTests.test_leap_day_and_month_end_use_the_same_28_day_rule) ... ok
+2026-10-21T00:58:05.2068079Z test_long_suspend_resets_only_when_no_chosen_date_remains_valid (test_midnight_rollover.MidnightRolloverTests.test_long_suspend_resets_only_when_no_chosen_date_remains_valid) ... ok
+2026-10-21T00:58:05.2466585Z test_new_cache_search_replaces_expired_selection_with_today (test_midnight_rollover.MidnightRolloverTests.test_new_cache_search_replaces_expired_selection_with_today) ... ok
+2026-10-21T00:58:05.2890952Z test_new_live_search_uses_today_after_selection_expires (test_midnight_rollover.MidnightRolloverTests.test_new_live_search_uses_today_after_selection_expires) ... ok
+2026-10-21T00:58:05.3373487Z test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them (test_midnight_rollover.MidnightRolloverTests.test_open_popup_keeps_valid_pending_dates_and_cancel_does_not_apply_them) ... ok
+2026-10-21T00:58:05.3810089Z test_opening_picker_refreshes_bounds_and_allows_new_last_day (test_midnight_rollover.MidnightRolloverTests.test_opening_picker_refreshes_bounds_and_allows_new_last_day) ... ok
+2026-10-21T00:58:05.4222153Z test_submitted_live_fallback_keeps_its_original_date (test_midnight_rollover.MidnightRolloverTests.test_submitted_live_fallback_keeps_its_original_date) ... ok
+2026-10-21T00:58:05.4686381Z test_submitted_results_and_lazy_sections_keep_their_dates_after_rollover (test_midnight_rollover.MidnightRolloverTests.test_submitted_results_and_lazy_sections_keep_their_dates_after_rollover) ... ok
+2026-10-21T00:58:05.5621375Z test_utc_midnight_does_not_shift_the_perth_window (test_midnight_rollover.MidnightRolloverTests.test_utc_midnight_does_not_shift_the_perth_window) ... ok
+2026-10-21T00:58:05.5622132Z
+2026-10-21T00:58:05.5622298Z ----------------------------------------------------------------------
+2026-10-21T00:58:05.5622658Z Ran 15 tests in 0.914s
+2026-10-21T00:58:05.5622794Z
+2026-10-21T00:58:05.5622887Z OK
+2026-10-21T00:58:06.0240662Z test_correction_restores_search_and_inclusive_filtering (test_time_range_ui.TimeRangeUITests.test_correction_restores_search_and_inclusive_filtering) ... ok
+2026-10-21T00:58:06.0723605Z test_equal_and_open_bounds_remain_valid (test_time_range_ui.TimeRangeUITests.test_equal_and_open_bounds_remain_valid) ... ok
+2026-10-21T00:58:06.1212970Z test_invalid_range_does_not_replace_a_queued_search (test_time_range_ui.TimeRangeUITests.test_invalid_range_does_not_replace_a_queued_search) ... ok
+2026-10-21T00:58:06.1769295Z test_reversed_range_does_not_launch_cache_or_live_search (test_time_range_ui.TimeRangeUITests.test_reversed_range_does_not_launch_cache_or_live_search) ... ok
+2026-10-21T00:58:06.2227243Z test_time_controls_have_distinct_names_and_visible_label_relationships (test_time_range_ui.TimeRangeUITests.test_time_controls_have_distinct_names_and_visible_label_relationships) ... ok
+2026-10-21T00:58:06.2463701Z
+2026-10-21T00:58:06.2464298Z ----------------------------------------------------------------------
+2026-10-21T00:58:06.2465397Z Ran 5 tests in 0.316s
+2026-10-21T00:58:06.2465613Z
+2026-10-21T00:58:06.2465714Z OK
+2026-10-21T00:58:06.7107198Z test_clear_results_hides_and_detaches_stale_cards_immediately (test_search_race.SearchRaceRegressionTests.test_clear_results_hides_and_detaches_stale_cards_immediately) ... ok
+2026-10-21T00:58:06.7506314Z test_explicit_search_is_queued_while_startup_cache_is_active (test_search_race.SearchRaceRegressionTests.test_explicit_search_is_queued_while_startup_cache_is_active) ... ok
+2026-10-21T00:58:06.7930682Z test_multiday_results_apply_player_filter_to_summary_and_lazy_day_cards (test_search_race.SearchRaceRegressionTests.test_multiday_results_apply_player_filter_to_summary_and_lazy_day_cards) ... ok
+2026-10-21T00:58:06.8304519Z test_old_cache_completion_cannot_render_over_a_newer_queued_search (test_search_race.SearchRaceRegressionTests.test_old_cache_completion_cannot_render_over_a_newer_queued_search) ... ok
+2026-10-21T00:58:06.8474949Z
+2026-10-21T00:58:06.8475806Z ----------------------------------------------------------------------
+2026-10-21T00:58:06.8476419Z Ran 4 tests in 0.228s
+2026-10-21T00:58:06.8476631Z
+2026-10-21T00:58:06.8476737Z OK
+2026-10-21T00:58:07.4859030Z test_cache_cleanup_waits_for_native_finish_before_starting_latest_search (test_thread_lifecycle.ThreadLifecycleTests.test_cache_cleanup_waits_for_native_finish_before_starting_latest_search) ... ok
+2026-10-21T00:58:37.5017591Z test_close_during_cache_work_does_not_launch_queued_search (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_cache_work_does_not_launch_queued_search) ... FAIL
+2026-10-21T00:58:37.9738634Z test_close_during_native_cache_cleanup_waits_and_discards_queued_search (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_cache_cleanup_waits_and_discards_queued_search) ... ok
+2026-10-21T00:58:38.5068316Z test_close_during_native_live_cleanup_waits_for_completion (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_live_cleanup_waits_for_completion) ... ok
+2026-10-21T00:58:39.0302910Z test_latest_queued_search_runs_after_old_thread_finishes (test_thread_lifecycle.ThreadLifecycleTests.test_latest_queued_search_runs_after_old_thread_finishes) ... ok
+2026-10-21T00:58:39.5379237Z test_live_cancel_releases_worker_without_saving_partial_data (test_thread_lifecycle.ThreadLifecycleTests.test_live_cancel_releases_worker_without_saving_partial_data) ... ok
+2026-10-21T00:58:40.5007818Z test_live_error_retains_objects_until_native_finish (test_thread_lifecycle.ThreadLifecycleTests.test_live_error_retains_objects_until_native_finish) ... ok
+2026-10-21T00:58:41.2133428Z test_live_failure_releases_worker_and_preserves_cache (test_thread_lifecycle.ThreadLifecycleTests.test_live_failure_releases_worker_and_preserves_cache) ... ok
+2026-10-21T00:58:41.7182342Z test_live_success_releases_worker_and_thread (test_thread_lifecycle.ThreadLifecycleTests.test_live_success_releases_worker_and_thread) ... ok
+2026-10-21T00:58:42.2768782Z test_live_success_retains_objects_until_native_finish (test_thread_lifecycle.ThreadLifecycleTests.test_live_success_retains_objects_until_native_finish) ... ok
+2026-10-21T00:58:42.8327647Z test_repeated_cache_searches_release_workers_and_threads (test_thread_lifecycle.ThreadLifecycleTests.test_repeated_cache_searches_release_workers_and_threads) ... ok
+2026-10-21T00:58:42.8328862Z
+2026-10-21T00:58:42.8329015Z ======================================================================
+2026-10-21T00:58:42.8329820Z FAIL: test_close_during_cache_work_does_not_launch_queued_search (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_cache_work_does_not_launch_queued_search)
+2026-10-21T00:58:42.8330606Z ----------------------------------------------------------------------
+2026-10-21T00:58:42.8330967Z Traceback (most recent call last):
+2026-10-21T00:58:42.8336782Z   File "D:\a\golfhub-perth\golfhub-perth\tests\test_thread_lifecycle.py", line 27, in run_scenario
+2026-10-21T00:58:42.8337763Z     result = subprocess.run(command, cwd=root, env=env, text=True,
+2026-10-21T00:58:42.8338136Z              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-21T00:58:42.8338646Z   File "C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\subprocess.py", line 550, in run
+2026-10-21T00:58:42.8339167Z     stdout, stderr = process.communicate(input, timeout=timeout)
+2026-10-21T00:58:42.8339515Z                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-21T00:58:42.8340003Z   File "C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\subprocess.py", line 1209, in communicate
+2026-10-21T00:58:42.8341092Z     stdout, stderr = self._communicate(input, endtime, timeout)
+2026-10-21T00:58:42.8341480Z                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+2026-10-21T00:58:42.8341997Z   File "C:\hostedtoolcache\windows\Python\3.12.10\x64\Lib\subprocess.py", line 1630, in _communicate
+2026-10-21T00:58:42.8342839Z     raise TimeoutExpired(self.args, orig_timeout)
+2026-10-21T00:58:42.8343993Z subprocess.TimeoutExpired: Command '['C:\\hostedtoolcache\\windows\\Python\\3.12.10\\x64\\python.exe', '-X', 'faulthandler', 'D:\\a\\golfhub-perth\\golfhub-perth\\tests\\test_thread_lifecycle.py', '--scenario', 'cache_close', '--root', 'D:\\a\\golfhub-perth\\golfhub-perth']' timed out after 30 seconds
+2026-10-21T00:58:42.8345274Z
+2026-10-21T00:58:42.8345473Z During handling of the above exception, another exception occurred:
+2026-10-21T00:58:42.8345750Z
+2026-10-21T00:58:42.8345842Z Traceback (most recent call last):
+2026-10-21T00:58:42.8346481Z   File "D:\a\golfhub-perth\golfhub-perth\tests\test_thread_lifecycle.py", line 50, in test_close_during_cache_work_does_not_launch_queued_search
+2026-10-21T00:58:42.8347113Z     self.run_scenario("cache_close")
+2026-10-21T00:58:42.8347572Z   File "D:\a\golfhub-perth\golfhub-perth\tests\test_thread_lifecycle.py", line 30, in run_scenario
+2026-10-21T00:58:42.8348225Z     self.fail(f"{name} exceeded 30 seconds; real worker lifecycle stalled.\n{exc.stdout}\n{exc.stderr}")
+2026-10-21T00:58:42.8348812Z AssertionError: cache_close exceeded 30 seconds; real worker lifecycle stalled.
+2026-10-21T00:58:42.8349127Z
+2026-10-21T00:58:42.8349131Z
+2026-10-21T00:58:42.8349135Z
+2026-10-21T00:58:42.8349268Z ----------------------------------------------------------------------
+2026-10-21T00:58:42.8349579Z Ran 11 tests in 35.849s
+2026-10-21T00:58:42.8349717Z
+2026-10-21T00:58:42.8349795Z FAILED (failures=1)
+2026-10-21T00:58:42.8709367Z ##[error]Process completed with exit code 1.
+2026-10-21T00:58:42.8983867Z Post job cleanup.
+2026-10-21T00:58:43.0997831Z [command]"C:\Program Files\Git\bin\git.exe" version
+2026-10-21T00:58:43.1355457Z git version 2.56.0.windows.2
+2026-10-21T00:58:43.1428937Z Temporarily overriding HOME='D:\a\_temp\7d9b8bd5-8e4e-4b26-8f2e-76c837f6f015' before making global git config changes
+2026-10-21T00:58:43.1430224Z Adding repository directory to the temporary git global config as a safe directory
+2026-10-21T00:58:43.1440936Z [command]"C:\Program Files\Git\bin\git.exe" config --global --add safe.directory D:\a\golfhub-perth\golfhub-perth
+2026-10-21T00:58:43.1842313Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp core\.sshCommand
+2026-10-21T00:58:43.2235562Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'core\.sshCommand' && git config --local --unset-all 'core.sshCommand' || :\""
+2026-10-21T00:58:43.8281844Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp http\.https\:\/\/github\.com\/\.extraheader
+2026-10-21T00:58:43.8617185Z http.https://github.com/.extraheader
+2026-10-21T00:58:43.8662100Z [command]"C:\Program Files\Git\bin\git.exe" config --local --unset-all http.https://github.com/.extraheader
+2026-10-21T00:58:43.9043315Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "sh -c \"git config --local --name-only --get-regexp 'http\.https\:\/\/github\.com\/\.extraheader' && git config --local --unset-all 'http.https://github.com/.extraheader' || :\""
+2026-10-21T00:58:44.4453345Z [command]"C:\Program Files\Git\bin\git.exe" config --local --name-only --get-regexp ^includeIf\.gitdir:
+2026-10-21T00:58:44.4845716Z [command]"C:\Program Files\Git\bin\git.exe" submodule foreach --recursive "git config --local --show-origin --name-only --get-regexp remote.origin.url"
+2026-10-21T00:58:45.0743271Z Cleaning up orphan processes
+2026-10-21T00:58:45.0795801Z ##[warning]Node.js 20 is deprecated. The following actions target Node.js 20 but are being forced to run on Node.js 24: actions/checkout@v4, actions/setup-python@v5. For more information see: https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/

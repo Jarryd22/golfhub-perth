@@ -1,0 +1,57 @@
+{
+  "refs": [
+    "8b01866f3783d9ef021e114c81c139dede1facc1",
+    "9ed31ad"
+  ],
+  "files": {
+    "app/qt_golfhub_app.py": {
+      "hashes": [
+        "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+        "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50"
+      ],
+      "bytes_identical": false,
+      "relevant_methods_ast_identical": {
+        "GolfHub._start_cache_search": true,
+        "GolfHub.cache_finished": true,
+        "GolfHub.cache_thread_done": true,
+        "GolfHub.closeEvent": true,
+        "GolfHub._finish_pending_close": true,
+        "GolfHub.search_cache": true,
+        "GolfHub.search_live": true,
+        "CacheWorker.run": true,
+        "GolfHub.scan_thread_done": true
+      },
+      "all_changed_or_added_methods": [
+        "GolfHub.__init__",
+        "GolfHub._stop_deferred_timers",
+        "GolfHub.build_search_bar",
+        "GolfHub.changeEvent",
+        "GolfHub.params",
+        "GolfHub.refresh_booking_dates",
+        "MultiDateButton.__init__",
+        "MultiDateButton._accept_dates",
+        "MultiDateButton.open_picker",
+        "MultiDateButton.refresh_booking_dates",
+        "MultiDatePopup.__init__",
+        "MultiDatePopup.apply_dates",
+        "MultiDatePopup.clear_dates",
+        "MultiDatePopup.refresh_booking_dates",
+        "MultiDatePopup.toggle_date"
+      ]
+    },
+    "tests/test_thread_lifecycle.py": {
+      "hashes": [
+        "1d85f1aa6e7002a7005aacdb479004d2650c115f949966235d3a7c966c903602",
+        "1d85f1aa6e7002a7005aacdb479004d2650c115f949966235d3a7c966c903602"
+      ],
+      "bytes_identical": true
+    },
+    "tests/qt_test_support.py": {
+      "hashes": [
+        "006b07a5c372ee1bc738a1d5bee50696e8b52cbb4b67de800932cc1f905e2812",
+        "006b07a5c372ee1bc738a1d5bee50696e8b52cbb4b67de800932cc1f905e2812"
+      ],
+      "bytes_identical": true
+    }
+  }
+}

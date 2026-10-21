@@ -1,0 +1,41 @@
+{
+  "total_count": 3,
+  "runs": [
+    {
+      "id": 39524443135,
+      "name": "Test cache refresh",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "9ed31ad463e00637732162e0592442ae3f66668a",
+      "created_at": "2026-10-21T00:57:35Z",
+      "updated_at": "2026-10-21T00:57:55Z",
+      "html_url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/39524443135",
+      "run_attempt": 1
+    },
+    {
+      "id": 39524443056,
+      "name": "Test desktop search controls",
+      "event": "pull_request",
+      "status": "completed",
+      "conclusion": "success",
+      "head_sha": "9ed31ad463e00637732162e0592442ae3f66668a",
+      "created_at": "2026-10-21T00:57:35Z",
+      "updated_at": "2026-10-21T00:58:43Z",
+      "html_url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/39524443056",
+      "run_attempt": 1
+    },
+    {
+      "id": 39524383636,
+      "name": "Test desktop search controls",
+      "event": "push",
+      "status": "completed",
+      "conclusion": "failure",
+      "head_sha": "9ed31ad463e00637732162e0592442ae3f66668a",
+      "created_at": "2026-10-21T00:56:58Z",
+      "updated_at": "2026-10-21T00:58:46Z",
+      "html_url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/39524383636",
+      "run_attempt": 1
+    }
+  ]
+}

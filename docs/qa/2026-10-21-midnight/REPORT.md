@@ -2,6 +2,9 @@
 
 A desktop left open across Perth midnight kept yesterday labelled **Today**, retained yesterday's 28-day bounds and submitted yesterday on a new Find Tee Times request. The focused repair rebases editable date controls while preserving the absolute dates of already submitted work and displayed results.
 
+
+**CI qualification added after the daily pass:** the original code head `9ed31ad463e00637732162e0592442ae3f66668a` has **three CI executions: one failed Windows push run and two successful PR-event runs**. The push run timed out in `cache_close` after 30 seconds. The earlier PR/final summary omitted that execution and overstated CI success. The failure remains unresolved; neither an introduced regression nor equivalence to #13's earlier Linux Qt 6.11.1 journey stall has been established. See the [follow-up investigation](ci-followup/REPORT.md).
+
 ## Scope and provenance
 
 Base: unchanged draft #13, `8b01866f3783d9ef021e114c81c139dede1facc1`, after dependent drafts #9→#10→#11→#12. Branch: `fix/desktop-perth-midnight-20261021`. The original `/workspace/golfhub-perth` checkout remained clean on main `25de15b`; work used separate repair and exact-base worktrees. No repository AGENTS.md or .agents/skills were present. A [current context audit](context-audit.json) inspected 15 main/fix/agent refs and all 11 open drafts #3–13; no existing midnight repair was found. No previous branch was rewritten.
@@ -45,10 +48,11 @@ The baseline has 12 failing assertions including subcases, separate from the mis
 Source SHA-256: `214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50`.
 New test SHA-256: `4c783f5aebdd05ae60111a5d7572fed086d4894624f630d982cd58c14a07c73f`.
 
-Windows test-only CI now selects **77 desktop tests**; the existing Linux cache job selects **43 tests and actionlint**. Production workflows are main-only or dispatch-only, so this repair push/draft triggers tests only. Final commit/remote/CI results are recorded in the draft PR description after publication; the local validation log records its pre-commit parent and working-tree hashes to avoid implying it ran against a yet-uncreated commit.
+Windows test-only CI now selects **77 desktop tests**; the existing Linux cache job selects **43 tests and actionlint**. Production workflows are main-only or dispatch-only, so this repair push/draft triggers tests only. All three original-code-head CI results, including the failed push run, are now recorded in the [follow-up](ci-followup/REPORT.md) and draft PR description; the local validation log records its pre-commit parent and working-tree hashes to avoid implying it ran against a yet-uncreated commit.
 
 ## Limits and remaining work
 
+- **Windows push CI is also unresolved:** `cache_close` stalled on Qt 6.12.0 at code head `9ed31ad`. Linux comparison runs passed on both exact #13 and #14 sources, which does not attribute or clear the Windows failure. Same-platform paired comparison and a failing child stack are unavailable in this Linux environment.
 - The prior Qt 6.11.1 manual-event-pump journey stall remains unresolved; today's focused tests use the installed Qt 6.11.2 and do not repeat or clear that harness issue. Four WebEngine tests remain blocked by the earlier sandbox-helper restriction and were not retried. The obsolete cron assertion is outside this focused suite and remains a known baseline failure.
 - Windows 5.1.17 and Android 0.1.19 latest-release API asset URLs/sizes/digests match the 20 October evidence. Update repository main refs remain Windows `b53909b…` / Android `cfec2bb…`. Today did not download or verify signed manifests/binaries, run the installed updater, or validate native Windows/Android, screen readers/DPI, actual OS suspension/resume or notification delivery. No hourly health audit was duplicated.
 - Newer dirty desktop/mobile source, per-course freshness and subset preservation remain pending canonical reconciliation. These source repairs are unmerged and are not claimed as installed-release behavior.
