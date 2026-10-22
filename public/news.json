@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-20T23:57:35.468001+00:00",
+  "generated_at": "2026-10-22T00:02:40.737845+00:00",
   "items": [
     {
       "id": "2e9cde4bd550d347f9fb",
@@ -363,9 +363,9 @@
       "title": "The Longest Day at Collier Park",
       "summary": "36 Holes for a Great Cause SECURE YOUR PLACE HERE Take on 36 holes",
       "url": "https://collierparkgolf.com.au/the-longest-day-at-collier-park/",
-      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Longest-day-1300-x-470-px.png",
+      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Longest-day-1300-x-470-px-3.png",
       "images": [
-        "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Longest-day-1300-x-470-px.png"
+        "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Longest-day-1300-x-470-px-3.png"
       ],
       "published_at": "2026-10-07T11:06:35+00:00",
       "category": "Course news"
@@ -489,11 +489,11 @@
     },
     {
       "course_id": "boddington-golf-club",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "carramar",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "chequers",
@@ -509,7 +509,7 @@
     },
     {
       "course_id": "fremantle",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "gosnells-golf-club",
@@ -549,11 +549,11 @@
     },
     {
       "course_id": "marangaroo",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
@@ -581,11 +581,11 @@
     },
     {
       "course_id": "point-walter",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "preston-beach",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "rockingham",
@@ -621,7 +621,7 @@
     },
     {
       "course_id": "the-vines",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "wanneroo-golf-club",
