@@ -1,7 +1,31 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-23T00:01:31.205118+00:00",
+  "generated_at": "2026-10-23T23:53:11.481552+00:00",
   "items": [
+    {
+      "id": "093d56e11779766c0762",
+      "course_id": "hartfield",
+      "title": "Friday November 6th Aussie BBQ Buffet- Bookings Essential",
+      "summary": "The post Friday November 6th Aussie BBQ Buffet- Bookings Essential appeared first on Hartfield",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/friday-november-6th-aussie-bbq-buffet/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Aussie-BBQ-Nov-6-1.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Aussie-BBQ-Nov-6-1.png"
+      ],
+      "published_at": "2026-10-23T06:50:41+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "1bd9d65fd2109a9f8cdb",
+      "course_id": "hartfield",
+      "title": "Vale- LYNTON PIGGOTT – Funeral Service Link",
+      "summary": "Vale- LYNTON PIGGOTT 20/02/1959- 9/10/2026 It is with sincere regret to advise of the",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/vale-lynton-piggott/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-23T01:30:00+00:00",
+      "category": "Course news"
+    },
     {
       "id": "9fd92f6143558353a012",
       "course_id": "sun-city",
@@ -44,7 +68,7 @@
       "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Championship-Draw-pdf-927x1200.jpg",
       "images": [
         "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Championship-Draw-pdf-927x1200.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Minor-Championship-pdf-927x1200.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Minor-Championship-1-pdf-927x1200.jpg",
         "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/B-Grade-pdf-927x1200.jpg",
         "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/C-Grade-pdf-927x1200.jpg"
       ],
@@ -73,19 +97,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-22T04:52:25+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "359094455e027af7900b",
-      "course_id": "hartfield",
-      "title": "2026 Club Champions and Pennant Team Dinner",
-      "summary": "Join us in celebrating our 2026 Club Champions and Pennant players as we recognise",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/2026-club-champions-and-pennant-team-dinner/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Club-Dinner-FINAL-1.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Club-Dinner-FINAL-1.png"
-      ],
-      "published_at": "2026-10-22T02:14:07+00:00",
       "category": "Course news"
     },
     {
@@ -119,19 +130,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-20T05:29:33+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "e6572174aef07f9db286",
-      "course_id": "hartfield",
-      "title": "Gosnells Junior Open December 6th 2026",
-      "summary": "The post Gosnells Junior Open December 6th 2026 appeared first on Hartfield Country Club",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/gosnells-junior-open-december-6th-2026/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Gosnells-Website.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Gosnells-Website.png"
-      ],
-      "published_at": "2026-10-20T02:39:28+00:00",
       "category": "Course news"
     },
     {
@@ -552,7 +550,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
@@ -620,7 +618,7 @@
     },
     {
       "course_id": "the-vines",
-      "status": "unavailable"
+      "status": "checked"
     },
     {
       "course_id": "wanneroo-golf-club",
