@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-23T23:53:11.481552+00:00",
+  "generated_at": "2026-10-24T23:22:40.849222+00:00",
   "items": [
+    {
+      "id": "b7d1b2c76bddfa5c59bc",
+      "course_id": "hartfield",
+      "title": "Great win Adrian on Saturday Sponsored by Last Slice",
+      "summary": "Congratulations to Adrian Coombs on winning Saturday’s competition with an excellent 43 points! A",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/great-win-adrian-on-saturday-sponsored-by-last-slice/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Last-Slice-Website.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Last-Slice-Website.png"
+      ],
+      "published_at": "2026-10-24T11:37:18+00:00",
+      "category": "Course news"
+    },
     {
       "id": "093d56e11779766c0762",
       "course_id": "hartfield",
@@ -87,17 +100,6 @@
       ],
       "published_at": "2026-10-22T07:00:41+00:00",
       "category": "Course works"
-    },
-    {
-      "id": "38bb4d6d3be9dc27924a",
-      "course_id": "hartfield",
-      "title": "Minutes of Managment and Match Committee with P&L Report",
-      "summary": "The post Minutes of Managment and Match Committee with P&L Report appeared first on",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/minutes-of-managment-and-match-committee-with-pl-report/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-22T04:52:25+00:00",
-      "category": "Course news"
     },
     {
       "id": "2e9cde4bd550d347f9fb",
@@ -550,7 +552,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
