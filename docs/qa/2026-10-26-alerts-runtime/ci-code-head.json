@@ -1,0 +1,21 @@
+{
+  "repository": "Jarryd22/golfhub-perth",
+  "pull_request": 15,
+  "head_sha": "da38c62f217c3c21e36896b2cf53cb141cad78f6",
+  "base_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+  "tested_merge_sha": "b3a61d4a14e5576c2a0a80e467f97615d14e87cf",
+  "head_and_merge_tree": "3e68a34746c32c43dc7a3eac8a24b38363ea7696",
+  "all_event_query_total_count": 1,
+  "returned_runs": 1,
+  "run": {
+    "id": 40251406904,
+    "url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/40251406904",
+    "event": "pull_request",
+    "attempt": 1,
+    "status": "completed",
+    "conclusion": "success",
+    "cache_integrity_tests": 70,
+    "actionlint": "v1.7.12 passed"
+  },
+  "scope": "Linux cache/integrity CI; no desktop, native device or notification delivery coverage. Historical Windows cache_close failure remains unresolved."
+}
