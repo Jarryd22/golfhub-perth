@@ -1,0 +1,22 @@
+{
+  "scope": "synthetic altered ZIP, no production modifications or member execution",
+  "ordinary_zip_crc_check_passes": true,
+  "manifest_validation": {
+    "ok": false,
+    "manifest_sha256": "0016bbf2e44526f07f81860f5e1461ebb24327cdfff7e36e16f73780419a9b95",
+    "archive_sha256": "2fffabd9bcf5e208669e859cbc60f6b5277759c5a6e80fb507c26ea2f191839b",
+    "expected_archive_sha256": "d6c9a26416283a6a90067c969a4511ad21f8c8ad300215a8195ec6f3c324bec7",
+    "members": [
+      {
+        "name": "service/example.py",
+        "sha256": "db27794144c8a70ed232f9f9d8fc6a87b0645c024fd4d638bbc2b5e1e6058bdd",
+        "expected_sha256": "c258cf843cdb6b904db6ab67843f16335ba353a493bffdcfa71c5416560c5e00",
+        "size": 24
+      }
+    ],
+    "errors": [
+      "Archive SHA-256 does not match bundle_sha256",
+      "Member SHA-256 mismatch: 'service/example.py'"
+    ]
+  }
+}
