@@ -1,0 +1,143 @@
+{
+  "inspection": "stdlib zip metadata and streamed bytes only; no extraction/import/install/worker execution",
+  "source_head": "55579cb135f360b114f7705516d3b21bbd8e1632",
+  "manifest_sha256": "07f360271f9f90969e07668c32f1f50c81a6c0dd02374ddee7b10c5ea9f99c50",
+  "bundle_expected": "63d7b944607ff8ce29f293adb64d647cbb6636f227da63971c0c1a181cfdaf30",
+  "bundle_actual": "63d7b944607ff8ce29f293adb64d647cbb6636f227da63971c0c1a181cfdaf30",
+  "manifest_duplicate_keys": [],
+  "members": [
+    {
+      "name": "app/__init__.py",
+      "bytes": 0,
+      "expected_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "actual_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "app/golfhub_core.py",
+      "bytes": 65534,
+      "expected_sha256": "d3b21cd5975342182ccc3945af7feb48ab4cbb76898aa6234551dd2c96225945",
+      "actual_sha256": "d3b21cd5975342182ccc3945af7feb48ab4cbb76898aa6234551dd2c96225945",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "app/availability.py",
+      "bytes": 510,
+      "expected_sha256": "b1e48693c545a9a33f08b0dbde2231a2fe7bd6687bf17fac054d2ac06cd05db8",
+      "actual_sha256": "b1e48693c545a9a33f08b0dbde2231a2fe7bd6687bf17fac054d2ac06cd05db8",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "app/cache_schema.py",
+      "bytes": 3863,
+      "expected_sha256": "8daa2ec70e1187936a14f2712c1eb72cad28d0562c10ebca978d1cddbc56ae10",
+      "actual_sha256": "8daa2ec70e1187936a14f2712c1eb72cad28d0562c10ebca978d1cddbc56ae10",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/__init__.py",
+      "bytes": 74,
+      "expected_sha256": "327e61c821e2bbe029eb9d2075dd2c5bdeecc4a9b72e66a4ca964586b3120b1c",
+      "actual_sha256": "327e61c821e2bbe029eb9d2075dd2c5bdeecc4a9b72e66a4ca964586b3120b1c",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/catalog.py",
+      "bytes": 1937,
+      "expected_sha256": "36cfecf9527c0d156115778723ce7860a1293dca6cf22927e97b256cf9fc0886",
+      "actual_sha256": "36cfecf9527c0d156115778723ce7860a1293dca6cf22927e97b256cf9fc0886",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/search.py",
+      "bytes": 6398,
+      "expected_sha256": "e9576123dd1ca9bae42bfb6398364badfaa357415b3fccab65ad271beb734f6e",
+      "actual_sha256": "e9576123dd1ca9bae42bfb6398364badfaa357415b3fccab65ad271beb734f6e",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/push_logic.py",
+      "bytes": 5516,
+      "expected_sha256": "41c399e077b31594a3a086b5150119336afa7b82e1e5d122ed4ec1e987a69783",
+      "actual_sha256": "41c399e077b31594a3a086b5150119336afa7b82e1e5d122ed4ec1e987a69783",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/push_worker.py",
+      "bytes": 15023,
+      "expected_sha256": "8970222d32d76efcdfe64d45364fdda94721e5fa8a3d8c23be7c8b385b9b7104",
+      "actual_sha256": "8970222d32d76efcdfe64d45364fdda94721e5fa8a3d8c23be7c8b385b9b7104",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/checker_gate.py",
+      "bytes": 1900,
+      "expected_sha256": "1f7b74ea34843ab516f9f7716ef011347095366aaa9587e8e81bc3990c26f5c0",
+      "actual_sha256": "1f7b74ea34843ab516f9f7716ef011347095366aaa9587e8e81bc3990c26f5c0",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/requirements-push.txt",
+      "bytes": 37,
+      "expected_sha256": "d74b7556c511200f4556f0646c0dc224f9f79b2ff06a4b022e6ffa5902c9a30d",
+      "actual_sha256": "d74b7556c511200f4556f0646c0dc224f9f79b2ff06a4b022e6ffa5902c9a30d",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "data/courses.json",
+      "bytes": 20505,
+      "expected_sha256": "d2e156d3dabe065b9e6ce523a3ecafa9c804cc89b4552dc3d7dd79a40ce13e34",
+      "actual_sha256": "d2e156d3dabe065b9e6ce523a3ecafa9c804cc89b4552dc3d7dd79a40ce13e34",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "data/course_ids.json",
+      "bytes": 1448,
+      "expected_sha256": "eae94a2e54bedd0a1796a315d2a96079a60fab4913e0d2e91e975c6cfadb5623",
+      "actual_sha256": "eae94a2e54bedd0a1796a315d2a96079a60fab4913e0d2e91e975c6cfadb5623",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "data/course_locations.json",
+      "bytes": 7951,
+      "expected_sha256": "7bf68f818388cb0d1d566339ddc69acf8d5535cc05e53aea073f3fed55d6ee25",
+      "actual_sha256": "7bf68f818388cb0d1d566339ddc69acf8d5535cc05e53aea073f3fed55d6ee25",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "data/course_profiles.json",
+      "bytes": 172812,
+      "expected_sha256": "55016dd938b573bd0b3dcb2bf9ce2b48d7f16976b373fd5a049c81dd2878ff91",
+      "actual_sha256": "55016dd938b573bd0b3dcb2bf9ce2b48d7f16976b373fd5a049c81dd2878ff91",
+      "matches": true,
+      "mode": "0o600"
+    },
+    {
+      "name": "service/recurrence.py",
+      "bytes": 2209,
+      "expected_sha256": "ecdec071a28c4633da2c5b6c180739253a4ebb68d60ec601fbaf4a7b05337add",
+      "actual_sha256": "ecdec071a28c4633da2c5b6c180739253a4ebb68d60ec601fbaf4a7b05337add",
+      "matches": true,
+      "mode": "0o600"
+    }
+  ],
+  "duplicate_members": [],
+  "extras": [],
+  "omissions": [],
+  "unsafe_members": [],
+  "passed": true
+}
