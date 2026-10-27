@@ -1,7 +1,36 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-25T23:20:57.908063+00:00",
+  "generated_at": "2026-10-27T00:34:40.111283+00:00",
   "items": [
+    {
+      "id": "3e7ae0a7cce1d2c02881",
+      "course_id": "sun-city",
+      "title": "The Yaberoo Cup 2027",
+      "summary": "It is time to bring the Dead Duck trophy home! Registration sheet available in",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/the-yaberoo-cup-2027/",
+      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Website-Banner@2x-2048x1072.png",
+      "images": [
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Website-Banner@2x-2048x1072.png"
+      ],
+      "published_at": "2026-10-26T07:24:18+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "6d96d501508c2164b790",
+      "course_id": "nedlands-golf-club",
+      "title": "MENS CLUB CHAMPIONSHIPS RESULTS",
+      "summary": "The post MENS CLUB CHAMPIONSHIPS RESULTS appeared first on Nedlands Golf Club .",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/mens-club-championships-results/",
+      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Club-Championship-Draw-3.jpg",
+      "images": [
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Club-Championship-Draw-3.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Minor-Championship-Draw-1.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/A-Grade-Championship-Draw-2.jpg",
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/B-Grade-Championship-Draw-3.jpg"
+      ],
+      "published_at": "2026-10-26T04:06:08+00:00",
+      "category": "Events"
+    },
     {
       "id": "b7d1b2c76bddfa5c59bc",
       "course_id": "hartfield",
@@ -275,35 +304,6 @@
       "category": "Course news"
     },
     {
-      "id": "4f3eea64ddd358515dc0",
-      "course_id": "nedlands-golf-club",
-      "title": "CODIE GIRDWOOD WINS 2026 C.G.DUDLEY",
-      "summary": "The CG Dudley Cup, the most prestigious event on the Men’s Calendar, was played",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/cody-girdwood-wins-2026-c-g-dudley/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/SILVERWARE.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/SILVERWARE.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Cody-Girdwood-4.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Cody-Price-.3-jpeg.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Noske.jpeg"
-      ],
-      "published_at": "2026-10-13T06:00:14+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "d8f894d09aa00fd07107",
-      "course_id": "sun-city",
-      "title": "Melbourne Cup",
-      "summary": "MELBOURNE CUP 2026 – RACE DAY AT SUN CITY! 🥂🏇 Get ready for the",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/melbourne-cup/",
-      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Melbourne-Cup26.png",
-      "images": [
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Melbourne-Cup26.png"
-      ],
-      "published_at": "2026-10-13T04:34:15+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "25b20ae945ca225e81c2",
       "course_id": "wembley",
       "title": "Nerves of Steel",
@@ -552,7 +552,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
