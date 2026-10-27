@@ -1,0 +1,71 @@
+{
+  "empty": {
+    "summary": "0 matching times across 3 days",
+    "status": "0 matching tee times across 3 days",
+    "header": "SHARED CACHE / 2 OF 3 DAYS",
+    "days": [
+      {
+        "date": "2033-01-02",
+        "title": "+  SUNDAY, 2 JANUARY 2033  -  No matching live times",
+        "built": true,
+        "body": [
+          "No live tee times matched these filters on this day."
+        ]
+      },
+      {
+        "date": "2033-01-03",
+        "title": "-  MONDAY, 3 JANUARY 2033  -  No matching live times",
+        "built": true,
+        "body": [
+          "No live tee times matched these filters on this day."
+        ]
+      },
+      {
+        "date": "2033-01-04",
+        "title": "+  TUESDAY, 4 JANUARY 2033  -  No matching live times",
+        "built": false,
+        "body": []
+      }
+    ],
+    "result_cards": 0,
+    "time_cards": 0
+  },
+  "matches": {
+    "summary": "1 matching time across 3 days",
+    "status": "1 matching tee time across 3 days",
+    "header": "SHARED CACHE / 2 OF 3 DAYS",
+    "days": [
+      {
+        "date": "2033-01-02",
+        "title": "+  SUNDAY, 2 JANUARY 2033  -  No matching live times",
+        "built": false,
+        "body": []
+      },
+      {
+        "date": "2033-01-03",
+        "title": "-  MONDAY, 3 JANUARY 2033  -  No matching live times",
+        "built": true,
+        "body": [
+          "No live tee times matched these filters on this day."
+        ]
+      },
+      {
+        "date": "2033-01-04",
+        "title": "+  TUESDAY, 4 JANUARY 2033  -  1 time across 1 course",
+        "built": true,
+        "body": [
+          "Araluen",
+          "1 matching tee time - 18 holes",
+          "",
+          "Forecast unavailable",
+          "10:00 am",
+          "4 spots"
+        ]
+      }
+    ],
+    "result_cards": 1,
+    "time_cards": 1
+  },
+  "callback_errors": [],
+  "kind": "Linux offscreen; synthetic partial cache; sockets/browser blocked; no workers"
+}

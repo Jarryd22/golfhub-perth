@@ -11,6 +11,7 @@ on:
       - "tests/test_course_controls.py"
       - "tests/test_calendar_keyboard.py"
       - "tests/test_multiday_ui.py"
+      - "tests/test_multiday_cache_states.py"
       - "tests/test_perth_dates.py"
       - "tests/test_midnight_rollover.py"
       - "tests/test_time_range_ui.py"
@@ -28,6 +29,7 @@ on:
       - "tests/test_course_controls.py"
       - "tests/test_calendar_keyboard.py"
       - "tests/test_multiday_ui.py"
+      - "tests/test_multiday_cache_states.py"
       - "tests/test_perth_dates.py"
       - "tests/test_midnight_rollover.py"
       - "tests/test_time_range_ui.py"
@@ -61,6 +63,7 @@ jobs:
             "test_course_controls.py",
             "test_calendar_keyboard.py",
             "test_multiday_ui.py",
+            "test_multiday_cache_states.py",
             "test_perth_dates.py",
             "test_midnight_rollover.py",
             "test_time_range_ui.py",

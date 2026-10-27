@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-27T00:27:36.400733+00:00",
+  "base_commit": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+  "kind": "Independent source/diff review and workflow static validation; no application tests run by reviewer",
+  "sha256": {
+    "app/qt_golfhub_app.py": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+    "tests/test_multiday_cache_states.py": "85be195451c0463b71a3805d11c22741e37c6ec64b820d0137cedfe184f668c7",
+    ".github/workflows/test-desktop.yml": "f6e99f56bf29d86bce68109001e70636472eeb84382da2b646e5a6eb61250fc5"
+  },
+  "actionlint": {
+    "version": "1.7.12",
+    "archive_url": "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz",
+    "archive_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+    "command": "/tmp/golfhub-actionlint-20261027/actionlint -no-color",
+    "exit_code": 0,
+    "log": "actionlint.log"
+  },
+  "no_blocking_findings": true
+}

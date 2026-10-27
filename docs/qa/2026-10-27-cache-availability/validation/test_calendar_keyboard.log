@@ -1,0 +1,46 @@
+QA_RESULT {"run": 8, "failures": 0, "errors": 0, "skipped": 0}
+test_arrow_navigation_alone_does_not_change_chosen_dates (test_calendar_keyboard.CalendarKeyboardTests.test_arrow_navigation_alone_does_not_change_chosen_dates) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_escape_discards_pending_keyboard_selection (test_calendar_keyboard.CalendarKeyboardTests.test_escape_discards_pending_keyboard_selection) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_held_activation_key_does_not_toggle_repeatedly (test_calendar_keyboard.CalendarKeyboardTests.test_held_activation_key_does_not_toggle_repeatedly) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_keyboard_can_apply_selected_dates_by_tab_and_space (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_can_apply_selected_dates_by_tab_and_space) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_keyboard_navigation_crosses_month_and_respects_bounds (test_calendar_keyboard.CalendarKeyboardTests.test_keyboard_navigation_crosses_month_and_respects_bounds) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_mouse_click_then_double_click_does_not_add_a_second_toggle (test_calendar_keyboard.CalendarKeyboardTests.test_mouse_click_then_double_click_does_not_add_a_second_toggle) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_numeric_keys_cannot_start_a_delayed_date_edit (test_calendar_keyboard.CalendarKeyboardTests.test_numeric_keys_cannot_start_a_delayed_date_edit) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_return_enter_and_space_toggle_once_and_keep_last_date (test_calendar_keyboard.CalendarKeyboardTests.test_return_enter_and_space_toggle_once_and_keep_last_date) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.645s
+
+OK
