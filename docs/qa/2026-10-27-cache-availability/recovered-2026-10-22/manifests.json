@@ -1,0 +1,64 @@
+{
+  "checked_at": "2026-10-22T00:30:45.093258+00:00",
+  "scope": "Four bounded JSON downloads only; no binary or signature/device verification.",
+  "checks": [
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "version": "5.1.17",
+      "manifest_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json",
+      "latest_alias_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/latest/download/update.json",
+      "manifest_sha256": "a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+      "manifest_size": 1432,
+      "payload": {
+        "channel": "stable",
+        "notes": "GolfHub Perth 5.1.17\n\nUpdate verification release.\n\nThis release has the same functionality as 5.1.16 with a higher version number so users can test the automatic download, installation and restart process.\n\nIt retains faster cached tee-time loading and the improved GitHub download compatibility introduced in 5.1.16.\n\nTo test, start from 5.1.16 and use Updates > Check now > Update now, or enable both automatic-update options and leave GolfHub idle with booking windows closed. After restarting, Updates should show 5.1.17.\n\nIf the update fails, use Open update log and share the error details. A successful update on the previously affected laptop is still to be confirmed.\n",
+        "platform": "windows-x64",
+        "schema": 1,
+        "sha256": "6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+        "size": 140883946,
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe",
+        "version": "5.1.17"
+      },
+      "manifest_hash_matches_current_api": true,
+      "manifest_size_matches_current_api": true,
+      "alias_bytes_match": true,
+      "binary_metadata_matches_current_api": true,
+      "signature_64_bytes": true,
+      "signature_verified": null,
+      "signature_reason": "Trusted updater key/implementation absent from this source checkout; no prior verdict reused.",
+      "installer_or_apk_downloaded": false,
+      "native_device_tested": false
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "version": "0.1.19",
+      "manifest_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json",
+      "latest_alias_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/latest/download/android-update.json",
+      "manifest_sha256": "b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+      "manifest_size": 1744,
+      "payload": {
+        "certificate_sha256": "56bbeb4e26c27c320f96812d653ecb1defd9df7ae37a3761688d9fc781f90d22",
+        "channel": "stable",
+        "min_sdk": 24,
+        "notes": "GolfHub Perth 0.1.19\n\n- See when your selected date is due to open for booking on each course's tee-time card, using Perth time.\n- Published opening schedules are included for 12 courses. Hamersley's conflicting guidance is clearly marked as an estimate; other unconfirmed schedules say so rather than guessing a date.\n- Course information distinguishes online release schedules from contact or walk-in arrangements across all 41 courses.\n- Opening notices handle each selected date separately, preserve published availability, and prompt a fresh check when saved results predate the opening.\n- Removed the separate \"Plan your next round\" section from Home.\n\nBooking windows do not guarantee available spots. Course schedules can change.\n",
+        "package": "au.golfhub.golfhub_perth",
+        "platform": "android-arm64",
+        "schema": 1,
+        "sha256": "461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+        "size": 77035309,
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk",
+        "version": "0.1.19",
+        "version_code": 20
+      },
+      "manifest_hash_matches_current_api": true,
+      "manifest_size_matches_current_api": true,
+      "alias_bytes_match": true,
+      "binary_metadata_matches_current_api": true,
+      "signature_64_bytes": true,
+      "signature_verified": null,
+      "signature_reason": "Trusted updater key/implementation absent from this source checkout; no prior verdict reused.",
+      "installer_or_apk_downloaded": false,
+      "native_device_tested": false
+    }
+  ]
+}

@@ -1,0 +1,340 @@
+{
+  "branches": [
+    {
+      "name": "agent/golfhub-v5-final-20260729",
+      "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356"
+    },
+    {
+      "name": "cache",
+      "sha": "b747d5f2e0a6b21939156c52bc6128eeb389534b"
+    },
+    {
+      "name": "fix/alerts-runtime-integrity-20261026",
+      "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+    },
+    {
+      "name": "fix/cache-refresh-heartbeat",
+      "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a"
+    },
+    {
+      "name": "fix/cache-refresh-incomplete-weather",
+      "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+    },
+    {
+      "name": "fix/cache-refresh-provider-circuit",
+      "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+    },
+    {
+      "name": "fix/cache-refresh-resilience",
+      "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f"
+    },
+    {
+      "name": "fix/cache-refresh-weather-cooldown",
+      "sha": "e84985a713d008301cdef96db7582c420b712d61"
+    },
+    {
+      "name": "fix/cache-refresh-weather-timeouts",
+      "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+    },
+    {
+      "name": "fix/cache-refresh-wembley-fallback",
+      "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+    },
+    {
+      "name": "fix/cache-refresh-wembley-rendered",
+      "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+    },
+    {
+      "name": "fix/desktop-booking-context-20261020",
+      "sha": "93d4763451358be608bff06fd0013936af36764c"
+    },
+    {
+      "name": "fix/desktop-cache-thread-lifecycle-20261020",
+      "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+    },
+    {
+      "name": "fix/desktop-course-controls-20261019",
+      "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+    },
+    {
+      "name": "fix/desktop-keyboard-date-selection",
+      "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+    },
+    {
+      "name": "fix/desktop-perth-midnight-20261021",
+      "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+    },
+    {
+      "name": "fix/desktop-search-dates-and-times",
+      "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+    },
+    {
+      "name": "main",
+      "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "name": "news",
+      "sha": "1c5c8167bc24c2ab42698b0f6b98e158f603bd12"
+    }
+  ],
+  "inspected_source_refs": [
+    {
+      "name": "agent/golfhub-v5-final-20260729",
+      "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/alerts-runtime-integrity-20261026",
+      "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "qt_source_sha256_normalized_text": "079d266eed26ac9dc40b759073011730035169413d32900cff4c426277c34467",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-heartbeat",
+      "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-incomplete-weather",
+      "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "qt_source_sha256_normalized_text": "4872030d089e622161b453f7ef8f851d240e5a9faaa18d81e29c33f45d09c7cb",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-provider-circuit",
+      "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-resilience",
+      "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-weather-cooldown",
+      "sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "qt_source_sha256_normalized_text": "4872030d089e622161b453f7ef8f851d240e5a9faaa18d81e29c33f45d09c7cb",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-weather-timeouts",
+      "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-wembley-fallback",
+      "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/cache-refresh-wembley-rendered",
+      "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "qt_source_sha256_normalized_text": "56d9e3f9c87571ab5c0833465b9bc7a87811723f585af4d10e0714a0f3bdeb30",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/desktop-booking-context-20261020",
+      "sha": "93d4763451358be608bff06fd0013936af36764c",
+      "qt_source_sha256_normalized_text": "bfd0ec98b62196decd85e84ee57911f04cc1f028ea78df4d7cd94bf21aecf640",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/desktop-cache-thread-lifecycle-20261020",
+      "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "qt_source_sha256_normalized_text": "8f6370fad9f72baa757207dec9c0d4cfbd93d65a7113c3113d8e16a8b9793a71",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/desktop-course-controls-20261019",
+      "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "qt_source_sha256_normalized_text": "ab622c6591e921348a81f7847e3e1fb2df6bc9de11dd937e85ca6236d79c94e5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/desktop-keyboard-date-selection",
+      "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "qt_source_sha256_normalized_text": "d1caba30dc502bdfef1b90ff4b87d7e4809bb4cb272843cdea2617dbeb265258",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/desktop-perth-midnight-20261021",
+      "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "qt_source_sha256_normalized_text": "079d266eed26ac9dc40b759073011730035169413d32900cff4c426277c34467",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "fix/desktop-search-dates-and-times",
+      "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "qt_source_sha256_normalized_text": "3dd49cd87eef1c06920994675dfd0a392d585f4e26d329166b48a4fb5744a4c0",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    },
+    {
+      "name": "main",
+      "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "qt_source_sha256_normalized_text": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5",
+      "methods_present": [
+        "render_snapshot_batch",
+        "_populate_day_section",
+        "render_multi_results"
+      ],
+      "batch_records_available_flag": true,
+      "missing_body_note_present": false,
+      "old_body_note_present": true,
+      "instruction_files": [],
+      "render_reads_available_flag": false
+    }
+  ],
+  "count": 17,
+  "fetch_exit": 0,
+  "finding": "All 17 inspected remote source refs preserve the old empty-day message and do not consume the day available flag in render_multi_results. No duplicate repair found in these branches."
+}

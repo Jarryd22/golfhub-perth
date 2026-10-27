@@ -1873,7 +1873,17 @@ class GolfHub(QMainWindow):
             filtered = [row for row in filtered if int(row.get("minutes", 0) or 0) <= high]
         return filtered
 
-    def _populate_day_section(self, layout, visible_results, date_str=None):
+    def _populate_day_section(self, layout, visible_results, date_str=None, *, available=True):
+        if not available:
+            note = QLabel(
+                "Availability could not be checked for this date. Try Find Tee Times again, "
+                "or select this date alone and use Refresh Live."
+            )
+            note.setObjectName("EmptyNote")
+            note.setWordWrap(True)
+            layout.addWidget(note)
+            layout.addStretch()
+            return
         ordered = sorted(
             visible_results,
             key=lambda r: str(r.get("site_name") or "").casefold(),
@@ -1913,7 +1923,9 @@ class GolfHub(QMainWindow):
                 if not result.get("direct_booking")
             )
             calendar_options = sum(result.get("calendar_availability") == "available" for result in visible)
-            if matches:
+            if not day.get("available", True):
+                detail = "Availability not checked"
+            elif matches:
                 detail = f"{matches} time{'s' if matches != 1 else ''} across {matched_courses} course{'s' if matched_courses != 1 else ''}"
             elif calendar_options:
                 detail = f"Bookings shown on {calendar_options} official calendar{'s' if calendar_options != 1 else ''}"
@@ -1931,6 +1943,11 @@ class GolfHub(QMainWindow):
             total_matches += matches
             all_visible_results.extend(visible)
 
+        loaded_days = sum(bool(day.get("available", True)) for day in prepared)
+        if loaded_days < len(prepared):
+            coverage = f"{loaded_days} loaded {'day' if loaded_days == 1 else 'days'}"
+        else:
+            coverage = f"{len(prepared)} {'day' if len(prepared) == 1 else 'days'}"
         days_with_options = sum(day["has_options"] for day in prepared)
         direct_by_name = {}
         for day in prepared:
@@ -1954,12 +1971,12 @@ class GolfHub(QMainWindow):
         if total_matches:
             headline = (
                 f"{total_matches} matching {'time' if total_matches == 1 else 'times'} "
-                f"across {len(prepared)} {'day' if len(prepared) == 1 else 'days'}"
+                f"across {coverage}"
             )
         elif available_calendar_dates:
             headline = f"Wembley bookings available across {available_calendar_dates} date{'s' if available_calendar_dates != 1 else ''}"
         else:
-            headline = f"0 matching times across {len(prepared)} days"
+            headline = f"0 matching times across {coverage}"
         label = QLabel(headline)
         label.setObjectName("SummaryValue")
         line.addWidget(label, 0, 0)
@@ -1978,7 +1995,8 @@ class GolfHub(QMainWindow):
                 day["date"],
                 day["detail"],
                 day.get("source", "Cache"),
-                lambda layout, results=day["visible"], date_str=day["date"]: self._populate_day_section(layout, results, date_str),
+                lambda layout, results=day["visible"], date_str=day["date"], available=day.get("available", True):
+                    self._populate_day_section(layout, results, date_str, available=available),
             )
             self.day_sections.append(section)
             self.results_layout.addWidget(section)
@@ -2012,7 +2030,7 @@ class GolfHub(QMainWindow):
         if total_matches:
             self.status.setText(
                 f"{total_matches} matching tee {'time' if total_matches == 1 else 'times'} "
-                f"across {len(prepared)} {'day' if len(prepared) == 1 else 'days'}"
+                f"across {coverage}"
             )
         elif available_calendar_dates:
             self.status.setText(
@@ -2020,7 +2038,7 @@ class GolfHub(QMainWindow):
                 f"date{'s' if available_calendar_dates != 1 else ''}"
             )
         else:
-            self.status.setText(f"0 matching tee times across {len(prepared)} days")
+            self.status.setText(f"0 matching tee times across {coverage}")
         self._scroll_timer.start(0)
 
     def render_results(self, results, source):

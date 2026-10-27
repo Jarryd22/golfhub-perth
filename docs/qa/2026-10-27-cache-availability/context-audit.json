@@ -1,0 +1,336 @@
+{
+  "checked_at": "2026-10-27 00:26:24 UTC",
+  "scope": "Read-only connected GitHub API repository/PR/release metadata and Git source inspection. No production monitoring, binary downloads, signature validation, installed updates, native device/UI or notification delivery tests.",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "open_drafts": [
+    {
+      "number": 15,
+      "title": "Validate alert runtime ZIP integrity without executing it",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+      "head": "fix/alerts-runtime-integrity-20261026",
+      "head_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "base": "fix/desktop-perth-midnight-20261021",
+      "base_sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+    },
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "head": "fix/desktop-perth-midnight-20261021",
+      "head_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "base": "fix/desktop-cache-thread-lifecycle-20261020",
+      "base_sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "head": "fix/desktop-cache-thread-lifecycle-20261020",
+      "head_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "base": "fix/desktop-booking-context-20261020",
+      "base_sha": "93d4763451358be608bff06fd0013936af36764c"
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "head": "fix/desktop-booking-context-20261020",
+      "head_sha": "93d4763451358be608bff06fd0013936af36764c",
+      "base": "fix/desktop-course-controls-20261019",
+      "base_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "head": "fix/desktop-course-controls-20261019",
+      "head_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "base": "fix/desktop-keyboard-date-selection",
+      "base_sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "head": "fix/desktop-keyboard-date-selection",
+      "head_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "base": "fix/desktop-search-dates-and-times",
+      "base_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "head": "fix/desktop-search-dates-and-times",
+      "head_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "head": "fix/cache-refresh-incomplete-weather",
+      "head_sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "base": "fix/cache-refresh-weather-cooldown",
+      "base_sha": "e84985a713d008301cdef96db7582c420b712d61"
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "head": "fix/cache-refresh-wembley-rendered",
+      "head_sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "base": "fix/cache-refresh-wembley-fallback",
+      "base_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "head": "fix/cache-refresh-weather-cooldown",
+      "head_sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "base": "fix/cache-refresh-weather-timeouts",
+      "base_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "head": "fix/cache-refresh-wembley-fallback",
+      "head_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "head": "fix/cache-refresh-weather-timeouts",
+      "head_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "head": "fix/cache-refresh-provider-circuit",
+      "head_sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "Jarryd22/golfhub-perth",
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356"
+        },
+        {
+          "name": "cache",
+          "sha": "b747d5f2e0a6b21939156c52bc6128eeb389534b"
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a"
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f"
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61"
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c"
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+        },
+        {
+          "name": "news",
+          "sha": "1c5c8167bc24c2ab42698b0f6b98e158f603bd12"
+        }
+      ],
+      "open_pr_count": 13
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305"
+        }
+      ],
+      "open_pr_count": 0,
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48"
+        }
+      ],
+      "open_pr_count": 0,
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    }
+  ],
+  "pagination": "Each branches/open-pulls query requested per_page=100 and returned fewer than 100 entries; latest release is a singleton endpoint.",
+  "instructions": {
+    "ancestor_AGENTS": [],
+    "checkout_AGENTS": [],
+    "checkout_skills": [],
+    "workspace_agents_directory": "exists and empty"
+  },
+  "source_duplicate_audit": "See source-ref-audit.json: 17 remote main/fix/agent refs inspected without checkout changes; cache and news excluded. No branch contains the focused missing-date title/body repair.",
+  "limitations": [
+    "Historical Windows cache_close timeout remains unresolved; no Linux reproduction investigation repeated.",
+    "PR15 offline bundle validator was reviewed as a prior change; not duplicated.",
+    "Canonical desktop/mobile reconciliation remains pending; unavailable dirty desktop/mobile source was not inspected or changed.",
+    "November11 false-zero weather recurrence is supplied task context, not independently monitored in this audit; PR4\u21926\u21928 remain unmerged.",
+    "Current release metadata agrees with recovered October22 sizes/digests; no current signed-manifest, binary or installed-client validation.",
+    "No production dispatch, merge, deployment, release, credential/security change, booking or notification occurred."
+  ],
+  "comparison_to_recovered_oct22": [
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches_unchanged": true,
+      "latest_release_metadata_unchanged": true
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches_unchanged": true,
+      "latest_release_metadata_unchanged": true
+    }
+  ]
+}

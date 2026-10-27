@@ -47,6 +47,7 @@ python -m unittest discover -s tests -p test_calendar_keyboard.py -v
 python -m unittest discover -s tests -p test_course_controls.py -v
 python -m unittest discover -s tests -p test_time_range_ui.py -v
 python -m unittest discover -s tests -p test_multiday_ui.py -v
+python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
 python -m unittest discover -s tests -p test_thread_lifecycle.py -v
 python -m unittest discover -s tests -p test_cache*.py -v
@@ -58,7 +59,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 26 October 2026
+## Latest pass: 27 October 2026
+
+See the [missing-date cache-state report](qa/2026-10-27-cache-availability/REPORT.md). Recovered October 22 partial work is preserved and completed on a new draft stacked on unchanged #15. Test a partial multi-date search separately from fully cached empty results: a missing date must say **Availability not checked**, provide retry/single-date Refresh Live guidance and retain its state when expanded after pending filters change. Summary/status match counts cover **loaded days**. Saved-device fallback is loaded; absent snapshots remain unknown. Keep official links deduplicated, and preserve loaded provider-error/unreleased-calendar cards and all-missing recovery.
+
+**Passed:** ten new regressions (exact #15 baseline: three pass/seven fail), **157 aggregate checks: 87 desktop + 70 cache/integrity**, plus 50 intercepted source-widget submission/rendering combinations across 9/18 holes, Any/1–4 players and five time presets. Current 1280×800 and 980×640 offscreen images inspected; compile, whitespace, actionlint and independent review pass. The first journey fixture failed because its 6:30 pm minute conversion was wrong; retain that failed execution separately from the corrected 50-scenario pass. Source/test hashes distinguish pre-commit testing from exact remote-head CI recorded on the draft.
+
+**Inspection only:** 17 non-cache/news source refs, all 13 existing drafts and unchanged Windows 5.1.17 / Android 0.1.19 release metadata. No AGENTS/checkout skills found. **Not performed:** installed/native Windows/Android, screen readers/DPI, updater/signatures, live booking or notification delivery. Canonical-source reconciliation remains pending. The known Windows cache_close timeout remains unresolved despite current standard-suite passes; no paired Linux investigation, production monitoring repeat, timeout relaxation or weather-fix duplication. Preserve all earlier failures and enumerate all exact-head CI events/attempts.
+
+## Previous pass: 26 October 2026
 
 See the [offline alert-runtime report](qa/2026-10-26-alerts-runtime/REPORT.md). Before importing, installing or executing an alert runtime, inspect the intended workflow/revision and read its manifest afresh. Run `python scripts/validate_alerts_runtime.py --archive .github/alerts-runtime.zip --manifest .github/alerts-runtime-manifest.json` as a data-only check. Confirm the archive hash, every expected member hash, exact membership, canonical portable paths, duplicate/case/prefix collisions, regular file types and bounded sizes. On any mismatch, stop before runtime use and retain the evidence; do not infer compromise from a mismatch alone.
 

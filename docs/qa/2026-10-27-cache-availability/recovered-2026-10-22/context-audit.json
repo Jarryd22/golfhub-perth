@@ -1,0 +1,313 @@
+{
+  "checked_at": "2026-10-22 00:30:19 UTC",
+  "scope": "Read-only connected GitHub API repository/PR/release metadata. No production monitoring, workflow dispatch, release publication, installer/APK download, native device or notification delivery test.",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "open_drafts": [
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "draft": true,
+      "state": "open",
+      "head": "fix/desktop-perth-midnight-20261021",
+      "head_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "base": "fix/desktop-cache-thread-lifecycle-20261020",
+      "base_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "body": "Leaving the desktop open across Perth midnight kept yesterday labelled Today, left the 28-day window one day behind, and submitted yesterday on a new search. Refresh editable dates every 30 seconds while idle and immediately on activation/search/picker actions. Retain valid absolute selections, remove expired dates, fall back to today only when none remain, and preserve submitted cache/live contexts and displayed/lazy result dates. No automatic search starts.\n\n**CI qualification — unresolved lifecycle timeout:** the original code head `9ed31ad463e00637732162e0592442ae3f66668a` has a **failed Windows push execution** alongside two later successful PR checks. The first summary omitted the push run after relying on a PR-event-only helper. The report and checklist now require an all-event audit. Later passes do not clear the failure, and its cause has not been attributed to #14 or established as the earlier #13 stall.\n\n**Dependency:** separate draft stacked on unchanged [#13](https://github.com/Jarryd22/golfhub-perth/pull/13), `8b01866f3783d9ef021e114c81c139dede1facc1`, after #9→#10→#11→#12. Main and previous repairs are unchanged. No duplicate rollover repair was found in the PR/15-ref audit. Canonical-source reconciliation remains pending; unavailable newer dirty desktop/mobile source is untouched.\n\nValidation and investigation:\n- **15 new midnight regressions pass**. Exact #13 baseline: **4 pass, 10 failing methods (12 assertions including subcases), 1 missing-timer error**. **120 focused local checks passed** on clean code head `9ed31ad`: 77 desktop + 43 cache, Python 3.12.14 / Qt 6.11.2. Before/after widget probes and 980×640 offscreen captures are retained.\n- Original code-head CI: [Windows push **FAILED**](https://github.com/Jarryd22/golfhub-perth/actions/runs/39524383636/job/118975503438), **76 pass / 1 fail**, `cache_close` exceeded the unchanged 30-second limit at 08:58:42 Perth. All 15 midnight tests passed. [Later PR Windows](https://github.com/Jarryd22/golfhub-perth/actions/runs/39524443056) passed 77; [PR Linux cache](https://github.com/Jarryd22/golfhub-perth/actions/runs/39524443135) passed 43 + actionlint. The failed child has no captured stack.\n- Follow-up: **40 fixed-cohort cache-close invocations passed**, 10 each on exact #13 and #14 under Linux Qt 6.11.2 and 6.12.0. **Two full lifecycle-module runs passed 11 tests each** under Qt 6.12.0. These are repeated existing tests, not new unique regressions. Every outcome is retained; no retries, relaxed checks or discarded failures.\n- The lifecycle harness is byte-identical and nine relevant methods are AST-identical. The new midnight timer is stopped before the failing scenario starts, but timing/allocation effects cannot be excluded. The prior #13 observation was a different Linux Qt 6.11.1 journey/qWait stall; **equivalence is unproven**. A Windows paired comparison with bounded failing-child stack/phase capture remains pending because this coding environment is Linux-only.\n- No runtime fix is justified by current evidence. This follow-up changes documentation/evidence only; application, tests, workflows, timeouts and dependency requirements are unchanged. Source/test hashes match the original tested code head. Independent evidence review and whitespace checks pass.\n- Windows 5.1.17 / Android 0.1.19 release metadata remains unchanged. Installed updater, native devices, screen readers/DPI and real notification delivery remain unverified. Prior WebEngine sandbox-helper blocks, obsolete cron assertion and canonical freshness/subset reconciliation remain open.\n\n[Corrected daily report](https://github.com/Jarryd22/golfhub-perth/blob/55579cb135f360b114f7705516d3b21bbd8e1632/docs/qa/2026-10-21-midnight/REPORT.md) · [CI failure investigation and full evidence](https://github.com/Jarryd22/golfhub-perth/blob/55579cb135f360b114f7705516d3b21bbd8e1632/docs/qa/2026-10-21-midnight/ci-followup/REPORT.md) · [Checklist](https://github.com/Jarryd22/golfhub-perth/blob/55579cb135f360b114f7705516d3b21bbd8e1632/docs/QA_CHECKLIST.md) · [Backlog](https://github.com/Jarryd22/golfhub-perth/blob/55579cb135f360b114f7705516d3b21bbd8e1632/docs/IMPROVEMENT_BACKLOG.md).\n\nCurrent documentation head `55579cb135f360b114f7705516d3b21bbd8e1632`; tree `20d0c084d364fbc02011b368da05910047c19283`. Remote matches; checkout clean. GitHub automatically scheduled PR checks for documentation heads because the full PR diff still includes application changes. The automatic PR checks on this final documentation head passed: [Windows — 77 tests](https://github.com/Jarryd22/golfhub-perth/actions/runs/39526112574) and [Linux — 43 tests + actionlint](https://github.com/Jarryd22/golfhub-perth/actions/runs/39526112563). Checkout logs confirm merge `5724b45a53191997da441c7254ca4a8ffb47b4a6`, with unchanged #13 and this exact head as parents; merge tree matches the head. The intermediate documentation head `cfe609f475373096b74985e68bd93e032a23236f` also has two passing PR checks: [Windows](https://github.com/Jarryd22/golfhub-perth/actions/runs/39526053228), [Linux](https://github.com/Jarryd22/golfhub-perth/actions/runs/39526053324). All-event API enumeration finds **seven executions across these three heads: the original push failure and six successful PR executions**, each attempt 1. No manual workflow rerun was requested. These additional passes do not resolve or erase the original Windows timeout.\n\nDraft only. No merge, deployment, release, production dispatch, credentials/security change, spending, third-party message, booking/hold, real notification or sandbox bypass."
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "draft": true,
+      "state": "open",
+      "head": "fix/desktop-cache-thread-lifecycle-20261020",
+      "head_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "base": "fix/desktop-booking-context-20261020",
+      "base_sha": "93d4763451358be608bff06fd0013936af36764c",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "body": "The desktop can release its cache or live-worker wrappers while native thread cleanup is still running, causing a crash or GUI stall and allowing close/restart to race cleanup. Retain both wrappers until `wait(0)` succeeds, retry through one owned 10 ms timer per pipeline without blocking the GUI, then delete the QThread and continue. Closing waits for outstanding references; search entry points reject closing/replacement work.\n\n**Dependency:** separate draft stacked on unchanged [#12](https://github.com/Jarryd22/golfhub-perth/pull/12), `93d4763451358be608bff06fd0013936af36764c`, after #9–#11. Main and existing repair branches are unchanged. A fresh audit of 13 repair/agent refs found no duplicate runtime lifecycle repair; #10's cleanup was test-only.\n\nValidation:\n- **11 new real-QThread subprocess regressions pass on Qt 6.12.0 and 6.11.1.** The identical suite on untouched #12 has **5 passes / 6 failures**: five GUI stalls during a bounded native-cleanup barrier and one live refresh accepted during close. Tests cover exact destruction counts, latest queued search, responsive timers while `isRunning()==false` but `wait(0)==false`, live success/error/cancel, rapid refresh and close guards. Sockets/browser calls are blocked.\n- **105 focused checks pass on final commit:** 62 desktop + 43 cache. Compile, CRLF-aware whitespace and actionlint v1.7.12 pass. Independent implementation/evidence review found no blocker.\n- The identical original asynchronous **18-journey harness passes in 3/3 fresh Qt 6.12 processes** on the final application source, with no synchronous-cache or retained-wrapper workaround. It passes again on final commit `8b01866` (1.055 seconds, zero callback errors). Includes 25 player/time combinations and 28-day lazy expansion.\n- Earlier exact paired #11/#12 runs both spontaneously SIGSEGV at `cache_thread_done`; a standalone QtCore reproducer also fails under both Qt versions. The last final-commit comparison also passed on untouched #12, confirming the original crash is intermittent; no crash-rate claim is made. The deterministic six baseline failures remain separate evidence.\n- Four real `QApplication.exec()` probes pass cache/live work on both Qt versions: **20 completions total**, zero callback errors. These repetitions are not additional unique regression tests.\n- **Remaining limitation:** the original Qt 6.11 journey passes once, then stalls in `QTest.qWait` on its second run. Its owned process was diagnostically aborted after 25 seconds; the exact native cause remains unresolved. No retry-until-green or universal asynchronous-recovery claim. The failed run is retained in the report/backlog.\n- These are offline/offscreen source checks, not installed Windows/Android, native screen-reader or device delivery tests. Existing WebEngine sandbox-helper blocks and obsolete cron assertion remain outside this focused suite. No dependencies or sandbox settings changed.\n\n[Report, reproduction and evidence](https://github.com/Jarryd22/golfhub-perth/blob/8b01866f3783d9ef021e114c81c139dede1facc1/docs/qa/2026-10-20-thread-lifecycle/REPORT.md). Cumulative checklist/backlog updated. Head `8b01866f3783d9ef021e114c81c139dede1facc1`; tree `8cb1722439a7cbd3e4f41ee76888b13ba5482b0a`. Remote commit/tree verified and checkout clean. **CI passed**: [Windows desktop — 62 tests](https://github.com/Jarryd22/golfhub-perth/actions/runs/39347972111), [Linux cache — 43 tests + actionlint](https://github.com/Jarryd22/golfhub-perth/actions/runs/39347972091). Both logs checked out PR merge `ae4c00ad494dee5bf9f7b8aa5ccb70e081c04ae2`, whose parents are the unchanged #12 base and this exact head; its tree matches `8cb1722439a7cbd3e4f41ee76888b13ba5482b0a`. Windows CI used Python 3.12 and PySide6 6.12.0 in offscreen mode.\n\nDraft for review only. No merge, deployment, release, production workflow dispatch, booking/hold, notification, credential/security change or canonical-source integration. The unavailable newer desktop/mobile checkout remains untouched; integration into the supported source and packaged-client validation remain separate decisions."
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "draft": true,
+      "state": "open",
+      "head": "fix/desktop-booking-context-20261020",
+      "head_sha": "93d4763451358be608bff06fd0013936af36764c",
+      "base": "fix/desktop-course-controls-20261019",
+      "base_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "body": "Repeated tee-time actions exposed only “BOOK” through Qt accessibility. They now identify the displayed course, time, round and submitted date; course/calendar and Show all/first actions also retain context. Lazy multi-day sections capture their own dates, while range-wide direct links omit a single date. Start/End custom controls now have visible labels and actual Qt Label relationships. Visible action text, URLs, handler objects and booking behavior are preserved.\n\n**Dependency:** targets unchanged draft [#11](https://github.com/Jarryd22/golfhub-perth/pull/11) at `6d60354a90d7a32807a3f7867cb9180d449433ce`, after #9→#10. Main remains `25de15b`; existing repair drafts and unavailable newer local desktop/mobile work are preserved. Freshness/subset fixes remain canonical-source reconciliation work; #8 already covers the supplied November 4 false Clear summaries.\n\nValidation:\n- **8 new regressions pass**; all eight fail against untouched #11 (13 assertions/subcases). They cover actual Qt names, keyboard handoff, frozen submitted date, lazy multi-day dates, Collier/Wembley/direct/error variants, ampersands, missing context, row-URL precedence and Show all/first updates.\n- All **5 time-range tests pass**, including a portable label/property/relation check replacing the inherited Windows-only combo Name assertion. Both missing Start/End relationships reproduce on #11.\n- **152 unique local branch tests passed, 1 known baseline failure, 4 blocked**. Baseline #11: 143/2/4. The remaining failure is the obsolete cron expectation; four static WebEngine cases are blocked by this cloud image's SUID sandbox-helper configuration. Sandbox protections are unchanged.\n- **94 focused checks rerun on final commit**: 51 desktop + 43 cache, all passed. Compile, CRLF-aware whitespace and checksum-verified actionlint v1.7.12 pass. Independent review found no blocker and verified handler identity/input preservation plus compact 980×640 labels.\n- **18 synchronous-cache real-widget journey checks**, including all 28 dates and 25 player/time combinations; **148 intercepted course/date/round links** and zero captured callback exceptions. No provider URL visited or temporary hold.\n- **Final threaded smoke remains blocked. Baseline presence is now directly reproduced:** a follow-up paired run used clean exact #11 `6d60354a90d7a32807a3f7867cb9180d449433ce` and #12 `93d4763451358be608bff06fd0013936af36764c`, the identical committed asynchronous harness (SHA-256 `e420a7930133b12c43454a426e11f4e271689b3cae353080674bdd2f3f2ee103`), identical phase/flags/environment, Python 3.12.14 / PySide6 and Qt 6.12.0, offscreen, with clean/reset isolated runtime directories. Both spontaneously exited SIGSEGV on the first search (0.640s base / 0.702s head). Both stacks point to `self.cache_thread = None` in `cache_thread_done` (base line 1561 / head line 1587), called from the same harness search line 136. The function AST is identical. This proves the observed crash existed on the exact base; it does not establish cause, unchanged frequency or native-device impact. Original crash/stall logs remain in the report. Synchronous fixture journeys do not verify worker lifecycle.\n- **10 separate socket-blocked archived alert-logic checks pass**. Loose source remains incomplete and worker import lacks `firebase_admin`; no worker main, Firebase client or send path ran. Real device delivery remains unverified.\n- Windows **5.1.17** / Android **0.1.19** unchanged. Current manifests and binary metadata match; signatures were not rerun without the trusted updater key. No binary download/install, native Windows/Android, real screen-reader or DPI tests.\n\n[Report and before/after evidence](https://github.com/Jarryd22/golfhub-perth/blob/93d4763451358be608bff06fd0013936af36764c/docs/qa/2026-10-20/REPORT.md) · [Cumulative checklist](https://github.com/Jarryd22/golfhub-perth/blob/93d4763451358be608bff06fd0013936af36764c/docs/QA_CHECKLIST.md) · [Prioritized backlog](https://github.com/Jarryd22/golfhub-perth/blob/93d4763451358be608bff06fd0013936af36764c/docs/IMPROVEMENT_BACKLOG.md)\n\nHead: `93d4763451358be608bff06fd0013936af36764c`; tree: `2df95a060d24fb3641b3823c18c9425c98ade228`. Remote branch matches the clean local checkout. Both final-head PR checks passed: [Windows desktop CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39346030648) passed all **51 tests** on Python 3.12/Qt 6.12; [Linux cache CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39346030527) passed **43 tests plus actionlint v1.7.12**. Logs confirm both checked out merge `c3b78ab34406721925032e6430306aa7c814ea18`, explicitly merging this exact head into unchanged #11. Hosted offscreen CI is not native-device testing.\n\nDraft for review. No merge, deployment, release, production dispatch, credential/security change, spending, third-party message, booking or real notification. Decision still needed: canonical desktop/mobile source and integration of the existing dependency stack.\n\nCanonical-source clarification: the [preserved Windows candidate evidence](https://github.com/Jarryd22/golfhub-perth/blob/93d4763451358be608bff06fd0013936af36764c/docs/qa/2026-10-18/local-calendar-probe.json) and [working-state report](https://github.com/Jarryd22/golfhub-perth/blob/93d4763451358be608bff06fd0013936af36764c/docs/qa/2026-10-18/REPORT.md) record desktop 5.1.17 / mobile 0.1.22+23 in a newer uncommitted local tree based on `3450207` (24 modified tracked / 627 untracked files). Recommendation: confirm that preserved tree is the intended next candidate, snapshot it into an isolated review branch, then reconcile #9–12 and its existing freshness/subset work. The exact mobile subdirectory is not recorded in available committed evidence. Update repositories contain distribution assets, not application source; the alerts runtime archive is backend-only. This decision affects later integration/release and claims about installed apps, not this PR's validity against its explicitly tested #11 base. No follow-up code change, merge or deployment was made; head remains `93d4763451358be608bff06fd0013936af36764c`."
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "draft": true,
+      "state": "open",
+      "head": "fix/desktop-course-controls-20261019",
+      "head_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "base": "fix/desktop-keyboard-date-selection",
+      "base_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "body": "Clicking a course checkbox changed the selected courses from 37 to 36 but left “37 selected” and raised a Qt signal callback error. This carries the previously identified state-argument adapter into the reviewed source line, so checkbox, keyboard and row clicks update counts once. Course checkboxes and filter/search controls now have meaningful names/label relationships; the search hint says “Search course names”. Literal ampersands in course names remain intact.\n\n**Dependency:** targets unchanged draft [#10](https://github.com/Jarryd22/golfhub-perth/pull/10) at `99057788e335fa8d50e0e353c2ca5613917bf600`, after #9. Main and PRs #3–10 remain unchanged. The offline desktop's newer local source is unavailable here and untouched. No deployment or installed-release behavior is claimed.\n\nValidation:\n- All **8 new regressions pass on Linux offscreen Qt 6.12 and 6.11.1**. The final suite fails on untouched #10 (53 assertion/subcase failures across all eight methods). Covers actual checkbox/Space/row input, one signal per change, bulk/hidden selection, 18→9→18, accessible checkbox/search names, real label relationships and ampersands.\n- **143 local branch tests passed; 2 baseline failures; 4 blocked**. Both failures reproduce on #10: obsolete cron expectation and a Windows-only combo accessibility assertion (Qt intentionally exposes value as Name on Unix). Four static WebEngine cases cannot start with this cloud image's Chromium sandbox helper; protections were not disabled. Five pure dialog tests pass separately. Older booking/V3 Qt shutdown aborts were retained and rechecked with explicit fixture cleanup.\n- **16 offscreen journey checks**, **148 intercepted course/date/round links**, zero repaired course callbacks (baseline smoke: 42). Initial offscreen harness stalls/crash remain recorded, not counted as passes. No booking URL visited or hold created.\n- **10 separate socket-blocked audit cases** pass against the committed alert runtime ZIP. Loose service sources are incomplete; the deployed archive includes the missing modules. Root suite imports and worker delivery remain blocked; no real delivery is verified.\n- Independent review complete; ampersand edge fixed. Compile, CRLF-aware whitespace and checksum-verified actionlint v1.7.12 pass.\n- Final [desktop CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39180871804) and [cache CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39180871761) both passed for this exact head. Hosted Windows/Python 3.12.10/Qt 6.12 passed all **43 focused desktop tests** (8+8+12+6+5+4); Linux cache CI passed **43 tests plus actionlint v1.7.12**. Logs confirm both checked out merge `26c423e9d4235c7e05ce2a2becc4d50280395522`, explicitly merging head `6d60354a90d7a32807a3f7867cb9180d449433ce` into unchanged #10. Remote branch head matches the clean local checkout. Hosted offscreen CI is not native-device validation.\n\n[Report and before/after evidence](https://github.com/Jarryd22/golfhub-perth/blob/6d60354a90d7a32807a3f7867cb9180d449433ce/docs/qa/2026-10-19/REPORT.md) · [Cumulative checklist](https://github.com/Jarryd22/golfhub-perth/blob/6d60354a90d7a32807a3f7867cb9180d449433ce/docs/QA_CHECKLIST.md) · [Prioritized backlog](https://github.com/Jarryd22/golfhub-perth/blob/6d60354a90d7a32807a3f7867cb9180d449433ce/docs/IMPROVEMENT_BACKLOG.md)\n\nLimited three-payload sampling finds 74 plausible forecasts and 37 expected Nov 4 nulls, with no invalid numeric/zero-sentinel pattern; Wembley errors persist. This does not repeat the hourly audit or attribute recovery to undeployed PR #8. Stale-card truthfulness stays in the existing reconciliation backlog.\n\nUpdate metadata remains Windows 5.1.17 / Android 0.1.19. Current manifest bytes/digests and binary metadata agree; signatures were not rerun without the trusted updater key. No native Windows/Android, screen-reader, DPI, updater or real notification testing.\n\nHead: `6d60354a90d7a32807a3f7867cb9180d449433ce`; tree: `b18ee3748d00614eccd692f099d9975efd494283`.\n\nDraft for review. No merge, deployment, release, production dispatch, credential/security change, spending, third-party message, booking or alert send. Canonical source integration remains an owner decision."
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "draft": true,
+      "state": "open",
+      "head": "fix/desktop-keyboard-date-selection",
+      "head_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "base": "fix/desktop-search-dates-and-times",
+      "base_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "body": "Keyboard users could move the calendar cursor with arrows but Enter/Space left the chosen dates unchanged. The focused Qt table now handles activation exactly once, preserves arrow-only navigation and minimum-one selection, and supports Tab-to-apply and Escape-to-cancel without double-toggling mouse clicks. Native numeric date editing is disabled because its delayed confirmation could otherwise toggle the wrong date. The picker explains the keyboard controls.\n\n**Dependency:** targets unchanged draft [#9](https://github.com/Jarryd22/golfhub-perth/pull/9) at `6da0074de11999a5382d00822ee9cacfc1def0a4`. Review #9 before this follow-up. Main remains `25de15b`; neither fix is deployed. The newer dirty local 5.1.17 desktop source has a parent key handler, but an actual-focus widget probe confirms the same child-event issue. That checkout and newer mobile work remain preserved.\n\nValidation:\n- **140/141 local test cases pass** across isolated module runs, including all 8 new keyboard tests and all 11 inherited #9 regressions. The only failure is the unchanged obsolete cron assertion.\n- Untouched #9 produces 8 assertions across 6 failing new test methods; the repaired suite passes all 8. Real focused-view checks cover Return/Enter/Space, held keys, month/bounds, minimum-one, Tab/apply, Escape, numeric-entry delay and click/double-click.\n- 16 real offscreen Qt journey/layout checks plus 148 intercepted course/date/round link combinations. Known unnamed controls, course-count callback and stale-card findings remain documented.\n- Supplemental local-only alerts: 35 mocked executions / 23 distinct methods; kept separate from branch counts. No notifications sent.\n- Test-only Windows CI now runs **35 focused Qt tests**; existing cache CI covers 43 tests/actionlint. Final exact-head [desktop push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39085221126), [desktop PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39085225299) and [cache PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/39085225302) all passed. Desktop runs each passed 35 tests on hosted Windows/Python 3.12/Qt 6.12; cache passed 43 tests and actionlint v1.7.12. Push logs confirm checkout of `9905778`; PR runs tested merge `5feec31` into unchanged #9. Remote commit/tree match the local clean checkout.\n- Initial CI on `408de07` exposed Qt 6.12 test-process shutdown crashes after passing assertions. Explicit fixture cleanup now destroys hidden windows before interpreter shutdown. All 35 focused tests and three extra multiday/time-range repetitions per environment pass on both Python 3.12/Qt 6.12 and Python 3.14/Qt 6.11.1 (172 executions, 22 successful processes). Test failures remain failures; dependency ranges are unchanged.\n- Independent review found and confirmed resolution of the numeric-entry edge. Checksum-verified actionlint v1.7.12 and CRLF-aware whitespace checks pass.\n\n[Today's report and before/after evidence](https://github.com/Jarryd22/golfhub-perth/blob/99057788e335fa8d50e0e353c2ca5613917bf600/docs/qa/2026-10-18/REPORT.md) · [Cumulative checklist](https://github.com/Jarryd22/golfhub-perth/blob/99057788e335fa8d50e0e353c2ca5613917bf600/docs/QA_CHECKLIST.md) · [Prioritized backlog](https://github.com/Jarryd22/golfhub-perth/blob/99057788e335fa8d50e0e353c2ca5613917bf600/docs/IMPROVEMENT_BACKLOG.md)\n\nUpdate repositories remain Windows 5.1.17 / Android 0.1.19; signed manifest metadata verified. Three public cache samples retained 37/37 weather; Nov 2 still had one Wembley product error. No production recovery attributed to this change.\n\nHead: `99057788e335fa8d50e0e353c2ca5613917bf600`; tree: `1ff433ce1522f6bb1dbc8d1f38d39c953b602a55`.\n\nLimits: offscreen source widgets, not native Windows/Android, real screen-reader, DPI, installed updater or live booking validation. Canonical source/service reconciliation remains a separate decision. No merge, deployment, release, production dispatch, credential/security change, spending or third-party contact."
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "draft": true,
+      "state": "open",
+      "head": "fix/desktop-search-dates-and-times",
+      "head_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "body": "Golf Hub accepted a custom range such as **3pm to 9am** and displayed zero matches, and its calendar used the computer's local date despite promising Perth dates. This draft rejects reversed ranges before starting or replacing a queued search, preserves existing results, and focuses the named End time control for correction. A scoped dark dialog keeps the explanation readable. Equal endpoints and open Any bounds remain valid.\n\nStartup booking bounds, TODAY highlighting and Today/Tomorrow labels now use UTC converted through `Australia/Perth`. An already-open window is not automatically rebased at midnight.\n\nValidation:\n- **132/133 local tests passed** across 16 isolated processes (baseline 121/122). The sole failure is the same obsolete cron expectation in `test_golfhub_v3.py:234`.\n- All **11 new regressions** pass; the affected 5-test range suite also passed after visual dialog styling. Existing calendar, search-race, cache and booking suites pass.\n- Real offscreen Qt widgets exercised 16 smoke checks across first-launch window, search, dates, 9/18 holes, group/time filters, cards, intercepted booking handoff, offline/error/empty/weather states and 980×640–1600×1000 layouts. The report explicitly retains existing callback/accessibility findings; it is not an all-clear.\n- Nine booking-dialog tests used static local HTML. A local rerun needed sandbox escalation; Chromium sandbox protections were unchanged. No real bookings/holds.\n- One current published Oct 18/18-hole payload rendered 106 tee times; this checks consumption, not live provider accuracy.\n- Independent review and whitespace checks passed. [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/38981854813) completed successfully for this head (offline cache suite and actionlint); Qt checks were local.\n\n[Run report and before/after screenshots](https://github.com/Jarryd22/golfhub-perth/blob/6da0074de11999a5382d00822ee9cacfc1def0a4/docs/qa/2026-10-17/REPORT.md) · [Reusable regression checklist](https://github.com/Jarryd22/golfhub-perth/blob/6da0074de11999a5382d00822ee9cacfc1def0a4/docs/QA_CHECKLIST.md) · [Prioritized improvement backlog](https://github.com/Jarryd22/golfhub-perth/blob/6da0074de11999a5382d00822ee9cacfc1def0a4/docs/IMPROVEMENT_BACKLOG.md)\n\n**Scope:** based on unchanged main `25de15b`, independent of drafts #3–8. Existing tasks, branches, drafts and issues were inspected. The older dirty checkout contains newer desktop/mobile work absent from main; it was preserved. Its existing freshness, subset-cache, course-count and punctuation fixes are reconciliation backlog items, not duplicated here.\n\n**Limitations:** no native desktop driver, installed-release, real screen-reader, display-scaling or Android UI validation. Mobile findings are local-source inspection only. Existing PR CI runs cache tests, so Qt validation is local.\n\nHead: `6da0074de11999a5382d00822ee9cacfc1def0a4`; tree: `1880bea648fcc271bb09e721ca3254a751950451`.\n\nDraft for review. No merge, deployment, release, production dispatch, credentials/security changes, payments, real notifications or third-party messages."
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "draft": true,
+      "state": "open",
+      "head": "fix/cache-refresh-incomplete-weather",
+      "head_sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "base": "fix/cache-refresh-weather-cooldown",
+      "base_sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "body": "The health watch observed 74 October 25 records showing Clear, 0°C high/low and zero wind in cache `d91d35deb1fefa481c1e14db8b937c58f2cb46d0` at October 10 00:37 Perth, repeated from 00:26. The core parser defaults missing/null daily values to zero. Upstream nulls are inferred from that code and the published records; no live provider response was verified.\n\nThe core now reads missing, null, short or malformed daily arrays as unavailable measurements and omits an incomplete day before deriving a condition or rounding values. It preserves complete neighboring days, including later days after an invalid row. Genuine integer/float zero remains valid. Nonfinite values, invalid dates/codes and invalid precipitation/wind values cannot turn into plausible forecasts.\n\nAn omitted day returns `None`, serializes as `weather: null`, and uses the existing unavailable display. Empty location mappings remain negative-cached, so repeated desktop/shard lookups do not request weather again. The inherited PR #6 artifact validation, timestamp preservation and fallback protection remain intact. Its shared preparation continues to reject an incomplete provider response as a whole; this repair adds per-day safety in the common core, including direct desktop lookups.\n\nValidation:\n- **96 offline cache tests passed** on Python 3.12, including 9 new regression tests with fixtures for each missing/null/short array, malformed containers, invalid middle rows, genuine zeros, checkpoint/reuse/shard loading, JSON null and fallback.\n- **5 offscreen PySide6 weather UI tests passed**, including 2 new tests covering incomplete weather and genuine zeros in both layouts.\n- The new 9-test regression suite produces 148 failing subcases on the unchanged PR #6 base, and passes with this fix.\n- actionlint **v1.7.12** (release checksum verified), CRLF-aware whitespace checks and independent review passed.\n- Exact-head [push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37961369899) and [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37961425699) both passed all 96 cache tests and actionlint v1.7.12. Push CI checked out `cd70fd63bad89bed73b12a60d7c5d14c30c29da6`; PR CI tested its merge into unchanged PR #6 (`fb72fa3`). The remote commit/tree match the tested local branch, and the checkout is clean. UI checks were local.\n\n**Dependency:** targets unchanged draft #6, `fix/cache-refresh-weather-cooldown`, at `e84985a713d008301cdef96db7582c420b712d61`. Requires [#4](https://github.com/Jarryd22/golfhub-perth/pull/4) then [#6](https://github.com/Jarryd22/golfhub-perth/pull/6); only this repair's three files appear in this PR. Drafts #3–#7 were inspected and left unchanged. Head `cd70fd63bad89bed73b12a60d7c5d14c30c29da6`; tested tree `b7eb14f21576872d524f9d40dd917212e6e74231`.\n\nDraft for review. No merge, deployment, credentials/security change, production workflow dispatch or live weather-provider probe occurred. Existing fabricated snapshots cannot safely be distinguished from genuine zero forecasts by value alone; this change prevents new fabrication and does not rewrite published caches. Live recovery remains unverified."
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "draft": true,
+      "state": "open",
+      "head": "fix/cache-refresh-wembley-rendered",
+      "head_sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "base": "fix/cache-refresh-wembley-fallback",
+      "base_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "body": "Wembley returned calendar-only results whenever `publicCaptchaEnabled` was true, even when ordinary public-calendar navigation could show exact times after the site's own silent check. This adds an optional Linux browser reader for Old/Tuart 9- and 18-hole products, while retaining the current calendar when rows cannot be collected.\n\nThe collector clicks only a matching calendar availability cell, validates the rendered date/product/course/round, and exports times, spaces and rebuilt safe links. It stops at an interactive challenge, denial, login, timeout or unexpected page; it never selects booking cells, reads/replays CAPTCHA responses, or exports rendered URLs/full HTML. Partial rows carry a visible coverage notice. Collection failures cannot replace a valid current calendar with stale exact rows.\n\nBrowser work has a 45-second budget, at most two calendar loads/two availability clicks per date/round, no retries, and a stop latch for later attempts in that shard. A process-local Linux guardian and pidfd cleanup cover detached descendants on timeout/executor crash. The initial calendar HTTP read retains its separate 25-second socket timeout. Only the three shards overlapping the release window install pinned Playwright/Chromium; setup has a three-minute limit and failure retains calendar collection.\n\nCalendar parsing now accepts short/full month headings, requires explicit full cells for the requested date, and recognizes the official empty response before the ten-day/6 am Perth release boundary. Missing/ambiguous in-window products remain unknown with PR #5's stale-data safeguards.\n\nValidation:\n- **102 offline cache tests passed**, including real Chromium with every request intercepted by fixtures, all four products, exact times/spaces, safe serialization, challenge/denial stops, wrong date/course/round rejection, and real detached-child/grandchild cleanup after timeout and executor crash.\n- Modeled date coverage: Oct 8/9 exact rows across both courses and round lengths; Oct 10 both rounds and Oct 11 18-hole full; Oct 18 both rounds unreleased; release boundary/month-year rollover.\n- Full desktop suite: **172 passed, 11 browser tests skipped, 1 existing cron-expectation failure**. Those browser cases ran in the 102-test suite. Untouched PR #5 baseline was 132 passed plus the same cron failure; all three new Qt display tests pass.\n- CRLF-aware whitespace check and independent reviews passed. Exact head `f1e0eb01170e70eda14cbf7b9030b25de751365d` passed both [push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37593581288) and [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37593585779): 102 tests plus actionlint v1.7.12 each. PR CI tested the merge into unchanged PR #5.\n- Earlier head `d20c29f` had two timeout failures in browser guard tests on push CI. Chromium startup now uses the existing overall 45-second budget; individual page navigation remains capped at 15 seconds, with the same guardian deadlines and no retries. A cold-start regression test and safe failure-stage diagnostics cover this change.\n\n**Live limitation:** this environment's outbound proxy returns HTTP 403 before reaching Wembley (Chromium tunnel failure), including with authorized network access. No new live exact-row coverage is claimed. The earlier ordinary-browser observation of nine Old 18-hole times on Oct 8 does not establish unattended Actions reliability. Keep this draft pending a bounded read-only run of this exact collector on an authorized Linux runner with ordinary Wembley access: one available date, both rounds, only advertised products, no cache publication. Preserve challenge/denial stops and record sanitized exact-row coverage. After subsequent approval and merge, observe natural publications across Old/Tuart and both rounds before claiming production recovery.\n\n**Dependency:** targets unchanged draft #5 at `982c243b7e2645a87ecccedef4d50c93b1ebfc16`. Drafts #3, #4 and #6 remain unchanged. Head `f1e0eb01170e70eda14cbf7b9030b25de751365d`; tested tree `af776e037b73af7f32870808f3943acfa711f4fd`.\n\nDraft for review. No merge, deployment, production workflow dispatch, booking, credential or security-setting change was performed."
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "draft": true,
+      "state": "open",
+      "head": "fix/cache-refresh-weather-cooldown",
+      "head_sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "base": "fix/cache-refresh-weather-timeouts",
+      "base_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "body": "Weather preparation at 08:47 and [12:06 Perth on October 7](https://github.com/Jarryd22/golfhub-perth/actions/runs/37569804692/job/112625631292) returned 36 HTTP 429 responses and five timeouts, publishing no fresh forecasts. The quota/reset cause remains unknown.\n\nThis follow-up reuses complete, validated forecasts while their original `fetched_at` is **less than one hour old**, without fetching those locations again or renewing their source timestamps. Reused forecasts carry explicit metadata. Age is rechecked after preparation, at shard lookup and at desktop rendering; tee-time fallback cannot resurrect old weather. Updated desktop source labels cached forecasts and exposes the original fetch time, while existing unstamped desktop lookups retain their behavior.\n\nThe first **429 stops queued forecast requests and pending timeout retries** for the current preparation. At most three other requests may already be in flight with four workers. No 429 is retried. Positive delta/date `Retry-After` is honored; missing, invalid, zero or past values use a **one-hour cooldown**. Concurrent rate limits retain the latest deadline, and later runs preserve it without sliding. The existing strict TLS path, four-worker bound, PR #4 timeout-retry cap and 90-second killable process remain intact.\n\nForecasts and cooldown are atomically checkpointed, then restored/saved with Actions cache in the preparation job independently of tee-time publication. Surfaced restore failures skip requests and preserve saved state. Persistence is best effort: cache eviction or service loss can lose an earlier cooldown; an ordinary cache miss starts a bounded fetch. No provider quota or reset behavior is assumed.\n\nValidation:\n- **87 offline cache tests** passed locally, including 33 new state/consumer/integration tests. A real killed subprocess retained completed forecasts and its 429 checkpoint.\n- **3 offscreen PySide6 widget tests** passed locally for cached wording, source age and expiry.\n- actionlint **v1.7.12**, CRLF-aware whitespace checks and final independent review passed.\n- Exact-head [push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37572062474) and [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37572066041) both passed all 87 cache tests and actionlint v1.7.12. Push CI checked out `e84985a713d008301cdef96db7582c420b712d61`; PR CI tested its merge with unchanged PR #4. Remote tree `654941e31d469f1e6127dc2defd27477b56f7a9d` matches the local branch; the worktree is clean. GUI checks were local.\n- Combined PR #4/#5/#6 validation passed **98 offline cache tests, 3 offscreen widget tests, actionlint v1.7.12 and whitespace checks** in an isolated local integration worktree. Tested tree: `f03412aeeebac5dd28bcb96da09d63ebc777bb3b`. The fallback fixture includes the provider domain required by PR #5. The integration branch remains local; no GitHub PR was merged.\n\n**Dependency:** this draft targets `fix/cache-refresh-weather-timeouts` and requires PR #4 (`a555582`) first. Its reviewed branch is unchanged. Head `e84985a713d008301cdef96db7582c420b712d61` adds only this follow-up. PR #3 remains separate; Wembley PR #5 is independent.\n\nDraft for review only. No merge, deployment, release, credential/security change, production dispatch or live provider probe was performed. After approved merge, verify scheduled cache reuse, rate-limit warnings/deadlines and source age; live recovery is not yet established."
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "draft": true,
+      "state": "open",
+      "head": "fix/cache-refresh-wembley-fallback",
+      "head_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "body": "Wembley’s October 17 18-hole cache repeatedly reused an old 07:07 “available” result after the returned public calendar contained only 9-hole products. A missing configured product now produces a structured **unknown** result that cannot be replaced with historical availability. A present product can still report its own explicit availability; a partial product list cannot establish full or unreleased status.\n\nOther isolated Wembley lookup failures may reuse a good result for at most **30 minutes**, using the original source/stale timestamp. Republication and Perth midnight cannot renew that age; missing, malformed, timezone-free or future source times disable fallback. Current weather and the official handoff stay attached to the current attempt. Other providers and the strict fresh-provider majority remain unchanged.\n\nValidation: all **54 offline cache tests** (including 11 new Wembley regressions), actionlint **v1.7.12**, and whitespace checks passed locally. Coverage includes expiry, repeated fallback, product mismatch, partial products and exact-sheet failures, booking-horizon distinctions, midnight rollover, unaffected providers and shard publication. Independent review found no blocker. Exact-head [push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37570764433) and [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37570865759) both completed successfully. Remote tree `34633847cfac14cb00623b81a695f9486b35c998` matches the tested local tree.\n\nHead: `982c243b7e2645a87ecccedef4d50c93b1ebfc16`, based on main `25de15b65af6f9dcad4a4d13788fb87ab976df31`. Independent of drafts #3 and #4; no dependency on either.\n\nDraft for review only. No merge, deployment, credential/security changes, production workflow dispatch, booking action or live provider probe was performed."
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "draft": true,
+      "state": "open",
+      "head": "fix/cache-refresh-weather-timeouts",
+      "head_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "body": "October 7 Perth publications at 06:27, 06:37 and 06:47 each retained forecasts for only 37/41 locations, with rotating SSL handshake timeouts while tee-time coverage remained complete. Failed weather requests were immediately negative-cached, leaving no recovery attempt within the preparation run.\n\nShared weather preparation now retries a forecast once after a one-second pause only for a typed `TimeoutError`, directly or inside `URLError`. A thread-safe allowance caps the whole run at **four extra requests** (at most 45 forecast requests for the 41 configured coordinate locations). HTTP responses including access denials/rate limits, certificate and other SSL errors, string-only timeout messages, other connection errors, geocoding and parsing errors do not qualify.\n\nThe existing verified TLS path, 25-second socket timeout, four workers, 90-second killable process deadline, atomic checkpoints and shard negative cache remain intact. Persistent failures stay unavailable; successful retries use the returned forecast. Desktop lookups remain single-attempt. Retries share the existing deadline and may leave later locations unfinished if it expires; recovery is not guaranteed.\n\nValidation:\n- All **54 offline cache tests** passed locally on Python 3.10, including 11 new retry regressions covering concurrency, request caps, fresh-run reset, exclusions, recovery, negative caching and strict TLS on both attempts.\n- actionlint **v1.7.12** passed locally (release binary checksum verified).\n- Whitespace check passed with `core.whitespace=cr-at-eol`, preserving the existing Python files' CRLF endings.\n- Additional legacy `test_golfhub_v3.py` check: 9 passed, 7 blocked by missing PySide6, and 1 obsolete cron assertion failed. The exact same results reproduced on untouched main `25de15b`; no unrelated test/workflow changes are included.\n- Independent reviews found no blocking defect.\n- Exact-head [push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37544086462) and [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37544128236) both completed successfully. Each ran all 54 cache tests and actionlint v1.7.12 on Python 3.12. Push CI checked out the exact head; PR CI tested its merge with unchanged main. Remote tree `75365b0e0b0789de18125a1bc501fd26ad9c3e40` matches the tested local tree, and the checkout is clean.\n\nHead: `a5555824cfc5123efcfcc3ca1eae7860855f1d66`, based on main `25de15b65af6f9dcad4a4d13788fb87ab976df31`. This is independent of draft PR #3; it does not change the Quick18 repair.\n\nDraft pending review. No merge, deployment, credential/security change or production workflow dispatch was performed. After an approved merge, observe weather availability and warnings across scheduled publications; this PR has not been validated against live weather requests."
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "draft": true,
+      "state": "open",
+      "head": "fix/cache-refresh-provider-circuit",
+      "head_sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "body": "After the delayed retries added in PR #2 were exhausted, ordinary Quick18 fetches continued contacting the same slow domains for every date and round. In [run 37191045008](https://github.com/Jarryd22/golfhub-perth/actions/runs/37191045008/job/111403127669), the Oct 20–23 refresh step took 599 seconds and retained 20 stale results. Six later snapshots each added roughly 54–55 seconds. Logs/artifacts establish 20 ordinary failures plus three failed delayed recoveries; the current two-attempt fetch path implies 46 HTTP requests, although individual requests were not logged.\n\nThis cache-only repair shares a **two-transport-failure budget per Quick18 domain per shard** across ordinary and delayed fetches. Once exhausted, later requests to that domain are skipped for the rest of the shard. Persistent recognized transport failure now costs at most four HTTP attempts per domain in the current fetch path. Successful requests neither consume nor reset the failure budget, so repeated intermittent failures are bounded too. Domain aliases are serialized; unrelated providers remain parallel. Each new shard invocation starts fresh so later runs can recover.\n\nSkipped results remain errors for the existing strict fresh-provider majority. All date/round/course entries are retained when that gate passes. Same-date/round fallback keeps its original stale timestamp; without fallback the error remains explicit. Skip reason/time and the domain's last observed error/attempt are published separately, and a skipped fallback does not invent a new last_refresh_attempt_at. Actual subsequent fetches clear old skip markers. Actions warnings and health.provider_circuit_skips expose the deferred work.\n\nThe existing heartbeat/cron cadence, 90-second weather isolation, three-domain delayed retry cap, coverage validation and booking behavior remain intact. This limits repeated failed requests; it is not a hard wall-clock deadline on a single socket operation. After two failures, a provider that recovers mid-shard waits until a later invocation; this is the deliberate traffic/freshness tradeoff.\n\nValidation: all **54 offline cache tests** and **actionlint v1.7.12** passed locally. Eleven new regressions exercise the real core HTTP retry path (four requests per failing domain, all eight shard snapshots), concurrent aliases, cumulative failure/success interleaving, future-run recovery, error exclusions, unchanged majority rejection and truthful stale/attempt metadata. Independent review found no blocking defect.\n\nExact head: `cb901e9c601fa4f001ed8110215340a25bd594ec`, based on current main `25de15b65af6f9dcad4a4d13788fb87ab976df31`. Both [push CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37193010241) and [PR CI](https://github.com/Jarryd22/golfhub-perth/actions/runs/37193051986) completed successfully on this exact head. Each ran all 54 tests and actionlint v1.7.12 successfully. The remote tree matches the tested local tree (`b11070d80ed466f3a70787f4d293569bef5a1e3e`), and the local checkout is clean.\n\n**Draft pending review. Do not merge, deploy, enable auto-merge or trigger production workflows without further authorization.** No production workflow was manually triggered, and no credentials/security settings, Android/Windows release, booking action or notification behavior were changed. After approved merge, observe circuit warnings/skips, advancing publications and recovery on subsequent scheduled runs. Circuit-only rollback should retain PR #1 and PR #2."
+    }
+  ],
+  "repositories": [
+    {
+      "repository": "Jarryd22/golfhub-perth",
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356"
+        },
+        {
+          "name": "cache",
+          "sha": "fcbab09b47d8129ae52742013a2176b302cdcfc6"
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a"
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f"
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61"
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c"
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+        },
+        {
+          "name": "news",
+          "sha": "eb4413e9e44ce9ff91d4177ed05983d9520fae65"
+        }
+      ],
+      "open_pr_count": 12
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305"
+        }
+      ],
+      "open_pr_count": 0,
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      },
+      "readme": "# GolfHub Perth\n\nFind public golf tee times around Perth, with North/South filters, course information, scorecards and course maps.\n\n## Download for Windows\n\n**[Download the latest GolfHub installer](https://github.com/Jarryd22/golfhub-perth-updates/releases/latest)**\n\n[Release notes and all versions](https://github.com/Jarryd22/golfhub-perth-updates/releases)\n\nDownload the `.exe` from the latest release and run it on your Windows 10/11 64-bit laptop. Finish any booking and close GolfHub before installing. If you already have GolfHub, install over the existing copy.\n\n## Future updates\n\nGolfHub 5.1.11 and later include an **Updates** button and optional checks when the app starts. When a newer stable release is available, select **Update available**, download it, then select **Install and restart**.\n\nNo GitHub account is required. Updates are announced inside GolfHub. The application verifies a signed release record and the downloaded installer before installation.\n\nVersions are published only after the owner explicitly requests a release. Development and testing do not publish updates automatically.\n\nThis repository contains official installers and update records. You only need the `.exe`; `update.json` is for the application's update checker.\n"
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48"
+        }
+      ],
+      "open_pr_count": 0,
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      },
+      "readme": "# GolfHub Perth for Android\n\n[Download the latest approved Android release](https://github.com/Jarryd22/golfhub-perth-android-updates/releases/latest)\n\nThis repository contains the official APK downloads, release notes and signed Android update feed. Releases are published only when approved by GolfHub's owner.\n\n## Install\n\nDownload the APK from the latest release on an Android 7.0 or newer ARM64 phone, open it, and approve Android's installation prompt. Open GolfHub, choose your dates and courses, and find tee times. Allow notifications if you want preferred-date availability alerts.\n\n## Update\n\nOpen GolfHub and use **Updates** to check now. The app can download verified updates automatically; Android may ask you to approve installation. Production updates preserve favourites, saved alerts and settings.\n\nPrivate debug/test builds have a separate signing identity. Contact Jarryd before changing from a test build to this production APK; do not uninstall it just to force an update.\n\nAvailability checks are periodic and may be delayed. Confirm the time on the course booking website before booking. This is direct APK distribution, not a Google Play listing.\n\nAndroid update feed: [android-update.json](https://github.com/Jarryd22/golfhub-perth-android-updates/releases/latest/download/android-update.json)\n"
+    }
+  ],
+  "limitations": [
+    "Windows cache_close historical timeout remains unresolved. No repeated Linux reproduction performed.",
+    "Canonical desktop/mobile source reconciliation remains pending.",
+    "Repository checkout has no AGENTS.md or .agents/skills. Root /workspace/.agents empty.",
+    "Manifest signatures and installed updates not verified by this metadata audit."
+  ]
+}
