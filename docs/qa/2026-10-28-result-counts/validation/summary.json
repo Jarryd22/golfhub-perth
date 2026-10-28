@@ -1,0 +1,172 @@
+{
+  "timestamp_utc": "2026-10-28T00:10:42.054876+00:00",
+  "commit": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+  "status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-10-28-result-counts/\n?? tests/test_result_counts.py\n",
+  "source_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+  "regression_sha256": "76c8627c6bf4cc9854d96358a185ca0b54ec53b5d4484b9055d68d99c2ca2b24",
+  "kind": "Linux offscreen source checks; blocked sockets and browser; separate module processes",
+  "modules": [
+    {
+      "module": "test_result_counts.py",
+      "log": "test_result_counts.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist.py",
+      "log": "test_booking_assist.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_guards.py",
+      "log": "test_booking_assist_guards.log",
+      "exit_code": 0,
+      "run": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_optin.py",
+      "log": "test_booking_assist_optin.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_ui_integration.py",
+      "log": "test_booking_ui_integration.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_v5_ui_requirements.py",
+      "log": "test_v5_ui_requirements.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_collier_behavior.py",
+      "log": "test_collier_behavior.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_cache_states.py",
+      "log": "test_multiday_cache_states.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_midnight_rollover.py",
+      "log": "test_midnight_rollover.log",
+      "exit_code": 0,
+      "run": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_context.py",
+      "log": "test_booking_context.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_course_controls.py",
+      "log": "test_course_controls.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "log": "test_calendar_keyboard.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "log": "test_multiday_ui.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_perth_dates.py",
+      "log": "test_perth_dates.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "log": "test_time_range_ui.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_search_race.py",
+      "log": "test_search_race.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_thread_lifecycle.py",
+      "log": "test_thread_lifecycle.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache*.py",
+      "log": "test_cache-all.log",
+      "exit_code": 0,
+      "run": 70,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "one-row-plus-calendar-available": {
+    "status": "1 matching tee time across 2 courses",
+    "summary": "1 matching time",
+    "tee_time_cards": 1,
+    "courses_with_time_cards": [
+      "Araluen"
+    ]
+  },
+  "one-row-plus-calendar-unreleased": {
+    "status": "1 matching tee time across 2 courses",
+    "summary": "1 matching time",
+    "tee_time_cards": 1,
+    "courses_with_time_cards": [
+      "Araluen"
+    ]
+  },
+  "one-row-plus-calendar-full": {
+    "status": "1 matching tee time across 2 courses",
+    "summary": "1 matching time",
+    "tee_time_cards": 1,
+    "courses_with_time_cards": [
+      "Araluen"
+    ]
+  },
+  "single-error": {
+    "status": "0 matching tee times across 0 courses",
+    "summary": "0 matching times",
+    "labels": [
+      "0 matching times",
+      "0 availability feeds",
+      "0 official course links",
+      "Synthetic cache",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ]
+  },
+  "multi-error": {
+    "status": "0 matching tee times across 2 days",
+    "summary": "0 matching times across 2 days",
+    "day_titles": [
+      "-  WEDNESDAY, 2 JANUARY 2030  -  No matching live times",
+      "+  THURSDAY, 3 JANUARY 2030  -  No matching live times"
+    ],
+    "day_built": [
+      true,
+      false
+    ]
+  },
+  "collier-error": {
+    "labels": [
+      "0 matching times",
+      "0 availability feeds",
+      "0 official course links",
+      "Synthetic cache",
+      "Collier Park",
+      "No public tee times showing for this date - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ]
+  },
+  "callback_errors": [],
+  "kind": "Exact PR16 source, Linux offscreen, synthetic render only, socket/browser blocked, no workers/provider calls"
+}

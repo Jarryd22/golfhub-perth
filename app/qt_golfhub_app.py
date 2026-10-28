@@ -2046,6 +2046,11 @@ class GolfHub(QMainWindow):
         selected = {site.name for site in self.context.get("sites", [])}
         visible_results = [r for r in results if r.get("site_name") in selected]
         matches = sum(len(self.filtered_rows(r.get("decorated_rows", []))) for r in visible_results)
+        matched_course_count = sum(
+            bool(self.filtered_rows(result.get("decorated_rows", [])))
+            for result in visible_results
+            if not result.get("direct_booking")
+        )
         live_count = sum(1 for r in visible_results if not r.get("error") and not r.get("direct_booking"))
         direct_count = sum(1 for r in visible_results if r.get("direct_booking"))
         no_match_count = sum(1 for r in visible_results if not r.get("direct_booking") and not r.get("error") and not r.get("calendar_availability") and not self.filtered_rows(r.get("decorated_rows", [])))
@@ -2124,7 +2129,6 @@ class GolfHub(QMainWindow):
         self.results_layout.addStretch()
         self.last_results = visible_results
         if matches:
-            matched_course_count = max(0, live_count - no_match_count)
             self.status.setText(
                 f"{matches} matching tee {'time' if matches == 1 else 'times'} across "
                 f"{matched_course_count} {'course' if matched_course_count == 1 else 'courses'}"
@@ -2134,7 +2138,7 @@ class GolfHub(QMainWindow):
                 "Wembley has booking availability - open it to view exact times"
             )
         else:
-            self.status.setText(f"0 matching tee times across {max(0, live_count - no_match_count)} courses")
+            self.status.setText(f"0 matching tee times across {matched_course_count} courses")
         self._scroll_timer.start(0)
 
     def clear_results(self):

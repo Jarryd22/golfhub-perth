@@ -48,6 +48,7 @@ python -m unittest discover -s tests -p test_course_controls.py -v
 python -m unittest discover -s tests -p test_time_range_ui.py -v
 python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_multiday_cache_states.py -v
+python -m unittest discover -s tests -p test_result_counts.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
 python -m unittest discover -s tests -p test_thread_lifecycle.py -v
 python -m unittest discover -s tests -p test_cache*.py -v
@@ -59,7 +60,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 27 October 2026
+## Latest pass: 28 October 2026
+
+See the [matching-course count report](qa/2026-10-28-result-counts/REPORT.md). A single exact tee-time course plus a Wembley calendar-only available/full/unreleased result must report one matching course, not two. Calendar-only full/unreleased results have zero exact matching courses; available-calendar-only wording retains precedence. Count courses with rows after the submitted player/time filters, once per course; pending controls, direct links, errors and empty Collier cards must not inflate the total. Compare with actual tee-time cards and the multi-day count rule.
+
+**Passed:** eight new regressions (exact #16: three passing/five failing methods, eight failing assertions including subtests); **202 aggregate tests** (95 desktop CI-selected, 70 cache/integrity, 37 additional booking/rendering), plus 50 separate source-widget filter scenarios. PR16 missing-cache wording, date/midnight/keyboard, round/course selection, booking guards and PR15 integrity are revalidated. Current offscreen before/after and compact images inspected; compile, whitespace, actionlint and independent review pass. **Inspection only:** all 18 source refs, 14 existing drafts and unchanged Windows/Android update metadata. **Not performed:** native Windows/Android, live-provider cold start, screen readers/DPI/resume, updater/signatures, live bookings and notification delivery.
+
+Retain the historical #14 Windows cache_close timeout; its same-platform pair and child stack remain unavailable in this Linux executor. No repeat paired Linux investigation. Newly reproduced provider-error summary/Collier empty-text contradictions are deferred separately in the backlog; this repair changes counts only. November 12 false-zero weather remains with #4→#6→#8; PR3 applies to Quick18 only. No monitoring or production actions repeated. Exact remote-head all-event CI is recorded on the new draft.
+
+## Previous pass: 27 October 2026
 
 See the [missing-date cache-state report](qa/2026-10-27-cache-availability/REPORT.md). Recovered October 22 partial work is preserved and completed on a new draft stacked on unchanged #15. Test a partial multi-date search separately from fully cached empty results: a missing date must say **Availability not checked**, provide retry/single-date Refresh Live guidance and retain its state when expanded after pending filters change. Summary/status match counts cover **loaded days**. Saved-device fallback is loaded; absent snapshots remain unknown. Keep official links deduplicated, and preserve loaded provider-error/unreleased-calendar cards and all-missing recovery.
 
