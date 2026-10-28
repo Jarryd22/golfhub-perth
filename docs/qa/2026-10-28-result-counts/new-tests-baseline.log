@@ -1,0 +1,323 @@
+QA_RESULT {"run": 8, "failures": 8, "errors": 0, "skipped": 0}
+test_available_calendar_only_keeps_calendar_availability_wording (cache_state_regressions.ResultCountTests.test_available_calendar_only_keeps_calendar_availability_wording) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) (calendar='available') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) (calendar='full') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) (calendar='unreleased') ... FAIL
+test_counts_follow_submitted_context_and_exclude_unselected_results (cache_state_regressions.ResultCountTests.test_counts_follow_submitted_context_and_exclude_unselected_results) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_error_direct_and_empty_collier_do_not_count_as_matching_courses (cache_state_regressions.ResultCountTests.test_error_direct_and_empty_collier_do_not_count_as_matching_courses) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses (cache_state_regressions.ResultCountTests.test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses (cache_state_regressions.ResultCountTests.test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses) (calendar='full') ... FAIL
+Unknown property cursor
+  test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses (cache_state_regressions.ResultCountTests.test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses) (calendar='unreleased') ... FAIL
+test_many_times_count_a_course_once_through_show_all_toggle (cache_state_regressions.ResultCountTests.test_many_times_count_a_course_once_through_show_all_toggle) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_player_and_time_filters_count_only_courses_with_remaining_rows (cache_state_regressions.ResultCountTests.test_player_and_time_filters_count_only_courses_with_remaining_rows) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_single_and_multi_day_counts_agree_for_mixed_calendar_and_exact_results (cache_state_regressions.ResultCountTests.test_single_and_multi_day_counts_agree_for_mixed_calendar_and_exact_results) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+
+======================================================================
+FAIL: test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) (calendar='available')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 85, in test_calendar_only_course_does_not_inflate_a_matching_course_count
+    self.assertEqual(self.window.status.text(), "1 matching tee time across 1 course")
+AssertionError: '1 matching tee time across 2 courses' != '1 matching tee time across 1 course'
+- 1 matching tee time across 2 courses
+?                            ^       -
++ 1 matching tee time across 1 course
+?                            ^
+
+
+======================================================================
+FAIL: test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) (calendar='full')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 85, in test_calendar_only_course_does_not_inflate_a_matching_course_count
+    self.assertEqual(self.window.status.text(), "1 matching tee time across 1 course")
+AssertionError: '1 matching tee time across 2 courses' != '1 matching tee time across 1 course'
+- 1 matching tee time across 2 courses
+?                            ^       -
++ 1 matching tee time across 1 course
+?                            ^
+
+
+======================================================================
+FAIL: test_calendar_only_course_does_not_inflate_a_matching_course_count (cache_state_regressions.ResultCountTests.test_calendar_only_course_does_not_inflate_a_matching_course_count) (calendar='unreleased')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 85, in test_calendar_only_course_does_not_inflate_a_matching_course_count
+    self.assertEqual(self.window.status.text(), "1 matching tee time across 1 course")
+AssertionError: '1 matching tee time across 2 courses' != '1 matching tee time across 1 course'
+- 1 matching tee time across 2 courses
+?                            ^       -
++ 1 matching tee time across 1 course
+?                            ^
+
+
+======================================================================
+FAIL: test_counts_follow_submitted_context_and_exclude_unselected_results (cache_state_regressions.ResultCountTests.test_counts_follow_submitted_context_and_exclude_unselected_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 146, in test_counts_follow_submitted_context_and_exclude_unselected_results
+    self.assertEqual(self.window.status.text(), "1 matching tee time across 1 course")
+AssertionError: '1 matching tee time across 2 courses' != '1 matching tee time across 1 course'
+- 1 matching tee time across 2 courses
+?                            ^       -
++ 1 matching tee time across 1 course
+?                            ^
+
+
+======================================================================
+FAIL: test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses (cache_state_regressions.ResultCountTests.test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses) (calendar='full')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 93, in test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses
+    self.assertEqual(self.window.status.text(), "0 matching tee times across 0 courses")
+AssertionError: '0 matching tee times across 1 courses' != '0 matching tee times across 0 courses'
+- 0 matching tee times across 1 courses
+?                             ^
++ 0 matching tee times across 0 courses
+?                             ^
+
+
+======================================================================
+FAIL: test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses (cache_state_regressions.ResultCountTests.test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses) (calendar='unreleased')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 93, in test_full_or_unreleased_calendar_without_exact_times_has_zero_matching_courses
+    self.assertEqual(self.window.status.text(), "0 matching tee times across 0 courses")
+AssertionError: '0 matching tee times across 1 courses' != '0 matching tee times across 0 courses'
+- 0 matching tee times across 1 courses
+?                             ^
++ 0 matching tee times across 0 courses
+?                             ^
+
+
+======================================================================
+FAIL: test_player_and_time_filters_count_only_courses_with_remaining_rows (cache_state_regressions.ResultCountTests.test_player_and_time_filters_count_only_courses_with_remaining_rows)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 110, in test_player_and_time_filters_count_only_courses_with_remaining_rows
+    self.assertEqual(self.window.status.text(), "2 matching tee times across 1 course")
+AssertionError: '2 matching tee times across 2 courses' != '2 matching tee times across 1 course'
+- 2 matching tee times across 2 courses
+?                             ^       -
++ 2 matching tee times across 1 course
+?                             ^
+
+
+======================================================================
+FAIL: test_single_and_multi_day_counts_agree_for_mixed_calendar_and_exact_results (cache_state_regressions.ResultCountTests.test_single_and_multi_day_counts_agree_for_mixed_calendar_and_exact_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261028/tests/test_result_counts.py", line 154, in test_single_and_multi_day_counts_agree_for_mixed_calendar_and_exact_results
+    self.assertEqual(self.window.status.text(), "2 matching tee times across 2 courses")
+AssertionError: '2 matching tee times across 3 courses' != '2 matching tee times across 2 courses'
+- 2 matching tee times across 3 courses
+?                             ^
++ 2 matching tee times across 2 courses
+?                             ^
+
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.867s
+
+FAILED (failures=8)
