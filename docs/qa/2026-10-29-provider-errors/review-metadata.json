@@ -1,0 +1,30 @@
+{
+  "base": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+  "kind": "Independent source/test/workflow and bounded offscreen layout review; no aggregate test rerun",
+  "files": {
+    "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+    "tests/test_provider_error_states.py": "31bc15c3eed75ed3aec731652a7bea6383605d7aa1b71c4df9005d2f5a5cf03e",
+    ".github/workflows/test-desktop.yml": "b580e2f47edb613a4a5188354ebf888ea901da57d400a50343e7cc361b87fd6a"
+  },
+  "production_workflows_byte_unchanged": true,
+  "actionlint": {
+    "version": "1.7.12",
+    "archive_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+    "archive_checksum_matched": true,
+    "command": "/tmp/golfhub-oct29-actionlint/actionlint -no-color",
+    "exit_code": 0,
+    "log": "actionlint.log"
+  },
+  "layout_review": {
+    "passes": 3,
+    "application_unchanged": true,
+    "source_root": "/workspace/golfhub-20261029",
+    "kind": "Synthetic shared/saved cache; startup timers stopped; sockets/browser blocked; no workers",
+    "report": "layout-review/probe.json",
+    "initial_multiday_title_height": 5,
+    "settled_multiday_title_height": 23,
+    "settled_after_pass": 2,
+    "initial_scroll_maximum": 0,
+    "settled_scroll_maximum": 73
+  }
+}

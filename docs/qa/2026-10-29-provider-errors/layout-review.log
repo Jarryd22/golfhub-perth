@@ -1,0 +1,4244 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "single-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 991,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 991,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 991,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete",
+    "status": "Availability could not be checked for 1 course",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Availability incomplete",
+      "0 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ]
+  },
+  "collier-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 156,
+            "width": 960,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 960,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 156,
+            "width": 960,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 960,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 156,
+            "width": 960,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 960,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete",
+    "status": "Availability could not be checked for 1 course",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Availability incomplete",
+      "0 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Collier Park",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ],
+    "buttons": [
+      {
+        "text": "VIEW OFFICIAL CALENDAR",
+        "name": "View official calendar: Collier Park, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Collier Park",
+        "labels": [
+          "Collier Park",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ]
+  },
+  "mixed-empty-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 322,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "1 courses with no matching times",
+            "x": 454,
+            "y": 16,
+            "width": 734,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 9,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 168,
+            "width": 991,
+            "height": 9,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 194,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 194,
+            "width": 116,
+            "height": 4,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 219,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 301,
+            "width": 960,
+            "height": 7,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "No public tee times showing for this date - 18 holes",
+            "x": 23,
+            "y": 311,
+            "width": 960,
+            "height": 7,
+            "size_hint_height": 45,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 335,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 335,
+            "width": 116,
+            "height": 1,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityNotice",
+            "text": "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates.",
+            "x": 23,
+            "y": 357,
+            "width": 1162,
+            "height": 43,
+            "size_hint_height": 99,
+            "height_for_width": 54
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 557,
+        "scroll_maximum": 134,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 322,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "1 courses with no matching times",
+            "x": 454,
+            "y": 16,
+            "width": 724,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 359,
+            "width": 950,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "No public tee times showing for this date - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 950,
+            "height": 15,
+            "size_hint_height": 45,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityNotice",
+            "text": "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 54,
+            "size_hint_height": 99,
+            "height_for_width": 54
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 557,
+        "scroll_maximum": 134,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 322,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "1 courses with no matching times",
+            "x": 454,
+            "y": 16,
+            "width": 724,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 359,
+            "width": 950,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "No public tee times showing for this date - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 950,
+            "height": 15,
+            "size_hint_height": 45,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityNotice",
+            "text": "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 54,
+            "size_hint_height": 99,
+            "height_for_width": 54
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete",
+    "status": "Availability could not be checked for 1 course",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Availability incomplete",
+      "1 availability feeds",
+      "0 official course links",
+      "1 courses with no matching times",
+      "Shared cache - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Collier Park",
+      "No public tee times showing for this date - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "VIEW OFFICIAL CALENDAR",
+        "name": "View official calendar: Collier Park, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Collier Park",
+        "labels": [
+          "Collier Park",
+          "No public tee times showing for this date - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates."
+        ]
+      }
+    ]
+  },
+  "mixed-row-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 557,
+        "scroll_maximum": 134,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "1 matching time",
+            "x": 20,
+            "y": 16,
+            "width": 120,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 156,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 270,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 359,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "1 matching tee time - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "TeeTimeValue",
+            "text": "9:00 am",
+            "x": 36,
+            "y": 491,
+            "width": 67,
+            "height": 31,
+            "size_hint_height": 21,
+            "height_for_width": 21
+          },
+          {
+            "name": "Muted",
+            "text": "4 spots",
+            "x": 115,
+            "y": 491,
+            "width": 41,
+            "height": 31,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 556,
+        "scroll_maximum": 133,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "1 matching time",
+            "x": 20,
+            "y": 16,
+            "width": 120,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 156,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 270,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 359,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "1 matching tee time - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "TeeTimeValue",
+            "text": "9:00 am",
+            "x": 36,
+            "y": 491,
+            "width": 67,
+            "height": 31,
+            "size_hint_height": 21,
+            "height_for_width": 21
+          },
+          {
+            "name": "Muted",
+            "text": "4 spots",
+            "x": 115,
+            "y": 491,
+            "width": 41,
+            "height": 31,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 556,
+        "scroll_maximum": 133,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "1 matching time",
+            "x": 20,
+            "y": 16,
+            "width": 120,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 156,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 270,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Collier Park",
+            "x": 23,
+            "y": 359,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "1 matching tee time - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "TeeTimeValue",
+            "text": "9:00 am",
+            "x": 36,
+            "y": 491,
+            "width": 67,
+            "height": 31,
+            "size_hint_height": 21,
+            "height_for_width": 21
+          },
+          {
+            "name": "Muted",
+            "text": "4 spots",
+            "x": 115,
+            "y": 491,
+            "width": 41,
+            "height": 31,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          }
+        ]
+      }
+    ],
+    "summary": "1 matching time",
+    "status": "1 matching tee time across 1 course",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "1 matching time",
+      "1 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Collier Park",
+      "1 matching tee time - 18 holes",
+      "",
+      "Forecast unavailable",
+      "9:00 am",
+      "4 spots"
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Collier Park, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "BOOK",
+        "name": "Book: Collier Park, 9:00 am, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 1,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Collier Park",
+        "labels": [
+          "Collier Park",
+          "1 matching tee time - 18 holes",
+          "",
+          "Forecast unavailable",
+          "9:00 am",
+          "4 spots"
+        ]
+      }
+    ]
+  },
+  "available-calendar-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Wembley bookings available",
+            "x": 20,
+            "y": 16,
+            "width": 212,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 248,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 362,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 9,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 168,
+            "width": 991,
+            "height": 9,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 194,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 194,
+            "width": 116,
+            "height": 4,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 219,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Wembley",
+            "x": 23,
+            "y": 301,
+            "width": 983,
+            "height": 8,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Official calendar shows bookings available - 18 holes",
+            "x": 23,
+            "y": 312,
+            "width": 983,
+            "height": 8,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 337,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 337,
+            "width": 116,
+            "height": 3,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityAvailable",
+            "text": "Open Wembley's official calendar to check exact times.",
+            "x": 23,
+            "y": 361,
+            "width": 1162,
+            "height": 39,
+            "size_hint_height": 54,
+            "height_for_width": 39
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 542,
+        "scroll_maximum": 119,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Wembley bookings available",
+            "x": 20,
+            "y": 16,
+            "width": 212,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 248,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 362,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Wembley",
+            "x": 23,
+            "y": 359,
+            "width": 973,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Official calendar shows bookings available - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 973,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityAvailable",
+            "text": "Open Wembley's official calendar to check exact times.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 39,
+            "size_hint_height": 54,
+            "height_for_width": 39
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 542,
+        "scroll_maximum": 119,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Wembley bookings available",
+            "x": 20,
+            "y": 16,
+            "width": 212,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 248,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 362,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Wembley",
+            "x": 23,
+            "y": 359,
+            "width": 973,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Official calendar shows bookings available - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 973,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityAvailable",
+            "text": "Open Wembley's official calendar to check exact times.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 39,
+            "size_hint_height": 54,
+            "height_for_width": 39
+          }
+        ]
+      }
+    ],
+    "summary": "Wembley bookings available",
+    "status": "Wembley has booking availability - open it to view exact times",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Wembley bookings available",
+      "1 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Wembley",
+      "Official calendar shows bookings available - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Open Wembley's official calendar to check exact times."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "VIEW WEMBLEY TIMES",
+        "name": "View Wembley times: Wembley, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Wembley",
+        "labels": [
+          "Wembley",
+          "Official calendar shows bookings available - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Open Wembley's official calendar to check exact times."
+        ]
+      }
+    ]
+  },
+  "unreleased-calendar-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 542,
+        "scroll_maximum": 119,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 322,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Wembley",
+            "x": 23,
+            "y": 359,
+            "width": 973,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Timesheet not released yet - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 973,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityNotice",
+            "text": "Open Wembley's official calendar to check exact times.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 39,
+            "size_hint_height": 54,
+            "height_for_width": 39
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 542,
+        "scroll_maximum": 119,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 322,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Wembley",
+            "x": 23,
+            "y": 359,
+            "width": 973,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Timesheet not released yet - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 973,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityNotice",
+            "text": "Open Wembley's official calendar to check exact times.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 39,
+            "size_hint_height": 54,
+            "height_for_width": 39
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 542,
+        "scroll_maximum": 119,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "1 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 98,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 322,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 292,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 981,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 981,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1152,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Wembley",
+            "x": 23,
+            "y": 359,
+            "width": 973,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Timesheet not released yet - 18 holes",
+            "x": 23,
+            "y": 385,
+            "width": 973,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 417,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 417,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "AvailabilityNotice",
+            "text": "Open Wembley's official calendar to check exact times.",
+            "x": 23,
+            "y": 480,
+            "width": 1152,
+            "height": 39,
+            "size_hint_height": 54,
+            "height_for_width": 39
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete",
+    "status": "Availability could not be checked for 1 course",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Availability incomplete",
+      "1 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Wembley",
+      "Timesheet not released yet - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Open Wembley's official calendar to check exact times."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "VIEW WEMBLEY TIMES",
+        "name": "View Wembley times: Wembley, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Wembley",
+        "labels": [
+          "Wembley",
+          "Timesheet not released yet - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Open Wembley's official calendar to check exact times."
+        ]
+      }
+    ]
+  },
+  "multiday-all-error": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete across 2 days",
+            "x": 20,
+            "y": 16,
+            "width": 277,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 days with availability",
+            "x": 313,
+            "y": 16,
+            "width": 125,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 454,
+            "y": 16,
+            "width": 734,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "2 of 2 dates loaded",
+            "x": 20,
+            "y": 43,
+            "width": 137,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for some courses on 2 days. Open the date sections for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 65,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 176,
+            "width": 1170,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 36,
+            "y": 229,
+            "width": 965,
+            "height": 5,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 36,
+            "y": 237,
+            "width": 965,
+            "height": 5,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 47,
+            "y": 259,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 98,
+            "y": 259,
+            "width": 116,
+            "height": 0,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 36,
+            "y": 277,
+            "width": 1136,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 394,
+            "width": 1170,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 496,
+        "scroll_maximum": 73,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete across 2 days",
+            "x": 20,
+            "y": 16,
+            "width": 277,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 days with availability",
+            "x": 313,
+            "y": 16,
+            "width": 125,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 454,
+            "y": 16,
+            "width": 724,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "2 of 2 dates loaded",
+            "x": 20,
+            "y": 43,
+            "width": 137,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for some courses on 2 days. Open the date sections for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 65,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 176,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 36,
+            "y": 229,
+            "width": 955,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 36,
+            "y": 255,
+            "width": 955,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 47,
+            "y": 287,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 98,
+            "y": 287,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 36,
+            "y": 350,
+            "width": 1126,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 467,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 496,
+        "scroll_maximum": 73,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete across 2 days",
+            "x": 20,
+            "y": 16,
+            "width": 277,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 days with availability",
+            "x": 313,
+            "y": 16,
+            "width": 125,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 454,
+            "y": 16,
+            "width": 724,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "2 of 2 dates loaded",
+            "x": 20,
+            "y": 43,
+            "width": 137,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for some courses on 2 days. Open the date sections for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 65,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 176,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 36,
+            "y": 229,
+            "width": 955,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 36,
+            "y": 255,
+            "width": 955,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 47,
+            "y": 287,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 98,
+            "y": 287,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 36,
+            "y": 350,
+            "width": 1126,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 467,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete across 2 days",
+    "status": "Availability incomplete across 2 days",
+    "header": "SHARED CACHE / 2 OF 2 DAYS",
+    "labels": [
+      "Availability incomplete across 2 days",
+      "0 days with availability",
+      "0 official course links",
+      "2 of 2 dates loaded",
+      "Availability could not be checked for some courses on 2 days. Open the date sections for details.",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Shared cache - updated less than a minute ago"
+    ],
+    "buttons": [
+      {
+        "text": "-  SUNDAY, 2 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+        "name": ""
+      },
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "+  MONDAY, 3 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+        "name": ""
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ],
+    "days": [
+      {
+        "date": "2033-01-02",
+        "title": "-  SUNDAY, 2 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+        "built": true
+      },
+      {
+        "date": "2033-01-03",
+        "title": "+  MONDAY, 3 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+        "built": false
+      }
+    ]
+  },
+  "error-and-missing-date": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 496,
+        "scroll_maximum": 73,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete across 1 loaded day",
+            "x": 20,
+            "y": 16,
+            "width": 320,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 days with availability",
+            "x": 356,
+            "y": 16,
+            "width": 125,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 497,
+            "y": 16,
+            "width": 681,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "1 of 2 dates loaded",
+            "x": 20,
+            "y": 43,
+            "width": 134,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for some courses on 1 day. Open the date sections for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 65,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 176,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 36,
+            "y": 229,
+            "width": 955,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 36,
+            "y": 255,
+            "width": 955,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 47,
+            "y": 287,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 98,
+            "y": 287,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 36,
+            "y": 350,
+            "width": 1126,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Cache unavailable for this date",
+            "x": 19,
+            "y": 467,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 496,
+        "scroll_maximum": 73,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete across 1 loaded day",
+            "x": 20,
+            "y": 16,
+            "width": 320,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 days with availability",
+            "x": 356,
+            "y": 16,
+            "width": 125,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 497,
+            "y": 16,
+            "width": 681,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "1 of 2 dates loaded",
+            "x": 20,
+            "y": 43,
+            "width": 134,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for some courses on 1 day. Open the date sections for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 65,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 176,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 36,
+            "y": 229,
+            "width": 955,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 36,
+            "y": 255,
+            "width": 955,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 47,
+            "y": 287,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 98,
+            "y": 287,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 36,
+            "y": 350,
+            "width": 1126,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Cache unavailable for this date",
+            "x": 19,
+            "y": 467,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 496,
+        "scroll_maximum": 73,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete across 1 loaded day",
+            "x": 20,
+            "y": 16,
+            "width": 320,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 days with availability",
+            "x": 356,
+            "y": 16,
+            "width": 125,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 497,
+            "y": 16,
+            "width": 681,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "1 of 2 dates loaded",
+            "x": 20,
+            "y": 43,
+            "width": 134,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for some courses on 1 day. Open the date sections for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1158,
+            "height": 35,
+            "size_hint_height": 65,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Shared cache - updated less than a minute ago",
+            "x": 19,
+            "y": 176,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 36,
+            "y": 229,
+            "width": 955,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 36,
+            "y": 255,
+            "width": 955,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 47,
+            "y": 287,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 98,
+            "y": 287,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 36,
+            "y": 350,
+            "width": 1126,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "DaySource",
+            "text": "Cache unavailable for this date",
+            "x": 19,
+            "y": 467,
+            "width": 1160,
+            "height": 14,
+            "size_hint_height": 14,
+            "height_for_width": 14
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete across 1 loaded day",
+    "status": "Availability incomplete across 1 loaded day",
+    "header": "SHARED CACHE / 1 OF 2 DAYS",
+    "labels": [
+      "Availability incomplete across 1 loaded day",
+      "0 days with availability",
+      "0 official course links",
+      "1 of 2 dates loaded",
+      "Availability could not be checked for some courses on 1 day. Open the date sections for details.",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Cache unavailable for this date"
+    ],
+    "buttons": [
+      {
+        "text": "-  SUNDAY, 2 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+        "name": ""
+      },
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "+  MONDAY, 3 JANUARY 2033  -  Availability not checked",
+        "name": ""
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ],
+    "days": [
+      "-  SUNDAY, 2 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+      "+  MONDAY, 3 JANUARY 2033  -  Availability not checked"
+    ]
+  },
+  "saved-error-fallback": {
+    "layout_passes": [
+      {
+        "pass": 1,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Saved on this device - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 332,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 991,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      },
+      {
+        "pass": 2,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Saved on this device - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 332,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 991,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      },
+      {
+        "pass": 3,
+        "body_height": 423,
+        "scroll_maximum": 0,
+        "labels": [
+          {
+            "name": "SummaryValue",
+            "text": "Availability incomplete",
+            "x": 20,
+            "y": 16,
+            "width": 172,
+            "height": 20,
+            "size_hint_height": 20,
+            "height_for_width": 20
+          },
+          {
+            "name": "",
+            "text": "0 availability feeds",
+            "x": 208,
+            "y": 16,
+            "width": 102,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "",
+            "text": "0 official course links",
+            "x": 326,
+            "y": 16,
+            "width": 116,
+            "height": 20,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "SourceBadge",
+            "text": "Saved on this device - updated less than a minute ago",
+            "x": 20,
+            "y": 43,
+            "width": 332,
+            "height": 31,
+            "size_hint_height": 31,
+            "height_for_width": 31
+          },
+          {
+            "name": "Warning",
+            "text": "Availability could not be checked for 1 course. Open the course cards for details.",
+            "x": 20,
+            "y": 81,
+            "width": 1168,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          },
+          {
+            "name": "ResultTitle",
+            "text": "Araluen",
+            "x": 23,
+            "y": 156,
+            "width": 991,
+            "height": 23,
+            "size_hint_height": 23,
+            "height_for_width": 23
+          },
+          {
+            "name": "Muted",
+            "text": "Could not read live availability - direct booking is still available",
+            "x": 23,
+            "y": 182,
+            "width": 991,
+            "height": 15,
+            "size_hint_height": 30,
+            "height_for_width": 15
+          },
+          {
+            "name": "WeatherIcon",
+            "text": "",
+            "x": 34,
+            "y": 214,
+            "width": 42,
+            "height": 42,
+            "size_hint_height": 42,
+            "height_for_width": -1
+          },
+          {
+            "name": "WeatherTitle",
+            "text": "Forecast unavailable",
+            "x": 85,
+            "y": 214,
+            "width": 116,
+            "height": 42,
+            "size_hint_height": 15,
+            "height_for_width": 15
+          },
+          {
+            "name": "Warning",
+            "text": "Live times were unavailable for this course. You can still open its official booking page.",
+            "x": 23,
+            "y": 277,
+            "width": 1162,
+            "height": 35,
+            "size_hint_height": 50,
+            "height_for_width": 35
+          }
+        ]
+      }
+    ],
+    "summary": "Availability incomplete",
+    "status": "Availability could not be checked for 1 course",
+    "header": "SAVED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Availability incomplete",
+      "0 availability feeds",
+      "0 official course links",
+      "Saved on this device - updated less than a minute ago",
+      "Availability could not be checked for 1 course. Open the course cards for details.",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ]
+  },
+  "callback_errors": [],
+  "provenance": {
+    "timestamp_utc": "2026-10-29T00:14:19.417350+00:00",
+    "source_head": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+    "source_status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-10-29-provider-errors/\n?? tests/test_provider_error_states.py\n",
+    "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+    "kind": "Linux offscreen; synthetic shared/saved results; sockets/browser blocked; no workers",
+    "logical_window": [
+      1280,
+      800
+    ]
+  }
+}

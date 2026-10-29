@@ -850,7 +850,7 @@ class ResultCard(QFrame):
             meta_text = "Could not read live availability - direct booking is still available"
         else:
             meta_text = f"{len(rows)} matching tee time{'s' if len(rows) != 1 else ''} - {result.get('hole_label', '')}"
-        if self.collier_empty:
+        if self.collier_empty and not result.get('error'):
             hole_label = result.get('hole_label', '')
             meta_text = f'No public tee times showing for this date - {hole_label}'
         meta = QLabel(meta_text)
@@ -1923,12 +1923,16 @@ class GolfHub(QMainWindow):
                 if not result.get("direct_booking")
             )
             calendar_options = sum(result.get("calendar_availability") == "available" for result in visible)
+            error_count = sum(bool(result.get("error")) for result in visible
+                              if not result.get("direct_booking"))
             if not day.get("available", True):
                 detail = "Availability not checked"
             elif matches:
                 detail = f"{matches} time{'s' if matches != 1 else ''} across {matched_courses} course{'s' if matched_courses != 1 else ''}"
             elif calendar_options:
                 detail = f"Bookings shown on {calendar_options} official calendar{'s' if calendar_options != 1 else ''}"
+            elif error_count:
+                detail = f"Availability incomplete - {error_count} {'course' if error_count == 1 else 'courses'} unavailable"
             else:
                 detail = "No matching live times"
             prepared.append(
@@ -1936,6 +1940,7 @@ class GolfHub(QMainWindow):
                     **day,
                     "visible": visible,
                     "matches": matches,
+                    "error_count": error_count if day.get("available", True) else 0,
                     "detail": detail,
                     "has_options": bool(matches or calendar_options),
                 }
@@ -1948,6 +1953,7 @@ class GolfHub(QMainWindow):
             coverage = f"{loaded_days} loaded {'day' if loaded_days == 1 else 'days'}"
         else:
             coverage = f"{len(prepared)} {'day' if len(prepared) == 1 else 'days'}"
+        error_days = sum(bool(day["error_count"]) for day in prepared)
         days_with_options = sum(day["has_options"] for day in prepared)
         direct_by_name = {}
         for day in prepared:
@@ -1975,6 +1981,8 @@ class GolfHub(QMainWindow):
             )
         elif available_calendar_dates:
             headline = f"Wembley bookings available across {available_calendar_dates} date{'s' if available_calendar_dates != 1 else ''}"
+        elif error_days:
+            headline = f"Availability incomplete across {coverage}"
         else:
             headline = f"0 matching times across {coverage}"
         label = QLabel(headline)
@@ -1985,6 +1993,14 @@ class GolfHub(QMainWindow):
         source_label = QLabel(source)
         source_label.setObjectName("SourceBadge")
         line.addWidget(source_label, 1, 0, 1, 3, alignment=Qt.AlignLeft)
+        if error_days:
+            warning = QLabel(
+                f"Availability could not be checked for some courses on {error_days} "
+                f"{'day' if error_days == 1 else 'days'}. Open the date sections for details."
+            )
+            warning.setObjectName("Warning")
+            warning.setWordWrap(True)
+            line.addWidget(warning, 2, 0, 1, 3)
         line.setColumnStretch(2, 1)
         self.results_layout.addWidget(summary)
 
@@ -2037,6 +2053,8 @@ class GolfHub(QMainWindow):
                 f"Wembley has bookings available on {available_calendar_dates} selected "
                 f"date{'s' if available_calendar_dates != 1 else ''}"
             )
+        elif error_days:
+            self.status.setText(f"Availability incomplete across {coverage}")
         else:
             self.status.setText(f"0 matching tee times across {coverage}")
         self._scroll_timer.start(0)
@@ -2053,6 +2071,8 @@ class GolfHub(QMainWindow):
         )
         live_count = sum(1 for r in visible_results if not r.get("error") and not r.get("direct_booking"))
         direct_count = sum(1 for r in visible_results if r.get("direct_booking"))
+        error_count = sum(bool(r.get("error")) for r in visible_results if not r.get("direct_booking"))
+        error_message = f"Availability could not be checked for {error_count} {'course' if error_count == 1 else 'courses'}"
         no_match_count = sum(1 for r in visible_results if not r.get("direct_booking") and not r.get("error") and not r.get("calendar_availability") and not self.filtered_rows(r.get("decorated_rows", [])))
         summary = QFrame()
         summary.setObjectName("Summary")
@@ -2067,6 +2087,8 @@ class GolfHub(QMainWindow):
             headline = f"{matches} matching {'time' if matches == 1 else 'times'}"
         elif available_calendar_count:
             headline = "Wembley bookings available"
+        elif error_count:
+            headline = "Availability incomplete"
         else:
             headline = "0 matching times"
         label = QLabel(headline)
@@ -2079,6 +2101,11 @@ class GolfHub(QMainWindow):
         source_label = QLabel(source)
         source_label.setObjectName("SourceBadge")
         line.addWidget(source_label, 1, 0, 1, 4, alignment=Qt.AlignLeft)
+        if error_count:
+            warning = QLabel(f"{error_message}. Open the course cards for details.")
+            warning.setObjectName("Warning")
+            warning.setWordWrap(True)
+            line.addWidget(warning, 2, 0, 1, 4)
         line.setColumnStretch(3, 1)
         self.results_layout.addWidget(summary)
 
@@ -2137,6 +2164,8 @@ class GolfHub(QMainWindow):
             self.status.setText(
                 "Wembley has booking availability - open it to view exact times"
             )
+        elif error_count:
+            self.status.setText(error_message)
         else:
             self.status.setText(f"0 matching tee times across {matched_course_count} courses")
         self._scroll_timer.start(0)

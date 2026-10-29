@@ -49,6 +49,7 @@ python -m unittest discover -s tests -p test_time_range_ui.py -v
 python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
+python -m unittest discover -s tests -p test_provider_error_states.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
 python -m unittest discover -s tests -p test_thread_lifecycle.py -v
 python -m unittest discover -s tests -p test_cache*.py -v
@@ -60,7 +61,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 28 October 2026
+## Latest pass: 29 October 2026
+
+See the [provider-error report](qa/2026-10-29-provider-errors/REPORT.md). Loaded provider failures must not establish zero matches. With no positive result, show **Availability incomplete** and scoped course/day warnings; distinguish absent snapshots, successful empty data, saved-device errors and unreleased calendars. Preserve positive exact-row/calendar headlines and PR17 counts while warning about other failed courses. Collier failure metadata must retain its unavailable wording and official-calendar target; genuine Collier empty information remains unchanged.
+
+**Passed:** 11 final regressions (exact PR17: two passing/nine failing methods, 13 failing assertions including subtests), **213 aggregate tests** (106 desktop, 70 cache/integrity, 37 additional booking/rendering), plus **50 separate source-widget filter scenarios**. Compact wrapped-warning assertions, compile and CRLF-aware whitespace pass; dated evidence records offscreen layout review, actionlint and independent review. **Inspection only:** 19 source refs, 15 existing drafts, unchanged Windows/Android update metadata, weather/freshness/alert limits. **Not performed:** native Windows/Android, full network/disk cold start, screen readers/DPI/resume, installed updater/signatures, live availability/bookings and notification delivery. Five mocked startup/fallback diagnostic scenarios pass separately; the initial fixture-date assertion failure and correction are retained in the report. An initial compressed multi-day screenshot settles after the next layout event pass; before/settled geometry evidence is retained.
+
+Preserve historical Windows cache_close failure, older Qt stall/WebEngine blocks and prior failed executions. Standard lifecycle suite ran once; no paired Linux diagnosis or timeout relaxation. PR8 weather, PR5/7 Wembley and PR3 Quick18 work remain separate/unmerged. Canonical source reconciliation and delivery remain pending. Exact remote-head CI must enumerate all events/attempts, verify tested tree and retain failed runs; results belong on the new draft.
+
+## Previous pass: 28 October 2026
 
 See the [matching-course count report](qa/2026-10-28-result-counts/REPORT.md). A single exact tee-time course plus a Wembley calendar-only available/full/unreleased result must report one matching course, not two. Calendar-only full/unreleased results have zero exact matching courses; available-calendar-only wording retains precedence. Count courses with rows after the submitted player/time filters, once per course; pending controls, direct links, errors and empty Collier cards must not inflate the total. Compare with actual tee-time cards and the multi-day count rule.
 

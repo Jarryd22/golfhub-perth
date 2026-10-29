@@ -1,0 +1,548 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "single-error": {
+    "summary": "0 matching times",
+    "status": "0 matching tee times across 0 courses",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "0 matching times",
+      "0 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ]
+  },
+  "collier-error": {
+    "summary": "0 matching times",
+    "status": "0 matching tee times across 0 courses",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "0 matching times",
+      "0 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Collier Park",
+      "No public tee times showing for this date - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ],
+    "buttons": [
+      {
+        "text": "VIEW OFFICIAL CALENDAR",
+        "name": "View official calendar: Collier Park, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Collier Park",
+        "labels": [
+          "Collier Park",
+          "No public tee times showing for this date - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ]
+  },
+  "mixed-empty-error": {
+    "summary": "0 matching times",
+    "status": "0 matching tee times across 0 courses",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "0 matching times",
+      "1 availability feeds",
+      "0 official course links",
+      "1 courses with no matching times",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Collier Park",
+      "No public tee times showing for this date - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "VIEW OFFICIAL CALENDAR",
+        "name": "View official calendar: Collier Park, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Collier Park",
+        "labels": [
+          "Collier Park",
+          "No public tee times showing for this date - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Collier Park releases public tee times 8 days in advance at 12:00 pm. No public times are showing for this date, so it may not be released yet or may already be full. Open the official calendar to check other dates."
+        ]
+      }
+    ]
+  },
+  "mixed-row-error": {
+    "summary": "1 matching time",
+    "status": "1 matching tee time across 1 course",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "1 matching time",
+      "1 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Collier Park",
+      "1 matching tee time - 18 holes",
+      "",
+      "Forecast unavailable",
+      "9:00 am",
+      "4 spots"
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Collier Park, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "BOOK",
+        "name": "Book: Collier Park, 9:00 am, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 1,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Collier Park",
+        "labels": [
+          "Collier Park",
+          "1 matching tee time - 18 holes",
+          "",
+          "Forecast unavailable",
+          "9:00 am",
+          "4 spots"
+        ]
+      }
+    ]
+  },
+  "available-calendar-error": {
+    "summary": "Wembley bookings available",
+    "status": "Wembley has booking availability - open it to view exact times",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "Wembley bookings available",
+      "1 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Wembley",
+      "Official calendar shows bookings available - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Open Wembley's official calendar to check exact times."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "VIEW WEMBLEY TIMES",
+        "name": "View Wembley times: Wembley, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Wembley",
+        "labels": [
+          "Wembley",
+          "Official calendar shows bookings available - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Open Wembley's official calendar to check exact times."
+        ]
+      }
+    ]
+  },
+  "unreleased-calendar-error": {
+    "summary": "0 matching times",
+    "status": "0 matching tee times across 0 courses",
+    "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "0 matching times",
+      "1 availability feeds",
+      "0 official course links",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Wembley",
+      "Timesheet not released yet - 18 holes",
+      "",
+      "Forecast unavailable",
+      "Open Wembley's official calendar to check exact times."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "VIEW WEMBLEY TIMES",
+        "name": "View Wembley times: Wembley, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      },
+      {
+        "site": "Wembley",
+        "labels": [
+          "Wembley",
+          "Timesheet not released yet - 18 holes",
+          "",
+          "Forecast unavailable",
+          "Open Wembley's official calendar to check exact times."
+        ]
+      }
+    ]
+  },
+  "multiday-all-error": {
+    "summary": "0 matching times across 2 days",
+    "status": "0 matching tee times across 2 days",
+    "header": "SHARED CACHE / 2 OF 2 DAYS",
+    "labels": [
+      "0 matching times across 2 days",
+      "0 days with availability",
+      "0 official course links",
+      "2 of 2 dates loaded",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Shared cache - updated less than a minute ago"
+    ],
+    "buttons": [
+      {
+        "text": "-  SUNDAY, 2 JANUARY 2033  -  No matching live times",
+        "name": ""
+      },
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "+  MONDAY, 3 JANUARY 2033  -  No matching live times",
+        "name": ""
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ],
+    "days": [
+      {
+        "date": "2033-01-02",
+        "title": "-  SUNDAY, 2 JANUARY 2033  -  No matching live times",
+        "built": true
+      },
+      {
+        "date": "2033-01-03",
+        "title": "+  MONDAY, 3 JANUARY 2033  -  No matching live times",
+        "built": false
+      }
+    ]
+  },
+  "error-and-missing-date": {
+    "summary": "0 matching times across 1 loaded day",
+    "status": "0 matching tee times across 1 loaded day",
+    "header": "SHARED CACHE / 1 OF 2 DAYS",
+    "labels": [
+      "0 matching times across 1 loaded day",
+      "0 days with availability",
+      "0 official course links",
+      "1 of 2 dates loaded",
+      "Shared cache - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page.",
+      "Cache unavailable for this date"
+    ],
+    "buttons": [
+      {
+        "text": "-  SUNDAY, 2 JANUARY 2033  -  No matching live times",
+        "name": ""
+      },
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      },
+      {
+        "text": "+  MONDAY, 3 JANUARY 2033  -  Availability not checked",
+        "name": ""
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ],
+    "days": [
+      "-  SUNDAY, 2 JANUARY 2033  -  No matching live times",
+      "+  MONDAY, 3 JANUARY 2033  -  Availability not checked"
+    ]
+  },
+  "saved-error-fallback": {
+    "summary": "0 matching times",
+    "status": "0 matching tee times across 0 courses",
+    "header": "SAVED CACHE / LESS THAN A MINUTE AGO",
+    "labels": [
+      "0 matching times",
+      "0 availability feeds",
+      "0 official course links",
+      "Saved on this device - updated less than a minute ago",
+      "Araluen",
+      "Could not read live availability - direct booking is still available",
+      "",
+      "Forecast unavailable",
+      "Live times were unavailable for this course. You can still open its official booking page."
+    ],
+    "buttons": [
+      {
+        "text": "OPEN BOOKING PAGE",
+        "name": "Open booking page: Araluen, 18 holes, 2 January 2033"
+      }
+    ],
+    "exact_time_cards": 0,
+    "cards": [
+      {
+        "site": "Araluen",
+        "labels": [
+          "Araluen",
+          "Could not read live availability - direct booking is still available",
+          "",
+          "Forecast unavailable",
+          "Live times were unavailable for this course. You can still open its official booking page."
+        ]
+      }
+    ]
+  },
+  "callback_errors": [],
+  "provenance": {
+    "timestamp_utc": "2026-10-29T00:11:16.741039+00:00",
+    "source_head": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+    "source_status": "",
+    "source_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+    "kind": "Linux offscreen; synthetic shared/saved results; sockets/browser blocked; no workers",
+    "logical_window": [
+      1280,
+      800
+    ]
+  }
+}
