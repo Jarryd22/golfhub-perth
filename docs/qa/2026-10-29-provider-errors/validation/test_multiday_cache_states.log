@@ -1,0 +1,257 @@
+QA_RESULT {"run": 10, "failures": 0, "errors": 0, "skipped": 0}
+test_all_missing_cache_keeps_actionable_unavailable_state_without_live_search (test_multiday_cache_states.MultiDayCacheStateTests.test_all_missing_cache_keeps_actionable_unavailable_state_without_live_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_calendar_availability_and_deduplicated_direct_links_survive_partial_cache (test_multiday_cache_states.MultiDayCacheStateTests.test_calendar_availability_and_deduplicated_direct_links_survive_partial_cache) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_direct_render_callers_without_coverage_metadata_remain_loaded (test_multiday_cache_states.MultiDayCacheStateTests.test_direct_render_callers_without_coverage_metadata_remain_loaded) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_fully_loaded_empty_days_keep_existing_no_match_wording (test_multiday_cache_states.MultiDayCacheStateTests.test_fully_loaded_empty_days_keep_existing_no_match_wording) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_lazy_missing_body_retains_state_and_wraps_at_compact_size (test_multiday_cache_states.MultiDayCacheStateTests.test_lazy_missing_body_retains_state_and_wraps_at_compact_size) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_loaded_provider_error_and_unreleased_calendar_remain_distinct (test_multiday_cache_states.MultiDayCacheStateTests.test_loaded_provider_error_and_unreleased_calendar_remain_distinct) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_local_fallback_is_loaded_while_remaining_missing_day_stays_unknown (test_multiday_cache_states.MultiDayCacheStateTests.test_local_fallback_is_loaded_while_remaining_missing_day_stays_unknown) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_missing_day_title_does_not_claim_no_matches (test_multiday_cache_states.MultiDayCacheStateTests.test_missing_day_title_does_not_claim_no_matches) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_partial_counts_use_loaded_days_and_submitted_player_time_filters (test_multiday_cache_states.MultiDayCacheStateTests.test_partial_counts_use_loaded_days_and_submitted_player_time_filters) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_partial_zero_matches_only_describes_loaded_day (test_multiday_cache_states.MultiDayCacheStateTests.test_partial_zero_matches_only_describes_loaded_day) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.547s
+
+OK

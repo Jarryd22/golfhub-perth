@@ -1,0 +1,184 @@
+{
+  "timestamp_utc": "2026-10-29T00:13:57.284745+00:00",
+  "commit": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+  "status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-10-29-provider-errors/\n?? tests/test_provider_error_states.py\n",
+  "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+  "regression_sha256": "31bc15c3eed75ed3aec731652a7bea6383605d7aa1b71c4df9005d2f5a5cf03e",
+  "kind": "Linux offscreen source checks; blocked sockets and browser; separate module processes",
+  "modules": [
+    {
+      "module": "test_provider_error_states.py",
+      "log": "test_provider_error_states.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "timestamp_utc": "2026-10-29T00:14:45.106832+00:00",
+      "test_sha256": "31bc15c3eed75ed3aec731652a7bea6383605d7aa1b71c4df9005d2f5a5cf03e"
+    },
+    {
+      "module": "test_result_counts.py",
+      "log": "test_result_counts.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist.py",
+      "log": "test_booking_assist.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_guards.py",
+      "log": "test_booking_assist_guards.log",
+      "exit_code": 0,
+      "run": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_optin.py",
+      "log": "test_booking_assist_optin.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_ui_integration.py",
+      "log": "test_booking_ui_integration.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_v5_ui_requirements.py",
+      "log": "test_v5_ui_requirements.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_collier_behavior.py",
+      "log": "test_collier_behavior.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_cache_states.py",
+      "log": "test_multiday_cache_states.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_midnight_rollover.py",
+      "log": "test_midnight_rollover.log",
+      "exit_code": 0,
+      "run": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_context.py",
+      "log": "test_booking_context.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_course_controls.py",
+      "log": "test_course_controls.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "log": "test_calendar_keyboard.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "log": "test_multiday_ui.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_perth_dates.py",
+      "log": "test_perth_dates.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "log": "test_time_range_ui.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_search_race.py",
+      "log": "test_search_race.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_thread_lifecycle.py",
+      "log": "test_thread_lifecycle.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache*.py",
+      "log": "test_cache-all.log",
+      "exit_code": 0,
+      "run": 70,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ],
+  "final_regression_revalidation": "Compact geometry assertions were added to the same 11-method module after its initial aggregate run. Final identical baseline and repaired module runs are retained; this summary uses the repaired final-module result with the unchanged other 18 modules. No application changes between runs."
+}

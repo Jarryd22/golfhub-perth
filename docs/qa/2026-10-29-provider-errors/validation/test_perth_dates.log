@@ -1,0 +1,23 @@
+QA_RESULT {"run": 6, "failures": 0, "errors": 0, "skipped": 0}
+test_ahead_and_behind_local_dates_resolve_to_the_same_perth_day (test_perth_dates.PerthDateTests.test_ahead_and_behind_local_dates_resolve_to_the_same_perth_day) ... ok
+test_booking_day_changes_at_perth_midnight (test_perth_dates.PerthDateTests.test_booking_day_changes_at_perth_midnight) ... ok
+test_default_clock_requests_an_explicit_timezone (test_perth_dates.PerthDateTests.test_default_clock_requests_an_explicit_timezone) ... ok
+test_utc_midnight_does_not_change_the_perth_booking_day (test_perth_dates.PerthDateTests.test_utc_midnight_does_not_change_the_perth_booking_day) ... ok
+test_startup_window_and_default_selection_use_perth_day (test_perth_dates.PerthDateWidgetTests.test_startup_window_and_default_selection_use_perth_day) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_today_banner_highlight_and_relative_labels_share_perth_day (test_perth_dates.PerthDateWidgetTests.test_today_banner_highlight_and_relative_labels_share_perth_day) ... ok
+
+----------------------------------------------------------------------
+Ran 6 tests in 0.075s
+
+OK

@@ -1,0 +1,583 @@
+{
+  "checked_at_utc": "2026-10-29T00:10:21.986Z",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "scope": "Read-only branch/PR/release API metadata and exact-source inspection; no hourly cache audit, binaries, signed manifest verification, device, notification or provider requests.",
+  "repositories": [
+    {
+      "repository": "Jarryd22/golfhub-perth",
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356"
+        },
+        {
+          "name": "cache",
+          "sha": "deb66e34284391c78c3ed70b3a9c84bdbc435213"
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a"
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f"
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61"
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c"
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+        },
+        {
+          "name": "fix/desktop-matching-course-count-20261028",
+          "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+        },
+        {
+          "name": "fix/desktop-missing-cache-20261027",
+          "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+        },
+        {
+          "name": "news",
+          "sha": "c93ed036bcd6b5098954652ca2d08e59ec27ce35"
+        }
+      ],
+      "open_pr_count": 15
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305"
+        }
+      ],
+      "open_pr_count": 0,
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48"
+        }
+      ],
+      "open_pr_count": 0,
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    }
+  ],
+  "open_drafts": [
+    {
+      "number": 17,
+      "title": "Count only courses with matching exact tee times",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+      "head": "fix/desktop-matching-course-count-20261028",
+      "head_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "base": "fix/desktop-missing-cache-20261027",
+      "base_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+    },
+    {
+      "number": 16,
+      "title": "Distinguish missing date cache from empty tee times",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+      "head": "fix/desktop-missing-cache-20261027",
+      "head_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "base": "fix/alerts-runtime-integrity-20261026",
+      "base_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+    },
+    {
+      "number": 15,
+      "title": "Validate alert runtime ZIP integrity without executing it",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+      "head": "fix/alerts-runtime-integrity-20261026",
+      "head_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "base": "fix/desktop-perth-midnight-20261021",
+      "base_sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+    },
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "head": "fix/desktop-perth-midnight-20261021",
+      "head_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "base": "fix/desktop-cache-thread-lifecycle-20261020",
+      "base_sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "head": "fix/desktop-cache-thread-lifecycle-20261020",
+      "head_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "base": "fix/desktop-booking-context-20261020",
+      "base_sha": "93d4763451358be608bff06fd0013936af36764c"
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "head": "fix/desktop-booking-context-20261020",
+      "head_sha": "93d4763451358be608bff06fd0013936af36764c",
+      "base": "fix/desktop-course-controls-20261019",
+      "base_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "head": "fix/desktop-course-controls-20261019",
+      "head_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "base": "fix/desktop-keyboard-date-selection",
+      "base_sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "head": "fix/desktop-keyboard-date-selection",
+      "head_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "base": "fix/desktop-search-dates-and-times",
+      "base_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "head": "fix/desktop-search-dates-and-times",
+      "head_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "head": "fix/cache-refresh-incomplete-weather",
+      "head_sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "base": "fix/cache-refresh-weather-cooldown",
+      "base_sha": "e84985a713d008301cdef96db7582c420b712d61"
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "head": "fix/cache-refresh-wembley-rendered",
+      "head_sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "base": "fix/cache-refresh-wembley-fallback",
+      "base_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "head": "fix/cache-refresh-weather-cooldown",
+      "head_sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "base": "fix/cache-refresh-weather-timeouts",
+      "base_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "head": "fix/cache-refresh-wembley-fallback",
+      "head_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "head": "fix/cache-refresh-weather-timeouts",
+      "head_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "state": "open",
+      "draft": true,
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "head": "fix/cache-refresh-provider-circuit",
+      "head_sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "base": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    }
+  ],
+  "pagination": "Each list requested per_page=100 and returned fewer than 100; latest release singleton.",
+  "limitations": [
+    "Historical Windows cache_close timeout remains unresolved; no Linux reproduction investigation repeated.",
+    "PR3 is Quick18-specific, not a Whaleback/MiClub fix. PR4\u21926\u21928 weather repair, PR5/7 Wembley repairs, PR15 validator, PR16 missing snapshots and PR17 matching-course count are existing unmerged drafts.",
+    "Current release metadata comparison only; no signed manifest, binary or installed update validation.",
+    "Canonical desktop/mobile source reconciliation remains pending.",
+    "No production workflow trigger, merge, release, deploy, credential/security change, spending, third-party contact, booking or notification."
+  ],
+  "comparison_to_oct28": [
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches_unchanged": true,
+      "latest_release_metadata_unchanged": true
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches_unchanged": true,
+      "latest_release_metadata_unchanged": true
+    }
+  ],
+  "source_duplicate_audit": {
+    "inspected_source_refs": 19,
+    "groups": [
+      {
+        "branches": [
+          {
+            "name": "agent/golfhub-v5-final-20260729",
+            "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356"
+          },
+          {
+            "name": "fix/cache-refresh-heartbeat",
+            "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a"
+          },
+          {
+            "name": "fix/cache-refresh-incomplete-weather",
+            "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+          },
+          {
+            "name": "fix/cache-refresh-provider-circuit",
+            "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+          },
+          {
+            "name": "fix/cache-refresh-resilience",
+            "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f"
+          },
+          {
+            "name": "fix/cache-refresh-weather-cooldown",
+            "sha": "e84985a713d008301cdef96db7582c420b712d61"
+          },
+          {
+            "name": "fix/cache-refresh-weather-timeouts",
+            "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+          },
+          {
+            "name": "fix/cache-refresh-wembley-fallback",
+            "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+          },
+          {
+            "name": "fix/cache-refresh-wembley-rendered",
+            "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+          },
+          {
+            "name": "fix/desktop-course-controls-20261019",
+            "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+          },
+          {
+            "name": "fix/desktop-keyboard-date-selection",
+            "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+          },
+          {
+            "name": "fix/desktop-search-dates-and-times",
+            "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+          },
+          {
+            "name": "main",
+            "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+          }
+        ],
+        "evidence": {
+          "render_multi_results": {
+            "ast_sha256": "4e44b274880c35006dbdc68f17e524f44a92b1a08223cf56bbddf08523f0b2cc",
+            "error_key_references": 0,
+            "zero_match_strings": [
+              "No matching live times",
+              "0 matching times across ",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "render_results": {
+            "ast_sha256": "8a47e2fbfbb46481a2505a01deef2d99269bf1b895f1733ecea9ba8d1c1ccf69",
+            "error_key_references": 3,
+            "zero_match_strings": [
+              "0 matching times",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "Collier": {
+            "empty_assignment": [
+              "self.collier_empty = (\n            result.get('site_name') == 'Collier Park'\n            and not result.get('decorated_rows')\n        )"
+            ],
+            "unconditional_no_public_times_override": [
+              "if self.collier_empty:\n            hole_label = result.get('hole_label', '')\n            meta_text = f'No public tee times showing for this date - {hole_label}'"
+            ]
+          }
+        },
+        "instruction_files": []
+      },
+      {
+        "branches": [
+          {
+            "name": "fix/alerts-runtime-integrity-20261026",
+            "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+          },
+          {
+            "name": "fix/desktop-booking-context-20261020",
+            "sha": "93d4763451358be608bff06fd0013936af36764c"
+          },
+          {
+            "name": "fix/desktop-cache-thread-lifecycle-20261020",
+            "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+          },
+          {
+            "name": "fix/desktop-perth-midnight-20261021",
+            "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+          }
+        ],
+        "evidence": {
+          "render_multi_results": {
+            "ast_sha256": "fd8764476dc010ae11b969e7697f2f2608c14678a2ddb10f7267fd1ed9fa8340",
+            "error_key_references": 0,
+            "zero_match_strings": [
+              "No matching live times",
+              "0 matching times across ",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "render_results": {
+            "ast_sha256": "d780ff0ddfc8b633f67824892b3af6a948d3a60e29ae442a1b8ceeffb5e93353",
+            "error_key_references": 3,
+            "zero_match_strings": [
+              "0 matching times",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "Collier": {
+            "empty_assignment": [
+              "self.collier_empty = (\n            result.get('site_name') == 'Collier Park'\n            and not result.get('decorated_rows')\n        )"
+            ],
+            "unconditional_no_public_times_override": [
+              "if self.collier_empty:\n            hole_label = result.get('hole_label', '')\n            meta_text = f'No public tee times showing for this date - {hole_label}'"
+            ]
+          }
+        },
+        "instruction_files": []
+      },
+      {
+        "branches": [
+          {
+            "name": "fix/desktop-matching-course-count-20261028",
+            "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+          }
+        ],
+        "evidence": {
+          "render_multi_results": {
+            "ast_sha256": "07a2315a3cebc76ff0526ad1e11887073006e7efb7d5547ab99b34b38a51a684",
+            "error_key_references": 0,
+            "zero_match_strings": [
+              "0 matching times across ",
+              "No matching live times",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "render_results": {
+            "ast_sha256": "f85498b2a662076de83b80e6c61ab1fd9670bdd8e904b8766c74f0fec97b3d0c",
+            "error_key_references": 3,
+            "zero_match_strings": [
+              "0 matching times",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "Collier": {
+            "empty_assignment": [
+              "self.collier_empty = (\n            result.get('site_name') == 'Collier Park'\n            and not result.get('decorated_rows')\n        )"
+            ],
+            "unconditional_no_public_times_override": [
+              "if self.collier_empty:\n            hole_label = result.get('hole_label', '')\n            meta_text = f'No public tee times showing for this date - {hole_label}'"
+            ]
+          }
+        },
+        "instruction_files": []
+      },
+      {
+        "branches": [
+          {
+            "name": "fix/desktop-missing-cache-20261027",
+            "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+          }
+        ],
+        "evidence": {
+          "render_multi_results": {
+            "ast_sha256": "07a2315a3cebc76ff0526ad1e11887073006e7efb7d5547ab99b34b38a51a684",
+            "error_key_references": 0,
+            "zero_match_strings": [
+              "0 matching times across ",
+              "No matching live times",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "render_results": {
+            "ast_sha256": "d780ff0ddfc8b633f67824892b3af6a948d3a60e29ae442a1b8ceeffb5e93353",
+            "error_key_references": 3,
+            "zero_match_strings": [
+              "0 matching times",
+              "0 matching tee times across "
+            ],
+            "unavailable_or_failure_summary_strings": []
+          },
+          "Collier": {
+            "empty_assignment": [
+              "self.collier_empty = (\n            result.get('site_name') == 'Collier Park'\n            and not result.get('decorated_rows')\n        )"
+            ],
+            "unconditional_no_public_times_override": [
+              "if self.collier_empty:\n            hole_label = result.get('hole_label', '')\n            meta_text = f'No public tee times showing for this date - {hole_label}'"
+            ]
+          }
+        },
+        "instruction_files": []
+      }
+    ],
+    "unreadable_refs": [],
+    "finding": "All 19 non-cache/news source refs inspected. Every render_multi_results method has zero error-key references and retains No matching live times/zero matching aggregate fallbacks for loaded provider-error records. Every render_results retains zero matching headline fallback without unavailable/failed/incomplete summary wording. Collier empty detection omits an error guard and its No public tee times showing metadata override remains unconditional when collier_empty. PR16 handles absent snapshots; PR17 changes numeric matched-course counting only. No duplicate focused provider-error wording repair found."
+  },
+  "instructions": {
+    "ancestor_AGENTS": [],
+    "checkout_AGENTS": [],
+    "checkout_skills": [],
+    "workspace_agents_directory": "exists and empty"
+  }
+}
