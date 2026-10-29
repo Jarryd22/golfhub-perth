@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-28T00:33:28.362895+00:00",
+  "generated_at": "2026-10-29T01:03:02.494156+00:00",
   "items": [
+    {
+      "id": "5a1bd2bee345b5b04ac0",
+      "course_id": "sun-city",
+      "title": "AGM Agenda, Special Resolutions & Life Member Nomination",
+      "summary": "ANNUAL GENERAL MEETING Notice of Meeting, Special Resolutions & Items for Discussion (See below)",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/draft-agm-agenda-special-resolutions-life-member-nomination/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-28T16:36:21+00:00",
+      "category": "Offers"
+    },
     {
       "id": "25e172e5c1527fd9cb18",
       "course_id": "rockingham",
@@ -220,17 +231,6 @@
       "category": "Events"
     },
     {
-      "id": "cef73d3be93ea8c0db14",
-      "course_id": "sun-city",
-      "title": "Sun City Birdies – Women’s Beginner Golf Program",
-      "summary": "Give golf a go at Sun City! Our Women’s Beginner Golf Program is all",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/sun-city-birdies-womens-beginner-golf-program-2/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-17T08:20:40+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "d69c06be4287d3be431b",
       "course_id": "collier-park",
       "title": "Take The Next Step: Upcoming Sessions",
@@ -423,17 +423,6 @@
       "category": "Course news"
     },
     {
-      "id": "f0b312bafdc1ec4d1e82",
-      "course_id": "fremantle",
-      "title": "Women’s Golf Pathway clinic grows golf participation in Fremantle",
-      "summary": "More than 30 women have already taken up golf through the new Women’s Golf",
-      "url": "https://fremantlepublicgolfcourse.com/womens-golf-pathway-clinic-grows-golf-participation-in-fremantle/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-28T06:41:59+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "852198831337a444bb72",
       "course_id": "the-vines",
       "title": "Aussie BBQ NYE Family Party",
@@ -557,7 +546,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
@@ -641,7 +630,7 @@
     },
     {
       "course_id": "whaleback",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "yanchep-national-park",
