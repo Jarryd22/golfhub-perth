@@ -1,0 +1,136 @@
+QA_RESULT {"run": 5, "failures": 1, "errors": 4, "skipped": 0}
+test_absent_or_invalid_json_cache_still_schedules_shared_check (cache_state_regressions.CachedStartupTests.test_absent_or_invalid_json_cache_still_schedules_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_invalid_download_falls_back_to_existing_saved_result_without_live_worker (cache_state_regressions.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[]) ... ERROR
+  test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[{'site_name': 'Araluen', 'url': 'https://example.invalid/booking', 'hole_label': '18 holes', 'decorated_rows': None, 'weather': None, 'error': None}]) ... ERROR
+  test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[{'site_name': 'Araluen', 'url': 'https://example.invalid/booking', 'hole_label': '18 holes', 'decorated_rows': [], 'weather': None, 'error': 'Provider unavailable'}]) ... ERROR
+  test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[{'site_name': 'Araluen', 'url': 'https://example.invalid/booking', 'hole_label': '18 holes', 'decorated_rows': [{'time': '9:00 am', 'minutes': 540, 'spots': 4}], 'weather': None, 'error': None}]) ... ERROR
+
+======================================================================
+ERROR: test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 112, in test_valid_saved_states_render_before_scheduled_refresh
+    self.assertEqual(self.headline(), expected)
+                     ^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 78, in headline
+    return self.window.results_layout.itemAt(0).widget().findChild(QLabel, "SummaryValue").text()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+
+======================================================================
+ERROR: test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[{'site_name': 'Araluen', 'url': 'https://example.invalid/booking', 'hole_label': '18 holes', 'decorated_rows': None, 'weather': None, 'error': None}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 112, in test_valid_saved_states_render_before_scheduled_refresh
+    self.assertEqual(self.headline(), expected)
+                     ^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 78, in headline
+    return self.window.results_layout.itemAt(0).widget().findChild(QLabel, "SummaryValue").text()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+
+======================================================================
+ERROR: test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[{'site_name': 'Araluen', 'url': 'https://example.invalid/booking', 'hole_label': '18 holes', 'decorated_rows': [], 'weather': None, 'error': 'Provider unavailable'}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 112, in test_valid_saved_states_render_before_scheduled_refresh
+    self.assertEqual(self.headline(), expected)
+                     ^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 78, in headline
+    return self.window.results_layout.itemAt(0).widget().findChild(QLabel, "SummaryValue").text()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+
+======================================================================
+ERROR: test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) (results=[{'site_name': 'Araluen', 'url': 'https://example.invalid/booking', 'hole_label': '18 holes', 'decorated_rows': [{'time': '9:00 am', 'minutes': 540, 'spots': 4}], 'weather': None, 'error': None}])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 112, in test_valid_saved_states_render_before_scheduled_refresh
+    self.assertEqual(self.headline(), expected)
+                     ^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 78, in headline
+    return self.window.results_layout.itemAt(0).widget().findChild(QLabel, "SummaryValue").text()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'text'
+
+======================================================================
+FAIL: test_invalid_download_falls_back_to_existing_saved_result_without_live_worker (cache_state_regressions.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cached_startup.py", line 138, in test_invalid_download_falls_back_to_existing_saved_result_without_live_worker
+    self.window.cache_finished({self.date: fetched})
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1528, in cache_finished
+    self.search_live(self.context)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: Saved fallback must avoid live search
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.622s
+
+FAILED (failures=1, errors=4)

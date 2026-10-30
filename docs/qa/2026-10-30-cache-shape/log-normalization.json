@@ -1,0 +1,14 @@
+[
+  {
+    "file": "new-shape-baseline-initial.log",
+    "raw_sha256": "7a0be13bb76d0426a7579778d6a682748540f7b90ef06f3254861f69264758c2",
+    "display_sha256": "08d359b808a8178aab76f58e06b6a7b0dd5973ac6c1cd07863cd2e23963d64ad",
+    "change": "Trailing spaces trimmed from display log only; exact bytes retained in .raw.gz"
+  },
+  {
+    "file": "new-shape-baseline.log",
+    "raw_sha256": "6bf254fd05f3d94107e0abe52561609096f5f59e7d24c61ccd4f29396c358d4d",
+    "display_sha256": "e003d962ed294f5f9bf37d848cf1bf5f146c535efe6afdf5fce3e2bde7388d2e",
+    "change": "Trailing spaces trimmed from display log only; exact bytes retained in .raw.gz"
+  }
+]

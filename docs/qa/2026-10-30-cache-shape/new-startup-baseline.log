@@ -1,0 +1,194 @@
+QA_RESULT {"run": 5, "failures": 0, "errors": 6, "skipped": 0}
+test_absent_or_invalid_json_cache_still_schedules_shared_check (cache_state_regressions.CachedStartupTests.test_absent_or_invalid_json_cache_still_schedules_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_invalid_download_falls_back_to_existing_saved_result_without_live_worker (cache_state_regressions.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) (rows={'minutes': 540}) ... ERROR
+  test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) (rows=[None]) ... ERROR
+  test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) (rows=['row record']) ... ERROR
+test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) (record=None) ... ERROR
+  test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) (record='course record') ... ERROR
+test_valid_saved_states_render_before_scheduled_refresh (cache_state_regressions.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+======================================================================
+ERROR: test_invalid_download_falls_back_to_existing_saved_result_without_live_worker (cache_state_regressions.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 139, in test_invalid_download_falls_back_to_existing_saved_result_without_live_worker
+    self.window.cache_finished({self.date: fetched})
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1526, in cache_finished
+    self.render_snapshot(payload, sources[dates[0]])
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1539, in render_snapshot
+    results = self.add_direct_results(payload.get("results", []), self.context.get("date"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1564, in add_direct_results
+    merged = [result for result in results if result.get("site_name") in selected]
+                                              ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+======================================================================
+ERROR: test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) (rows={'minutes': 540})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 98, in test_malformed_saved_rows_do_not_abort_scheduled_shared_check
+    self.assert_startup_recovers(self.snapshot(self.result(decorated_rows=invalid)))
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 85, in assert_startup_recovers
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1418, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1541, in render_snapshot
+    self.render_results(results, f"{source} - updated {age}")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 2130, in render_results
+    self.results_layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date")))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 906, in __init__
+    TeeTimeCard(row, result.get("url"), result, self.booking_handler, date_str=date_str)
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 264, in __init__
+    self.url = row.get("source_url") or fallback_url
+               ^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+======================================================================
+ERROR: test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) (rows=[None])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 98, in test_malformed_saved_rows_do_not_abort_scheduled_shared_check
+    self.assert_startup_recovers(self.snapshot(self.result(decorated_rows=invalid)))
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 85, in assert_startup_recovers
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1418, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1541, in render_snapshot
+    self.render_results(results, f"{source} - updated {age}")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 2130, in render_results
+    self.results_layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date")))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 906, in __init__
+    TeeTimeCard(row, result.get("url"), result, self.booking_handler, date_str=date_str)
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 264, in __init__
+    self.url = row.get("source_url") or fallback_url
+               ^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+======================================================================
+ERROR: test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) (rows=['row record'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 98, in test_malformed_saved_rows_do_not_abort_scheduled_shared_check
+    self.assert_startup_recovers(self.snapshot(self.result(decorated_rows=invalid)))
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 85, in assert_startup_recovers
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1418, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1541, in render_snapshot
+    self.render_results(results, f"{source} - updated {age}")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 2130, in render_results
+    self.results_layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date")))
+                                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 906, in __init__
+    TeeTimeCard(row, result.get("url"), result, self.booking_handler, date_str=date_str)
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 264, in __init__
+    self.url = row.get("source_url") or fallback_url
+               ^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+======================================================================
+ERROR: test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) (record=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 93, in test_nonobject_saved_results_do_not_abort_scheduled_shared_check
+    self.assert_startup_recovers({**self.snapshot(), "results": [invalid]})
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 85, in assert_startup_recovers
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1418, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1539, in render_snapshot
+    results = self.add_direct_results(payload.get("results", []), self.context.get("date"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1564, in add_direct_results
+    merged = [result for result in results if result.get("site_name") in selected]
+                                              ^^^^^^^^^^
+AttributeError: 'NoneType' object has no attribute 'get'
+
+======================================================================
+ERROR: test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_state_regressions.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) (record='course record')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 93, in test_nonobject_saved_results_do_not_abort_scheduled_shared_check
+    self.assert_startup_recovers({**self.snapshot(), "results": [invalid]})
+  File "/workspace/golfhub-20261030/tests/test_startup_cache.py", line 85, in assert_startup_recovers
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1418, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1539, in render_snapshot
+    results = self.add_direct_results(payload.get("results", []), self.context.get("date"))
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261029/app/qt_golfhub_app.py", line 1564, in add_direct_results
+    merged = [result for result in results if result.get("site_name") in selected]
+                                              ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'get'
+
+----------------------------------------------------------------------
+Ran 5 tests in 0.901s
+
+FAILED (errors=6)

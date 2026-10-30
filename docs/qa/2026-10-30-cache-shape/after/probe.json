@@ -1,0 +1,67 @@
+{
+  "timestamp_utc": "2026-10-30T00:36:15.323030+00:00",
+  "head": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+  "source_hashes": {
+    "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+    "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c"
+  },
+  "kind": "Linux offscreen startup methods with isolated real cache files; mocked HTTP bytes and intercepted recovery timer; no network or worker launch",
+  "cases": [
+    {
+      "case": "null-result",
+      "startup": {
+        "loaded_invalid_payload": false,
+        "exception": null,
+        "scheduled_ms": [
+          100
+        ]
+      },
+      "download": {
+        "accepted_invalid_payload": false,
+        "valid_saved_bytes_preserved": true
+      }
+    },
+    {
+      "case": "string-result",
+      "startup": {
+        "loaded_invalid_payload": false,
+        "exception": null,
+        "scheduled_ms": [
+          100
+        ]
+      },
+      "download": {
+        "accepted_invalid_payload": false,
+        "valid_saved_bytes_preserved": true
+      }
+    },
+    {
+      "case": "null-row",
+      "startup": {
+        "loaded_invalid_payload": false,
+        "exception": null,
+        "scheduled_ms": [
+          100
+        ]
+      },
+      "download": {
+        "accepted_invalid_payload": false,
+        "valid_saved_bytes_preserved": true
+      }
+    },
+    {
+      "case": "object-rows",
+      "startup": {
+        "loaded_invalid_payload": false,
+        "exception": null,
+        "scheduled_ms": [
+          100
+        ]
+      },
+      "download": {
+        "accepted_invalid_payload": false,
+        "valid_saved_bytes_preserved": true
+      }
+    }
+  ]
+}

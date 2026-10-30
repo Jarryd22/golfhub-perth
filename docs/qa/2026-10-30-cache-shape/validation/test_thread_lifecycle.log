@@ -1,0 +1,17 @@
+QA_RESULT {"run": 11, "failures": 0, "errors": 0, "skipped": 0}
+test_cache_cleanup_waits_for_native_finish_before_starting_latest_search (test_thread_lifecycle.ThreadLifecycleTests.test_cache_cleanup_waits_for_native_finish_before_starting_latest_search) ... ok
+test_close_during_cache_work_does_not_launch_queued_search (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_cache_work_does_not_launch_queued_search) ... ok
+test_close_during_native_cache_cleanup_waits_and_discards_queued_search (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_cache_cleanup_waits_and_discards_queued_search) ... ok
+test_close_during_native_live_cleanup_waits_for_completion (test_thread_lifecycle.ThreadLifecycleTests.test_close_during_native_live_cleanup_waits_for_completion) ... ok
+test_latest_queued_search_runs_after_old_thread_finishes (test_thread_lifecycle.ThreadLifecycleTests.test_latest_queued_search_runs_after_old_thread_finishes) ... ok
+test_live_cancel_releases_worker_without_saving_partial_data (test_thread_lifecycle.ThreadLifecycleTests.test_live_cancel_releases_worker_without_saving_partial_data) ... ok
+test_live_error_retains_objects_until_native_finish (test_thread_lifecycle.ThreadLifecycleTests.test_live_error_retains_objects_until_native_finish) ... ok
+test_live_failure_releases_worker_and_preserves_cache (test_thread_lifecycle.ThreadLifecycleTests.test_live_failure_releases_worker_and_preserves_cache) ... ok
+test_live_success_releases_worker_and_thread (test_thread_lifecycle.ThreadLifecycleTests.test_live_success_releases_worker_and_thread) ... ok
+test_live_success_retains_objects_until_native_finish (test_thread_lifecycle.ThreadLifecycleTests.test_live_success_retains_objects_until_native_finish) ... ok
+test_repeated_cache_searches_release_workers_and_threads (test_thread_lifecycle.ThreadLifecycleTests.test_repeated_cache_searches_release_workers_and_threads) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 11.253s
+
+OK

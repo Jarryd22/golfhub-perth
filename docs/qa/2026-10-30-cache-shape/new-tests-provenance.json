@@ -1,0 +1,104 @@
+{
+  "captured_at_utc": "2026-10-30T00:39:50.821094+00:00",
+  "note": "Runner source_sha256 is the Qt source only. source_hashes here additionally identify the changed shared-cache validator and its publisher-loader consumer. Initial failed fixture execution is retained separately. Final baseline and after used identical final test bytes.",
+  "runs": {
+    "new-shape-baseline": {
+      "timestamp_utc": "2026-10-30T00:39:01.838926+00:00",
+      "source_commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "e7bd140dbd831fe23555d00ad05822a433577101a3d2c489dbfacf1915b00c39",
+      "exit_code": 1,
+      "run": 10,
+      "failures": 29,
+      "errors": 0,
+      "skipped": 0,
+      "test_file": "tests/test_cache_snapshot_shape.py",
+      "source_root": "/workspace/golfhub-20261029",
+      "source_hashes": {
+        "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+        "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "scripts/refresh_cache_shard.py": "3ddccfe4b01963dbd42f22b393991c174a0bca6e06c1147cacbfb2aeddf49417"
+      }
+    },
+    "new-shape-after": {
+      "timestamp_utc": "2026-10-30T00:39:01.851703+00:00",
+      "source_commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "e7bd140dbd831fe23555d00ad05822a433577101a3d2c489dbfacf1915b00c39",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "test_file": "tests/test_cache_snapshot_shape.py",
+      "source_root": "/workspace/golfhub-20261030",
+      "source_hashes": {
+        "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+        "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "scripts/refresh_cache_shard.py": "3ddccfe4b01963dbd42f22b393991c174a0bca6e06c1147cacbfb2aeddf49417"
+      }
+    },
+    "new-startup-baseline": {
+      "timestamp_utc": "2026-10-30T00:38:33.608536+00:00",
+      "source_commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "dd8c04724bff0989dfb18953751f111c36836aece1e8668ca2023a16c4f43485",
+      "exit_code": 1,
+      "run": 5,
+      "failures": 0,
+      "errors": 6,
+      "skipped": 0,
+      "test_file": "tests/test_startup_cache.py",
+      "source_root": "/workspace/golfhub-20261029",
+      "source_hashes": {
+        "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+        "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "scripts/refresh_cache_shard.py": "3ddccfe4b01963dbd42f22b393991c174a0bca6e06c1147cacbfb2aeddf49417"
+      }
+    },
+    "new-startup-after": {
+      "timestamp_utc": "2026-10-30T00:39:01.858855+00:00",
+      "source_commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "dd8c04724bff0989dfb18953751f111c36836aece1e8668ca2023a16c4f43485",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "test_file": "tests/test_startup_cache.py",
+      "source_root": "/workspace/golfhub-20261030",
+      "source_hashes": {
+        "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+        "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "scripts/refresh_cache_shard.py": "3ddccfe4b01963dbd42f22b393991c174a0bca6e06c1147cacbfb2aeddf49417"
+      }
+    },
+    "new-shape-baseline-initial": {
+      "timestamp_utc": "2026-10-30T00:38:07.792564+00:00",
+      "source_commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "3bc430266b91b985ca45bbefc5f9a060177946930adb524eaaffba97388fb9bf",
+      "exit_code": 1,
+      "run": 9,
+      "failures": 25,
+      "errors": 0,
+      "skipped": 0,
+      "preserved_test_file": "docs/qa/2026-10-30-cache-shape/shape-tests-initial.py",
+      "limitation": "Nine-method version before adding previous-shard loader compatibility coverage; superseded by ten-method final comparison."
+    },
+    "new-startup-baseline-initial": {
+      "timestamp_utc": "2026-10-30T00:38:07.808727+00:00",
+      "source_commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "c88e7a547b057ccabffb520e5cc3a0505c5bffe4f65fe3f05837c9afe9b2c0a3",
+      "exit_code": 1,
+      "run": 5,
+      "failures": 1,
+      "errors": 4,
+      "skipped": 0,
+      "preserved_test_file": "docs/qa/2026-10-30-cache-shape/startup-tests-initial.py",
+      "limitation": "Initial startup fixture omitted explicit selected date; failure and non-reproductions are fixture artifacts, superseded by corrected same-file comparison."
+    }
+  }
+}
