@@ -50,6 +50,7 @@ python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
 python -m unittest discover -s tests -p test_provider_error_states.py -v
+python -m unittest discover -s tests -p test_startup_cache.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
 python -m unittest discover -s tests -p test_thread_lifecycle.py -v
 python -m unittest discover -s tests -p test_cache*.py -v
@@ -61,7 +62,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 29 October 2026
+## Latest pass: 30 October 2026
+
+See the [malformed-cache recovery report](qa/2026-10-30-cache-shape/REPORT.md). Use real isolated files and mocked HTTP bytes: null/non-object course records, non-list decorated rows and non-object row entries must be rejected before persistence/rendering. Initial cache rendering must still schedule recovery, and a rejected download must preserve the last valid saved bytes. Reject the whole malformed snapshot; preserve valid empty/error/calendar/direct states, missing/null rows, metadata and publisher fallback behavior. This shape check does not validate all field semantics or imply current published corruption.
+
+**Passed:** 15 new regressions (exact PR18: five passing/ten failing-or-erroring methods, 29 failed assertions and six exception subcases); **228 aggregate tests** (111 desktop, 80 cache/integrity, 37 additional booking/rendering); **50 filter + five startup diagnostic scenarios** separately. PR16–18 and earlier date/filter/link fixes revalidated. Compile, CRLF-aware whitespace, actionlint and independent review pass. Today's compact offscreen view inspected. Initial default-date fixture and CLI-usage failures remain retained; final identical-file regressions pass without weakened assertions.
+
+**Inspection only:** 20 source refs, 16 existing drafts, producer compatibility across PR3–18 and unchanged update metadata. **Not performed:** native Windows/Android, full real network startup/recovery, screen readers/DPI/resume, installed updater/signatures, live booking or notification delivery. Windows cache_close diagnosis and canonical-source reconciliation remain pending. No duplicate watch/provider/weather repair, repeated Linux timeout investigation or production action. Exact remote-head CI must enumerate all events/attempts and compare tested trees; results are recorded on the draft.
+
+## Previous pass: 29 October 2026
 
 See the [provider-error report](qa/2026-10-29-provider-errors/REPORT.md). Loaded provider failures must not establish zero matches. With no positive result, show **Availability incomplete** and scoped course/day warnings; distinguish absent snapshots, successful empty data, saved-device errors and unreleased calendars. Preserve positive exact-row/calendar headlines and PR17 counts while warning about other failed courses. Collier failure metadata must retain its unavailable wording and official-calendar target; genuine Collier empty information remains unchanged.
 

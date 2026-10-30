@@ -1,0 +1,62 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{"name": "startup-no-saved-data", "passed": true, "saved_payload": false, "scheduled_cache_delay_ms": [100], "live_fallback_calls": 0, "local_requests": [["2033-01-02", "18"]], "submitted_dates": ["2033-01-02"], "live_fallback_date": null, "summary": null, "status": "Ready", "header": "41 COURSES  /  CACHE READY", "labels": ["Find a round that fits your day", "Choose a date, round and courses to begin."], "cache_worker_calls": 0}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{"name": "startup-saved-empty", "passed": true, "saved_payload": true, "scheduled_cache_delay_ms": [100], "live_fallback_calls": 0, "local_requests": [["2033-01-02", "18"]], "submitted_dates": ["2033-01-02"], "live_fallback_date": null, "summary": "0 matching times", "status": "0 matching tee times across 0 courses", "header": "SAVED CACHE / LESS THAN A MINUTE AGO", "labels": ["0 matching times", "1 availability feeds", "0 official course links", "1 courses with no matching times", "Saved on this device - updated less than a minute ago", "Find a round that fits your day", "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below."], "cache_worker_calls": 0}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{"name": "startup-saved-error", "passed": true, "saved_payload": true, "scheduled_cache_delay_ms": [100], "live_fallback_calls": 0, "local_requests": [["2033-01-02", "18"]], "submitted_dates": ["2033-01-02"], "live_fallback_date": null, "summary": "Availability incomplete", "status": "Availability could not be checked for 1 course", "header": "SAVED CACHE / LESS THAN A MINUTE AGO", "labels": ["Availability incomplete", "0 availability feeds", "0 official course links", "Saved on this device - updated less than a minute ago", "Availability could not be checked for 1 course. Open the course cards for details.", "Araluen", "Could not read live availability - direct booking is still available", "", "Forecast unavailable", "Live times were unavailable for this course. You can still open its official booking page."], "cache_worker_calls": 0}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{"name": "single-date-missing-cache", "passed": true, "saved_payload": false, "scheduled_cache_delay_ms": [], "live_fallback_calls": 1, "local_requests": [["2033-01-02", "18"]], "submitted_dates": ["2033-01-02"], "live_fallback_date": "2033-01-02", "summary": null, "status": "Ready", "header": "41 COURSES  /  CACHE READY", "labels": ["Find a round that fits your day", "Choose a date, round and courses to begin."], "cache_worker_calls": 0}
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{"name": "multi-date-missing-cache", "passed": true, "saved_payload": false, "scheduled_cache_delay_ms": [], "live_fallback_calls": 0, "local_requests": [["2033-01-02", "18"], ["2033-01-04", "18"]], "submitted_dates": ["2033-01-02", "2033-01-04"], "live_fallback_date": null, "summary": null, "status": "Multi-day cache temporarily unavailable", "header": "SHARED CACHE UNAVAILABLE", "labels": ["Find a round that fits your day", "No cached results were available for these dates. Try a shorter range or search again shortly."], "cache_worker_calls": 0}
+PASS: 5/5 diagnostic scenarios; no actual scheduled/live workers

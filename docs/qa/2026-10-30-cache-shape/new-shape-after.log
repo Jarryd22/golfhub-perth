@@ -1,0 +1,16 @@
+QA_RESULT {"run": 10, "failures": 0, "errors": 0, "skipped": 0}
+test_existing_envelope_checks_still_reject_wrong_search_and_shape (cache_state_regressions.CacheSnapshotShapeTests.test_existing_envelope_checks_still_reject_wrong_search_and_shape) ... ok
+test_invalid_shared_response_does_not_create_a_local_snapshot (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_does_not_create_a_local_snapshot) ... ok
+test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) ... ok
+test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) ... ok
+test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) ... ok
+test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) ... ok
+test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) ... ok
+test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) ... ok
+test_valid_empty_error_direct_calendar_and_optional_rows_are_preserved (cache_state_regressions.CacheSnapshotShapeTests.test_valid_empty_error_direct_calendar_and_optional_rows_are_preserved) ... ok
+test_valid_shared_download_and_local_round_trip_keep_complete_payload (cache_state_regressions.CacheSnapshotShapeTests.test_valid_shared_download_and_local_round_trip_keep_complete_payload) ... ok
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.020s
+
+OK

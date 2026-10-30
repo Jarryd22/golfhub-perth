@@ -69,6 +69,14 @@ def validate_snapshot(payload: Any, date_str: str, hole_type: str) -> dict[str, 
         raise ValueError("Cache response does not match the requested search")
     if not isinstance(payload.get("results"), list):
         raise ValueError("Cache response has no results list")
+    for result in payload["results"]:
+        if not isinstance(result, dict):
+            raise ValueError("Cache response contains an invalid course result")
+        rows = result.get("decorated_rows")
+        if rows is not None and (
+            not isinstance(rows, list) or any(not isinstance(row, dict) for row in rows)
+        ):
+            raise ValueError("Cache response contains invalid tee-time rows")
     return payload
 
 

@@ -1,0 +1,74 @@
+{
+  "reviewed_at_utc": "2026-10-30T00:39:10.103777+00:00",
+  "reviewed_base": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+  "reviewed_files_sha256": {
+    "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+    "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+    "tests/test_cache_snapshot_shape.py": "e7bd140dbd831fe23555d00ad05822a433577101a3d2c489dbfacf1915b00c39",
+    "tests/test_startup_cache.py": "dd8c04724bff0989dfb18953751f111c36836aece1e8668ca2023a16c4f43485",
+    ".github/workflows/test-desktop.yml": "49af6af313c01897beb95b5288bb31913ded3151aaec4f91833cd596d745428e"
+  },
+  "test_methods_source_inspected": {
+    "tests/test_cache_snapshot_shape.py": [
+      "test_rejects_nonobject_results_even_among_valid_courses",
+      "test_rejects_nonlist_rows_including_empty_containers",
+      "test_rejects_nonobject_rows_even_after_a_valid_tee_time",
+      "test_valid_empty_error_direct_calendar_and_optional_rows_are_preserved",
+      "test_existing_envelope_checks_still_reject_wrong_search_and_shape",
+      "test_local_loader_ignores_malformed_records_without_rewriting_file",
+      "test_invalid_shared_response_preserves_last_valid_snapshot_bytes",
+      "test_invalid_shared_response_does_not_create_a_local_snapshot",
+      "test_valid_shared_download_and_local_round_trip_keep_complete_payload",
+      "test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata"
+    ],
+    "tests/test_startup_cache.py": [
+      "test_nonobject_saved_results_do_not_abort_scheduled_shared_check",
+      "test_malformed_saved_rows_do_not_abort_scheduled_shared_check",
+      "test_valid_saved_states_render_before_scheduled_refresh",
+      "test_absent_or_invalid_json_cache_still_schedules_shared_check",
+      "test_invalid_download_falls_back_to_existing_saved_result_without_live_worker"
+    ]
+  },
+  "test_counts": {
+    "tests/test_cache_snapshot_shape.py": 10,
+    "tests/test_startup_cache.py": 5
+  },
+  "runtime_tests_by_reviewer": "Not rerun; parent owns baseline/final aggregate and exact-head CI. Reviewed four-case before/after probe JSON and new regression source.",
+  "production_workflows": {
+    ".github/workflows/refresh-cache-10min.yml": {
+      "unchanged_from_base": true,
+      "sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391"
+    },
+    ".github/workflows/course-news.yml": {
+      "unchanged_from_base": true,
+      "sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26"
+    },
+    ".github/workflows/check-alerts.yml": {
+      "unchanged_from_base": true,
+      "sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38"
+    }
+  },
+  "ui_app_unchanged": true,
+  "actionlint": {
+    "version": "1.7.12",
+    "download_url": "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz",
+    "archive_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+    "checksum_verified_before_execution": true,
+    "all_workflows": true,
+    "exit_code": 0,
+    "log": "actionlint.log"
+  },
+  "resolved_review_finding": {
+    "issue": "Qt test_cached_startup.py also matched pure-cache test_cache*.py discovery without Qt dependencies.",
+    "resolution": "Renamed to test_startup_cache.py, updated both desktop event filters and explicit module list; pure test_cache_snapshot_shape.py remains auto-selected by cache CI.",
+    "status": "resolved_before_final_review"
+  },
+  "limitations": [
+    "Structural container validation only; not complete field-value/schema validation, authenticity/freshness verification or runtime archive validation.",
+    "No native Windows/Android, provider requests, live booking/holds, notification delivery, production trigger, canonical source reconciliation or Windows cache_close investigation."
+  ],
+  "blockers": [],
+  "review_setup_failures": [
+    "Initial evidence-read command used before/cache-probe.json; actual path before/probe.json was then read. No source mutation or test execution occurred from that failed read."
+  ]
+}

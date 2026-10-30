@@ -1,0 +1,292 @@
+QA_RESULT {"run": 10, "failures": 29, "errors": 0, "skipped": 0}
+test_existing_envelope_checks_still_reject_wrong_search_and_shape (cache_state_regressions.CacheSnapshotShapeTests.test_existing_envelope_checks_still_reject_wrong_search_and_shape) ... ok
+test_invalid_shared_response_does_not_create_a_local_snapshot (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_does_not_create_a_local_snapshot) ... FAIL
+test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) ...
+  test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]}) ... FAIL
+  test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']}) ... FAIL
+  test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]}) ... FAIL
+  test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]}) ... FAIL
+test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) ...
+  test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]}) ... FAIL
+  test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']}) ... FAIL
+  test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]}) ... FAIL
+  test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]}) ... FAIL
+test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) ...
+  test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]}) ... FAIL
+  test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']}) ... FAIL
+  test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]}) ... FAIL
+  test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]}) ... FAIL
+test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) ...
+  test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows={}) ... FAIL
+  test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows={'minutes': 540}) ... FAIL
+  test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows='') ... FAIL
+  test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows='row') ... FAIL
+  test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows=0) ... FAIL
+  test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows=False) ... FAIL
+test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) ...
+  test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=None) ... FAIL
+  test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record='course') ... FAIL
+  test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=0) ... FAIL
+  test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=False) ... FAIL
+  test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=[]) ... FAIL
+test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) ...
+  test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=None) ... FAIL
+  test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row='row') ... FAIL
+  test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=0) ... FAIL
+  test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=False) ... FAIL
+  test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=[]) ... FAIL
+test_valid_empty_error_direct_calendar_and_optional_rows_are_preserved (cache_state_regressions.CacheSnapshotShapeTests.test_valid_empty_error_direct_calendar_and_optional_rows_are_preserved) ... ok
+test_valid_shared_download_and_local_round_trip_keep_complete_payload (cache_state_regressions.CacheSnapshotShapeTests.test_valid_shared_download_and_local_round_trip_keep_complete_payload) ... ok
+
+======================================================================
+FAIL: test_invalid_shared_response_does_not_create_a_local_snapshot (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_does_not_create_a_local_snapshot)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 125, in test_invalid_shared_response_does_not_create_a_local_snapshot
+    self.assertIsNone(self.fetch_bytes(payload))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]} is not None
+
+======================================================================
+FAIL: test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 118, in test_invalid_shared_response_preserves_last_valid_snapshot_bytes
+    self.assertIsNone(self.fetch_bytes(payload))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]} is not None
+
+======================================================================
+FAIL: test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 118, in test_invalid_shared_response_preserves_last_valid_snapshot_bytes
+    self.assertIsNone(self.fetch_bytes(payload))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']} is not None
+
+======================================================================
+FAIL: test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 118, in test_invalid_shared_response_preserves_last_valid_snapshot_bytes
+    self.assertIsNone(self.fetch_bytes(payload))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]} is not None
+
+======================================================================
+FAIL: test_invalid_shared_response_preserves_last_valid_snapshot_bytes (cache_state_regressions.CacheSnapshotShapeTests.test_invalid_shared_response_preserves_last_valid_snapshot_bytes) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 118, in test_invalid_shared_response_preserves_last_valid_snapshot_bytes
+    self.assertIsNone(self.fetch_bytes(payload))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]} is not None
+
+======================================================================
+FAIL: test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 108, in test_local_loader_ignores_malformed_records_without_rewriting_file
+    self.assertIsNone(cache.load_local_snapshot(self.date, self.holes))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]} is not None
+
+======================================================================
+FAIL: test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 108, in test_local_loader_ignores_malformed_records_without_rewriting_file
+    self.assertIsNone(cache.load_local_snapshot(self.date, self.holes))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']} is not None
+
+======================================================================
+FAIL: test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 108, in test_local_loader_ignores_malformed_records_without_rewriting_file
+    self.assertIsNone(cache.load_local_snapshot(self.date, self.holes))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]} is not None
+
+======================================================================
+FAIL: test_local_loader_ignores_malformed_records_without_rewriting_file (cache_state_regressions.CacheSnapshotShapeTests.test_local_loader_ignores_malformed_records_without_rewriting_file) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 108, in test_local_loader_ignores_malformed_records_without_rewriting_file
+    self.assertIsNone(cache.load_local_snapshot(self.date, self.holes))
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]} is not None
+
+======================================================================
+FAIL: test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 153, in test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata
+    self.assertIsNone(refresh_cache_shard.load_previous_snapshot(
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [None]} is not None
+
+======================================================================
+FAIL: test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 153, in test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata
+    self.assertIsNone(refresh_cache_shard.load_previous_snapshot(
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': ['invalid course record']} is not None
+
+======================================================================
+FAIL: test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 153, in test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata
+    self.assertIsNone(refresh_cache_shard.load_previous_snapshot(
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': {'minutes': 540}, 'error': None}]} is not None
+
+======================================================================
+FAIL: test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata (cache_state_regressions.CacheSnapshotShapeTests.test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata) (payload={'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 153, in test_previous_shard_loader_rejects_invalid_records_and_preserves_stale_metadata
+    self.assertIsNone(refresh_cache_shard.load_previous_snapshot(
+AssertionError: {'schema': 1, 'generated_at': '2026-10-30T00:39:02+00:00', 'date': '2033-01-02', 'holes': '18', 'results': [{'site_name': 'Araluen', 'decorated_rows': [None], 'error': None}]} is not None
+
+======================================================================
+FAIL: test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows={})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 65, in test_rejects_nonlist_rows_including_empty_containers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows={'minutes': 540})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 65, in test_rejects_nonlist_rows_including_empty_containers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows='')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 65, in test_rejects_nonlist_rows_including_empty_containers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows='row')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 65, in test_rejects_nonlist_rows_including_empty_containers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 65, in test_rejects_nonlist_rows_including_empty_containers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonlist_rows_including_empty_containers (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonlist_rows_including_empty_containers) (rows=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 65, in test_rejects_nonlist_rows_including_empty_containers
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 59, in test_rejects_nonobject_results_even_among_valid_courses
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record='course')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 59, in test_rejects_nonobject_results_even_among_valid_courses
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 59, in test_rejects_nonobject_results_even_among_valid_courses
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 59, in test_rejects_nonobject_results_even_among_valid_courses
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_results_even_among_valid_courses (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_results_even_among_valid_courses) (record=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 59, in test_rejects_nonobject_results_even_among_valid_courses
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=None)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 73, in test_rejects_nonobject_rows_even_after_a_valid_tee_time
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row='row')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 73, in test_rejects_nonobject_rows_even_after_a_valid_tee_time
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=0)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 73, in test_rejects_nonobject_rows_even_after_a_valid_tee_time
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 73, in test_rejects_nonobject_rows_even_after_a_valid_tee_time
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+======================================================================
+FAIL: test_rejects_nonobject_rows_even_after_a_valid_tee_time (cache_state_regressions.CacheSnapshotShapeTests.test_rejects_nonobject_rows_even_after_a_valid_tee_time) (row=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261030/tests/test_cache_snapshot_shape.py", line 73, in test_rejects_nonobject_rows_even_after_a_valid_tee_time
+    with self.assertRaises(ValueError):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: ValueError not raised
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.027s
+
+FAILED (failures=29)

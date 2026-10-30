@@ -1,0 +1,70 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-10-30T00:35:29.534619+00:00",
+  "head": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+  "source_hashes": {
+    "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+    "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c"
+  },
+  "kind": "Linux offscreen startup methods with isolated real cache files; mocked HTTP bytes and intercepted recovery timer; no network or worker launch",
+  "cases": [
+    {
+      "case": "null-result",
+      "startup": {
+        "loaded_invalid_payload": true,
+        "exception": "AttributeError: 'NoneType' object has no attribute 'get'",
+        "scheduled_ms": []
+      },
+      "download": {
+        "accepted_invalid_payload": true,
+        "valid_saved_bytes_preserved": false
+      }
+    },
+    {
+      "case": "string-result",
+      "startup": {
+        "loaded_invalid_payload": true,
+        "exception": "AttributeError: 'str' object has no attribute 'get'",
+        "scheduled_ms": []
+      },
+      "download": {
+        "accepted_invalid_payload": true,
+        "valid_saved_bytes_preserved": false
+      }
+    },
+    {
+      "case": "null-row",
+      "startup": {
+        "loaded_invalid_payload": true,
+        "exception": "AttributeError: 'NoneType' object has no attribute 'get'",
+        "scheduled_ms": []
+      },
+      "download": {
+        "accepted_invalid_payload": true,
+        "valid_saved_bytes_preserved": false
+      }
+    },
+    {
+      "case": "object-rows",
+      "startup": {
+        "loaded_invalid_payload": true,
+        "exception": "AttributeError: 'str' object has no attribute 'get'",
+        "scheduled_ms": []
+      },
+      "download": {
+        "accepted_invalid_payload": true,
+        "valid_saved_bytes_preserved": false
+      }
+    }
+  ]
+}
