@@ -1,0 +1,46 @@
+{
+  "timestamp_utc": "2026-10-31T00:23:52.353078+00:00",
+  "head": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "app_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+  "kind": "Linux offscreen; synthetic cached multi-date rows; fake non-running worker; sockets/browser/booking dialogs blocked",
+  "before": {
+    "summary": "2 matching times across 2 days",
+    "heading": "+  MONDAY, 3 JANUARY 2033  -  1 time across 1 course",
+    "built": false,
+    "context": {
+      "date": "2033-01-02",
+      "dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "players": 1,
+      "from": null,
+      "to": null
+    }
+  },
+  "after": {
+    "summary": "2 matching times across 2 days",
+    "heading": "-  MONDAY, 3 JANUARY 2033  -  1 time across 1 course",
+    "built": true,
+    "labels": [
+      "Synthetic saved snapshot",
+      "Araluen",
+      "1 matching tee time - 18 holes",
+      "",
+      "Forecast unavailable",
+      "9:00 am",
+      "2 spots"
+    ],
+    "tee_time_cards": 1,
+    "context": {
+      "date": "2033-01-05",
+      "dates": [
+        "2033-01-05"
+      ],
+      "players": 4,
+      "from": 900,
+      "to": 1110
+    }
+  },
+  "callback_errors": []
+}

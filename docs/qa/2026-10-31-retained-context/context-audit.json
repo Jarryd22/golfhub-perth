@@ -1,0 +1,1198 @@
+{
+  "checked_at_utc": "2026-10-31T00:19:25.170Z",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "scope": "Read-only remote branches, current open PRs/issues and release metadata; source-ref/instruction audit. No hourly cache/provider watch, release download or execution, device tests, production triggers or remote mutation.",
+  "repositories": {
+    "source": {
+      "name": "Jarryd22/golfhub-perth",
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+          "protected": false
+        },
+        {
+          "name": "cache",
+          "sha": "50251e384f456c41dc01174c8fdd32122a6f70f3",
+          "protected": false
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-shape-20261030",
+          "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-matching-course-count-20261028",
+          "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-missing-cache-20261027",
+          "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-error-wording-20261029",
+          "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "protected": false
+        },
+        {
+          "name": "news",
+          "sha": "8723f16a4f9c9f5b7066f2b78ec19e8dae8b0d48",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 17,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/issues?state=open&per_page=100"
+      ]
+    },
+    "windows": {
+      "name": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 0,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/issues?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/releases/latest"
+      ],
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    },
+    "android": {
+      "name": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 0,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/issues?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/releases/latest"
+      ],
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    }
+  },
+  "open_drafts": [
+    {
+      "number": 19,
+      "title": "Reject malformed cache records before saving or rendering",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/19",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c"
+      },
+      "base": {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3"
+      },
+      "updated_at": "2026-10-30T00:44:33Z"
+    },
+    {
+      "number": 18,
+      "title": "Distinguish provider failures from empty tee-time results",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/18",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3"
+      },
+      "base": {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+      },
+      "updated_at": "2026-10-29T00:19:46Z"
+    },
+    {
+      "number": 17,
+      "title": "Count only courses with matching exact tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+      },
+      "base": {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+      },
+      "updated_at": "2026-10-28T00:15:54Z"
+    },
+    {
+      "number": 16,
+      "title": "Distinguish missing date cache from empty tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+      },
+      "base": {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+      },
+      "updated_at": "2026-10-27T00:33:07Z"
+    },
+    {
+      "number": 15,
+      "title": "Validate alert runtime ZIP integrity without executing it",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+      "draft": true,
+      "head": {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+      },
+      "base": {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+      },
+      "updated_at": "2026-10-26T00:57:34Z"
+    },
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+      },
+      "base": {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+      },
+      "updated_at": "2026-10-21T01:16:03Z"
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+      },
+      "base": {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c"
+      },
+      "updated_at": "2026-10-20T00:31:20Z"
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c"
+      },
+      "base": {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+      },
+      "updated_at": "2026-10-20T00:14:31Z"
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+      },
+      "base": {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+      },
+      "updated_at": "2026-10-19T00:29:25Z"
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+      },
+      "base": {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+      },
+      "updated_at": "2026-10-18T01:08:03Z"
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-16T23:32:04Z"
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61"
+      },
+      "updated_at": "2026-10-09T16:46:54Z"
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+      },
+      "updated_at": "2026-10-07T08:28:10Z"
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+      },
+      "updated_at": "2026-10-07T04:35:09Z"
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-07T04:22:00Z"
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-06T23:02:02Z"
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-04T09:44:25Z"
+    }
+  ],
+  "open_non_pr_issues": [],
+  "pagination": {
+    "page_size": 100,
+    "note": "All branch, PR and issue lists are shorter than 100; no pagination truncation."
+  },
+  "limitations": [
+    "Historical Windows cache_close timeout remains unresolved; no repeated Linux investigation.",
+    "Canonical newer desktop/mobile source reconciliation remains pending.",
+    "No direct provider access or bypass of earlier denials, no booking/hold/notification actions, no runtime ZIP execution, binaries or device testing.",
+    "No merges, deployment, release publication, production workflow triggers, credentials/security changes, spending or third-party contact.",
+    "Update repository branches and release asset metadata checked; no fresh signature verification, asset download or installed update test."
+  ],
+  "source_duplicate_audit": {
+    "status": "completed_source_inspection_only",
+    "candidate": "Retained result cards and lazy date sections should use their displayed search filters when a later live search changes self.context. Old BOOK handoffs currently read new players, and lazy expansion currently applies new player/time filters to old results.",
+    "source_refs_examined": 21,
+    "method_group_counts": {
+      "search_live": 2,
+      "open_tee_time": 1,
+      "filtered_rows": 1,
+      "_populate_day_section": 3,
+      "render_multi_results": 4,
+      "render_results": 4,
+      "_snapshot_search_context": 1
+    },
+    "method_groups": {
+      "search_live": {
+        "8ae68560185288346e035952dc03487e08ce25ed2ed1d3f3ae2273db3e433153": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "source_excerpt": "def search_live(self, context=None):\n        p = context if isinstance(context, dict) else self.params()\n        if not p or (self.scan_thread and self._thread_running(self.scan_thread)):\n            return\n        p = self._snapshot_search_context(p)\n        if len(p.get(\"dates\") or [p[\"date\"]]) != 1:\n            self.status.setText(\"Live refresh is available for one date; multi-day results use the 10-minute cache\")\n            return\n        self.context = p\n        if not self.last_results:\n            self.render_empty(\"Checking courses live...\")\n        self.status.setText(\"Checking courses live...\")\n        self.header_status.setText(\"LIVE REFRESH IN PROGRESS\")\n        self.progress.setRange(0, 100)\n        self.progress.setValue(0)\n        self.progress.setVisible(True)\n        self.search_button.setEnabled(False)\n        self.live_button.setEnabled(False)\n        self.stop_button.setVisible(True)\n        self.stop_button.setEnabled(True)\n        self.scan_thread = QThread()\n        self.scan_worker = ScanWorker(p[\"sites\"], p[\"date\"], p[\"holes\"], p[\"from\"], p[\"to\"], p[\"players\"])\n        self.scan_worker.moveToThread(self.scan_thread)",
+          "representative_line": 1408
+        },
+        "7af2aa25f1eb624688e12241be7658d7d0836c96698d2c9fbeed8e36a147d1a6": {
+          "refs": [
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029"
+          ],
+          "representative_ref": "fix/desktop-provider-error-wording-20261029",
+          "source_excerpt": "def search_live(self, context=None):\n        if self._closing or self.scan_thread is not None:\n            return\n        p = context if isinstance(context, dict) else self.params()\n        if not p:\n            return\n        p = self._snapshot_search_context(p)\n        if len(p.get(\"dates\") or [p[\"date\"]]) != 1:\n            self.status.setText(\"Live refresh is available for one date; multi-day results use the 10-minute cache\")\n            return\n        self.context = p\n        if not self.last_results:\n            self.render_empty(\"Checking courses live...\")\n        self.status.setText(\"Checking courses live...\")\n        self.header_status.setText(\"LIVE REFRESH IN PROGRESS\")\n        self.progress.setRange(0, 100)\n        self.progress.setValue(0)\n        self.progress.setVisible(True)\n        self.search_button.setEnabled(False)\n        self.live_button.setEnabled(False)\n        self.stop_button.setVisible(True)\n        self.stop_button.setEnabled(True)\n        self.scan_thread = QThread()",
+          "representative_line": 1572
+        }
+      },
+      "open_tee_time": {
+        "299c3242586eca2c769284c4d545a3595174d6de0e11b4cb2c558b340e9977ab": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "source_excerpt": "def open_tee_time(self, result, row):\n        source_url = row.get(\"source_url\") or result.get(\"url\")\n        if not source_url:\n            QMessageBox.information(self, \"Booking page unavailable\", \"This tee time did not include an official booking link.\")\n            return\n\n        players = self.context.get(\"players\")\n        if players is None:\n            webbrowser.open(source_url)\n            return\n\n        try:\n            plan = build_booking_assist_plan(\n                source_url=source_url,\n                tee_time=str(row.get(\"time\") or \"\"),\n                players=int(players),\n                available_spots=int(row.get(\"spots\", 0) or 0),",
+          "representative_line": 1588
+        }
+      },
+      "filtered_rows": {
+        "1ab47a74732533a308bae5eba6913b9732f045a66c094279df25fe182bac38e6": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "source_excerpt": "def filtered_rows(self, rows):\n        p = self.context\n        filtered = list(rows or [])\n        if p.get(\"players\") is not None:\n            filtered = [row for row in filtered if int(row.get(\"spots\", 0) or 0) >= p[\"players\"]]\n        low, high = p.get(\"from\"), p.get(\"to\")\n        if low is not None:\n            filtered = [row for row in filtered if int(row.get(\"minutes\", 0) or 0) >= low]\n        if high is not None:\n            filtered = [row for row in filtered if int(row.get(\"minutes\", 0) or 0) <= high]\n        return filtered",
+          "representative_line": 1683
+        }
+      },
+      "_populate_day_section": {
+        "e1bc6ccea1f8b334ea5ca304ad64eceb4b05f5af10cf067e55d2c841d02332e9": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time)",
+            "ResultCard(result, rows, self.open_tee_time)"
+          ],
+          "representative_line": 1695
+        },
+        "f5b87bbf0b0b36834951f77ee833811e4766dd0511a431c7e9be81121ee5e809": {
+          "refs": [
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-perth-midnight-20261021"
+          ],
+          "representative_ref": "fix/desktop-perth-midnight-20261021",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time, date_str=date_str)",
+            "ResultCard(result, rows, self.open_tee_time, date_str=date_str)"
+          ],
+          "representative_line": 1876
+        },
+        "532236693467143583f90aff9c28b9481401180b3d8ec70ca7e2a036cf174aee": {
+          "refs": [
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-provider-error-wording-20261029"
+          ],
+          "representative_ref": "fix/desktop-provider-error-wording-20261029",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time, date_str=date_str)",
+            "ResultCard(result, rows, self.open_tee_time, date_str=date_str)"
+          ],
+          "representative_line": 1876
+        }
+      },
+      "render_multi_results": {
+        "4e44b274880c35006dbdc68f17e524f44a92b1a08223cf56bbddf08523f0b2cc": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "lazy_population_lambdas": [
+            "lambda layout, results=day[\"visible\"]: self._populate_day_section(layout, results)"
+          ],
+          "representative_line": 1720
+        },
+        "fd8764476dc010ae11b969e7697f2f2608c14678a2ddb10f7267fd1ed9fa8340": {
+          "refs": [
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-perth-midnight-20261021"
+          ],
+          "representative_ref": "fix/desktop-perth-midnight-20261021",
+          "lazy_population_lambdas": [
+            "lambda layout, results=day[\"visible\"], date_str=day[\"date\"]: self._populate_day_section(layout, results, date_str)"
+          ],
+          "representative_line": 1901
+        },
+        "fe4d6b780964d490693bd2c535bc9e8e61b74877a1bd417f3d545d2314deede1": {
+          "refs": [
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-provider-error-wording-20261029"
+          ],
+          "representative_ref": "fix/desktop-provider-error-wording-20261029",
+          "lazy_population_lambdas": [
+            "lambda layout, results=day[\"visible\"], date_str=day[\"date\"], available=day.get(\"available\", True):\n                    self._populate_day_section(layout, results, date_str, available=available)"
+          ],
+          "representative_line": 1911
+        },
+        "07a2315a3cebc76ff0526ad1e11887073006e7efb7d5547ab99b34b38a51a684": {
+          "refs": [
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027"
+          ],
+          "representative_ref": "fix/desktop-missing-cache-20261027",
+          "lazy_population_lambdas": [
+            "lambda layout, results=day[\"visible\"], date_str=day[\"date\"], available=day.get(\"available\", True):\n                    self._populate_day_section(layout, results, date_str, available=available)"
+          ],
+          "representative_line": 1911
+        }
+      },
+      "render_results": {
+        "8a47e2fbfbb46481a2505a01deef2d99269bf1b895f1733ecea9ba8d1c1ccf69": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time)",
+            "ResultCard(result, rows, self.open_tee_time)"
+          ],
+          "representative_line": 1845
+        },
+        "d780ff0ddfc8b633f67824892b3af6a948d3a60e29ae442a1b8ceeffb5e93353": {
+          "refs": [
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021"
+          ],
+          "representative_ref": "fix/desktop-perth-midnight-20261021",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time, date_str=self.context.get(\"date\"))",
+            "ResultCard(result, rows, self.open_tee_time, date_str=self.context.get(\"date\"))"
+          ],
+          "representative_line": 2026
+        },
+        "69ac66387a286d1dbf6907078c2250115b62319b8223025337dfd7cfc346747a": {
+          "refs": [
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-provider-error-wording-20261029"
+          ],
+          "representative_ref": "fix/desktop-provider-error-wording-20261029",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time, date_str=self.context.get(\"date\"))",
+            "ResultCard(result, rows, self.open_tee_time, date_str=self.context.get(\"date\"))"
+          ],
+          "representative_line": 2062
+        },
+        "f85498b2a662076de83b80e6c61ab1fd9670bdd8e904b8766c74f0fec97b3d0c": {
+          "refs": [
+            "fix/desktop-matching-course-count-20261028"
+          ],
+          "representative_ref": "fix/desktop-matching-course-count-20261028",
+          "result_card_calls": [
+            "ResultCard(result, rows, self.open_tee_time, date_str=self.context.get(\"date\"))",
+            "ResultCard(result, rows, self.open_tee_time, date_str=self.context.get(\"date\"))"
+          ],
+          "representative_line": 2044
+        }
+      },
+      "_snapshot_search_context": {
+        "b74337dea9d0c617c9637ddd3b4c117f1822eb62db38bb753f06344d7ab9cd5d": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "source_excerpt": "def _snapshot_search_context(context):\n        snapshot = dict(context)\n        snapshot['sites'] = list(context.get('sites') or [])\n        snapshot['dates'] = list(context.get('dates') or [context['date']])\n        return snapshot",
+          "representative_line": 1272
+        }
+      }
+    },
+    "context_attributes_by_ref": {
+      "agent/golfhub-v5-final-20260729": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/alerts-runtime-integrity-20261026": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-heartbeat": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-incomplete-weather": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-provider-circuit": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-resilience": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-weather-cooldown": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-weather-timeouts": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-wembley-fallback": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/cache-refresh-wembley-rendered": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-booking-context-20261020": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-cache-shape-20261030": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-cache-thread-lifecycle-20261020": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-course-controls-20261019": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-keyboard-date-selection": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-matching-course-count-20261028": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-missing-cache-20261027": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-perth-midnight-20261021": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-provider-error-wording-20261029": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "fix/desktop-search-dates-and-times": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ],
+      "main": [
+        "_active_cache_context",
+        "_pending_cache_context",
+        "_snapshot_search_context",
+        "context"
+      ]
+    },
+    "finding": "No duplicate displayed-result filter/booking snapshot protection found. All 21 refs share one open_tee_time AST reading self.context.players and one filtered_rows AST reading self.context players/from/to. Both search_live variants assign the new submitted context while retaining existing cards for truthy last_results. All ResultCard call sites pass the bound self.open_tee_time directly. Lazy callbacks capture visible results and (on newer refs) date and availability, but no player/time-filter snapshot.",
+    "existing_snapshot_helper": "_snapshot_search_context is identical on all 21 refs and copies the active search dictionary/dates/sites. It does not capture a separate displayed-result context or bind that context to existing card handlers/lazy sections.",
+    "prior_repair_distinctions": {
+      "PR12": "Captures submitted dates for labels/accessible names and lazy day sections. Does not capture players/time filters for booking or later row filtering.",
+      "PR13": "Changes worker/thread ownership and search entry guards. Does not preserve displayed filters separately.",
+      "PR14": "Preserves submitted and lazy-date labels across Perth midnight/control refresh. Does not protect retained old cards when a new search replaces self.context.",
+      "PR16_to_19": "Missing-cache wording, matching counts, provider-error wording and malformed container validation do not add displayed-context protection."
+    },
+    "existing_tests_source_inspected": {
+      "tests/test_booking_context.py": "Checks action labels, date capture and two-argument mocked handler dispatch. Lazy case changes date only, not player/time filters; no later live-search handoff check.",
+      "tests/test_search_race.py": "Checks player filtering within one submitted multi-day context and queued cache-search behavior; no retained old-card binding while a later live search is active.",
+      "tests/test_midnight_rollover.py": "Checks displayed/lazy date context across idle rollover with the submitted context retained, not replaced by later live search."
+    },
+    "preserved_loose_checkout": {
+      "path": "/workspace/golfhub-perth/app/qt_golfhub_app.py",
+      "read_only": true,
+      "method_ast_sha256": {
+        "search_live": "7af2aa25f1eb624688e12241be7658d7d0836c96698d2c9fbeed8e36a147d1a6",
+        "open_tee_time": "299c3242586eca2c769284c4d545a3595174d6de0e11b4cb2c558b340e9977ab",
+        "filtered_rows": "1ab47a74732533a308bae5eba6913b9732f045a66c094279df25fe182bac38e6",
+        "render_multi_results": "07a2315a3cebc76ff0526ad1e11887073006e7efb7d5547ab99b34b38a51a684"
+      },
+      "finding": "Same relevant mutable-context reads and uncaptured-filter lazy callback; not a competing fix. Canonical provenance remains unresolved."
+    },
+    "runtime_reproduction": "Not performed by this audit; parent/gaps agent must confirm candidate before implementation.",
+    "source_or_test_changes": false
+  },
+  "execution_notes": {
+    "status": "completed",
+    "remote_writes": false,
+    "blockers": [],
+    "runtime_tests": "Not run in this read-only context audit."
+  },
+  "source_refs": {
+    "examined": 21,
+    "refs": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "079d266eed26ac9dc40b759073011730035169413d32900cff4c426277c34467"
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "4872030d089e622161b453f7ef8f851d240e5a9faaa18d81e29c33f45d09c7cb"
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "4872030d089e622161b453f7ef8f851d240e5a9faaa18d81e29c33f45d09c7cb"
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "56d9e3f9c87571ab5c0833465b9bc7a87811723f585af4d10e0714a0f3bdeb30"
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bfd0ec98b62196decd85e84ee57911f04cc1f028ea78df4d7cd94bf21aecf640"
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "shared_cache_normalized_text_sha256": "679dda3f5dfb6cc94d82902d019f62113c9f53fc1e506df714b334519660070d",
+        "qt_app_normalized_text_sha256": "63f305f55756c834daae7f81db1b5e24a75d21de4bebe43c36316a434977b4d3"
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "8f6370fad9f72baa757207dec9c0d4cfbd93d65a7113c3113d8e16a8b9793a71"
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "ab622c6591e921348a81f7847e3e1fb2df6bc9de11dd937e85ca6236d79c94e5"
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "d1caba30dc502bdfef1b90ff4b87d7e4809bb4cb272843cdea2617dbeb265258"
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "fc2982eeb352ee1cede8816016f04900aea0676c8ecda58f3eab30c90a18ea0b"
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "534bac428735ea8d5c0613e13c35c83bb569d44299ca8b433b89cf41135a0aea"
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "079d266eed26ac9dc40b759073011730035169413d32900cff4c426277c34467"
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "63f305f55756c834daae7f81db1b5e24a75d21de4bebe43c36316a434977b4d3"
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "3dd49cd87eef1c06920994675dfd0a392d585f4e26d329166b48a4fb5744a4c0"
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "shared_cache_normalized_text_sha256": "1ea76837f88f10175e323361d3dfc20468c645e5175984175967a45127706072",
+        "qt_app_normalized_text_sha256": "bd8572c17120edb12deb8dd590e5e726e32fe28ac726f8e032520b8a9ccd41d5"
+      }
+    ],
+    "unreadable_refs": [],
+    "excluded_data_only_refs": [
+      "cache",
+      "news"
+    ],
+    "hash_note": "SHA-256 values cover git-show text with normalized newlines, for source comparison only; not artifact/signature checks."
+  },
+  "instructions": {
+    "ancestor_AGENTS": {
+      "/AGENTS.md": false,
+      "/workspace/AGENTS.md": false,
+      "/workspace/golfhub-20261030/AGENTS.md": false
+    },
+    "checkout_skill_directories": {
+      "/workspace/.agents/skills": false,
+      "/workspace/golfhub-20261030/.agents/skills": false
+    },
+    "tracked_instruction_files_by_source_ref": {
+      "agent/golfhub-v5-final-20260729": [],
+      "fix/alerts-runtime-integrity-20261026": [],
+      "fix/cache-refresh-heartbeat": [],
+      "fix/cache-refresh-incomplete-weather": [],
+      "fix/cache-refresh-provider-circuit": [],
+      "fix/cache-refresh-resilience": [],
+      "fix/cache-refresh-weather-cooldown": [],
+      "fix/cache-refresh-weather-timeouts": [],
+      "fix/cache-refresh-wembley-fallback": [],
+      "fix/cache-refresh-wembley-rendered": [],
+      "fix/desktop-booking-context-20261020": [],
+      "fix/desktop-cache-shape-20261030": [],
+      "fix/desktop-cache-thread-lifecycle-20261020": [],
+      "fix/desktop-course-controls-20261019": [],
+      "fix/desktop-keyboard-date-selection": [],
+      "fix/desktop-matching-course-count-20261028": [],
+      "fix/desktop-missing-cache-20261027": [],
+      "fix/desktop-perth-midnight-20261021": [],
+      "fix/desktop-provider-error-wording-20261029": [],
+      "fix/desktop-search-dates-and-times": [],
+      "main": []
+    },
+    "finding": "No AGENTS.md or .agents/skills/SKILL.md found on inspected source branch heads or current checkout/ancestors."
+  },
+  "checkout": {
+    "path": "/workspace/golfhub-20261030",
+    "head": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+    "status_short": "",
+    "source_or_test_changes_by_audit": false
+  },
+  "comparison_to_oct30": {
+    "source": {
+      "added_branches": {
+        "fix/desktop-cache-shape-20261030": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c"
+      },
+      "changed_branches": {
+        "cache": {
+          "before": "551a9a58dc81714e80baac74b3b22dfebeb3ecf8",
+          "after": "50251e384f456c41dc01174c8fdd32122a6f70f3"
+        },
+        "news": {
+          "before": "89c974c90fda00e927cd05738013b5fb1f26bfc5",
+          "after": "8723f16a4f9c9f5b7066f2b78ec19e8dae8b0d48"
+        }
+      },
+      "removed_branches": []
+    },
+    "windows": {
+      "added_branches": {},
+      "changed_branches": {},
+      "removed_branches": [],
+      "release_tag_unchanged": true,
+      "release_assets_unchanged": true
+    },
+    "android": {
+      "added_branches": {},
+      "changed_branches": {},
+      "removed_branches": [],
+      "release_tag_unchanged": true,
+      "release_assets_unchanged": true
+    }
+  },
+  "prior_documentation_inspected": {
+    "head": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+    "paths": [
+      "docs/IMPROVEMENT_BACKLOG.md",
+      "docs/QA_CHECKLIST.md"
+    ],
+    "latest_completed_repair": "PR19 malformed cache result/row container validation, 15 regressions and 228 aggregate checks recorded by prior pass. Current audit did not rerun those checks.",
+    "pending_priorities": [
+      "Historical native Windows cache_close timeout diagnosis",
+      "Canonical desktop/mobile source reconciliation",
+      "Integrate pending reliability drafts after review/authorization",
+      "Existing per-course freshness/subset-cache work reconciliation",
+      "Native device/updater/accessibility and notification delivery validation"
+    ]
+  }
+}

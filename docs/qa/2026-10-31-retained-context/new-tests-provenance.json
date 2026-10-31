@@ -1,0 +1,37 @@
+{
+  "tests": {
+    "baseline": {
+      "timestamp_utc": "2026-10-31T00:22:36.979365+00:00",
+      "source_commit": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "test_sha256": "088d129c4b9dc998304a3d125d687fee83a4b3f6b9212889e80a8e64c7e33143",
+      "exit_code": 1,
+      "run": 10,
+      "failures": 7,
+      "errors": 0,
+      "skipped": 0
+    },
+    "after": {
+      "timestamp_utc": "2026-10-31T00:22:45.089310+00:00",
+      "source_commit": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+      "test_sha256": "088d129c4b9dc998304a3d125d687fee83a4b3f6b9212889e80a8e64c7e33143",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "before_head": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "note": "Baseline and repaired runs use identical regression bytes. Before probes are verbatim originals copied from scratch. Reusable top-level probes accept an explicit root/output; lazy after capture additionally drains three Qt layout event passes and saves a scrolled view. Initial compressed after frame and script are retained in after/initial-layout. No product layout change was made.",
+  "scope": "Synthetic Linux offscreen widgets; fake workers never execute; browser/socket/dialog effects blocked or intercepted. No native devices, provider access, bookings or holds.",
+  "probe_hashes": {
+    "after/initial-layout/lazy-context-probe.py": "dfcd286ffcabddabc66a08bdd9f0ee0c36779a2f636a358b973881a605f9dc12",
+    "before/booking-context-probe.py": "29436d6de57366f78c999b79b283989992764891bf33a3e79ed6ebb9a3165e91",
+    "before/course-controls/probe.py": "41ba32d80dd7274306a3f6b0273f16604374d3ea53ac617b3b16b5a09d2a5551",
+    "before/lazy-context-probe.py": "1ed9451304a3144fcab9f0ab2bf042a9d10304f0caf768f416e6058aa748c484",
+    "booking-context-probe.py": "252903544b16704e29ac455c469919660307c783af1120bea4f7f368ea0a3b3d",
+    "lazy-context-probe.py": "cd838e61b7a39a8c0d7e09b4ddf11529945a999c2a8a50784808a412ab5864c2"
+  }
+}

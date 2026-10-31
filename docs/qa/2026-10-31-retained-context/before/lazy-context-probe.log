@@ -1,0 +1,114 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-10-31T00:20:47.575253+00:00",
+  "head": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "app_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+  "kind": "Linux offscreen; synthetic cached multi-date rows; fake non-running worker; sockets/browser/booking dialogs blocked",
+  "before": {
+    "summary": "2 matching times across 2 days",
+    "heading": "+  MONDAY, 3 JANUARY 2033  -  1 time across 1 course",
+    "built": false,
+    "context": {
+      "date": "2033-01-02",
+      "dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "players": 1,
+      "from": null,
+      "to": null
+    }
+  },
+  "after": {
+    "summary": "2 matching times across 2 days",
+    "heading": "-  MONDAY, 3 JANUARY 2033  -  1 time across 1 course",
+    "built": true,
+    "labels": [
+      "Synthetic saved snapshot",
+      "No live tee times matched these filters on this day."
+    ],
+    "tee_time_cards": 0,
+    "context": {
+      "date": "2033-01-05",
+      "dates": [
+        "2033-01-05"
+      ],
+      "players": 4,
+      "from": 900,
+      "to": 1110
+    }
+  },
+  "callback_errors": []
+}

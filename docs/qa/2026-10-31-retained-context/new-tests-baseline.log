@@ -1,0 +1,288 @@
+QA_RESULT {"run": 10, "failures": 7, "errors": 0, "skipped": 0}
+test_already_built_multiday_card_keeps_original_group (cache_state_regressions.RetainedSearchContextTests.test_already_built_multiday_card_keeps_original_group) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_lazy_date_keeps_original_player_time_filters_and_booking_date (cache_state_regressions.RetainedSearchContextTests.test_lazy_date_keeps_original_player_time_filters_and_booking_date) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_legacy_direct_open_tee_time_uses_current_context (cache_state_regressions.RetainedSearchContextTests.test_legacy_direct_open_tee_time_uses_current_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_pending_controls_alone_do_not_change_retained_handoff (cache_state_regressions.RetainedSearchContextTests.test_pending_controls_alone_do_not_change_retained_handoff) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_retained_any_players_keeps_direct_handoff_after_new_group_search (cache_state_regressions.RetainedSearchContextTests.test_retained_any_players_keeps_direct_handoff_after_new_group_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_retained_book_after_cancelled_refresh_uses_displayed_group (cache_state_regressions.RetainedSearchContextTests.test_retained_book_after_cancelled_refresh_uses_displayed_group) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_retained_book_after_failed_refresh_uses_displayed_group (cache_state_regressions.RetainedSearchContextTests.test_retained_book_after_failed_refresh_uses_displayed_group) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_retained_book_during_new_live_search_uses_displayed_group (cache_state_regressions.RetainedSearchContextTests.test_retained_book_during_new_live_search_uses_displayed_group) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_retained_explicit_group_is_not_replaced_by_new_any_players (cache_state_regressions.RetainedSearchContextTests.test_retained_explicit_group_is_not_replaced_by_new_any_players) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_successful_replacement_adopts_new_filters_and_booking_context (cache_state_regressions.RetainedSearchContextTests.test_successful_replacement_adopts_new_filters_and_booking_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+======================================================================
+FAIL: test_already_built_multiday_card_keeps_original_group (cache_state_regressions.RetainedSearchContextTests.test_already_built_multiday_card_keeps_original_group)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 187, in test_already_built_multiday_card_keeps_original_group
+    self.assert_plan(1, self.old_date)
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 120, in assert_plan
+    self.assertEqual(self.plan_builder.call_args.kwargs["players"], players)
+AssertionError: 4 != 1
+
+======================================================================
+FAIL: test_lazy_date_keeps_original_player_time_filters_and_booking_date (cache_state_regressions.RetainedSearchContextTests.test_lazy_date_keeps_original_player_time_filters_and_booking_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 172, in test_lazy_date_keeps_original_player_time_filters_and_booking_date
+    self.assertEqual([(c.row["minutes"], c.row["spots"]) for c in cards], [(540, 2)])
+AssertionError: Lists differ: [] != [(540, 2)]
+
+Second list contains 1 additional elements.
+First extra element 0:
+(540, 2)
+
+- []
++ [(540, 2)]
+
+======================================================================
+FAIL: test_retained_any_players_keeps_direct_handoff_after_new_group_search (cache_state_regressions.RetainedSearchContextTests.test_retained_any_players_keeps_direct_handoff_after_new_group_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 154, in test_retained_any_players_keeps_direct_handoff_after_new_group_search
+    self.plan_builder.assert_not_called()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 910, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'build_booking_assist_plan' to not have been called. Called 1 times.
+Calls: [call(source_url='https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807', tee_time='9:00 am', players=4, available_spots=4, provider=None, course_name='Araluen')].
+
+======================================================================
+FAIL: test_retained_book_after_cancelled_refresh_uses_displayed_group (cache_state_regressions.RetainedSearchContextTests.test_retained_book_after_cancelled_refresh_uses_displayed_group)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 147, in test_retained_book_after_cancelled_refresh_uses_displayed_group
+    self.assert_plan(1, self.old_date)
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 120, in assert_plan
+    self.assertEqual(self.plan_builder.call_args.kwargs["players"], players)
+AssertionError: 4 != 1
+
+======================================================================
+FAIL: test_retained_book_after_failed_refresh_uses_displayed_group (cache_state_regressions.RetainedSearchContextTests.test_retained_book_after_failed_refresh_uses_displayed_group)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 139, in test_retained_book_after_failed_refresh_uses_displayed_group
+    self.assert_plan(1, self.old_date)
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 120, in assert_plan
+    self.assertEqual(self.plan_builder.call_args.kwargs["players"], players)
+AssertionError: 4 != 1
+
+======================================================================
+FAIL: test_retained_book_during_new_live_search_uses_displayed_group (cache_state_regressions.RetainedSearchContextTests.test_retained_book_during_new_live_search_uses_displayed_group)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 130, in test_retained_book_during_new_live_search_uses_displayed_group
+    self.assert_plan(1, self.old_date)
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 120, in assert_plan
+    self.assertEqual(self.plan_builder.call_args.kwargs["players"], players)
+AssertionError: 4 != 1
+
+======================================================================
+FAIL: test_retained_explicit_group_is_not_replaced_by_new_any_players (cache_state_regressions.RetainedSearchContextTests.test_retained_explicit_group_is_not_replaced_by_new_any_players)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 162, in test_retained_explicit_group_is_not_replaced_by_new_any_players
+    self.assert_plan(4, self.old_date)
+  File "/workspace/golfhub-20261031/tests/test_retained_search_context.py", line 119, in assert_plan
+    self.plan_builder.assert_called_once()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 928, in assert_called_once
+    raise AssertionError(msg)
+AssertionError: Expected 'build_booking_assist_plan' to have been called once. Called 0 times.
+
+----------------------------------------------------------------------
+Ran 10 tests in 0.911s
+
+FAILED (failures=7)

@@ -51,6 +51,7 @@ python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
 python -m unittest discover -s tests -p test_provider_error_states.py -v
 python -m unittest discover -s tests -p test_startup_cache.py -v
+python -m unittest discover -s tests -p test_retained_search_context.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
 python -m unittest discover -s tests -p test_thread_lifecycle.py -v
 python -m unittest discover -s tests -p test_cache*.py -v
@@ -62,7 +63,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 30 October 2026
+## Latest pass: 31 October 2026
+
+See the [retained search-context report](qa/2026-10-31-retained-context/REPORT.md). Submit a new live request with a different group/time/date while old single/multi-date cards remain visible. Clicking old BOOK or expanding a collapsed old date must use the displayed search context during the request and after failure/cancel; active request context and successful new-result/save behavior must remain new. Test Any↔numeric players, old date/URL identity, lazy and built days, pending controls and direct helper compatibility. Preserve booking consent/hold safeguards; intercept all handoffs.
+
+**Passed:** 10 new regressions (exact PR19: 3 pass / 7 fail), **238 aggregate tests** (121 desktop, 80 cache/integrity, 37 additional booking/rendering), plus **50 filter + 5 startup diagnostic scenarios**. Pre-change 16 course-control scenarios found no uncovered picker defect. PR16–19 and earlier date/accessibility/booking fixes revalidated; keyboard handoff now also asserts captured context. Current before/after 1280×800 and compact 980×640 images inspected; initial layout-settlement frame retained. Compile, whitespace, actionlint and independent review pass.
+
+**Inspection only:** 21 source refs, 17 existing drafts, unchanged update metadata, lazy rendering and design scope. **Not performed:** native devices, real network/provider recovery, screen readers/DPI/resume, updater/signatures, live booking or notification delivery. Historical Windows cache_close and canonical source remain pending. No health-watch duplication, runtime ZIP execution, repeated Linux diagnosis or production action. Enumerate all exact-head CI events/attempts and verify checkout trees; results are recorded on the draft.
+
+## Previous pass: 30 October 2026
 
 See the [malformed-cache recovery report](qa/2026-10-30-cache-shape/REPORT.md). Use real isolated files and mocked HTTP bytes: null/non-object course records, non-list decorated rows and non-object row entries must be rejected before persistence/rendering. Initial cache rendering must still schedule recovery, and a rejected download must preserve the last valid saved bytes. Reject the whole malformed snapshot; preserve valid empty/error/calendar/direct states, missing/null rows, metadata and publisher fallback behavior. This shape check does not validate all field semantics or imply current published corruption.
 

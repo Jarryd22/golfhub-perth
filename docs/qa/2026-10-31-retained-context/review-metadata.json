@@ -1,0 +1,105 @@
+{
+  "reviewed_at_utc": "2026-10-31T00:23:59.467564+00:00",
+  "reviewed_base": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "branch": "fix/desktop-retained-search-context-20261031",
+  "reviewed_files_sha256": {
+    "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+    "tests/test_booking_context.py": "fd6deefc9ef033e288abb53c2bc14509d776bdb3d41c6f64462b1a988a275374",
+    "tests/test_retained_search_context.py": "088d129c4b9dc998304a3d125d687fee83a4b3f6b9212889e80a8e64c7e33143",
+    ".github/workflows/test-desktop.yml": "47eb2263732a01486b82544a4c80b1daa0d4937c985a95fa53a8b6c3ff5310de"
+  },
+  "changed_app_function_asts": [
+    "GolfHub._populate_day_section",
+    "GolfHub.filtered_rows",
+    "GolfHub.open_tee_time",
+    "GolfHub.render_multi_results",
+    "GolfHub.render_results"
+  ],
+  "unchanged_active_search_save_and_lifecycle_asts": {
+    "GolfHub.search_live": true,
+    "GolfHub.search_cache": true,
+    "GolfHub._start_cache_search": true,
+    "GolfHub.cache_finished": true,
+    "GolfHub.scan_finished": true,
+    "GolfHub.scan_failed": true,
+    "GolfHub.stop_scan": true,
+    "GolfHub.cache_thread_done": true,
+    "GolfHub.scan_thread_done": true,
+    "GolfHub.closeEvent": true
+  },
+  "unchanged_files": {
+    ".github/workflows/refresh-cache-10min.yml": {
+      "unchanged_from_base": true,
+      "sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391"
+    },
+    ".github/workflows/course-news.yml": {
+      "unchanged_from_base": true,
+      "sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26"
+    },
+    ".github/workflows/check-alerts.yml": {
+      "unchanged_from_base": true,
+      "sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38"
+    },
+    ".github/workflows/test-cache.yml": {
+      "unchanged_from_base": true,
+      "sha256": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d"
+    },
+    "app/shared_cache.py": {
+      "unchanged_from_base": true,
+      "sha256": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+    },
+    "app/booking_assist.py": {
+      "unchanged_from_base": true,
+      "sha256": "47bd676f59e8015b43df2956c492398d395835e8a798fe7a8c5283124f90e531"
+    }
+  },
+  "new_test_module_method_count": 10,
+  "tests_source_inspected": {
+    "tests/test_booking_context.py": [
+      "test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff",
+      "test_repeated_times_distinguish_course_and_round_without_changing_visible_text",
+      "test_lazy_days_keep_their_own_dates_when_opened_after_filters_change",
+      "test_course_action_variants_have_context_and_preserve_official_handoffs",
+      "test_direct_course_links_preserve_literal_ampersands_and_single_day_context",
+      "test_range_course_link_has_no_invented_single_date",
+      "test_missing_context_is_not_invented_and_row_url_still_wins",
+      "test_show_all_action_keeps_course_date_context_after_toggle"
+    ],
+    "tests/test_retained_search_context.py": [
+      "test_retained_book_during_new_live_search_uses_displayed_group",
+      "test_retained_book_after_failed_refresh_uses_displayed_group",
+      "test_retained_book_after_cancelled_refresh_uses_displayed_group",
+      "test_retained_any_players_keeps_direct_handoff_after_new_group_search",
+      "test_retained_explicit_group_is_not_replaced_by_new_any_players",
+      "test_lazy_date_keeps_original_player_time_filters_and_booking_date",
+      "test_already_built_multiday_card_keeps_original_group",
+      "test_successful_replacement_adopts_new_filters_and_booking_context",
+      "test_pending_controls_alone_do_not_change_retained_handoff",
+      "test_legacy_direct_open_tee_time_uses_current_context"
+    ]
+  },
+  "booking_context_assertion": "Existing keyboard handoff assertion strengthened to require original submitted context keyword as well as result/row. Other assertions retained.",
+  "discovery_scope": {
+    "new_module_selected_by_desktop_push_and_pr_filters": true,
+    "new_module_in_desktop_module_list": true,
+    "new_module_matches_pure_cache_pattern": false
+  },
+  "actionlint": {
+    "version": "1.7.12",
+    "download_url": "https://github.com/rhysd/actionlint/releases/download/v1.7.12/actionlint_1.7.12_linux_amd64.tar.gz",
+    "archive_bytes": 2353908,
+    "archive_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+    "checksum_verified_before_execution": true,
+    "all_workflows": true,
+    "exit_code": 0,
+    "log": "actionlint.log"
+  },
+  "runtime_tests_by_reviewer": "Not run; inspected baseline probes and regression source. Parent owns before/after runs, aggregate results and exact-head CI.",
+  "findings": [],
+  "blockers": [],
+  "limitations": [
+    "No native Windows/Android, live provider request, booking/hold, notification delivery or runtime archive execution.",
+    "Historical Windows cache_close timeout and canonical desktop/mobile source reconciliation remain unresolved.",
+    "Captured context dictionaries are shallow copies; the fields consumed by filtering/booking are immutable scalar values and per-day display date is captured separately. No claim of general deep immutability."
+  ]
+}
