@@ -1,7 +1,79 @@
 {
   "schema": 1,
-  "generated_at": "2026-10-30T01:08:05.706478+00:00",
+  "generated_at": "2026-10-31T00:52:18.669751+00:00",
   "items": [
+    {
+      "id": "d2183c33e186557c6018",
+      "course_id": "sun-city",
+      "title": "EXCITING NEWS For our Ladies!",
+      "summary": "EXCITING NEWS For our Ladies! We’ve opened up 5 EXTRA SPOTS in our Sun",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/exciting-news-for-our-ladies/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-30T05:31:56+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "29e58dbbf3d4bfac4be2",
+      "course_id": "sun-city",
+      "title": "New to the Menu for Dinner",
+      "summary": "There’s plenty happening behind the scenes at Sun City Country Club, and we’re excited",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/new-to-the-menu-for-dinner/",
+      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Sun-City-Country-Club-Menu-1.png",
+      "images": [
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Sun-City-Country-Club-Menu-1.png"
+      ],
+      "published_at": "2026-10-30T05:04:21+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "30c56a55ca07d92ce0fc",
+      "course_id": "mosman-park",
+      "title": "Mixed Foursomes Championship, Sunday November 29",
+      "summary": "The post Mixed Foursomes Championship, Sunday November 29 appeared first on Mosman Park Golf",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/mixed-foursomes-championship-sunday-november-29/",
+      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Lance-Brisbane-Poster-2026.jpg",
+      "images": [
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Lance-Brisbane-Poster-2026.jpg"
+      ],
+      "published_at": "2026-10-30T03:27:29+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "2f2dcbc750fc914d54b1",
+      "course_id": "mosman-park",
+      "title": "Ladies Christmas Lunch, Thursday December 3",
+      "summary": "The post Ladies Christmas Lunch, Thursday December 3 appeared first on Mosman Park Golf",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/ladies-christmas-lunch-thursday-december-3/",
+      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Ladies-Christmas-Lunch-2026.jpg",
+      "images": [
+        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Ladies-Christmas-Lunch-2026.jpg"
+      ],
+      "published_at": "2026-10-30T03:20:32+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "10642d8553d5bdbe547d",
+      "course_id": "sun-city",
+      "title": "Sun City Member Skills, Business & Volunteer Register",
+      "summary": "Hi Members, There is an enormous amount of knowledge, experience and expertise within the",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/sun-city-member-skills-business-volunteer-register/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-30T03:19:38+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "9edc2ce370c1aa577740",
+      "course_id": "rockingham",
+      "title": "Financials September 2026",
+      "summary": "Balance_Sheet Budget_Variance-6 The post Financials September 2026 appeared first on Rockingham Golf Club .",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/financials-september-2026/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-30T01:08:35+00:00",
+      "category": "Course news"
+    },
     {
       "id": "7c0d6364323d328bf253",
       "course_id": "rockingham",
@@ -52,17 +124,6 @@
       "category": "Events"
     },
     {
-      "id": "1ec4c0127aeb6f720a6e",
-      "course_id": "rockingham",
-      "title": "Rockingham Bowl – Results",
-      "summary": "What a fantastic weekend of golf at the Rockingham Bowl, with an outstanding field",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/rockingham-bowl-results/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-29T05:07:08+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "f91dbd95731685e5617f",
       "course_id": "sun-city",
       "title": "Increase in Nomination Fee from 1st November",
@@ -72,28 +133,6 @@
       "images": [],
       "published_at": "2026-10-29T02:24:24+00:00",
       "category": "Course news"
-    },
-    {
-      "id": "4c6ab3a0229b5a6128ca",
-      "course_id": "sun-city",
-      "title": "Office Opening Times w/c 2nd November",
-      "summary": "Please note that the office will only be open Wednesday and Friday next week.",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/office-opening-times-w-c-2nd-november/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-29T02:17:10+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "5a1bd2bee345b5b04ac0",
-      "course_id": "sun-city",
-      "title": "AGM Agenda, Special Resolutions & Life Member Nomination",
-      "summary": "ANNUAL GENERAL MEETING Notice of Meeting, Special Resolutions & Items for Discussion (See below)",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/draft-agm-agenda-special-resolutions-life-member-nomination/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-28T16:36:21+00:00",
-      "category": "Offers"
     },
     {
       "id": "1eb62ff122c02392a580",
@@ -110,19 +149,6 @@
       ],
       "published_at": "2026-10-27T01:21:17+00:00",
       "category": "Events"
-    },
-    {
-      "id": "3e7ae0a7cce1d2c02881",
-      "course_id": "sun-city",
-      "title": "The Yaberoo Cup 2027",
-      "summary": "It is time to bring the Dead Duck trophy home! Registration sheet available in",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/the-yaberoo-cup-2027/",
-      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Website-Banner@2x-2048x1072.png",
-      "images": [
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Website-Banner@2x-2048x1072.png"
-      ],
-      "published_at": "2026-10-26T07:24:18+00:00",
-      "category": "Course news"
     },
     {
       "id": "6d96d501508c2164b790",
@@ -394,30 +420,6 @@
         "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Driving-Range-Hours-October-scaled.png"
       ],
       "published_at": "2026-10-05T05:05:42+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "5cdf9083ac52df2fa54a",
-      "course_id": "mosman-park",
-      "title": "2026 Melbourne Cup",
-      "summary": "The post 2026 Melbourne Cup appeared first on Mosman Park Golf Club .",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/2026-melbourne-cup/",
-      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Blue-Elegant-Background-Poster.png",
-      "images": [
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Blue-Elegant-Background-Poster.png"
-      ],
-      "published_at": "2026-10-02T03:39:59+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "92f702db4a7262e67069",
-      "course_id": "mosman-park",
-      "title": "Demo MGI Electric Buggies at the Pro Shop",
-      "summary": "The Pro Shop is now stocking MGI Electric Golf Buggies. We current have four",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/demo-mgi-electric-buggies-at-the-pro-shop/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-02T02:36:25+00:00",
       "category": "Course news"
     },
     {
