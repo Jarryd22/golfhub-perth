@@ -1,0 +1,73 @@
+{
+  "timestamp_utc": "2026-10-31T00:23:03.680307+00:00",
+  "head": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "app_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+  "kind": "Linux offscreen; synthetic results; fake non-running worker; actual BOOK click; pure plan intercepted/cancelled; sockets/browser/dialog blocked",
+  "initial_search": {
+    "date": "2033-01-02",
+    "players": 1
+  },
+  "observations": [
+    {
+      "stage": "initial saved result",
+      "button_accessible_name": "Book: Araluen, 9:00 am, 18 holes, 2 January 2033",
+      "button_enabled": true,
+      "row_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807",
+      "displayed_summary": "1 matching time",
+      "status": "1 matching tee time across 1 course",
+      "context_date": "2033-01-02",
+      "context_players": 1,
+      "plan_players": 1,
+      "plan_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807"
+    },
+    {
+      "stage": "pending controls not submitted",
+      "button_accessible_name": "Book: Araluen, 9:00 am, 18 holes, 2 January 2033",
+      "button_enabled": true,
+      "row_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807",
+      "displayed_summary": "1 matching time",
+      "status": "1 matching tee time across 1 course",
+      "context_date": "2033-01-02",
+      "context_players": 1,
+      "plan_players": 1,
+      "plan_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807"
+    },
+    {
+      "stage": "new live search pending; old result retained",
+      "button_accessible_name": "Book: Araluen, 9:00 am, 18 holes, 2 January 2033",
+      "button_enabled": true,
+      "row_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807",
+      "displayed_summary": "1 matching time",
+      "status": "Checking courses live...",
+      "context_date": "2033-01-05",
+      "context_players": 4,
+      "plan_players": 1,
+      "plan_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807"
+    },
+    {
+      "stage": "new live search failed; old result retained",
+      "button_accessible_name": "Book: Araluen, 9:00 am, 18 holes, 2 January 2033",
+      "button_enabled": true,
+      "row_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807",
+      "displayed_summary": "1 matching time",
+      "status": "Live refresh failed - cached results preserved",
+      "context_date": "2033-01-05",
+      "context_players": 4,
+      "plan_players": 1,
+      "plan_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807"
+    },
+    {
+      "stage": "new live search cancelled; old result retained",
+      "button_accessible_name": "Book: Araluen, 9:00 am, 18 holes, 2 January 2033",
+      "button_enabled": true,
+      "row_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807",
+      "displayed_summary": "1 matching time",
+      "status": "Stopped - partial results were not saved",
+      "context_date": "2033-01-05",
+      "context_players": 4,
+      "plan_players": 1,
+      "plan_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-02&feeGroupId=102807"
+    }
+  ],
+  "callback_errors": []
+}

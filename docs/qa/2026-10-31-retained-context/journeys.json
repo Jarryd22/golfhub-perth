@@ -1,0 +1,362 @@
+{
+  "timestamp_utc": "2026-10-31T00:22:40.229245+00:00",
+  "kind": "50 source-widget submission/rendering combinations; intercepted worker launch, synthetic partial cache; no native/device or live-provider test",
+  "logical_window": [
+    980,
+    640
+  ],
+  "scale_factor": 1,
+  "checks": [
+    {
+      "holes": "18",
+      "players": null,
+      "preset": "Any time",
+      "matching_rows": 40,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": null,
+      "preset": "Morning",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": null,
+      "preset": "Midday",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": null,
+      "preset": "Afternoon",
+      "matching_rows": 8,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": null,
+      "preset": "Custom range",
+      "matching_rows": 16,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 1,
+      "preset": "Any time",
+      "matching_rows": 40,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 1,
+      "preset": "Morning",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 1,
+      "preset": "Midday",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 1,
+      "preset": "Afternoon",
+      "matching_rows": 8,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 1,
+      "preset": "Custom range",
+      "matching_rows": 16,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 2,
+      "preset": "Any time",
+      "matching_rows": 30,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 2,
+      "preset": "Morning",
+      "matching_rows": 9,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 2,
+      "preset": "Midday",
+      "matching_rows": 9,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 2,
+      "preset": "Afternoon",
+      "matching_rows": 6,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 2,
+      "preset": "Custom range",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 3,
+      "preset": "Any time",
+      "matching_rows": 20,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 3,
+      "preset": "Morning",
+      "matching_rows": 6,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 3,
+      "preset": "Midday",
+      "matching_rows": 6,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 3,
+      "preset": "Afternoon",
+      "matching_rows": 4,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 3,
+      "preset": "Custom range",
+      "matching_rows": 8,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 4,
+      "preset": "Any time",
+      "matching_rows": 10,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 4,
+      "preset": "Morning",
+      "matching_rows": 3,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 4,
+      "preset": "Midday",
+      "matching_rows": 3,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 4,
+      "preset": "Afternoon",
+      "matching_rows": 2,
+      "passed": true
+    },
+    {
+      "holes": "18",
+      "players": 4,
+      "preset": "Custom range",
+      "matching_rows": 4,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": null,
+      "preset": "Any time",
+      "matching_rows": 40,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": null,
+      "preset": "Morning",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": null,
+      "preset": "Midday",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": null,
+      "preset": "Afternoon",
+      "matching_rows": 8,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": null,
+      "preset": "Custom range",
+      "matching_rows": 16,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 1,
+      "preset": "Any time",
+      "matching_rows": 40,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 1,
+      "preset": "Morning",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 1,
+      "preset": "Midday",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 1,
+      "preset": "Afternoon",
+      "matching_rows": 8,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 1,
+      "preset": "Custom range",
+      "matching_rows": 16,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 2,
+      "preset": "Any time",
+      "matching_rows": 30,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 2,
+      "preset": "Morning",
+      "matching_rows": 9,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 2,
+      "preset": "Midday",
+      "matching_rows": 9,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 2,
+      "preset": "Afternoon",
+      "matching_rows": 6,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 2,
+      "preset": "Custom range",
+      "matching_rows": 12,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 3,
+      "preset": "Any time",
+      "matching_rows": 20,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 3,
+      "preset": "Morning",
+      "matching_rows": 6,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 3,
+      "preset": "Midday",
+      "matching_rows": 6,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 3,
+      "preset": "Afternoon",
+      "matching_rows": 4,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 3,
+      "preset": "Custom range",
+      "matching_rows": 8,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 4,
+      "preset": "Any time",
+      "matching_rows": 10,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 4,
+      "preset": "Morning",
+      "matching_rows": 3,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 4,
+      "preset": "Midday",
+      "matching_rows": 3,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 4,
+      "preset": "Afternoon",
+      "matching_rows": 2,
+      "passed": true
+    },
+    {
+      "holes": "9",
+      "players": 4,
+      "preset": "Custom range",
+      "matching_rows": 4,
+      "passed": true
+    }
+  ],
+  "callback_errors": []
+}

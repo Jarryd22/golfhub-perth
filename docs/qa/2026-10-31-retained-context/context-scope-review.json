@@ -1,0 +1,43 @@
+{
+  "kind": "Independent static source/scope review; no app execution or test run",
+  "base": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "candidate_qt_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+  "changed_GolfHub_methods": [
+    "open_tee_time",
+    "filtered_rows",
+    "_populate_day_section",
+    "render_multi_results",
+    "render_results"
+  ],
+  "unchanged_reviewed_method_AST": {
+    "search_cache": true,
+    "_start_cache_search": true,
+    "cache_finished": true,
+    "search_live": true,
+    "stop_scan": true,
+    "scan_progress": true,
+    "scan_finished": true,
+    "scan_failed": true,
+    "cache_thread_done": true,
+    "scan_thread_done": true,
+    "closeEvent": true,
+    "_booking_choice": true,
+    "_keep_booking_dialog": true,
+    "clear_results": true
+  },
+  "unchanged_base_file_bytes": {
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    "app/shared_cache.py": true,
+    "app/golfhub_core.py": true,
+    "app/course_results.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true
+  },
+  "limits": [
+    "No live provider, booking, hold, notification, runtime ZIP or native UI execution.",
+    "No timing benchmark or golfer/user feedback collected.",
+    "Historical Windows cache_close remains unresolved; no Linux paired investigation."
+  ]
+}

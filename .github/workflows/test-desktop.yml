@@ -15,6 +15,7 @@ on:
       - "tests/test_result_counts.py"
       - "tests/test_provider_error_states.py"
       - "tests/test_startup_cache.py"
+      - "tests/test_retained_search_context.py"
       - "tests/test_perth_dates.py"
       - "tests/test_midnight_rollover.py"
       - "tests/test_time_range_ui.py"
@@ -36,6 +37,7 @@ on:
       - "tests/test_result_counts.py"
       - "tests/test_provider_error_states.py"
       - "tests/test_startup_cache.py"
+      - "tests/test_retained_search_context.py"
       - "tests/test_perth_dates.py"
       - "tests/test_midnight_rollover.py"
       - "tests/test_time_range_ui.py"
@@ -73,6 +75,7 @@ jobs:
             "test_result_counts.py",
             "test_provider_error_states.py",
             "test_startup_cache.py",
+            "test_retained_search_context.py",
             "test_perth_dates.py",
             "test_midnight_rollover.py",
             "test_time_range_ui.py",

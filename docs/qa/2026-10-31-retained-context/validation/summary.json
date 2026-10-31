@@ -1,0 +1,201 @@
+{
+  "timestamp_utc": "2026-10-31T00:22:55.429063+00:00",
+  "commit": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+  "status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n M tests/test_booking_context.py\n?? docs/qa/2026-10-31-retained-context/\n?? tests/test_retained_search_context.py\n",
+  "source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+  "cache_source_sha256": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+  "ui_source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+  "regression_sha256": "088d129c4b9dc998304a3d125d687fee83a4b3f6b9212889e80a8e64c7e33143",
+  "kind": "Linux offscreen source checks; blocked sockets and browser; separate module processes",
+  "modules": [
+    {
+      "module": "test_retained_search_context.py",
+      "log": "test_retained_search_context.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_startup_cache.py",
+      "log": "test_startup_cache.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_provider_error_states.py",
+      "log": "test_provider_error_states.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_result_counts.py",
+      "log": "test_result_counts.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist.py",
+      "log": "test_booking_assist.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_guards.py",
+      "log": "test_booking_assist_guards.log",
+      "exit_code": 0,
+      "run": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_optin.py",
+      "log": "test_booking_assist_optin.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_ui_integration.py",
+      "log": "test_booking_ui_integration.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_v5_ui_requirements.py",
+      "log": "test_v5_ui_requirements.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_collier_behavior.py",
+      "log": "test_collier_behavior.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_cache_states.py",
+      "log": "test_multiday_cache_states.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_midnight_rollover.py",
+      "log": "test_midnight_rollover.log",
+      "exit_code": 0,
+      "run": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_context.py",
+      "log": "test_booking_context.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_course_controls.py",
+      "log": "test_course_controls.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "log": "test_calendar_keyboard.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "log": "test_multiday_ui.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_perth_dates.py",
+      "log": "test_perth_dates.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "log": "test_time_range_ui.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_search_race.py",
+      "log": "test_search_race.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_thread_lifecycle.py",
+      "log": "test_thread_lifecycle.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache*.py",
+      "log": "test_cache-all.log",
+      "exit_code": 0,
+      "run": 80,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

@@ -5,6 +5,7 @@ import sys
 import traceback
 import webbrowser
 from pathlib import Path
+from functools import partial
 from datetime import datetime, timezone
 from zoneinfo import ZoneInfo
 from concurrent.futures import ThreadPoolExecutor, as_completed
@@ -1766,13 +1767,13 @@ class GolfHub(QMainWindow):
         dialog.raise_()
         dialog.activateWindow()
 
-    def open_tee_time(self, result, row):
+    def open_tee_time(self, result, row, *, context=None):
         source_url = row.get("source_url") or result.get("url")
         if not source_url:
             QMessageBox.information(self, "Booking page unavailable", "This tee time did not include an official booking link.")
             return
 
-        players = self.context.get("players")
+        players = (self.context if context is None else context).get("players")
         if players is None:
             webbrowser.open(source_url)
             return
@@ -1861,8 +1862,8 @@ class GolfHub(QMainWindow):
         self._stop_deferred_timers()
         super().closeEvent(event)
 
-    def filtered_rows(self, rows):
-        p = self.context
+    def filtered_rows(self, rows, *, context=None):
+        p = self.context if context is None else context
         filtered = list(rows or [])
         if p.get("players") is not None:
             filtered = [row for row in filtered if int(row.get("spots", 0) or 0) >= p["players"]]
@@ -1873,7 +1874,7 @@ class GolfHub(QMainWindow):
             filtered = [row for row in filtered if int(row.get("minutes", 0) or 0) <= high]
         return filtered
 
-    def _populate_day_section(self, layout, visible_results, date_str=None, *, available=True):
+    def _populate_day_section(self, layout, visible_results, date_str=None, *, available=True, context=None):
         if not available:
             note = QLabel(
                 "Availability could not be checked for this date. Try Find Tee Times again, "
@@ -1884,6 +1885,8 @@ class GolfHub(QMainWindow):
             layout.addWidget(note)
             layout.addStretch()
             return
+        context = dict(self.context if context is None else context)
+        booking_handler = partial(self.open_tee_time, context=context)
         ordered = sorted(
             visible_results,
             key=lambda r: str(r.get("site_name") or "").casefold(),
@@ -1891,15 +1894,15 @@ class GolfHub(QMainWindow):
         rendered = 0
         for result in ordered:
             if should_show_empty_course(result):
-                rows = self.filtered_rows(result.get('decorated_rows', []))
-                layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=date_str))
+                rows = self.filtered_rows(result.get('decorated_rows', []), context=context)
+                layout.addWidget(ResultCard(result, rows, booking_handler, date_str=date_str))
                 rendered += 1
                 continue
             if result.get("direct_booking"):
                 continue
-            rows = self.filtered_rows(result.get("decorated_rows", []))
+            rows = self.filtered_rows(result.get("decorated_rows", []), context=context)
             if rows or result.get("error") or result.get("calendar_availability"):
-                layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=date_str))
+                layout.addWidget(ResultCard(result, rows, booking_handler, date_str=date_str))
                 rendered += 1
         if not rendered:
             note = QLabel("No live tee times matched these filters on this day.")
@@ -2011,8 +2014,8 @@ class GolfHub(QMainWindow):
                 day["date"],
                 day["detail"],
                 day.get("source", "Cache"),
-                lambda layout, results=day["visible"], date_str=day["date"], available=day.get("available", True):
-                    self._populate_day_section(layout, results, date_str, available=available),
+                lambda layout, results=day["visible"], date_str=day["date"], available=day.get("available", True), context=dict(self.context):
+                    self._populate_day_section(layout, results, date_str, available=available, context=context),
             )
             self.day_sections.append(section)
             self.results_layout.addWidget(section)
@@ -2061,6 +2064,7 @@ class GolfHub(QMainWindow):
 
     def render_results(self, results, source):
         self.clear_results()
+        booking_handler = partial(self.open_tee_time, context=dict(self.context))
         selected = {site.name for site in self.context.get("sites", [])}
         visible_results = [r for r in results if r.get("site_name") in selected]
         matches = sum(len(self.filtered_rows(r.get("decorated_rows", []))) for r in visible_results)
@@ -2119,7 +2123,7 @@ class GolfHub(QMainWindow):
             if should_show_empty_course(result):
                 rows = self.filtered_rows(result.get('decorated_rows', []))
                 self.results_layout.addWidget(
-                    ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date"))
+                    ResultCard(result, rows, booking_handler, date_str=self.context.get("date"))
                 )
                 rendered_live += 1
                 continue
@@ -2127,7 +2131,7 @@ class GolfHub(QMainWindow):
             if result.get("direct_booking"):
                 direct_results.append(result)
             elif rows or result.get("error") or result.get("calendar_availability"):
-                self.results_layout.addWidget(ResultCard(result, rows, self.open_tee_time, date_str=self.context.get("date")))
+                self.results_layout.addWidget(ResultCard(result, rows, booking_handler, date_str=self.context.get("date")))
                 rendered_live += 1
 
         if matches == 0 and rendered_live == 0:

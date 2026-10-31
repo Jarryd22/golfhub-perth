@@ -53,6 +53,7 @@ class BookingContextTests(unittest.TestCase):
     def test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff(self):
         result = self.result()
         handler = Mock()
+        submitted_context = dict(self.window.context)
         with patch.object(self.window, "open_tee_time", handler):
             self.window.render_results([result], "Fixture")
         # Changing an unsubmitted filter must not rename the displayed result.
@@ -63,7 +64,7 @@ class BookingContextTests(unittest.TestCase):
         self.app.processEvents()
         self.assertTrue(button.hasFocus())
         QTest.keyClick(button, Qt.Key_Space)
-        handler.assert_called_once_with(result, result["decorated_rows"][0])
+        handler.assert_called_once_with(result, result["decorated_rows"][0], context=submitted_context)
         self.browser.assert_not_called()
 
     def test_repeated_times_distinguish_course_and_round_without_changing_visible_text(self):
