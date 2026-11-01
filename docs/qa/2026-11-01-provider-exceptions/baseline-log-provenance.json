@@ -1,0 +1,16 @@
+[
+  {
+    "log": "new-tests-baseline.log",
+    "raw_gzip": "new-tests-baseline.log.raw.gz",
+    "raw_sha256": "16b2ae86f2ee292c2b38bd6f639932111f4d3f3046de95685b7e47a59b5206d8",
+    "display_sha256": "d3820f92ba158d45795d54c75f3758366fca741b48077b71691d3bb33b3b26ed",
+    "change": "Trailing whitespace trimmed only; original bytes retained in gzip."
+  },
+  {
+    "log": "cache-baseline.log",
+    "raw_gzip": "cache-baseline.log.raw.gz",
+    "raw_sha256": "614aa512b1910cd917b4353318da65204096208b3df8cc61eba2dc7f89f90dab",
+    "display_sha256": "70797df2d76a84bf3ce476b7d7280776b23bcb6117b6ff616e3cafe411139a2f",
+    "change": "Trailing whitespace trimmed only; original bytes retained in gzip."
+  }
+]

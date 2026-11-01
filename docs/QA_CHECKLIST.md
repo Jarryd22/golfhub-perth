@@ -50,6 +50,7 @@ python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
 python -m unittest discover -s tests -p test_provider_error_states.py -v
+python -m unittest discover -s tests -p test_provider_exceptions.py -v
 python -m unittest discover -s tests -p test_startup_cache.py -v
 python -m unittest discover -s tests -p test_retained_search_context.py -v
 python -m unittest discover -s tests -p test_search_race.py -v
@@ -63,7 +64,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 31 October 2026
+## Latest pass: 1 November 2026
+
+See the [provider exception report](qa/2026-11-01-provider-exceptions/REPORT.md). Exercise actual provider/worker catch paths with message-less and whitespace-only exceptions. They must remain failed observations, expose PR18's incomplete wording and official links, and must not count as fresh/recovered cache successes or bypass prior-good reuse/publication guards. Preserve informative error text exactly, successful empty data, partial-page compatibility and existing retry limits. Existing saved blank-error records are not migrated.
+
+**Passed:** 20 new regressions (exact PR20: six passing / 14 failing methods, 22 failed assertion records), **258 aggregate tests** (130 desktop, 91 cache/integrity, 37 additional booking/rendering), plus **50 filter, five startup and 153 configured-link diagnostics** separately. PR16–20 and earlier fixes revalidated. Before/after 1280×800 and compact 980×640 offscreen images inspected; compile, CRLF-aware whitespace, verified actionlint and independent review pass. Intentional baseline failures and raw logs retained; no repaired-test failure or manual rerun. Existing offscreen cursor/font-cache warnings produced no callback errors.
+
+**Inspection only:** 22 source refs, 18 prior drafts, unchanged release metadata, clarity/onboarding/accessibility/speed scope. **Not performed:** native Windows/Android UI, live provider/recovery/booking/hold, screen readers/DPI/resume, updater/signatures, alert worker or notification delivery. Historical Windows cache_close and canonical reconciliation stay pending. Standard lifecycle suite ran once; no repeated Linux diagnosis, health-watch duplication, production action or denial bypass. Final remote-head all-event CI and tested-tree verification are recorded on the draft.
+
+## Previous pass: 31 October 2026
 
 See the [retained search-context report](qa/2026-10-31-retained-context/REPORT.md). Submit a new live request with a different group/time/date while old single/multi-date cards remain visible. Clicking old BOOK or expanding a collapsed old date must use the displayed search context during the request and after failure/cancel; active request context and successful new-result/save behavior must remain new. Test Any↔numeric players, old date/URL identity, lazy and built days, pending controls and direct helper compatibility. Preserve booking consent/hold safeguards; intercept all handoffs.
 

@@ -1,0 +1,234 @@
+QA_RESULT {"run": 9, "failures": 10, "errors": 0, "skipped": 0}
+test_core_failure_and_successful_empty_dates_remain_distinct (cache_state_regressions.ProviderExceptionTests.test_core_failure_and_successful_empty_dates_remain_distinct) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_core_failures_render_incomplete_with_error_card_and_booking_link (cache_state_regressions.ProviderExceptionTests.test_core_failures_render_incomplete_with_error_card_and_booking_link) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_core_failures_render_incomplete_with_error_card_and_booking_link (cache_state_regressions.ProviderExceptionTests.test_core_failures_render_incomplete_with_error_card_and_booking_link) (course='Araluen') ... FAIL
+  test_core_failures_render_incomplete_with_error_card_and_booking_link (cache_state_regressions.ProviderExceptionTests.test_core_failures_render_incomplete_with_error_card_and_booking_link) (course='Wembley') ... FAIL
+test_nonblank_provider_messages_are_preserved_exactly (cache_state_regressions.ProviderExceptionTests.test_nonblank_provider_messages_are_preserved_exactly) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) (exception='TimeoutError()') ... FAIL
+  test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) (exception="ValueError(' \\n\\t')") ... FAIL
+  test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) (exception="RuntimeError('')") ... FAIL
+test_successful_empty_response_remains_known_empty (cache_state_regressions.ProviderExceptionTests.test_successful_empty_response_remains_known_empty) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_successful_second_page_keeps_rows_after_first_page_exception (cache_state_regressions.ProviderExceptionTests.test_successful_second_page_keeps_rows_after_first_page_exception) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure) (exception='TimeoutError()') ... FAIL
+  test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure) (exception="ValueError(' \\n\\t')") ... FAIL
+test_worker_escape_catch_retains_empty_or_whitespace_exception (cache_state_regressions.ProviderExceptionTests.test_worker_escape_catch_retains_empty_or_whitespace_exception) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_worker_escape_catch_retains_empty_or_whitespace_exception (cache_state_regressions.ProviderExceptionTests.test_worker_escape_catch_retains_empty_or_whitespace_exception) (exception='TimeoutError()') ... FAIL
+  test_worker_escape_catch_retains_empty_or_whitespace_exception (cache_state_regressions.ProviderExceptionTests.test_worker_escape_catch_retains_empty_or_whitespace_exception) (exception="ValueError(' \\n\\t')") ... FAIL
+test_worker_preserves_named_failure_and_successful_empty (cache_state_regressions.ProviderExceptionTests.test_worker_preserves_named_failure_and_successful_empty) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+======================================================================
+FAIL: test_core_failure_and_successful_empty_dates_remain_distinct (cache_state_regressions.ProviderExceptionTests.test_core_failure_and_successful_empty_dates_remain_distinct)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 159, in test_core_failure_and_successful_empty_dates_remain_distinct
+    self.assertEqual(self.headline(), "Availability incomplete across 2 days")
+AssertionError: '0 matching times across 2 days' != 'Availability incomplete across 2 days'
+- 0 matching times across 2 days
++ Availability incomplete across 2 days
+
+
+======================================================================
+FAIL: test_core_failures_render_incomplete_with_error_card_and_booking_link (cache_state_regressions.ProviderExceptionTests.test_core_failures_render_incomplete_with_error_card_and_booking_link) (course='Araluen')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 141, in test_core_failures_render_incomplete_with_error_card_and_booking_link
+    self.assertEqual(self.headline(), "Availability incomplete")
+AssertionError: '0 matching times' != 'Availability incomplete'
+- 0 matching times
++ Availability incomplete
+
+
+======================================================================
+FAIL: test_core_failures_render_incomplete_with_error_card_and_booking_link (cache_state_regressions.ProviderExceptionTests.test_core_failures_render_incomplete_with_error_card_and_booking_link) (course='Wembley')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 141, in test_core_failures_render_incomplete_with_error_card_and_booking_link
+    self.assertEqual(self.headline(), "Availability incomplete")
+AssertionError: '0 matching times' != 'Availability incomplete'
+- 0 matching times
++ Availability incomplete
+
+
+======================================================================
+FAIL: test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) (exception='TimeoutError()')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 92, in test_regular_provider_keeps_empty_or_whitespace_exception_as_failure
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: '' != 'TimeoutError'
++ TimeoutError
+
+
+======================================================================
+FAIL: test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) (exception="ValueError(' \\n\\t')")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 92, in test_regular_provider_keeps_empty_or_whitespace_exception_as_failure
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: ' \n\t' != 'ValueError'
++ ValueError
+-
+-
+
+
+======================================================================
+FAIL: test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) (exception="RuntimeError('')")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 92, in test_regular_provider_keeps_empty_or_whitespace_exception_as_failure
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: '' != 'RuntimeError'
++ RuntimeError
+
+
+======================================================================
+FAIL: test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure) (exception='TimeoutError()')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 100, in test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: '' != 'TimeoutError'
++ TimeoutError
+
+
+======================================================================
+FAIL: test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure (cache_state_regressions.ProviderExceptionTests.test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure) (exception="ValueError(' \\n\\t')")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 100, in test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: ' \n\t' != 'ValueError'
++ ValueError
+-
+-
+
+
+======================================================================
+FAIL: test_worker_escape_catch_retains_empty_or_whitespace_exception (cache_state_regressions.ProviderExceptionTests.test_worker_escape_catch_retains_empty_or_whitespace_exception) (exception='TimeoutError()')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 184, in test_worker_escape_catch_retains_empty_or_whitespace_exception
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: '' != 'TimeoutError'
++ TimeoutError
+
+
+======================================================================
+FAIL: test_worker_escape_catch_retains_empty_or_whitespace_exception (cache_state_regressions.ProviderExceptionTests.test_worker_escape_catch_retains_empty_or_whitespace_exception) (exception="ValueError(' \\n\\t')")
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_provider_exceptions.py", line 184, in test_worker_escape_catch_retains_empty_or_whitespace_exception
+    self.assertEqual(result["error"], type(failure).__name__)
+AssertionError: ' \n\t' != 'ValueError'
++ ValueError
+-
+-
+
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.531s
+
+FAILED (failures=10)

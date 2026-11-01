@@ -1,0 +1,148 @@
+test_blank_direct_constructor_exception_still_blocks_publication (cache_provider_baseline.CacheProviderExceptionTests.test_blank_direct_constructor_exception_still_blocks_publication) ... FAIL
+test_blank_outer_processing_exception_remains_failed (cache_provider_baseline.CacheProviderExceptionTests.test_blank_outer_processing_exception_remains_failed) ... FAIL
+test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) ...
+  test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='TimeoutError') ... FAIL
+  test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='RuntimeError') ... FAIL
+  test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='ValueError') ... FAIL
+test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) ...
+  test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) (exception='TimeoutError') ... FAIL
+  test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) (exception='RuntimeError') ... FAIL
+test_blank_wembley_calendar_exception_remains_failed (cache_provider_baseline.CacheProviderExceptionTests.test_blank_wembley_calendar_exception_remains_failed) ... FAIL
+test_blank_worker_failure_can_reuse_prior_good_data_with_stale_reason (cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failure_can_reuse_prior_good_data_with_stale_reason) ... FAIL
+test_blank_worker_failure_is_published_as_unknown_when_majority_succeeds (cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failure_is_published_as_unknown_when_majority_succeeds) ... FAIL
+test_blank_worker_failures_do_not_pass_the_fresh_majority_gate (cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failures_do_not_pass_the_fresh_majority_gate) ... FAIL
+test_multi_page_failures_retain_both_exception_diagnostics (cache_provider_baseline.CacheProviderExceptionTests.test_multi_page_failures_retain_both_exception_diagnostics) ... FAIL
+test_nonblank_provider_diagnostics_are_preserved_exactly (cache_provider_baseline.CacheProviderExceptionTests.test_nonblank_provider_diagnostics_are_preserved_exactly) ... ok
+test_successfully_checked_empty_page_remains_an_empty_success (cache_provider_baseline.CacheProviderExceptionTests.test_successfully_checked_empty_page_remains_an_empty_success) ... ok
+
+======================================================================
+FAIL: test_blank_direct_constructor_exception_still_blocks_publication (cache_provider_baseline.CacheProviderExceptionTests.test_blank_direct_constructor_exception_still_blocks_publication)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 220, in test_blank_direct_constructor_exception_still_blocks_publication
+    with self.assertRaisesRegex(RuntimeError, "Direct booking result construction failed: Direct"):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_blank_outer_processing_exception_remains_failed (cache_provider_baseline.CacheProviderExceptionTests.test_blank_outer_processing_exception_remains_failed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 135, in test_blank_outer_processing_exception_remains_failed
+    self.assertEqual(result["error"], "RuntimeError")
+AssertionError: '' != 'RuntimeError'
++ RuntimeError
+
+
+======================================================================
+FAIL: test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='TimeoutError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 96, in test_blank_page_exceptions_remain_failed_provider_results
+    self.assertEqual(result["error"], type(exception).__name__)
+AssertionError: '' != 'TimeoutError'
++ TimeoutError
+
+
+======================================================================
+FAIL: test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='RuntimeError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 96, in test_blank_page_exceptions_remain_failed_provider_results
+    self.assertEqual(result["error"], type(exception).__name__)
+AssertionError: '' != 'RuntimeError'
++ RuntimeError
+
+
+======================================================================
+FAIL: test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='ValueError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 96, in test_blank_page_exceptions_remain_failed_provider_results
+    self.assertEqual(result["error"], type(exception).__name__)
+AssertionError: ' \t\n' != 'ValueError'
++ ValueError
+-
+-
+
+
+======================================================================
+FAIL: test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) (exception='TimeoutError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 155, in test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class
+    self.assertEqual(stats, (1, 0))
+AssertionError: Tuples differ: (1, 1) != (1, 0)
+
+First differing element 1:
+1
+0
+
+- (1, 1)
+?     ^
+
++ (1, 0)
+?     ^
+
+
+======================================================================
+FAIL: test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) (exception='RuntimeError')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 156, in test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class
+    self.assertEqual(results[site.name]["error"], type(exception).__name__)
+AssertionError: ' \t' != 'RuntimeError'
+-
++ RuntimeError
+
+
+======================================================================
+FAIL: test_blank_wembley_calendar_exception_remains_failed (cache_provider_baseline.CacheProviderExceptionTests.test_blank_wembley_calendar_exception_remains_failed)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 122, in test_blank_wembley_calendar_exception_remains_failed
+    self.assertEqual(result["error"], "TimeoutError")
+AssertionError: '' != 'TimeoutError'
++ TimeoutError
+
+
+======================================================================
+FAIL: test_blank_worker_failure_can_reuse_prior_good_data_with_stale_reason (cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failure_can_reuse_prior_good_data_with_stale_reason)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 203, in test_blank_worker_failure_can_reuse_prior_good_data_with_stale_reason
+    self.assertEqual(payload["health"]["fresh_live_successes"], 2)
+AssertionError: 3 != 2
+
+======================================================================
+FAIL: test_blank_worker_failure_is_published_as_unknown_when_majority_succeeds (cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failure_is_published_as_unknown_when_majority_succeeds)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 185, in test_blank_worker_failure_is_published_as_unknown_when_majority_succeeds
+    self.assertEqual(payload["health"]["fresh_live_successes"], 2)
+AssertionError: 3 != 2
+
+======================================================================
+FAIL: test_blank_worker_failures_do_not_pass_the_fresh_majority_gate (cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failures_do_not_pass_the_fresh_majority_gate)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 169, in test_blank_worker_failures_do_not_pass_the_fresh_majority_gate
+    with self.assertRaisesRegex(RuntimeError, "0/3 live providers succeeded; 2 required"):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: RuntimeError not raised
+
+======================================================================
+FAIL: test_multi_page_failures_retain_both_exception_diagnostics (cache_provider_baseline.CacheProviderExceptionTests.test_multi_page_failures_retain_both_exception_diagnostics)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py", line 111, in test_multi_page_failures_retain_both_exception_diagnostics
+    self.assertEqual(result["error"], "TimeoutError; HTTP Error 403: Forbidden")
+AssertionError: '; HTTP Error 403: Forbidden' != 'TimeoutError; HTTP Error 403: Forbidden'
+- ; HTTP Error 403: Forbidden
++ TimeoutError; HTTP Error 403: Forbidden
+
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.022s
+
+FAILED (failures=12)

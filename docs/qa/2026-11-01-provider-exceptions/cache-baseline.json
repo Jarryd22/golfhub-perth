@@ -1,0 +1,69 @@
+{
+  "timestamp_utc": "2026-11-01T00:23:31.499696+00:00",
+  "source_root": "/workspace/golfhub-20261031",
+  "source_head": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+  "source_hashes": {
+    "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+    "scripts/refresh_cache_shard.py": "3ddccfe4b01963dbd42f22b393991c174a0bca6e06c1147cacbfb2aeddf49417",
+    "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428"
+  },
+  "source_unchanged_during_run": {
+    "app/golfhub_core.py": true,
+    "scripts/refresh_cache_shard.py": true,
+    "app/qt_golfhub_app.py": true
+  },
+  "test_file": "/workspace/golfhub-20261101/tests/test_cache_provider_exceptions.py",
+  "test_sha256": "06bcb967ef7e465c31ab9f1208db054f2fef739de4cee8bd48c95c8064204f21",
+  "tests_run": 11,
+  "passed_methods": [
+    "cache_provider_baseline.CacheProviderExceptionTests.test_nonblank_provider_diagnostics_are_preserved_exactly",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_successfully_checked_empty_page_remains_an_empty_success"
+  ],
+  "failed_methods": [
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_direct_constructor_exception_still_blocks_publication",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_outer_processing_exception_remains_failed",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_wembley_calendar_exception_remains_failed",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failure_can_reuse_prior_good_data_with_stale_reason",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failure_is_published_as_unknown_when_majority_succeeds",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_blank_worker_failures_do_not_pass_the_fresh_majority_gate",
+    "cache_provider_baseline.CacheProviderExceptionTests.test_multi_page_failures_retain_both_exception_diagnostics"
+  ],
+  "errored_methods": [],
+  "failure_records": 12,
+  "error_records": 0,
+  "failed_subtests": [
+    {
+      "method": "cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results",
+      "subtest": "test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='TimeoutError')",
+      "exception": "AssertionError",
+      "message": "'' != 'TimeoutError'\n+ TimeoutError\n"
+    },
+    {
+      "method": "cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results",
+      "subtest": "test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='RuntimeError')",
+      "exception": "AssertionError",
+      "message": "'' != 'RuntimeError'\n+ RuntimeError\n"
+    },
+    {
+      "method": "cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results",
+      "subtest": "test_blank_page_exceptions_remain_failed_provider_results (cache_provider_baseline.CacheProviderExceptionTests.test_blank_page_exceptions_remain_failed_provider_results) (exception='ValueError')",
+      "exception": "AssertionError",
+      "message": "' \\t\\n' != 'ValueError'\n+ ValueError\n-  \t\n- \n"
+    },
+    {
+      "method": "cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class",
+      "subtest": "test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) (exception='TimeoutError')",
+      "exception": "AssertionError",
+      "message": "Tuples differ: (1, 1) != (1, 0)\n\nFirst differing element 1:\n1\n0\n\n- (1, 1)\n?     ^\n\n+ (1, 0)\n?     ^\n"
+    },
+    {
+      "method": "cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class",
+      "subtest": "test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class (cache_provider_baseline.CacheProviderExceptionTests.test_blank_retry_exception_is_not_a_recovery_or_a_new_retry_class) (exception='RuntimeError')",
+      "exception": "AssertionError",
+      "message": "' \\t' != 'RuntimeError'\n-  \t\n+ RuntimeError\n"
+    }
+  ],
+  "kind": "Offline exact-PR20 baseline; real core/shard functions with network/weather/fetches mocked, local completed futures, temporary files; no production CLI/provider execution."
+}

@@ -1,0 +1,1531 @@
+{
+  "timestamp_utc": "2026-11-01T00:21:32.040612+00:00",
+  "head": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+  "source_hashes": {
+    "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+    "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+    "data/courses.json": "6d8cf3ba2c6a32e44346ae41e032285f088661940a39df3fa5921f1fb26edeb3"
+  },
+  "scope": "Linux offscreen, configured sites, synthetic provider failures and intercepted browser handoffs; no provider access, live bookings, holds, or native-device validation",
+  "sites": 41,
+  "checks": [
+    {
+      "scenario": "configured card handoff",
+      "site": "Altone Park",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.altoneparkgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Altone Park",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.altoneparkgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Araluen",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Araluen",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102808",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Boddington Golf Club",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Boddington Golf Club",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Carramar",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1500624075",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Carramar",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1500682805",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Chequers",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.chequersgolf.com",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Collier Park",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000",
+      "button": "VIEW OFFICIAL CALENDAR",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Collier Park",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000",
+      "button": "VIEW OFFICIAL CALENDAR",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Embleton",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://embletongolf.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Fremantle",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=112751",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Fremantle",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=103961",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Gosnells Golf Club",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=19995128",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Gosnells Golf Club",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=4981964",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hamersley",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "quick18",
+      "target": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20330103",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hamersley",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "quick18",
+      "target": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20330103",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hartfield",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1511784382",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hartfield",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1511784389",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hillview",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://hillviewgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hillview",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://hillviewgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Joondalup Resort",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2033-01-03&feeGroupId=1508198355",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Joondalup Resort",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2033-01-03&feeGroupId=1508504524",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Kwinana",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1505795368",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Kwinana",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1502727564",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Lake Claremont",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "quick18",
+      "target": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20330103",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Links Kennedy Bay",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=3451280",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Links Kennedy Bay",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=3451283",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mandurah Country Club",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.mandcountryclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mandurah Country Club",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.mandcountryclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marangaroo",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1500406571",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marangaroo",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1500406575",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marri Park",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://marriparkgolf.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marri Park",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://marriparkgolf.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Maylands",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=100795",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Maylands",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=100797",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Meadow Springs",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.msgcc.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Meadow Springs",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.msgcc.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mosman Park",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=2100233",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mosman Park",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=2100238",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Nedlands Golf Club",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.nedlandsgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=3579395",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Pickering Brook",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.pickeringbrooksportsclub.org/golf",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Pinjarra",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.pinjarragolf.com.au/cms/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Pinjarra",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.pinjarragolf.com.au/cms/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Point Walter",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Preston Beach",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.visitwaroona.com.au/adventure/sport-and-recreation.aspx",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rockingham",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rockingham",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rottnest Island",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.rigcclubhouse.com.au/home",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rottnest Island",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.rigcclubhouse.com.au/home",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sea View",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://seaviewgolfclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sea View",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://seaviewgolfclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Secret Harbour",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=12445",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Secret Harbour",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=12449",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Serpentine & Districts",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://serpentinegolfclub.org/fees/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Serpentine & Districts",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://serpentinegolfclub.org/fees/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sun City",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sun City",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Cut",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://thecutgolf.com.au/Golf-Rates",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Springs",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "quick18",
+      "target": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20330103",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Springs",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "quick18",
+      "target": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20330103",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Vines",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2033-01-03&feeGroupId=25803812",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Vines",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2033-01-03&feeGroupId=22289426",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wanneroo Golf Club",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wanneroo Golf Club",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Waroona Golf Club",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.waroonagolfclub.com.au/green-fees",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Waroona Golf Club",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://www.waroonagolfclub.com.au/green-fees",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wembley",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000&selectedDate=2033-01-03&mobile=true",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wembley",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000&selectedDate=2033-01-03&mobile=true",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Whaleback",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1500344723",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Whaleback",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "miclub",
+      "target": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=1500344725",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Yanchep National Park",
+      "holes": "18",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Yanchep National Park",
+      "holes": "9",
+      "date": "2033-01-03",
+      "provider": "direct",
+      "target": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Altone Park",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.altoneparkgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Altone Park",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.altoneparkgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Araluen",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=102807",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Araluen",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=102808",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Boddington Golf Club",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Boddington Golf Club",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Carramar",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1500682792",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Carramar",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://carramar.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1500468370",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Chequers",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.chequersgolf.com",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Collier Park",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000",
+      "button": "VIEW OFFICIAL CALENDAR",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Collier Park",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://bookings.collierparkgolf.com.au/guests/bookings/ViewPublicCalendar.msp?booking_resource_id=3000000",
+      "button": "VIEW OFFICIAL CALENDAR",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Embleton",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://embletongolf.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Fremantle",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=112751",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Fremantle",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://fremantlepublic.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=103961",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Gosnells Golf Club",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=19995128",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Gosnells Golf Club",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.gosnellsgc.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=4981964",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hamersley",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "quick18",
+      "target": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20330101",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hamersley",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "quick18",
+      "target": "https://hamersley.quick18.com/teetimes/searchmatrix?teedate=20330101",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hartfield",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1513579103",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hartfield",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.hartfieldgolf.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1517030949",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hillview",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://hillviewgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Hillview",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://hillviewgolfcourse.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Joondalup Resort",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2033-01-01&feeGroupId=1508198355",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Joondalup Resort",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://golfbookings.joondalupresort.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3900000&selectedDate=2033-01-01&feeGroupId=1508504524",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Kwinana",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1505795368",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Kwinana",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.kwinanagolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1502727564",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Lake Claremont",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "quick18",
+      "target": "https://lakeclaremont.quick18.com/teetimes/searchmatrix?teedate=20330101",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Links Kennedy Bay",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=3451280",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Links Kennedy Bay",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://kennedybay.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=3451283",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mandurah Country Club",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.mandcountryclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mandurah Country Club",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.mandcountryclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marangaroo",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1500406571",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marangaroo",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://marangaroo.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1500406575",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marri Park",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://marriparkgolf.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Marri Park",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://marriparkgolf.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Maylands",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=100795",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Maylands",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://maylandsembleton.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=100797",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Meadow Springs",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.msgcc.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Meadow Springs",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.msgcc.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mosman Park",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=2100233",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Mosman Park",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.mosmanparkgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=2100238",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Nedlands Golf Club",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.nedlandsgolfclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=3579395",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Pickering Brook",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.pickeringbrooksportsclub.org/golf",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Pinjarra",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.pinjarragolf.com.au/cms/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Pinjarra",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.pinjarragolf.com.au/cms/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Point Walter",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.pointwaltergolf.com.au/play-golf/golf-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Preston Beach",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.visitwaroona.com.au/adventure/sport-and-recreation.aspx",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rockingham",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rockingham",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.rockinghamgolfclub.com.au/cms/golf/public-bookings",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rottnest Island",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.rigcclubhouse.com.au/home",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Rottnest Island",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.rigcclubhouse.com.au/home",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sea View",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://seaviewgolfclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sea View",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://seaviewgolfclub.com.au",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Secret Harbour",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=12445",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Secret Harbour",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://secretharbour.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=12449",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Serpentine & Districts",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://serpentinegolfclub.org/fees/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Serpentine & Districts",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://serpentinegolfclub.org/fees/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sun City",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Sun City",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://suncity.miclub.com.au/guests/bookings/ViewPublicCalendar.msp",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Cut",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://thecutgolf.com.au/Golf-Rates",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Springs",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "quick18",
+      "target": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20330101",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Springs",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "quick18",
+      "target": "https://springs.quick18.com/teetimes/searchmatrix?teedate=20330101",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Vines",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2033-01-01&feeGroupId=25803812",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "The Vines",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://thevines.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000010&selectedDate=2033-01-01&feeGroupId=22289426",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wanneroo Golf Club",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wanneroo Golf Club",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://wanneroo.miclub.com.au/cms/public-bookings/",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Waroona Golf Club",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.waroonagolfclub.com.au/green-fees",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Waroona Golf Club",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://www.waroonagolfclub.com.au/green-fees",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wembley",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000&selectedDate=2033-01-01&mobile=true",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Wembley",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.wembleygolf.com.au/guests/bookings/ViewPublicCalendar.msp?bookingResourceId=3000000&selectedDate=2033-01-01&mobile=true",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Whaleback",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1500344723",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Whaleback",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "miclub",
+      "target": "https://www.whalebackgolfcourse.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-01&feeGroupId=1500344725",
+      "button": "OPEN BOOKING PAGE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Yanchep National Park",
+      "holes": "18",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "configured card handoff",
+      "site": "Yanchep National Park",
+      "holes": "9",
+      "date": "2033-01-01",
+      "provider": "direct",
+      "target": "https://exploreparks.dbca.wa.gov.au/site/yanchep-golf-course",
+      "button": "VIEW COURSE",
+      "pass": true
+    },
+    {
+      "scenario": "unsupported rounds excluded before request",
+      "holes": "18",
+      "selected_count": 37,
+      "pass": true
+    },
+    {
+      "scenario": "unsupported rounds excluded before request",
+      "holes": "9",
+      "selected_count": 37,
+      "pass": true
+    },
+    {
+      "scenario": "row handoff fallback or missing-link explanation",
+      "row_url": "https://example.invalid/row",
+      "course_url": "https://example.invalid/course",
+      "actual": [
+        "https://example.invalid/row"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "row handoff fallback or missing-link explanation",
+      "row_url": null,
+      "course_url": "https://example.invalid/course",
+      "actual": [
+        "https://example.invalid/course"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "row handoff fallback or missing-link explanation",
+      "row_url": null,
+      "course_url": null,
+      "actual": [],
+      "pass": true
+    }
+  ],
+  "callback_errors": []
+}

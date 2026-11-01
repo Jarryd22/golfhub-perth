@@ -1,0 +1,22 @@
+{
+  "verdict": "No duplicate normalization across all 22 source refs; focused shared exception-message fallback is warranted in core, ScanWorker and both shard producer catches.",
+  "source_audit": "context-audit.json",
+  "baseline": "cache-baseline.json",
+  "new_pure_regression_methods": 11,
+  "baseline_passed_methods": 2,
+  "baseline_failed_methods": 9,
+  "baseline_failure_records": 12,
+  "baseline_errors": 0,
+  "test_sha256": "06bcb967ef7e465c31ab9f1208db054f2fef739de4cee8bd48c95c8064204f21",
+  "test_identical_to_baseline": true,
+  "reviewed_runtime_sha256": {
+    "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+    "app/qt_golfhub_app.py": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+    "scripts/refresh_cache_shard.py": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9"
+  },
+  "scope_review": "Shared helper preserves nonblank exception text exactly and uses type name only for empty/whitespace text. Six existing serialization sites call it. Weather-only exceptions, retry recognition/budgets, provider success processing, UI classes and workflows are outside the change.",
+  "publisher_evidence": "Exact baseline falsely recovered a blank retry exception, allowed all-failed futures through the majority gate, skipped prior-good stale fallback and let an empty direct-constructor failure pass its publication guard. Fully mocked main function with completed local futures and temporary output proves these paths without production execution.",
+  "after_tests": "Parent reports 258/258 aggregate checks, including all 11 cache regressions and 9 UI/worker regressions; no duplicate after-run by this agent.",
+  "app_script_edits_by_agent": false,
+  "blockers": []
+}
