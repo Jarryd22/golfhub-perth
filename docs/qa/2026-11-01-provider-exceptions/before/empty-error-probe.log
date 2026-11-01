@@ -1,0 +1,201 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-01T00:20:20.774637+00:00",
+  "head": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+  "source_hashes": {
+    "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+    "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428"
+  },
+  "kind": "Linux offscreen; actual core parser error paths and synchronous ScanWorker.run with mocked provider fetch; sockets/browser blocked; no Qt worker launch",
+  "cases": [
+    {
+      "case": "araluen-no-message-timeout",
+      "site": "Araluen",
+      "raised": "TimeoutError()",
+      "result_error": "",
+      "error_truthy": false,
+      "rows": [],
+      "headline": "0 matching times",
+      "status": "0 matching tee times across 0 courses",
+      "rendered_course_cards": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "0 official course links",
+        "1 courses with no matching times",
+        "Synthetic provider response",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below."
+      ]
+    },
+    {
+      "case": "araluen-named-timeout",
+      "site": "Araluen",
+      "raised": "TimeoutError('Synthetic timeout')",
+      "result_error": "Synthetic timeout",
+      "error_truthy": true,
+      "rows": [],
+      "headline": "Availability incomplete",
+      "status": "Availability could not be checked for 1 course",
+      "rendered_course_cards": 1,
+      "labels": [
+        "Availability incomplete",
+        "0 availability feeds",
+        "0 official course links",
+        "Synthetic provider response",
+        "Availability could not be checked for 1 course. Open the course cards for details.",
+        "Araluen",
+        "Could not read live availability - direct booking is still available",
+        "",
+        "Forecast unavailable",
+        "Live times were unavailable for this course. You can still open its official booking page."
+      ]
+    },
+    {
+      "case": "wembley-no-message-timeout",
+      "site": "Wembley",
+      "raised": "TimeoutError()",
+      "result_error": "",
+      "error_truthy": false,
+      "rows": [],
+      "headline": "0 matching times",
+      "status": "0 matching tee times across 0 courses",
+      "rendered_course_cards": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "0 official course links",
+        "1 courses with no matching times",
+        "Synthetic provider response",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below."
+      ]
+    },
+    {
+      "case": "wembley-named-timeout",
+      "site": "Wembley",
+      "raised": "TimeoutError('Synthetic timeout')",
+      "result_error": "Synthetic timeout",
+      "error_truthy": true,
+      "rows": [],
+      "headline": "Availability incomplete",
+      "status": "Availability could not be checked for 1 course",
+      "rendered_course_cards": 1,
+      "labels": [
+        "Availability incomplete",
+        "0 availability feeds",
+        "0 official course links",
+        "Synthetic provider response",
+        "Availability could not be checked for 1 course. Open the course cards for details.",
+        "Wembley",
+        "Could not read live availability - direct booking is still available",
+        "",
+        "Forecast unavailable",
+        "Live times were unavailable for this course. You can still open its official booking page."
+      ]
+    },
+    {
+      "case": "araluen-successful-empty",
+      "site": "Araluen",
+      "raised": null,
+      "result_error": null,
+      "error_truthy": false,
+      "rows": [],
+      "headline": "0 matching times",
+      "status": "0 matching tee times across 0 courses",
+      "rendered_course_cards": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "0 official course links",
+        "1 courses with no matching times",
+        "Synthetic provider response",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below."
+      ]
+    },
+    {
+      "case": "worker-no-message-timeout",
+      "site": "Araluen",
+      "raised": "TimeoutError()",
+      "result_error": "",
+      "error_truthy": false,
+      "rows": [],
+      "headline": "0 matching times",
+      "status": "0 matching tee times across 0 courses",
+      "rendered_course_cards": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "0 official course links",
+        "1 courses with no matching times",
+        "Synthetic provider response",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below."
+      ]
+    }
+  ],
+  "callback_errors": []
+}

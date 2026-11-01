@@ -19,6 +19,7 @@ from app.course_results import direct_result
 from app.golfhub_core import (
     CONFIG_FILE,
     DATA_DIR,
+    exception_message,
     fetch_site_result,
     load_sites,
     preload_weather_cache,
@@ -150,7 +151,7 @@ def retry_transient_results(
         try:
             result = fetch_one(site, date_str, hole_type)
         except Exception as exc:
-            result = {**failed, "error": str(exc)}
+            result = {**failed, "error": exception_message(exc)}
         by_name[site.name] = result
         if result.get("error"):
             print(f"Delayed cache retry failed for {site.name}: {result['error']}")
@@ -197,7 +198,7 @@ def main() -> int:
                             "url": f"https://{site.domain}",
                             "hole_label": f"{hole_type} holes",
                             "decorated_rows": [],
-                            "error": str(exc),
+                            "error": exception_message(exc),
                             "not_configured": False,
                         }
 

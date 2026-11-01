@@ -1452,6 +1452,12 @@ def weather_summary_text(weather: dict | None) -> str:
     )
 
 
+def exception_message(exc: Exception) -> str:
+    """Keep failed observations distinct from successful empty results."""
+    message = str(exc)
+    return message if message.strip() else type(exc).__name__
+
+
 def fetch_site_result(
     site: Site,
     date_str: str,
@@ -1524,7 +1530,7 @@ def fetch_site_result(
                 "display_earliest": None,
                 "earliest_group_times": [],
                 "weather": weather,
-                "error": str(exc),
+                "error": exception_message(exc),
                 "not_configured": False,
             }
 
@@ -1548,7 +1554,7 @@ def fetch_site_result(
                     row["source_url"] = one_url
                 rows.extend(page_rows)
             except Exception as page_exc:
-                fetch_errors.append(str(page_exc))
+                fetch_errors.append(exception_message(page_exc))
 
         if not rows and wembley_fallback is not None:
             # A calendar-level result is more truthful and useful than an empty
@@ -1656,7 +1662,7 @@ def fetch_site_result(
             "display_earliest": None,
             "earliest_group_times": [],
             "weather": weather,
-            "error": str(exc),
+            "error": exception_message(exc),
             "not_configured": False,
         }
 

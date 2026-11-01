@@ -44,6 +44,7 @@ from app.golfhub_core import (
     COLLIER_PUBLIC_CALENDAR_URL,
     CONFIG_FILE,
     DATA_DIR,
+    exception_message,
     fetch_site_result,
     load_sites,
     parse_user_time,
@@ -160,7 +161,7 @@ class ScanWorker(QObject):
                             "url": f"https://{site.domain}",
                             "hole_label": f"{self.hole_type} holes",
                             "decorated_rows": [],
-                            "error": str(exc),
+                            "error": exception_message(exc),
                             "not_configured": False,
                         }
                     completed += 1

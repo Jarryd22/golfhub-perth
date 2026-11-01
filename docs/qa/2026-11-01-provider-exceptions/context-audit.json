@@ -1,0 +1,2016 @@
+{
+  "checked_at_utc": "2026-11-01T00:19:35.859Z",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "scope": "Read-only remote branches, current open PRs/issues and update-release metadata; source-ref/instruction audit. No hourly cache/provider watch, asset download or execution, device tests, production triggers or remote mutation.",
+  "repositories": {
+    "source": {
+      "name": "Jarryd22/golfhub-perth",
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+          "protected": false
+        },
+        {
+          "name": "cache",
+          "sha": "e5855faac507e9732557477bba1c71c8bfff6e15",
+          "protected": false
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-shape-20261030",
+          "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-matching-course-count-20261028",
+          "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-missing-cache-20261027",
+          "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-error-wording-20261029",
+          "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-retained-search-context-20261031",
+          "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "protected": false
+        },
+        {
+          "name": "news",
+          "sha": "cbd1f654db31a0e3973fc2e43e585b7c6cbabef5",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 18,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/issues?state=open&per_page=100"
+      ]
+    },
+    "windows": {
+      "name": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 0,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/issues?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/releases/latest",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/git/trees/b53909b8edac42055071e01914aff7d1921a8305?recursive=1"
+      ],
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    },
+    "android": {
+      "name": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 0,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/issues?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/releases/latest",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/git/trees/cfec2bbd6205edae0f733f6931e0e535db284e48?recursive=1"
+      ],
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    }
+  },
+  "open_drafts": [
+    {
+      "number": 20,
+      "title": "Preserve displayed search context during live refresh",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/20",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0"
+      },
+      "base": {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c"
+      },
+      "updated_at": "2026-10-31T00:27:45Z"
+    },
+    {
+      "number": 19,
+      "title": "Reject malformed cache records before saving or rendering",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/19",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c"
+      },
+      "base": {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3"
+      },
+      "updated_at": "2026-10-30T00:44:33Z"
+    },
+    {
+      "number": 18,
+      "title": "Distinguish provider failures from empty tee-time results",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/18",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3"
+      },
+      "base": {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+      },
+      "updated_at": "2026-10-29T00:19:46Z"
+    },
+    {
+      "number": 17,
+      "title": "Count only courses with matching exact tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+      },
+      "base": {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+      },
+      "updated_at": "2026-10-28T00:15:54Z"
+    },
+    {
+      "number": 16,
+      "title": "Distinguish missing date cache from empty tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+      },
+      "base": {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+      },
+      "updated_at": "2026-10-27T00:33:07Z"
+    },
+    {
+      "number": 15,
+      "title": "Validate alert runtime ZIP integrity without executing it",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+      "draft": true,
+      "head": {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+      },
+      "base": {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+      },
+      "updated_at": "2026-10-26T00:57:34Z"
+    },
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+      },
+      "base": {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+      },
+      "updated_at": "2026-10-21T01:16:03Z"
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+      },
+      "base": {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c"
+      },
+      "updated_at": "2026-10-20T00:31:20Z"
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c"
+      },
+      "base": {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+      },
+      "updated_at": "2026-10-20T00:14:31Z"
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+      },
+      "base": {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+      },
+      "updated_at": "2026-10-19T00:29:25Z"
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+      },
+      "base": {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+      },
+      "updated_at": "2026-10-18T01:08:03Z"
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-16T23:32:04Z"
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61"
+      },
+      "updated_at": "2026-10-09T16:46:54Z"
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+      },
+      "updated_at": "2026-10-07T08:28:10Z"
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+      },
+      "updated_at": "2026-10-07T04:35:09Z"
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-07T04:22:00Z"
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-06T23:02:02Z"
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-04T09:44:25Z"
+    }
+  ],
+  "open_non_pr_issues": [],
+  "pagination": {
+    "page_size": 100,
+    "note": "All returned branch, PR and issue lists are shorter than 100; no list truncation."
+  },
+  "limitations": [
+    "Historical Windows cache_close timeout remains unresolved; no repeated Linux paired investigation.",
+    "Canonical newer desktop/mobile source reconciliation remains pending.",
+    "No direct provider access or bypass of earlier denials, booking/hold/notification actions, runtime ZIP execution, binaries or device testing.",
+    "No merges, deployment, release publication, production workflow triggers, credentials/security changes, spending or third-party contact.",
+    "Update repository branches and release asset metadata checked; no fresh signature verification, asset download or installed update test."
+  ],
+  "source_duplicate_audit": {
+    "status": "completed_source_inspection_with_separate_offline_baseline",
+    "candidate": "Empty-message provider exceptions become falsey error strings, so desktop/cache consumers treat failed observations as checked empty availability.",
+    "source_refs_examined": 22,
+    "refs": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1543,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1412,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 127,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1450,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 127,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1742,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1611,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 149,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 156,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 198,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1649,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 254,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1709,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1578,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 149,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 156,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 198,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1616,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1682,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1551,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1589,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1656,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1525,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 181,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 223,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1563,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1811,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1679,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 182,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 225,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1717,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 158,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 157,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "error_conversions": {
+          "app/golfhub_core.py": [
+            {
+              "line": 1644,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 1513,
+              "expression": "str(exc)"
+            }
+          ],
+          "app/qt_golfhub_app.py": [
+            {
+              "line": 148,
+              "expression": "str(exc)"
+            }
+          ],
+          "scripts/refresh_cache_shard.py": [
+            {
+              "line": 153,
+              "expression": "str(exc)"
+            },
+            {
+              "line": 195,
+              "expression": "str(exc)"
+            }
+          ]
+        },
+        "exception_formatter_helpers": {
+          "app/golfhub_core.py": [],
+          "app/qt_golfhub_app.py": [],
+          "scripts/refresh_cache_shard.py": []
+        },
+        "page_error_aggregation": [
+          {
+            "line": 1551,
+            "expression": "fetch_errors.append(str(page_exc))"
+          }
+        ]
+      }
+    ],
+    "method_groups": {
+      "fetch_site_result": {
+        "9675c6931b7d0c910df730b8eb98d7228519c5cdaba1fa29353dbf5f9e8c42ff": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "representative_line": 1455,
+          "relevant_excerpt": [
+            "                \"earliest_group_times\": [],\n                \"weather\": weather,\n                \"error\": str(exc),\n                \"not_configured\": False,\n            }\n",
+            "                rows.extend(page_rows)\n            except Exception as page_exc:\n                fetch_errors.append(str(page_exc))\n\n        if not rows and wembley_fallback is not None:\n            # A calendar-level result is more truthful and useful than an empty",
+            "            \"earliest_group_times\": [],\n            \"weather\": weather,\n            \"error\": str(exc),\n            \"not_configured\": False,\n        }"
+          ]
+        },
+        "c6cae01d672ca0ea915e87bddddb6b6e544e2c4cbd447b7ed6880d3d3e3bdde5": {
+          "refs": [
+            "fix/cache-refresh-wembley-rendered"
+          ],
+          "representative_ref": "fix/cache-refresh-wembley-rendered",
+          "representative_line": 1583,
+          "relevant_excerpt": [
+            "                \"earliest_group_times\": [],\n                \"weather\": weather,\n                \"error\": str(exc),\n                \"not_configured\": False,\n            }\n",
+            "                rows.extend(page_rows)\n            except Exception as page_exc:\n                fetch_errors.append(str(page_exc))\n\n        if not rows and wembley_fallback is not None:\n            # A calendar-level result is more truthful and useful than an empty",
+            "            \"earliest_group_times\": [],\n            \"weather\": weather,\n            \"error\": str(exc),\n            \"not_configured\": False,\n        }"
+          ]
+        }
+      },
+      "ScanWorker.run": {
+        "a49c920221d4aaa632ebdb8cdbff8a78921d0c5ddd399b6f80eb9110a7f9aa50": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "representative_line": 132,
+          "relevant_excerpt": [
+            "                            \"hole_label\": f\"{self.hole_type} holes\",\n                            \"decorated_rows\": [],\n                            \"error\": str(exc),\n                            \"not_configured\": False,\n                        }\n                    completed += 1"
+          ]
+        }
+      },
+      "retry_transient_results": {
+        "88ae5e59f9788dd24a6ca5163e8d8efd47924dd80a85a7c4ddd4d3d49ddd65a0": {
+          "refs": [
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "representative_line": 122,
+          "relevant_excerpt": [
+            "            result = fetch_one(site, date_str, hole_type)\n        except Exception as exc:\n            result = {**failed, \"error\": str(exc)}\n        by_name[site.name] = result\n        if result.get(\"error\"):\n            print(f\"Delayed cache retry failed for {site.name}: {result['error']}\")",
+            "            print(f\"Delayed cache retry failed for {site.name}: {result['error']}\")\n        else:\n            recovered += 1\n            print(f\"Delayed cache retry recovered {site.name} {date_str} {hole_type} holes\")\n    return attempts, recovered"
+          ]
+        },
+        "593cb515c29f6ae5f796f108bc1293f28a6497c52f3e34f3298d9dfaf5de6a8a": {
+          "refs": [
+            "fix/cache-refresh-provider-circuit"
+          ],
+          "representative_ref": "fix/cache-refresh-provider-circuit",
+          "representative_line": 221,
+          "relevant_excerpt": [
+            "            result = circuit.fetch(site, date_str, hole_type) if circuit is not None else fetch_one(site, date_str, hole_type)\n        except Exception as exc:\n            result = {**failed, \"error\": str(exc)}\n        by_name[site.name] = result\n        if result.get(\"error\"):\n            print(f\"Delayed cache retry failed for {site.name}: {result['error']}\")",
+            "            print(f\"Delayed cache retry failed for {site.name}: {result['error']}\")\n        else:\n            recovered += 1\n            print(f\"Delayed cache retry recovered {site.name} {date_str} {hole_type} holes\")\n    return attempts, recovered"
+          ]
+        }
+      },
+      "main": {
+        "dd9c51e33d7e45800f2b95396076fce3466263fdeb792b888a557235c500853d": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/cache-refresh-heartbeat"
+          ],
+          "representative_ref": "fix/cache-refresh-heartbeat",
+          "representative_line": 96,
+          "relevant_excerpt": [
+            "                            \"hole_label\": f\"{hole_type} holes\",\n                            \"decorated_rows\": [],\n                            \"error\": str(exc),\n                            \"not_configured\": False,\n                        }\n",
+            "\n            live_sites = [site for site in eligible if site.provider != \"direct\"]\n            fresh_live_successes = sum(not by_name[site.name].get(\"error\") for site in live_sites)\n            required = minimum_live_successes(len(live_sites))\n            if fresh_live_successes < required:\n                raise RuntimeError(",
+            "            results = []\n            for site in eligible:\n                result, reused = reuse_prior_good_result(site, by_name[site.name], previous)\n                stale_fallbacks += int(reused)\n                results.append(result)\n",
+            "                results.append(result)\n\n            direct_failures = [\n                site.name\n                for site in eligible\n                if site.provider == \"direct\" and by_name[site.name].get(\"error\")"
+          ]
+        },
+        "b5fdbf1b8a2689c8cfcb3503c8434032ed9ebb983d19a895e9f3eeb8611d485c": {
+          "refs": [
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main"
+          ],
+          "representative_ref": "main",
+          "representative_line": 163,
+          "relevant_excerpt": [
+            "                            \"hole_label\": f\"{hole_type} holes\",\n                            \"decorated_rows\": [],\n                            \"error\": str(exc),\n                            \"not_configured\": False,\n                        }\n",
+            "            )\n            live_sites = [site for site in eligible if site.provider != \"direct\"]\n            fresh_live_successes = sum(not by_name[site.name].get(\"error\") for site in live_sites)\n            required = minimum_live_successes(len(live_sites))\n            if fresh_live_successes < required:\n                raise RuntimeError(",
+            "            results = []\n            for site in eligible:\n                result, reused = reuse_prior_good_result(site, by_name[site.name], previous)\n                stale_fallbacks += int(reused)\n                results.append(result)\n",
+            "                results.append(result)\n\n            direct_failures = [\n                site.name\n                for site in eligible\n                if site.provider == \"direct\" and by_name[site.name].get(\"error\")"
+          ]
+        },
+        "bb87a372f4accc0b6f0bfe80f7968451a560955d5f2090400801ee04a8e60cdf": {
+          "refs": [
+            "fix/cache-refresh-provider-circuit"
+          ],
+          "representative_ref": "fix/cache-refresh-provider-circuit",
+          "representative_line": 264,
+          "relevant_excerpt": [
+            "            )\n            live_sites = [site for site in eligible if site.provider != \"direct\"]\n            fresh_live_successes = sum(not by_name[site.name].get(\"error\") for site in live_sites)\n            required = minimum_live_successes(len(live_sites))\n            if fresh_live_successes < required:\n                raise RuntimeError(",
+            "            results = []\n            for site in eligible:\n                result, reused = reuse_prior_good_result(site, by_name[site.name], previous)\n                stale_fallbacks += int(reused)\n                results.append(result)\n",
+            "                results.append(result)\n\n            direct_failures = [\n                site.name\n                for site in eligible\n                if site.provider == \"direct\" and by_name[site.name].get(\"error\")"
+          ]
+        },
+        "a2989d833fee15dc9361ae5689f3ec4f1b6b71d0df109d2fbe77ace29da0d189": {
+          "refs": [
+            "fix/cache-refresh-wembley-rendered"
+          ],
+          "representative_ref": "fix/cache-refresh-wembley-rendered",
+          "representative_line": 192,
+          "relevant_excerpt": [
+            "                            \"hole_label\": f\"{hole_type} holes\",\n                            \"decorated_rows\": [],\n                            \"error\": str(exc),\n                            \"not_configured\": False,\n                        }\n",
+            "                )\n            live_sites = [site for site in eligible if site.provider != \"direct\"]\n            fresh_live_successes = sum(not by_name[site.name].get(\"error\") for site in live_sites)\n            required = minimum_live_successes(len(live_sites))\n            if fresh_live_successes < required:\n                raise RuntimeError(",
+            "            results = []\n            for site in eligible:\n                result, reused = reuse_prior_good_result(site, by_name[site.name], previous)\n                stale_fallbacks += int(reused)\n                results.append(result)\n",
+            "                results.append(result)\n\n            direct_failures = [\n                site.name\n                for site in eligible\n                if site.provider == \"direct\" and by_name[site.name].get(\"error\")"
+          ]
+        }
+      }
+    },
+    "finding": "No existing exception-message normalization found on any of the 22 current source branch heads. Core page aggregation and result-error catches, ScanWorker future-result catch, and both shard producer catches all retain str(exception) directly. PR18 changes rendering of truthy provider errors only and cannot classify empty error strings. PR3 retry budgets/classification and PR19 shape validation do not normalize these producer messages.",
+    "scope_advice": {
+      "core": "Normalize each existing exception-to-result boundary, including page errors before aggregation, Wembley calendar and outer processing. Preserve nonblank str(exception) verbatim and use the exception type name only for empty/whitespace text. Weather-only exceptions remain separate and should not mark availability failed.",
+      "desktop": "Normalize the existing ScanWorker future exception result. No UI/render/lifecycle change is necessary because PR18 already handles a truthy error.",
+      "publisher": "Both existing shard catches are the same defect: blank future failures count as fresh success and bypass prior-good fallback; blank delayed-retry failures count as recovered. Normalizing these strings is justified by offline majority/fallback/retry tests. The same main catch also protects the direct-result construction gate. No workflow, timeout, retry budget, classifier or publication-policy change is warranted.",
+      "retry_classification": "Type-name fallbacks such as TimeoutError remain outside the existing confirmed-transport regex. Do not expand retry recognition as part of this fix."
+    },
+    "preserved_loose_checkout": {
+      "path": "/workspace/golfhub-perth",
+      "read_only": true,
+      "files": {
+        "app/golfhub_core.py": {
+          "str_exception_lines": [
+            {
+              "line": 1527,
+              "text": "\"error\": str(exc),"
+            },
+            {
+              "line": 1551,
+              "text": "fetch_errors.append(str(page_exc))"
+            },
+            {
+              "line": 1659,
+              "text": "\"error\": str(exc),"
+            }
+          ],
+          "has_named_exception_message_helper": false
+        },
+        "app/qt_golfhub_app.py": {
+          "str_exception_lines": [
+            {
+              "line": 162,
+              "text": "\"error\": str(exc),"
+            }
+          ],
+          "has_named_exception_message_helper": false
+        },
+        "scripts/refresh_cache_shard.py": {
+          "str_exception_lines": [
+            {
+              "line": 153,
+              "text": "result = {**failed, \"error\": str(exc)}"
+            },
+            {
+              "line": 200,
+              "text": "\"error\": str(exc),"
+            }
+          ],
+          "has_named_exception_message_helper": false
+        }
+      },
+      "note": "Relevant direct conversions are also present; no competing formatter found in this bounded read. Canonical provenance remains unresolved."
+    },
+    "baseline_evidence": {
+      "path": "docs/qa/2026-11-01-provider-exceptions/cache-baseline.json",
+      "source_head": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+      "methods": 11,
+      "passed": 2,
+      "failed": 9,
+      "failure_records": 12,
+      "errors": 0,
+      "scope": "Real core/shard functions; mocked provider/weather/loadsites, completed local futures, blocked network/browser, temporary output. No provider/production CLI execution."
+    },
+    "app_or_script_changes_by_auditor": false
+  },
+  "execution_notes": {
+    "status": "completed",
+    "remote_writes": false,
+    "blockers": [],
+    "runtime_tests": "Not run during this read-only context audit."
+  },
+  "source_refs": {
+    "examined": 22,
+    "refs": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6"
+        }
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73"
+        }
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+          "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c"
+        }
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d"
+        }
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401"
+        }
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90"
+        }
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6"
+        }
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4"
+        }
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50"
+        }
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c"
+        }
+      },
+      {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+          "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428"
+        }
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5"
+        }
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "source_blobs_sha256": {
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e"
+        }
+      }
+    ],
+    "unreadable_refs": [],
+    "excluded_data_only_refs": [
+      "cache",
+      "news"
+    ],
+    "hash_note": "SHA-256 of exact git-show source blob bytes; not release artifact/signature verification."
+  },
+  "instructions": {
+    "ancestor_AGENTS": {
+      "/AGENTS.md": false,
+      "/workspace/AGENTS.md": false,
+      "/workspace/golfhub-20261031/AGENTS.md": false
+    },
+    "checkout_skill_directories": {
+      "/workspace/.agents/skills": false,
+      "/workspace/golfhub-20261031/.agents/skills": false
+    },
+    "tracked_instruction_files_by_source_ref": {
+      "agent/golfhub-v5-final-20260729": [],
+      "fix/alerts-runtime-integrity-20261026": [],
+      "fix/cache-refresh-heartbeat": [],
+      "fix/cache-refresh-incomplete-weather": [],
+      "fix/cache-refresh-provider-circuit": [],
+      "fix/cache-refresh-resilience": [],
+      "fix/cache-refresh-weather-cooldown": [],
+      "fix/cache-refresh-weather-timeouts": [],
+      "fix/cache-refresh-wembley-fallback": [],
+      "fix/cache-refresh-wembley-rendered": [],
+      "fix/desktop-booking-context-20261020": [],
+      "fix/desktop-cache-shape-20261030": [],
+      "fix/desktop-cache-thread-lifecycle-20261020": [],
+      "fix/desktop-course-controls-20261019": [],
+      "fix/desktop-keyboard-date-selection": [],
+      "fix/desktop-matching-course-count-20261028": [],
+      "fix/desktop-missing-cache-20261027": [],
+      "fix/desktop-perth-midnight-20261021": [],
+      "fix/desktop-provider-error-wording-20261029": [],
+      "fix/desktop-retained-search-context-20261031": [],
+      "fix/desktop-search-dates-and-times": [],
+      "main": []
+    },
+    "finding": "No AGENTS.md or .agents/skills/SKILL.md found on inspected source branch heads or current checkout/ancestors.",
+    "update_repository_trees": {
+      "windows": {
+        "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+        "paths": [
+          "README.md"
+        ],
+        "truncated": false,
+        "instruction_files": []
+      },
+      "android": {
+        "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+        "paths": [
+          "README.md"
+        ],
+        "truncated": false,
+        "instruction_files": []
+      }
+    }
+  },
+  "checkout": {
+    "path": "/workspace/golfhub-20261031",
+    "head": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+    "status_short": "",
+    "source_or_test_changes_by_audit": false
+  },
+  "comparison_to_oct31": {
+    "source": {
+      "added_branches": {
+        "fix/desktop-retained-search-context-20261031": "63c910556c4f4dc210e41c3e6db665845436a8f0"
+      },
+      "changed_branches": {
+        "cache": {
+          "before": "50251e384f456c41dc01174c8fdd32122a6f70f3",
+          "after": "e5855faac507e9732557477bba1c71c8bfff6e15"
+        },
+        "news": {
+          "before": "8723f16a4f9c9f5b7066f2b78ec19e8dae8b0d48",
+          "after": "cbd1f654db31a0e3973fc2e43e585b7c6cbabef5"
+        }
+      },
+      "removed_branches": []
+    },
+    "windows": {
+      "added_branches": {},
+      "changed_branches": {},
+      "removed_branches": [],
+      "release_tag_unchanged": true,
+      "release_assets_unchanged": true
+    },
+    "android": {
+      "added_branches": {},
+      "changed_branches": {},
+      "removed_branches": [],
+      "release_tag_unchanged": true,
+      "release_assets_unchanged": true
+    }
+  },
+  "prior_documentation_inspected": {
+    "head": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+    "paths": [
+      "docs/IMPROVEMENT_BACKLOG.md",
+      "docs/QA_CHECKLIST.md"
+    ],
+    "latest_completed_repair": "PR20 retained displayed search context during later live refresh. Prior pass records 10 new regressions and 238 aggregate checks (121 desktop,80 cache/integrity,37 additional booking/rendering), plus 50 filter/five startup diagnostics. Current audit did not rerun them.",
+    "pending_priorities": [
+      "Historical native Windows cache_close timeout diagnosis",
+      "Canonical desktop/mobile source reconciliation",
+      "Review/integrate reliability drafts after separate authorization",
+      "Existing per-course freshness/subset-cache work reconciliation",
+      "Native device/updater/accessibility and notification delivery validation"
+    ]
+  }
+}
