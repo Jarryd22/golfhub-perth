@@ -1,0 +1,38 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+{"actions": 36, "selected_expected": 23, "failures": [{"month": "2032-03", "clicked_day": 25, "row": 5, "column": 3, "coordinates": [302, 278], "model_label": 25, "enabled": true, "inferred": "2032-04-01", "focused_before": "2032-03-24", "focused": "2032-03-24", "chosen": ["2032-03-01", "2032-03-02", "2032-03-08", "2032-03-15", "2032-03-22", "2032-03-24"], "selected_expected": false}, {"month": "2032-03", "clicked_day": 26, "row": 5, "column": 4, "coordinates": [388, 278], "model_label": 26, "enabled": true, "inferred": "2032-04-02", "focused_before": "2032-03-24", "focused": "2032-03-24", "chosen": ["2032-03-01", "2032-03-02", "2032-03-08", "2032-03-15", "2032-03-22", "2032-03-24"], "selected_expected": false}, {"month": "2032-03", "clicked_day": 27, "row": 5, "column": 5, "coordinates": [474, 278], "model_label": 27, "enabled": true, "inferred": "2032-04-03", "focused_before": "2032-03-24", "focused": "2032-03-24", "chosen": ["2032-03-01", "2032-03-02", "2032-03-08", "2032-03-15", "2032-03-22", "2032-03-24"], "selected_expected": false}, {"month": "2032-03", "clicked_day": 28, "row": 5, "column": 6, "coordinates": [560, 278], "model_label": 28, "enabled": true, "inferred": "2032-04-04", "focused_before": "2032-03-24", "focused": "2032-03-24", "chosen": ["2032-03-01", "2032-03-02", "2032-03-08", "2032-03-15", "2032-03-22", "2032-03-24"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 24, "row": 5, "column": 2, "coordinates": [216, 278], "model_label": 24, "enabled": true, "inferred": "2032-12-01", "focused_before": "2032-11-22", "focused": "2032-11-22", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15", "2032-11-22"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 25, "row": 5, "column": 3, "coordinates": [302, 278], "model_label": 25, "enabled": true, "inferred": "2032-12-02", "focused_before": "2032-11-22", "focused": "2032-11-22", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15", "2032-11-22"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 26, "row": 5, "column": 4, "coordinates": [388, 278], "model_label": 26, "enabled": true, "inferred": "2032-12-03", "focused_before": "2032-11-22", "focused": "2032-11-22", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15", "2032-11-22"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 27, "row": 5, "column": 5, "coordinates": [474, 278], "model_label": 27, "enabled": true, "inferred": "2032-12-04", "focused_before": "2032-11-22", "focused": "2032-11-22", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15", "2032-11-22"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 28, "row": 5, "column": 6, "coordinates": [560, 278], "model_label": 28, "enabled": true, "inferred": "2032-12-05", "focused_before": "2032-11-22", "focused": "2032-11-22", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15", "2032-11-22"], "selected_expected": false}, {"month": "2033-08", "clicked_day": 25, "row": 5, "column": 3, "coordinates": [302, 278], "model_label": 25, "enabled": true, "inferred": "2033-09-01", "focused_before": "2033-08-24", "focused": "2033-08-24", "chosen": ["2033-08-01", "2033-08-02", "2033-08-08", "2033-08-15", "2033-08-22", "2033-08-24"], "selected_expected": false}, {"month": "2033-08", "clicked_day": 26, "row": 5, "column": 4, "coordinates": [388, 278], "model_label": 26, "enabled": true, "inferred": "2033-09-02", "focused_before": "2033-08-24", "focused": "2033-08-24", "chosen": ["2033-08-01", "2033-08-02", "2033-08-08", "2033-08-15", "2033-08-22", "2033-08-24"], "selected_expected": false}, {"month": "2033-08", "clicked_day": 27, "row": 5, "column": 5, "coordinates": [474, 278], "model_label": 27, "enabled": true, "inferred": "2033-09-03", "focused_before": "2033-08-24", "focused": "2033-08-24", "chosen": ["2033-08-01", "2033-08-02", "2033-08-08", "2033-08-15", "2033-08-22", "2033-08-24"], "selected_expected": false}, {"month": "2033-08", "clicked_day": 28, "row": 5, "column": 6, "coordinates": [560, 278], "model_label": 28, "enabled": true, "inferred": "2033-09-04", "focused_before": "2033-08-24", "focused": "2033-08-24", "chosen": ["2033-08-01", "2033-08-02", "2033-08-08", "2033-08-15", "2033-08-22", "2033-08-24"], "selected_expected": false}], "callback_errors": []}

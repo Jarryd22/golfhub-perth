@@ -1,0 +1,470 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-02T00:51:00.904207+00:00",
+  "source_head": "9aa16f733458db871c2452a18a247536ab348498",
+  "source_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+  "scope": "Linux Qt offscreen actual app-popup actions, fake Perth clock, isolated paths, blocked network/browser/workers",
+  "cases": [
+    {
+      "window_size": [
+        980,
+        640
+      ],
+      "month": "2032-03",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-03-29",
+          "before": [
+            "2032-03-01"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 25,
+          "model_label": 25,
+          "enabled": true,
+          "row": 5,
+          "column": 3,
+          "coordinates": [
+            202,
+            98
+          ],
+          "inferred": "2032-04-01",
+          "before": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "selected": false
+        }
+      ],
+      "keyboard_selected_same_day": true,
+      "applied_dates": [
+        "2032-03-01",
+        "2032-03-22",
+        "2032-03-25"
+      ]
+    },
+    {
+      "window_size": [
+        1280,
+        800
+      ],
+      "month": "2032-03",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-03-29",
+          "before": [
+            "2032-03-01"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 25,
+          "model_label": 25,
+          "enabled": true,
+          "row": 5,
+          "column": 3,
+          "coordinates": [
+            202,
+            98
+          ],
+          "inferred": "2032-04-01",
+          "before": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "selected": false
+        }
+      ],
+      "keyboard_selected_same_day": true,
+      "applied_dates": [
+        "2032-03-01",
+        "2032-03-22",
+        "2032-03-25"
+      ]
+    },
+    {
+      "window_size": [
+        980,
+        640
+      ],
+      "month": "2032-11",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-11-29",
+          "before": [
+            "2032-11-01"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 24,
+          "model_label": 24,
+          "enabled": true,
+          "row": 5,
+          "column": 2,
+          "coordinates": [
+            144,
+            98
+          ],
+          "inferred": "2032-12-01",
+          "before": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "selected": false
+        }
+      ],
+      "keyboard_selected_same_day": true,
+      "applied_dates": [
+        "2032-11-01",
+        "2032-11-22",
+        "2032-11-24"
+      ]
+    },
+    {
+      "window_size": [
+        1280,
+        800
+      ],
+      "month": "2032-11",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-11-29",
+          "before": [
+            "2032-11-01"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 24,
+          "model_label": 24,
+          "enabled": true,
+          "row": 5,
+          "column": 2,
+          "coordinates": [
+            144,
+            98
+          ],
+          "inferred": "2032-12-01",
+          "before": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "selected": false
+        }
+      ],
+      "keyboard_selected_same_day": true,
+      "applied_dates": [
+        "2032-11-01",
+        "2032-11-22",
+        "2032-11-24"
+      ]
+    }
+  ],
+  "callback_errors": []
+}

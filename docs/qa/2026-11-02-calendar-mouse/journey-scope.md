@@ -1,0 +1,15 @@
+# Journey and design scope — 2 November 2026
+
+This is source inspection on the candidate based on PR21, not an installed-device test. [AST/byte comparison](source-scope.json) changes only `MonthOnlyCalendar._date_at_view_position`; all `GolfHub` methods, provider/cache/booking logic and alert artifacts/workflows remain unchanged. Final executions and counts are recorded in the main report.
+
+| Journey | Evidence and practical limit |
+|---|---|
+| First launch and offline recovery | Five mocked startup/fallback decision scenarios and the existing malformed-cache regressions exercise saved/no-cache/error handling. Real network recovery and installed cold startup remain unperformed. The separately reproduced all-missing multi-date static-link gap is deferred explicitly. |
+| Dates and input | Actual offscreen mouse actions reproduce Monday-start failures. New regressions and before/after probes check the repair; existing keyboard/date/midnight modules revalidate activation, bounds and rollover. OS resume, touch/native DPI and screen-reader behavior remain unverified. |
+| Course/holes/group/time search | Existing course-control and time tests plus 50 intercepted source-widget combinations cover 9/18 holes, Any/1–4 players and presets. This checks submitted/filter context, not provider availability. |
+| Results and booking | PR16–21 tests retain missing-date/error wording, matching counts, shape validation, captured booking/filter context and nonempty provider exceptions. Booking guards and intercepted handoffs are covered; no provider URL is opened, hold created or booking made. |
+| Weather and freshness | Provider/cache modules are unchanged. Existing offline cache tests cover bounded processing and reuse; PR8's incomplete forecast repair remains separate/unmerged. Publication age is not per-course observation age. Canonical freshness/subset integration remains pending. |
+| Alerts | Cache/integrity suite includes the existing 27 inert ZIP/manifest tests. No bundled runtime execution, device notification or delivery test; zero-watch runs establish none of these. |
+| Clarity, accessibility and speed | The narrow repair makes visible eligible calendar dates respond to mouse selection, matching existing keyboard behavior. It adds constant date arithmetic only, no request or eager rendering. No benchmark, user feedback or native performance claim. Existing typography/punctuation, submitted-filter summary and broader onboarding/freshness proposals remain canonical/product review decisions. |
+
+The historical PR14 Windows `cache_close` timeout is unresolved. The standard lifecycle module may run once in this pass; no repeated Linux diagnosis or timeout/assertion relaxation. Earlier Qt/WebEngine and fixture/tooling failures stay in their dated reports. Native Windows/Android UI, screen readers, DPI/resume, updater/signatures, live booking and notification delivery remain unperformed. No production, release, credential/security or external communication action is part of this review.

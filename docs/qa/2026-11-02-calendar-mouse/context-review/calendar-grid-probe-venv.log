@@ -1,0 +1,42 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+{"actions": 20, "selected_expected": 13, "failures": [{"month": "2032-03", "clicked_day": 22, "focused": "2032-03-15", "chosen": ["2032-03-01", "2032-03-02", "2032-03-08", "2032-03-15"], "selected_expected": false}, {"month": "2032-03", "clicked_day": 28, "focused": "2032-03-15", "chosen": ["2032-03-01", "2032-03-02", "2032-03-08", "2032-03-15"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 22, "focused": "2032-11-15", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15"], "selected_expected": false}, {"month": "2032-11", "clicked_day": 28, "focused": "2032-11-15", "chosen": ["2032-11-01", "2032-11-02", "2032-11-08", "2032-11-15"], "selected_expected": false}, {"month": "2033-08", "clicked_day": 22, "focused": "2033-08-15", "chosen": ["2033-08-01", "2033-08-02", "2033-08-08", "2033-08-15"], "selected_expected": false}, {"month": "2033-08", "clicked_day": 28, "focused": "2033-08-15", "chosen": ["2033-08-01", "2033-08-02", "2033-08-08", "2033-08-15"], "selected_expected": false}, {"month": "2033-01", "clicked_day": 28, "focused": "2033-01-22", "chosen": ["2033-01-01", "2033-01-02", "2033-01-08", "2033-01-15", "2033-01-22"], "selected_expected": false}], "callback_errors": []}

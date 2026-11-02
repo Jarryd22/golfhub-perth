@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-02T00:53:28.876607+00:00",
+  "root": "/workspace/golfhub-20261101",
+  "source_head": "9aa16f733458db871c2452a18a247536ab348498",
+  "source_status": "",
+  "app_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+  "test_sha256": "e046b5511d05345be8dc197c7867b7872b9fd107b7570cc5f2569b5327b54530",
+  "run": 8,
+  "failed_methods": [
+    "calendar_mouse_candidate.CalendarMouseTests.test_actual_app_popup_applies_last_date_to_submitted_search",
+    "calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates",
+    "calendar_mouse_candidate.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle",
+    "calendar_mouse_candidate.CalendarMouseTests.test_next_month_navigation_then_last_week_mouse_selection"
+  ],
+  "error_methods": [],
+  "passed_methods": 4,
+  "failure_records": 24,
+  "error_records": 0,
+  "skipped": 0,
+  "exit_code": 1
+}

@@ -1,0 +1,546 @@
+test_actual_app_popup_applies_last_date_to_submitted_search (calendar_mouse_candidate.CalendarMouseTests.test_actual_app_popup_applies_last_date_to_submitted_search) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+FAIL
+test_disabled_dates_outside_bounds_remain_unselected (calendar_mouse_candidate.CalendarMouseTests.test_disabled_dates_outside_bounds_remain_unselected) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_following_padding_does_not_navigate_or_toggle (calendar_mouse_candidate.CalendarMouseTests.test_monday_following_padding_does_not_navigate_or_toggle) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-22') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-23') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-24') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-25') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-26') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-27') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-28') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-24') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-25') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-26') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-27') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-28') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-29') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-30') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-25') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-26') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-27') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-28') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-29') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-30') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+  test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-31') ... FAIL
+test_monday_preceding_padding_does_not_navigate_or_toggle (calendar_mouse_candidate.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+
+  test_monday_preceding_padding_does_not_navigate_or_toggle (calendar_mouse_candidate.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle) (action='mouseClick') ... FAIL
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+test_next_month_navigation_then_last_week_mouse_selection (calendar_mouse_candidate.CalendarMouseTests.test_next_month_navigation_then_last_week_mouse_selection) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+FAIL
+test_non_monday_month_last_date_remains_mouse_selectable (calendar_mouse_candidate.CalendarMouseTests.test_non_monday_month_last_date_remains_mouse_selectable) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_weekday_header_click_does_not_change_dates (calendar_mouse_candidate.CalendarMouseTests.test_weekday_header_click_does_not_change_dates) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+
+======================================================================
+FAIL: test_actual_app_popup_applies_last_date_to_submitted_search (calendar_mouse_candidate.CalendarMouseTests.test_actual_app_popup_applies_last_date_to_submitted_search)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 186, in test_actual_app_popup_applies_last_date_to_submitted_search
+    self.assertEqual(popup.selected_dates(), [today, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 28)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 28)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 28)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-22')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 22)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 22)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 22)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-23')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 23)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 23)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 23)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-24')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 24)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 24)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 24)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-25')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 25)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 25)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 25)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-26')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 26)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 26)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 26)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-27')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 27)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 27)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 27)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2027-02-28')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 2, 1)] != [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 28)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 28)
+
+- [PySide6.QtCore.QDate(2027, 2, 1)]
++ [PySide6.QtCore.QDate(2027, 2, 1), PySide6.QtCore.QDate(2027, 2, 28)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-24')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 24)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 24)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 24)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-25')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 25)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 25)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 25)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-26')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 26)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 26)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 26)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-27')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 27)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 27)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 27)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-28')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 28)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 28)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 28)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-29')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 29)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 29)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 29)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-11-30')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 11, 3)] != [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 30)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 11, 30)
+
+- [PySide6.QtCore.QDate(2032, 11, 3)]
++ [PySide6.QtCore.QDate(2032, 11, 3), PySide6.QtCore.QDate(2032, 11, 30)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-25')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 25)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 25)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 25)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-26')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 26)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 26)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 26)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-27')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 27)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 27)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 27)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-28')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 28)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 28)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 28)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-29')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 29)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 29)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 29)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-30')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 30)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 30)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 30)]
+
+======================================================================
+FAIL: test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) (date='2032-03-31')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 86, in test_monday_month_last_week_mouse_selects_and_removes_dates
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2032, 3, 4)] != [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 31)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2032, 3, 31)
+
+- [PySide6.QtCore.QDate(2032, 3, 4)]
++ [PySide6.QtCore.QDate(2032, 3, 4), PySide6.QtCore.QDate(2032, 3, 31)]
+
+======================================================================
+FAIL: test_monday_preceding_padding_does_not_navigate_or_toggle (calendar_mouse_candidate.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle) (action='mouseClick')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 103, in test_monday_preceding_padding_does_not_navigate_or_toggle
+    self.assertEqual((popup.calendar.yearShown(), popup.calendar.monthShown()), (2032, 3))
+AssertionError: Tuples differ: (2032, 2) != (2032, 3)
+
+First differing element 1:
+2
+3
+
+- (2032, 2)
+?        ^
+
++ (2032, 3)
+?        ^
+
+
+======================================================================
+FAIL: test_next_month_navigation_then_last_week_mouse_selection (calendar_mouse_candidate.CalendarMouseTests.test_next_month_navigation_then_last_week_mouse_selection)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261102/tests/test_calendar_mouse.py", line 168, in test_next_month_navigation_then_last_week_mouse_selection
+    self.assertEqual(popup.selected_dates(), [minimum, target])
+AssertionError: Lists differ: [PySide6.QtCore.QDate(2027, 1, 30)] != [PySide6.QtCore.QDate(2027, 1, 30), PySide6.QtCore.QDate(2027, 2, 25)]
+
+Second list contains 1 additional elements.
+First extra element 1:
+PySide6.QtCore.QDate(2027, 2, 25)
+
+- [PySide6.QtCore.QDate(2027, 1, 30)]
++ [PySide6.QtCore.QDate(2027, 1, 30), PySide6.QtCore.QDate(2027, 2, 25)]
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.968s
+
+FAILED (failures=24)
+QA_RESULT {"timestamp_utc": "2026-11-02T00:53:28.876607+00:00", "root": "/workspace/golfhub-20261101", "source_head": "9aa16f733458db871c2452a18a247536ab348498", "source_status": "", "app_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5", "test_sha256": "e046b5511d05345be8dc197c7867b7872b9fd107b7570cc5f2569b5327b54530", "run": 8, "failed_methods": ["calendar_mouse_candidate.CalendarMouseTests.test_actual_app_popup_applies_last_date_to_submitted_search", "calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates", "calendar_mouse_candidate.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle", "calendar_mouse_candidate.CalendarMouseTests.test_next_month_navigation_then_last_week_mouse_selection"], "error_methods": [], "passed_methods": 4, "failure_records": 24, "error_records": 0, "skipped": 0, "exit_code": 1}

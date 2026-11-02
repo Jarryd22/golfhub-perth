@@ -1,0 +1,163 @@
+test_actual_app_popup_applies_last_date_to_submitted_search (calendar_mouse_candidate.CalendarMouseTests.test_actual_app_popup_applies_last_date_to_submitted_search) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_disabled_dates_outside_bounds_remain_unselected (calendar_mouse_candidate.CalendarMouseTests.test_disabled_dates_outside_bounds_remain_unselected) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_following_padding_does_not_navigate_or_toggle (calendar_mouse_candidate.CalendarMouseTests.test_monday_following_padding_does_not_navigate_or_toggle) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_month_last_week_mouse_selects_and_removes_dates (calendar_mouse_candidate.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_preceding_padding_does_not_navigate_or_toggle (calendar_mouse_candidate.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_next_month_navigation_then_last_week_mouse_selection (calendar_mouse_candidate.CalendarMouseTests.test_next_month_navigation_then_last_week_mouse_selection) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_non_monday_month_last_date_remains_mouse_selectable (calendar_mouse_candidate.CalendarMouseTests.test_non_monday_month_last_date_remains_mouse_selectable) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_weekday_header_click_does_not_change_dates (calendar_mouse_candidate.CalendarMouseTests.test_weekday_header_click_does_not_change_dates) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 1.105s
+
+OK
+QA_RESULT {"timestamp_utc": "2026-11-02T00:53:30.809557+00:00", "root": "/workspace/golfhub-20261102", "source_head": "9aa16f733458db871c2452a18a247536ab348498", "source_status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-11-02-calendar-mouse/\n?? tests/test_calendar_mouse.py\n", "app_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8", "test_sha256": "e046b5511d05345be8dc197c7867b7872b9fd107b7570cc5f2569b5327b54530", "run": 8, "failed_methods": [], "error_methods": [], "passed_methods": 8, "failure_records": 0, "error_records": 0, "skipped": 0, "exit_code": 0}
