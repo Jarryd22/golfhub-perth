@@ -1,7 +1,22 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-01T00:12:58.060732+00:00",
+  "generated_at": "2026-11-02T00:52:38.450852+00:00",
   "items": [
+    {
+      "id": "77a12d25a90cadf92a67",
+      "course_id": "sun-city",
+      "title": "Last Chance to Buy Your Melbourne Cup Tickets",
+      "summary": "MELBOURNE CUP IS JUST 2 DAYS AWAY! Have you booked your ticket yet! Get",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/last-chance-to-buy-your-melbourne-cup-tickets/",
+      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Melbourne-Cup-Drinks-Package-1.png",
+      "images": [
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Melbourne-Cup-Drinks-Package-1.png",
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Melbourne-Cup-Floral-Cocktail-Menu-1.png",
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Elegant-Melbourne-Cup-Day-Schedule-1.png"
+      ],
+      "published_at": "2026-11-01T10:57:39+00:00",
+      "category": "Course news"
+    },
     {
       "id": "fd37a5531f681ca7609a",
       "course_id": "hartfield",
@@ -135,17 +150,6 @@
       ],
       "published_at": "2026-10-29T06:59:52+00:00",
       "category": "Events"
-    },
-    {
-      "id": "f91dbd95731685e5617f",
-      "course_id": "sun-city",
-      "title": "Increase in Nomination Fee from 1st November",
-      "summary": "The Committee has agreed to increase the nomination fee to $2000 effective from 1st",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/increase-in-nomination-fee-from-1st-november/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-29T02:24:24+00:00",
-      "category": "Course news"
     },
     {
       "id": "1eb62ff122c02392a580",
