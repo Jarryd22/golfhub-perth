@@ -1,0 +1,17 @@
+{
+  "recorded_at_utc": "2026-11-02T00:57:24.866263+00:00",
+  "compile": {
+    "command": "/workspace/golfhub-perth/.venv/bin/python -m py_compile app/qt_golfhub_app.py tests/test_calendar_mouse.py",
+    "exit_code": 0
+  },
+  "actionlint": {
+    "command": "/tmp/actionlint -color",
+    "version": "1.7.12",
+    "archive_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8",
+    "exit_code": 0
+  },
+  "whitespace": {
+    "command": "git -c core.whitespace=cr-at-eol diff --check",
+    "exit_code": 0
+  }
+}

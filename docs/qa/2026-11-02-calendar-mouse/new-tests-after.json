@@ -1,0 +1,16 @@
+{
+  "timestamp_utc": "2026-11-02T00:53:30.809557+00:00",
+  "root": "/workspace/golfhub-20261102",
+  "source_head": "9aa16f733458db871c2452a18a247536ab348498",
+  "source_status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-11-02-calendar-mouse/\n?? tests/test_calendar_mouse.py\n",
+  "app_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+  "test_sha256": "e046b5511d05345be8dc197c7867b7872b9fd107b7570cc5f2569b5327b54530",
+  "run": 8,
+  "failed_methods": [],
+  "error_methods": [],
+  "passed_methods": 8,
+  "failure_records": 0,
+  "error_records": 0,
+  "skipped": 0,
+  "exit_code": 0
+}

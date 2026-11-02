@@ -1,0 +1,22 @@
+{
+  "timestamp_utc": "2026-11-02T00:53:29.648714+00:00",
+  "base": "9aa16f733458db871c2452a18a247536ab348498",
+  "changed_methods": [
+    "MonthOnlyCalendar._date_at_view_position"
+  ],
+  "unchanged_bytes": {
+    "app/golfhub_core.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    "app/course_results.py": true,
+    "scripts/refresh_cache_shard.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "app_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+  "kind": "Read-only source comparison, not execution/device behavior"
+}

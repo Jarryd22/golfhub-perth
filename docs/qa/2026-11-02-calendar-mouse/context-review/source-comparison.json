@@ -1,0 +1,12 @@
+{
+  "source_sha256": {
+    "baseline": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+    "candidate": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+    "preserved_loose": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4"
+  },
+  "preserved_loose_hit_test_matches_baseline": true,
+  "changed_calendar_methods": [
+    "_date_at_view_position"
+  ],
+  "scope": "AST and source-byte inspection only; no module execution or canonical-source selection"
+}

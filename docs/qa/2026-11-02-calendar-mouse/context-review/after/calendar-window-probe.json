@@ -1,0 +1,233 @@
+{
+  "timestamp_utc": "2026-11-02T00:54:08.985893+00:00",
+  "source_head": "9aa16f733458db871c2452a18a247536ab348498",
+  "source_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+  "scope": "Linux Qt offscreen actual app-popup actions, fake Perth clock, isolated paths, blocked network/browser/workers",
+  "cases": [
+    {
+      "window_size": [
+        980,
+        640
+      ],
+      "month": "2032-03",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-03-22",
+          "before": [
+            "2032-03-01"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 25,
+          "model_label": 25,
+          "enabled": true,
+          "row": 5,
+          "column": 3,
+          "coordinates": [
+            202,
+            98
+          ],
+          "inferred": "2032-03-25",
+          "before": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22",
+            "2032-03-25"
+          ],
+          "selected": true
+        }
+      ],
+      "keyboard_selected_same_day": false,
+      "applied_dates": [
+        "2032-03-01",
+        "2032-03-22"
+      ]
+    },
+    {
+      "window_size": [
+        1280,
+        800
+      ],
+      "month": "2032-03",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-03-22",
+          "before": [
+            "2032-03-01"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 25,
+          "model_label": 25,
+          "enabled": true,
+          "row": 5,
+          "column": 3,
+          "coordinates": [
+            202,
+            98
+          ],
+          "inferred": "2032-03-25",
+          "before": [
+            "2032-03-01",
+            "2032-03-22"
+          ],
+          "after": [
+            "2032-03-01",
+            "2032-03-22",
+            "2032-03-25"
+          ],
+          "selected": true
+        }
+      ],
+      "keyboard_selected_same_day": false,
+      "applied_dates": [
+        "2032-03-01",
+        "2032-03-22"
+      ]
+    },
+    {
+      "window_size": [
+        980,
+        640
+      ],
+      "month": "2032-11",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-11-22",
+          "before": [
+            "2032-11-01"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 24,
+          "model_label": 24,
+          "enabled": true,
+          "row": 5,
+          "column": 2,
+          "coordinates": [
+            144,
+            98
+          ],
+          "inferred": "2032-11-24",
+          "before": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22",
+            "2032-11-24"
+          ],
+          "selected": true
+        }
+      ],
+      "keyboard_selected_same_day": false,
+      "applied_dates": [
+        "2032-11-01",
+        "2032-11-22"
+      ]
+    },
+    {
+      "window_size": [
+        1280,
+        800
+      ],
+      "month": "2032-11",
+      "clicks": [
+        {
+          "day": 22,
+          "model_label": 22,
+          "enabled": true,
+          "row": 5,
+          "column": 0,
+          "coordinates": [
+            28,
+            98
+          ],
+          "inferred": "2032-11-22",
+          "before": [
+            "2032-11-01"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "selected": true
+        },
+        {
+          "day": 24,
+          "model_label": 24,
+          "enabled": true,
+          "row": 5,
+          "column": 2,
+          "coordinates": [
+            144,
+            98
+          ],
+          "inferred": "2032-11-24",
+          "before": [
+            "2032-11-01",
+            "2032-11-22"
+          ],
+          "after": [
+            "2032-11-01",
+            "2032-11-22",
+            "2032-11-24"
+          ],
+          "selected": true
+        }
+      ],
+      "keyboard_selected_same_day": false,
+      "applied_dates": [
+        "2032-11-01",
+        "2032-11-22"
+      ]
+    }
+  ],
+  "callback_errors": []
+}

@@ -1,0 +1,28 @@
+{
+  "status": "no_duplicate_fix_found",
+  "base": "9aa16f733458db871c2452a18a247536ab348498",
+  "source_refs": 23,
+  "preserved_loose_checked": true,
+  "mapping_ast_groups": 1,
+  "mapping_ast_sha256": "2ff0a952e6e221622b80921df72d574feefeb0a5e1dc6317ee5ed50671ee500b",
+  "finding": "All 23 source refs and preserved loose source have the same _date_at_view_position AST: grid_start = first.addDays(1 - first.dayOfWeek()). No zero-offset preceding-week adjustment is present. Monday-first and no-vertical-header configuration are retained throughout. No existing repair corrects this mapping.",
+  "prior_repairs": {
+    "PR9": "Perth search dates and invalid time range validation; no hit-map correction.",
+    "PR10": "Keyboard activation/table event filtering, date-edit suppression and mouse/double-click behavior; the hit-map formula is unchanged.",
+    "PR14": "Rolling date bounds and relative labels across Perth midnight; no change to month-grid date mapping.",
+    "PR12_20": "Captured date/action context and retained result filters; unrelated to calendar viewport cell mapping."
+  },
+  "existing_test_gap": {
+    "tests/test_multiday_ui.py": "Adjacent-month click suppression and selected-date clicks use July/August 2026 fixtures; they do not exercise a Monday-start shown month. Tests check actual Qt model data/geometry, which should be retained.",
+    "tests/test_calendar_keyboard.py": "Keyboard toggling/navigation and mouse/double-click regression use July/August 2026. The current mouse case selects July 25 and does not cover Monday-start last-week mapping.",
+    "docs/IMPROVEMENT_BACKLOG.md": "Date/keyboard/midnight repairs recorded, but no Monday-start hit-map correction or competing task found."
+  },
+  "narrow_repair_advice": "If the actual Qt-cell click probe confirms a leading full week on Monday-start months, adjust only the zero-offset grid-start case to subtract seven days. Preserve Monday-first configuration, header/column offsets, adjacent-month mouse suppression, painting, keyboard activation, date bounds and rollover behavior. Derive regression target cells from the actual Qt model/geometry rather than reusing the same arithmetic in the test. Cover a Monday-start last-week visible date and hidden adjacent-month cells, plus a non-Monday control. No redesign required.",
+  "scope_decision": "Focused Monday-start calendar hit-map fix only. Parent confirmed a separate offline multi-date static-link issue but explicitly deferred it to the backlog; no scope expansion.",
+  "reproduction_owner": "Parent/context agent; this agent performed source inspection only.",
+  "audit_file": "context-audit.json",
+  "runtime_tests_by_auditor": false,
+  "source_changes_by_auditor": false,
+  "remote_writes": false,
+  "blockers": []
+}

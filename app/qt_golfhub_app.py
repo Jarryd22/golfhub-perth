@@ -431,6 +431,9 @@ class MonthOnlyCalendar(QCalendarWidget):
             return None
         first = QDate(self.yearShown(), self.monthShown(), 1)
         grid_start = first.addDays(1 - first.dayOfWeek())
+        if first.dayOfWeek() == 1:
+            # Qt keeps a full preceding week when the month begins on Monday.
+            grid_start = grid_start.addDays(-7)
         return grid_start.addDays((index.row() - 1) * 7 + index.column())
 
     def eventFilter(self, watched, event):

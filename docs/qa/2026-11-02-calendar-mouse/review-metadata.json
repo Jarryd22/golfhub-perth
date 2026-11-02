@@ -1,0 +1,61 @@
+{
+  "checked_at_utc": "2026-11-02T00:55:41.068452+00:00",
+  "base_commit": "9aa16f733458db871c2452a18a247536ab348498",
+  "scope": "Independent final working-tree source/test/workflow and retained offscreen evidence review; no duplicate runtime test execution",
+  "sha256": {
+    "app/qt_golfhub_app.py": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+    "tests/test_calendar_mouse.py": "e046b5511d05345be8dc197c7867b7872b9fd107b7570cc5f2569b5327b54530",
+    ".github/workflows/test-desktop.yml": "c1475e7c8d2d7391f8d4d54e0915cf9c478d65007517128cd39200bde1415ac6"
+  },
+  "blocking_findings": [],
+  "static_checks": {
+    "crlf_aware_diff_check": {
+      "command": "git -c core.whitespace=cr-at-eol diff --check",
+      "exit_code": 0
+    },
+    "production_and_cache_workflows_unchanged": {
+      "command": "git diff --exit-code HEAD -- .github/workflows/check-alerts.yml .github/workflows/refresh-cache-10min.yml .github/workflows/course-news.yml .github/workflows/test-cache.yml",
+      "exit_code": 0
+    }
+  },
+  "reviewed_regression_counts": {
+    "baseline": {
+      "methods": 8,
+      "passed_methods": 4,
+      "failed_methods": 4,
+      "failure_records": 24,
+      "errors": 0,
+      "skipped": 0
+    },
+    "repaired": {
+      "methods": 8,
+      "passed_methods": 8,
+      "failure_records": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "reviewed_grid_probe": {
+    "baseline": {
+      "scenarios": 36,
+      "pass": 23,
+      "fail": 13
+    },
+    "repaired": {
+      "scenarios": 36,
+      "pass": 36,
+      "fail": 0
+    },
+    "callback_errors": 0
+  },
+  "visuals_inspected": [
+    "context-review/window-2032-03-980x640-mouse.png",
+    "context-review/after/window-2032-03-980x640-mouse.png"
+  ],
+  "limits": [
+    "Fixed Monday-first calendar configuration",
+    "No native Windows/Android UI validation",
+    "No runtime tests repeated by reviewer",
+    "Historical Windows cache_close timeout remains unresolved"
+  ]
+}
