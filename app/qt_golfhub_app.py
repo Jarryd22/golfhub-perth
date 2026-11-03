@@ -1536,7 +1536,14 @@ class GolfHub(QMainWindow):
         if combined:
             self.render_snapshot_batch(combined, sources)
         else:
-            self.render_empty("No cached results were available for these dates. Try a shorter range or search again shortly.")
+            self.clear_results()
+            self.render_empty("No cached results were available for these dates. Try a shorter range or search again shortly.", clear=False)
+            direct_results = self.add_direct_results([])
+            self._append_direct_course_links({result["site_name"]: result for result in direct_results})
+            self.results_layout.addStretch()
+            self.last_results = direct_results
+            self.day_sections = []
+            self._scroll_timer.start(0)
             self.status.setText("Multi-day cache temporarily unavailable")
             self.header_status.setText("SHARED CACHE UNAVAILABLE")
 
@@ -1915,6 +1922,29 @@ class GolfHub(QMainWindow):
             layout.addWidget(note)
         layout.addStretch()
 
+    def _append_direct_course_links(self, direct_by_name):
+        if direct_by_name:
+            direct_wrap = QFrame()
+            direct_wrap.setObjectName("DirectWrap")
+            direct_layout = QVBoxLayout(direct_wrap)
+            direct_layout.setContentsMargins(16, 14, 16, 16)
+            direct_layout.setSpacing(10)
+            direct_title = QLabel("Official booking links")
+            direct_title.setObjectName("ResultTitle")
+            direct_subtitle = QLabel(
+                "These courses open their official booking or visitor page, so each link is shown once for the whole date range."
+            )
+            direct_subtitle.setObjectName("Muted")
+            direct_subtitle.setWordWrap(True)
+            direct_layout.addWidget(direct_title)
+            direct_layout.addWidget(direct_subtitle)
+            direct_cards = [
+                DirectCourseCard(direct_by_name[name])
+                for name in sorted(direct_by_name, key=lambda value: str(value).casefold())
+            ]
+            direct_layout.addWidget(ResponsiveCardGrid(direct_cards, min_cell_width=280, max_columns=3))
+            self.results_layout.addWidget(direct_wrap)
+
     def render_multi_results(self, days, source):
         self.clear_results()
         selected = {site.name for site in self.context.get("sites", [])}
@@ -2026,27 +2056,7 @@ class GolfHub(QMainWindow):
             if index == expand_index:
                 section.set_expanded(True)
 
-        if direct_by_name:
-            direct_wrap = QFrame()
-            direct_wrap.setObjectName("DirectWrap")
-            direct_layout = QVBoxLayout(direct_wrap)
-            direct_layout.setContentsMargins(16, 14, 16, 16)
-            direct_layout.setSpacing(10)
-            direct_title = QLabel("Official booking links")
-            direct_title.setObjectName("ResultTitle")
-            direct_subtitle = QLabel(
-                "These courses open their official booking or visitor page, so each link is shown once for the whole date range."
-            )
-            direct_subtitle.setObjectName("Muted")
-            direct_subtitle.setWordWrap(True)
-            direct_layout.addWidget(direct_title)
-            direct_layout.addWidget(direct_subtitle)
-            direct_cards = [
-                DirectCourseCard(direct_by_name[name])
-                for name in sorted(direct_by_name, key=lambda value: str(value).casefold())
-            ]
-            direct_layout.addWidget(ResponsiveCardGrid(direct_cards, min_cell_width=280, max_columns=3))
-            self.results_layout.addWidget(direct_wrap)
+        self._append_direct_course_links(direct_by_name)
 
         self.results_layout.addStretch()
         self.last_results = all_visible_results

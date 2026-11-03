@@ -1,0 +1,26 @@
+{
+  "timestamp_utc": "2026-11-03T00:30:41.680733+00:00",
+  "base": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+  "changed_existing_methods": [
+    "GolfHub.cache_finished",
+    "GolfHub.render_multi_results"
+  ],
+  "added_methods": [
+    "GolfHub._append_direct_course_links"
+  ],
+  "extracted_block_ast_identical": true,
+  "unchanged_bytes": {
+    "app/golfhub_core.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    "app/course_results.py": true,
+    "scripts/refresh_cache_shard.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "app_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383"
+}

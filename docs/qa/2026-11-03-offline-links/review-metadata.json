@@ -1,0 +1,115 @@
+{
+  "timestamp_utc": "2026-11-03T00:34:55.095079+00:00",
+  "reviewer": "independent child agent /root/oct27_review",
+  "branch": "fix/desktop-offline-course-links-20261103",
+  "base_commit": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+  "reviewed_worktree_head": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+  "reviewed_uncommitted_source": true,
+  "outcome": "No blocking findings",
+  "reviewed_file_sha256": {
+    "app/qt_golfhub_app.py": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+    "tests/test_offline_course_links.py": "abe56e19c09242cb2177ff20a41ef227e67914b44734a7179d89e130124f8f90",
+    ".github/workflows/test-desktop.yml": "cde840c1efc0f8bc4ab68b87abc26482ffa98321c30b42c74739536d732c77dd"
+  },
+  "source_checks": {
+    "changed_existing_GolfHub_methods": [
+      "cache_finished",
+      "render_multi_results"
+    ],
+    "added_GolfHub_methods": [
+      "_append_direct_course_links"
+    ],
+    "extracted_direct_link_block_ast_identical": true,
+    "crlf_aware_git_diff_check_exit_code": 0,
+    "unchanged_workflow_comparison_exit_code": 0,
+    "unchanged_workflows": [
+      ".github/workflows/check-alerts.yml",
+      ".github/workflows/refresh-cache-10min.yml",
+      ".github/workflows/course-news.yml",
+      ".github/workflows/test-cache.yml"
+    ]
+  },
+  "execution_evidence_reviewed_not_rerun": {
+    "baseline": {
+      "methods": 10,
+      "passed_methods": 3,
+      "failed_methods": 7,
+      "failed_assertion_or_subtest_records": 8,
+      "errors": 0,
+      "skipped": 0,
+      "source_commit": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+      "record": "new-tests-baseline.json"
+    },
+    "repaired": {
+      "methods": 10,
+      "passed_methods": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "record": "new-tests-after.json"
+    },
+    "aggregate": {
+      "run": 276,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "module_invocations": 24,
+      "record": "validation/summary.json"
+    },
+    "five_case_direct_card_counts": {
+      "before": [
+        0,
+        0,
+        0,
+        1,
+        2
+      ],
+      "after": [
+        1,
+        2,
+        0,
+        1,
+        2
+      ]
+    },
+    "compact_keyboard": {
+      "logical_window": [
+        980,
+        640
+      ],
+      "keys": [
+        "Tab",
+        "Space"
+      ],
+      "intercepted_urls": 2,
+      "callback_errors": 0,
+      "record": "after/compact-links-probe.json"
+    }
+  },
+  "visually_inspected": [
+    "before/direct-only-all-missing.png",
+    "after/direct-only-all-missing.png",
+    "after/offline-links-980x640-scrolled.png"
+  ],
+  "not_performed": [
+    "duplicate runtime test runs by reviewer",
+    "native Windows/Android",
+    "real browser navigation",
+    "provider requests",
+    "live booking or holds",
+    "notification delivery",
+    "native screen reader or DPI/device tests",
+    "updater/signature tests",
+    "remote branch/exact-head CI verification by reviewer"
+  ],
+  "remaining_issues": [
+    "historical Windows cache_close timeout unresolved",
+    "canonical desktop/mobile reconciliation pending",
+    "parent must verify remote branch and exact-head CI"
+  ],
+  "reviewer_modifications": [
+    "review.md",
+    "review-metadata.json"
+  ],
+  "blocked_actions": []
+}
