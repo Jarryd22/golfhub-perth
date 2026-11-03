@@ -1,0 +1,300 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-03T00:31:18.992215+00:00",
+  "head": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+  "app_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+  "kind": "Linux offscreen; configured selected courses; actual cache_finished with synthetic shared map and real empty temporary local cache; socket/weather/worker access blocked and browser URLs intercepted",
+  "cases": [
+    {
+      "case": "direct-only-all-missing",
+      "selected": [
+        "Altone Park"
+      ],
+      "expected_static_urls": [
+        "https://www.altoneparkgolfcourse.com.au"
+      ],
+      "local_cache_files": [],
+      "direct_cards": [
+        {
+          "name": "Altone Park",
+          "url": "https://www.altoneparkgolfcourse.com.au"
+        }
+      ],
+      "intercepted_urls": [
+        "https://www.altoneparkgolfcourse.com.au"
+      ],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly.",
+        "Official booking links",
+        "These courses open their official booking or visitor page, so each link is shown once for the whole date range.",
+        "Altone Park",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable"
+      ]
+    },
+    {
+      "case": "mixed-all-missing",
+      "selected": [
+        "Araluen",
+        "Altone Park",
+        "Boddington Golf Club"
+      ],
+      "expected_static_urls": [
+        "https://www.altoneparkgolfcourse.com.au",
+        "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      ],
+      "local_cache_files": [],
+      "direct_cards": [
+        {
+          "name": "Altone Park",
+          "url": "https://www.altoneparkgolfcourse.com.au"
+        },
+        {
+          "name": "Boddington Golf Club",
+          "url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+        }
+      ],
+      "intercepted_urls": [
+        "https://www.altoneparkgolfcourse.com.au",
+        "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      ],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly.",
+        "Official booking links",
+        "These courses open their official booking or visitor page, so each link is shown once for the whole date range.",
+        "Altone Park",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable",
+        "Boddington Golf Club",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable"
+      ]
+    },
+    {
+      "case": "integrated-only-all-missing",
+      "selected": [
+        "Araluen"
+      ],
+      "expected_static_urls": [],
+      "local_cache_files": [],
+      "direct_cards": [],
+      "intercepted_urls": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ]
+    },
+    {
+      "case": "direct-only-one-loaded",
+      "selected": [
+        "Altone Park"
+      ],
+      "expected_static_urls": [
+        "https://www.altoneparkgolfcourse.com.au"
+      ],
+      "local_cache_files": [],
+      "direct_cards": [
+        {
+          "name": "Altone Park",
+          "url": "https://www.altoneparkgolfcourse.com.au"
+        }
+      ],
+      "intercepted_urls": [
+        "https://www.altoneparkgolfcourse.com.au"
+      ],
+      "header": "SHARED CACHE / 1 OF 3 DAYS",
+      "status": "0 matching tee times across 1 loaded day",
+      "labels": [
+        "0 matching times across 1 loaded day",
+        "0 days with availability",
+        "1 official course links",
+        "1 of 3 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "No live tee times matched these filters on this day.",
+        "Cache unavailable for this date",
+        "Cache unavailable for this date",
+        "Official booking links",
+        "These courses open their official booking or visitor page, so each link is shown once for the whole date range.",
+        "Altone Park",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable"
+      ]
+    },
+    {
+      "case": "mixed-one-loaded",
+      "selected": [
+        "Araluen",
+        "Altone Park",
+        "Boddington Golf Club"
+      ],
+      "expected_static_urls": [
+        "https://www.altoneparkgolfcourse.com.au",
+        "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      ],
+      "local_cache_files": [],
+      "direct_cards": [
+        {
+          "name": "Altone Park",
+          "url": "https://www.altoneparkgolfcourse.com.au"
+        },
+        {
+          "name": "Boddington Golf Club",
+          "url": "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+        }
+      ],
+      "intercepted_urls": [
+        "https://www.altoneparkgolfcourse.com.au",
+        "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+      ],
+      "header": "SHARED CACHE / 1 OF 3 DAYS",
+      "status": "0 matching tee times across 1 loaded day",
+      "labels": [
+        "0 matching times across 1 loaded day",
+        "0 days with availability",
+        "2 official course links",
+        "1 of 3 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "No live tee times matched these filters on this day.",
+        "Cache unavailable for this date",
+        "Cache unavailable for this date",
+        "Official booking links",
+        "These courses open their official booking or visitor page, so each link is shown once for the whole date range.",
+        "Altone Park",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable",
+        "Boddington Golf Club",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable"
+      ]
+    }
+  ],
+  "callback_errors": []
+}

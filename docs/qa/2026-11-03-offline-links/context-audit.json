@@ -1,0 +1,1337 @@
+{
+  "checked_at_utc": "2026-11-03T00:26:44.175Z",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "scope": "Read-only current branches, open PRs/issues, update-release metadata and source/instruction audit. No provider/cache health watch, asset download/execution, runtime tests, production triggers or remote mutation.",
+  "repositories": {
+    "source": {
+      "name": "Jarryd22/golfhub-perth",
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+          "protected": false
+        },
+        {
+          "name": "cache",
+          "sha": "1ffae240fccda3805fe710c8625ac986354bf018",
+          "protected": false
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-shape-20261030",
+          "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-calendar-mouse-20261102",
+          "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-matching-course-count-20261028",
+          "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-missing-cache-20261027",
+          "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-error-wording-20261029",
+          "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-exception-20261101",
+          "sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-retained-search-context-20261031",
+          "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "protected": false
+        },
+        {
+          "name": "news",
+          "sha": "3ea90bada29f0be811d50c7c36a81720e4af2704",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 20,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth/issues?state=open&per_page=100"
+      ]
+    },
+    "windows": {
+      "name": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 0,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/issues?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/releases/latest",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/git/trees/b53909b8edac42055071e01914aff7d1921a8305?recursive=1"
+      ],
+      "latest_release": {
+        "tag": "v5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    },
+    "android": {
+      "name": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+          "protected": false
+        }
+      ],
+      "open_pr_count": 0,
+      "open_non_pr_issue_count": 0,
+      "sources": [
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/branches?per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/pulls?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/issues?state=open&per_page=100",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/releases/latest",
+        "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/git/trees/cfec2bbd6205edae0f733f6931e0e535db284e48?recursive=1"
+      ],
+      "latest_release": {
+        "tag": "android-v0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    }
+  },
+  "open_drafts": [
+    {
+      "number": 22,
+      "title": "Fix calendar mouse selection for months starting Monday",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/22",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-calendar-mouse-20261102",
+        "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d"
+      },
+      "base": {
+        "ref": "fix/desktop-provider-exception-20261101",
+        "sha": "9aa16f733458db871c2452a18a247536ab348498"
+      },
+      "updated_at": "2026-11-02T01:00:38Z"
+    },
+    {
+      "number": 21,
+      "title": "Preserve failures for message-less provider exceptions",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/21",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-provider-exception-20261101",
+        "sha": "9aa16f733458db871c2452a18a247536ab348498"
+      },
+      "base": {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0"
+      },
+      "updated_at": "2026-11-01T00:28:13Z"
+    },
+    {
+      "number": 20,
+      "title": "Preserve displayed search context during live refresh",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/20",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0"
+      },
+      "base": {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c"
+      },
+      "updated_at": "2026-10-31T00:27:45Z"
+    },
+    {
+      "number": 19,
+      "title": "Reject malformed cache records before saving or rendering",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/19",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c"
+      },
+      "base": {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3"
+      },
+      "updated_at": "2026-10-30T00:44:33Z"
+    },
+    {
+      "number": 18,
+      "title": "Distinguish provider failures from empty tee-time results",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/18",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3"
+      },
+      "base": {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+      },
+      "updated_at": "2026-10-29T00:19:46Z"
+    },
+    {
+      "number": 17,
+      "title": "Count only courses with matching exact tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd"
+      },
+      "base": {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+      },
+      "updated_at": "2026-10-28T00:15:54Z"
+    },
+    {
+      "number": 16,
+      "title": "Distinguish missing date cache from empty tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2"
+      },
+      "base": {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+      },
+      "updated_at": "2026-10-27T00:33:07Z"
+    },
+    {
+      "number": 15,
+      "title": "Validate alert runtime ZIP integrity without executing it",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+      "draft": true,
+      "head": {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca"
+      },
+      "base": {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+      },
+      "updated_at": "2026-10-26T00:57:34Z"
+    },
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632"
+      },
+      "base": {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+      },
+      "updated_at": "2026-10-21T01:16:03Z"
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1"
+      },
+      "base": {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c"
+      },
+      "updated_at": "2026-10-20T00:31:20Z"
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c"
+      },
+      "base": {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+      },
+      "updated_at": "2026-10-20T00:14:31Z"
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce"
+      },
+      "base": {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+      },
+      "updated_at": "2026-10-19T00:29:25Z"
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600"
+      },
+      "base": {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+      },
+      "updated_at": "2026-10-18T01:08:03Z"
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "draft": true,
+      "head": {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-16T23:32:04Z"
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61"
+      },
+      "updated_at": "2026-10-09T16:46:54Z"
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+      },
+      "updated_at": "2026-10-07T08:28:10Z"
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61"
+      },
+      "base": {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+      },
+      "updated_at": "2026-10-07T04:35:09Z"
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-07T04:22:00Z"
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-06T23:02:02Z"
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "draft": true,
+      "head": {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec"
+      },
+      "base": {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31"
+      },
+      "updated_at": "2026-10-04T09:44:25Z"
+    }
+  ],
+  "open_non_pr_issues": [],
+  "pagination": {
+    "page_size": 100,
+    "note": "All returned branch, PR and issue lists are shorter than 100; no list truncation."
+  },
+  "limitations": [
+    "Historical Windows cache_close timeout unresolved; no repeated Linux paired diagnosis or weakened tests.",
+    "Canonical newer desktop/mobile source and existing freshness/subset reconciliation remain pending.",
+    "No direct provider access/denial bypass, booking/holds/notifications, runtime ZIP execution, binaries or device testing.",
+    "No merges, deployment, release publication, production workflow triggers, credentials/security changes, spending or third-party contact.",
+    "Release asset metadata only: no fresh signature verification, download or installed-client update test."
+  ],
+  "execution_notes": {
+    "status": "completed",
+    "remote_writes": false,
+    "blockers": [],
+    "runtime_tests": "Not run during this read-only audit."
+  },
+  "source_refs": {
+    "examined": 24,
+    "refs": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "qt_app_blob_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1494
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1545
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1562
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "qt_app_blob_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1337
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1388
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1405
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "qt_app_blob_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1337
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1388
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1405
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "qt_app_blob_sha256": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1338
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1389
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1406
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "qt_app_blob_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1419
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1470
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1487
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "qt_app_blob_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1494
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1545
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1562
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "qt_app_blob_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1428
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1479
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1496
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-calendar-mouse-20261102",
+        "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+        "qt_app_blob_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1499
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1550
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1567
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "qt_app_blob_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1393
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1444
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1461
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "qt_app_blob_sha256": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1386
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1437
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1454
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "qt_app_blob_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1494
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1545
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1562
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "qt_app_blob_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1494
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1545
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1562
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "qt_app_blob_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1494
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1545
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1562
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "qt_app_blob_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1494
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1545
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1562
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-provider-exception-20261101",
+        "sha": "9aa16f733458db871c2452a18a247536ab348498",
+        "qt_app_blob_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1496
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1547
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1564
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+        "qt_app_blob_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1495
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1546
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1563
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "qt_app_blob_sha256": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1360
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1411
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1428
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "qt_app_blob_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "methods": {
+          "cache_finished": {
+            "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+            "line": 1330
+          },
+          "render_snapshot_batch": {
+            "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+            "line": 1381
+          },
+          "add_direct_results": {
+            "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+            "line": 1398
+          },
+          "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+        }
+      }
+    ],
+    "unreadable_refs": [],
+    "excluded_data_only_refs": [
+      "cache",
+      "news"
+    ]
+  },
+  "instructions": {
+    "ancestor_AGENTS": {
+      "/AGENTS.md": false,
+      "/workspace/AGENTS.md": false,
+      "/workspace/golfhub-20261102/AGENTS.md": false
+    },
+    "checkout_skill_directories": {
+      "/workspace/.agents/skills": false,
+      "/workspace/golfhub-20261102/.agents/skills": false
+    },
+    "tracked_instruction_files_by_source_ref": {
+      "agent/golfhub-v5-final-20260729": [],
+      "fix/alerts-runtime-integrity-20261026": [],
+      "fix/cache-refresh-heartbeat": [],
+      "fix/cache-refresh-incomplete-weather": [],
+      "fix/cache-refresh-provider-circuit": [],
+      "fix/cache-refresh-resilience": [],
+      "fix/cache-refresh-weather-cooldown": [],
+      "fix/cache-refresh-weather-timeouts": [],
+      "fix/cache-refresh-wembley-fallback": [],
+      "fix/cache-refresh-wembley-rendered": [],
+      "fix/desktop-booking-context-20261020": [],
+      "fix/desktop-cache-shape-20261030": [],
+      "fix/desktop-cache-thread-lifecycle-20261020": [],
+      "fix/desktop-calendar-mouse-20261102": [],
+      "fix/desktop-course-controls-20261019": [],
+      "fix/desktop-keyboard-date-selection": [],
+      "fix/desktop-matching-course-count-20261028": [],
+      "fix/desktop-missing-cache-20261027": [],
+      "fix/desktop-perth-midnight-20261021": [],
+      "fix/desktop-provider-error-wording-20261029": [],
+      "fix/desktop-provider-exception-20261101": [],
+      "fix/desktop-retained-search-context-20261031": [],
+      "fix/desktop-search-dates-and-times": [],
+      "main": []
+    },
+    "update_repository_trees": {
+      "windows": {
+        "key": "windows",
+        "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/git/trees/b53909b8edac42055071e01914aff7d1921a8305?recursive=1",
+        "isError": false,
+        "truncated": false,
+        "paths": [
+          "README.md"
+        ]
+      },
+      "android": {
+        "key": "android",
+        "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/git/trees/cfec2bbd6205edae0f733f6931e0e535db284e48?recursive=1",
+        "isError": false,
+        "truncated": false,
+        "paths": [
+          "README.md"
+        ]
+      }
+    },
+    "finding": "No AGENTS.md or .agents/skills/SKILL.md found on source refs or checkout/ancestors. Update repository trees contain only README.md."
+  },
+  "checkout": {
+    "path": "/workspace/golfhub-20261102",
+    "head": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+    "status_short": "",
+    "source_or_test_changes_by_audit": false
+  },
+  "comparison_to_nov02": {
+    "source": {
+      "added_branches": {
+        "fix/desktop-calendar-mouse-20261102": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d"
+      },
+      "changed_branches": {
+        "cache": {
+          "before": "5db6470324a8acf2c33efb958f51cb1e89cfb00c",
+          "after": "1ffae240fccda3805fe710c8625ac986354bf018"
+        },
+        "news": {
+          "before": "cbd1f654db31a0e3973fc2e43e585b7c6cbabef5",
+          "after": "3ea90bada29f0be811d50c7c36a81720e4af2704"
+        }
+      },
+      "removed_branches": []
+    },
+    "windows": {
+      "added_branches": {},
+      "changed_branches": {},
+      "removed_branches": [],
+      "release_tag_unchanged": true,
+      "release_assets_unchanged": true
+    },
+    "android": {
+      "added_branches": {},
+      "changed_branches": {},
+      "removed_branches": [],
+      "release_tag_unchanged": true,
+      "release_assets_unchanged": true
+    }
+  },
+  "source_duplicate_audit": {
+    "status": "completed_source_inspection_only",
+    "candidate": "Preserve selected static direct-course links when every date in a multi-date cache search is unavailable.",
+    "source_refs_examined": 24,
+    "method_groups": {
+      "cache_finished": {
+        "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-calendar-mouse-20261102",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-provider-exception-20261101",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main",
+            "preserved loose checkout"
+          ],
+          "representative_ref": "preserved loose checkout",
+          "line": 1494,
+          "source": "    def cache_finished(self, snapshots):\n        if self._closing:\n            return\n        if self._pending_cache_context is not None:\n            # A newer set of controls is queued. Do not flash or leave the old\n            # result set on screen while the old thread finishes shutting down.\n            self.status.setText('Loading your updated search...')\n            self.header_status.setText('UPDATING SEARCH')\n            return\n        active_context = self._active_cache_context or self.context\n        if not active_context:\n            return\n        self.context = self._snapshot_search_context(active_context)\n        dates = self.context.get(\"dates\") or [self.context[\"date\"]]\n        if snapshots and \"results\" in snapshots:\n            snapshots = {dates[0]: snapshots}\n        snapshots = snapshots or {}\n        combined = {}\n        sources = {}\n        for date_str in dates:\n            if snapshots.get(date_str):\n                combined[date_str] = snapshots[date_str]\n                sources[date_str] = \"Shared cache\"\n                continue\n            local = load_local_snapshot(date_str, self.context[\"holes\"])\n            if local:\n                combined[date_str] = local\n                sources[date_str] = \"Saved on this device\"\n\n        if len(dates) == 1:\n            payload = combined.get(dates[0])\n            if payload:\n                self.render_snapshot(payload, sources[dates[0]])\n            else:\n                self.search_live(self.context)\n            return\n\n        if combined:\n            self.render_snapshot_batch(combined, sources)\n        else:\n            self.render_empty(\"No cached results were available for these dates. Try a shorter range or search again shortly.\")\n            self.status.setText(\"Multi-day cache temporarily unavailable\")\n            self.header_status.setText(\"SHARED CACHE UNAVAILABLE\")"
+        }
+      },
+      "render_snapshot_batch": {
+        "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-calendar-mouse-20261102",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-provider-exception-20261101",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main",
+            "preserved loose checkout"
+          ],
+          "representative_ref": "preserved loose checkout",
+          "line": 1545,
+          "source": "    def render_snapshot_batch(self, snapshots, sources):\n        days = []\n        dates = self.context.get(\"dates\") or [self.context[\"date\"]]\n        for date_str in dates:\n            payload = snapshots.get(date_str)\n            if payload:\n                results = self.add_direct_results(payload.get(\"results\", []), date_str)\n                age = cache_age_label(payload.get(\"generated_at\"))\n                source = f\"{sources.get(date_str, 'Cache')} - updated {age}\"\n            else:\n                results = self.add_direct_results([], date_str)\n                source = \"Cache unavailable for this date\"\n            days.append({\"date\": date_str, \"results\": results, \"source\": source, \"available\": bool(payload)})\n        available = sum(bool(day[\"available\"]) for day in days)\n        self.render_multi_results(days, f\"{available} of {len(days)} dates loaded\")\n        self.header_status.setText(f\"SHARED CACHE / {available} OF {len(days)} DAYS\")"
+        }
+      },
+      "add_direct_results": {
+        "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358": {
+          "refs": [
+            "agent/golfhub-v5-final-20260729",
+            "fix/alerts-runtime-integrity-20261026",
+            "fix/cache-refresh-heartbeat",
+            "fix/cache-refresh-incomplete-weather",
+            "fix/cache-refresh-provider-circuit",
+            "fix/cache-refresh-resilience",
+            "fix/cache-refresh-weather-cooldown",
+            "fix/cache-refresh-weather-timeouts",
+            "fix/cache-refresh-wembley-fallback",
+            "fix/cache-refresh-wembley-rendered",
+            "fix/desktop-booking-context-20261020",
+            "fix/desktop-cache-shape-20261030",
+            "fix/desktop-cache-thread-lifecycle-20261020",
+            "fix/desktop-calendar-mouse-20261102",
+            "fix/desktop-course-controls-20261019",
+            "fix/desktop-keyboard-date-selection",
+            "fix/desktop-matching-course-count-20261028",
+            "fix/desktop-missing-cache-20261027",
+            "fix/desktop-perth-midnight-20261021",
+            "fix/desktop-provider-error-wording-20261029",
+            "fix/desktop-provider-exception-20261101",
+            "fix/desktop-retained-search-context-20261031",
+            "fix/desktop-search-dates-and-times",
+            "main",
+            "preserved loose checkout"
+          ],
+          "representative_ref": "preserved loose checkout",
+          "line": 1562,
+          "source": "    def add_direct_results(self, results, date_str=None):\n        selected = {site.name: site for site in self.context.get(\"sites\", [])}\n        merged = [result for result in results if result.get(\"site_name\") in selected]\n        present = {result.get(\"site_name\") for result in merged}\n        for site in selected.values():\n            if (getattr(site, \"provider\", \"\") or \"\").lower() == \"direct\" and site.name not in present:\n                # Fast fallback only. The shared/live worker supplies weather off the GUI thread.\n                merged.append(direct_result(site, self.context[\"holes\"]))\n        return merged"
+        }
+      }
+    },
+    "all_missing_branch_groups": {
+      "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e": {
+        "refs": [
+          "agent/golfhub-v5-final-20260729",
+          "fix/alerts-runtime-integrity-20261026",
+          "fix/cache-refresh-heartbeat",
+          "fix/cache-refresh-incomplete-weather",
+          "fix/cache-refresh-provider-circuit",
+          "fix/cache-refresh-resilience",
+          "fix/cache-refresh-weather-cooldown",
+          "fix/cache-refresh-weather-timeouts",
+          "fix/cache-refresh-wembley-fallback",
+          "fix/cache-refresh-wembley-rendered",
+          "fix/desktop-booking-context-20261020",
+          "fix/desktop-cache-shape-20261030",
+          "fix/desktop-cache-thread-lifecycle-20261020",
+          "fix/desktop-calendar-mouse-20261102",
+          "fix/desktop-course-controls-20261019",
+          "fix/desktop-keyboard-date-selection",
+          "fix/desktop-matching-course-count-20261028",
+          "fix/desktop-missing-cache-20261027",
+          "fix/desktop-perth-midnight-20261021",
+          "fix/desktop-provider-error-wording-20261029",
+          "fix/desktop-provider-exception-20261101",
+          "fix/desktop-retained-search-context-20261031",
+          "fix/desktop-search-dates-and-times",
+          "main",
+          "preserved loose checkout"
+        ],
+        "source": "            self.render_empty(\"No cached results were available for these dates. Try a shorter range or search again shortly.\")\n            self.status.setText(\"Multi-day cache temporarily unavailable\")\n            self.header_status.setText(\"SHARED CACHE UNAVAILABLE\")"
+      }
+    },
+    "finding": "All 24 source refs and preserved loose checkout share the same all-missing branch: render_empty plus unavailable status/header, without direct-course result synthesis or rendering. No existing branch fixes this bypass.",
+    "preserved_loose_checkout": {
+      "path": "/workspace/golfhub-perth/app/qt_golfhub_app.py",
+      "read_only": true,
+      "methods": {
+        "cache_finished": {
+          "ast_sha256": "a9fa667f8f52fc437d9d2d077072e072254e3f7ccabed7a4f892615d698c0a1a",
+          "line": 1494
+        },
+        "render_snapshot_batch": {
+          "ast_sha256": "ff1e1db770307f2a3641ab054e25b44fa4cffca18aca572337bb4302182059e5",
+          "line": 1545
+        },
+        "add_direct_results": {
+          "ast_sha256": "87637eb1d6973cbb4217f0857659f70f433fa5fefe4184ca53cdc9d597f16358",
+          "line": 1562
+        },
+        "all_missing_branch_ast_sha256": "306631eb8feda9839ac36f06c64073e8f8d7ad9907302bc329b10b809458a20e"
+      },
+      "finding": "Same all-missing branch; no competing repair found in this bounded read. Canonical provenance remains unresolved."
+    },
+    "PR16_distinction": "PR16 adds unchecked-date wording and loaded-day totals within render_multi_results. A partially loaded batch still creates selected static direct results for missing days and deduplicates official cards across the range, but cache_finished does not enter batch rendering when combined is empty. Calling that renderer blindly with zero loaded dates would replace useful unavailable/retry guidance with a zero-matching summary; this is not the intended repair.",
+    "freshness_subset_distinction": "Known canonical freshness/subset fixes concern observation timestamps and preserving saved courses on live refresh. This candidate concerns access to configured static direct destinations without cached availability; no cache persistence/freshness policy or canonical reconciliation is required.",
+    "narrow_scope_advice": "Retain the all-missing unavailable status/header and retry guidance. Render only submitted selected direct-provider course links once per range, from configuration, with no date-specific availability claim or fabricated provider rows. Existing add_direct_results([]) uses submitted self.context, supplies no date to direct_result, and therefore avoids weather fetches; preserve that no-network construction. Keep single-date live fallback, pending-search guards, loaded/mixed batch behavior and cache/save lifecycle unchanged. Use integrated-only, direct-only, mixed/deduplicated, changed-pending-controls and intercepted URL regressions.",
+    "runtime_reproduction": "Existing November2 five configured-site scenarios inspected; root owns current exact-head reproduction/tests. No probes/tests run by this source audit.",
+    "source_or_test_changes_by_auditor": false,
+    "existing_tests_source_inspected": {
+      "tests/test_multiday_cache_states.py": "PR16 all-missing integration test selects an integrated live course only and asserts unavailable/no-live-fallback behavior; its direct-link regression uses a partially loaded batch. These do not cover a selected direct course with every date missing."
+    }
+  },
+  "prior_documentation_inspected": {
+    "head": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+    "paths": [
+      "docs/IMPROVEMENT_BACKLOG.md",
+      "docs/QA_CHECKLIST.md",
+      "docs/qa/2026-11-02-calendar-mouse/REPORT.md",
+      "docs/qa/2026-11-02-calendar-mouse/deferred-offline-links/README.md"
+    ],
+    "latest_completed_repair": "PR22 Monday-start month mouse mapping. Prior pass records eight new regressions and 266 aggregate checks (138 desktop,91 cache/integrity,37 additional), 36 settled calendar actions and eight normal-app popup clicks. No tests rerun by this audit.",
+    "candidate_prior_evidence": "Five actual-configured-site synthetic/offline scenarios on PR21: Altone alone loses its configured link when all dates are missing, and Araluen+Altone+Boddington loses two direct links; one valid empty snapshot restores those direct links. Integrated-only selection appropriately has none. Evidence explicitly deferred the repair and records no provider/notification access.",
+    "prior_repairs_to_avoid_duplicating": "PR3 Quick18-specific; PR4\u21926\u21928 weather; PR5\u21927 Wembley; PR9\u201314 dates/controls/accessibility/thread/midnight; PR15 inert archive integrity; PR16 missing-day wording; PR17 counts; PR18 error wording; PR19 snapshot container validation; PR20 retained display context; PR21 empty-exception normalization; PR22 mouse mapping. None changes the all-missing multi-date branch.",
+    "pending_limits": [
+      "Historical Windows cache_close timeout",
+      "Canonical desktop/mobile/service source reconciliation",
+      "Per-course freshness and subset preservation reconciliation",
+      "Native/device/updater/signature/screen-reader/delivery validation"
+    ]
+  }
+}

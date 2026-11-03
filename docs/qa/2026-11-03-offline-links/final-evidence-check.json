@@ -1,0 +1,19 @@
+{
+  "recorded_at_utc": "2026-11-03T00:35:57.687625+00:00",
+  "initial_execution": {
+    "error": "KeyError: 'sha256'",
+    "reason": "Checker assumed a prior review metadata key; current schema uses reviewed_file_sha256.",
+    "failed_before": "hash/link validation",
+    "subsequent_shell_actions": "git add, staged whitespace check and diff stat completed; overall shell exit 0 did not establish hash validation.",
+    "application_or_tests_changed": false
+  },
+  "corrected_execution": {
+    "hashes_match": {
+      "app/qt_golfhub_app.py": true,
+      "tests/test_offline_course_links.py": true,
+      ".github/workflows/test-desktop.yml": true
+    },
+    "missing_evidence_links": [],
+    "result": "pass"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "status": "no_duplicate_repair_found",
+  "base": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+  "source_refs": 24,
+  "preserved_loose_checked": true,
+  "all_missing_branch_ast_variants": 1,
+  "finding": "All 24 source refs and preserved loose checkout share the same all-missing branch: render_empty plus unavailable status/header, without direct-course result synthesis or rendering. No existing branch fixes this bypass.",
+  "PR16_distinction": "PR16 adds unchecked-date wording and loaded-day totals within render_multi_results. A partially loaded batch still creates selected static direct results for missing days and deduplicates official cards across the range, but cache_finished does not enter batch rendering when combined is empty. Calling that renderer blindly with zero loaded dates would replace useful unavailable/retry guidance with a zero-matching summary; this is not the intended repair.",
+  "canonical_freshness_subset_distinction": "Known canonical freshness/subset fixes concern observation timestamps and preserving saved courses on live refresh. This candidate concerns access to configured static direct destinations without cached availability; no cache persistence/freshness policy or canonical reconciliation is required.",
+  "narrow_scope": "Retain the all-missing unavailable status/header and retry guidance. Render only submitted selected direct-provider course links once per range, from configuration, with no date-specific availability claim or fabricated provider rows. Existing add_direct_results([]) uses submitted self.context, supplies no date to direct_result, and therefore avoids weather fetches; preserve that no-network construction. Keep single-date live fallback, pending-search guards, loaded/mixed batch behavior and cache/save lifecycle unchanged. Use integrated-only, direct-only, mixed/deduplicated, changed-pending-controls and intercepted URL regressions.",
+  "test_gap": {
+    "tests/test_multiday_cache_states.py": "PR16 all-missing integration test selects an integrated live course only and asserts unavailable/no-live-fallback behavior; its direct-link regression uses a partially loaded batch. These do not cover a selected direct course with every date missing."
+  },
+  "reproduction_owner": "Parent/other agent; source-audit agent inspected prior evidence only.",
+  "runtime_tests_by_auditor": false,
+  "source_changes_by_auditor": false,
+  "remote_writes": false,
+  "blockers": []
+}

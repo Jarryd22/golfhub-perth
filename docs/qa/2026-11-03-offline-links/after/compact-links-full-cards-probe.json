@@ -1,0 +1,58 @@
+{
+  "timestamp_utc": "2026-11-03T00:32:16.461593+00:00",
+  "source_head": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+  "app_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+  "kind": "Separate Linux offscreen diagnostic; actual Tab/Space from Find Tee Times and scroll reachability; real empty temporary local cache; sockets/weather/workers blocked, browser intercepted",
+  "logical_window": [
+    980,
+    640
+  ],
+  "status": "Multi-day cache temporarily unavailable",
+  "header": "SHARED CACHE UNAVAILABLE",
+  "focus_path": [
+    {
+      "type": "QScrollArea",
+      "name": "",
+      "object_name": "ResultsScroll"
+    },
+    {
+      "type": "QPushButton",
+      "name": "View course: Altone Park, 18 holes",
+      "object_name": "MiniButton"
+    },
+    {
+      "type": "QPushButton",
+      "name": "View course: Boddington Golf Club, 18 holes",
+      "object_name": "MiniButton"
+    }
+  ],
+  "links": [
+    {
+      "course": "Altone Park",
+      "fully_inside_viewport": true,
+      "button_accessible_name": "View course: Altone Park, 18 holes",
+      "button_rect": [
+        318,
+        119,
+        111,
+        31
+      ]
+    },
+    {
+      "course": "Boddington Golf Club",
+      "fully_inside_viewport": true,
+      "button_accessible_name": "View course: Boddington Golf Club, 18 holes",
+      "button_rect": [
+        751,
+        119,
+        111,
+        31
+      ]
+    }
+  ],
+  "intercepted_urls": [
+    "https://www.altoneparkgolfcourse.com.au",
+    "https://www.boddington.wa.gov.au/things-to-see-and-do.aspx"
+  ],
+  "callback_errors": []
+}
