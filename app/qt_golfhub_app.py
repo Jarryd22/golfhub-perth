@@ -1637,9 +1637,11 @@ class GolfHub(QMainWindow):
             return
         if cancelled:
             self.status.setText("Stopped - partial results were not saved")
-            self.header_status.setText("REFRESH STOPPED / CACHE PRESERVED")
+            self.header_status.setText(
+                "REFRESH STOPPED / PREVIOUS RESULTS KEPT" if self.last_results else "REFRESH STOPPED"
+            )
             if not self.last_results:
-                self.render_empty("Refresh stopped. Your existing cache was not replaced.")
+                self.render_empty("Refresh stopped before results were available. Try Find Tee Times or Refresh Live again.")
             return
         self.last_results = results
         try:
@@ -1655,13 +1657,21 @@ class GolfHub(QMainWindow):
         self.live_button.setEnabled(True)
         self.stop_button.setVisible(False)
         self.progress.setVisible(False)
-        self.status.setText("Live refresh failed - cached results preserved")
-        self.header_status.setText("LIVE REFRESH FAILED / CACHE PRESERVED")
+        if self.last_results:
+            self.status.setText("Live refresh failed - previous results kept")
+            self.header_status.setText("LIVE REFRESH FAILED / PREVIOUS RESULTS KEPT")
+            message = "GolfHub kept the previous results on screen."
+        else:
+            self.status.setText("Live refresh failed - no results available")
+            self.header_status.setText("LIVE REFRESH FAILED")
+            message = "Could not load tee-time results. Try Find Tee Times or Refresh Live again."
         if not self._closing:
+            if not self.last_results:
+                self.render_empty(message)
             QMessageBox.critical(
                 self,
                 "Could not refresh",
-                "GolfHub kept the previous cached results.\n\n" + error.splitlines()[-1],
+                message + "\n\n" + error.splitlines()[-1],
             )
 
     @staticmethod
@@ -2189,6 +2199,8 @@ class GolfHub(QMainWindow):
         self._scroll_timer.start(0)
 
     def clear_results(self):
+        self.last_results = []
+        self.day_sections = []
         while self.results_layout.count():
             item = self.results_layout.takeAt(0)
             if item.widget():

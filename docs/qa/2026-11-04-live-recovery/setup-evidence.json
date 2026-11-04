@@ -1,0 +1,29 @@
+{
+  "environment": "existing saved Linux coding executor",
+  "startup": "waited for ready; no tests or source changes during startup",
+  "base": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "initial_setup_command": "git fetch origin && git rev-parse origin/fix/desktop-offline-course-links-20261103 && git worktree add ...",
+  "initial_setup_exit": 128,
+  "initial_setup_result": "fetch succeeded into FETCH_HEAD; named remote-tracking ref absent; chained worktree creation did not execute",
+  "correction": "verified FETCH_HEAD equals PR23, then created the isolated worktree from that exact SHA",
+  "corrected_exit": 0,
+  "denied": false,
+  "original_dirty_work": "preserved",
+  "non_test_read_probes": [
+    {
+      "action": "Locate temporary actionlint binary",
+      "target": "/tmp/actionlint",
+      "result": "absent after environment resume; fetched checksum-verified pinned release into workspace"
+    },
+    {
+      "action": "Search temporary paths for actionlint filenames",
+      "target": "/tmp/codex-daemon-1000",
+      "result": "OS Permission denied; unrelated directory not retried or needed"
+    },
+    {
+      "action": "Read presumed baseline filename",
+      "target": "scratch/golfhub-20261104-failure-review/before/cold-failure.json",
+      "result": "not found; actual cold-failure-probe.json located by file listing and read"
+    }
+  ]
+}

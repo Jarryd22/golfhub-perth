@@ -1,0 +1,312 @@
+{
+  "timestamp_utc": "2026-11-04T00:51:39.326689+00:00",
+  "scope": "Read-only local Git refs available in the saved executor plus preserved loose source; no remote fetch, provider access or runtime test.",
+  "baseline_head": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "refs_with_method": [
+    {
+      "ref": "refs/heads/fix/desktop-cache-shape-20261030",
+      "commit": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-calendar-mouse-20261102",
+      "commit": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-live-recovery-20261104",
+      "commit": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-matching-course-count-20261028",
+      "commit": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-missing-cache-20261027",
+      "commit": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-offline-course-links-20261103",
+      "commit": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-provider-error-wording-20261029",
+      "commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-provider-exception-20261101",
+      "commit": "9aa16f733458db871c2452a18a247536ab348498",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-retained-search-context-20261031",
+      "commit": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/fix/desktop-search-filter-20261022",
+      "commit": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/heads/work",
+      "commit": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/HEAD",
+      "commit": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/main",
+      "commit": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/pr14",
+      "commit": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/pr15",
+      "commit": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/pr16",
+      "commit": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/pr17",
+      "commit": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/pr18",
+      "commit": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/origin/pr19",
+      "commit": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/agent/golfhub-v5-final-20260729",
+      "commit": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/alerts-runtime-integrity-20261026",
+      "commit": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-heartbeat",
+      "commit": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-incomplete-weather",
+      "commit": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-provider-circuit",
+      "commit": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-resilience",
+      "commit": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-weather-cooldown",
+      "commit": "e84985a713d008301cdef96db7582c420b712d61",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-weather-timeouts",
+      "commit": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-wembley-fallback",
+      "commit": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/cache-refresh-wembley-rendered",
+      "commit": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/desktop-booking-context-20261020",
+      "commit": "93d4763451358be608bff06fd0013936af36764c",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/desktop-cache-thread-lifecycle-20261020",
+      "commit": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/desktop-course-controls-20261019",
+      "commit": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/desktop-keyboard-date-selection",
+      "commit": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/desktop-perth-midnight-20261021",
+      "commit": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/fix/desktop-search-dates-and-times",
+      "commit": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    },
+    {
+      "ref": "refs/remotes/qa-oct27/main",
+      "commit": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+      "uses_last_results": false,
+      "renders_empty_state": false,
+      "unconditional_preserved_message": true
+    }
+  ],
+  "distinct_method_hashes": [
+    "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8"
+  ],
+  "preserved_loose": {
+    "path": "/workspace/golfhub-perth/app/qt_golfhub_app.py",
+    "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+    "method_ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+    "uses_last_results": false,
+    "renders_empty_state": false,
+    "unconditional_preserved_message": true,
+    "method_source": "@Slot(str)\ndef scan_failed(self, error):\n    self.search_button.setEnabled(True)\n    self.live_button.setEnabled(True)\n    self.stop_button.setVisible(False)\n    self.progress.setVisible(False)\n    self.status.setText('Live refresh failed - cached results preserved')\n    self.header_status.setText('LIVE REFRESH FAILED / CACHE PRESERVED')\n    if not self._closing:\n        QMessageBox.critical(self, 'Could not refresh', 'GolfHub kept the previous cached results.\\n\\n' + error.splitlines()[-1])"
+  },
+  "test_overlap": {
+    "thread_lifecycle": "live_failure/live_finish_failure start without prior results but expect CACHE PRESERVED; native ownership/cleanup checks remain relevant.",
+    "retained_search_context": "Failure case explicitly renders a saved result and checks retained booking player context.",
+    "startup_decisions": "Single-date missing-cache scenario intercepts search_live; it does not exercise terminal failure."
+  }
+}

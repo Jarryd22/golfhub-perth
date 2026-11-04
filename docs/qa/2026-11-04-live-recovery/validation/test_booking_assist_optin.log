@@ -1,0 +1,13 @@
+QA_RESULT {"run": 7, "failures": 0, "errors": 0, "skipped": 0}
+test_confirmation_must_be_an_actual_boolean (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_confirmation_must_be_an_actual_boolean) ... ok
+test_confirmed_assist_rejects_unsupported_provider (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_confirmed_assist_rejects_unsupported_provider) ... ok
+test_confirmed_assist_requires_an_exact_timesheet (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_confirmed_assist_requires_an_exact_timesheet) ... ok
+test_default_plan_remains_open_only (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_default_plan_remains_open_only) ... ok
+test_explicit_confirmation_enables_exact_count_and_details_only (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_explicit_confirmation_enables_exact_count_and_details_only) ... ok
+test_hold_and_release_scripts_exclude_irreversible_actions (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_hold_and_release_scripts_exclude_irreversible_actions) ... ok
+test_release_script_only_targets_cells_recorded_by_golfhub (test_booking_assist_optin.ConfirmedTemporaryHoldTests.test_release_script_only_targets_cells_recorded_by_golfhub) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.001s
+
+OK

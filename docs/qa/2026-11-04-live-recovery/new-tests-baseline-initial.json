@@ -1,0 +1,11 @@
+{
+  "timestamp_utc": "2026-11-04T00:58:53.172100+00:00",
+  "source_commit": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "source_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+  "test_sha256": "213c671389d8288084bf256b8e7a1b4e4a6e975f1b8ecd821c31084a3ce80489",
+  "exit_code": 1,
+  "run": 11,
+  "failures": 4,
+  "errors": 6,
+  "skipped": 0
+}
