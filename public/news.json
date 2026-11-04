@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-03T02:57:05.248491+00:00",
+  "generated_at": "2026-11-04T01:28:30.164993+00:00",
   "items": [
+    {
+      "id": "9124762971e20aeb4a9e",
+      "course_id": "rockingham",
+      "title": "Ladies Amateur Open – Results",
+      "summary": "Rockingham Golf Club’s Lovells Jewellery Studio Ladies Amateur Open concluded after two days of",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/ladies-amateur-open-results/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-03T04:28:28+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "c9937170024f59ebd285",
+      "course_id": "hartfield",
+      "title": "Past President and Captain Winner",
+      "summary": "Saturday, October 31, saw the annual Past President and Captain Day, featuring the Keith",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/past-president-and-captain-winner/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-03T03:31:19+00:00",
+      "category": "Course news"
+    },
     {
       "id": "77a12d25a90cadf92a67",
       "course_id": "sun-city",
@@ -125,17 +147,6 @@
       "category": "Course news"
     },
     {
-      "id": "630b940ea2653807a67e",
-      "course_id": "rockingham",
-      "title": "Board Minutes August 2026",
-      "summary": "Minutes Board Meeting Rockingham Golf Club – August 2026 The post Board Minutes August",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/board-minutes-august-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-30T01:04:58+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "4a3d0489c91259fb5c99",
       "course_id": "nedlands-golf-club",
       "title": "Women’s Club Championships Finals Wrap-Up",
@@ -207,17 +218,6 @@
         "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Aussie-BBQ-Update.png"
       ],
       "published_at": "2026-10-23T06:50:41+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "cb3164e7dd10d90731ce",
-      "course_id": "hartfield",
-      "title": "October Course Report",
-      "summary": "The post October Course Report appeared first on Hartfield Country Club .",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/october-course-report/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-22T07:56:53+00:00",
       "category": "Course news"
     },
     {
@@ -376,22 +376,6 @@
       "category": "Offers"
     },
     {
-      "id": "167011aa8b78a922fd4a",
-      "course_id": "mosman-park",
-      "title": "Annual Course Maintenance",
-      "summary": "This week has seen our annual maintenance, both on the course and in and",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/annual-course-maintenance/",
-      "image": "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/coring-2.jpg",
-      "images": [
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/coring-2.jpg",
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/coring-1.jpg",
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Deck-1.jpg",
-        "https://www.mosmanparkgolfclub.com.au/cms/wp-content/uploads/2026/10/Deck-2.jpg"
-      ],
-      "published_at": "2026-10-10T03:53:04+00:00",
-      "category": "Course works"
-    },
-    {
       "id": "ae171d9d730357b7c3ea",
       "course_id": "collier-park",
       "title": "The Longest Day at Collier Park",
@@ -426,6 +410,17 @@
         "https://collierparkgolf.com.au/wp-content/uploads/2026/10/Driving-Range-Hours-October-scaled.png"
       ],
       "published_at": "2026-10-05T05:05:42+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "92f702db4a7262e67069",
+      "course_id": "mosman-park",
+      "title": "Demo MGI Electric Buggies at the Pro Shop",
+      "summary": "The Pro Shop is now stocking MGI Electric Golf Buggies. We current have four",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/demo-mgi-electric-buggies-at-the-pro-shop/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-02T02:36:25+00:00",
       "category": "Course news"
     },
     {
@@ -516,7 +511,7 @@
     },
     {
       "course_id": "hamersley",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "hartfield",
