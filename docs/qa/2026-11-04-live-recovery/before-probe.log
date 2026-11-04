@@ -1,0 +1,82 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-04T00:53:39.421707+00:00",
+  "source_head": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "app_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+  "kind": "Linux offscreen; real cache_finished/search_live and synchronous ScanWorker.run/failed signal; native QThread creation/move intercepted; executor fails before work; real empty temporary local cache; socket/provider/browser/save blocked",
+  "before": {
+    "labels": [
+      "Find a round that fits your day",
+      "Checking courses live..."
+    ],
+    "status": "Checking courses live...",
+    "last_results": []
+  },
+  "after": {
+    "labels": [
+      "Find a round that fits your day",
+      "Checking courses live..."
+    ],
+    "status": "Live refresh failed - cached results preserved",
+    "header": "LIVE REFRESH FAILED / CACHE PRESERVED",
+    "dialog_text": "GolfHub kept the previous cached results.\n\nRuntimeError: Synthetic executor setup failed",
+    "search_enabled": true,
+    "progress_visible": false,
+    "last_results": []
+  },
+  "callback_errors": []
+}

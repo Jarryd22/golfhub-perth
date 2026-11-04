@@ -1,0 +1,23 @@
+{
+  "base_head": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "app_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+  "changed_golfhub_methods": [
+    "clear_results",
+    "scan_failed",
+    "scan_finished"
+  ],
+  "unchanged_golfhub_methods": 48,
+  "byte_identical_files": {
+    "app/golfhub_core.py": true,
+    "app/course_results.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "scope": "Static AST and bytes only; no runtime archive execution"
+}

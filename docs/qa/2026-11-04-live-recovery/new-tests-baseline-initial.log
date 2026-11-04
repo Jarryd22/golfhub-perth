@@ -1,0 +1,513 @@
+QA_RESULT {"run": 11, "failures": 4, "errors": 6, "skipped": 0}
+test_cancelled_refresh_keeps_previous_multiday_cards_without_saving_partial (cache_state_regressions.LiveRecoveryStateTests.test_cancelled_refresh_keeps_previous_multiday_cards_without_saving_partial) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_cold_stop_replaces_checking_view_without_claiming_saved_results (cache_state_regressions.LiveRecoveryStateTests.test_cold_stop_replaces_checking_view_without_claiming_saved_results) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_empty_first_launch_cache_fallback_recovers_from_real_failed_signal (cache_state_regressions.LiveRecoveryStateTests.test_empty_first_launch_cache_fallback_recovers_from_real_failed_signal) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_failed_refresh_keeps_actual_saved_card_bytes_and_booking_context (cache_state_regressions.LiveRecoveryStateTests.test_failed_refresh_keeps_actual_saved_card_bytes_and_booking_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_failed_refresh_keeps_lazy_multiday_rows_and_original_date (cache_state_regressions.LiveRecoveryStateTests.test_failed_refresh_keeps_lazy_multiday_rows_and_original_date) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_failed_refresh_keeps_static_offline_course_action (cache_state_regressions.LiveRecoveryStateTests.test_failed_refresh_keeps_static_offline_course_action) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_failure_while_closing_does_not_open_dialog_or_replace_body (cache_state_regressions.LiveRecoveryStateTests.test_failure_while_closing_does_not_open_dialog_or_replace_body) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_new_cache_search_clears_previous_days_before_failure_or_stop (cache_state_regressions.LiveRecoveryStateTests.test_new_cache_search_clears_previous_days_before_failure_or_stop) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_new_cache_search_clears_previous_days_before_failure_or_stop (cache_state_regressions.LiveRecoveryStateTests.test_new_cache_search_clears_previous_days_before_failure_or_stop) (stopped=False) ... ERROR
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_new_cache_search_clears_previous_days_before_failure_or_stop (cache_state_regressions.LiveRecoveryStateTests.test_new_cache_search_clears_previous_days_before_failure_or_stop) (stopped=True) ... ERROR
+test_repeated_cold_failures_have_one_empty_frame_and_reachable_retry (cache_state_regressions.LiveRecoveryStateTests.test_repeated_cold_failures_have_one_empty_frame_and_reachable_retry) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_rerendering_last_results_alias_preserves_input_rows (cache_state_regressions.LiveRecoveryStateTests.test_rerendering_last_results_alias_preserves_input_rows) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_successful_retry_replaces_failure_state_with_new_results (cache_state_regressions.LiveRecoveryStateTests.test_successful_retry_replaces_failure_state_with_new_results) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+
+======================================================================
+ERROR: test_cancelled_refresh_keeps_previous_multiday_cards_without_saving_partial (cache_state_regressions.LiveRecoveryStateTests.test_cancelled_refresh_keeps_previous_multiday_cards_without_saving_partial)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 276, in test_cancelled_refresh_keeps_previous_multiday_cards_without_saving_partial
+    self.assertEqual(self.window.header_status.text(), "REFRESH STOPPED / PREVIOUS RESULTS KEPT")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1251, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 139, in fail
+    worker.run()
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'run'
+
+======================================================================
+ERROR: test_failed_refresh_keeps_actual_saved_card_bytes_and_booking_context (cache_state_regressions.LiveRecoveryStateTests.test_failed_refresh_keeps_actual_saved_card_bytes_and_booking_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 227, in test_failed_refresh_keeps_actual_saved_card_bytes_and_booking_context
+    self.assertEqual(self.window.header_status.text(), "LIVE REFRESH FAILED / PREVIOUS RESULTS KEPT")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1251, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 139, in fail
+    worker.run()
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'run'
+
+======================================================================
+ERROR: test_failed_refresh_keeps_lazy_multiday_rows_and_original_date (cache_state_regressions.LiveRecoveryStateTests.test_failed_refresh_keeps_lazy_multiday_rows_and_original_date)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 246, in test_failed_refresh_keeps_lazy_multiday_rows_and_original_date
+    self.assertEqual(self.window.header_status.text(), "LIVE REFRESH FAILED / PREVIOUS RESULTS KEPT")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1251, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 139, in fail
+    worker.run()
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'run'
+
+======================================================================
+ERROR: test_failed_refresh_keeps_static_offline_course_action (cache_state_regressions.LiveRecoveryStateTests.test_failed_refresh_keeps_static_offline_course_action)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 263, in test_failed_refresh_keeps_static_offline_course_action
+    self.assertEqual(self.window.header_status.text(), "LIVE REFRESH FAILED / PREVIOUS RESULTS KEPT")
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1251, in assertMultiLineEqual
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 139, in fail
+    worker.run()
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'run'
+
+======================================================================
+ERROR: test_new_cache_search_clears_previous_days_before_failure_or_stop (cache_state_regressions.LiveRecoveryStateTests.test_new_cache_search_clears_previous_days_before_failure_or_stop) (stopped=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 204, in test_new_cache_search_clears_previous_days_before_failure_or_stop
+    self.assertEqual(self.window.last_results, [])
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 885, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1091, in assertListEqual
+    self.assertSequenceEqual(list1, list2, msg, seq_type=list)
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1073, in assertSequenceEqual
+    self.fail(msg)
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 139, in fail
+    worker.run()
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'run'
+
+======================================================================
+ERROR: test_new_cache_search_clears_previous_days_before_failure_or_stop (cache_state_regressions.LiveRecoveryStateTests.test_new_cache_search_clears_previous_days_before_failure_or_stop) (stopped=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 201, in test_new_cache_search_clears_previous_days_before_failure_or_stop
+    self.assertIn("Checking the shared cache...", self.labels())
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/case.py", line 1152, in assertIn
+    self.fail(self._formatMessage(msg, standardMsg))
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 139, in fail
+    worker.run()
+    ^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'run'
+
+======================================================================
+FAIL: test_cold_stop_replaces_checking_view_without_claiming_saved_results (cache_state_regressions.LiveRecoveryStateTests.test_cold_stop_replaces_checking_view_without_claiming_saved_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 190, in test_cold_stop_replaces_checking_view_without_claiming_saved_results
+    self.assert_cold(stopped=True)
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 153, in assert_cold
+    self.assertEqual(self.labels().count(note), 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_empty_first_launch_cache_fallback_recovers_from_real_failed_signal (cache_state_regressions.LiveRecoveryStateTests.test_empty_first_launch_cache_fallback_recovers_from_real_failed_signal)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 180, in test_empty_first_launch_cache_fallback_recovers_from_real_failed_signal
+    self.assert_cold()
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 153, in assert_cold
+    self.assertEqual(self.labels().count(note), 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_repeated_cold_failures_have_one_empty_frame_and_reachable_retry (cache_state_regressions.LiveRecoveryStateTests.test_repeated_cold_failures_have_one_empty_frame_and_reachable_retry)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 309, in test_repeated_cold_failures_have_one_empty_frame_and_reachable_retry
+    self.assert_cold()
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 153, in assert_cold
+    self.assertEqual(self.labels().count(note), 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_successful_retry_replaces_failure_state_with_new_results (cache_state_regressions.LiveRecoveryStateTests.test_successful_retry_replaces_failure_state_with_new_results)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 284, in test_successful_retry_replaces_failure_state_with_new_results
+    self.assert_cold()
+  File "/workspace/golfhub-20261104/tests/test_live_recovery_states.py", line 153, in assert_cold
+    self.assertEqual(self.labels().count(note), 1)
+AssertionError: 0 != 1
+
+----------------------------------------------------------------------
+Ran 11 tests in 1.267s
+
+FAILED (failures=4, errors=6)

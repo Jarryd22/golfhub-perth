@@ -50,6 +50,7 @@ python -m unittest discover -s tests -p test_time_range_ui.py -v
 python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_offline_course_links.py -v
+python -m unittest discover -s tests -p test_live_recovery_states.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
 python -m unittest discover -s tests -p test_provider_error_states.py -v
 python -m unittest discover -s tests -p test_provider_exceptions.py -v
@@ -66,7 +67,17 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 3 November 2026
+## Latest pass: 4 November 2026
+
+See the [live-refresh recovery report](qa/2026-11-04-live-recovery/REPORT.md). A worker-wide failure with no displayed results must replace the in-progress checking message with truthful failure/retry guidance. Stop-before-results must not imply a preserved cache. Removing cards must also discard their display metadata; genuinely retained cached/live/direct results keep their original booking and lazy-date context. Verify cold, cleared, retained and successful-retry states, including a renderer called with its existing result-list alias. Per-course provider errors remain a separate path.
+
+**Passed:** eleven new regressions (exact PR23: two passing/nine failing methods, ten assertion records), **287 aggregate tests** (159 desktop, 91 cache/integrity, 37 additional booking/rendering), compile, whitespace, actionlint and independent review. Before/after 1280×800 and cold-recovery 980×640 images inspected. The initial baseline fixture helper error and correction are retained separately.
+
+**Separate diagnostics passed:** 50 filter combinations and five startup/fallback decisions with zero callback errors. The dated report records final baseline/regression/aggregate evidence and all-head CI; diagnostics are not added to unit-test counts. Existing lifecycle expectations are sharpened for their cold fixtures while retaining ownership checks and the unchanged 30-second timeout. No repeated Linux diagnosis of the historical Windows timeout.
+
+**Inspection only:** 25 source refs, 21 prior drafts, unchanged update releases, production/provider/cache/booking code and bounded published-data sample. All 56 expected date/round paths present; only three payload bodies inspected against declared schedule and actual publication timestamps. Optional production workflow-history lookup was denied by the connector allow-list and not retried. **Not performed:** installed/native Windows/Android UI, provider/network recovery, real bookings/holds, screen readers/touch/DPI/resume, updater/signatures, alert worker/delivery. Historical Windows cache_close and canonical integration remain unresolved.
+
+## Previous pass: 3 November 2026
 
 See the [offline course-link report](qa/2026-11-03-offline-links/REPORT.md). When every selected date lacks shared/saved cache, retain the unavailable status and retry guidance while exposing only submitted, configured direct-course links once for the range. Verify direct-only/mixed/integrated-only selections, 28 dates, 9/18 eligibility, changed pending controls, repeated callbacks and replacement of prior loaded rows/date sections. Do not imply checked availability, invent a single booking date, fetch weather or write recovery data. Preserve cached-link metadata and single-date live fallback.
 

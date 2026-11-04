@@ -1,0 +1,137 @@
+{
+  "timestamp_utc": "2026-11-04T01:02:25.748755+00:00",
+  "reviewer": "independent child agent /root/oct27_review",
+  "branch": "fix/desktop-live-recovery-20261104",
+  "base_commit": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "reviewed_worktree_head": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+  "reviewed_uncommitted_source": true,
+  "outcome": "No blocking findings",
+  "reviewed_file_sha256": {
+    "app/qt_golfhub_app.py": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+    "tests/test_live_recovery_states.py": "f443f88c94d698488af3ce9cef8c1a899a2aee10c41d936a002662afb60d74ae",
+    "tests/test_thread_lifecycle.py": "6bc5e9c8c0d5c486173fab55be3c8429ee529637cfabf3cfd7da113586c2139d",
+    ".github/workflows/test-desktop.yml": "16e21c0bb2aa404c86c61d63632221c73252c8e5cf396642249287b376e8591b"
+  },
+  "source_checks": {
+    "changed_existing_GolfHub_methods": [
+      "clear_results",
+      "scan_failed",
+      "scan_finished"
+    ],
+    "new_GolfHub_methods": [],
+    "metadata_reset_uses_new_list_assignment": true,
+    "caller_owned_alias_is_not_mutated": true,
+    "crlf_aware_diff_check_exit_code": 0,
+    "byte_identical_to_base": {
+      "app/golfhub_core.py": true,
+      "app/course_results.py": true,
+      "app/shared_cache.py": true,
+      "app/booking_assist.py": true,
+      "app/booking_dialog.py": true,
+      "scripts/refresh_cache_shard.py": true,
+      ".github/alerts-runtime.zip": true,
+      ".github/alerts-runtime-manifest.json": true,
+      ".github/workflows/check-alerts.yml": true,
+      ".github/workflows/refresh-cache-10min.yml": true,
+      ".github/workflows/course-news.yml": true,
+      ".github/workflows/test-cache.yml": true
+    },
+    "lifecycle_subprocess_timeout_seconds": 30,
+    "production_triggers_changed": false,
+    "canonical_freshness_or_subset_policy_changed": false
+  },
+  "execution_evidence_reviewed_not_rerun": {
+    "initial_baseline": {
+      "run": 11,
+      "failed_assertion_records": 4,
+      "errors": 6,
+      "record": "new-tests-baseline-initial.json",
+      "fixture_issue": "Helper fail shadowed unittest.TestCase.fail; renamed to emit_failure and isolated subtest cleanup. Initial source/logs retained."
+    },
+    "initial_repaired": {
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "record": "new-tests-after-initial.json"
+    },
+    "final_baseline": {
+      "methods": 11,
+      "passed_methods": 2,
+      "failed_methods": 9,
+      "failed_assertion_or_subtest_records": 10,
+      "errors": 0,
+      "skipped": 0,
+      "source_commit": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "record": "new-tests-baseline.json"
+    },
+    "final_repaired": {
+      "methods": 11,
+      "passed_methods": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "record": "new-tests-after.json"
+    },
+    "aggregate": {
+      "run": 287,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "module_invocations": 25,
+      "record": "validation/summary.json",
+      "desktop": 159,
+      "cache": 91,
+      "additional": 37
+    },
+    "cold_failure_probe": {
+      "real_worker_signal": true,
+      "worker_run_synchronous": true,
+      "native_thread_intercepted": true,
+      "callback_errors_before": 0,
+      "callback_errors_after": 0,
+      "record": "after/cold-failure-probe.json"
+    },
+    "compact_probe": {
+      "logical_size": [
+        980,
+        640
+      ],
+      "recovery_note_visible": true,
+      "retry_controls_visible_enabled_inside_window": true,
+      "callback_errors": 0,
+      "record": "after-compact/cold-failure-probe.json"
+    },
+    "separate_diagnostics": {
+      "filter_scenarios": 50,
+      "startup_decisions": 5,
+      "record": "journey-scope.md",
+      "not_extra_unit_test_counts": true
+    }
+  },
+  "visually_inspected": [
+    "before/cold-failure.png",
+    "after/cold-failure.png",
+    "after-compact/cold-failure.png"
+  ],
+  "not_performed": [
+    "runtime tests by reviewer",
+    "native Windows/Android UI",
+    "actual browser navigation",
+    "provider requests",
+    "live booking or holds",
+    "notification delivery",
+    "native screen reader or DPI/device tests",
+    "installed updater/signature tests",
+    "remote branch/exact-head CI verification by reviewer"
+  ],
+  "remaining_issues": [
+    "historical Windows cache_close timeout unresolved",
+    "canonical desktop/mobile reconciliation and freshness/subset integration pending",
+    "parent must verify remote branch and exact-head CI"
+  ],
+  "reviewer_modifications": [
+    "review.md",
+    "review-metadata.json"
+  ],
+  "blocked_actions": []
+}

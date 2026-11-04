@@ -1,0 +1,198 @@
+{
+  "checked_at_utc": "2026-11-04T00:50:56Z",
+  "checked_at_perth": "2026-11-04T08:50:56+08:00",
+  "kind": "One bounded read-only immutable publication sample; no repeated polling or provider access.",
+  "publication": {
+    "cache_sha": "2448716441db82515d8f24f762d1c1b950baf50d",
+    "commit_url": "https://github.com/Jarryd22/golfhub-perth/commit/2448716441db82515d8f24f762d1c1b950baf50d",
+    "commit_author_time_utc": "2026-11-04T00:46:56Z",
+    "commit_committer_time_utc": "2026-11-04T00:46:56Z",
+    "commit_time_perth": "2026-11-04T08:46:56+08:00",
+    "index_generated_at_utc": "2026-11-04T00:46:56+00:00",
+    "age_seconds_at_initial_check": 240,
+    "provenance_limit": "Git commit/index timestamps are observable publication metadata, not an independently measured push receipt time or per-course observation timestamp."
+  },
+  "coverage": {
+    "tree_url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/trees/2448716441db82515d8f24f762d1c1b950baf50d?recursive=1",
+    "index_url": "https://github.com/Jarryd22/golfhub-perth/blob/2448716441db82515d8f24f762d1c1b950baf50d/public/cache/index.json",
+    "tree_truncated": false,
+    "range_days": 28,
+    "first_date": "2026-11-04",
+    "last_date": "2026-12-01",
+    "declared_refresh_minutes": 10,
+    "expected_date_round_paths": 56,
+    "present_date_round_files": 56,
+    "missing_paths": [],
+    "unexpected_date_round_paths": [],
+    "content_sample_count": 3,
+    "content_sample_records": 111,
+    "coverage_limit": "All 56 filenames/index coverage checked; only three payload bodies inspected. No claim that all published payload contents, errors or weather were validated."
+  },
+  "samples": [
+    {
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/2448716441db82515d8f24f762d1c1b950baf50d/public/cache/2026-11-04/18.json",
+      "date": "2026-11-04",
+      "holes": "18",
+      "generated_at_utc": "2026-11-04T00:46:13+00:00",
+      "age_seconds_at_initial_check": 283,
+      "result_count": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 19,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "truthy_error_count": 0,
+      "error_classes": {},
+      "errors": [],
+      "blank_error_string_count": 0,
+      "stale_record_count": 0,
+      "weather_object_count": 37,
+      "weather_null_count": 0,
+      "weather_missing_count": 0,
+      "clear_zero_weather_signature": {
+        "count": 0,
+        "definition": "weather.label == Clear and tmax, tmin, rain_chance, rain_mm, wind all exactly numeric zero"
+      },
+      "first_weather_example": {
+        "course": "Altone Park",
+        "label": "Clear",
+        "tmax": 28,
+        "tmin": 12,
+        "rain_chance": 0,
+        "rain_mm": 0,
+        "wind": 18
+      }
+    },
+    {
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/2448716441db82515d8f24f762d1c1b950baf50d/public/cache/2026-11-19/18.json",
+      "date": "2026-11-19",
+      "holes": "18",
+      "generated_at_utc": "2026-11-04T00:46:33+00:00",
+      "age_seconds_at_initial_check": 263,
+      "result_count": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "truthy_error_count": 1,
+      "error_classes": {
+        "wembley_missing_configured_products": 1
+      },
+      "errors": [
+        {
+          "course": "Wembley",
+          "error": "Wembley calendar response did not contain the configured booking products"
+        }
+      ],
+      "blank_error_string_count": 0,
+      "stale_record_count": 0,
+      "weather_object_count": 37,
+      "weather_null_count": 0,
+      "weather_missing_count": 0,
+      "clear_zero_weather_signature": {
+        "count": 0,
+        "definition": "weather.label == Clear and tmax, tmin, rain_chance, rain_mm, wind all exactly numeric zero"
+      },
+      "first_weather_example": {
+        "course": "Altone Park",
+        "label": "Drizzle",
+        "tmax": 23,
+        "tmin": 15,
+        "rain_chance": 10,
+        "rain_mm": 1.5,
+        "wind": 20
+      }
+    },
+    {
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/2448716441db82515d8f24f762d1c1b950baf50d/public/cache/2026-12-01/9.json",
+      "date": "2026-12-01",
+      "holes": "9",
+      "generated_at_utc": "2026-11-04T00:46:42+00:00",
+      "age_seconds_at_initial_check": 254,
+      "result_count": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "truthy_error_count": 1,
+      "error_classes": {
+        "wembley_missing_configured_products": 1
+      },
+      "errors": [
+        {
+          "course": "Wembley",
+          "error": "Wembley calendar response did not contain the configured booking products"
+        }
+      ],
+      "blank_error_string_count": 0,
+      "stale_record_count": 0,
+      "weather_object_count": 0,
+      "weather_null_count": 37,
+      "weather_missing_count": 0,
+      "clear_zero_weather_signature": {
+        "count": 0,
+        "definition": "weather.label == Clear and tmax, tmin, rain_chance, rain_mm, wind all exactly numeric zero"
+      },
+      "first_weather_example": null
+    }
+  ],
+  "workflow_schedule": {
+    "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/25de15b65af6f9dcad4a4d13788fb87ab976df31/.github/workflows/refresh-cache-10min.yml",
+    "main_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+    "cron_utc": "7,17,27,37,47,57 * * * *",
+    "other_triggers": [
+      "workflow_dispatch",
+      "completion of Check preferred-date alerts on main (additional prepare guard requires workflow_dispatch origin)",
+      "main push limited to refresh workflow/scripts paths"
+    ],
+    "declared_cadence_minutes": 10,
+    "source_explicitly_says_cadence_not_guaranteed": true,
+    "timing_assessment": "Commit/index age 4 minutes at initial check; sampled payload ages 4m14s–4m43s. This is a fresh single publication relative to the declared ten-minute cadence, not proof of successive ten-minute delivery or run latency."
+  },
+  "findings": {
+    "sample_error_classes": [
+      "Wembley configured-booking-product absence on November19/18 and December1/9"
+    ],
+    "sample_stale_count": 0,
+    "sample_clear_zero_weather_count": 0,
+    "weather_observation": "November4/18 and November19/18 each have 37 weather objects with no all-zero Clear signature. December1/9 has 37 null weather values. No inference that the known false-zero defect is fixed, absent elsewhere or deployed; reliability drafts remain unmerged.",
+    "no_live_availability_claim": true
+  },
+  "blocked_actions": [
+    {
+      "action": "Read optional recent refresh workflow-runs list",
+      "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+      "status": "denied_by_connector_endpoint_allow_list",
+      "tool_error_code": "INVALID_ARGUMENT",
+      "reason": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+      "known_not_executed": true,
+      "retries": 0,
+      "alternate_route_used": false,
+      "impact": "Workflow-run start/completion/event timing and latency remain unverified; workflow source schedule and commit/index/payload timestamps were still read successfully."
+    }
+  ],
+  "completed": [
+    "One cache tip read and exact-tip recursive tree/index validation",
+    "Three exact-tip payload samples",
+    "Current main workflow source inspection"
+  ],
+  "not_performed": [
+    "Repeated publication polling",
+    "All56 payload content validation",
+    "Provider requests/live booking/holds/notification delivery",
+    "Workflow dispatch or any remote mutation",
+    "Runtime ZIP/download execution",
+    "Recent workflow run timing due endpoint allow-list rejection"
+  ]
+}

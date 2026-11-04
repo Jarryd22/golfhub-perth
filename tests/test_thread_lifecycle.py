@@ -367,11 +367,14 @@ def _run_child(name, root):
                     saved.assert_not_called()
                     message.assert_called_once()
                     check.assertEqual(executor_setups, [True], "Only one live worker setup may run")
-                    check.assertEqual(window.header_status.text(), "LIVE REFRESH FAILED / CACHE PRESERVED")
+                    check.assertEqual(window.header_status.text(), "LIVE REFRESH FAILED")
+                    check.assertEqual(window.last_results, [])
+                    check.assertIn("Could not load tee-time results.", message.call_args.args[2])
                 else:
                     saved.assert_not_called()
                     message.assert_not_called()
-                    check.assertEqual(window.header_status.text(), "REFRESH STOPPED / CACHE PRESERVED")
+                    check.assertEqual(window.header_status.text(), "REFRESH STOPPED")
+                    check.assertEqual(window.last_results, [])
                 check.assertEqual(len(calls), 0 if "failure" in name else 1,
                                   "Only one live fetch may run")
             check.assertEqual(errors, [], "No Qt callback exceptions are allowed")
