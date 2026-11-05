@@ -1,0 +1,43 @@
+{
+  "timestamp_utc": "2026-11-05T00:18:55.210264+00:00",
+  "checks": [
+    {
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-m",
+        "py_compile",
+        "app/qt_golfhub_app.py",
+        "tests/test_live_button_state.py",
+        "tests/test_live_recovery_states.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/scratch/actionlint-1.7.12/actionlint",
+        "-color"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "source_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+  "regression_sha256": "295ba855ed1d0f63df2752993a9be179506a6be09aa0957b77b97d8e89aac16a",
+  "actionlint_version": "1.7.12",
+  "previously_verified_official_archive_sha256": "8aca8db96f1b94770f1b0d72b6dddcb1ebb8123cb3712530b08cc387b349a3d8"
+}

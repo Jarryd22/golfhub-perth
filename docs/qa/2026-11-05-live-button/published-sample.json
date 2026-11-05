@@ -1,0 +1,204 @@
+{
+  "checked_at_utc": "2026-11-05T00:09:26Z",
+  "checked_at_perth": "2026-11-05T08:09:26+08:00",
+  "kind": "One bounded read-only exact-tip publication sample; no polling loop or provider access.",
+  "publication": {
+    "cache_sha": "22ea07d7909a916bd81da7de40db1f69ad4f23ce",
+    "tip_provenance": "Pinned by parent inventory; branch not reread by this agent.",
+    "commit_url": "https://github.com/Jarryd22/golfhub-perth/commit/22ea07d7909a916bd81da7de40db1f69ad4f23ce",
+    "commit_api_url": "https://api.github.com/repos/Jarryd22/golfhub-perth/commits/22ea07d7909a916bd81da7de40db1f69ad4f23ce",
+    "commit_author_time_utc": "2026-11-04T23:56:57Z",
+    "commit_committer_time_utc": "2026-11-04T23:56:57Z",
+    "commit_time_perth": "2026-11-05T07:56:57+08:00",
+    "index_generated_at_utc": "2026-11-04T23:56:57+00:00",
+    "age_seconds_at_check": 749,
+    "provenance_limit": "Commit/index timestamps are observable publication metadata, not an independently measured push receipt time or individual course observation time."
+  },
+  "coverage": {
+    "tree_url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/trees/22ea07d7909a916bd81da7de40db1f69ad4f23ce?recursive=1",
+    "index_url": "https://github.com/Jarryd22/golfhub-perth/blob/22ea07d7909a916bd81da7de40db1f69ad4f23ce/public/cache/index.json",
+    "tree_truncated": false,
+    "range_days": 28,
+    "first_date": "2026-11-05",
+    "last_date": "2026-12-02",
+    "declared_refresh_minutes": 10,
+    "expected_date_round_paths": 56,
+    "present_date_round_files": 56,
+    "missing_paths": [],
+    "unexpected_paths": [],
+    "content_sample_count": 3,
+    "content_sample_records": 111,
+    "coverage_limit": "All 56 filenames/index coverage checked; only three payload bodies inspected. No claim about full-range content/error totals or all weather records."
+  },
+  "samples": [
+    {
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/22ea07d7909a916bd81da7de40db1f69ad4f23ce/public/cache/2026-11-05/18.json",
+      "date": "2026-11-05",
+      "holes": "18",
+      "generated_at_utc": "2026-11-04T23:56:16+00:00",
+      "age_seconds_at_check": 790,
+      "result_count": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 19,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "truthy_error_count": 0,
+      "error_classes": {},
+      "errors": [],
+      "blank_error_string_count": 0,
+      "stale_record_count": 0,
+      "weather_object_count": 37,
+      "weather_null_count": 0,
+      "weather_missing_count": 0,
+      "clear_zero_weather_signature": {
+        "count": 0,
+        "definition": "weather.label == Clear; tmax, tmin, rain_chance, rain_mm and wind all numeric zero"
+      },
+      "first_weather_example": {
+        "course": "Altone Park",
+        "label": "Overcast",
+        "tmax": 30,
+        "tmin": 12,
+        "rain_chance": 0,
+        "rain_mm": 0,
+        "wind": 16
+      }
+    },
+    {
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/22ea07d7909a916bd81da7de40db1f69ad4f23ce/public/cache/2026-11-20/18.json",
+      "date": "2026-11-20",
+      "holes": "18",
+      "generated_at_utc": "2026-11-04T23:56:36+00:00",
+      "age_seconds_at_check": 770,
+      "result_count": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "truthy_error_count": 1,
+      "error_classes": {
+        "wembley_missing_configured_products": 1
+      },
+      "errors": [
+        {
+          "course": "Wembley",
+          "error": "Wembley calendar response did not contain the configured booking products"
+        }
+      ],
+      "blank_error_string_count": 0,
+      "stale_record_count": 0,
+      "weather_object_count": 37,
+      "weather_null_count": 0,
+      "weather_missing_count": 0,
+      "clear_zero_weather_signature": {
+        "count": 0,
+        "definition": "weather.label == Clear; tmax, tmin, rain_chance, rain_mm and wind all numeric zero"
+      },
+      "first_weather_example": {
+        "course": "Altone Park",
+        "label": "Mostly clear",
+        "tmax": 24,
+        "tmin": 15,
+        "rain_chance": 19,
+        "rain_mm": 0,
+        "wind": 30
+      }
+    },
+    {
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/22ea07d7909a916bd81da7de40db1f69ad4f23ce/public/cache/2026-12-02/9.json",
+      "date": "2026-12-02",
+      "holes": "9",
+      "generated_at_utc": "2026-11-04T23:56:36+00:00",
+      "age_seconds_at_check": 770,
+      "result_count": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "truthy_error_count": 1,
+      "error_classes": {
+        "wembley_missing_configured_products": 1
+      },
+      "errors": [
+        {
+          "course": "Wembley",
+          "error": "Wembley calendar response did not contain the configured booking products"
+        }
+      ],
+      "blank_error_string_count": 0,
+      "stale_record_count": 0,
+      "weather_object_count": 0,
+      "weather_null_count": 37,
+      "weather_missing_count": 0,
+      "clear_zero_weather_signature": {
+        "count": 0,
+        "definition": "weather.label == Clear; tmax, tmin, rain_chance, rain_mm and wind all numeric zero"
+      },
+      "first_weather_example": null
+    }
+  ],
+  "workflow_schedule": {
+    "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/25de15b65af6f9dcad4a4d13788fb87ab976df31/.github/workflows/refresh-cache-10min.yml",
+    "main_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+    "source_status": "Reused November4 inspection of the same immutable main commit; no new history request.",
+    "cron_utc": "7,17,27,37,47,57 * * * *",
+    "other_triggers": [
+      "workflow_dispatch",
+      "completion of Check preferred-date alerts on main, with prepare guard for workflow_dispatch origin",
+      "main push restricted to refresh workflow and scripts paths"
+    ],
+    "declared_cadence_minutes": 10,
+    "source_explicitly_says_cadence_not_guaranteed": true,
+    "timing_assessment": "Pinned commit/index age 12m29s, sampled payload ages 12m50s–13m10s at check. This exceeds the stated ten-minute target at that instant, but a single pinned publication does not establish missed runs, ongoing delay, successive publication cadence or individual-course freshness."
+  },
+  "findings": {
+    "sample_error_classes": [
+      "Wembley configured-booking-product absence on November20/18 and December2/9"
+    ],
+    "sample_stale_flags": 0,
+    "sample_clear_zero_weather_count": 0,
+    "weather_observation": "November 5/18 and November 20/18 each contain 37 weather objects, with no all-zero Clear signature. December 2/9 contains 37 null weather values. The known false-zero defect is not established fixed or absent elsewhere by this limited sample; reliability drafts remain unmerged.",
+    "no_live_availability_claim": true
+  },
+  "retained_limitations": [
+    {
+      "action": "Read production refresh workflow run history",
+      "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+      "original_attempt_date": "2026-11-04",
+      "status": "prior_connector_endpoint_allow_list_rejection_retained; not_attempted_today",
+      "original_error_code": "INVALID_ARGUMENT",
+      "original_reason": "HTTPError: 400: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint. (Response: None)",
+      "attempts_today": 0,
+      "retries_today": 0,
+      "alternate_history_endpoints_queried": false,
+      "impact": "Actual run/event/start/completion latency remains unverified. No new authorization change."
+    }
+  ],
+  "completed": [
+    "One exact commit/tree/index read",
+    "Three exact-tip payload samples",
+    "Comparison with declared cadence from unchanged immutable workflow source"
+  ],
+  "not_performed": [
+    "Branch reread",
+    "Repeated publication polling",
+    "All 56 payload content validation",
+    "Any production workflow-history request or alternative route",
+    "Provider requests, booking/holds or notification delivery",
+    "Workflow dispatch or other remote mutation",
+    "Runtime ZIP/download execution"
+  ],
+  "new_denied_pending_or_uncertain_actions": []
+}

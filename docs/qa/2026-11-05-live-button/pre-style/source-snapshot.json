@@ -1,0 +1,6 @@
+{
+  "file": "state-only-app.py.gz",
+  "decompressed_sha256": "4b28a598d1e8b2bb1b88f8a95195e8fca2b620b4a00ea75d428d44de5f35055b",
+  "byte_identical_to_initial_296_test_source": true,
+  "reason": "Preserve original source trailing blank lines without introducing a staged text whitespace error"
+}

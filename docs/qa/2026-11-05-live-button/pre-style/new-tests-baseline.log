@@ -1,0 +1,323 @@
+QA_RESULT {"run": 9, "failures": 8, "errors": 0, "skipped": 0}
+test_cache_request_keeps_live_disabled_when_previous_live_cleanup_finishes (cache_state_regressions.LiveButtonStateTests.test_cache_request_keeps_live_disabled_when_previous_live_cleanup_finishes) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_cancellation_keeps_live_disabled_for_pending_multiple_dates (cache_state_regressions.LiveButtonStateTests.test_cancellation_keeps_live_disabled_for_pending_multiple_dates) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_closing_window_does_not_reenable_live_on_terminal_or_cleanup_callbacks (cache_state_regressions.LiveButtonStateTests.test_closing_window_does_not_reenable_live_on_terminal_or_cleanup_callbacks) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_date_changes_during_unfinished_cleanup_cannot_enable_ignored_action (cache_state_regressions.LiveButtonStateTests.test_date_changes_during_unfinished_cleanup_cannot_enable_ignored_action) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_failure_keeps_live_disabled_for_pending_multiple_dates (cache_state_regressions.LiveButtonStateTests.test_failure_keeps_live_disabled_for_pending_multiple_dates) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_pending_dates_and_filters_do_not_change_submitted_result_or_saved_context (cache_state_regressions.LiveButtonStateTests.test_pending_dates_and_filters_do_not_change_submitted_result_or_saved_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_returning_from_multiple_to_single_date_restores_action_after_completion (cache_state_regressions.LiveButtonStateTests.test_returning_from_multiple_to_single_date_restores_action_after_completion) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_single_date_retry_is_enabled_only_after_cleanup_and_submits_current_controls (cache_state_regressions.LiveButtonStateTests.test_single_date_retry_is_enabled_only_after_cleanup_and_submits_current_controls) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_success_keeps_live_disabled_for_pending_multiple_dates (cache_state_regressions.LiveButtonStateTests.test_success_keeps_live_disabled_for_pending_multiple_dates) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+
+======================================================================
+FAIL: test_cancellation_keeps_live_disabled_for_pending_multiple_dates (cache_state_regressions.LiveButtonStateTests.test_cancellation_keeps_live_disabled_for_pending_multiple_dates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 143, in test_cancellation_keeps_live_disabled_for_pending_multiple_dates
+    self.assert_multi_completion("cancelled")
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 123, in assert_multi_completion
+    self.assertFalse(self.window.live_button.isEnabled(), "Multi-date controls do not support Refresh Live")
+AssertionError: True is not false : Multi-date controls do not support Refresh Live
+
+======================================================================
+FAIL: test_closing_window_does_not_reenable_live_on_terminal_or_cleanup_callbacks (cache_state_regressions.LiveButtonStateTests.test_closing_window_does_not_reenable_live_on_terminal_or_cleanup_callbacks)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 245, in test_closing_window_does_not_reenable_live_on_terminal_or_cleanup_callbacks
+    self.assertFalse(self.window.live_button.isEnabled())
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_date_changes_during_unfinished_cleanup_cannot_enable_ignored_action (cache_state_regressions.LiveButtonStateTests.test_date_changes_during_unfinished_cleanup_cannot_enable_ignored_action)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 172, in test_date_changes_during_unfinished_cleanup_cannot_enable_ignored_action
+    self.assertFalse(self.window.live_button.isEnabled(), "isRunning=False does not release request ownership")
+AssertionError: True is not false : isRunning=False does not release request ownership
+
+======================================================================
+FAIL: test_failure_keeps_live_disabled_for_pending_multiple_dates (cache_state_regressions.LiveButtonStateTests.test_failure_keeps_live_disabled_for_pending_multiple_dates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 140, in test_failure_keeps_live_disabled_for_pending_multiple_dates
+    self.assert_multi_completion("failure")
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 123, in assert_multi_completion
+    self.assertFalse(self.window.live_button.isEnabled(), "Multi-date controls do not support Refresh Live")
+AssertionError: True is not false : Multi-date controls do not support Refresh Live
+
+======================================================================
+FAIL: test_pending_dates_and_filters_do_not_change_submitted_result_or_saved_context (cache_state_regressions.LiveButtonStateTests.test_pending_dates_and_filters_do_not_change_submitted_result_or_saved_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 232, in test_pending_dates_and_filters_do_not_change_submitted_result_or_saved_context
+    self.assertFalse(self.window.live_button.isEnabled())
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_returning_from_multiple_to_single_date_restores_action_after_completion (cache_state_regressions.LiveButtonStateTests.test_returning_from_multiple_to_single_date_restores_action_after_completion)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 186, in test_returning_from_multiple_to_single_date_restores_action_after_completion
+    self.assertFalse(self.window.live_button.isEnabled())
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_single_date_retry_is_enabled_only_after_cleanup_and_submits_current_controls (cache_state_regressions.LiveButtonStateTests.test_single_date_retry_is_enabled_only_after_cleanup_and_submits_current_controls)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 150, in test_single_date_retry_is_enabled_only_after_cleanup_and_submits_current_controls
+    self.assertFalse(self.window.live_button.isEnabled())
+AssertionError: True is not false
+
+======================================================================
+FAIL: test_success_keeps_live_disabled_for_pending_multiple_dates (cache_state_regressions.LiveButtonStateTests.test_success_keeps_live_disabled_for_pending_multiple_dates)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 137, in test_success_keeps_live_disabled_for_pending_multiple_dates
+    self.assert_multi_completion("success")
+  File "/workspace/golfhub-20261105/tests/test_live_button_state.py", line 123, in assert_multi_completion
+    self.assertFalse(self.window.live_button.isEnabled(), "Multi-date controls do not support Refresh Live")
+AssertionError: True is not false : Multi-date controls do not support Refresh Live
+
+----------------------------------------------------------------------
+Ran 9 tests in 1.351s
+
+FAILED (failures=8)

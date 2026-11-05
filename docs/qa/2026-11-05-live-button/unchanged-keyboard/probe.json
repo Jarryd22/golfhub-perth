@@ -1,0 +1,56 @@
+{
+  "timestamp_utc": "2026-11-05T00:10:28.410825+00:00",
+  "head": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "source_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+  "scope": "Linux Qt offscreen 980x640; bounded synthetic keyboard input; sockets/DNS/provider/weather/browser/booking dialogs blocked; no native-screen-reader or device claims",
+  "checks": [
+    {
+      "scenario": "popup cancel restores date-button focus and expected selection",
+      "focus": "date",
+      "pass": true,
+      "selected": [
+        "2026-11-06"
+      ]
+    },
+    {
+      "scenario": "popup apply restores date-button focus and expected selection",
+      "focus": "date",
+      "pass": true,
+      "selected": [
+        "2026-11-06",
+        "2026-11-07"
+      ]
+    },
+    {
+      "scenario": "custom range controls reachable in normal Tab cycle",
+      "preset": "Custom range",
+      "focus_path": [
+        "time_from",
+        "time_to",
+        "players",
+        "course_button",
+        "search_button",
+        "results_scroll",
+        "date",
+        "holes18",
+        "time_preset"
+      ],
+      "pass": true
+    },
+    {
+      "scenario": "hidden custom controls excluded from Tab cycle",
+      "preset": "Any time",
+      "focus_path": [
+        "players",
+        "course_button",
+        "search_button",
+        "results_scroll",
+        "date",
+        "holes18",
+        "time_preset"
+      ],
+      "pass": true
+    }
+  ],
+  "callback_errors": []
+}

@@ -1,0 +1,27 @@
+{
+  "timestamp_utc": "2026-11-05T00:22:45.053925+00:00",
+  "reviewed_and_tested_hashes_match": true,
+  "all_local_markdown_targets_resolve": true,
+  "archived_note_relative_links_corrected": [
+    "before/six-cases/probe.json",
+    "before/six-cases.log",
+    "live-button-probe.py",
+    "before/closing-probe.json",
+    "closing-probe.py",
+    "before/source-overlap.json",
+    "unchanged-keyboard/probe.json"
+  ],
+  "final_aggregate_tests": 297,
+  "final_module_invocations": 26,
+  "final_failures": 0,
+  "final_errors": 0,
+  "staged_whitespace": {
+    "initial_error": "new blank line at EOF in archived pre-style/state-only-app.py",
+    "correction": "Store exact historical source bytes in deterministic gzip, verify decompressed hash",
+    "final_exit_code": 0,
+    "final_output": "",
+    "initial_check_exit_code": "not separately captured",
+    "initial_shell_exit_code": 0,
+    "initial_shell_note": "The shell proceeded to diff --stat; its zero exit was not whitespace-check success. The explicit whitespace diagnostic was read and corrected."
+  }
+}

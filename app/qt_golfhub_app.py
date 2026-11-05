@@ -1214,7 +1214,8 @@ class GolfHub(QMainWindow):
             single_day = count == 1
             self.live_button.setEnabled(
                 single_day
-                and not self._thread_running(self.scan_thread)
+                and not self._closing
+                and self.scan_thread is None
                 and self.cache_thread is None
             )
             self.live_button.setToolTip(
@@ -1630,7 +1631,7 @@ class GolfHub(QMainWindow):
     @Slot(list, bool)
     def scan_finished(self, results, cancelled):
         self.search_button.setEnabled(True)
-        self.live_button.setEnabled(True)
+        self.update_day_mode()
         self.stop_button.setVisible(False)
         self.progress.setVisible(False)
         if self._closing:
@@ -1654,7 +1655,7 @@ class GolfHub(QMainWindow):
     @Slot(str)
     def scan_failed(self, error):
         self.search_button.setEnabled(True)
-        self.live_button.setEnabled(True)
+        self.update_day_mode()
         self.stop_button.setVisible(False)
         self.progress.setVisible(False)
         if self.last_results:
@@ -1716,6 +1717,7 @@ class GolfHub(QMainWindow):
         thread.deleteLater()
         self.scan_thread = None
         self.scan_worker = None
+        self.update_day_mode()
         self._finish_pending_close()
 
     def _finish_pending_close(self):
@@ -2261,7 +2263,7 @@ class GolfHub(QMainWindow):
         QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}
         QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}
         QPushButton#StopButton {{ background:#351713; color:{p['danger']}; border:1px solid #73352C; border-radius:9px; min-height:40px; padding:0 14px; font-weight:850; }}
-        QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}
+        QPushButton:disabled, QPushButton#OutlineButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}
         QScrollArea {{ background:transparent; border:0; }}
         QWidget#ResultsBody {{ background:{p['surface']}; }}
         QFrame#CourseRow {{ background:{p['surface2']}; border:1px solid transparent; border-radius:10px; }}

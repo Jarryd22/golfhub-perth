@@ -1,0 +1,68 @@
+[
+  {
+    "root": "/workspace/golfhub-20261104",
+    "methods": {
+      "update_day_mode": {
+        "line": 1202,
+        "ast_sha256": "ef5c1e9783b97ce8ce6193d26979443daf4a1edcd0ea4af02574129ea47eea5c",
+        "enables_live_unconditionally": false,
+        "reconciles_day_mode": false,
+        "uses_is_running": true
+      },
+      "scan_finished": {
+        "line": 1631,
+        "ast_sha256": "26848f43a8273591d98d595f5168ed9845cf40f8fca961268254f8528fd4dc86",
+        "enables_live_unconditionally": true,
+        "reconciles_day_mode": false,
+        "uses_is_running": false
+      },
+      "scan_failed": {
+        "line": 1655,
+        "ast_sha256": "54e9f02545ee7b7200ea2c506a6e7da77059654c4eb64c5f2532ab5a96d848dd",
+        "enables_live_unconditionally": true,
+        "reconciles_day_mode": false,
+        "uses_is_running": false
+      },
+      "scan_thread_done": {
+        "line": 1708,
+        "ast_sha256": "1ff79e0916aed28e4fc0168a55044ff8c62364eb64b2a44d983151529464d778",
+        "enables_live_unconditionally": false,
+        "reconciles_day_mode": false,
+        "uses_is_running": false
+      }
+    }
+  },
+  {
+    "root": "/workspace/golfhub-perth",
+    "methods": {
+      "update_day_mode": {
+        "line": 1197,
+        "ast_sha256": "ef5c1e9783b97ce8ce6193d26979443daf4a1edcd0ea4af02574129ea47eea5c",
+        "enables_live_unconditionally": false,
+        "reconciles_day_mode": false,
+        "uses_is_running": true
+      },
+      "scan_finished": {
+        "line": 1619,
+        "ast_sha256": "b5f5d41be41b014ed138a39e40a878ec409ed096698be11bd47ccdabf9ae1971",
+        "enables_live_unconditionally": true,
+        "reconciles_day_mode": false,
+        "uses_is_running": false
+      },
+      "scan_failed": {
+        "line": 1641,
+        "ast_sha256": "32c08be8b922b7ce8a22d0c456f2418360cd09c3e3ff68fa8a9d4aa3b8c3f2c8",
+        "enables_live_unconditionally": true,
+        "reconciles_day_mode": false,
+        "uses_is_running": false
+      },
+      "scan_thread_done": {
+        "line": 1686,
+        "ast_sha256": "1ff79e0916aed28e4fc0168a55044ff8c62364eb64b2a44d983151529464d778",
+        "enables_live_unconditionally": false,
+        "reconciles_day_mode": false,
+        "uses_is_running": false
+      }
+    }
+  }
+]
