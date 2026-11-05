@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-04T01:28:30.164993+00:00",
+  "generated_at": "2026-11-05T01:30:01.363482+00:00",
   "items": [
+    {
+      "id": "fc22d5c6a739f32a38af",
+      "course_id": "sun-city",
+      "title": "OFFICE UNATTENDED TODAY – THURS 5th NOV",
+      "summary": "We apologise for any inconvenience; due to unforeseen circumstances the office will be unattended",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/office-unattended-today-thurs-5th-nov/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-05T01:02:18+00:00",
+      "category": "Course news"
+    },
     {
       "id": "9124762971e20aeb4a9e",
       "course_id": "rockingham",
@@ -101,17 +112,6 @@
       ],
       "published_at": "2026-10-30T03:20:32+00:00",
       "category": "Events"
-    },
-    {
-      "id": "10642d8553d5bdbe547d",
-      "course_id": "sun-city",
-      "title": "Sun City Member Skills, Business & Volunteer Register",
-      "summary": "Hi Members, There is an enormous amount of knowledge, experience and expertise within the",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/sun-city-member-skills-business-volunteer-register/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-30T03:19:38+00:00",
-      "category": "Course news"
     },
     {
       "id": "9edc2ce370c1aa577740",
@@ -511,7 +511,7 @@
     },
     {
       "course_id": "hamersley",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "hartfield",
