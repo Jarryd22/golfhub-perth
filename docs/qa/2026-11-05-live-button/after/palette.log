@@ -1,0 +1,112 @@
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-05T00:18:28.143022+00:00",
+  "source_head": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "app_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+  "enabled": {
+    "enabled": true,
+    "active_text": "#f6f6f6",
+    "disabled_text": "#7d7d7d",
+    "current_text": "#f6f6f6",
+    "current_background": "#171717"
+  },
+  "disabled": {
+    "enabled": false,
+    "active_text": "#f6f6f6",
+    "disabled_text": "#7d7d7d",
+    "current_text": "#7d7d7d",
+    "current_background": "#171717"
+  },
+  "restored_enabled": {
+    "enabled": true,
+    "active_text": "#f6f6f6",
+    "disabled_text": "#7d7d7d",
+    "current_text": "#f6f6f6",
+    "current_background": "#171717"
+  },
+  "plain_disabled_reference": {
+    "enabled": false,
+    "active_text": "#000000",
+    "disabled_text": "#7d7d7d",
+    "current_text": "#7d7d7d",
+    "current_background": "#171717"
+  },
+  "existing_palette": {
+    "text": "#F6F6F6",
+    "faint": "#7D7D7D",
+    "surface2": "#171717"
+  },
+  "compact_geometry": {
+    "window": [
+      980,
+      640
+    ],
+    "button": [
+      824,
+      215,
+      117,
+      40
+    ],
+    "button_within_window": true
+  },
+  "callback_errors": [],
+  "method": "Linux offscreen real pending-date changes and widget palettes; exact source stylesheet without overrides; workers/socket/DNS/browser/weather blocked; no native device or screen reader"
+}

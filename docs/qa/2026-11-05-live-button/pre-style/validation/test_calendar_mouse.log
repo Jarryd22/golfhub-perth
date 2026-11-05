@@ -1,0 +1,134 @@
+QA_RESULT {"run": 8, "failures": 0, "errors": 0, "skipped": 0}
+test_actual_app_popup_applies_last_date_to_submitted_search (test_calendar_mouse.CalendarMouseTests.test_actual_app_popup_applies_last_date_to_submitted_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_disabled_dates_outside_bounds_remain_unselected (test_calendar_mouse.CalendarMouseTests.test_disabled_dates_outside_bounds_remain_unselected) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_following_padding_does_not_navigate_or_toggle (test_calendar_mouse.CalendarMouseTests.test_monday_following_padding_does_not_navigate_or_toggle) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_month_last_week_mouse_selects_and_removes_dates (test_calendar_mouse.CalendarMouseTests.test_monday_month_last_week_mouse_selects_and_removes_dates) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_monday_preceding_padding_does_not_navigate_or_toggle (test_calendar_mouse.CalendarMouseTests.test_monday_preceding_padding_does_not_navigate_or_toggle) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_next_month_navigation_then_last_week_mouse_selection (test_calendar_mouse.CalendarMouseTests.test_next_month_navigation_then_last_week_mouse_selection) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_non_monday_month_last_date_remains_mouse_selectable (test_calendar_mouse.CalendarMouseTests.test_non_monday_month_last_date_remains_mouse_selectable) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_weekday_header_click_does_not_change_dates (test_calendar_mouse.CalendarMouseTests.test_weekday_header_click_does_not_change_dates) ... This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.624s
+
+OK

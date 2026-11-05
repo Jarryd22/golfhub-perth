@@ -1,0 +1,619 @@
+{
+  "checked_at_utc": "2026-11-05T00:20:35.533926+00:00",
+  "candidate": "Add #OutlineButton:disabled to existing generic disabled-button palette selector so disabled live-refresh button displays its intended faint color.",
+  "method": "Read exact 26 non-data source-ref blobs identified by November 5 context audit; verify their SHA256 values against that audit; additionally git grep tracked app/assets/service/main_qt.py. Read preserved loose source without modification. No network or runtime test.",
+  "source_refs_examined": 26,
+  "source_refs": [
+    {
+      "ref": "agent/golfhub-v5-final-20260729",
+      "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/alerts-runtime-integrity-20261026",
+      "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2180,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2181,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2183,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-heartbeat",
+      "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-incomplete-weather",
+      "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "source_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2006,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2007,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2009,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-provider-circuit",
+      "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-resilience",
+      "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-weather-cooldown",
+      "sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "source_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2006,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2007,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2009,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-weather-timeouts",
+      "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-wembley-fallback",
+      "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/cache-refresh-wembley-rendered",
+      "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "source_sha256": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2007,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2008,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2010,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-booking-context-20261020",
+      "sha": "93d4763451358be608bff06fd0013936af36764c",
+      "source_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2088,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2089,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2091,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-cache-shape-20261030",
+      "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2231,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2232,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2234,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+      "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2114,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2115,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2117,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-calendar-mouse-20261102",
+      "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+      "source_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2239,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2240,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2242,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-course-controls-20261019",
+      "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "source_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2062,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2063,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2065,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-keyboard-date-selection",
+      "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "source_sha256": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2055,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2056,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2058,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-live-recovery-20261104",
+      "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+      "source_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2261,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2262,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2264,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-matching-course-count-20261028",
+      "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "source_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2202,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2203,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2205,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-missing-cache-20261027",
+      "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2198,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2199,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2201,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-offline-course-links-20261103",
+      "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "source_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2249,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2250,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2252,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-perth-midnight-20261021",
+      "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2180,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2181,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2183,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-provider-error-wording-20261029",
+      "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2231,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2232,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2234,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-provider-exception-20261101",
+      "sha": "9aa16f733458db871c2452a18a247536ab348498",
+      "source_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2236,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2237,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2239,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-retained-search-context-20261031",
+      "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+      "source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2235,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2236,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2238,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "fix/desktop-search-dates-and-times",
+      "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "source_sha256": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 2029,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2030,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2032,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    },
+    {
+      "ref": "main",
+      "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "matches_prior_source_hash": true,
+      "explicit_disabled_outline_selector": false,
+      "relevant_style_lines": [
+        {
+          "line": 1999,
+          "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+        },
+        {
+          "line": 2000,
+          "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+        },
+        {
+          "line": 2002,
+          "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+        }
+      ],
+      "tracked_source_grep_matches": []
+    }
+  ],
+  "preserved_loose_source": {
+    "path": "/workspace/golfhub-perth/app/qt_golfhub_app.py",
+    "sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+    "explicit_disabled_outline_selector": false,
+    "relevant_style_lines": [
+      {
+        "line": 2198,
+        "text": "QPushButton#OutlineButton, QPushButton#QuietButton {{ background:{p['surface2']}; color:{p['text']}; border:1px solid {p['line']}; border-radius:9px; min-height:38px; padding:0 14px; font-weight:750; }}"
+      },
+      {
+        "line": 2199,
+        "text": "QPushButton#OutlineButton:hover, QPushButton#QuietButton:hover {{ border-color:{p['gold']}; }}"
+      },
+      {
+        "line": 2201,
+        "text": "QPushButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+      }
+    ],
+    "modified_by_audit": false
+  },
+  "current_uncommitted_candidate": {
+    "path": "/workspace/golfhub-20261105/app/qt_golfhub_app.py",
+    "sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+    "disabled_style_lines": [
+      {
+        "line": 2266,
+        "text": "QPushButton:disabled, QPushButton#OutlineButton:disabled {{ color:{p['faint']}; background:#171717; border-color:#303030; }}"
+      }
+    ],
+    "note": "Inspected parent candidate only; not counted as an existing duplicate repair."
+  },
+  "finding": "No explicit disabled OutlineButton selector exists in any of the 26 immutable source refs or the preserved loose source. All retain the generic QPushButton:disabled selector alongside the more-specific enabled OutlineButton ID rule. The proposed selector addition is not a duplicate existing repair.",
+  "scope_advice": "Keep the existing faint/background/border palette values and add only the explicit OutlineButton disabled selector. No broad theme or layout change is needed for this candidate.",
+  "verification_limits": [
+    "Source inspection only; parent owns the Qt visual reproduction and final regression test results.",
+    "No production workflow-history request, provider access, new remote reads or remote writes.",
+    "No app, test, workflow or loose-checkout edit made by this auditor."
+  ],
+  "blockers": []
+}

@@ -15,6 +15,7 @@ on:
       - "tests/test_multiday_cache_states.py"
       - "tests/test_offline_course_links.py"
       - "tests/test_live_recovery_states.py"
+      - "tests/test_live_button_state.py"
       - "tests/test_result_counts.py"
       - "tests/test_provider_error_states.py"
       - "tests/test_provider_exceptions.py"
@@ -41,6 +42,7 @@ on:
       - "tests/test_multiday_cache_states.py"
       - "tests/test_offline_course_links.py"
       - "tests/test_live_recovery_states.py"
+      - "tests/test_live_button_state.py"
       - "tests/test_result_counts.py"
       - "tests/test_provider_error_states.py"
       - "tests/test_provider_exceptions.py"
@@ -83,6 +85,7 @@ jobs:
             "test_multiday_cache_states.py",
             "test_offline_course_links.py",
             "test_live_recovery_states.py",
+            "test_live_button_state.py",
             "test_result_counts.py",
             "test_provider_error_states.py",
             "test_provider_exceptions.py",

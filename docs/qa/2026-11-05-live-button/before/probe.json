@@ -1,0 +1,89 @@
+{
+  "timestamp_utc": "2026-11-05T00:09:32.879571+00:00",
+  "head": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "app_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+  "method": "Real source controls and signal callbacks; synthetic worker completion; inert native thread; sockets/browser/provider/weather/save/holds blocked or intercepted; Linux offscreen only",
+  "cases": [
+    {
+      "outcome": "success",
+      "pending": {
+        "dates": [
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "live_enabled": false,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache"
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache",
+        "status": "0 matching tee times across 0 courses",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Live refresh is available for one date; multi-day results use the 10-minute cache",
+        "new_worker_started": false
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "failure",
+      "pending": {
+        "dates": [
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "live_enabled": false,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache"
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache",
+        "status": "Live refresh failed - no results available",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Live refresh is available for one date; multi-day results use the 10-minute cache",
+        "new_worker_started": false
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "cancelled",
+      "pending": {
+        "dates": [
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "live_enabled": false,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache"
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache",
+        "status": "Stopped - partial results were not saved",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Live refresh is available for one date; multi-day results use the 10-minute cache",
+        "new_worker_started": false
+      },
+      "callback_errors": []
+    }
+  ]
+}

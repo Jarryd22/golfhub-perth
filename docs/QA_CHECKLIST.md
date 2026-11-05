@@ -51,6 +51,7 @@ python -m unittest discover -s tests -p test_multiday_ui.py -v
 python -m unittest discover -s tests -p test_multiday_cache_states.py -v
 python -m unittest discover -s tests -p test_offline_course_links.py -v
 python -m unittest discover -s tests -p test_live_recovery_states.py -v
+python -m unittest discover -s tests -p test_live_button_state.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
 python -m unittest discover -s tests -p test_provider_error_states.py -v
 python -m unittest discover -s tests -p test_provider_exceptions.py -v
@@ -67,7 +68,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 4 November 2026
+## Latest pass: 5 November 2026
+
+See the [Refresh Live state/style report](qa/2026-11-05-live-button/REPORT.md). Change pending dates during a live request, then complete, fail or cancel it. Refresh Live must stay disabled for multiple dates, while either request is still owned, and while closing. Date edits during simulated unfinished cleanup must not enable ignored clicks. After both owners clear, one-date retry must use current controls while displayed/saved results retain their submitted context. Verify actual disabled palette and restored enabled color, not screenshots alone.
+
+**Passed:** ten new regressions (exact PR24: one passing/nine failing methods), **297 final aggregate tests** (169 desktop, 91 cache/integrity, 37 additional booking/rendering), **50 filter/five startup diagnostics**, six state cases, closing and palette probes with zero callback errors. Before/after 1280×800 and 980×640 images inspected; compile, whitespace, actionlint and independent review pass. Initial state-only nine-test/296-aggregate passes are preserved separately before the selector correction; they are not added to final totals. Standard lifecycle module unchanged, run once per aggregate (twice total), with no repeated paired Linux timeout investigation.
+
+**Inspection only:** 26 source refs, 22 prior drafts, unchanged update releases, source schedules and one bounded publication sample. All 56 expected paths present; three bodies only. Publication age 12m29s at observation exceeded the nominal ten-minute cadence without establishing cause or run timing. **Not performed:** installed/native Windows/Android, live provider/network recovery, bookings/holds, touch/screen readers/DPI/resume, updater/signatures, alert worker/delivery. Prior denied production-history lookup was not retried. Historical Windows cache_close and canonical-source integration remain unresolved.
+
+## Previous pass: 4 November 2026
 
 See the [live-refresh recovery report](qa/2026-11-04-live-recovery/REPORT.md). A worker-wide failure with no displayed results must replace the in-progress checking message with truthful failure/retry guidance. Stop-before-results must not imply a preserved cache. Removing cards must also discard their display metadata; genuinely retained cached/live/direct results keep their original booking and lazy-date context. Verify cold, cleared, retained and successful-retry states, including a renderer called with its existing result-list alias. Per-course provider errors remain a separate path.
 

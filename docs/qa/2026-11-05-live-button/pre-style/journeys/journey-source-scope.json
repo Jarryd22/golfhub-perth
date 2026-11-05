@@ -1,0 +1,29 @@
+{
+  "base_head": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "app_sha256": "4b28a598d1e8b2bb1b88f8a95195e8fca2b620b4a00ea75d428d44de5f35055b",
+  "changed_golfhub_methods": [
+    "scan_failed",
+    "scan_finished",
+    "scan_thread_done",
+    "update_day_mode"
+  ],
+  "unchanged_golfhub_methods": 47,
+  "worker_classes_AST_identical": {
+    "ScanWorker": true,
+    "CacheWorker": true
+  },
+  "scan_cleanup_AST_identical_after_removing_new_UI_update_call": true,
+  "byte_identical_files": {
+    "app/golfhub_core.py": true,
+    "app/course_results.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "scope": "Static AST/byte comparison; no runtime archive execution or native worker diagnosis"
+}

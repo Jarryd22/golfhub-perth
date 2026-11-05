@@ -1,0 +1,245 @@
+{
+  "timestamp_utc": "2026-11-05T00:10:22.109541+00:00",
+  "head": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "app_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+  "method": "Real source controls and signal callbacks; synthetic worker completion; inert native thread; sockets/browser/provider/weather/save/holds blocked or intercepted; Linux offscreen only",
+  "cases": [
+    {
+      "outcome": "success",
+      "mode": "pending_multi",
+      "pending": {
+        "dates": [
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "live_enabled": false,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache"
+      },
+      "terminal_before_cleanup": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "click_status_changed": false,
+        "worker_unchanged": true
+      },
+      "held_cleanup_after_date_change": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "thread_is_running": false,
+        "wait_zero": false
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache",
+        "status": "0 matching tee times across 0 courses",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Live refresh is available for one date; multi-day results use the 10-minute cache",
+        "new_worker_started": false
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "success",
+      "mode": "back_to_single",
+      "pending": {
+        "dates": [
+          "2033-01-03"
+        ],
+        "live_enabled": false,
+        "tooltip": "Refresh this date directly from course sites",
+        "helper": "Fast cache first - use live refresh to confirm current availability"
+      },
+      "terminal_before_cleanup": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "click_status_changed": false,
+        "worker_unchanged": true
+      },
+      "held_cleanup_after_date_change": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "thread_is_running": false,
+        "wait_zero": false
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Refresh this date directly from course sites",
+        "helper": "Fast cache first - use live refresh to confirm current availability",
+        "status": "0 matching tee times across 0 courses",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Checking courses live...",
+        "new_worker_started": true
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "failure",
+      "mode": "pending_multi",
+      "pending": {
+        "dates": [
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "live_enabled": false,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache"
+      },
+      "terminal_before_cleanup": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "click_status_changed": false,
+        "worker_unchanged": true
+      },
+      "held_cleanup_after_date_change": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "thread_is_running": false,
+        "wait_zero": false
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache",
+        "status": "Live refresh failed - no results available",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Live refresh is available for one date; multi-day results use the 10-minute cache",
+        "new_worker_started": false
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "failure",
+      "mode": "back_to_single",
+      "pending": {
+        "dates": [
+          "2033-01-03"
+        ],
+        "live_enabled": false,
+        "tooltip": "Refresh this date directly from course sites",
+        "helper": "Fast cache first - use live refresh to confirm current availability"
+      },
+      "terminal_before_cleanup": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "click_status_changed": false,
+        "worker_unchanged": true
+      },
+      "held_cleanup_after_date_change": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "thread_is_running": false,
+        "wait_zero": false
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Refresh this date directly from course sites",
+        "helper": "Fast cache first - use live refresh to confirm current availability",
+        "status": "Live refresh failed - no results available",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Checking courses live...",
+        "new_worker_started": true
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "cancelled",
+      "mode": "pending_multi",
+      "pending": {
+        "dates": [
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "live_enabled": false,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache"
+      },
+      "terminal_before_cleanup": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "click_status_changed": false,
+        "worker_unchanged": true
+      },
+      "held_cleanup_after_date_change": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "thread_is_running": false,
+        "wait_zero": false
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Multi-day results use the GitHub cache refreshed every 10 minutes",
+        "helper": "Searching 2 selected dates from the fast shared cache",
+        "status": "Stopped - partial results were not saved",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Live refresh is available for one date; multi-day results use the 10-minute cache",
+        "new_worker_started": false
+      },
+      "callback_errors": []
+    },
+    {
+      "outcome": "cancelled",
+      "mode": "back_to_single",
+      "pending": {
+        "dates": [
+          "2033-01-03"
+        ],
+        "live_enabled": false,
+        "tooltip": "Refresh this date directly from course sites",
+        "helper": "Fast cache first - use live refresh to confirm current availability"
+      },
+      "terminal_before_cleanup": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "click_status_changed": false,
+        "worker_unchanged": true
+      },
+      "held_cleanup_after_date_change": {
+        "live_enabled": true,
+        "scan_thread_retained": true,
+        "thread_is_running": false,
+        "wait_zero": false
+      },
+      "completed": {
+        "live_enabled": true,
+        "tooltip": "Refresh this date directly from course sites",
+        "helper": "Fast cache first - use live refresh to confirm current availability",
+        "status": "Stopped - partial results were not saved",
+        "scan_thread_is_none": true,
+        "active_context_dates": [
+          "2033-01-02"
+        ]
+      },
+      "clicked": {
+        "status": "Checking courses live...",
+        "new_worker_started": true
+      },
+      "callback_errors": []
+    }
+  ]
+}

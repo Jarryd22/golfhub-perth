@@ -1,0 +1,17 @@
+{
+  "before": {
+    "closing": true,
+    "visible": true,
+    "live_enabled": false
+  },
+  "after": {
+    "closing": true,
+    "visible": true,
+    "live_enabled": false,
+    "scan_thread_retained": true,
+    "worker_unchanged_after_click": true
+  },
+  "callbacks": [],
+  "app_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+  "method": "Actual closeEvent + synthetic finished signal; existing isolated PR24 fixture with inert QThread and blocked network/provider/weather/booking"
+}

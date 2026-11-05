@@ -1,0 +1,166 @@
+{
+  "timestamp_utc": "2026-11-05T00:21:30.865823+00:00",
+  "reviewer": "independent child agent /root/oct27_review",
+  "branch": "fix/desktop-live-button-state-20261105",
+  "base_commit": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "reviewed_worktree_head": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+  "reviewed_uncommitted_source": true,
+  "outcome": "No blocking findings",
+  "reviewed_file_sha256": {
+    "app/qt_golfhub_app.py": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+    "tests/test_live_button_state.py": "295ba855ed1d0f63df2752993a9be179506a6be09aa0957b77b97d8e89aac16a",
+    "tests/test_live_recovery_states.py": "66bafc8d3d54cf0e93d2c34a01a783918eb7b2c9099670213cb9ca78151cc3a0",
+    ".github/workflows/test-desktop.yml": "176b96bc1a9f1aa7ec9d433a11a1690015add8af7a5da5cf1e66aad041768594"
+  },
+  "unchanged_lifecycle_test_sha256": "6bc5e9c8c0d5c486173fab55be3c8429ee529637cfabf3cfd7da113586c2139d",
+  "source_checks": {
+    "changed_existing_GolfHub_methods": [
+      "scan_failed",
+      "scan_finished",
+      "scan_thread_done",
+      "styles",
+      "update_day_mode"
+    ],
+    "new_GolfHub_methods": [],
+    "worker_classes_ast_identical": [
+      "ScanWorker",
+      "CacheWorker"
+    ],
+    "cleanup_without_UI_refresh_ast_identical": true,
+    "disabled_style_uses_existing_palette_values": true,
+    "crlf_aware_diff_check_exit_code": 0,
+    "byte_identical_to_base": {
+      "app/golfhub_core.py": true,
+      "app/course_results.py": true,
+      "app/shared_cache.py": true,
+      "app/booking_assist.py": true,
+      "app/booking_dialog.py": true,
+      "scripts/refresh_cache_shard.py": true,
+      "tests/test_thread_lifecycle.py": true,
+      ".github/alerts-runtime.zip": true,
+      ".github/alerts-runtime-manifest.json": true,
+      ".github/workflows/check-alerts.yml": true,
+      ".github/workflows/refresh-cache-10min.yml": true,
+      ".github/workflows/course-news.yml": true,
+      ".github/workflows/test-cache.yml": true
+    },
+    "lifecycle_subprocess_timeout_seconds": 30,
+    "production_triggers_changed": false,
+    "canonical_freshness_or_subset_policy_changed": false
+  },
+  "execution_evidence_reviewed_not_rerun": {
+    "initial_state_only": {
+      "new_methods": 9,
+      "baseline_passed": 1,
+      "baseline_failed": 8,
+      "repaired_passed": 9,
+      "aggregate_passed": 296,
+      "aggregate_record": "pre-style/validation/summary.json",
+      "source_sha256": "4b28a598d1e8b2bb1b88f8a95195e8fca2b620b4a00ea75d428d44de5f35055b"
+    },
+    "final_baseline": {
+      "methods": 10,
+      "passed_methods": 1,
+      "failed_methods": 9,
+      "failed_assertion_records": 9,
+      "errors": 0,
+      "skipped": 0,
+      "source_commit": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+      "record": "new-tests-baseline.json"
+    },
+    "final_repaired": {
+      "methods": 10,
+      "passed_methods": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "record": "new-tests-after.json"
+    },
+    "aggregate": {
+      "run": 297,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "module_invocations": 26,
+      "record": "validation/summary.json",
+      "desktop": 169,
+      "cache": 91,
+      "additional": 37
+    },
+    "standard_lifecycle_executions": {
+      "per_aggregate": 1,
+      "aggregate_runs": 2,
+      "reason_for_second_aggregate": "Related reproduced stylesheet defect led to final source change and tenth regression; no timeout diagnosis or relaxed tests."
+    },
+    "six_case_probe": {
+      "terminal_disabled_before": 0,
+      "terminal_disabled_after": 6,
+      "held_cleanup_disabled_before": 0,
+      "held_cleanup_disabled_after": 6,
+      "multi_date_after_cleanup_disabled_before": 0,
+      "multi_date_after_cleanup_disabled_after": 3,
+      "single_date_retries_before": 3,
+      "single_date_retries_after": 3,
+      "all_callback_errors_empty": true,
+      "record": "after/probe.json"
+    },
+    "closing_probe": {
+      "terminal_disabled_before": false,
+      "terminal_disabled_after": true,
+      "record": "after/closing-probe.json"
+    },
+    "palette_probe": {
+      "disabled_before": "#f6f6f6",
+      "disabled_final": "#7d7d7d",
+      "restored_enabled": "#f6f6f6",
+      "logical_size": [
+        980,
+        640
+      ],
+      "button_within_window": true,
+      "callback_errors": 0,
+      "record": "after/palette/palette-probe.json"
+    },
+    "separate_diagnostics": {
+      "final_filter_scenarios": 50,
+      "final_startup_decisions": 5,
+      "record": "journey-scope.md",
+      "not_extra_unit_test_counts": true
+    }
+  },
+  "visually_inspected": [
+    "before/six-cases/failure-pending_multi.png",
+    "after/failure-pending_multi.png",
+    "after/failure-back_to_single.png"
+  ],
+  "reviewer_inspection_errors": [
+    {
+      "action": "Read source-overlap JSON summary",
+      "error": "Assumed object; file is a list, causing AttributeError on items()",
+      "resolution": "Corrected read succeeded",
+      "source_or_test_mutation": false,
+      "runtime_execution": false
+    }
+  ],
+  "not_performed": [
+    "runtime tests by reviewer",
+    "native Windows/Android UI",
+    "actual browser navigation",
+    "provider requests",
+    "live booking or holds",
+    "notification delivery",
+    "native screen reader or DPI/device tests",
+    "installed updater/signature tests",
+    "remote branch/exact-head CI verification by reviewer"
+  ],
+  "remaining_issues": [
+    "historical Windows cache_close timeout unresolved",
+    "canonical desktop/mobile reconciliation and freshness/subset integration pending",
+    "parent must verify remote branch and exact-head CI"
+  ],
+  "reviewer_modifications": [
+    "review.md",
+    "review-metadata.json"
+  ],
+  "blocked_actions": []
+}

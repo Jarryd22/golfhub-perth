@@ -161,7 +161,7 @@ class LiveRecoveryStateTests(unittest.TestCase):
         self.assertEqual(self.window.status.text(), "Stopped - partial results were not saved" if stopped
                          else "Live refresh failed - no results available")
         self.assertTrue(self.window.search_button.isEnabled())
-        self.assertTrue(self.window.live_button.isEnabled())
+        self.assertFalse(self.window.live_button.isEnabled(), "Live retry waits for worker cleanup")
         self.assertFalse(self.window.progress.isVisible())
         self.assertFalse(self.window.stop_button.isVisible())
         self.save.assert_not_called()
@@ -287,6 +287,7 @@ class LiveRecoveryStateTests(unittest.TestCase):
         self.emit_failure(self.start_live())
         self.assert_cold()
         self.finish_mock_thread()
+        self.assertTrue(self.window.live_button.isEnabled())
         self.window.live_button.click()
         worker = self.window.scan_worker
         self.workers.append(worker)
@@ -306,6 +307,7 @@ class LiveRecoveryStateTests(unittest.TestCase):
     def test_repeated_cold_failures_have_one_empty_frame_and_reachable_retry(self):
         self.emit_failure(self.start_live())
         self.finish_mock_thread()
+        self.assertTrue(self.window.live_button.isEnabled())
         self.window.live_button.click()
         worker = self.window.scan_worker
         self.workers.append(worker)
