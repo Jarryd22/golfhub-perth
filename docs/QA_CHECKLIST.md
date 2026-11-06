@@ -68,7 +68,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 5 November 2026
+## Latest pass: 6 November 2026
+
+See the [empty-result link-guidance report](qa/2026-11-06-empty-link-guidance/REPORT.md). Exact PR25 promises official links below integrated-only no-match results despite rendering no action. Only include that sentence when selected direct-course cards will actually be rendered. Preserve the existing filter/refresh advice, mixed/direct-only links, submitted context, and provider-error cards; do not manufacture new booking links.
+
+**Failed baseline:** identical final seven-method regression file: three pass/four fail, with five assertion records including group/time subcases. Earlier fixture-date and expected-URL corrections remain separately recorded. **Passed final:** seven new methods; **304 aggregate tests = 176 desktop + 91 cache/integrity + 37 additional booking/rendering**, 27 isolated processes, zero failures/errors/skips. Final four-case render probe and 50 filter/five startup diagnostics are recorded separately; prior nine secondary-input checks ran only on unchanged PR25. Compile, CRLF-aware whitespace, actionlint and independent source review pass. See report/draft for exact final hashes, remote commit and all-event CI results.
+
+**Inspection only:** all 29 branches/23 existing drafts, 27 immutable source refs and loose source, Android0.1.19/Windows5.1.17 metadata, bounded three-payload publication/sample versus nominal schedule. **Not run:** native/installed Windows or Android, screen readers/touch/DPI, real provider/network recovery, live bookings/holds, updater/signatures or notification delivery. Executor transport recovered in the same environment before edits; no uncertain writes. Prior denied production-history lookup was not repeated. Historical Windows cache_close and canonical-source/release-candidate integration remain unresolved; no timeout relaxation or paired Linux diagnosis.
+
+## Previous pass: 5 November 2026
 
 See the [Refresh Live state/style report](qa/2026-11-05-live-button/REPORT.md). Change pending dates during a live request, then complete, fail or cancel it. Refresh Live must stay disabled for multiple dates, while either request is still owned, and while closing. Date edits during simulated unfinished cleanup must not enable ignored clicks. After both owners clear, one-date retry must use current controls while displayed/saved results retain their submitted context. Verify actual disabled palette and restored enabled color, not screenshots alone.
 

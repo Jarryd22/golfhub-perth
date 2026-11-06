@@ -1,0 +1,276 @@
+QA_RESULT {"run": 7, "failures": 7, "errors": 0, "skipped": 0}
+test_checked_empty_integrated_course_does_not_promise_links (empty_result_link_regression.EmptyResultLinkTests.test_checked_empty_integrated_course_does_not_promise_links) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_direct_only_selection_retains_actionable_link_guidance (empty_result_link_regression.EmptyResultLinkTests.test_direct_only_selection_retains_actionable_link_guidance) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='4', preset='Any time') ... FAIL
+  test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='Any', preset='Afternoon') ... FAIL
+test_matching_rows_and_provider_error_cards_do_not_show_empty_guidance (empty_result_link_regression.EmptyResultLinkTests.test_matching_rows_and_provider_error_cards_do_not_show_empty_guidance) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_mixed_selection_keeps_guidance_and_actual_link_handoff (empty_result_link_regression.EmptyResultLinkTests.test_mixed_selection_keeps_guidance_and_actual_link_handoff) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_replacing_mixed_results_removes_link_and_its_promise (empty_result_link_regression.EmptyResultLinkTests.test_replacing_mixed_results_removes_link_and_its_promise) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_unselected_direct_result_does_not_create_a_link_promise (empty_result_link_regression.EmptyResultLinkTests.test_unselected_direct_result_does_not_create_a_link_promise) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+
+======================================================================
+FAIL: test_checked_empty_integrated_course_does_not_promise_links (empty_result_link_regression.EmptyResultLinkTests.test_checked_empty_integrated_course_does_not_promise_links)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 100, in test_checked_empty_integrated_course_does_not_promise_links
+    self.cached()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 76, in cached
+    self.window.cache_finished({"2033-01-02": make_snapshot(
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1534, in cache_finished
+    self.search_live(self.context)
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1608, in search_live
+    self.scan_worker = ScanWorker(p["sites"], p["date"], p["holes"], p["from"], p["to"], p["players"])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: Offline test
+
+======================================================================
+FAIL: test_direct_only_selection_retains_actionable_link_guidance (empty_result_link_regression.EmptyResultLinkTests.test_direct_only_selection_retains_actionable_link_guidance)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 130, in test_direct_only_selection_retains_actionable_link_guidance
+    self.cached()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 76, in cached
+    self.window.cache_finished({"2033-01-02": make_snapshot(
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1534, in cache_finished
+    self.search_live(self.context)
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1608, in search_live
+    self.scan_worker = ScanWorker(p["sites"], p["date"], p["holes"], p["from"], p["to"], p["players"])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: Offline test
+
+======================================================================
+FAIL: test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='4', preset='Any time')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 96, in test_group_and_time_exclusions_do_not_promise_absent_links
+    self.cached([self.row()])
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 76, in cached
+    self.window.cache_finished({"2033-01-02": make_snapshot(
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1534, in cache_finished
+    self.search_live(self.context)
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1608, in search_live
+    self.scan_worker = ScanWorker(p["sites"], p["date"], p["holes"], p["from"], p["to"], p["players"])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: Offline test
+
+======================================================================
+FAIL: test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='Any', preset='Afternoon')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 97, in test_group_and_time_exclusions_do_not_promise_absent_links
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 86, in assert_no_link_promise
+    self.assertIn("No live tee times matched these filters.", message)
+AssertionError: 'No live tee times matched these filters.' not found in 'Checking courses live...'
+
+======================================================================
+FAIL: test_mixed_selection_keeps_guidance_and_actual_link_handoff (empty_result_link_regression.EmptyResultLinkTests.test_mixed_selection_keeps_guidance_and_actual_link_handoff)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 105, in test_mixed_selection_keeps_guidance_and_actual_link_handoff
+    self.cached([self.row()])
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 76, in cached
+    self.window.cache_finished({"2033-01-02": make_snapshot(
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1534, in cache_finished
+    self.search_live(self.context)
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1608, in search_live
+    self.scan_worker = ScanWorker(p["sites"], p["date"], p["holes"], p["from"], p["to"], p["players"])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: Offline test
+
+======================================================================
+FAIL: test_replacing_mixed_results_removes_link_and_its_promise (empty_result_link_regression.EmptyResultLinkTests.test_replacing_mixed_results_removes_link_and_its_promise)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 122, in test_replacing_mixed_results_removes_link_and_its_promise
+    self.cached([self.row()])
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 76, in cached
+    self.window.cache_finished({"2033-01-02": make_snapshot(
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1534, in cache_finished
+    self.search_live(self.context)
+  File "/workspace/golfhub-20261105/app/qt_golfhub_app.py", line 1608, in search_live
+    self.scan_worker = ScanWorker(p["sites"], p["date"], p["holes"], p["from"], p["to"], p["players"])
+                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1139, in __call__
+    return self._mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1143, in _mock_call
+    return self._execute_mock_call(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 1198, in _execute_mock_call
+    raise effect
+AssertionError: Offline test
+
+======================================================================
+FAIL: test_unselected_direct_result_does_not_create_a_link_promise (empty_result_link_regression.EmptyResultLinkTests.test_unselected_direct_result_does_not_create_a_link_promise)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 118, in test_unselected_direct_result_does_not_create_a_link_promise
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 88, in assert_no_link_promise
+    self.assertNotIn("Official course links", message)
+AssertionError: 'Official course links' unexpectedly found in 'No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.'
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.958s
+
+FAILED (failures=7)

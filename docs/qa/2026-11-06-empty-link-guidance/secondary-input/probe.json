@@ -1,0 +1,94 @@
+{
+  "timestamp_utc": "2026-11-06T00:58:35.145240+00:00",
+  "head": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+  "source_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+  "scope": "Linux Qt offscreen 980x640; real application popup/course widgets, synthetic input; sockets/DNS/provider/weather/browser/booking dialogs blocked; no worker, notification, native-device or screen-reader verification",
+  "checks": [
+    {
+      "scenario": "right click on visible calendar date",
+      "pass": true,
+      "date": "2033-01-05",
+      "clicked_signals": 0,
+      "before": [
+        "2033-01-03"
+      ],
+      "after": [
+        "2033-01-03"
+      ]
+    },
+    {
+      "scenario": "middle click on visible calendar date",
+      "pass": true,
+      "date": "2033-01-05",
+      "clicked_signals": 0,
+      "before": [
+        "2033-01-03"
+      ],
+      "after": [
+        "2033-01-03"
+      ]
+    },
+    {
+      "scenario": "left click on visible calendar date",
+      "pass": true,
+      "date": "2033-01-05",
+      "clicked_signals": 1,
+      "before": [
+        "2033-01-03"
+      ],
+      "after": [
+        "2033-01-03",
+        "2033-01-05"
+      ]
+    },
+    {
+      "scenario": "right click on course row",
+      "pass": true,
+      "course": "Altone Park",
+      "before": true,
+      "after": true,
+      "toggled_signals": 0
+    },
+    {
+      "scenario": "middle click on course row",
+      "pass": true,
+      "course": "Altone Park",
+      "before": true,
+      "after": true,
+      "toggled_signals": 0
+    },
+    {
+      "scenario": "left click on course row",
+      "pass": true,
+      "course": "Altone Park",
+      "before": true,
+      "after": false,
+      "toggled_signals": 1
+    },
+    {
+      "scenario": "right click on course checkbox",
+      "pass": true,
+      "course": "Altone Park",
+      "before": false,
+      "after": false,
+      "toggled_signals": 0
+    },
+    {
+      "scenario": "middle click on course checkbox",
+      "pass": true,
+      "course": "Altone Park",
+      "before": false,
+      "after": false,
+      "toggled_signals": 0
+    },
+    {
+      "scenario": "left click on course checkbox",
+      "pass": true,
+      "course": "Altone Park",
+      "before": false,
+      "after": true,
+      "toggled_signals": 1
+    }
+  ],
+  "callback_errors": []
+}

@@ -2161,7 +2161,10 @@ class GolfHub(QMainWindow):
                 rendered_live += 1
 
         if matches == 0 and rendered_live == 0:
-            self.render_empty("No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.", clear=False)
+            message = "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live."
+            if direct_results:
+                message += " Official course links remain available below."
+            self.render_empty(message, clear=False)
 
         if direct_results:
             direct_wrap = QFrame()

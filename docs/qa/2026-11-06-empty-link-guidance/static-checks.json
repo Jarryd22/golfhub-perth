@@ -1,0 +1,29 @@
+{
+  "recorded_at_utc": "2026-11-06T01:04:47.405995+00:00",
+  "execution": "Previously completed chained command; all steps returned 0 (&& chain final exit 0).",
+  "checks": [
+    {
+      "command": "python -m py_compile app/qt_golfhub_app.py tests/test_empty_result_links.py",
+      "exit_code": 0
+    },
+    {
+      "command": "git -c core.whitespace=cr-at-eol diff --check",
+      "exit_code": 0
+    },
+    {
+      "command": "/workspace/scratch/actionlint-1.7.12/actionlint -version",
+      "exit_code": 0,
+      "version": "1.7.12"
+    },
+    {
+      "command": "/workspace/scratch/actionlint-1.7.12/actionlint",
+      "exit_code": 0
+    }
+  ],
+  "file_sha256": {
+    "app/qt_golfhub_app.py": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+    "tests/test_empty_result_links.py": "ee804b56a7fe4dd2e193b54652bd90455bd4b0858d735f2bb547b60b85d3463b",
+    ".github/workflows/test-desktop.yml": "a3905d41dae4e11d6b9f9a8327ec8a662314b1ac184492462573e6f83f78b4ca"
+  },
+  "provenance": "Retained actionlint binary from prior pass, pinned 1.7.12; no new install today."
+}
