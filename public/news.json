@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-05T01:30:01.363482+00:00",
+  "generated_at": "2026-11-06T01:38:31.620646+00:00",
   "items": [
     {
       "id": "fc22d5c6a739f32a38af",
@@ -11,6 +11,22 @@
       "image": null,
       "images": [],
       "published_at": "2026-11-05T01:02:18+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "907f817a4c7e2b03326f",
+      "course_id": "gosnells-golf-club",
+      "title": "Melbourne Cup Day 2026",
+      "summary": "On Tuesday 3 Novemeber, members and guests gathered for our annual Melbourne Cup event.",
+      "url": "https://www.gosnellsgc.com.au/cms/2026/11/22360/",
+      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/20261102_174844-370x240.jpg",
+      "images": [
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/20261102_174844-370x240.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/20261103_104314-370x240.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/20261103_104327-370x240.jpg",
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/20261103_104432-370x240.jpg"
+      ],
+      "published_at": "2026-11-04T08:08:12+00:00",
       "category": "Course news"
     },
     {
@@ -323,19 +339,6 @@
         "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-769-WEB-ONLY.jpg"
       ],
       "published_at": "2026-10-14T01:55:29+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "ba96445f716485f09508",
-      "course_id": "gosnells-golf-club",
-      "title": "VALE – Andrew Gadsdon",
-      "summary": "VALE – ANDREW GADSDON“Drew” / “Gaddo” It is with great sadness that Gosnells Golf",
-      "url": "https://www.gosnellsgc.com.au/cms/2026/10/vale-andrew-gadson/",
-      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Gosnells-Golf-Club-Memorial-Banner-2.png",
-      "images": [
-        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/10/Gosnells-Golf-Club-Memorial-Banner-2.png"
-      ],
-      "published_at": "2026-10-13T08:29:56+00:00",
       "category": "Course news"
     },
     {
