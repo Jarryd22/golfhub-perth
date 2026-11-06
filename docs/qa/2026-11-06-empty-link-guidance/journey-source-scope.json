@@ -1,0 +1,25 @@
+{
+  "base_head": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+  "app_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+  "changed_golfhub_methods": [
+    "render_results"
+  ],
+  "unchanged_golfhub_methods": 50,
+  "worker_classes_AST_identical": {
+    "ScanWorker": true,
+    "CacheWorker": true
+  },
+  "byte_identical_files": {
+    "app/golfhub_core.py": true,
+    "app/course_results.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "scope": "Read-only AST and byte comparison against exact PR25; archive hashed/compared only, not extracted/imported/executed; no worker timing diagnosis"
+}

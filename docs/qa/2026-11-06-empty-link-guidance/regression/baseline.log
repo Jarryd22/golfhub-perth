@@ -1,0 +1,185 @@
+QA_RESULT {"run": 7, "failures": 5, "errors": 0, "skipped": 0}
+test_checked_empty_integrated_course_does_not_promise_links (empty_result_link_regression.EmptyResultLinkTests.test_checked_empty_integrated_course_does_not_promise_links) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_direct_only_selection_retains_actionable_link_guidance (empty_result_link_regression.EmptyResultLinkTests.test_direct_only_selection_retains_actionable_link_guidance) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='4', preset='Any time') ... FAIL
+  test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='Any', preset='Afternoon') ... FAIL
+test_matching_rows_and_provider_error_cards_do_not_show_empty_guidance (empty_result_link_regression.EmptyResultLinkTests.test_matching_rows_and_provider_error_cards_do_not_show_empty_guidance) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_mixed_selection_keeps_guidance_and_actual_link_handoff (empty_result_link_regression.EmptyResultLinkTests.test_mixed_selection_keeps_guidance_and_actual_link_handoff) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_replacing_mixed_results_removes_link_and_its_promise (empty_result_link_regression.EmptyResultLinkTests.test_replacing_mixed_results_removes_link_and_its_promise) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_unselected_direct_result_does_not_create_a_link_promise (empty_result_link_regression.EmptyResultLinkTests.test_unselected_direct_result_does_not_create_a_link_promise) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+
+======================================================================
+FAIL: test_checked_empty_integrated_course_does_not_promise_links (empty_result_link_regression.EmptyResultLinkTests.test_checked_empty_integrated_course_does_not_promise_links)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 102, in test_checked_empty_integrated_course_does_not_promise_links
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 89, in assert_no_link_promise
+    self.assertNotIn("Official course links", message)
+AssertionError: 'Official course links' unexpectedly found in 'No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.'
+
+======================================================================
+FAIL: test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='4', preset='Any time')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 98, in test_group_and_time_exclusions_do_not_promise_absent_links
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 89, in assert_no_link_promise
+    self.assertNotIn("Official course links", message)
+AssertionError: 'Official course links' unexpectedly found in 'No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.'
+
+======================================================================
+FAIL: test_group_and_time_exclusions_do_not_promise_absent_links (empty_result_link_regression.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) (players='Any', preset='Afternoon')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 98, in test_group_and_time_exclusions_do_not_promise_absent_links
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 89, in assert_no_link_promise
+    self.assertNotIn("Official course links", message)
+AssertionError: 'Official course links' unexpectedly found in 'No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.'
+
+======================================================================
+FAIL: test_replacing_mixed_results_removes_link_and_its_promise (empty_result_link_regression.EmptyResultLinkTests.test_replacing_mixed_results_removes_link_and_its_promise)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 127, in test_replacing_mixed_results_removes_link_and_its_promise
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 89, in assert_no_link_promise
+    self.assertNotIn("Official course links", message)
+AssertionError: 'Official course links' unexpectedly found in 'No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.'
+
+======================================================================
+FAIL: test_unselected_direct_result_does_not_create_a_link_promise (empty_result_link_regression.EmptyResultLinkTests.test_unselected_direct_result_does_not_create_a_link_promise)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 119, in test_unselected_direct_result_does_not_create_a_link_promise
+    self.assert_no_link_promise()
+  File "/workspace/golfhub-20261106/tests/test_empty_result_links.py", line 89, in assert_no_link_promise
+    self.assertNotIn("Official course links", message)
+AssertionError: 'Official course links' unexpectedly found in 'No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.'
+
+----------------------------------------------------------------------
+Ran 7 tests in 14.429s
+
+FAILED (failures=5)

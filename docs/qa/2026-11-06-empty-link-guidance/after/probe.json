@@ -1,0 +1,117 @@
+{
+  "timestamp_utc": "2026-11-06T01:04:36.970010+00:00",
+  "head": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+  "app_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+  "cases": [
+    {
+      "name": "integrated_group_exclusion",
+      "selected": [
+        "Araluen"
+      ],
+      "players": "4",
+      "source_rows": 1,
+      "filtered_rows": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "0 official course links",
+        "1 courses with no matching times",
+        "Shared cache - updated less than a minute ago",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live."
+      ],
+      "result_cards": 0,
+      "direct_cards": 0,
+      "action_buttons": []
+    },
+    {
+      "name": "mixed_group_exclusion",
+      "selected": [
+        "Araluen",
+        "Altone Park"
+      ],
+      "players": "4",
+      "source_rows": 1,
+      "filtered_rows": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "1 official course links",
+        "1 courses with no matching times",
+        "Shared cache - updated less than a minute ago",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live. Official course links remain available below.",
+        "More Perth courses",
+        "Official booking pages and visitor information for public-access courses.",
+        "Altone Park",
+        "Open the official course page for booking options or visitor instructions.",
+        "",
+        "Forecast unavailable"
+      ],
+      "result_cards": 0,
+      "direct_cards": 1,
+      "action_buttons": [
+        {
+          "text": "VIEW COURSE",
+          "accessible": "View course: Altone Park, 18 holes, 2 January 2033"
+        }
+      ]
+    },
+    {
+      "name": "integrated_checked_empty",
+      "selected": [
+        "Araluen"
+      ],
+      "players": "Any",
+      "source_rows": 0,
+      "filtered_rows": 0,
+      "labels": [
+        "0 matching times",
+        "1 availability feeds",
+        "0 official course links",
+        "1 courses with no matching times",
+        "Shared cache - updated less than a minute ago",
+        "Find a round that fits your day",
+        "No live tee times matched these filters. Try Any time or Any players, or use Refresh Live."
+      ],
+      "result_cards": 0,
+      "direct_cards": 0,
+      "action_buttons": []
+    },
+    {
+      "name": "integrated_positive",
+      "selected": [
+        "Araluen"
+      ],
+      "players": "1",
+      "source_rows": 1,
+      "filtered_rows": 1,
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "9:00 am",
+        "2 spots"
+      ],
+      "result_cards": 1,
+      "direct_cards": 0,
+      "action_buttons": [
+        {
+          "text": "OPEN BOOKING PAGE",
+          "accessible": "Open booking page: Araluen, 18 holes, 2 January 2033"
+        },
+        {
+          "text": "BOOK",
+          "accessible": "Book: Araluen, 9:00 am, 18 holes, 2 January 2033"
+        }
+      ]
+    }
+  ],
+  "callbacks": [],
+  "method": "Configured Araluen/Altone; synthetic successful cached rows through actual cache_finished/render_snapshot; real control params and player filtering; socket/DNS/worker/provider/weather/browser/save blocked; Linux offscreen only"
+}

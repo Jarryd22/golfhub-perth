@@ -1,0 +1,177 @@
+{
+  "schema": 1,
+  "checked_at_utc": "2026-11-06T00:56:19Z",
+  "checked_at_perth": "2026-11-06T08:56:19+08:00",
+  "publication": {
+    "cache_sha": "5906a4f088f990e9808cfb668de784d86ff4fa98",
+    "commit_url": "https://github.com/Jarryd22/golfhub-perth/commit/5906a4f088f990e9808cfb668de784d86ff4fa98",
+    "commit_author_time_utc": "2026-11-06T00:47:09Z",
+    "commit_committer_time_utc": "2026-11-06T00:47:09Z",
+    "commit_time_perth": "2026-11-06T08:47:09+08:00",
+    "index_generated_at_utc": "2026-11-06T00:47:08+00:00",
+    "commit_age_seconds": 550,
+    "index_age_seconds": 551
+  },
+  "coverage": {
+    "range_days": 28,
+    "first_date": "2026-11-06",
+    "last_date": "2026-12-03",
+    "tree_truncated": false,
+    "expected_paths": 56,
+    "present_paths": 56,
+    "missing_paths": [],
+    "unexpected_paths": [],
+    "sampled_payloads": 3,
+    "sampled_records": 111
+  },
+  "samples": [
+    {
+      "path": "public/cache/2026-11-06/18.json",
+      "generated_at_utc": "2026-11-06T00:46:28+00:00",
+      "age_seconds": 591,
+      "records": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 19,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "errors": [],
+      "blank_error_strings": 0,
+      "stale_flags": 0,
+      "weather_objects": 37,
+      "weather_null": 0,
+      "weather_missing": 0,
+      "clear_all_zero_signature": 0,
+      "zero_temperature_and_wind": 0,
+      "first_weather_example": {
+        "course": "Altone Park",
+        "label": "Overcast",
+        "tmax": 30,
+        "tmin": 15,
+        "rain_chance": 0,
+        "rain_mm": 0,
+        "wind": 23
+      }
+    },
+    {
+      "path": "public/cache/2026-11-21/18.json",
+      "generated_at_utc": "2026-11-06T00:46:46+00:00",
+      "age_seconds": 573,
+      "records": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "errors": [
+        {
+          "course": "Wembley",
+          "message": "Wembley calendar response did not contain the configured booking products",
+          "class": "wembley_missing_configured_products"
+        }
+      ],
+      "blank_error_strings": 0,
+      "stale_flags": 0,
+      "weather_objects": 37,
+      "weather_null": 0,
+      "weather_missing": 0,
+      "clear_all_zero_signature": 0,
+      "zero_temperature_and_wind": 0,
+      "first_weather_example": {
+        "course": "Altone Park",
+        "label": "Drizzle",
+        "tmax": 19,
+        "tmin": 14,
+        "rain_chance": 23,
+        "rain_mm": 7.5,
+        "wind": 34
+      }
+    },
+    {
+      "path": "public/cache/2026-12-03/9.json",
+      "generated_at_utc": "2026-11-06T00:46:48+00:00",
+      "age_seconds": 571,
+      "records": 37,
+      "health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 18,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "errors": [
+        {
+          "course": "Wembley",
+          "message": "Wembley calendar response did not contain the configured booking products",
+          "class": "wembley_missing_configured_products"
+        }
+      ],
+      "blank_error_strings": 0,
+      "stale_flags": 0,
+      "weather_objects": 0,
+      "weather_null": 37,
+      "weather_missing": 0,
+      "clear_all_zero_signature": 0,
+      "zero_temperature_and_wind": 0,
+      "first_weather_example": null
+    }
+  ],
+  "workflow": {
+    "main_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+    "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/25de15b65af6f9dcad4a4d13788fb87ab976df31/.github/workflows/refresh-cache-10min.yml",
+    "cron_utc": "7,17,27,37,47,57 * * * *",
+    "other_triggers": [
+      "workflow_dispatch",
+      "completed preferred-date alert checker on main, with prepare guard requiring workflow_dispatch origin",
+      "main push restricted to refresh workflow/scripts paths"
+    ],
+    "declared_refresh_minutes": 10,
+    "explicit_timing_guarantee": false,
+    "history_requests_today": 0
+  },
+  "sources": {
+    "cache_branch": "https://api.github.com/repos/Jarryd22/golfhub-perth/branches/cache",
+    "tree": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/trees/5906a4f088f990e9808cfb668de784d86ff4fa98?recursive=1",
+    "index": "https://github.com/Jarryd22/golfhub-perth/blob/5906a4f088f990e9808cfb668de784d86ff4fa98/public/cache/index.json",
+    "payload_url_template": "https://github.com/Jarryd22/golfhub-perth/blob/5906a4f088f990e9808cfb668de784d86ff4fa98/{path}"
+  },
+  "interpretation": {
+    "timing": "Commit/index were 9m10s/9m11s old and sampled payloads 9m31s–9m51s old at check. One pinned publication cannot verify successive cadence or actual workflow latency; commit/index times are not independent push-receipt or per-course observation times.",
+    "weather": "November 21/18 currently has 37 populated weather objects and no sampled all-zero Clear/temperature-wind signature. This does not establish the historical false-zero defect fixed, absent elsewhere or deployed. December 3/9 has 37 null weather values.",
+    "errors": "Two sampled Wembley configured-product absence errors; no sample stale flags. No whole-cache error/weather totals or live-booking availability inference."
+  },
+  "retained_limitation": {
+    "action": "Read production refresh workflow history",
+    "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+    "original_attempt_date": "2026-11-04",
+    "status": "prior connector allow-list rejection retained; not attempted today",
+    "original_error": "HTTP400 INVALID_ARGUMENT: GitHub Fetch URL is not an allowed public GitHub repository or search endpoint.",
+    "retry_or_alternate_route_today": false
+  },
+  "scope": {
+    "remote_mutations": false,
+    "provider_requests": false,
+    "alert_or_runtime_execution": false,
+    "polling_loop": false,
+    "all56_content_validation": false,
+    "source_changes": false
+  },
+  "artifact": {
+    "requested_path": "/workspace/scratch/golfhub-20261106-published-sample.json",
+    "write_status": "saved_after_authorized_executor_recovery",
+    "outage_note": "Initial save was deferred without a write attempt during executor transport outage. Parent confirmed recovery; existence check showed target absent before this first write.",
+    "uncertain_write": false
+  },
+  "new_remote_blockers": [],
+  "signature_definitions": {
+    "clear_all_zero_signature": "weather.label equals Clear and tmax, tmin, rain_chance, rain_mm and wind all equal numeric zero",
+    "zero_temperature_and_wind": "tmax, tmin and wind all equal numeric zero"
+  }
+}

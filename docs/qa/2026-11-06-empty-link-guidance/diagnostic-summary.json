@@ -1,0 +1,32 @@
+{
+  "four_case_probe": [
+    {
+      "case": "integrated_group_exclusion",
+      "direct_cards": 0,
+      "suffix_present": false,
+      "passed": true
+    },
+    {
+      "case": "mixed_group_exclusion",
+      "direct_cards": 1,
+      "suffix_present": true,
+      "passed": true
+    },
+    {
+      "case": "integrated_checked_empty",
+      "direct_cards": 0,
+      "suffix_present": false,
+      "passed": true
+    },
+    {
+      "case": "integrated_positive",
+      "direct_cards": 0,
+      "suffix_present": false,
+      "passed": true
+    }
+  ],
+  "filter_cases_passed": 50,
+  "startup_scenarios_passed": 5,
+  "callback_errors": [],
+  "app_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6"
+}
