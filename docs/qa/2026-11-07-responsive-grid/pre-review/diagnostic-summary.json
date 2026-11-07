@@ -1,0 +1,24 @@
+{
+  "app_sha256": "f4ad1f2870298f256e93df656a2db55336cdea58c7256129b571f613526824af",
+  "configured_controls_passed": 4,
+  "grid_width": 683,
+  "baseline_columns": [
+    250,
+    250,
+    173
+  ],
+  "final_columns": [
+    337,
+    336,
+    0
+  ],
+  "fresh_columns": [
+    337,
+    336
+  ],
+  "recovered_unused_width": 173,
+  "baseline_unused_fraction": 0.25329428989751096,
+  "filter_combinations_passed": 50,
+  "startup_scenarios_passed": 5,
+  "callback_errors": []
+}

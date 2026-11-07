@@ -1,0 +1,128 @@
+{
+  "observed_at_utc": "2026-11-07T00:27:02Z",
+  "observed_at_perth": "2026-11-07T08:27:02+08:00",
+  "observation_time_note": "Clock read immediately before the three read-only connector fetches; ages are measured at this sampling start.",
+  "repository": "Jarryd22/golfhub-perth",
+  "immutable_cache_sha": "1c68e440edec20e69027030f17ae0edb8f2e7080",
+  "request_scope": {
+    "selected_by_parent": true,
+    "branch_tip_rereads": 0,
+    "commit_metadata_reads": 1,
+    "index_reads": 1,
+    "payload_bodies_read": 1,
+    "tree_reads": 0,
+    "workflow_history_requests": 0,
+    "provider_requests": 0,
+    "remote_writes": 0,
+    "runtime_execution": false,
+    "polling": false
+  },
+  "publication": {
+    "commit_url": "https://github.com/Jarryd22/golfhub-perth/commit/1c68e440edec20e69027030f17ae0edb8f2e7080",
+    "commit_metadata_url": "https://api.github.com/repos/Jarryd22/golfhub-perth/commits/1c68e440edec20e69027030f17ae0edb8f2e7080",
+    "author_timestamp": "2026-11-07T00:16:55Z",
+    "committer_timestamp": "2026-11-07T00:16:55Z",
+    "committer_timestamp_perth": "2026-11-07T08:16:55+08:00",
+    "committer_age_seconds": 607,
+    "index_source_url": "https://github.com/Jarryd22/golfhub-perth/blob/1c68e440edec20e69027030f17ae0edb8f2e7080/public/cache/index.json",
+    "index_generated_at": "2026-11-07T00:16:55+00:00",
+    "index_generated_at_perth": "2026-11-07T08:16:55+08:00",
+    "index_age_seconds": 607,
+    "timestamp_limit": "Commit and published index generation timestamps are inspected values, not independently measured push receipt or per-course provider observation timestamps."
+  },
+  "index_declared_coverage": {
+    "range_days": 28,
+    "date_entries": 28,
+    "first_date": "2026-11-07",
+    "last_date": "2026-12-04",
+    "declared_date_hole_payloads": 56,
+    "holes": [
+      "18",
+      "9"
+    ],
+    "refresh_minutes": 10,
+    "verification_limit": "Coverage is stated by this index only. No tree listing or other payload body was inspected, so all-file presence and whole-cache health are unverified in this sample."
+  },
+  "sampled_payload": {
+    "path": "public/cache/2026-11-07/18.json",
+    "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/1c68e440edec20e69027030f17ae0edb8f2e7080/public/cache/2026-11-07/18.json",
+    "date": "2026-11-07",
+    "holes": "18",
+    "generated_at": "2026-11-07T00:16:16+00:00",
+    "generated_at_perth": "2026-11-07T08:16:16+08:00",
+    "age_seconds": 646,
+    "record_count": 37,
+    "cached_tee_time_row_count": 41,
+    "error_count": 0,
+    "errors": [],
+    "blank_error_string_count": 0,
+    "stale_truthy_record_count": 0,
+    "stale_field_names": [],
+    "published_health": {
+      "live_provider_count": 19,
+      "fresh_live_successes": 19,
+      "minimum_live_successes": 10,
+      "stale_fallbacks": 0,
+      "transient_retries": 0,
+      "transient_retry_recoveries": 0
+    },
+    "weather": {
+      "object_count": 37,
+      "null_count": 0,
+      "missing_count": 0,
+      "labels": {
+        "Partly cloudy": 8,
+        "Mostly clear": 9,
+        "Clear": 16,
+        "Overcast": 4
+      },
+      "clear_all_zero_signature_count": 0,
+      "zero_temperature_and_wind_count": 0,
+      "signature_definitions": {
+        "clear_all_zero": "label == Clear and numeric tmax, tmin, rain_chance, rain_mm, wind all equal 0",
+        "zero_temperature_and_wind": "numeric tmax, tmin, wind all equal 0"
+      },
+      "example": {
+        "icon_file": "sheet_partly_cloudy.png",
+        "label": "Partly cloudy",
+        "tmax": 27,
+        "tmin": 15,
+        "rain_chance": 0,
+        "rain_mm": 0,
+        "rain_amount_label": "0 mm",
+        "wind": 21,
+        "location_name": "Altone Park"
+      }
+    },
+    "limits": "Counts apply only to this one 37-record current-date 18-hole payload; cached rows are not verified live booking availability. No claims about other dates, 9-hole payloads, all 56 declared payloads, native UI, or notification delivery."
+  },
+  "source_schedule": {
+    "main_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+    "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/25de15b65af6f9dcad4a4d13788fb87ab976df31/.github/workflows/refresh-cache-10min.yml",
+    "workflow_name": "Refresh four-week tee-time cache",
+    "cron_utc": "7,17,27,37,47,57 * * * *",
+    "intended_interval_minutes": 10,
+    "other_triggers": [
+      "workflow_dispatch",
+      "main push restricted to refresh workflow and scripts paths",
+      "completed Check preferred-date alerts workflow_run on main, additionally gated to upstream workflow_dispatch from same repository"
+    ],
+    "interpretation": "The source configures ten-minute scheduled opportunities; one pinned commit/index/payload sample cannot establish actual successive cadence, run latency, freshness between samples, or whether this publication came from the schedule or another configured trigger."
+  },
+  "inference": {
+    "new_fix_justified_by_sample": false,
+    "reasoning": "No truthy error, stale fallback, or defined false-zero weather signature appears in the one selected payload. This does not resolve known provider/weather defects on other dates or supersede existing repair drafts."
+  },
+  "retained_limit": {
+    "date": "2026-11-04",
+    "exact_action": "GitHub connector read of production workflow run history",
+    "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+    "status": "previously denied; not attempted today",
+    "reason": "HTTP 400 INVALID_ARGUMENT: endpoint not on connector allow-list",
+    "retries_or_alternate_routes_today": 0,
+    "consequence": "No production-run history or latency verification; configured source schedule and actual pinned publication/payload timestamps are reported separately."
+  },
+  "workflow_trigger_audit_path": "/workspace/scratch/golfhub-20261107-workflow-trigger-audit.json",
+  "blockers_today": [],
+  "evidence_only_write": "/workspace/scratch/golfhub-20261107-published-sample.json"
+}

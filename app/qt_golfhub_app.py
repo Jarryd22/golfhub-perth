@@ -394,8 +394,8 @@ class ResponsiveCardGrid(QWidget):
         visible = [widget for widget in self.widgets if not widget.isHidden()]
         for index, widget in enumerate(visible):
             self.grid.addWidget(widget, index // columns, index % columns)
-        for column in range(columns):
-            self.grid.setColumnStretch(column, 1)
+        for column in range(max(columns, self.grid.columnCount())):
+            self.grid.setColumnStretch(column, 1 if column < columns else 0)
         self.updateGeometry()
 
     def resizeEvent(self, event):

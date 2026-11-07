@@ -1,0 +1,13 @@
+{
+  "timestamp_utc": "2026-11-07T00:32:10.419466+00:00",
+  "head": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+  "app_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+  "test_sha256": "97f91e4fe215c1e90c5c05578526ea7b4396aeb833091910e9ff5a2249ca965c",
+  "exit_code": 1,
+  "result": {
+    "run": 8,
+    "failures": 10,
+    "errors": 0,
+    "skipped": 0
+  }
+}

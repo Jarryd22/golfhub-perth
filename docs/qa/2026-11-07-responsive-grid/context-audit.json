@@ -1,0 +1,2496 @@
+{
+  "checked_at_utc": "2026-11-07T00:24:52.685Z",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "scope": "Read-only current repository/source/ref/instruction and prior-QA audit, targeted responsive-grid duplicate comparison, exact-source workflow-trigger review and one bounded current-date published-cache sample. No runtime tests, provider access, production history request or remote writes.",
+  "repositories": {
+    "source": {
+      "metadata": {
+        "full_name": "Jarryd22/golfhub-perth",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth",
+        "default_branch": "main",
+        "pushed_at": "2026-11-07T00:16:57Z",
+        "updated_at": "2026-10-04T05:58:24Z",
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 24,
+        "size": 7261
+      },
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+          "protected": false
+        },
+        {
+          "name": "cache",
+          "sha": "1c68e440edec20e69027030f17ae0edb8f2e7080",
+          "protected": false
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-shape-20261030",
+          "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-calendar-mouse-20261102",
+          "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-empty-link-guidance-20261106",
+          "sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-live-button-state-20261105",
+          "sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-live-recovery-20261104",
+          "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-matching-course-count-20261028",
+          "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-missing-cache-20261027",
+          "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-offline-course-links-20261103",
+          "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-error-wording-20261029",
+          "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-exception-20261101",
+          "sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-retained-search-context-20261031",
+          "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "protected": false
+        },
+        {
+          "name": "news",
+          "sha": "3e96052bf9c2af2e1160f42ead04bd00e71fb280",
+          "protected": false
+        }
+      ],
+      "pulls": [
+        {
+          "number": 26,
+          "title": "Keep empty-result guidance consistent with available course links",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/26",
+          "draft": true,
+          "head_ref": "fix/desktop-empty-link-guidance-20261106",
+          "head_sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+          "base_ref": "fix/desktop-live-button-state-20261105",
+          "base_sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+          "updated_at": "2026-11-06T01:10:27Z"
+        },
+        {
+          "number": 25,
+          "title": "Align live refresh availability and disabled appearance",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/25",
+          "draft": true,
+          "head_ref": "fix/desktop-live-button-state-20261105",
+          "head_sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+          "base_ref": "fix/desktop-live-recovery-20261104",
+          "base_sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+          "updated_at": "2026-11-05T00:27:14Z"
+        },
+        {
+          "number": 24,
+          "title": "Show accurate recovery after live refresh failure or stop",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/24",
+          "draft": true,
+          "head_ref": "fix/desktop-live-recovery-20261104",
+          "head_sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+          "base_ref": "fix/desktop-offline-course-links-20261103",
+          "base_sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+          "updated_at": "2026-11-04T01:05:44Z"
+        },
+        {
+          "number": 23,
+          "title": "Retain official course links when multi-date cache is unavailable",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/23",
+          "draft": true,
+          "head_ref": "fix/desktop-offline-course-links-20261103",
+          "head_sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+          "base_ref": "fix/desktop-calendar-mouse-20261102",
+          "base_sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "updated_at": "2026-11-03T00:40:44Z"
+        },
+        {
+          "number": 22,
+          "title": "Fix calendar mouse selection for months starting Monday",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/22",
+          "draft": true,
+          "head_ref": "fix/desktop-calendar-mouse-20261102",
+          "head_sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "base_ref": "fix/desktop-provider-exception-20261101",
+          "base_sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "updated_at": "2026-11-02T01:00:38Z"
+        },
+        {
+          "number": 21,
+          "title": "Preserve failures for message-less provider exceptions",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/21",
+          "draft": true,
+          "head_ref": "fix/desktop-provider-exception-20261101",
+          "head_sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "base_ref": "fix/desktop-retained-search-context-20261031",
+          "base_sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "updated_at": "2026-11-01T00:28:13Z"
+        },
+        {
+          "number": 20,
+          "title": "Preserve displayed search context during live refresh",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/20",
+          "draft": true,
+          "head_ref": "fix/desktop-retained-search-context-20261031",
+          "head_sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "base_ref": "fix/desktop-cache-shape-20261030",
+          "base_sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "updated_at": "2026-10-31T00:27:45Z"
+        },
+        {
+          "number": 19,
+          "title": "Reject malformed cache records before saving or rendering",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/19",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-shape-20261030",
+          "head_sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "base_ref": "fix/desktop-provider-error-wording-20261029",
+          "base_sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "updated_at": "2026-10-30T00:44:33Z"
+        },
+        {
+          "number": 18,
+          "title": "Distinguish provider failures from empty tee-time results",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/18",
+          "draft": true,
+          "head_ref": "fix/desktop-provider-error-wording-20261029",
+          "head_sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "base_ref": "fix/desktop-matching-course-count-20261028",
+          "base_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "updated_at": "2026-10-29T00:19:46Z"
+        },
+        {
+          "number": 17,
+          "title": "Count only courses with matching exact tee times",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+          "draft": true,
+          "head_ref": "fix/desktop-matching-course-count-20261028",
+          "head_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "base_ref": "fix/desktop-missing-cache-20261027",
+          "base_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "updated_at": "2026-10-28T00:15:54Z"
+        },
+        {
+          "number": 16,
+          "title": "Distinguish missing date cache from empty tee times",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+          "draft": true,
+          "head_ref": "fix/desktop-missing-cache-20261027",
+          "head_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "base_ref": "fix/alerts-runtime-integrity-20261026",
+          "base_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "updated_at": "2026-10-27T00:33:07Z"
+        },
+        {
+          "number": 15,
+          "title": "Validate alert runtime ZIP integrity without executing it",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+          "draft": true,
+          "head_ref": "fix/alerts-runtime-integrity-20261026",
+          "head_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "base_ref": "fix/desktop-perth-midnight-20261021",
+          "base_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "updated_at": "2026-10-26T00:57:34Z"
+        },
+        {
+          "number": 14,
+          "title": "Refresh desktop booking dates across Perth midnight",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+          "draft": true,
+          "head_ref": "fix/desktop-perth-midnight-20261021",
+          "head_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "base_ref": "fix/desktop-cache-thread-lifecycle-20261020",
+          "base_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "updated_at": "2026-10-21T01:16:03Z"
+        },
+        {
+          "number": 13,
+          "title": "Retain desktop workers until native thread cleanup completes",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-thread-lifecycle-20261020",
+          "head_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "base_ref": "fix/desktop-booking-context-20261020",
+          "base_sha": "93d4763451358be608bff06fd0013936af36764c",
+          "updated_at": "2026-10-20T00:31:20Z"
+        },
+        {
+          "number": 12,
+          "title": "Identify booking actions and label custom time controls",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+          "draft": true,
+          "head_ref": "fix/desktop-booking-context-20261020",
+          "head_sha": "93d4763451358be608bff06fd0013936af36764c",
+          "base_ref": "fix/desktop-course-controls-20261019",
+          "base_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "updated_at": "2026-10-20T00:14:31Z"
+        },
+        {
+          "number": 11,
+          "title": "Fix course selection counts and label desktop filters",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+          "draft": true,
+          "head_ref": "fix/desktop-course-controls-20261019",
+          "head_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "base_ref": "fix/desktop-keyboard-date-selection",
+          "base_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "updated_at": "2026-10-19T00:29:25Z"
+        },
+        {
+          "number": 10,
+          "title": "Enable keyboard date selection and cover desktop search in CI",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+          "draft": true,
+          "head_ref": "fix/desktop-keyboard-date-selection",
+          "head_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "base_ref": "fix/desktop-search-dates-and-times",
+          "base_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "updated_at": "2026-10-18T01:08:03Z"
+        },
+        {
+          "number": 9,
+          "title": "Use Perth booking dates and reject reversed search times",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+          "draft": true,
+          "head_ref": "fix/desktop-search-dates-and-times",
+          "head_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-16T23:32:04Z"
+        },
+        {
+          "number": 8,
+          "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-incomplete-weather",
+          "head_sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "base_ref": "fix/cache-refresh-weather-cooldown",
+          "base_sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "updated_at": "2026-10-09T16:46:54Z"
+        },
+        {
+          "number": 7,
+          "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-wembley-rendered",
+          "head_sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "base_ref": "fix/cache-refresh-wembley-fallback",
+          "base_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "updated_at": "2026-10-07T08:28:10Z"
+        },
+        {
+          "number": 6,
+          "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-weather-cooldown",
+          "head_sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "base_ref": "fix/cache-refresh-weather-timeouts",
+          "base_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "updated_at": "2026-10-07T04:35:09Z"
+        },
+        {
+          "number": 5,
+          "title": "Keep missing Wembley products unknown and expire stale fallback",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-wembley-fallback",
+          "head_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-07T04:22:00Z"
+        },
+        {
+          "number": 4,
+          "title": "Bound weather timeout retries within shared preparation",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-weather-timeouts",
+          "head_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-06T23:02:02Z"
+        },
+        {
+          "number": 3,
+          "title": "Bound repeated Quick18 failures across each cache shard",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-provider-circuit",
+          "head_sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-04T09:44:25Z"
+        }
+      ],
+      "non_pr_issues": [],
+      "releases": [],
+      "latest_release": null
+    },
+    "windows": {
+      "metadata": {
+        "full_name": "Jarryd22/golfhub-perth-updates",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-updates",
+        "default_branch": "main",
+        "pushed_at": "2026-09-25T19:20:44Z",
+        "updated_at": "2026-09-25T12:58:51Z",
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "size": 1
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+          "protected": false
+        }
+      ],
+      "pulls": [],
+      "non_pr_issues": [],
+      "releases": [
+        {
+          "id": 396867076,
+          "tag_name": "v5.1.17",
+          "name": "GolfHub Perth 5.1.17",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T19:20:44Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+              "size": 140883946,
+              "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+              "updated_at": "2026-09-25T19:18:56Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 689,
+              "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+              "updated_at": "2026-09-25T19:18:34Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 1432,
+              "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+              "updated_at": "2026-09-25T19:18:34Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396855169,
+          "tag_name": "v5.1.16",
+          "name": "GolfHub Perth 5.1.16",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T19:03:51Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.16",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_16.exe",
+              "size": 140927207,
+              "digest": "sha256:1ebbc1c8e627d211ced82bdb789bc30cbe23bac008b535165fdedca32444f78f",
+              "updated_at": "2026-09-25T18:59:55Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.16/GolfHub_Perth_Setup_v5_1_16.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1080,
+              "digest": "sha256:3f640488a9dabae50fe6c9cfed70d9c9fd8f9c6095e782210951f60fa430d6ac",
+              "updated_at": "2026-09-25T18:59:32Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.16/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 1956,
+              "digest": "sha256:aa1f8f666710fd48ad6ff205a05833a63733bb59e4db279f4d0c51c865669382",
+              "updated_at": "2026-09-25T18:59:32Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.16/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396837930,
+          "tag_name": "v5.1.15",
+          "name": "GolfHub Perth 5.1.15",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T18:31:59Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.15",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_15.exe",
+              "size": 140911948,
+              "digest": "sha256:3ee4db2c4c8ebc0046bf2927ff63405b3cbc70fb089059fad3184698372abd21",
+              "updated_at": "2026-09-25T18:30:10Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.15/GolfHub_Perth_Setup_v5_1_15.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 916,
+              "digest": "sha256:a6659912ad3770a35560d1dbcfd4641e2e57b1cc1b5660ca3bcbfead8e3ce2d9",
+              "updated_at": "2026-09-25T18:29:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.15/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 1736,
+              "digest": "sha256:c69f9091c8f328df99f8d87272c5ee9a1f3bddb1a7eb8303eda92ac12a7d73b2",
+              "updated_at": "2026-09-25T18:29:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.15/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396758052,
+          "tag_name": "v5.1.13",
+          "name": "GolfHub Perth 5.1.13",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T16:24:24Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.13",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_13.exe",
+              "size": 140763550,
+              "digest": "sha256:ef67d83a831abea9a9cdc0b9f12572be307e73ebc708dd776e4cea73325150aa",
+              "updated_at": "2026-09-25T16:22:55Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.13/GolfHub_Perth_Setup_v5_1_13.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1841,
+              "digest": "sha256:43ffcaf7f4924a13aeebcb3c6b7711d3becb4cb0454c5aff122bbffc67a33421",
+              "updated_at": "2026-09-25T16:22:39Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.13/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 2968,
+              "digest": "sha256:b59f66b6a4d3864ad4838d13e1d609c5646135478412c3e3c6b318a0216a851e",
+              "updated_at": "2026-09-25T16:22:39Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.13/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396551413,
+          "tag_name": "v5.1.11",
+          "name": "GolfHub Perth 5.1.11",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T12:59:44Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.11",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_11.exe",
+              "size": 140734746,
+              "digest": "sha256:ed378432ed26ceef890b4f97b769004bed17d3a1e9bd71f3b0bbc1e4adaad49c",
+              "updated_at": "2026-09-25T12:58:18Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.11/GolfHub_Perth_Setup_v5_1_11.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1675,
+              "digest": "sha256:8a13a37abbd11bacbe4d277b25dea7a96501c558167f1730ffca39dac05d2941",
+              "updated_at": "2026-09-25T11:34:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.11/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 2748,
+              "digest": "sha256:5de5ca4ed6d587101e3ee19d5b33600b1c3ae2f4acc1eb9cc29865602a392f98",
+              "updated_at": "2026-09-25T11:34:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.11/update.json"
+            }
+          ]
+        }
+      ],
+      "latest_release": {
+        "id": 396867076,
+        "tag_name": "v5.1.17",
+        "name": "GolfHub Perth 5.1.17",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-09-25T12:58:46Z",
+        "published_at": "2026-09-25T19:20:44Z",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "updated_at": "2026-09-25T19:18:56Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "updated_at": "2026-09-25T19:18:34Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "updated_at": "2026-09-25T19:18:34Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      }
+    },
+    "android": {
+      "metadata": {
+        "full_name": "Jarryd22/golfhub-perth-android-updates",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates",
+        "default_branch": "main",
+        "pushed_at": "2026-10-02T08:28:10Z",
+        "updated_at": "2026-09-27T16:11:07Z",
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "size": 1
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+          "protected": false
+        }
+      ],
+      "pulls": [],
+      "non_pr_issues": [],
+      "releases": [
+        {
+          "id": 397715996,
+          "tag_name": "android-v0.1.8",
+          "name": "GolfHub Perth for Android 0.1.8",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-27T16:11:37Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.8",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 2408,
+              "digest": "sha256:b206cdba407cc5d178e0d6132a8815d08ab7880731ccb92c122c3e6fa5ca625a",
+              "updated_at": "2026-09-27T16:09:42Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.8/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.8.apk",
+              "size": 64105987,
+              "digest": "sha256:9cde9765c300c1ab4f1d2cea1d6ec12da3d18458b7d376cfb8ed1362979cb5a1",
+              "updated_at": "2026-09-27T16:10:04Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.8/GolfHub_Perth_Android_0.1.8.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1250,
+              "digest": "sha256:f2da2b4a3a0da18480892b379dc340118fcc0daa84d308568b4d342eb928b430",
+              "updated_at": "2026-09-27T16:09:42Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.8/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 401647726,
+          "tag_name": "android-v0.1.19",
+          "name": "GolfHub Perth Android 0.1.19",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-10-02T08:28:11Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 1744,
+              "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+              "updated_at": "2026-10-02T08:26:03Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.19.apk",
+              "size": 77035309,
+              "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+              "updated_at": "2026-10-02T08:26:40Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 747,
+              "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+              "updated_at": "2026-10-02T08:26:03Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 400601980,
+          "tag_name": "android-v0.1.18",
+          "name": "GolfHub Perth Android 0.1.18",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-10-01T02:36:15Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.18",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 2636,
+              "digest": "sha256:6e3e672bd1a4ecff85f15bc6ad214eac732926412f2566dd1855fa49db2ef5ff",
+              "updated_at": "2026-10-01T02:32:01Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.18/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.18.apk",
+              "size": 77033681,
+              "digest": "sha256:86386e3c085ec00ed0726459a36f0c3926a5bff6e09d1708e310acdd23c7797d",
+              "updated_at": "2026-10-01T02:33:37Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.18/GolfHub_Perth_Android_0.1.18.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1417,
+              "digest": "sha256:ed59429b94e3786fa9b412dcb4bccc1d5571dcf154100b639ef1f9e5b740c120",
+              "updated_at": "2026-10-01T02:32:01Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.18/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 398516681,
+          "tag_name": "android-v0.1.17",
+          "name": "GolfHub Perth Android 0.1.17",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-28T18:33:48Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.17",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 3464,
+              "digest": "sha256:23aeb787bb677cd218bb38a643070eb63bafa61ba9d12d65ac86d5b47c8561c7",
+              "updated_at": "2026-09-28T18:32:37Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.17/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.17.apk",
+              "size": 65163853,
+              "digest": "sha256:2eee92bb612eadff4988f191289923ee50fec40043f04e59dddfbc5a08a39eab",
+              "updated_at": "2026-09-28T18:32:42Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.17/GolfHub_Perth_Android_0.1.17.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 2036,
+              "digest": "sha256:c8ea77806eb6087eea238ad24c89e43344d8897a291b6b510d7e1cb6d28c6459",
+              "updated_at": "2026-09-28T18:32:37Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.17/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 397832899,
+          "tag_name": "android-v0.1.16",
+          "name": "GolfHub Perth Android 0.1.16",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-27T22:15:32Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.16",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 2208,
+              "digest": "sha256:458c936cdc95ef6723e3faabcacd60d25e70645f83323153c0b1860142f630bc",
+              "updated_at": "2026-09-27T22:10:15Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.16/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.16.apk",
+              "size": 64851519,
+              "digest": "sha256:2e91d067998be1c85d05c6a1fd34f44710f221a1ae918d5c4b8fe1508cee6235",
+              "updated_at": "2026-09-27T22:11:29Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.16/GolfHub_Perth_Android_0.1.16.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1096,
+              "digest": "sha256:32ae8c695ac86284dec87e446f07ad76aee73504c784566974f3aacf5757fce0",
+              "updated_at": "2026-09-27T22:10:15Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.16/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 397800114,
+          "tag_name": "android-v0.1.13",
+          "name": "GolfHub Perth for Android 0.1.13",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-27T20:31:07Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.13",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 3164,
+              "digest": "sha256:1d8f700843b1538bab24e96339a56bbed20cde09678ef0c96f06ee3a996e022a",
+              "updated_at": "2026-09-27T20:28:46Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.13/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.13.apk",
+              "size": 64567387,
+              "digest": "sha256:c5dc0491eeb9bf8499da7d0baad6bf031cf7e968a67e2879e2d7ef1793d25104",
+              "updated_at": "2026-09-27T20:29:02Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.13/GolfHub_Perth_Android_0.1.13.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1813,
+              "digest": "sha256:c446aef93d676f900c4b6ad97be64e7541dad820b2ea8f7fbf5f52aca00d8bc2",
+              "updated_at": "2026-09-27T20:28:46Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.13/release-notes.md"
+            }
+          ]
+        }
+      ],
+      "latest_release": {
+        "id": 401647726,
+        "tag_name": "android-v0.1.19",
+        "name": "GolfHub Perth Android 0.1.19",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-09-27T16:11:03Z",
+        "published_at": "2026-10-02T08:28:11Z",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "updated_at": "2026-10-02T08:26:03Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "updated_at": "2026-10-02T08:26:40Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "updated_at": "2026-10-02T08:26:03Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      }
+    }
+  },
+  "open_drafts": [
+    {
+      "number": 26,
+      "title": "Keep empty-result guidance consistent with available course links",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/26",
+      "draft": true,
+      "head_ref": "fix/desktop-empty-link-guidance-20261106",
+      "head_sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+      "base_ref": "fix/desktop-live-button-state-20261105",
+      "base_sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+      "updated_at": "2026-11-06T01:10:27Z"
+    },
+    {
+      "number": 25,
+      "title": "Align live refresh availability and disabled appearance",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/25",
+      "draft": true,
+      "head_ref": "fix/desktop-live-button-state-20261105",
+      "head_sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+      "base_ref": "fix/desktop-live-recovery-20261104",
+      "base_sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+      "updated_at": "2026-11-05T00:27:14Z"
+    },
+    {
+      "number": 24,
+      "title": "Show accurate recovery after live refresh failure or stop",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/24",
+      "draft": true,
+      "head_ref": "fix/desktop-live-recovery-20261104",
+      "head_sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+      "base_ref": "fix/desktop-offline-course-links-20261103",
+      "base_sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "updated_at": "2026-11-04T01:05:44Z"
+    },
+    {
+      "number": 23,
+      "title": "Retain official course links when multi-date cache is unavailable",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/23",
+      "draft": true,
+      "head_ref": "fix/desktop-offline-course-links-20261103",
+      "head_sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "base_ref": "fix/desktop-calendar-mouse-20261102",
+      "base_sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+      "updated_at": "2026-11-03T00:40:44Z"
+    },
+    {
+      "number": 22,
+      "title": "Fix calendar mouse selection for months starting Monday",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/22",
+      "draft": true,
+      "head_ref": "fix/desktop-calendar-mouse-20261102",
+      "head_sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+      "base_ref": "fix/desktop-provider-exception-20261101",
+      "base_sha": "9aa16f733458db871c2452a18a247536ab348498",
+      "updated_at": "2026-11-02T01:00:38Z"
+    },
+    {
+      "number": 21,
+      "title": "Preserve failures for message-less provider exceptions",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/21",
+      "draft": true,
+      "head_ref": "fix/desktop-provider-exception-20261101",
+      "head_sha": "9aa16f733458db871c2452a18a247536ab348498",
+      "base_ref": "fix/desktop-retained-search-context-20261031",
+      "base_sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+      "updated_at": "2026-11-01T00:28:13Z"
+    },
+    {
+      "number": 20,
+      "title": "Preserve displayed search context during live refresh",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/20",
+      "draft": true,
+      "head_ref": "fix/desktop-retained-search-context-20261031",
+      "head_sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+      "base_ref": "fix/desktop-cache-shape-20261030",
+      "base_sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "updated_at": "2026-10-31T00:27:45Z"
+    },
+    {
+      "number": 19,
+      "title": "Reject malformed cache records before saving or rendering",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/19",
+      "draft": true,
+      "head_ref": "fix/desktop-cache-shape-20261030",
+      "head_sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "base_ref": "fix/desktop-provider-error-wording-20261029",
+      "base_sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "updated_at": "2026-10-30T00:44:33Z"
+    },
+    {
+      "number": 18,
+      "title": "Distinguish provider failures from empty tee-time results",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/18",
+      "draft": true,
+      "head_ref": "fix/desktop-provider-error-wording-20261029",
+      "head_sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "base_ref": "fix/desktop-matching-course-count-20261028",
+      "base_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "updated_at": "2026-10-29T00:19:46Z"
+    },
+    {
+      "number": 17,
+      "title": "Count only courses with matching exact tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+      "draft": true,
+      "head_ref": "fix/desktop-matching-course-count-20261028",
+      "head_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "base_ref": "fix/desktop-missing-cache-20261027",
+      "base_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "updated_at": "2026-10-28T00:15:54Z"
+    },
+    {
+      "number": 16,
+      "title": "Distinguish missing date cache from empty tee times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+      "draft": true,
+      "head_ref": "fix/desktop-missing-cache-20261027",
+      "head_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "base_ref": "fix/alerts-runtime-integrity-20261026",
+      "base_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "updated_at": "2026-10-27T00:33:07Z"
+    },
+    {
+      "number": 15,
+      "title": "Validate alert runtime ZIP integrity without executing it",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+      "draft": true,
+      "head_ref": "fix/alerts-runtime-integrity-20261026",
+      "head_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "base_ref": "fix/desktop-perth-midnight-20261021",
+      "base_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "updated_at": "2026-10-26T00:57:34Z"
+    },
+    {
+      "number": 14,
+      "title": "Refresh desktop booking dates across Perth midnight",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+      "draft": true,
+      "head_ref": "fix/desktop-perth-midnight-20261021",
+      "head_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "base_ref": "fix/desktop-cache-thread-lifecycle-20261020",
+      "base_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "updated_at": "2026-10-21T01:16:03Z"
+    },
+    {
+      "number": 13,
+      "title": "Retain desktop workers until native thread cleanup completes",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+      "draft": true,
+      "head_ref": "fix/desktop-cache-thread-lifecycle-20261020",
+      "head_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "base_ref": "fix/desktop-booking-context-20261020",
+      "base_sha": "93d4763451358be608bff06fd0013936af36764c",
+      "updated_at": "2026-10-20T00:31:20Z"
+    },
+    {
+      "number": 12,
+      "title": "Identify booking actions and label custom time controls",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+      "draft": true,
+      "head_ref": "fix/desktop-booking-context-20261020",
+      "head_sha": "93d4763451358be608bff06fd0013936af36764c",
+      "base_ref": "fix/desktop-course-controls-20261019",
+      "base_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "updated_at": "2026-10-20T00:14:31Z"
+    },
+    {
+      "number": 11,
+      "title": "Fix course selection counts and label desktop filters",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+      "draft": true,
+      "head_ref": "fix/desktop-course-controls-20261019",
+      "head_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "base_ref": "fix/desktop-keyboard-date-selection",
+      "base_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "updated_at": "2026-10-19T00:29:25Z"
+    },
+    {
+      "number": 10,
+      "title": "Enable keyboard date selection and cover desktop search in CI",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+      "draft": true,
+      "head_ref": "fix/desktop-keyboard-date-selection",
+      "head_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "base_ref": "fix/desktop-search-dates-and-times",
+      "base_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "updated_at": "2026-10-18T01:08:03Z"
+    },
+    {
+      "number": 9,
+      "title": "Use Perth booking dates and reject reversed search times",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+      "draft": true,
+      "head_ref": "fix/desktop-search-dates-and-times",
+      "head_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "base_ref": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "updated_at": "2026-10-16T23:32:04Z"
+    },
+    {
+      "number": 8,
+      "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+      "draft": true,
+      "head_ref": "fix/cache-refresh-incomplete-weather",
+      "head_sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "base_ref": "fix/cache-refresh-weather-cooldown",
+      "base_sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "updated_at": "2026-10-09T16:46:54Z"
+    },
+    {
+      "number": 7,
+      "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+      "draft": true,
+      "head_ref": "fix/cache-refresh-wembley-rendered",
+      "head_sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "base_ref": "fix/cache-refresh-wembley-fallback",
+      "base_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "updated_at": "2026-10-07T08:28:10Z"
+    },
+    {
+      "number": 6,
+      "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+      "draft": true,
+      "head_ref": "fix/cache-refresh-weather-cooldown",
+      "head_sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "base_ref": "fix/cache-refresh-weather-timeouts",
+      "base_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "updated_at": "2026-10-07T04:35:09Z"
+    },
+    {
+      "number": 5,
+      "title": "Keep missing Wembley products unknown and expire stale fallback",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+      "draft": true,
+      "head_ref": "fix/cache-refresh-wembley-fallback",
+      "head_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "base_ref": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "updated_at": "2026-10-07T04:22:00Z"
+    },
+    {
+      "number": 4,
+      "title": "Bound weather timeout retries within shared preparation",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+      "draft": true,
+      "head_ref": "fix/cache-refresh-weather-timeouts",
+      "head_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "base_ref": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "updated_at": "2026-10-06T23:02:02Z"
+    },
+    {
+      "number": 3,
+      "title": "Bound repeated Quick18 failures across each cache shard",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+      "draft": true,
+      "head_ref": "fix/cache-refresh-provider-circuit",
+      "head_sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "base_ref": "main",
+      "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "updated_at": "2026-10-04T09:44:25Z"
+    }
+  ],
+  "open_non_pr_issues": [],
+  "pagination": {
+    "page_size": 100,
+    "counts": {
+      "source_branches": 30,
+      "source_open_prs": 24,
+      "source_open_issues_including_prs": 24,
+      "windows_releases": 5,
+      "android_releases": 6
+    },
+    "note": "Every listing contains fewer than100 entries, so no omitted next-page records. Latest public release selected by published_at, not array order."
+  },
+  "source_duplicate_audit": {
+    "checked_at_utc": "2026-11-07T00:26:51.802063+00:00",
+    "status": "Source duplicate audit complete; runtime reproduction and impact assessment remain parent/gaps agent responsibilities.",
+    "candidate": "ResponsiveCardGrid._relayout retains unused column stretches after shrinking from more columns to fewer; candidate blank/squeezed space pending settled UI reproduction.",
+    "source_refs_examined": 28,
+    "facts_by_ref": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "source_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 366,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "source_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 366,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "source_sha256": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "source_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-calendar-mouse-20261102",
+        "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+        "source_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 389,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "source_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 370,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-empty-link-guidance-20261106",
+        "sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+        "source_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 389,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "source_sha256": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 368,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-live-button-state-20261105",
+        "sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+        "source_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 389,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-live-recovery-20261104",
+        "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+        "source_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 389,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "source_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-offline-course-links-20261103",
+        "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+        "source_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 389,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 387,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-provider-exception-20261101",
+        "sha": "9aa16f733458db871c2452a18a247536ab348498",
+        "source_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 389,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+        "source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 388,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "source_sha256": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 368,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+        "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+        "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+        "line": 359,
+        "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+        "class_column_stretch_calls": [
+          "self.grid.setColumnStretch(column, 1)"
+        ],
+        "stretch_loops": [
+          {
+            "condition": "range(columns)",
+            "body": [
+              "self.grid.setColumnStretch(column, 1)"
+            ]
+          }
+        ],
+        "class_column_count_references": []
+      }
+    ],
+    "preserved_loose_checkout": {
+      "path": "/workspace/golfhub-perth/app/qt_golfhub_app.py",
+      "read_only": true,
+      "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+      "relayout_ast_sha256": "d4ddf2b2573be3fbc6e06122edb42db113adfbef48cd0a1f65b487428136d819",
+      "class_ast_sha256": "c4470e9d31abab46376917011be8e2a9fdb26f3b61238443ea16589a99476612",
+      "line": 387,
+      "relayout_source": "    def _relayout(self):\n        width = max(self.width(), self.min_cell_width)\n        columns = max(1, min(self.max_columns, width // (self.min_cell_width + 10)))\n        while self.grid.count():\n            self.grid.takeAt(0)\n        visible = [widget for widget in self.widgets if not widget.isHidden()]\n        for index, widget in enumerate(visible):\n            self.grid.addWidget(widget, index // columns, index % columns)\n        for column in range(columns):\n            self.grid.setColumnStretch(column, 1)\n        self.updateGeometry()",
+      "class_column_stretch_calls": [
+        "self.grid.setColumnStretch(column, 1)"
+      ],
+      "stretch_loops": [
+        {
+          "condition": "range(columns)",
+          "body": [
+            "self.grid.setColumnStretch(column, 1)"
+          ]
+        }
+      ],
+      "class_column_count_references": []
+    },
+    "relayout_ast_groups": 1,
+    "class_ast_groups": 1,
+    "finding": "All28 source refs and preserved loose source retain the same ResponsiveCardGrid class/_relayout AST. The only setColumnStretch call assigns1 over range(columns); no prior-unused-column reset or columnCount check exists. No duplicate repair is present in any existing branch/draft head.",
+    "tests_source_inspected": {
+      "paths": [
+        "tests"
+      ],
+      "finding": "No ResponsiveCardGrid or columnStretch regression reference found by rg; calendar model columnCount checks are unrelated."
+    },
+    "scope_advice": "First confirm stable post-event-settlement geometry at supported window sizes and distinguish empty stretched space from clipped actions. If warranted, reset obsolete stretches when recomputing active columns while preserving existing card ordering, visibility limits, spacing and column-selection formula. No broader layout redesign or production behavior change is justified by this source finding.",
+    "prior_repair_distinctions": [
+      "PR23 reuses ResponsiveCardGrid for multi-date static course links, but does not change the grid class.",
+      "PR26 changes empty-state wording and leaves card construction/layout intact.",
+      "PR25 restores disabled-action eligibility/style, unrelated to grid columns.",
+      "Canonical loose checkout contains the same grid class and no competing repair."
+    ],
+    "runtime_tests_by_auditor": false,
+    "source_test_changes_by_auditor": false,
+    "blockers": []
+  },
+  "instructions": {
+    "update_trees": [
+      {
+        "repository": "Jarryd22/golfhub-perth-updates",
+        "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+        "truncated": false,
+        "paths": [
+          "README.md"
+        ]
+      },
+      {
+        "repository": "Jarryd22/golfhub-perth-android-updates",
+        "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+        "truncated": false,
+        "paths": [
+          "README.md"
+        ]
+      }
+    ],
+    "local_ancestor_AGENTS": [],
+    "checkout_skill_directories": {
+      "/workspace/.agents/skills": false,
+      "/workspace/golfhub-20261106/.agents/skills": false
+    },
+    "checkout_instruction_files": [],
+    "all_source_ref_instruction_files": 0
+  },
+  "checkout": {
+    "path": "/workspace/golfhub-20261106",
+    "head": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+    "status_short": "",
+    "source_test_changes_by_audit": false
+  },
+  "prior_documentation_inspected": {
+    "head": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+    "paths": [
+      "docs/qa/2026-11-06-empty-link-guidance/REPORT.md",
+      "docs/qa/2026-11-06-empty-link-guidance/review.md",
+      "docs/QA_CHECKLIST.md",
+      "docs/IMPROVEMENT_BACKLOG.md"
+    ],
+    "latest_completed_repair": "PR26 conditionally includes the official-links suffix in single-day empty guidance only when selected direct-course cards actually render; no new cards/filters/link destinations.",
+    "recorded_prior_tests": {
+      "aggregate": 304,
+      "desktop": 176,
+      "cache": 91,
+      "additional": 37,
+      "new": 7,
+      "final_baseline_pass": 3,
+      "final_baseline_fail": 4,
+      "final_baseline_assertion_records": 5,
+      "configured_diagnostic_cases": 4,
+      "filter_diagnostics": 50,
+      "startup_diagnostics": 5,
+      "note": "Historical report/source inspection, not rerun in this audit."
+    },
+    "preserved_historical_executions": [
+      "PR26 initial date and URL fixture mistakes produced retained failed executions before corrected exact-source comparison.",
+      "PR26 initial read-only executor outage recovered before edits; percent-encoded branch connector lookup rejected and wrapper attempted to parse missing content. No write from that script. Rejected endpoint was not retried; other already-planned reads verified remote branch.",
+      "PR14 Windows cache_close failed after76 passes/one timed-out child. Later green and40 Linux non-reproductions do not prove repair."
+    ],
+    "sha256": {
+      "docs/qa/2026-11-06-empty-link-guidance/REPORT.md": "6db3b790eca58c1491908bc76f88bdd577989204238a56623a018b62a2d4ea83",
+      "docs/qa/2026-11-06-empty-link-guidance/review.md": "aa3184cbfc08029dc5557a4b6ab83b1b221861e54bff20fe7a3eeedf4f4ae9b9",
+      "docs/QA_CHECKLIST.md": "f047fdb177583840dd120cd93745edc808e53a7f63755cd246fff910c2714d65",
+      "docs/IMPROVEMENT_BACKLOG.md": "a1e6479db650fcf5b92f605543dcf679da684604c316235548f2a90f3af1dfb1"
+    },
+    "repair_coverage": "PR3 Quick18-specific; PR4\u21926\u21928 weather; PR5\u21927 Wembley; PR9\u201314 dates/accessibility/context/lifecycle/midnight; PR15 inert runtime integrity; PR16 missing cache; PR17 matching counts; PR18 provider wording; PR19 shape validation; PR20 retained context; PR21 exception messages; PR22 calendar mouse; PR23 offline links; PR24 failed/stopped live recovery; PR25 live-button state/style; PR26 conditional empty-state official-link wording. All remain drafts/unmerged."
+  },
+  "workflow_trigger_audit": {
+    "evidence_file": "/workspace/scratch/golfhub-20261107-workflow-trigger-audit.json",
+    "sha256": "3a35941ff259a6fbd1d492ceb9d3ad36050bdae410d9b1c63d5773b5026fbe40",
+    "checked_at_utc": "2026-11-07T00:26:38.668128+00:00",
+    "inspected_head": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+    "main": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+    "inventory": {
+      "latest_files": [
+        ".github/workflows/check-alerts.yml",
+        ".github/workflows/course-news.yml",
+        ".github/workflows/refresh-cache-10min.yml",
+        ".github/workflows/test-cache.yml",
+        ".github/workflows/test-desktop.yml"
+      ],
+      "main_files": [
+        ".github/workflows/check-alerts.yml",
+        ".github/workflows/course-news.yml",
+        ".github/workflows/refresh-cache-10min.yml",
+        ".github/workflows/test-cache.yml"
+      ],
+      "added_since_main": [
+        ".github/workflows/test-desktop.yml"
+      ],
+      "removed_since_main": [],
+      "shared_files_all_byte_identical": true
+    },
+    "expected_event_matrix": [
+      {
+        "event": "push",
+        "branch": "fix/desktop-<repair>",
+        "matching_change_example": "app/qt_golfhub_app.py",
+        "normal_ci": [
+          "Test desktop search controls"
+        ],
+        "production_workflows": [],
+        "cache_ci": "Not selected: its push branch filter is main or fix/cache-refresh-*."
+      },
+      {
+        "event": "pull_request opened or synchronized, including draft",
+        "head": "fix/desktop-<repair>",
+        "base": "fix/desktop-<prior-repair>",
+        "matching_pr_change_example": "app/qt_golfhub_app.py",
+        "normal_ci": [
+          "Test desktop search controls",
+          "Test cache refresh"
+        ],
+        "production_workflows": [],
+        "reason": "Neither CI workflow restricts pull_request base branches or rejects drafts. Both path lists include app/**."
+      },
+      {
+        "event": "push",
+        "branch": "fix/desktop-<repair>",
+        "matching_change_example": "docs-only changes",
+        "normal_ci": [],
+        "production_workflows": [],
+        "reason": "Documentation is absent from both test path filters. A synchronized PR may still have a cumulative app/workflow/test diff that selects CI."
+      },
+      {
+        "event": "completion of either test CI workflow",
+        "normal_ci_chains": [],
+        "production_workflows": [],
+        "reason": "The sole workflow_run declaration names Check preferred-date alerts, requires main, and guards dispatch-origin/same-repository. Neither test workflow name matches."
+      }
+    ],
+    "chain_analysis": {
+      "workflow_run_consumers": [
+        "refresh-cache-10min.yml only"
+      ],
+      "required_upstream_name": "Check preferred-date alerts",
+      "required_upstream_branch": "main",
+      "required_upstream_event_for_prepare": "workflow_dispatch",
+      "required_upstream_repository": "same repository",
+      "normal_ci_names_do_not_match": true,
+      "no_workflow_call_pull_request_target_repository_dispatch_release_or_tag_specific_workflows_found": true,
+      "no_test_job_dispatch_or_publishing_command_found": true,
+      "cache_news_publication_branches_do_not_match_main_push_guards": true,
+      "scheduled_or_external_alert_dispatch_runs": "Can occur independently; this audit does not attribute such runs to a repair push/PR."
+    },
+    "conditions": [
+      "Conclusions apply to the inspected workflow definitions; recheck any proposed workflow/trigger/name change before push.",
+      "An app change selects normal CI as above. A new desktop test must also be added to the explicit desktop module list and relevant path filters.",
+      "A module named test_cache*.py is discovered by the dependency-free cache job; avoid accidentally routing a Qt-only module there.",
+      "Actual checks/conclusions on the final remote head require separate verification; static trigger inspection is not evidence of CI execution."
+    ],
+    "blockers": []
+  },
+  "published_data_check": {
+    "evidence_file": "/workspace/scratch/golfhub-20261107-published-sample.json",
+    "sha256": "f59245442cd2163377c72f85cebea3b8dab3fb40617877d8ee3130d6a0ad448b",
+    "observed_at_utc": "2026-11-07T00:27:02Z",
+    "observed_at_perth": "2026-11-07T08:27:02+08:00",
+    "cache_sha": "1c68e440edec20e69027030f17ae0edb8f2e7080",
+    "request_scope": {
+      "selected_by_parent": true,
+      "branch_tip_rereads": 0,
+      "commit_metadata_reads": 1,
+      "index_reads": 1,
+      "payload_bodies_read": 1,
+      "tree_reads": 0,
+      "workflow_history_requests": 0,
+      "provider_requests": 0,
+      "remote_writes": 0,
+      "runtime_execution": false,
+      "polling": false
+    },
+    "publication": {
+      "commit_url": "https://github.com/Jarryd22/golfhub-perth/commit/1c68e440edec20e69027030f17ae0edb8f2e7080",
+      "commit_metadata_url": "https://api.github.com/repos/Jarryd22/golfhub-perth/commits/1c68e440edec20e69027030f17ae0edb8f2e7080",
+      "author_timestamp": "2026-11-07T00:16:55Z",
+      "committer_timestamp": "2026-11-07T00:16:55Z",
+      "committer_timestamp_perth": "2026-11-07T08:16:55+08:00",
+      "committer_age_seconds": 607,
+      "index_source_url": "https://github.com/Jarryd22/golfhub-perth/blob/1c68e440edec20e69027030f17ae0edb8f2e7080/public/cache/index.json",
+      "index_generated_at": "2026-11-07T00:16:55+00:00",
+      "index_generated_at_perth": "2026-11-07T08:16:55+08:00",
+      "index_age_seconds": 607,
+      "timestamp_limit": "Commit and published index generation timestamps are inspected values, not independently measured push receipt or per-course provider observation timestamps."
+    },
+    "index_declared_coverage": {
+      "range_days": 28,
+      "date_entries": 28,
+      "first_date": "2026-11-07",
+      "last_date": "2026-12-04",
+      "declared_date_hole_payloads": 56,
+      "holes": [
+        "18",
+        "9"
+      ],
+      "refresh_minutes": 10,
+      "verification_limit": "Coverage is stated by this index only. No tree listing or other payload body was inspected, so all-file presence and whole-cache health are unverified in this sample."
+    },
+    "sampled_payload": {
+      "path": "public/cache/2026-11-07/18.json",
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/1c68e440edec20e69027030f17ae0edb8f2e7080/public/cache/2026-11-07/18.json",
+      "date": "2026-11-07",
+      "holes": "18",
+      "generated_at": "2026-11-07T00:16:16+00:00",
+      "generated_at_perth": "2026-11-07T08:16:16+08:00",
+      "age_seconds": 646,
+      "record_count": 37,
+      "cached_tee_time_row_count": 41,
+      "error_count": 0,
+      "errors": [],
+      "blank_error_string_count": 0,
+      "stale_truthy_record_count": 0,
+      "stale_field_names": [],
+      "published_health": {
+        "live_provider_count": 19,
+        "fresh_live_successes": 19,
+        "minimum_live_successes": 10,
+        "stale_fallbacks": 0,
+        "transient_retries": 0,
+        "transient_retry_recoveries": 0
+      },
+      "weather": {
+        "object_count": 37,
+        "null_count": 0,
+        "missing_count": 0,
+        "labels": {
+          "Partly cloudy": 8,
+          "Mostly clear": 9,
+          "Clear": 16,
+          "Overcast": 4
+        },
+        "clear_all_zero_signature_count": 0,
+        "zero_temperature_and_wind_count": 0,
+        "signature_definitions": {
+          "clear_all_zero": "label == Clear and numeric tmax, tmin, rain_chance, rain_mm, wind all equal 0",
+          "zero_temperature_and_wind": "numeric tmax, tmin, wind all equal 0"
+        },
+        "example": {
+          "icon_file": "sheet_partly_cloudy.png",
+          "label": "Partly cloudy",
+          "tmax": 27,
+          "tmin": 15,
+          "rain_chance": 0,
+          "rain_mm": 0,
+          "rain_amount_label": "0 mm",
+          "wind": 21,
+          "location_name": "Altone Park"
+        }
+      },
+      "limits": "Counts apply only to this one 37-record current-date 18-hole payload; cached rows are not verified live booking availability. No claims about other dates, 9-hole payloads, all 56 declared payloads, native UI, or notification delivery."
+    },
+    "source_schedule": {
+      "main_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "source_url": "https://github.com/Jarryd22/golfhub-perth/blob/25de15b65af6f9dcad4a4d13788fb87ab976df31/.github/workflows/refresh-cache-10min.yml",
+      "workflow_name": "Refresh four-week tee-time cache",
+      "cron_utc": "7,17,27,37,47,57 * * * *",
+      "intended_interval_minutes": 10,
+      "other_triggers": [
+        "workflow_dispatch",
+        "main push restricted to refresh workflow and scripts paths",
+        "completed Check preferred-date alerts workflow_run on main, additionally gated to upstream workflow_dispatch from same repository"
+      ],
+      "interpretation": "The source configures ten-minute scheduled opportunities; one pinned commit/index/payload sample cannot establish actual successive cadence, run latency, freshness between samples, or whether this publication came from the schedule or another configured trigger."
+    },
+    "inference": {
+      "new_fix_justified_by_sample": false,
+      "reasoning": "No truthy error, stale fallback, or defined false-zero weather signature appears in the one selected payload. This does not resolve known provider/weather defects on other dates or supersede existing repair drafts."
+    },
+    "retained_limit": {
+      "date": "2026-11-04",
+      "exact_action": "GitHub connector read of production workflow run history",
+      "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+      "status": "previously denied; not attempted today",
+      "reason": "HTTP 400 INVALID_ARGUMENT: endpoint not on connector allow-list",
+      "retries_or_alternate_routes_today": 0,
+      "consequence": "No production-run history or latency verification; configured source schedule and actual pinned publication/payload timestamps are reported separately."
+    }
+  },
+  "execution_notes": {
+    "remote_writes": false,
+    "runtime_tests": false,
+    "source_test_edits": false,
+    "new_blockers": [],
+    "retained_denials": [
+      {
+        "action": "Production refresh workflow-history read",
+        "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+        "status": "Prior allow-list rejection retained; no retry or alternate route."
+      },
+      {
+        "action": "Percent-encoded repair branch connector fetch",
+        "target": "Historical PR26 post-push branch endpoint",
+        "status": "Prior HTTP400 invalid repository path retained from report; not retried in this audit."
+      }
+    ],
+    "status": "Complete and saved; no new blocker. Candidate impact/reproduction remains parent task.",
+    "minor_lookup_note": "One read-only ls queried two evidence paths before the child saved them and returned absent; later existence/read-back verified completed files. This was a lookup timing error, not a failed test or denied action.",
+    "evidence_files_verified": [
+      "/workspace/scratch/golfhub-20261107-context.json",
+      "/workspace/scratch/golfhub-20261107-workflow-trigger-audit.json",
+      "/workspace/scratch/golfhub-20261107-published-sample.json"
+    ]
+  },
+  "limitations": [
+    "Historical Windows cache_close diagnosis unresolved; no repeated Linux paired diagnosis.",
+    "Canonical desktop/mobile/service, per-course freshness and subset preservation reconciliation pending.",
+    "Native installed Windows/Android, live provider/bookings/holds and notification delivery not tested.",
+    "Release metadata only; binaries/manifests/signatures/installed upgrades not tested.",
+    "No current runtime tests or new defect confirmation by this auditor."
+  ],
+  "source_refs": {
+    "examined": 28,
+    "refs": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "ab294442dce6c7c6a1f591430ac6c6277cb30cb26544aa067bf3677cca23728a",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+          "app/golfhub_core.py": "a8014b5cf656b5c0088698241087e26eb31d6a1a7cfb1ed5095c6d652bd94c09",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+          "app/golfhub_core.py": "50cddc4fbeccbaeeedb80fcb971c1090cce6a9db593f92182eb273a6b7d091cc",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "ccf8e181279e2510cc39c62e0550e62e738bdd24ab2692c994e34645b8bb18f7",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "a695f5003d09ba8beb4f4eee378800c6ea5e495048a62d1b22226af60c62a906",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6",
+          "app/golfhub_core.py": "342cb0dad8ab27812257f30fcd24277876712d039b12b315be5f127f5741ca58",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-calendar-mouse-20261102",
+        "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-empty-link-guidance-20261106",
+        "sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-live-button-state-20261105",
+        "sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-live-recovery-20261104",
+        "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-offline-course-links-20261103",
+        "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-provider-exception-20261101",
+        "sha": "9aa16f733458db871c2452a18a247536ab348498",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      }
+    ],
+    "excluded_data_only_refs": [
+      "cache",
+      "news"
+    ],
+    "note": "Exact source blob hashes and tracked instruction paths inspected; no new runtime confirmation."
+  },
+  "comparison_to_nov06": {
+    "branch_changes": [
+      {
+        "name": "cache",
+        "old_sha": "5906a4f088f990e9808cfb668de784d86ff4fa98",
+        "current_sha": "1c68e440edec20e69027030f17ae0edb8f2e7080",
+        "status": "changed"
+      },
+      {
+        "name": "fix/desktop-empty-link-guidance-20261106",
+        "old_sha": null,
+        "current_sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+        "status": "new"
+      },
+      {
+        "name": "news",
+        "old_sha": "180cf919683b7b836f01be55ca43097857839e14",
+        "current_sha": "3e96052bf9c2af2e1160f42ead04bd00e71fb280",
+        "status": "changed"
+      }
+    ],
+    "removed_branches": [],
+    "all_existing_source_heads_unchanged": true,
+    "new_pr_numbers": [
+      26
+    ],
+    "update_repositories": {
+      "windows": {
+        "branches_unchanged": true,
+        "all_release_metadata_unchanged": true,
+        "latest_public_release": "v5.1.17",
+        "new_open_pulls": 0,
+        "new_non_pr_issues": 0
+      },
+      "android": {
+        "branches_unchanged": true,
+        "all_release_metadata_unchanged": true,
+        "latest_public_release": "android-v0.1.19",
+        "new_open_pulls": 0,
+        "new_non_pr_issues": 0
+      }
+    }
+  },
+  "deferred_source_note": {
+    "candidate": "Course-panel toggle replaces visible selection count with HIDE/CHOOSE COURSES",
+    "status": "Parent-observed minorP3 deferred; not selected as fix",
+    "current_source": "toggle_courses sets HIDE COURSES/CHOOSE COURSES; update_course_visibility restores count after later selection/filter updates. Existing course-control tests assert count only after selection/filter actions, not panel close/reopen.",
+    "runtime_reproduction_by_auditor": false
+  }
+}

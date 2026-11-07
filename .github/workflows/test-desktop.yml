@@ -18,6 +18,7 @@ on:
       - "tests/test_live_button_state.py"
       - "tests/test_result_counts.py"
       - "tests/test_empty_result_links.py"
+      - "tests/test_responsive_grid.py"
       - "tests/test_provider_error_states.py"
       - "tests/test_provider_exceptions.py"
       - "tests/test_startup_cache.py"
@@ -46,6 +47,7 @@ on:
       - "tests/test_live_button_state.py"
       - "tests/test_result_counts.py"
       - "tests/test_empty_result_links.py"
+      - "tests/test_responsive_grid.py"
       - "tests/test_provider_error_states.py"
       - "tests/test_provider_exceptions.py"
       - "tests/test_startup_cache.py"
@@ -90,6 +92,7 @@ jobs:
             "test_live_button_state.py",
             "test_result_counts.py",
             "test_empty_result_links.py",
+            "test_responsive_grid.py",
             "test_provider_error_states.py",
             "test_provider_exceptions.py",
             "test_startup_cache.py",

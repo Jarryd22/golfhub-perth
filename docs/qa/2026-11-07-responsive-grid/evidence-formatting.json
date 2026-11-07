@@ -1,0 +1,9 @@
+{
+  "initial_staged_whitespace_exit_code": 2,
+  "reason": "Raw unittest subtest log line had trailing whitespace.",
+  "original_log_sha256": "0183c8ecf795e91ab4c5789cbe266ac65b4c5e13a6f7e14833d2dfbb7172122f",
+  "readable_log_sha256": "83f5b34ad90a7849a9ce7d06aee5a9852b93088a381f08c4d618a71e8e531215",
+  "original_file": "pre-review/expanded-tests-original.log.gz",
+  "readable_file": "pre-review/expanded-tests.log",
+  "change": "Only trailing spaces/tabs normalized in readable view; original bytes preserved compressed; source, assertions and execution outcomes unchanged."
+}

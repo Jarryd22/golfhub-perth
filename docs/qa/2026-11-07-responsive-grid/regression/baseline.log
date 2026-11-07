@@ -1,0 +1,175 @@
+QA_RESULT {"run": 8, "failures": 10, "errors": 0, "skipped": 0}
+test_hidden_cards_can_be_restored_after_an_empty_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_hidden_cards_can_be_restored_after_an_empty_narrow_grid) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+FAIL
+test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+
+  test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) (width=683) ... FAIL
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+  test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) (width=500) ... FAIL
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+  test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) (width=683) ... FAIL
+test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+
+  test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) (limit=12) ... FAIL
+  test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) (limit=15) ... FAIL
+  test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) (limit=12) ... FAIL
+test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring (empty_result_link_regression.ResponsiveGridTests.test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) ... ok
+test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+
+  test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) (minimum=250) ... FAIL
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+  test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) (minimum=280) ... FAIL
+test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+FAIL
+test_widening_restores_three_even_columns (empty_result_link_regression.ResponsiveGridTests.test_widening_restores_three_even_columns) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+
+======================================================================
+FAIL: test_hidden_cards_can_be_restored_after_an_empty_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_hidden_cards_can_be_restored_after_an_empty_narrow_grid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 142, in test_hidden_cards_can_be_restored_after_an_empty_narrow_grid
+    self.assert_row_fills_grid(grid, 1)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 250 not less than or equal to 1
+
+======================================================================
+FAIL: test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) (width=683)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 131, in test_repeated_narrowing_and_widening_has_no_layout_history_effect
+    self.assert_row_fills_grid(grid, columns)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 173 not less than or equal to 1
+
+======================================================================
+FAIL: test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) (width=500)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 131, in test_repeated_narrowing_and_widening_has_no_layout_history_effect
+    self.assert_row_fills_grid(grid, columns)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 250 not less than or equal to 1
+
+======================================================================
+FAIL: test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) (width=683)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 131, in test_repeated_narrowing_and_widening_has_no_layout_history_effect
+    self.assert_row_fills_grid(grid, columns)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 173 not less than or equal to 1
+
+======================================================================
+FAIL: test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) (limit=12)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 124, in test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width
+    self.assert_row_fills_grid(grid, 2)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 173 not less than or equal to 1
+
+======================================================================
+FAIL: test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) (limit=15)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 124, in test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width
+    self.assert_row_fills_grid(grid, 2)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 173 not less than or equal to 1
+
+======================================================================
+FAIL: test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) (limit=12)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 124, in test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width
+    self.assert_row_fills_grid(grid, 2)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 173 not less than or equal to 1
+
+======================================================================
+FAIL: test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) (minimum=250)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 87, in test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes
+    self.assert_row_fills_grid(grid, 1)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 250 not less than or equal to 1
+
+======================================================================
+FAIL: test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) (minimum=280)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 87, in test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes
+    self.assert_row_fills_grid(grid, 1)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 220 not less than or equal to 1
+
+======================================================================
+FAIL: test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 78, in test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid
+    self.assert_row_fills_grid(grid, 2)
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 70, in assert_row_fills_grid
+    self.assertLessEqual(abs(row[-1].geometry().right() - grid.contentsRect().right()), 1)
+AssertionError: 173 not less than or equal to 1
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.307s
+
+FAILED (failures=10)
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories

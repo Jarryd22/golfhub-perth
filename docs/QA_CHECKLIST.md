@@ -19,7 +19,7 @@ Record the commit, app version, operating system, timezone, scale factor, device
 | Course search | Case-insensitive course names filter the list. Confirm suburb behavior matches its label. Check individual selection, Select visible, Clear, selection count, and reopening the panel. |
 | Round | Switch 18→9→18. Available courses, requested cache key, card round labels and official URLs agree. Unsupported courses are excluded. |
 | Group/time | Any and 1–4 players respect available spaces. Presets and custom ranges filter correctly. Equal endpoints and open bounds work. Reversed ranges explain the error before a worker starts; controls/results remain intact and focus returns for correction. |
-| Results | Counts agree with visible rows; course names sort A–Z. Show all/first 12 retains rows. Multi-day groups expand lazily without mixing dates. Course and row links refer to the chosen date/round. |
+| Results | Counts agree with visible rows; course names sort A–Z. Show all/first 12 retains rows. Resize wide→narrow→wide without obsolete empty columns consuming card width; preserve sparse-card sizing. Multi-day groups expand lazily without mixing dates. Course and row links refer to the chosen date/round. |
 | Booking handoff | Intercept URL calls or use local fixtures for automated tests. Verify exact-row and official-calendar handoffs, unavailable links, ambiguous rows, cancellation, and release guards. Do not select live booking cells or submit any transaction. |
 | Weather | Complete, unavailable, partial and genuinely zero forecasts render honestly. Check cached-source age and expiry after integrating the relevant weather PRs. Never infer a valid forecast from a plausible-looking zero. |
 | Freshness | Distinguish publication time from each course's observation time. Stale fallback remains marked stale after republication. A selected-course live refresh preserves other saved courses. Failed refresh retains usable data with a warning. |
@@ -53,6 +53,8 @@ python -m unittest discover -s tests -p test_offline_course_links.py -v
 python -m unittest discover -s tests -p test_live_recovery_states.py -v
 python -m unittest discover -s tests -p test_live_button_state.py -v
 python -m unittest discover -s tests -p test_result_counts.py -v
+python -m unittest discover -s tests -p test_empty_result_links.py -v
+python -m unittest discover -s tests -p test_responsive_grid.py -v
 python -m unittest discover -s tests -p test_provider_error_states.py -v
 python -m unittest discover -s tests -p test_provider_exceptions.py -v
 python -m unittest discover -s tests -p test_startup_cache.py -v
@@ -68,7 +70,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 6 November 2026
+## Latest pass: 7 November 2026
+
+See the [responsive-grid report](qa/2026-11-07-responsive-grid/REPORT.md). Exact PR26 leaves a 173px unused column in a 683px two-column grid after narrowing; cards are 250/250 pixels instead of 337/336 in a fresh view. Reset obsolete column stretch while initializing every active column, including sparse grids. Preserve breakpoints, minimum sizes, spacing, first-twelve/all visibility and existing booking actions.
+
+**Failed exact baseline:** identical final eight-method file: three pass/five fail, ten assertion records including subcases. **Review-found initial-candidate failure:** two methods/three records exposed unintended sparse-card expansion despite six/310 earlier tests passing. Initial source, logs and diagnostics remain preserved. **Passed final:** eight new methods and **312 aggregate tests = 184 desktop + 91 cache/integrity + 37 additional**, 28 isolated processes, zero failures/errors/skips. Final configured four-control/resize probe, 50 filters, five startup decisions and independent 48-state geometry review are separate diagnostics. Compile, whitespace, actionlint and corrected independent review pass. Exact remote head/all-event CI results belong to the published draft.
+
+**Inspection/observations:** 30 branches, 24 drafts, 28 source refs and loose source and both update repositories; production workflow trigger safety inspected before publishing. One immutable current-date/18 payload was compared with source schedule, not a whole-cache watch. A five-state course-panel probe confirmed hidden selected-count wording after closing; selection remains correct and this P3 issue is deferred. **Not run:** native/installed Windows or Android, live provider/outage/booking/holds, screen readers/DPI/resume, updater/signatures, alert runtime or delivery. Historical Windows cache_close and canonical integration remain unresolved; unchanged lifecycle module ran once per aggregate, twice because code changed, without paired Linux diagnosis or timeout relaxation. Prior denied production history was not retried.
+
+## Previous pass: 6 November 2026
 
 See the [empty-result link-guidance report](qa/2026-11-06-empty-link-guidance/REPORT.md). Exact PR25 promises official links below integrated-only no-match results despite rendering no action. Only include that sentence when selected direct-course cards will actually be rendered. Preserve the existing filter/refresh advice, mixed/direct-only links, submitted context, and provider-error cards; do not manufacture new booking links.
 
