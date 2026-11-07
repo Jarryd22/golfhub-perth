@@ -1,0 +1,854 @@
+{
+  "root": "/workspace/golfhub-20261106",
+  "app_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+  "cases": [
+    {
+      "max_columns": 1,
+      "count": 0,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 1,
+      "count": 0,
+      "width": 1200,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 1,
+      "count": 0,
+      "width": 683,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 1,
+      "count": 0,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 1,
+      "count": 1,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 1,
+      "width": 1200,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          1200
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 1,
+      "width": 683,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          683
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 1,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 2,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 2,
+      "width": 1200,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          1200
+        ],
+        [
+          0,
+          1200
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 2,
+      "width": 683,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          683
+        ],
+        [
+          0,
+          683
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 2,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 3,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 3,
+      "width": 1200,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          1200
+        ],
+        [
+          0,
+          1200
+        ],
+        [
+          0,
+          1200
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 3,
+      "width": 683,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          683
+        ],
+        [
+          0,
+          683
+        ],
+        [
+          0,
+          683
+        ]
+      ]
+    },
+    {
+      "max_columns": 1,
+      "count": 3,
+      "width": 500,
+      "layout_columns": 1,
+      "stretches": [
+        1
+      ],
+      "cards": [
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ],
+        [
+          0,
+          500
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 0,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 2,
+      "count": 0,
+      "width": 1200,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 2,
+      "count": 0,
+      "width": 683,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 2,
+      "count": 0,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 2,
+      "count": 1,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 1,
+      "width": 1200,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          600
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 1,
+      "width": 683,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          342
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 1,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 2,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 2,
+      "width": 1200,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          595
+        ],
+        [
+          605,
+          595
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 2,
+      "width": 683,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          337
+        ],
+        [
+          347,
+          336
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 2,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 3,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 3,
+      "width": 1200,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          595
+        ],
+        [
+          605,
+          595
+        ],
+        [
+          0,
+          595
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 3,
+      "width": 683,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          337
+        ],
+        [
+          347,
+          336
+        ],
+        [
+          0,
+          337
+        ]
+      ]
+    },
+    {
+      "max_columns": 2,
+      "count": 3,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 0,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 3,
+      "count": 0,
+      "width": 1200,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 3,
+      "count": 0,
+      "width": 683,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 3,
+      "count": 0,
+      "width": 500,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": []
+    },
+    {
+      "max_columns": 3,
+      "count": 1,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 1,
+      "width": 1200,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          400
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 1,
+      "width": 683,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 1,
+      "width": 500,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 2,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 2,
+      "width": 1200,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          397
+        ],
+        [
+          407,
+          396
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 2,
+      "width": 683,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          260,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 2,
+      "width": 500,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 3,
+      "width": 500,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 3,
+      "width": 1200,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          393
+        ],
+        [
+          403,
+          394
+        ],
+        [
+          807,
+          393
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 3,
+      "width": 683,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          260,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    },
+    {
+      "max_columns": 3,
+      "count": 3,
+      "width": 500,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "cards": [
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ],
+        [
+          0,
+          250
+        ]
+      ]
+    }
+  ]
+}

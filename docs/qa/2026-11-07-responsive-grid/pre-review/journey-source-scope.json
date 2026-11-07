@@ -1,0 +1,31 @@
+{
+  "base_head": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+  "app_sha256": "f4ad1f2870298f256e93df656a2db55336cdea58c7256129b571f613526824af",
+  "changed_methods_by_class": {
+    "ResponsiveCardGrid": [
+      "_relayout"
+    ],
+    "GolfHub": [],
+    "ResultCard": [],
+    "TeeTimeCard": [],
+    "DirectCourseCard": []
+  },
+  "entire_app_AST_identical_after_restoring_original_relayout": true,
+  "worker_classes_AST_identical": {
+    "ScanWorker": true,
+    "CacheWorker": true
+  },
+  "byte_identical_files": {
+    "app/golfhub_core.py": true,
+    "app/course_results.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "scope": "Read-only static comparison; no production history, archive execution or native lifecycle diagnosis"
+}

@@ -1,0 +1,104 @@
+QA_RESULT {"run": 7, "failures": 0, "errors": 0, "skipped": 0}
+test_checked_empty_integrated_course_does_not_promise_links (test_empty_result_links.EmptyResultLinkTests.test_checked_empty_integrated_course_does_not_promise_links) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_direct_only_selection_retains_actionable_link_guidance (test_empty_result_links.EmptyResultLinkTests.test_direct_only_selection_retains_actionable_link_guidance) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_group_and_time_exclusions_do_not_promise_absent_links (test_empty_result_links.EmptyResultLinkTests.test_group_and_time_exclusions_do_not_promise_absent_links) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_matching_rows_and_provider_error_cards_do_not_show_empty_guidance (test_empty_result_links.EmptyResultLinkTests.test_matching_rows_and_provider_error_cards_do_not_show_empty_guidance) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_mixed_selection_keeps_guidance_and_actual_link_handoff (test_empty_result_links.EmptyResultLinkTests.test_mixed_selection_keeps_guidance_and_actual_link_handoff) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_replacing_mixed_results_removes_link_and_its_promise (test_empty_result_links.EmptyResultLinkTests.test_replacing_mixed_results_removes_link_and_its_promise) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_unselected_direct_result_does_not_create_a_link_promise (test_empty_result_links.EmptyResultLinkTests.test_unselected_direct_result_does_not_create_a_link_promise) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.312s
+
+OK

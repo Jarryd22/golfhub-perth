@@ -1,0 +1,9 @@
+{
+  "review_hashes_match": true,
+  "final_test_hash_equal_on_exact_baseline_initial_candidate_and_final": true,
+  "aggregate_and_final_probe_hashes_match": true,
+  "initial_source_and_test_archive_hashes_match": true,
+  "report_checklist_backlog_links_resolve": true,
+  "final_aggregate_methods": 312,
+  "final_aggregate_processes": 28
+}

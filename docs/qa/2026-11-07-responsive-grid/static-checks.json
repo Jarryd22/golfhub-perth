@@ -1,0 +1,43 @@
+{
+  "timestamp_utc": "2026-11-07T00:32:56.399964+00:00",
+  "checks": [
+    {
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-m",
+        "py_compile",
+        "app/qt_golfhub_app.py",
+        "tests/test_responsive_grid.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/scratch/actionlint-1.7.12/actionlint"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "file_sha256": {
+    "app/qt_golfhub_app.py": "9b35080c55f9a987ae0ecc204e8be5e23bddf3cb85f9b78af9ba464ef1d1cc0b",
+    "tests/test_responsive_grid.py": "97f91e4fe215c1e90c5c05578526ea7b4396aeb833091910e9ff5a2249ca965c",
+    ".github/workflows/test-desktop.yml": "249034d9961e423cd1f9d5945c1972e3163a3b67da67ca9e53b60fdd2f7505ad"
+  },
+  "actionlint": "Retained pinned1.7.12; version output in pre-review/static-checks.json. Reran checks because source/tests changed after review."
+}

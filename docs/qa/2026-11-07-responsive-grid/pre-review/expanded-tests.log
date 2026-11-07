@@ -1,0 +1,93 @@
+QA_RESULT {"run": 8, "failures": 3, "errors": 0, "skipped": 0}
+test_hidden_cards_can_be_restored_after_an_empty_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_hidden_cards_can_be_restored_after_an_empty_narrow_grid) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring (empty_result_link_regression.ResponsiveGridTests.test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+FAIL
+test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) ...
+  test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) (count=1) ... FAIL
+  test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) (count=2) ... FAIL
+test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_widening_restores_three_even_columns (empty_result_link_regression.ResponsiveGridTests.test_widening_restores_three_even_columns) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+
+======================================================================
+FAIL: test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring (empty_result_link_regression.ResponsiveGridTests.test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 112, in test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring
+    self.assertLessEqual(abs(grid.widgets[0].width() - 400), grid.grid.horizontalSpacing())
+AssertionError: 800 not less than or equal to 10
+
+======================================================================
+FAIL: test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) (count=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 101, in test_sparse_wide_grids_keep_the_existing_card_width
+    self.assertLessEqual(abs(card.width() - 400), grid.grid.horizontalSpacing())
+AssertionError: 800 not less than or equal to 10
+
+======================================================================
+FAIL: test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) (count=2)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261107/tests/test_responsive_grid.py", line 101, in test_sparse_wide_grids_keep_the_existing_card_width
+    self.assertLessEqual(abs(card.width() - 400), grid.grid.horizontalSpacing())
+AssertionError: 195 not less than or equal to 10
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.281s
+
+FAILED (failures=3)
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories

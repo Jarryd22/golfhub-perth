@@ -1,0 +1,25 @@
+{
+  "app_sha256": "9b35080c55f9a987ae0ecc204e8be5e23bddf3cb85f9b78af9ba464ef1d1cc0b",
+  "configured_controls_passed": 4,
+  "grid_width": 683,
+  "baseline_columns": [
+    250,
+    250,
+    173
+  ],
+  "final_columns": [
+    337,
+    336,
+    0
+  ],
+  "fresh_columns": [
+    337,
+    336
+  ],
+  "recovered_unused_width": 173,
+  "baseline_unused_fraction": 0.25329428989751096,
+  "filter_combinations_passed": 50,
+  "startup_scenarios_passed": 5,
+  "callback_errors": [],
+  "limits": "Dense15-row diagnostics do not cover sparse1/2-card compatibility; independent expanded regression evidence is separate. All pre-review dense passes retained as intermediate evidence."
+}

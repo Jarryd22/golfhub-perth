@@ -1,0 +1,124 @@
+QA_RESULT {"run": 9, "failures": 0, "errors": 0, "skipped": 0}
+test_core_failure_and_successful_empty_dates_remain_distinct (test_provider_exceptions.ProviderExceptionTests.test_core_failure_and_successful_empty_dates_remain_distinct) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_core_failures_render_incomplete_with_error_card_and_booking_link (test_provider_exceptions.ProviderExceptionTests.test_core_failures_render_incomplete_with_error_card_and_booking_link) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_nonblank_provider_messages_are_preserved_exactly (test_provider_exceptions.ProviderExceptionTests.test_nonblank_provider_messages_are_preserved_exactly) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_regular_provider_keeps_empty_or_whitespace_exception_as_failure (test_provider_exceptions.ProviderExceptionTests.test_regular_provider_keeps_empty_or_whitespace_exception_as_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_successful_empty_response_remains_known_empty (test_provider_exceptions.ProviderExceptionTests.test_successful_empty_response_remains_known_empty) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_successful_second_page_keeps_rows_after_first_page_exception (test_provider_exceptions.ProviderExceptionTests.test_successful_second_page_keeps_rows_after_first_page_exception) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure (test_provider_exceptions.ProviderExceptionTests.test_wembley_calendar_keeps_empty_or_whitespace_exception_as_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_worker_escape_catch_retains_empty_or_whitespace_exception (test_provider_exceptions.ProviderExceptionTests.test_worker_escape_catch_retains_empty_or_whitespace_exception) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_worker_preserves_named_failure_and_successful_empty (test_provider_exceptions.ProviderExceptionTests.test_worker_preserves_named_failure_and_successful_empty) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 0.373s
+
+OK

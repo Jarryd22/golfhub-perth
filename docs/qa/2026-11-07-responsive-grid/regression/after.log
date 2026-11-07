@@ -1,0 +1,67 @@
+QA_RESULT {"run": 8, "failures": 0, "errors": 0, "skipped": 0}
+test_hidden_cards_can_be_restored_after_an_empty_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_hidden_cards_can_be_restored_after_an_empty_narrow_grid) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_repeated_narrowing_and_widening_has_no_layout_history_effect (empty_result_link_regression.ResponsiveGridTests.test_repeated_narrowing_and_widening_has_no_layout_history_effect) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width (empty_result_link_regression.ResponsiveGridTests.test_show_all_and_first_twelve_keep_visibility_and_reclaimed_width) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring (empty_result_link_regression.ResponsiveGridTests.test_sparse_cards_keep_width_after_hiding_narrowing_and_restoring) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_sparse_wide_grids_keep_the_existing_card_width (empty_result_link_regression.ResponsiveGridTests.test_sparse_wide_grids_keep_the_existing_card_width) ... ok
+test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes (empty_result_link_regression.ResponsiveGridTests.test_three_to_one_column_fills_width_for_tee_time_and_direct_card_sizes) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid (empty_result_link_regression.ResponsiveGridTests.test_three_to_two_columns_reclaims_space_like_a_fresh_narrow_grid) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+test_widening_restores_three_even_columns (empty_result_link_regression.ResponsiveGridTests.test_widening_restores_three_even_columns) ... This plugin does not support propagateSizeHints()
+This plugin does not support propagateSizeHints()
+ok
+
+----------------------------------------------------------------------
+Ran 8 tests in 0.294s
+
+OK
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories

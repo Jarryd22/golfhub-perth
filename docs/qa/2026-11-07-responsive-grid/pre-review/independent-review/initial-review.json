@@ -1,0 +1,37 @@
+{
+  "finding": "Sparse grids stop reserving active columns when range(columnCount()) is shorter than computed columns.",
+  "severity": "Scope/regression blocker for this narrow patch; avoid changing sparse-card policy implicitly.",
+  "reviewed_app_sha256": "f4ad1f2870298f256e93df656a2db55336cdea58c7256129b571f613526824af",
+  "examples": [
+    {
+      "count": 1,
+      "width": 1200,
+      "max_columns": 3,
+      "before_widths": [
+        400
+      ],
+      "candidate_widths": [
+        1200
+      ]
+    },
+    {
+      "count": 2,
+      "width": 1200,
+      "max_columns": 3,
+      "before_widths": [
+        397,
+        396
+      ],
+      "candidate_widths": [
+        595,
+        595
+      ]
+    }
+  ],
+  "suggested_change": "range(max(columns, self.grid.columnCount()))",
+  "probe": "edge-probe.py",
+  "baseline": "baseline-edge.json",
+  "candidate": "candidate-edge.json",
+  "runtime_cases_per_source": 48,
+  "runtime_limit": "Linux Qt offscreen QWidget geometry only, no native/device, provider, lifecycle or booking test."
+}

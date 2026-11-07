@@ -1,0 +1,223 @@
+{
+  "checked_at_utc": "2026-11-07T00:26:38.668128+00:00",
+  "scope": "Read-only local inspection of every tracked .github/workflows file on exact PR26 and exact main. No workflow, tests, history lookup or remote action executed.",
+  "checkout": {
+    "path": "/workspace/golfhub-20261106",
+    "head": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+    "status_short": ""
+  },
+  "main": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+  "inventory": {
+    "latest_files": [
+      ".github/workflows/check-alerts.yml",
+      ".github/workflows/course-news.yml",
+      ".github/workflows/refresh-cache-10min.yml",
+      ".github/workflows/test-cache.yml",
+      ".github/workflows/test-desktop.yml"
+    ],
+    "main_files": [
+      ".github/workflows/check-alerts.yml",
+      ".github/workflows/course-news.yml",
+      ".github/workflows/refresh-cache-10min.yml",
+      ".github/workflows/test-cache.yml"
+    ],
+    "added_since_main": [
+      ".github/workflows/test-desktop.yml"
+    ],
+    "removed_since_main": [],
+    "shared_files_all_byte_identical": true
+  },
+  "workflows": [
+    {
+      "path": ".github/workflows/check-alerts.yml",
+      "name": "Check preferred-date alerts",
+      "latest_source_sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38",
+      "main_present": true,
+      "main_source_sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38",
+      "byte_identical_to_main": true,
+      "trigger_source": "workflow_dispatch:\n    inputs:\n      tests_only:\n        description: Send requested phone tests without scanning courses\n        type: boolean\n        default: false",
+      "classification": "production alert/provider runtime",
+      "events": [
+        "workflow_dispatch"
+      ],
+      "permissions": "contents:read; id-token:write",
+      "effect_if_authorized_dispatch_occurs": "Extracts .github/alerts-runtime.zip, authenticates, executes service.push_worker (or tests-only notification path). Not invoked in this audit.",
+      "push_or_pull_request_trigger": false
+    },
+    {
+      "path": ".github/workflows/course-news.yml",
+      "name": "Refresh official course news",
+      "latest_source_sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26",
+      "main_present": true,
+      "main_source_sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26",
+      "byte_identical_to_main": true,
+      "trigger_source": "push:\n    branches: [main]\n    paths:\n      - '.github/workflows/course-news.yml'\n      - 'scripts/collect_course_news.py'\n      - 'data/course_news_sources.json'\n  schedule:\n    - cron: '23 21 * * *'\n  workflow_dispatch:",
+      "classification": "production news collection/publication",
+      "events": [
+        "push with branch main and three explicit paths",
+        "schedule 23 21 * * *",
+        "workflow_dispatch"
+      ],
+      "permissions": "contents:write",
+      "effect_if_eligible_event_occurs": "Collects official announcements and invokes scripts/publish_course_news.py.",
+      "fix_desktop_push_or_pr_trigger": false
+    },
+    {
+      "path": ".github/workflows/refresh-cache-10min.yml",
+      "name": "Refresh four-week tee-time cache",
+      "latest_source_sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391",
+      "main_present": true,
+      "main_source_sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391",
+      "byte_identical_to_main": true,
+      "trigger_source": "workflow_dispatch:\n  # Reuse the existing external ten-minute heartbeat, even if the alert check\n  # fails. This does not dispatch the checker or change notification behavior.\n  workflow_run:\n    workflows: [\"Check preferred-date alerts\"]\n    types: [completed]\n    branches: [main]\n  push:\n    branches: [main]\n    paths:\n      - \".github/workflows/refresh-cache-10min.yml\"\n      - \"scripts/**\"\n  schedule:\n    # Best-effort fallback if the external heartbeat stops.\n    - cron: \"7,17,27,37,47,57 * * * *\"",
+      "classification": "production provider/weather refresh and cache publication",
+      "events": [
+        "push with branch main and refresh-workflow/scripts paths",
+        "schedule 7,17,27,37,47,57 * * * *",
+        "workflow_dispatch",
+        "workflow_run completed Check preferred-date alerts on main"
+      ],
+      "permissions": "contents:read default; publish job contents:write",
+      "workflow_run_prepare_guard": "github.event_name != 'workflow_run' || (github.event.workflow_run.event == 'workflow_dispatch' && github.event.workflow_run.head_repository.full_name == github.repository)",
+      "additional_gates": "prepare freshness output controls forecast/artifact work and refresh-shard; publish needs prepare and refresh-shard. Checkout explicitly uses main in every job.",
+      "effect_if_eligible_event_occurs": "Calls weather preparation, provider shard refresh, cache index validation and force-pushes orphan cache branch.",
+      "fix_desktop_push_or_pr_trigger": false
+    },
+    {
+      "path": ".github/workflows/test-cache.yml",
+      "name": "Test cache refresh",
+      "latest_source_sha256": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d",
+      "main_present": true,
+      "main_source_sha256": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d",
+      "byte_identical_to_main": true,
+      "trigger_source": "pull_request:\n    paths:\n      - \".github/workflows/**\"\n      - \"app/**\"\n      - \"data/courses.json\"\n      - \"scripts/**\"\n      - \"tests/test_cache*.py\"\n  push:\n    branches: [main, \"fix/cache-refresh-*\"]\n    paths:\n      - \".github/workflows/**\"\n      - \"app/**\"\n      - \"data/courses.json\"\n      - \"scripts/**\"\n      - \"tests/test_cache*.py\"",
+      "classification": "normal Linux cache CI",
+      "events": [
+        "pull_request with paths only; no base-branch filter",
+        "push on main or fix/cache-refresh-* plus paths"
+      ],
+      "permissions": "contents:read",
+      "runner": "ubuntu-latest",
+      "timeout_minutes": 5,
+      "commands": [
+        "python -m unittest discover -s tests -p 'test_cache*.py' -v",
+        "go run github.com/rhysd/actionlint/cmd/actionlint@v1.7.12 -color"
+      ],
+      "draft_guard_present": false,
+      "fix_desktop_push_trigger": false,
+      "stacked_draft_pr_app_change_trigger": true
+    },
+    {
+      "path": ".github/workflows/test-desktop.yml",
+      "name": "Test desktop search controls",
+      "latest_source_sha256": "a3905d41dae4e11d6b9f9a8327ec8a662314b1ac184492462573e6f83f78b4ca",
+      "main_present": false,
+      "main_source_sha256": null,
+      "byte_identical_to_main": null,
+      "trigger_source": "pull_request:\n    paths:\n      - \".github/workflows/test-desktop.yml\"\n      - \"app/**\"\n      - \"data/courses.json\"\n      - \"requirements.txt\"\n      - \"tests/test_booking_context.py\"\n      - \"tests/test_course_controls.py\"\n      - \"tests/test_calendar_keyboard.py\"\n      - \"tests/test_calendar_mouse.py\"\n      - \"tests/test_multiday_ui.py\"\n      - \"tests/test_multiday_cache_states.py\"\n      - \"tests/test_offline_course_links.py\"\n      - \"tests/test_live_recovery_states.py\"\n      - \"tests/test_live_button_state.py\"\n      - \"tests/test_result_counts.py\"\n      - \"tests/test_empty_result_links.py\"\n      - \"tests/test_provider_error_states.py\"\n      - \"tests/test_provider_exceptions.py\"\n      - \"tests/test_startup_cache.py\"\n      - \"tests/test_retained_search_context.py\"\n      - \"tests/test_perth_dates.py\"\n      - \"tests/test_midnight_rollover.py\"\n      - \"tests/test_time_range_ui.py\"\n      - \"tests/test_search_race.py\"\n      - \"tests/test_thread_lifecycle.py\"\n      - \"tests/qt_test_support.py\"\n  push:\n    branches: [main, \"fix/desktop-*\"]\n    paths:\n      - \".github/workflows/test-desktop.yml\"\n      - \"app/**\"\n      - \"data/courses.json\"\n      - \"requirements.txt\"\n      - \"tests/test_booking_context.py\"\n      - \"tests/test_course_controls.py\"\n      - \"tests/test_calendar_keyboard.py\"\n      - \"tests/test_calendar_mouse.py\"\n      - \"tests/test_multiday_ui.py\"\n      - \"tests/test_multiday_cache_states.py\"\n      - \"tests/test_offline_course_links.py\"\n      - \"tests/test_live_recovery_states.py\"\n      - \"tests/test_live_button_state.py\"\n      - \"tests/test_result_counts.py\"\n      - \"tests/test_empty_result_links.py\"\n      - \"tests/test_provider_error_states.py\"\n      - \"tests/test_provider_exceptions.py\"\n      - \"tests/test_startup_cache.py\"\n      - \"tests/test_retained_search_context.py\"\n      - \"tests/test_perth_dates.py\"\n      - \"tests/test_midnight_rollover.py\"\n      - \"tests/test_time_range_ui.py\"\n      - \"tests/test_search_race.py\"\n      - \"tests/test_thread_lifecycle.py\"\n      - \"tests/qt_test_support.py\"",
+      "classification": "normal Windows offscreen desktop CI",
+      "events": [
+        "pull_request with paths only; no base-branch filter",
+        "push on main or fix/desktop-* plus paths"
+      ],
+      "permissions": "contents:read",
+      "runner": "windows-latest",
+      "timeout_minutes": 10,
+      "environment": "QT_QPA_PLATFORM=offscreen; isolated LOCALAPPDATA",
+      "commands": [
+        "pip install -r requirements.txt",
+        "isolated unittest discovery for explicit modules, exiting on any nonzero status"
+      ],
+      "draft_guard_present": false,
+      "fix_desktop_push_app_change_trigger": true,
+      "stacked_draft_pr_app_change_trigger": true,
+      "selected_test_modules": [
+        "test_booking_context.py",
+        "test_course_controls.py",
+        "test_calendar_keyboard.py",
+        "test_calendar_mouse.py",
+        "test_multiday_ui.py",
+        "test_multiday_cache_states.py",
+        "test_offline_course_links.py",
+        "test_live_recovery_states.py",
+        "test_live_button_state.py",
+        "test_result_counts.py",
+        "test_empty_result_links.py",
+        "test_provider_error_states.py",
+        "test_provider_exceptions.py",
+        "test_startup_cache.py",
+        "test_retained_search_context.py",
+        "test_perth_dates.py",
+        "test_midnight_rollover.py",
+        "test_time_range_ui.py",
+        "test_search_race.py",
+        "test_thread_lifecycle.py"
+      ]
+    }
+  ],
+  "expected_event_matrix": [
+    {
+      "event": "push",
+      "branch": "fix/desktop-<repair>",
+      "matching_change_example": "app/qt_golfhub_app.py",
+      "normal_ci": [
+        "Test desktop search controls"
+      ],
+      "production_workflows": [],
+      "cache_ci": "Not selected: its push branch filter is main or fix/cache-refresh-*."
+    },
+    {
+      "event": "pull_request opened or synchronized, including draft",
+      "head": "fix/desktop-<repair>",
+      "base": "fix/desktop-<prior-repair>",
+      "matching_pr_change_example": "app/qt_golfhub_app.py",
+      "normal_ci": [
+        "Test desktop search controls",
+        "Test cache refresh"
+      ],
+      "production_workflows": [],
+      "reason": "Neither CI workflow restricts pull_request base branches or rejects drafts. Both path lists include app/**."
+    },
+    {
+      "event": "push",
+      "branch": "fix/desktop-<repair>",
+      "matching_change_example": "docs-only changes",
+      "normal_ci": [],
+      "production_workflows": [],
+      "reason": "Documentation is absent from both test path filters. A synchronized PR may still have a cumulative app/workflow/test diff that selects CI."
+    },
+    {
+      "event": "completion of either test CI workflow",
+      "normal_ci_chains": [],
+      "production_workflows": [],
+      "reason": "The sole workflow_run declaration names Check preferred-date alerts, requires main, and guards dispatch-origin/same-repository. Neither test workflow name matches."
+    }
+  ],
+  "chain_analysis": {
+    "workflow_run_consumers": [
+      "refresh-cache-10min.yml only"
+    ],
+    "required_upstream_name": "Check preferred-date alerts",
+    "required_upstream_branch": "main",
+    "required_upstream_event_for_prepare": "workflow_dispatch",
+    "required_upstream_repository": "same repository",
+    "normal_ci_names_do_not_match": true,
+    "no_workflow_call_pull_request_target_repository_dispatch_release_or_tag_specific_workflows_found": true,
+    "no_test_job_dispatch_or_publishing_command_found": true,
+    "cache_news_publication_branches_do_not_match_main_push_guards": true,
+    "scheduled_or_external_alert_dispatch_runs": "Can occur independently; this audit does not attribute such runs to a repair push/PR."
+  },
+  "repair_scope_conditions": [
+    "Conclusions apply to the inspected workflow definitions; recheck any proposed workflow/trigger/name change before push.",
+    "An app change selects normal CI as above. A new desktop test must also be added to the explicit desktop module list and relevant path filters.",
+    "A module named test_cache*.py is discovered by the dependency-free cache job; avoid accidentally routing a Qt-only module there.",
+    "Actual checks/conclusions on the final remote head require separate verification; static trigger inspection is not evidence of CI execution."
+  ],
+  "retained_limits": [
+    "Historical Windows cache_close and canonical-source reconciliation unresolved; no native/lifecycle validation in this audit.",
+    "Production workflow-history endpoint previously rejected by connector allow-list remains untouched; no history URL or alternative endpoint requested.",
+    "No provider, live booking, notification, alert runtime ZIP or production workflow execution."
+  ],
+  "evidence_only_write": "/workspace/scratch/golfhub-20261107-workflow-trigger-audit.json",
+  "blockers": []
+}
