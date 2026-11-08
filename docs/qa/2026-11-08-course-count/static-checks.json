@@ -1,0 +1,52 @@
+{
+  "timestamp_utc": "2026-11-08T00:54:05.595961+00:00",
+  "checks": [
+    {
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-m",
+        "py_compile",
+        "app/qt_golfhub_app.py",
+        "tests/test_course_controls.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/scratch/actionlint-1.7.12/actionlint",
+        "-version"
+      ],
+      "exit_code": 0,
+      "stdout": "1.7.12\ninstalled by downloading from release page\nbuilt with go1.26.1 compiler for linux/amd64\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/scratch/actionlint-1.7.12/actionlint"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "file_sha256": {
+    "app/qt_golfhub_app.py": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+    "tests/test_course_controls.py": "6198a2434f3121d26b89e2ba0dd30177f2834504f940826460316a4cb4bbd6de",
+    ".github/workflows/test-desktop.yml": "249034d9961e423cd1f9d5945c1972e3163a3b67da67ca9e53b60fdd2f7505ad"
+  },
+  "provenance": "Retained pinned actionlint 1.7.12; no installation or workflow change today."
+}

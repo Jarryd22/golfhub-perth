@@ -1,0 +1,28 @@
+{
+  "base_head": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+  "app_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+  "changed_golfhub_methods": [
+    "toggle_courses"
+  ],
+  "entire_app_AST_identical_after_restoring_original_toggle_courses": true,
+  "unchanged_classes": {
+    "CourseRow": true,
+    "ResponsiveCardGrid": true,
+    "ScanWorker": true,
+    "CacheWorker": true
+  },
+  "byte_identical_files": {
+    "app/golfhub_core.py": true,
+    "app/course_results.py": true,
+    "app/shared_cache.py": true,
+    "app/booking_assist.py": true,
+    "app/booking_dialog.py": true,
+    ".github/workflows/test-desktop.yml": true,
+    ".github/workflows/check-alerts.yml": true,
+    ".github/workflows/refresh-cache-10min.yml": true,
+    ".github/workflows/course-news.yml": true,
+    ".github/alerts-runtime.zip": true,
+    ".github/alerts-runtime-manifest.json": true
+  },
+  "scope": "Static comparison only; no native lifecycle investigation, provider access or alert runtime execution"
+}

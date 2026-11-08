@@ -1,0 +1,20 @@
+{
+  "app_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+  "state_observations": 14,
+  "baseline_count_not_visible_states": 7,
+  "final_count_not_visible_states": 0,
+  "compatibility_journeys_passed": 6,
+  "search_decisions_unchanged": 7,
+  "nonempty_intercepted_submissions": 6,
+  "no_course_guard_decisions": 1,
+  "filter_combinations_passed": 50,
+  "startup_scenarios_passed": 5,
+  "prior_grid_controls_passed": 4,
+  "prior_grid_narrow_columns": [
+    337,
+    336,
+    0
+  ],
+  "callback_errors": [],
+  "limits": "Scenario counts are distinct from regression/aggregate unit tests. Actual Qt accessibility Name checked; no native screen-reader claim."
+}

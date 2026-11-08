@@ -1,0 +1,455 @@
+QA_RESULT {"run": 12, "failures": 7, "errors": 0, "skipped": 0}
+test_checkbox_click_updates_count_once_and_keyboard_restores_it (empty_result_link_regression.CourseControlTests.test_checkbox_click_updates_count_once_and_keyboard_restores_it) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_clear_select_visible_and_round_changes_preserve_correct_selection (empty_result_link_regression.CourseControlTests.test_clear_select_visible_and_round_changes_preserve_correct_selection) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard (empty_result_link_regression.CourseControlTests.test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard (empty_result_link_regression.CourseControlTests.test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard) (names=['Altone Park', 'Araluen']) ... FAIL
+  test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard (empty_result_link_regression.CourseControlTests.test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard) (names=[]) ... FAIL
+test_collapsed_count_follows_round_eligibility_without_changing_checkboxes (empty_result_link_regression.CourseControlTests.test_collapsed_count_follows_round_eligibility_without_changing_checkboxes) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_course_row_click_updates_count_once (empty_result_link_regression.CourseControlTests.test_course_row_click_updates_count_once) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_course_search_hint_matches_name_only_matching (empty_result_link_regression.CourseControlTests.test_course_search_hint_matches_name_only_matching) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_course_search_keeps_its_accessible_name_after_typing (empty_result_link_regression.CourseControlTests.test_course_search_keeps_its_accessible_name_after_typing) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_each_course_checkbox_exposes_course_name_and_checked_state (empty_result_link_regression.CourseControlTests.test_each_course_checkbox_exposes_course_name_and_checked_state) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_filter_names_and_label_buddies_are_exposed (empty_result_link_regression.CourseControlTests.test_filter_names_and_label_buddies_are_exposed) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_hidden_selected_courses_remain_counted_during_name_search (empty_result_link_regression.CourseControlTests.test_hidden_selected_courses_remain_counted_during_name_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_keyboard_close_exposes_total_selection_including_name_filtered_courses (empty_result_link_regression.CourseControlTests.test_keyboard_close_exposes_total_selection_including_name_filtered_courses) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) (selection='all') ... FAIL
+  test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) (selection='one') ... FAIL
+  test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) (selection='none') ... FAIL
+
+======================================================================
+FAIL: test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard (empty_result_link_regression.CourseControlTests.test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard) (names=['Altone Park', 'Araluen'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 151, in test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  2 OF 41'
+- CHOOSE COURSES
++ COURSES  2 OF 41
+
+
+======================================================================
+FAIL: test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard (empty_result_link_regression.CourseControlTests.test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard) (names=[])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 151, in test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  0 OF 41'
+- CHOOSE COURSES
++ COURSES  0 OF 41
+
+
+======================================================================
+FAIL: test_collapsed_count_follows_round_eligibility_without_changing_checkboxes (empty_result_link_regression.CourseControlTests.test_collapsed_count_follows_round_eligibility_without_changing_checkboxes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 130, in test_collapsed_count_follows_round_eligibility_without_changing_checkboxes
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  37 OF 41'
+- CHOOSE COURSES
++ COURSES  37 OF 41
+
+
+======================================================================
+FAIL: test_keyboard_close_exposes_total_selection_including_name_filtered_courses (empty_result_link_regression.CourseControlTests.test_keyboard_close_exposes_total_selection_including_name_filtered_courses)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 119, in test_keyboard_close_exposes_total_selection_including_name_filtered_courses
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  37 OF 41'
+- CHOOSE COURSES
++ COURSES  37 OF 41
+
+
+======================================================================
+FAIL: test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) (selection='all')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 103, in test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  37 OF 41'
+- CHOOSE COURSES
++ COURSES  37 OF 41
+
+
+======================================================================
+FAIL: test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) (selection='one')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 103, in test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  1 OF 41'
+- CHOOSE COURSES
++ COURSES  1 OF 41
+
+
+======================================================================
+FAIL: test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses (empty_result_link_regression.CourseControlTests.test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses) (selection='none')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 103, in test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses
+    self.assert_count_matches_selection()
+  File "/workspace/golfhub-20261108/tests/test_course_controls.py", line 43, in assert_count_matches_selection
+    self.assertEqual(self.window.course_button.text(), f"COURSES  {count} OF {len(self.window.sites)}")
+AssertionError: 'CHOOSE COURSES' != 'COURSES  0 OF 41'
+- CHOOSE COURSES
++ COURSES  0 OF 41
+
+
+----------------------------------------------------------------------
+Ran 12 tests in 1.575s
+
+FAILED (failures=7)

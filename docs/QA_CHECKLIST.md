@@ -16,7 +16,7 @@ Record the commit, app version, operating system, timezone, scale factor, device
 |---|---|
 | First launch | Clean state builds a usable window; no crash. Default day and 28-day bounds use Perth time. Saved data appears with truthful source/age. Cold offline startup has an actionable state. |
 | Dates | Today/tomorrow agree with Perth across UTC midnight and month/year boundaries. Single, nonconsecutive and 28-day selections persist; at least one date remains. Mouse and keyboard can select/apply dates. Live refresh is available only for one date. Test an app left open across Perth midnight separately. |
-| Course search | Case-insensitive course names filter the list. Confirm suburb behavior matches its label. Check individual selection, Select visible, Clear, selection count, and reopening the panel. |
+| Course search | Case-insensitive course names filter the list. Confirm suburb behavior matches its label. Check individual selection, Select visible, Clear, and mouse/keyboard close/reopen. Closed-panel count remains visible, includes eligible checked courses hidden by the name query, and agrees with submitted sites; zero selection retains its existing guard. |
 | Round | Switch 18→9→18. Available courses, requested cache key, card round labels and official URLs agree. Unsupported courses are excluded. |
 | Group/time | Any and 1–4 players respect available spaces. Presets and custom ranges filter correctly. Equal endpoints and open bounds work. Reversed ranges explain the error before a worker starts; controls/results remain intact and focus returns for correction. |
 | Results | Counts agree with visible rows; course names sort A–Z. Show all/first 12 retains rows. Resize wide→narrow→wide without obsolete empty columns consuming card width; preserve sparse-card sizing. Multi-day groups expand lazily without mixing dates. Course and row links refer to the chosen date/round. |
@@ -70,7 +70,15 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 7 November 2026
+## Latest pass: 8 November 2026
+
+See the [course-count report](qa/2026-11-08-course-count/REPORT.md). Exact PR27 replaces the closed panel's count with CHOOSE COURSES, hiding pending selection size. Reuse the existing count helper on close; opening still says HIDE COURSES. Four added regressions cover mouse/Space close/reopen, hidden selections, round eligibility, Qt accessible Name and submitted-site/zero-course decisions. Selection and search behavior remain unchanged.
+
+**Failed exact baseline:** eight existing methods pass/four new methods fail, with seven assertion records including subcases. **Passed final:** 12 course-control methods and **316 aggregate tests = 188 desktop + 91 cache/integrity + 37 additional**, 28 isolated processes, zero failures/errors/skips. Candidate tests pass first attempt. Separate 14-state actual-input probe improves seven missing-count closures to zero; six compatibility journeys/seven search decisions remain unchanged. Final 50 filters, five startup decisions and four prior-grid controls pass. Compile, whitespace, actionlint and independent review pass; baseline logs and historical failed executions remain retained. Remote commit/all-event terminal CI results belong to the published draft.
+
+**Inspection/observations:** 31 branches, 25 drafts, 29 source refs plus loose source, both update repositories and workflow triggers inspected. One immutable current-date/18 payload sampled against source schedule, not a whole-cache watch. Compact source-widget images and actual Qt accessible Name inspected. **Not run:** installed/native Windows or Android, real providers/bookings/holds, native screen readers/touch/DPI/resume, updater/signatures, alert runtime/delivery. Historical Windows cache_close and canonical integration remain unresolved; unchanged lifecycle tests ran once, without repeated Linux diagnosis. Prior denied production history was not retried.
+
+## Previous pass: 7 November 2026
 
 See the [responsive-grid report](qa/2026-11-07-responsive-grid/REPORT.md). Exact PR26 leaves a 173px unused column in a 683px two-column grid after narrowing; cards are 250/250 pixels instead of 337/336 in a fresh view. Reset obsolete column stretch while initializing every active column, including sparse grids. Preserve breakpoints, minimum sizes, spacing, first-twelve/all visibility and existing booking actions.
 

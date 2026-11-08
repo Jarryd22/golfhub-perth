@@ -1243,7 +1243,10 @@ class GolfHub(QMainWindow):
         visible = not self.course_panel.isVisible()
         self.course_panel.setVisible(visible)
         self.splitter.setSizes([340, 1110] if visible else [0, 1450])
-        self.course_button.setText("HIDE COURSES" if visible else "CHOOSE COURSES")
+        if visible:
+            self.course_button.setText("HIDE COURSES")
+        else:
+            self.update_selected_count()
 
     def field(self, title, widget):
         wrap = QWidget()
