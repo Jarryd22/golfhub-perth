@@ -1,0 +1,225 @@
+{
+  "timestamp_utc": "2026-11-08T00:54:06.194446+00:00",
+  "head": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+  "app_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+  "checks_passed": [
+    "initial shows first12",
+    "actual show-all click exposes all15",
+    "15th-row BOOK preserves row URL with browser intercepted",
+    "collapse restores first12"
+  ],
+  "states": {
+    "initial_wide": {
+      "window": [
+        1500,
+        800
+      ],
+      "panel_visible": false,
+      "grid": [
+        1372,
+        242
+      ],
+      "visible_rows": 12,
+      "active_columns": 3,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "column_widths": [
+        451,
+        450,
+        451
+      ],
+      "first_row": [
+        {
+          "row": 0,
+          "column": 0,
+          "rect": [
+            0,
+            0,
+            451,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rect": [
+            461,
+            0,
+            450,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rect": [
+            921,
+            0,
+            451,
+            53
+          ]
+        }
+      ],
+      "toggle_text": "SHOW ALL 15 TIMES",
+      "toggle_accessible": "Show All 15 Times: Araluen, 18 holes, 2 January 2033"
+    },
+    "expanded_wide": {
+      "window": [
+        1500,
+        800
+      ],
+      "panel_visible": false,
+      "grid": [
+        1372,
+        305
+      ],
+      "visible_rows": 15,
+      "active_columns": 3,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        1
+      ],
+      "column_widths": [
+        451,
+        450,
+        451
+      ],
+      "first_row": [
+        {
+          "row": 0,
+          "column": 0,
+          "rect": [
+            0,
+            0,
+            451,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rect": [
+            461,
+            0,
+            450,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "column": 2,
+          "rect": [
+            921,
+            0,
+            451,
+            53
+          ]
+        }
+      ],
+      "toggle_text": "SHOW FIRST 12",
+      "toggle_accessible": "Show First 12: Araluen, 18 holes, 2 January 2033"
+    },
+    "wide_then_narrow": {
+      "window": [
+        1100,
+        800
+      ],
+      "panel_visible": true,
+      "grid": [
+        683,
+        368
+      ],
+      "visible_rows": 12,
+      "active_columns": 2,
+      "layout_columns": 3,
+      "stretches": [
+        1,
+        1,
+        0
+      ],
+      "column_widths": [
+        337,
+        336,
+        0
+      ],
+      "first_row": [
+        {
+          "row": 0,
+          "column": 0,
+          "rect": [
+            0,
+            0,
+            337,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rect": [
+            347,
+            0,
+            336,
+            53
+          ]
+        }
+      ],
+      "toggle_text": "SHOW ALL 15 TIMES",
+      "toggle_accessible": "Show All 15 Times: Araluen, 18 holes, 2 January 2033"
+    },
+    "fresh_narrow": {
+      "window": [
+        1100,
+        800
+      ],
+      "panel_visible": true,
+      "grid": [
+        683,
+        368
+      ],
+      "visible_rows": 12,
+      "active_columns": 2,
+      "layout_columns": 2,
+      "stretches": [
+        1,
+        1
+      ],
+      "column_widths": [
+        337,
+        336
+      ],
+      "first_row": [
+        {
+          "row": 0,
+          "column": 0,
+          "rect": [
+            0,
+            0,
+            337,
+            53
+          ]
+        },
+        {
+          "row": 0,
+          "column": 1,
+          "rect": [
+            347,
+            0,
+            336,
+            53
+          ]
+        }
+      ],
+      "toggle_text": "SHOW ALL 15 TIMES",
+      "toggle_accessible": "Show All 15 Times: Araluen, 18 holes, 2 January 2033"
+    }
+  },
+  "callbacks": [],
+  "limits": "Synthetic configured Araluen data, Linux offscreen; no native workers/providers/persistence/browser navigation/holds. Resize geometry is layout observation, not native-device clipping evidence."
+}

@@ -87,6 +87,82 @@ class CourseControlTests(unittest.TestCase):
         QTest.mouseClick(self.row.check, Qt.LeftButton)
         self.assert_count_matches_selection()
 
+    def test_mouse_close_and_reopen_preserve_count_for_all_one_and_zero_courses(self):
+        for selection in ("all", "one", "none"):
+            with self.subTest(selection=selection):
+                if not self.window.course_panel.isVisible():
+                    QTest.mouseClick(self.window.course_button, Qt.LeftButton)
+                self.window.set_all(selection == "all")
+                if selection == "one":
+                    self.row.check.setChecked(True)
+                checked = [row.check.isChecked() for row in self.window.course_rows]
+                signals = QSignalSpy(self.row.toggled)
+                QTest.mouseClick(self.window.course_button, Qt.LeftButton)
+                self.assertFalse(self.window.course_panel.isVisible())
+                self.assertTrue(self.window.course_button.isVisible())
+                self.assert_count_matches_selection()
+                self.assertEqual([row.check.isChecked() for row in self.window.course_rows], checked)
+                self.assertEqual(signals.count(), 0)
+                QTest.mouseClick(self.window.course_button, Qt.LeftButton)
+                self.assertTrue(self.window.course_panel.isVisible())
+                self.assertTrue(self.window.selected_count.isVisible())
+                self.assertEqual(self.window.course_button.text(), "HIDE COURSES")
+
+    def test_keyboard_close_exposes_total_selection_including_name_filtered_courses(self):
+        self.window.course_search.setText(self.row.site.name)
+        self.assertTrue(any(row.isHidden() and row.check.isChecked() for row in self.window.course_rows))
+        selected = [site.name for site in self.window.selected_sites()]
+        self.window.course_button.setFocus()
+        self.assertTrue(self.window.course_button.hasFocus())
+        QTest.keyClick(self.window.course_button, Qt.Key_Space)
+        self.assertFalse(self.window.course_panel.isVisible())
+        self.assert_count_matches_selection()
+        interface = QAccessible.queryAccessibleInterface(self.window.course_button)
+        self.assertEqual(interface.text(QAccessible.Name), self.window.course_button.text())
+        self.assertEqual([site.name for site in self.window.selected_sites()], selected)
+        QTest.keyClick(self.window.course_button, Qt.Key_Space)
+        self.assertTrue(self.window.course_panel.isVisible())
+        self.assertEqual(self.window.course_button.text(), "HIDE COURSES")
+
+    def test_collapsed_count_follows_round_eligibility_without_changing_checkboxes(self):
+        checked = [row.check.isChecked() for row in self.window.course_rows]
+        QTest.mouseClick(self.window.course_button, Qt.LeftButton)
+        self.assert_count_matches_selection()
+        for button, holes in ((self.window.holes9, "9"), (self.window.holes18, "18")):
+            with self.subTest(holes=holes):
+                QTest.mouseClick(button, Qt.LeftButton)
+                self.assertFalse(self.window.course_panel.isVisible())
+                self.assert_count_matches_selection()
+                self.assertEqual({site.name for site in self.window.selected_sites()},
+                                 {site.name for site in self.window.sites if holes in site.holes})
+                self.assertEqual([row.check.isChecked() for row in self.window.course_rows], checked)
+
+    def test_collapsed_count_agrees_with_submitted_sites_and_empty_selection_guard(self):
+        for names in ({"Araluen", "Altone Park"}, set()):
+            with self.subTest(names=sorted(names)):
+                if not self.window.course_panel.isVisible():
+                    QTest.mouseClick(self.window.course_button, Qt.LeftButton)
+                self.window.set_all(False)
+                for row in self.window.course_rows:
+                    row.check.setChecked(row.site.name in names)
+                self.window.course_search.setText("Araluen")
+                QTest.mouseClick(self.window.course_button, Qt.LeftButton)
+                self.assertFalse(self.window.course_panel.isVisible())
+                self.assert_count_matches_selection()
+                with (
+                    patch.object(self.window, "_start_cache_search") as start,
+                    patch("app.qt_golfhub_app.QMessageBox.information") as message,
+                ):
+                    QTest.mouseClick(self.window.search_button, Qt.LeftButton)
+                if names:
+                    message.assert_not_called()
+                    start.assert_called_once()
+                    self.assertEqual({site.name for site in start.call_args.args[0]["sites"]}, names)
+                else:
+                    start.assert_not_called()
+                    message.assert_called_once()
+                self.assertEqual({site.name for site in self.window.selected_sites()}, names)
+
     def test_filter_names_and_label_buddies_are_exposed(self):
         for control, field, name in (
             (self.window.players, self.window.players_field, "Players"),
