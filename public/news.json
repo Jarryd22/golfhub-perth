@@ -1,7 +1,33 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-08T00:46:30.172452+00:00",
+  "generated_at": "2026-11-09T00:59:48.964751+00:00",
   "items": [
+    {
+      "id": "c5a5e5aa791d4ea826af",
+      "course_id": "hartfield",
+      "title": "Christmas Buffet December 11th- 2 Course $45pp -Booking Essential",
+      "summary": "The post Christmas Buffet December 11th- 2 Course $45pp -Booking Essential appeared first on",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/christmas-buffet-december-11th-2-course-45pp-booking-essential/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Christmas-Buffet-Dec-11.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Christmas-Buffet-Dec-11.png"
+      ],
+      "published_at": "2026-11-08T07:40:31+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "cab146b6229812d4e7a5",
+      "course_id": "hartfield",
+      "title": "November Friday Night $25 Meals",
+      "summary": "The post November Friday Night $25 Meals appeared first on Hartfield Country Club .",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/november-friday-night-25-meals/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/November-Friday-Nights-Club-Special-1.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/November-Friday-Nights-Club-Special-1.png"
+      ],
+      "published_at": "2026-11-08T07:37:05+00:00",
+      "category": "Course news"
+    },
     {
       "id": "c2d5dd979703a891da57",
       "course_id": "hartfield",
@@ -76,17 +102,6 @@
       "category": "Course news"
     },
     {
-      "id": "c9937170024f59ebd285",
-      "course_id": "hartfield",
-      "title": "Past President and Captain Winner",
-      "summary": "Saturday, October 31, saw the annual Past President and Captain Day, featuring the Keith",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/past-president-and-captain-winner/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-03T03:31:19+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "77a12d25a90cadf92a67",
       "course_id": "sun-city",
       "title": "Last Chance to Buy Your Melbourne Cup Tickets",
@@ -99,19 +114,6 @@
         "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Elegant-Melbourne-Cup-Day-Schedule-1.png"
       ],
       "published_at": "2026-11-01T10:57:39+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "fd37a5531f681ca7609a",
-      "course_id": "hartfield",
-      "title": "Saturday Junior Clinics for Term 4",
-      "summary": "Junior Clinics are well underway for Term 4! Check out the attached flyer for",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/10/saturday-junior-clinics-for-term-4/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Junior-Clinics-Term-4.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/10/Junior-Clinics-Term-4.png"
-      ],
-      "published_at": "2026-10-31T02:31:35+00:00",
       "category": "Course news"
     },
     {
@@ -519,7 +521,7 @@
     },
     {
       "course_id": "joondalup-resort",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "kwinana",
@@ -543,7 +545,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
