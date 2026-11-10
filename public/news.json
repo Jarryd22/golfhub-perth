@@ -1,7 +1,34 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-09T00:59:48.964751+00:00",
+  "generated_at": "2026-11-10T03:38:39.376996+00:00",
   "items": [
+    {
+      "id": "b0ebcd448c278989c35c",
+      "course_id": "hartfield",
+      "title": "Hartfield Open 2026",
+      "summary": "Well done to everyone who participated in the Hartfield Open over the weekend. Congratulations",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/hartfield-open-2026-2/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5295-scaled.jpg",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5295-scaled.jpg",
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5299-scaled.jpg",
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5301-scaled-1.jpg",
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5310-scaled-1.jpg"
+      ],
+      "published_at": "2026-11-10T02:58:25+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "c5a004b8c075fced0018",
+      "course_id": "mosman-park",
+      "title": "Ping G440 Clearance at the Pro Shop",
+      "summary": "EX DEMO CLEARANCE G440 Drivers RRP $1150 Now $750 G440 Fairway Woods RRP $699",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/11/ping-g440-clearance-at-the-pro-shop/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-09T02:52:26+00:00",
+      "category": "Course news"
+    },
     {
       "id": "c5a5e5aa791d4ea826af",
       "course_id": "hartfield",
@@ -51,17 +78,6 @@
       ],
       "published_at": "2026-11-06T05:29:51+00:00",
       "category": "Course news"
-    },
-    {
-      "id": "967652eed9c30030eadb",
-      "course_id": "hartfield",
-      "title": "Play Araluen or Lakelands During Our Course Renovations",
-      "summary": "With Hartfield undergoing course maintenance, we’re pleased to let members know that both Araluen",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/play-araluen-or-lakelands-during-our-course-renovations/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-06T05:08:08+00:00",
-      "category": "Course works"
     },
     {
       "id": "fc22d5c6a739f32a38af",
@@ -411,17 +427,6 @@
       "category": "Course news"
     },
     {
-      "id": "92f702db4a7262e67069",
-      "course_id": "mosman-park",
-      "title": "Demo MGI Electric Buggies at the Pro Shop",
-      "summary": "The Pro Shop is now stocking MGI Electric Golf Buggies. We current have four",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/demo-mgi-electric-buggies-at-the-pro-shop/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-02T02:36:25+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "852198831337a444bb72",
       "course_id": "the-vines",
       "title": "Aussie BBQ NYE Family Party",
@@ -521,7 +526,7 @@
     },
     {
       "course_id": "joondalup-resort",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "kwinana",
@@ -545,7 +550,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
