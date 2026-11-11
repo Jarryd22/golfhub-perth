@@ -1,7 +1,56 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-10T03:38:39.376996+00:00",
+  "generated_at": "2026-11-11T01:17:57.297446+00:00",
   "items": [
+    {
+      "id": "e3e4139216cda7aed5a1",
+      "course_id": "sun-city",
+      "title": "Farewell to Alex",
+      "summary": "Dear Members, It is with regret that I advise that Alex has tendered his",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/farewell-to-alex/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-10T10:14:17+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "1039fa9c707aae150795",
+      "course_id": "sun-city",
+      "title": "Friday Night Karaoke and Dinner",
+      "summary": "FRIDAY KARAOKE IS BACK AT Sun City Country Club. Party with Artie is back",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/friday-night-karaoke-and-dinner/",
+      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Purple-and-Beige-Indian-Classical-Music-Competition-Flyer-6.png",
+      "images": [
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Purple-and-Beige-Indian-Classical-Music-Competition-Flyer-6.png",
+        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Purple-and-Beige-Indian-Classical-Music-Competition-Flyer-2.png"
+      ],
+      "published_at": "2026-11-10T06:52:05+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "a7edf8ef30afb226fbf2",
+      "course_id": "nedlands-golf-club",
+      "title": "Andy Gott Continues Campaign at PGA Associate Championship",
+      "summary": "Nedlands Golf Club members will be interested to follow Andy Gott’s progress this week",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/11/andy-gott-continues-campaign-at-pga-associate-championship/",
+      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/11/Screenshot-2026-11-10-134346-1.png",
+      "images": [
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/11/Screenshot-2026-11-10-134346-1.png"
+      ],
+      "published_at": "2026-11-10T05:45:30+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "c4cba06f0530ec4a9731",
+      "course_id": "hartfield",
+      "title": "John Forrest Course Director Report- Control of Invasive Species On Course",
+      "summary": "I had an enquiry about a bush that was removed from the back of",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/john-forrest-course-director-report-control-of-invasive-species-on-course/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-10T04:30:20+00:00",
+      "category": "Course news"
+    },
     {
       "id": "b0ebcd448c278989c35c",
       "course_id": "hartfield",
@@ -53,17 +102,6 @@
         "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/November-Friday-Nights-Club-Special-1.png"
       ],
       "published_at": "2026-11-08T07:37:05+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "c2d5dd979703a891da57",
-      "course_id": "hartfield",
-      "title": "Bunker Rake Trial – Your Feedback in Action",
-      "summary": "Following the feedback received in this year’s members’ survey, the Club will be conducting",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/bunker-rake-trial-your-feedback-in-action/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-07T06:12:46+00:00",
       "category": "Course news"
     },
     {
@@ -130,30 +168,6 @@
         "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Elegant-Melbourne-Cup-Day-Schedule-1.png"
       ],
       "published_at": "2026-11-01T10:57:39+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "d2183c33e186557c6018",
-      "course_id": "sun-city",
-      "title": "EXCITING NEWS For our Ladies!",
-      "summary": "EXCITING NEWS For our Ladies! We’ve opened up 5 EXTRA SPOTS in our Sun",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/exciting-news-for-our-ladies/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-30T05:31:56+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "29e58dbbf3d4bfac4be2",
-      "course_id": "sun-city",
-      "title": "New to the Menu for Dinner",
-      "summary": "There’s plenty happening behind the scenes at Sun City Country Club, and we’re excited",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/10/new-to-the-menu-for-dinner/",
-      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Sun-City-Country-Club-Menu-1.png",
-      "images": [
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/10/Sun-City-Country-Club-Menu-1.png"
-      ],
-      "published_at": "2026-10-30T05:04:21+00:00",
       "category": "Course news"
     },
     {
@@ -245,22 +259,6 @@
         "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_4253-scaled-1.jpg"
       ],
       "published_at": "2026-10-27T01:21:17+00:00",
-      "category": "Events"
-    },
-    {
-      "id": "6d96d501508c2164b790",
-      "course_id": "nedlands-golf-club",
-      "title": "MENS CLUB CHAMPIONSHIPS RESULTS",
-      "summary": "The post MENS CLUB CHAMPIONSHIPS RESULTS appeared first on Nedlands Golf Club .",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/mens-club-championships-results/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Club-Championship-Draw-3.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Club-Championship-Draw-3.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/Minor-Championship-Draw-1.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/A-Grade-Championship-Draw-2.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/B-Grade-Championship-Draw-3.jpg"
-      ],
-      "published_at": "2026-10-26T04:06:08+00:00",
       "category": "Events"
     },
     {
