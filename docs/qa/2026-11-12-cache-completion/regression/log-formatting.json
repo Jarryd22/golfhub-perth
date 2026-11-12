@@ -1,0 +1,9 @@
+{
+  "reason": "One unittest subtest header ends with a space; normalize that readable-log line for git whitespace checks while preserving exact original bytes in gzip. No test rerun or result change.",
+  "original_log_sha256": "a97b8e58149edff58671916c84a2d0b0e37b15564d10bedd7bf08328e53ed942",
+  "readable_log_sha256": "b68ff5ccc3706e6124bc3937292573f24dfc50d78bfd7249fe2a3d3fa13c1a23",
+  "original_gzip": "baseline.log.original.gz",
+  "changed_line_numbers": [
+    4
+  ]
+}

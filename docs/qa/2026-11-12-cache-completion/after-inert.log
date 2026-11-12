@@ -1,0 +1,511 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-12T00:59:05.542748+00:00",
+  "head": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+  "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+  "cases": [
+    {
+      "scenario": "constructor",
+      "submitted_dates": [],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {}
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 0
+    },
+    {
+      "scenario": "context_enter",
+      "submitted_dates": [],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {}
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 0
+    },
+    {
+      "scenario": "submission",
+      "submitted_dates": [
+        "2033-01-02"
+      ],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {}
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 0
+    },
+    {
+      "scenario": "iteration_before_first",
+      "submitted_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {}
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 0
+    },
+    {
+      "scenario": "iteration_after_one",
+      "submitted_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "yielded_dates": [
+        "2033-01-02"
+      ],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {
+          "2033-01-02": {
+            "date": "2033-01-02",
+            "result_count": 1
+          }
+        }
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE / 1 OF 2 DAYS",
+      "status": "1 matching tee time across 1 loaded day",
+      "labels": [
+        "1 matching time across 1 loaded day",
+        "1 days with availability",
+        "0 official course links",
+        "1 of 2 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "9:00 am",
+        "4 spots",
+        "Cache unavailable for this date"
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 1
+    },
+    {
+      "scenario": "normal_success",
+      "submitted_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {
+          "2033-01-03": {
+            "date": "2033-01-03",
+            "result_count": 1
+          },
+          "2033-01-02": {
+            "date": "2033-01-02",
+            "result_count": 1
+          }
+        }
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE / 2 OF 2 DAYS",
+      "status": "2 matching tee times across 2 days",
+      "labels": [
+        "2 matching times across 2 days",
+        "2 days with availability",
+        "0 official course links",
+        "2 of 2 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "9:00 am",
+        "4 spots",
+        "Shared cache - updated less than a minute ago"
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 2
+    },
+    {
+      "scenario": "per_future_error",
+      "submitted_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {
+          "2033-01-02": null,
+          "2033-01-03": {
+            "date": "2033-01-03",
+            "result_count": 1
+          }
+        }
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE / 1 OF 2 DAYS",
+      "status": "1 matching tee time across 1 loaded day",
+      "labels": [
+        "1 matching time across 1 loaded day",
+        "1 days with availability",
+        "0 official course links",
+        "1 of 2 dates loaded",
+        "Cache unavailable for this date",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "9:00 am",
+        "4 spots"
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 1
+    },
+    {
+      "scenario": "all_futures_error",
+      "submitted_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "yielded_dates": [],
+      "finished_signal_count": 1,
+      "finished_payloads": [
+        {
+          "2033-01-03": null,
+          "2033-01-02": null
+        }
+      ],
+      "quit_signal_calls": 1,
+      "callback_errors": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ],
+      "progress_visible": false,
+      "cache_reference_retained": false,
+      "live_button_enabled": false,
+      "last_result_count": 0
+    }
+  ],
+  "loose_cache_run_AST_identical": false,
+  "method": "Linux Qt source controllers and real QObject started/finished signals; inert QThread substitute and executor; prepared futures; every socket/provider/browser/save route blocked. Exceptions are deliberately injected boundary probes, not observed production incidents or native thread timing evidence."
+}

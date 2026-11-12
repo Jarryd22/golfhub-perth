@@ -1,0 +1,336 @@
+QA_RESULT {"run": 20, "failures": 0, "errors": 0, "skipped": 0}
+test_completion_iteration_failure_retains_collected_snapshot (cache_completion_regression.CacheWorkerCompletionTests.test_completion_iteration_failure_retains_collected_snapshot) ... ok
+test_executor_exit_failure_retains_completed_snapshots (cache_completion_regression.CacheWorkerCompletionTests.test_executor_exit_failure_retains_completed_snapshots) ... ok
+test_executor_setup_and_submission_failures_complete_once (cache_completion_regression.CacheWorkerCompletionTests.test_executor_setup_and_submission_failures_complete_once) ... ok
+test_failed_fetch_remains_missing_while_other_date_succeeds (cache_completion_regression.CacheWorkerCompletionTests.test_failed_fetch_remains_missing_while_other_date_succeeds) ... ok
+test_setup_failure_reuses_saved_cache_for_submitted_context (cache_completion_regression.CacheWorkerCompletionTests.test_setup_failure_reuses_saved_cache_for_submitted_context) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_setup_failure_without_multiday_cache_keeps_official_link_recovery (cache_completion_regression.CacheWorkerCompletionTests.test_setup_failure_without_multiday_cache_keeps_official_link_recovery) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_setup_failure_without_saved_cache_reaches_single_date_live_fallback (cache_completion_regression.CacheWorkerCompletionTests.test_setup_failure_without_saved_cache_reaches_single_date_live_fallback) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_string_date_and_empty_input_preserve_success_contract (cache_completion_regression.CacheWorkerCompletionTests.test_string_date_and_empty_input_preserve_success_contract) ... ok
+test_cache_worker_fetches_each_date_and_returns_keyed_snapshots (cache_completion_regression.MultiDayUITests.test_cache_worker_fetches_each_date_and_returns_keyed_snapshots) ... ok
+test_calendar_hides_week_numbers_and_blocks_adjacent_month_dates (cache_completion_regression.MultiDayUITests.test_calendar_hides_week_numbers_and_blocks_adjacent_month_dates) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+ok
+test_calendar_keeps_single_day_default_and_accepts_nonconsecutive_dates (cache_completion_regression.MultiDayUITests.test_calendar_keeps_single_day_default_and_accepts_nonconsecutive_dates) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_calendar_stays_on_second_month_after_selecting_a_date (cache_completion_regression.MultiDayUITests.test_calendar_stays_on_second_month_after_selecting_a_date) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_consecutive_dates_are_bounded_to_cache_window (cache_completion_regression.MultiDayUITests.test_consecutive_dates_are_bounded_to_cache_window) ... ok
+test_date_control_opens_an_anchored_dropdown_and_marks_today (cache_completion_regression.MultiDayUITests.test_date_control_opens_an_anchored_dropdown_and_marks_today) ... This plugin does not support propagateSizeHints()
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_each_day_renders_course_cards_alphabetically (cache_completion_regression.MultiDayUITests.test_each_day_renders_course_cards_alphabetically) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_multi_date_dropdown_accepts_a_real_mouse_click_and_applies (cache_completion_regression.MultiDayUITests.test_multi_date_dropdown_accepts_a_real_mouse_click_and_applies) ... This plugin does not support propagateSizeHints()
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+This plugin does not support raise()
+This plugin does not support grabbing the keyboard
+This plugin does not support raise()
+ok
+test_multi_date_dropdown_toggles_dates_and_keeps_one_selected (cache_completion_regression.MultiDayUITests.test_multi_date_dropdown_toggles_dates_and_keeps_one_selected) ... ok
+test_partial_cache_still_labels_every_requested_day (cache_completion_regression.MultiDayUITests.test_partial_cache_still_labels_every_requested_day) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_results_are_grouped_by_day_and_only_open_day_is_built (cache_completion_regression.MultiDayUITests.test_results_are_grouped_by_day_and_only_open_day_is_built) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_twenty_eight_day_result_view_builds_only_one_day_body (cache_completion_regression.MultiDayUITests.test_twenty_eight_day_result_view_builds_only_one_day_body) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.957s
+
+OK

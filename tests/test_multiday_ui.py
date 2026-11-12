@@ -363,6 +363,157 @@ class MultiDayUITests(unittest.TestCase):
             window.close()
 
 
+class CacheWorkerCompletionTests(unittest.TestCase):
+    """Executor failures use the same missing-cache contract as failed fetches."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.app = QApplication.instance() or QApplication([])
+
+    def setUp(self):
+        self.callback_errors = []
+        for target in ("socket.create_connection", "socket.socket.connect", "socket.getaddrinfo",
+                       "webbrowser.open", "app.qt_golfhub_app.fetch_shared_snapshot",
+                       "app.qt_golfhub_app.save_local_snapshot"):
+            self.enterContext(patch(target, side_effect=AssertionError("Offline completion test")))
+        self.enterContext(patch("sys.excepthook", side_effect=lambda *a: self.callback_errors.append(str(a[1]))))
+        self.enterContext(patch("app.qt_golfhub_app.perth_today", return_value=QDate(2033, 1, 2)))
+        self.dates = ["2033-01-02", "2033-01-04"]
+        self.payloads = [{"schema": 1, "date": date, "holes": "18",
+                          "generated_at": "2033-01-02T00:00:00Z", "results": []}
+                         for date in self.dates]
+
+    def tearDown(self):
+        cleanup_qt_widgets()
+        self.assertEqual(self.callback_errors, [])
+
+    def pool(self, values):
+        from concurrent.futures import Future
+        from unittest.mock import MagicMock
+        pool = MagicMock()
+        pool.__enter__.return_value = pool
+        jobs = []
+        for value in values:
+            job = Future()
+            if isinstance(value, Exception):
+                job.set_exception(value)
+            else:
+                job.set_result(value)
+            jobs.append(job)
+        pool.submit.side_effect = jobs
+        return pool, jobs
+
+    def complete(self, dates=None, receiver=None, holes="18"):
+        worker = CacheWorker(self.dates if dates is None else dates, holes)
+        emitted = []
+        worker.finished.connect(emitted.append)
+        if receiver is not None:
+            worker.finished.connect(receiver)
+        escaped = None
+        try:
+            worker.run()
+        except Exception as error:
+            escaped = f"{type(error).__name__}: {error}"
+        self.assertIsNone(escaped, "Cache errors must complete rather than escape the Qt slot")
+        self.assertEqual(len(emitted), 1, "Exactly one completion must reach the existing recovery path")
+        return emitted[0]
+
+    def window(self, dates):
+        with patch.object(GolfHub, "show_initial_cache"):
+            window = GolfHub()
+        window._stop_deferred_timers()
+        window.show()
+        site = next(site for site in window.sites if site.name == "Altone Park")
+        window.context = {"sites": [site], "date": dates[0], "dates": dates,
+                          "holes": "18", "from": None, "to": None, "players": None}
+        window._active_cache_context = window._snapshot_search_context(window.context)
+        return window
+
+    def test_executor_setup_and_submission_failures_complete_once(self):
+        for stage in ("constructor", "enter", "first_submit", "second_submit"):
+            with self.subTest(stage=stage):
+                pool, jobs = self.pool(self.payloads)
+                error = RuntimeError("Synthetic executor " + stage)
+                if stage == "enter":
+                    pool.__enter__.side_effect = error
+                elif stage == "first_submit":
+                    pool.submit.side_effect = error
+                elif stage == "second_submit":
+                    pool.submit.side_effect = [jobs[0], error]
+                with patch("app.qt_golfhub_app.ThreadPoolExecutor", return_value=pool,
+                           side_effect=error if stage == "constructor" else None):
+                    self.assertEqual(self.complete(), {})
+
+    def test_completion_iteration_failure_retains_collected_snapshot(self):
+        pool, jobs = self.pool(self.payloads)
+        def interrupted(_jobs):
+            yield jobs[0]
+            raise RuntimeError("Synthetic completion iterator failure")
+        with patch("app.qt_golfhub_app.ThreadPoolExecutor", return_value=pool), \
+                patch("app.qt_golfhub_app.as_completed", side_effect=interrupted):
+            actual = self.complete()
+        self.assertEqual(actual, {self.dates[0]: self.payloads[0]})
+        self.assertIs(actual[self.dates[0]], self.payloads[0])
+
+    def test_executor_exit_failure_retains_completed_snapshots(self):
+        pool, _ = self.pool(self.payloads)
+        pool.__exit__.side_effect = RuntimeError("Synthetic executor exit failure")
+        with patch("app.qt_golfhub_app.ThreadPoolExecutor", return_value=pool):
+            self.assertEqual(self.complete(), dict(zip(self.dates, self.payloads)))
+
+    def test_failed_fetch_remains_missing_while_other_date_succeeds(self):
+        pool, _ = self.pool([RuntimeError("Synthetic fetch failure"), self.payloads[1]])
+        with patch("app.qt_golfhub_app.ThreadPoolExecutor", return_value=pool):
+            self.assertEqual(self.complete(), {self.dates[0]: None, self.dates[1]: self.payloads[1]})
+        self.assertEqual([call.args[1:] for call in pool.submit.call_args_list],
+                         [(date, "18") for date in self.dates])
+
+    def test_string_date_and_empty_input_preserve_success_contract(self):
+        for dates, values, expected in ((self.dates[0], [self.payloads[0]], {self.dates[0]: self.payloads[0]}),
+                                        ([], [], {})):
+            with self.subTest(dates=dates):
+                pool, _ = self.pool(values)
+                with patch("app.qt_golfhub_app.ThreadPoolExecutor", return_value=pool):
+                    self.assertEqual(self.complete(dates=dates, holes="9"), expected)
+                self.assertEqual(pool.submit.call_count, len(values))
+                if values:
+                    self.assertEqual(pool.submit.call_args.args[1:], (self.dates[0], "9"))
+
+    def test_setup_failure_reuses_saved_cache_for_submitted_context(self):
+        window = self.window(self.dates[:1])
+        with patch("app.qt_golfhub_app.ThreadPoolExecutor", side_effect=RuntimeError("Synthetic setup failure")), \
+                patch("app.qt_golfhub_app.load_local_snapshot", return_value=self.payloads[0]) as local, \
+                patch.object(window, "search_live") as live:
+            self.complete(dates=self.dates[:1], receiver=window.cache_finished)
+        local.assert_called_once_with(self.dates[0], "18")
+        live.assert_not_called()
+        self.assertTrue(window.header_status.text().startswith("SAVED CACHE / "))
+        self.assertEqual(window.context, window._active_cache_context)
+
+    def test_setup_failure_without_saved_cache_reaches_single_date_live_fallback(self):
+        window = self.window(self.dates[:1])
+        submitted = window._snapshot_search_context(window.context)
+        with patch("app.qt_golfhub_app.ThreadPoolExecutor", side_effect=RuntimeError("Synthetic setup failure")), \
+                patch("app.qt_golfhub_app.load_local_snapshot", return_value=None), \
+                patch.object(window, "search_live") as live:
+            self.complete(dates=self.dates[:1], receiver=window.cache_finished)
+        live.assert_called_once_with(submitted)
+
+    def test_setup_failure_without_multiday_cache_keeps_official_link_recovery(self):
+        window = self.window(self.dates)
+        with patch("app.qt_golfhub_app.ThreadPoolExecutor", side_effect=RuntimeError("Synthetic setup failure")), \
+                patch("app.qt_golfhub_app.load_local_snapshot", return_value=None), \
+                patch.object(window, "search_live") as live:
+            self.complete(receiver=window.cache_finished)
+        live.assert_not_called()
+        self.assertEqual(window.header_status.text(), "SHARED CACHE UNAVAILABLE")
+        self.assertEqual(window.status.text(), "Multi-day cache temporarily unavailable")
+        self.assertEqual([result["site_name"] for result in window.last_results], ["Altone Park"])
+        labels = [label.text() for label in window.results_body.findChildren(QLabel)]
+        self.assertIn("Official booking links", labels)
+        self.assertTrue(any("No cached results were available" in label for label in labels))
+
+
 if __name__ == "__main__":
     unittest.main()
 

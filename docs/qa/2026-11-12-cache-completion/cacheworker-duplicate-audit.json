@@ -1,0 +1,497 @@
+{
+  "checked_at_utc": "2026-11-12T00:54:49.271449+00:00",
+  "candidate": "CacheWorker.run executor orchestration exceptions can bypass finished: construction/enter, submission, completion iterator and executor exit lie outside existing job.result Exception guard.",
+  "status": "Read-only source duplicate check complete; root owns bounded reproduction and fix decision.",
+  "source_refs_examined": 30,
+  "draft_heads_covered": 26,
+  "facts_by_ref": [
+    {
+      "ref": "agent/golfhub-v5-final-20260729",
+      "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+      "label": "agent/golfhub-v5-final-20260729",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/alerts-runtime-integrity-20261026",
+      "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+      "label": "fix/alerts-runtime-integrity-20261026",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/cache-refresh-heartbeat",
+      "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+      "label": "fix/cache-refresh-heartbeat",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/cache-refresh-incomplete-weather",
+      "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+      "label": "fix/cache-refresh-incomplete-weather",
+      "source_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 175
+    },
+    {
+      "ref": "fix/cache-refresh-provider-circuit",
+      "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+      "label": "fix/cache-refresh-provider-circuit",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/cache-refresh-resilience",
+      "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+      "label": "fix/cache-refresh-resilience",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/cache-refresh-weather-cooldown",
+      "sha": "e84985a713d008301cdef96db7582c420b712d61",
+      "label": "fix/cache-refresh-weather-cooldown",
+      "source_sha256": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 175
+    },
+    {
+      "ref": "fix/cache-refresh-weather-timeouts",
+      "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+      "label": "fix/cache-refresh-weather-timeouts",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/cache-refresh-wembley-fallback",
+      "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+      "label": "fix/cache-refresh-wembley-fallback",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/cache-refresh-wembley-rendered",
+      "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+      "label": "fix/cache-refresh-wembley-rendered",
+      "source_sha256": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    },
+    {
+      "ref": "fix/desktop-booking-context-20261020",
+      "sha": "93d4763451358be608bff06fd0013936af36764c",
+      "label": "fix/desktop-booking-context-20261020",
+      "source_sha256": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-cache-shape-20261030",
+      "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+      "label": "fix/desktop-cache-shape-20261030",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+      "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+      "label": "fix/desktop-cache-thread-lifecycle-20261020",
+      "source_sha256": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-calendar-mouse-20261102",
+      "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+      "label": "fix/desktop-calendar-mouse-20261102",
+      "source_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-course-controls-20261019",
+      "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+      "label": "fix/desktop-course-controls-20261019",
+      "source_sha256": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-course-count-20261108",
+      "sha": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+      "label": "fix/desktop-course-count-20261108",
+      "source_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-empty-link-guidance-20261106",
+      "sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+      "label": "fix/desktop-empty-link-guidance-20261106",
+      "source_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-keyboard-date-selection",
+      "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+      "label": "fix/desktop-keyboard-date-selection",
+      "source_sha256": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-live-button-state-20261105",
+      "sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+      "label": "fix/desktop-live-button-state-20261105",
+      "source_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-live-recovery-20261104",
+      "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+      "label": "fix/desktop-live-recovery-20261104",
+      "source_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-matching-course-count-20261028",
+      "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+      "label": "fix/desktop-matching-course-count-20261028",
+      "source_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-missing-cache-20261027",
+      "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+      "label": "fix/desktop-missing-cache-20261027",
+      "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-offline-course-links-20261103",
+      "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+      "label": "fix/desktop-offline-course-links-20261103",
+      "source_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-perth-midnight-20261021",
+      "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+      "label": "fix/desktop-perth-midnight-20261021",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-provider-error-wording-20261029",
+      "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+      "label": "fix/desktop-provider-error-wording-20261029",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "fix/desktop-provider-exception-20261101",
+      "sha": "9aa16f733458db871c2452a18a247536ab348498",
+      "label": "fix/desktop-provider-exception-20261101",
+      "source_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-responsive-grid-20261107",
+      "sha": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+      "label": "fix/desktop-responsive-grid-20261107",
+      "source_sha256": "9b35080c55f9a987ae0ecc204e8be5e23bddf3cb85f9b78af9ba464ef1d1cc0b",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "ref": "fix/desktop-retained-search-context-20261031",
+      "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+      "label": "fix/desktop-retained-search-context-20261031",
+      "source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 184
+    },
+    {
+      "ref": "fix/desktop-search-dates-and-times",
+      "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+      "label": "fix/desktop-search-dates-and-times",
+      "source_sha256": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "ref": "main",
+      "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "label": "main",
+      "source_sha256": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 174
+    }
+  ],
+  "method_groups": [
+    {
+      "ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "source": "    def run(self):\n        snapshots: dict[str, Any] = {}\n        with ThreadPoolExecutor(max_workers=min(8, max(1, len(self.date_strings)))) as pool:\n            jobs = {\n                pool.submit(fetch_shared_snapshot, date_str, self.hole_type): date_str\n                for date_str in self.date_strings\n            }\n            for job in as_completed(jobs):\n                date_str = jobs[job]\n                try:\n                    snapshots[date_str] = job.result()\n                except Exception:\n                    snapshots[date_str] = None\n        self.finished.emit(snapshots)",
+      "operation_exception_scopes": [
+        {
+          "call": "self.finished.emit",
+          "line": 187,
+          "enclosing_try_handler_types": []
+        },
+        {
+          "call": "ThreadPoolExecutor",
+          "line": 176,
+          "enclosing_try_handler_types": []
+        },
+        {
+          "call": "as_completed",
+          "line": 181,
+          "enclosing_try_handler_types": []
+        },
+        {
+          "call": "pool.submit",
+          "line": 178,
+          "enclosing_try_handler_types": []
+        },
+        {
+          "call": "job.result",
+          "line": 184,
+          "enclosing_try_handler_types": [
+            [
+              "Exception"
+            ]
+          ]
+        }
+      ],
+      "sources": [
+        "agent/golfhub-v5-final-20260729",
+        "fix/alerts-runtime-integrity-20261026",
+        "fix/cache-refresh-heartbeat",
+        "fix/cache-refresh-incomplete-weather",
+        "fix/cache-refresh-provider-circuit",
+        "fix/cache-refresh-resilience",
+        "fix/cache-refresh-weather-cooldown",
+        "fix/cache-refresh-weather-timeouts",
+        "fix/cache-refresh-wembley-fallback",
+        "fix/cache-refresh-wembley-rendered",
+        "fix/desktop-booking-context-20261020",
+        "fix/desktop-cache-shape-20261030",
+        "fix/desktop-cache-thread-lifecycle-20261020",
+        "fix/desktop-calendar-mouse-20261102",
+        "fix/desktop-course-controls-20261019",
+        "fix/desktop-course-count-20261108",
+        "fix/desktop-empty-link-guidance-20261106",
+        "fix/desktop-keyboard-date-selection",
+        "fix/desktop-live-button-state-20261105",
+        "fix/desktop-live-recovery-20261104",
+        "fix/desktop-matching-course-count-20261028",
+        "fix/desktop-missing-cache-20261027",
+        "fix/desktop-offline-course-links-20261103",
+        "fix/desktop-perth-midnight-20261021",
+        "fix/desktop-provider-error-wording-20261029",
+        "fix/desktop-provider-exception-20261101",
+        "fix/desktop-responsive-grid-20261107",
+        "fix/desktop-retained-search-context-20261031",
+        "fix/desktop-search-dates-and-times",
+        "main",
+        "preserved loose source",
+        "golfhub-20261027",
+        "golfhub-20261027-base",
+        "golfhub-20261028",
+        "golfhub-20261029",
+        "golfhub-20261030",
+        "golfhub-20261031",
+        "golfhub-20261101",
+        "golfhub-20261102",
+        "golfhub-20261103",
+        "golfhub-20261104",
+        "golfhub-20261105",
+        "golfhub-20261106",
+        "golfhub-20261107",
+        "golfhub-20261108",
+        "docs/qa/2026-11-05-live-button/pre-style/state-only-app.py.gz",
+        "docs/qa/2026-11-07-responsive-grid/pre-review/initial-app.py.gz"
+      ]
+    }
+  ],
+  "local_sources": [
+    {
+      "kind": "current preserved dirty/loose source",
+      "path": "/workspace/golfhub-perth/app/qt_golfhub_app.py",
+      "label": "preserved loose source",
+      "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261027/app/qt_golfhub_app.py",
+      "label": "golfhub-20261027",
+      "source_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261027-base/app/qt_golfhub_app.py",
+      "label": "golfhub-20261027-base",
+      "source_sha256": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261028/app/qt_golfhub_app.py",
+      "label": "golfhub-20261028",
+      "source_sha256": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261029/app/qt_golfhub_app.py",
+      "label": "golfhub-20261029",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261030/app/qt_golfhub_app.py",
+      "label": "golfhub-20261030",
+      "source_sha256": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 183
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261031/app/qt_golfhub_app.py",
+      "label": "golfhub-20261031",
+      "source_sha256": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 184
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261101/app/qt_golfhub_app.py",
+      "label": "golfhub-20261101",
+      "source_sha256": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261102/app/qt_golfhub_app.py",
+      "label": "golfhub-20261102",
+      "source_sha256": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261103/app/qt_golfhub_app.py",
+      "label": "golfhub-20261103",
+      "source_sha256": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261104/app/qt_golfhub_app.py",
+      "label": "golfhub-20261104",
+      "source_sha256": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261105/app/qt_golfhub_app.py",
+      "label": "golfhub-20261105",
+      "source_sha256": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261106/app/qt_golfhub_app.py",
+      "label": "golfhub-20261106",
+      "source_sha256": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261107/app/qt_golfhub_app.py",
+      "label": "golfhub-20261107",
+      "source_sha256": "9b35080c55f9a987ae0ecc204e8be5e23bddf3cb85f9b78af9ba464ef1d1cc0b",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "preserved earlier worktree; not asserted canonical loose provenance",
+      "path": "/workspace/golfhub-20261108/app/qt_golfhub_app.py",
+      "label": "golfhub-20261108",
+      "source_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "historical archived candidate source, decoded as text only",
+      "path": "/workspace/golfhub-20261108/docs/qa/2026-11-05-live-button/pre-style/state-only-app.py.gz",
+      "archive_sha256": "4bf919f935b0c2d108c6607564746d43d66bd980d0e7aa15f955cf8949bfefc2",
+      "label": "docs/qa/2026-11-05-live-button/pre-style/state-only-app.py.gz",
+      "source_sha256": "4b28a598d1e8b2bb1b88f8a95195e8fca2b620b4a00ea75d428d44de5f35055b",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    },
+    {
+      "kind": "historical archived candidate source, decoded as text only",
+      "path": "/workspace/golfhub-20261108/docs/qa/2026-11-07-responsive-grid/pre-review/initial-app.py.gz",
+      "archive_sha256": "e8ccd4e44d879af87cb04adf6a26b5aa7618d4acbf65926d52208557c77e489d",
+      "label": "docs/qa/2026-11-07-responsive-grid/pre-review/initial-app.py.gz",
+      "source_sha256": "f4ad1f2870298f256e93df656a2db55336cdea58c7256129b571f613526824af",
+      "run_ast_sha256": "88e0888d1eca03e60571710c13d9146cfb2c87b6f8a2d3e3676c2e05a0f0f765",
+      "line": 185
+    }
+  ],
+  "older_loose_cache_search": {
+    "scope": [
+      "/workspace/scratch",
+      "/workspace/shared",
+      "/workspace/library-files",
+      "/workspace/.cache",
+      "/tmp plus preserved earlier worktree source paths"
+    ],
+    "finding": "No separately named older loose Qt source cache found. Current loose source, preserved worktree source files and two archived candidate app sources were inspected; their provenance remains explicit. No claim that these replace a missing historical loose snapshot."
+  },
+  "finding": "CacheWorker.run has one identical AST across all30 current source refs, current preserved loose source, earlier preserved worktrees and archived app candidates inspected. Only job.result() is inside an Exception handler; executor construction/submit/as_completed/exit and terminal finished emission remain outside. No competing outer-orchestration recovery fix exists in these sources.",
+  "prior_repair_distinctions": [
+    "PR13 native cleanup ownership changes do not wrap CacheWorker.run orchestration; this audit does not diagnose or equate the historical Windows cache_close timeout.",
+    "PR19 rejects malformed snapshots at validation boundaries, not executor orchestration failures.",
+    "PR21 provider exception serialization applies separate producer/scan paths; existing cache job.result handler still maps failure to None.",
+    "PR24/25 improve terminal UI recovery/eligibility but assume terminal signals arrive; CacheWorker.run method remains unchanged.",
+    "PR28 course-panel count and PR27 grid changes do not overlap this method."
+  ],
+  "scope_advice": "Require offline exact-source reproduction first. If confirmed, preserve successful snapshots, existing per-job failure behavior and terminal payload shape while containing ordinary orchestration failures and delivering one terminal signal. Do not change native worker ownership, wait/timer/timeout policy or provider/retry behavior; do not catch BaseException merely for this case.",
+  "runtime_tests_by_auditor": false,
+  "source_mutations_by_auditor": false,
+  "blockers": []
+}

@@ -184,17 +184,21 @@ class CacheWorker(QObject):
     @Slot()
     def run(self):
         snapshots: dict[str, Any] = {}
-        with ThreadPoolExecutor(max_workers=min(8, max(1, len(self.date_strings)))) as pool:
-            jobs = {
-                pool.submit(fetch_shared_snapshot, date_str, self.hole_type): date_str
-                for date_str in self.date_strings
-            }
-            for job in as_completed(jobs):
-                date_str = jobs[job]
-                try:
-                    snapshots[date_str] = job.result()
-                except Exception:
-                    snapshots[date_str] = None
+        try:
+            with ThreadPoolExecutor(max_workers=min(8, max(1, len(self.date_strings)))) as pool:
+                jobs = {
+                    pool.submit(fetch_shared_snapshot, date_str, self.hole_type): date_str
+                    for date_str in self.date_strings
+                }
+                for job in as_completed(jobs):
+                    date_str = jobs[job]
+                    try:
+                        snapshots[date_str] = job.result()
+                    except Exception:
+                        snapshots[date_str] = None
+        except Exception:
+            # Preserve collected dates; missing dates use the existing cache recovery path.
+            pass
         self.finished.emit(snapshots)
 
 
