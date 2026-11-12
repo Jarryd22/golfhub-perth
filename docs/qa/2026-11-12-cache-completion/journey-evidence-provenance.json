@@ -1,0 +1,72 @@
+{
+  "recorded_utc": "2026-11-12T01:04:19.316466+00:00",
+  "baseline_head": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+  "baseline_app_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+  "repair_app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+  "scripts": {
+    "inert-completion-probe.py": {
+      "sha256": "65eb3ae0719377c2fced01609225548b52e42f43e789a32ec3bff0935103e694",
+      "byte_identical_to_original_scratch": true
+    },
+    "qthread-completion-probe.py": {
+      "sha256": "3336c0991803357d249aff5205bd4d973c304ae972b3f0b49d88a230e753036e"
+    },
+    "journeys.py": {
+      "sha256": "8331416bdc5d5c3b3b429170f5ff438d8ce9df9f2bbc4a74e13e9930739669fa",
+      "copied_from": "docs/qa/2026-11-08-course-count/journeys.py",
+      "byte_identical": true
+    },
+    "startup-decisions.py": {
+      "sha256": "c4a42c12f08ec220fe3ba89ff7aa098b7f079f77060aa560abd1dd56b862654a",
+      "copied_from": "docs/qa/2026-11-08-course-count/startup-decisions.py",
+      "byte_identical": true
+    },
+    "course-count-probe.py": {
+      "sha256": "9de3cd8c6ddc0a77169a0158faa043cd121ceba3ed8ebabebc424ff6f4aedb0f",
+      "copied_from": "docs/qa/2026-11-08-course-count/course-count-probe.py",
+      "byte_identical": true
+    },
+    "grid-probe.py": {
+      "sha256": "9d6dd7e5786eeeb1919ce7db398cae7dbadfa2cb7cf841b3348c9a70b414c0d9",
+      "copied_from": "docs/qa/2026-11-08-course-count/grid-probe.py",
+      "byte_identical": true
+    }
+  },
+  "immediate_frame_history": {
+    "script_sha256": "f85091d079ffb0a8f66f5804e2de2fe10056ee515db91ea93d0ebed16a6a755f",
+    "reason_for_second_paired_execution": "Resolve observed unsettled screenshot timing only; process8 additional Qt event cycles before capture. No runtime or timeout changes. Original files retained byte-exact.",
+    "capture_diff_sha256": "9e3bb437455f738b38625bc6d504786aa9f60ff4167ab440f7ad90154d373c16"
+  },
+  "final_artifacts": {
+    "before-inert/probe.json": {
+      "sha256": "3371f9cf797777ac0a032edd213689fa81aad4c8d0bebed31e97428e0c7c7e8a"
+    },
+    "after-inert/probe.json": {
+      "sha256": "89f07e06e0657aca3a0c9b1348125bde0b25079c47d04754a9fd224971d93c11"
+    },
+    "before-qthread/probe.json": {
+      "sha256": "18fe55ef92d42c5ac12c453679ec36c642750da94dbd13eff83237deef28c7d4"
+    },
+    "after-qthread/probe.json": {
+      "sha256": "e82e9b5e0cf2aab834b0e611844ac610524de610f223d42913c4ef12933717ec"
+    },
+    "journeys.json": {
+      "sha256": "a268e08224657f4fe640baf2ab11f15afbc706285b5ff427f832554064c4d8d0"
+    },
+    "startup/startup-decisions.json": {
+      "sha256": "a9926684485aed32ed010f46cc3b74c3b8bd1889f1b8569d3364b8759e86420e"
+    },
+    "course-count/probe.json": {
+      "sha256": "d61737828ce1e1a6f9704967c053ae5206cd9278bbdcbbef51b442fe946af91a"
+    },
+    "grid/probe.json": {
+      "sha256": "8f56c84c7bce9caf45125e99e6797327a0210bca3a5f991ed694bdb3de3de11a"
+    }
+  },
+  "fixture_execution_failures": 0,
+  "known_baseline_defect_observations": {
+    "inert_outer_failures_without_completion": 5,
+    "real_qthread_scenarios_without_completion": 3
+  },
+  "limits": "Diagnostic observations, not unit-test methods or production incidents; no native Windows/Android, real provider or booking, notification or historical cache_close investigation."
+}

@@ -1,0 +1,11 @@
+--- immediate-frame-history/qthread-completion-probe.py
++++ qthread-completion-probe.py
+@@ -160,6 +160,8 @@
+                     # The missing-completion baseline gets a bounded observation window.
+                     completed = pump_until(lambda: window.cache_thread is None, 0.5 if exceptions else 3)
+                     case['completed_without_intervention'] = completed
++                    for _ in range(8):
++                        app.processEvents()
+                     case['after_first_boundary'] = state()
+                     window.grab().save(str(out / f'{scenario}.png'))
+                     if scenario == 'setup_failure_and_retry' and completed:

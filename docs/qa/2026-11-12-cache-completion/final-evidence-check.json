@@ -1,0 +1,15 @@
+{
+  "checked_at_utc": "2026-11-12T01:05:38.338065+00:00",
+  "source_review_aggregate_and_diagnostic_hashes_match": true,
+  "baseline_test_file_matches_final": true,
+  "baseline_methods": 20,
+  "baseline_failure_records": 9,
+  "final_methods": 20,
+  "aggregate_tests": 324,
+  "aggregate_module_processes": 28,
+  "relative_links_checked": 83,
+  "original_baseline_log_verified": true,
+  "original_immediate_capture_script_verified": true,
+  "new_source_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+  "new_test_sha256": "a96fb70c52423e64ac89bf76076fc729f7b980c17f0eefa17f0cfea2b760289c"
+}

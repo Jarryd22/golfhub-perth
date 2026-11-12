@@ -1,0 +1,222 @@
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+{
+  "timestamp_utc": "2026-11-12T01:02:39.251371+00:00",
+  "head": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+  "app_sha256": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+  "cases": [
+    {
+      "scenario": "setup_failure_and_retry",
+      "completed_without_intervention": false,
+      "after_first_boundary": {
+        "header": "CHECKING SHARED CACHE",
+        "status": "Checking shared cache for 2 days...",
+        "labels": [
+          "Find a round that fits your day",
+          "Checking the shared cache..."
+        ],
+        "cache_reference_retained": true,
+        "progress_visible": true,
+        "search_button_text": "UPDATE SEARCH",
+        "context_dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "context_players": null,
+        "pending_dates": null,
+        "rendered_spots": []
+      },
+      "emissions": [],
+      "finished_signal_count": 0,
+      "native_thread_finished_count": 0,
+      "executor_invocations": 1,
+      "submitted": [],
+      "callback_errors": [
+        {
+          "type": "RuntimeError",
+          "message": "Synthetic cache executor setup failure"
+        }
+      ],
+      "explicit_fixture_cleanup_required": true
+    },
+    {
+      "scenario": "partial_iteration",
+      "completed_without_intervention": false,
+      "after_first_boundary": {
+        "header": "CHECKING SHARED CACHE",
+        "status": "Checking shared cache for 2 days...",
+        "labels": [
+          "Find a round that fits your day",
+          "Checking the shared cache..."
+        ],
+        "cache_reference_retained": true,
+        "progress_visible": true,
+        "search_button_text": "UPDATE SEARCH",
+        "context_dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "context_players": null,
+        "pending_dates": null,
+        "rendered_spots": []
+      },
+      "emissions": [],
+      "finished_signal_count": 0,
+      "native_thread_finished_count": 0,
+      "executor_invocations": 1,
+      "submitted": [
+        {
+          "date": "2033-01-02",
+          "holes": "18"
+        },
+        {
+          "date": "2033-01-03",
+          "holes": "18"
+        }
+      ],
+      "callback_errors": [
+        {
+          "type": "RuntimeError",
+          "message": "Synthetic iteration failure after one collected result"
+        }
+      ],
+      "explicit_fixture_cleanup_required": true
+    },
+    {
+      "scenario": "queued_newest_after_failure",
+      "queued_before_release": {
+        "header": "UPDATING SEARCH",
+        "status": "Your updated search is next...",
+        "labels": [
+          "Find a round that fits your day",
+          "Checking the shared cache..."
+        ],
+        "cache_reference_retained": true,
+        "progress_visible": true,
+        "search_button_text": "SEARCH QUEUED",
+        "context_dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "context_players": null,
+        "pending_dates": [
+          "2033-01-06",
+          "2033-01-07"
+        ],
+        "rendered_spots": []
+      },
+      "completed_without_intervention": false,
+      "after_first_boundary": {
+        "header": "UPDATING SEARCH",
+        "status": "Your updated search is next...",
+        "labels": [
+          "Find a round that fits your day",
+          "Checking the shared cache..."
+        ],
+        "cache_reference_retained": true,
+        "progress_visible": true,
+        "search_button_text": "SEARCH QUEUED",
+        "context_dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "context_players": null,
+        "pending_dates": [
+          "2033-01-06",
+          "2033-01-07"
+        ],
+        "rendered_spots": []
+      },
+      "emissions": [],
+      "finished_signal_count": 0,
+      "native_thread_finished_count": 0,
+      "executor_invocations": 1,
+      "submitted": [],
+      "callback_errors": [
+        {
+          "type": "RuntimeError",
+          "message": "Synthetic cache executor setup failure"
+        }
+      ],
+      "explicit_fixture_cleanup_required": true
+    }
+  ],
+  "method": "Real Linux QThread + existing window worker signal connections; inert executor and completed futures; no provider, socket, browser, cache save, or live worker execution.",
+  "limits": "Injected boundary failures, not production incidents. Bounded signal/recovery test; no Windows/Android device, native-close diagnosis, live booking or notification verification."
+}
