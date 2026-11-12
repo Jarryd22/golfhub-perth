@@ -1,7 +1,42 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-11T01:17:57.297446+00:00",
+  "generated_at": "2026-11-12T02:18:16.751024+00:00",
   "items": [
+    {
+      "id": "4df39dd3994f9aab7f63",
+      "course_id": "sun-city",
+      "title": "AGM, Annual Report & General Committee Election Update",
+      "summary": "Dear Members, A few important reminders for members ahead of this year’s AGM on",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/agm-annual-report-general-committee-election-update/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-11T15:23:19+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "57fc4722ff95c4342532",
+      "course_id": "sun-city",
+      "title": "Member Notice – MiClub Group Bookings",
+      "summary": "Member Notice – MiClub Group Bookings We are aware that some members are currently",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/member-notice-miclub-group-bookings/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-11T09:20:29+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "136fd854a9a07e360824",
+      "course_id": "collier-park",
+      "title": "DRIVING RANGE HOURS | NOVEMBER",
+      "summary": "November Driving Range Opening Hours The range stays open all month, but a couple",
+      "url": "https://collierparkgolf.com.au/driving-range-hours-november/",
+      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/11/Driving-Range-Hours-November.svg",
+      "images": [
+        "https://collierparkgolf.com.au/wp-content/uploads/2026/11/Driving-Range-Hours-November.svg"
+      ],
+      "published_at": "2026-11-11T01:38:21+00:00",
+      "category": "Course news"
+    },
     {
       "id": "e3e4139216cda7aed5a1",
       "course_id": "sun-city",
@@ -118,17 +153,6 @@
       "category": "Course news"
     },
     {
-      "id": "fc22d5c6a739f32a38af",
-      "course_id": "sun-city",
-      "title": "OFFICE UNATTENDED TODAY – THURS 5th NOV",
-      "summary": "We apologise for any inconvenience; due to unforeseen circumstances the office will be unattended",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/office-unattended-today-thurs-5th-nov/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-05T01:02:18+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "907f817a4c7e2b03326f",
       "course_id": "gosnells-golf-club",
       "title": "Melbourne Cup Day 2026",
@@ -153,21 +177,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-11-03T04:28:28+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "77a12d25a90cadf92a67",
-      "course_id": "sun-city",
-      "title": "Last Chance to Buy Your Melbourne Cup Tickets",
-      "summary": "MELBOURNE CUP IS JUST 2 DAYS AWAY! Have you booked your ticket yet! Get",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/last-chance-to-buy-your-melbourne-cup-tickets/",
-      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Melbourne-Cup-Drinks-Package-1.png",
-      "images": [
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Melbourne-Cup-Drinks-Package-1.png",
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Melbourne-Cup-Floral-Cocktail-Menu-1.png",
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Elegant-Melbourne-Cup-Day-Schedule-1.png"
-      ],
-      "published_at": "2026-11-01T10:57:39+00:00",
       "category": "Course news"
     },
     {
@@ -366,28 +375,6 @@
       "category": "Course news"
     },
     {
-      "id": "c833b37082776e1e9bac",
-      "course_id": "mosman-park",
-      "title": "Notice Calling for Committee Nominations",
-      "summary": "Nominations are hereby called for the appointment of Officers to the following positions of",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/notice-calling-for-committee-nominations/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-13T02:28:32+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "6b37ffcfd0b72f587d21",
-      "course_id": "pinjarra",
-      "title": "Special General Meeting – Monday 26th October",
-      "summary": "Please see the new constitution for Pinjarra Golf Club up for member vote at",
-      "url": "https://www.pinjarragolf.com.au/cms/2026/10/special-general-meeting-monday-26th-october/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-12T02:13:12+00:00",
-      "category": "Offers"
-    },
-    {
       "id": "ae171d9d730357b7c3ea",
       "course_id": "collier-park",
       "title": "The Longest Day at Collier Park",
@@ -425,6 +412,17 @@
       "category": "Course news"
     },
     {
+      "id": "92f702db4a7262e67069",
+      "course_id": "mosman-park",
+      "title": "Demo MGI Electric Buggies at the Pro Shop",
+      "summary": "The Pro Shop is now stocking MGI Electric Golf Buggies. We current have four",
+      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/10/demo-mgi-electric-buggies-at-the-pro-shop/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-10-02T02:36:25+00:00",
+      "category": "Course news"
+    },
+    {
       "id": "852198831337a444bb72",
       "course_id": "the-vines",
       "title": "Aussie BBQ NYE Family Party",
@@ -449,19 +447,6 @@
       "category": "Course news"
     },
     {
-      "id": "9e5745febf9f513790c0",
-      "course_id": "collier-park",
-      "title": "Take The Next Step: October Sessions",
-      "summary": "We’re excited to announce that Take The Next Step has evolved! We’re thrilled to",
-      "url": "https://collierparkgolf.com.au/take-the-next-step-october-sessions/",
-      "image": "https://collierparkgolf.com.au/wp-content/uploads/2026/06/85730f82-0bc6-428f-bd34-aa3f9337dd5a.jpg",
-      "images": [
-        "https://collierparkgolf.com.au/wp-content/uploads/2026/06/85730f82-0bc6-428f-bd34-aa3f9337dd5a.jpg"
-      ],
-      "published_at": "2026-09-15T05:47:23+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "8796e23e65ff70db4223",
       "course_id": "pinjarra",
       "title": "FOOTY TIPPING 2026",
@@ -470,6 +455,21 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-08T02:28:17+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "26686f24b0e8162d488f",
+      "course_id": "pinjarra",
+      "title": "Congratulations to our 2026 Club Champion Hayley Rasmussen",
+      "summary": "See below for full results from our 2026 Women’s Championship Winners. Congratulations to all",
+      "url": "https://www.pinjarragolf.com.au/cms/2026/08/congratulations-to-our-2026-club-champion-hayley-rasmussen/",
+      "image": "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/Hayley-1.jpg",
+      "images": [
+        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/Hayley-1.jpg",
+        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/40ad99ec-77fc-47e3-acde-fe9561b68376.jpg",
+        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/1a0b77b1-26f8-4e72-99fd-875ffcac737a-1.jpg"
+      ],
+      "published_at": "2026-08-22T04:44:31+00:00",
       "category": "Course news"
     }
   ],
@@ -548,7 +548,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
