@@ -1,0 +1,55 @@
+{
+  "timestamp_utc": "2026-11-13T00:26:16.559147+00:00",
+  "checks": [
+    {
+      "command": [
+        "/workspace/golfhub-perth/.venv/bin/python",
+        "-m",
+        "py_compile",
+        "app/shared_cache.py",
+        "tests/test_cache_snapshot_shape.py",
+        "tests/test_startup_cache.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "-c",
+        "core.whitespace=cr-at-eol",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/scratch/actionlint-1.7.12/actionlint",
+        "-version"
+      ],
+      "exit_code": 0,
+      "stdout": "1.7.12\ninstalled by downloading from release page\nbuilt with go1.26.1 compiler for linux/amd64\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "/workspace/scratch/actionlint-1.7.12/actionlint"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    }
+  ],
+  "file_sha256": {
+    "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+    "app/qt_golfhub_app.py": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "tests/test_cache_snapshot_shape.py": "3ec2aa79edccfa7cb58f9576a994d81166ed24b4f83136b15aa8e570c86d3cd2",
+    "tests/test_startup_cache.py": "7437c4efce5355444559adcf706150ee925cd1803e95905a056327003ca2b5d3",
+    ".github/workflows/test-desktop.yml": "249034d9961e423cd1f9d5945c1972e3163a3b67da67ca9e53b60fdd2f7505ad",
+    ".github/workflows/test-cache.yml": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d"
+  }
+}

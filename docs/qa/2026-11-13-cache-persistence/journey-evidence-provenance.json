@@ -1,0 +1,56 @@
+{
+  "recorded_utc": "2026-11-13T00:27:10.316870+00:00",
+  "baseline_head": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+  "source_sha256": {
+    "baseline_cache": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+    "repair_cache": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+    "unchanged_app": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1"
+  },
+  "ui_probe_sha256": "d0b438663fe23e5e11973b708f4083a9b87099b0f0e0e87db151f07df9e8e0c6",
+  "identical_final_probe_before_and_after": true,
+  "baseline_script_equals_original_scratch": true,
+  "initial_age_fixture": {
+    "script_sha256": "9d26be4f9e610c478ec5ed8c1b935cfd961b9f36241db1e705bd71013c6c54fc",
+    "before_json_sha256": "5c5fc8556de95b6b824817a9f3c9396717a0e7b6df890f28206d3e8303803d84",
+    "correction_diff_sha256": "b10030bf6fde68d46e2e84d94365e7ec50999abae014dc0aca2ede7cf0afd36e",
+    "execution_exit_code": 0,
+    "reason": "An old2032timestamp was future relative actual2026clock despite fake2033search date. Changed old saved generated_at to actual now minus1day. Original script/log/PNGs/JSON preserved. No product or test changes, no fixture exception.",
+    "correction_diff_file": "initial-age-fixture/fixture-correction.diff.gz",
+    "correction_diff_encoding": "gzip; recorded SHA256 applies to decompressed original bytes; archive avoids a trailing-space diff context line in git whitespace checks"
+  },
+  "copied_scripts": {
+    "journeys.py": {
+      "sha256": "8331416bdc5d5c3b3b429170f5ff438d8ce9df9f2bbc4a74e13e9930739669fa",
+      "copied_from": "docs/qa/2026-11-12-cache-completion/journeys.py",
+      "byte_identical": true
+    },
+    "startup-decisions.py": {
+      "sha256": "c4a42c12f08ec220fe3ba89ff7aa098b7f079f77060aa560abd1dd56b862654a",
+      "copied_from": "docs/qa/2026-11-12-cache-completion/startup-decisions.py",
+      "byte_identical": true
+    },
+    "inert-completion-probe.py": {
+      "sha256": "65eb3ae0719377c2fced01609225548b52e42f43e789a32ec3bff0935103e694",
+      "copied_from": "docs/qa/2026-11-12-cache-completion/inert-completion-probe.py",
+      "byte_identical": true
+    }
+  },
+  "executions": {
+    "corrected_baseline_ui": 0,
+    "repair_ui": 0,
+    "filter50": 0,
+    "startup5": 0,
+    "inert_completion8": 0,
+    "ui_evidence_comparison": 0
+  },
+  "source_unchanged_during_diagnostics": true,
+  "notes": "Real local temporary files and mocked I/O/transport failures only. No count/grid diagnostic replay or real QThread/native-close run today; their runtime source is unchanged. Diagnostic counts are separate from unit-test totals.",
+  "artifact_hashes": {
+    "before/probe.json": "842cd3384c47cbdf3630367f62cce33ecc644647d9b0cf12a99fcf8514b5efe0",
+    "after/probe.json": "7b6804afb5b8bc517e80ac5684eb6e3ef0f762a53d563685ecbb989d58bd3634",
+    "ui-comparison.json": "54d477751a073561c0a9371142f76c5999a722ba7f2e5fbc65ff05f656ac613e",
+    "journeys.json": "5992c80c2566b846c613caa8927129950f61c75cd1668313d22947e8ec577e24",
+    "startup/startup-decisions.json": "50c275fcf96e474fac701f08d429d6ded1d9c4e5b278f9bfd30c07b548c4dde6",
+    "completion/probe.json": "18bb2be7fd40c0a5ffc1c4d4d12060f0c7897fea11fb3c020894a6b22e81f551"
+  }
+}

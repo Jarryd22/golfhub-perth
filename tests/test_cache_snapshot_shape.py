@@ -153,3 +153,41 @@ class CacheSnapshotShapeTests(unittest.TestCase):
                     self.assertIsNone(refresh_cache_shard.load_previous_snapshot(
                         cache.LOCAL_CACHE_DIR, self.date, self.holes))
             fetch.assert_not_called()
+
+    def test_valid_download_survives_cache_directory_creation_failure(self):
+        valid = self.snapshot(self.result(decorated_rows=[{"minutes": 540, "spots": 4}]))
+        with patch.object(Path, "mkdir", side_effect=PermissionError("Synthetic cache directory failure")):
+            actual = self.fetch_bytes(valid)
+        self.assertEqual(actual, valid)
+        self.assertFalse(self.path.exists())
+
+    def test_valid_download_survives_write_failure_and_preserves_saved_bytes(self):
+        previous = self.snapshot(self.result(decorated_rows=[{"minutes": 480, "spots": 2}]))
+        self.write_raw(previous)
+        original = self.path.read_bytes()
+        fresh = self.snapshot(self.result(decorated_rows=[{"minutes": 540, "spots": 4}]))
+        with patch.object(Path, "write_text", side_effect=OSError("Synthetic disk full")):
+            actual = self.fetch_bytes(fresh)
+        self.assertEqual(actual, fresh)
+        self.assertEqual(self.path.read_bytes(), original)
+        self.assertEqual(cache.load_local_snapshot(self.date, self.holes), previous)
+
+    def test_valid_download_survives_replace_failure_and_preserves_saved_bytes(self):
+        previous = self.snapshot(self.result(decorated_rows=[{"minutes": 480, "spots": 2}]))
+        self.write_raw(previous)
+        original = self.path.read_bytes()
+        fresh = self.snapshot(self.result(decorated_rows=[{"minutes": 540, "spots": 4}]))
+        with patch.object(Path, "replace", side_effect=PermissionError("Synthetic replace failure")):
+            actual = self.fetch_bytes(fresh)
+        self.assertEqual(actual, fresh)
+        self.assertEqual(self.path.read_bytes(), original)
+        self.assertEqual(cache.load_local_snapshot(self.date, self.holes), previous)
+
+    def test_later_successful_download_can_persist_after_a_save_failure(self):
+        valid = self.snapshot(self.result(decorated_rows=[{"minutes": 540, "spots": 4}]))
+        with patch.object(cache, "save_local_snapshot", side_effect=OSError("Synthetic save failure")) as save:
+            self.assertEqual(self.fetch_bytes(valid), valid)
+        save.assert_called_once_with(valid)
+        self.assertFalse(self.path.exists())
+        self.assertEqual(self.fetch_bytes(valid), valid)
+        self.assertEqual(cache.load_local_snapshot(self.date, self.holes), valid)

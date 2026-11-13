@@ -1,0 +1,166 @@
+{
+  "reviewed_at_utc": "2026-11-13T00:27:31.073364+00:00",
+  "reviewer": "/root/nov06_review",
+  "base": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+  "head_at_review": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+  "reviewed_file_sha256": {
+    "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+    "tests/test_cache_snapshot_shape.py": "3ec2aa79edccfa7cb58f9576a994d81166ed24b4f83136b15aa8e570c86d3cd2",
+    "tests/test_startup_cache.py": "7437c4efce5355444559adcf706150ee925cd1803e95905a056327003ca2b5d3"
+  },
+  "changed_function_ASTs": [
+    "fetch_shared_snapshot"
+  ],
+  "unchanged_shared_cache_function_AST_count": 9,
+  "validation_before_save_and_outer_error_handlers_unchanged": true,
+  "inner_save_call_ast_unchanged": true,
+  "inner_handler_type": "OSError",
+  "test_changes": {
+    "tests/test_cache_snapshot_shape.py": {
+      "modified_existing_test_or_fixture_methods": [],
+      "added_test_methods": [
+        "CacheSnapshotShapeTests.test_later_successful_download_can_persist_after_a_save_failure",
+        "CacheSnapshotShapeTests.test_valid_download_survives_cache_directory_creation_failure",
+        "CacheSnapshotShapeTests.test_valid_download_survives_replace_failure_and_preserves_saved_bytes",
+        "CacheSnapshotShapeTests.test_valid_download_survives_write_failure_and_preserves_saved_bytes"
+      ]
+    },
+    "tests/test_startup_cache.py": {
+      "modified_existing_test_or_fixture_methods": [],
+      "added_test_methods": [
+        "CachedStartupTests.test_multiday_shared_results_remain_loaded_when_local_writes_fail",
+        "CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails"
+      ]
+    }
+  },
+  "unchanged_files": {
+    "app/qt_golfhub_app.py": {
+      "unchanged": true,
+      "sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1"
+    },
+    "app/course_results.py": {
+      "unchanged": true,
+      "sha256": "b90a832dcdf83c03bdbf2932b5fc3bbae4f19bce8f62929863e3aba237d486fb"
+    },
+    "app/golfhub_core.py": {
+      "unchanged": true,
+      "sha256": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41"
+    },
+    "scripts/refresh_cache_shard.py": {
+      "unchanged": true,
+      "sha256": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9"
+    },
+    "tests/test_thread_lifecycle.py": {
+      "unchanged": true,
+      "sha256": "6bc5e9c8c0d5c486173fab55be3c8429ee529637cfabf3cfd7da113586c2139d"
+    },
+    "data/courses.json": {
+      "unchanged": true,
+      "sha256": "6d8cf3ba2c6a32e44346ae41e032285f088661940a39df3fa5921f1fb26edeb3"
+    },
+    ".github/alerts-runtime.zip": {
+      "unchanged": true,
+      "sha256": "63d7b944607ff8ce29f293adb64d647cbb6636f227da63971c0c1a181cfdaf30"
+    },
+    ".github/alerts-runtime-manifest.json": {
+      "unchanged": true,
+      "sha256": "1e91d57d248b0f5b89ecb471cd5cd198b0d2a92cb620eb83b720362e83717f36"
+    },
+    ".github/workflows/check-alerts.yml": {
+      "unchanged": true,
+      "sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38"
+    },
+    ".github/workflows/course-news.yml": {
+      "unchanged": true,
+      "sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26"
+    },
+    ".github/workflows/refresh-cache-10min.yml": {
+      "unchanged": true,
+      "sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391"
+    },
+    ".github/workflows/test-cache.yml": {
+      "unchanged": true,
+      "sha256": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d"
+    },
+    ".github/workflows/test-desktop.yml": {
+      "unchanged": true,
+      "sha256": "249034d9961e423cd1f9d5945c1972e3163a3b67da67ca9e53b60fdd2f7505ad"
+    }
+  },
+  "findings": [],
+  "reviewer_execution": "Source/AST and saved evidence inspection only; no runtime, lifecycle, native/device or remote test executed.",
+  "reviewed_parent_regression_evidence": {
+    "cache": {
+      "baseline": {
+        "timestamp_utc": "2026-11-13T00:24:22.598120+00:00",
+        "head": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+        "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+        "cache_sha256": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+        "test_sha256": "3ec2aa79edccfa7cb58f9576a994d81166ed24b4f83136b15aa8e570c86d3cd2",
+        "exit_code": 1,
+        "result": {
+          "run": 14,
+          "failures": 4,
+          "errors": 0,
+          "skipped": 0
+        }
+      },
+      "candidate": {
+        "timestamp_utc": "2026-11-13T00:25:09.154226+00:00",
+        "head": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+        "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+        "cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+        "test_sha256": "3ec2aa79edccfa7cb58f9576a994d81166ed24b4f83136b15aa8e570c86d3cd2",
+        "exit_code": 0,
+        "result": {
+          "run": 14,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      },
+      "identical_final_test_file": true
+    },
+    "ui": {
+      "baseline": {
+        "timestamp_utc": "2026-11-13T00:24:23.420208+00:00",
+        "head": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+        "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+        "cache_sha256": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4",
+        "test_sha256": "7437c4efce5355444559adcf706150ee925cd1803e95905a056327003ca2b5d3",
+        "exit_code": 1,
+        "result": {
+          "run": 7,
+          "failures": 3,
+          "errors": 0,
+          "skipped": 0
+        }
+      },
+      "candidate": {
+        "timestamp_utc": "2026-11-13T00:25:09.957890+00:00",
+        "head": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+        "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+        "cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+        "test_sha256": "7437c4efce5355444559adcf706150ee925cd1803e95905a056327003ca2b5d3",
+        "exit_code": 0,
+        "result": {
+          "run": 7,
+          "failures": 0,
+          "errors": 0,
+          "skipped": 0
+        }
+      },
+      "identical_final_test_file": true
+    }
+  },
+  "scope": "Return successfully downloaded and validated shared data after ordinary local persistence OSError; does not promise new data is durable or repair disk permissions.",
+  "limits": [
+    "Fresh data remains available to this request but is not necessarily saved for offline/restart use",
+    "Existing temp-file behavior is unchanged; failed replace can leave .tmp while old .json remains intact",
+    "Filesystem errors are injected; no actual disk-full, native permission or updater behavior was tested by reviewer",
+    "Root owns final aggregate, remote head and exact-head all-event CI verification",
+    "Historical Windows cache_close, canonical source/subset integration, native/device/delivery limits remain unresolved",
+    "Auditor denial for unrelated /tmp/codex-daemon-1000 read is retained and was not revisited",
+    "No provider, booking, notification or production-history action performed"
+  ]
+}
