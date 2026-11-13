@@ -110,7 +110,11 @@ def fetch_shared_snapshot(date_str: str, hole_type: str, timeout: int = 5) -> di
         with urllib.request.urlopen(request, timeout=timeout) as response:
             payload = json.loads(response.read().decode("utf-8"))
         payload = validate_snapshot(payload, date_str, hole_type)
-        save_local_snapshot(payload)
+        try:
+            save_local_snapshot(payload)
+        except OSError:
+            # Validated shared data remains usable even if its local copy cannot be saved.
+            pass
         return payload
     except (OSError, ValueError, TypeError, json.JSONDecodeError, urllib.error.URLError):
         return None

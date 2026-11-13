@@ -1,0 +1,762 @@
+{
+  "timestamp_utc": "2026-11-13T00:25:54.476262+00:00",
+  "head": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+  "source_sha256": {
+    "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+    "app/qt_golfhub_app.py": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1"
+  },
+  "cases": [
+    {
+      "scenario": "write_error_old_single",
+      "injected_io_errors": [
+        {
+          "operation": "write_text",
+          "path": "2033-01-02/18.tmp"
+        }
+      ],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": true,
+      "fetch_returned_dates": [
+        "2033-01-02"
+      ],
+      "returned_exact_downloads": {
+        "2033-01-02": true
+      },
+      "submitted_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+      "status": "1 matching tee time across 1 course",
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "4 spots"
+      ],
+      "rendered_rows": [
+        {
+          "time": "10:00 am",
+          "minutes": 600,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 0,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": true,
+          "exists_after": true,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "mkdir_error_empty_single",
+      "injected_io_errors": [
+        {
+          "operation": "mkdir",
+          "path": "2033-01-02"
+        }
+      ],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": true,
+      "fetch_returned_dates": [
+        "2033-01-02"
+      ],
+      "returned_exact_downloads": {
+        "2033-01-02": true
+      },
+      "submitted_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+      "status": "1 matching tee time across 1 course",
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "4 spots"
+      ],
+      "rendered_rows": [
+        {
+          "time": "10:00 am",
+          "minutes": 600,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 0,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": false,
+          "exists_after": false,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "replace_error_old_multi",
+      "injected_io_errors": [
+        {
+          "operation": "replace",
+          "path": "2033-01-02/18.tmp"
+        },
+        {
+          "operation": "replace",
+          "path": "2033-01-03/18.tmp"
+        }
+      ],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        },
+        {
+          "url": "https://example.invalid/cache/2033-01-03/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": true,
+      "fetch_returned_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "returned_exact_downloads": {
+        "2033-01-02": true,
+        "2033-01-03": true
+      },
+      "submitted_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE / 2 OF 2 DAYS",
+      "status": "2 matching tee times across 2 days",
+      "labels": [
+        "2 matching times across 2 days",
+        "2 days with availability",
+        "0 official course links",
+        "2 of 2 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "4 spots",
+        "Shared cache - updated less than a minute ago"
+      ],
+      "rendered_rows": [
+        {
+          "time": "10:00 am",
+          "minutes": 600,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 2,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": true,
+          "exists_after": true,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": true
+        },
+        "2033-01-03": {
+          "existed_before": false,
+          "exists_after": false,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": true
+        }
+      }
+    },
+    {
+      "scenario": "write_error_empty_multi",
+      "injected_io_errors": [
+        {
+          "operation": "write_text",
+          "path": "2033-01-02/18.tmp"
+        },
+        {
+          "operation": "write_text",
+          "path": "2033-01-03/18.tmp"
+        }
+      ],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        },
+        {
+          "url": "https://example.invalid/cache/2033-01-03/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": true,
+      "fetch_returned_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "returned_exact_downloads": {
+        "2033-01-02": true,
+        "2033-01-03": true
+      },
+      "submitted_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE / 2 OF 2 DAYS",
+      "status": "2 matching tee times across 2 days",
+      "labels": [
+        "2 matching times across 2 days",
+        "2 days with availability",
+        "0 official course links",
+        "2 of 2 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "4 spots",
+        "Shared cache - updated less than a minute ago"
+      ],
+      "rendered_rows": [
+        {
+          "time": "10:00 am",
+          "minutes": 600,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 2,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": false,
+          "exists_after": false,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        },
+        "2033-01-03": {
+          "existed_before": false,
+          "exists_after": false,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "valid_save_single",
+      "injected_io_errors": [],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": true,
+      "fetch_returned_dates": [
+        "2033-01-02"
+      ],
+      "returned_exact_downloads": {
+        "2033-01-02": true
+      },
+      "submitted_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+      "status": "1 matching tee time across 1 course",
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "4 spots"
+      ],
+      "rendered_rows": [
+        {
+          "time": "10:00 am",
+          "minutes": 600,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 0,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": false,
+          "exists_after": true,
+          "bytes_unchanged": false,
+          "stored_matches_download": true,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "valid_save_multi",
+      "injected_io_errors": [],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        },
+        {
+          "url": "https://example.invalid/cache/2033-01-03/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": true,
+      "fetch_returned_dates": [
+        "2033-01-02",
+        "2033-01-03"
+      ],
+      "returned_exact_downloads": {
+        "2033-01-02": true,
+        "2033-01-03": true
+      },
+      "submitted_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE / 2 OF 2 DAYS",
+      "status": "2 matching tee times across 2 days",
+      "labels": [
+        "2 matching times across 2 days",
+        "2 days with availability",
+        "0 official course links",
+        "2 of 2 dates loaded",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "4 spots",
+        "Shared cache - updated less than a minute ago"
+      ],
+      "rendered_rows": [
+        {
+          "time": "10:00 am",
+          "minutes": 600,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 2,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": false,
+          "exists_after": true,
+          "bytes_unchanged": false,
+          "stored_matches_download": true,
+          "temporary_file_exists": false
+        },
+        "2033-01-03": {
+          "existed_before": false,
+          "exists_after": true,
+          "bytes_unchanged": false,
+          "stored_matches_download": true,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "invalid_payload_old_single",
+      "injected_io_errors": [],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": false,
+      "fetch_returned_dates": [],
+      "returned_exact_downloads": {},
+      "submitted_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SAVED CACHE / 24 HOURS AGO",
+      "status": "1 matching tee time across 1 course",
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Saved on this device - updated 24 hours ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "8:00 am",
+        "4 spots"
+      ],
+      "rendered_rows": [
+        {
+          "time": "8:00 am",
+          "minutes": 480,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 0,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": true,
+          "exists_after": true,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "transport_error_old_single",
+      "injected_io_errors": [],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": false,
+      "fetch_returned_dates": [],
+      "returned_exact_downloads": {},
+      "submitted_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SAVED CACHE / 24 HOURS AGO",
+      "status": "1 matching tee time across 1 course",
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Saved on this device - updated 24 hours ago",
+        "Araluen",
+        "1 matching tee time - 18 holes",
+        "",
+        "Forecast unavailable",
+        "8:00 am",
+        "4 spots"
+      ],
+      "rendered_rows": [
+        {
+          "time": "8:00 am",
+          "minutes": 480,
+          "spots": 4,
+          "source_url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?selectedDate=2033-01-02"
+        }
+      ],
+      "day_count": 0,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": true,
+          "exists_after": true,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        }
+      }
+    },
+    {
+      "scenario": "transport_error_empty_multi",
+      "injected_io_errors": [],
+      "download_calls": [
+        {
+          "url": "https://example.invalid/cache/2033-01-02/18.json",
+          "timeout": 5
+        },
+        {
+          "url": "https://example.invalid/cache/2033-01-03/18.json",
+          "timeout": 5
+        }
+      ],
+      "downloaded_valid_payloads": false,
+      "fetch_returned_dates": [],
+      "returned_exact_downloads": {},
+      "submitted_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "render_context": {
+        "dates": [
+          "2033-01-02",
+          "2033-01-03"
+        ],
+        "date": "2033-01-02",
+        "holes": "18",
+        "players": 4,
+        "from": null,
+        "to": null,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "live_fallback_contexts": [],
+      "header": "SHARED CACHE UNAVAILABLE",
+      "status": "Multi-day cache temporarily unavailable",
+      "labels": [
+        "Find a round that fits your day",
+        "No cached results were available for these dates. Try a shorter range or search again shortly."
+      ],
+      "rendered_rows": [],
+      "day_count": 0,
+      "local_cache": {
+        "2033-01-02": {
+          "existed_before": false,
+          "exists_after": false,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        },
+        "2033-01-03": {
+          "existed_before": false,
+          "exists_after": false,
+          "bytes_unchanged": true,
+          "stored_matches_download": false,
+          "temporary_file_exists": false
+        }
+      }
+    }
+  ],
+  "callback_errors": [],
+  "scope": "Actual shared-cache fetch/validation/save functions, mocked BytesIO downloads and URLError, real isolated cache files, targeted Path I/O OSError injection, actual UI completion/rendering; no workers, sockets, provider calls, browser navigation, holds, notifications or filesystem permission changes.",
+  "limits": "Injected storage/transport failures are not production incidents. Single-date live fallback is intercepted; its in-progress UI is therefore not executed. No native Windows/Android, device/screen-reader, real filesystem exhaustion or notification test."
+}

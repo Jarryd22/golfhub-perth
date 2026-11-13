@@ -1,0 +1,52 @@
+{
+  "diagnostic_cases": 9,
+  "passed": 9,
+  "cases": [
+    {
+      "scenario": "write_error_old_single",
+      "passed": true,
+      "outcome": "Downloaded data now displayed despite failed persistence; source context and local bytes preserved"
+    },
+    {
+      "scenario": "mkdir_error_empty_single",
+      "passed": true,
+      "outcome": "Downloaded data now displayed despite failed persistence; source context and local bytes preserved"
+    },
+    {
+      "scenario": "replace_error_old_multi",
+      "passed": true,
+      "outcome": "Downloaded data now displayed despite failed persistence; source context and local bytes preserved"
+    },
+    {
+      "scenario": "write_error_empty_multi",
+      "passed": true,
+      "outcome": "Downloaded data now displayed despite failed persistence; source context and local bytes preserved"
+    },
+    {
+      "scenario": "valid_save_single",
+      "passed": true,
+      "outcome": "Valid-save, validation or transport control unchanged"
+    },
+    {
+      "scenario": "valid_save_multi",
+      "passed": true,
+      "outcome": "Valid-save, validation or transport control unchanged"
+    },
+    {
+      "scenario": "invalid_payload_old_single",
+      "passed": true,
+      "outcome": "Valid-save, validation or transport control unchanged"
+    },
+    {
+      "scenario": "transport_error_old_single",
+      "passed": true,
+      "outcome": "Valid-save, validation or transport control unchanged"
+    },
+    {
+      "scenario": "transport_error_empty_multi",
+      "passed": true,
+      "outcome": "Valid-save, validation or transport control unchanged"
+    }
+  ],
+  "note": "Evidence comparisons, not additional unit-test methods."
+}

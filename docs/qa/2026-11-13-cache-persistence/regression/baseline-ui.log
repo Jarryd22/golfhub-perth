@@ -1,0 +1,169 @@
+QA_RESULT {"run": 7, "failures": 3, "errors": 0, "skipped": 0}
+test_absent_or_invalid_json_cache_still_schedules_shared_check (cache_persistence_regression.CachedStartupTests.test_absent_or_invalid_json_cache_still_schedules_shared_check) ... Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Fontconfig error: No writable cache directories
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_invalid_download_falls_back_to_existing_saved_result_without_live_worker (cache_persistence_regression.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_malformed_saved_rows_do_not_abort_scheduled_shared_check (cache_persistence_regression.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_multiday_shared_results_remain_loaded_when_local_writes_fail (cache_persistence_regression.CachedStartupTests.test_multiday_shared_results_remain_loaded_when_local_writes_fail) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+FAIL
+test_nonobject_saved_results_do_not_abort_scheduled_shared_check (cache_persistence_regression.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_valid_saved_states_render_before_scheduled_refresh (cache_persistence_regression.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails (cache_persistence_regression.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails (cache_persistence_regression.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails) (saved=True) ... FAIL
+  test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails (cache_persistence_regression.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails) (saved=False) ... FAIL
+
+======================================================================
+FAIL: test_multiday_shared_results_remain_loaded_when_local_writes_fail (cache_persistence_regression.CachedStartupTests.test_multiday_shared_results_remain_loaded_when_local_writes_fail)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261113/tests/test_startup_cache.py", line 135, in test_multiday_shared_results_remain_loaded_when_local_writes_fail
+    self.assertEqual(self.headline(), "2 matching times across 2 days")
+AssertionError: '0 matching times across 1 loaded day' != '2 matching times across 2 days'
+- 0 matching times across 1 loaded day
+? ^                       ^^^^^^^^
++ 2 matching times across 2 days
+? ^                       ^    +
+
+
+======================================================================
+FAIL: test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails (cache_persistence_regression.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails) (saved=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261113/tests/test_startup_cache.py", line 111, in test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails
+    self.assertEqual(self.headline(), "1 matching time")
+AssertionError: '0 matching times' != '1 matching time'
+- 0 matching times
+? ^              -
++ 1 matching time
+? ^
+
+
+======================================================================
+FAIL: test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails (cache_persistence_regression.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails) (saved=False)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261113/tests/test_startup_cache.py", line 110, in test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails
+    live.assert_not_called()
+  File "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/unittest/mock.py", line 910, in assert_not_called
+    raise AssertionError(msg)
+AssertionError: Expected 'search_live' to not have been called. Called 1 times.
+Calls: [call({'sites': [Site(name='Araluen', domain='araluenestategolfcourse.miclub.com.au', holes={'18': HoleOption(booking_resource_id='3000000', fee_group_id='102807', weekday_fee_group_id=None, weekend_fee_group_id=None, fee_group_ids=()), '9': HoleOption(booking_resource_id='3000000', fee_group_id='102808', weekday_fee_group_id=None, weekend_fee_group_id=None, fee_group_ids=())}, weather_query='coords:-32.1197,116.0836', provider='miclub')], 'date': '2033-01-02', 'dates': ['2033-01-02'], 'holes': '18', 'from': None, 'to': None, 'players': 4})].
+
+----------------------------------------------------------------------
+Ran 7 tests in 0.735s
+
+FAILED (failures=3)

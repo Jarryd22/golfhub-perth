@@ -87,6 +87,56 @@ class CachedStartupTests(unittest.TestCase):
         self.assertEqual(self.path.read_bytes(), original)
         self.assertNotIn("SAVED CACHE", self.window.header_status.text())
 
+    def test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails(self):
+        self.window.players.setCurrentText("4")
+        previous = self.snapshot(self.result(decorated_rows=[{"time": "8:00 am", "minutes": 480, "spots": 2}]))
+        fresh = self.snapshot(self.result(decorated_rows=[{"time": "9:00 am", "minutes": 540, "spots": 4}]))
+        for saved in (True, False):
+            with self.subTest(saved=saved):
+                if saved:
+                    self.write_raw(previous)
+                else:
+                    self.path.unlink(missing_ok=True)
+                original = self.path.read_bytes() if saved else None
+                with (
+                    patch.object(cache, "_cache_base_url", return_value="https://example.invalid/cache"),
+                    patch.object(cache.urllib.request, "urlopen", return_value=io.BytesIO(json.dumps(fresh).encode())),
+                    patch.object(Path, "write_text", side_effect=OSError("Synthetic disk full")),
+                ):
+                    fetched = cache.fetch_shared_snapshot(self.date, "18")
+                self.window.context = self.window.params()
+                with patch.object(self.window, "search_live") as live:
+                    self.window.cache_finished({self.date: fetched})
+                live.assert_not_called()
+                self.assertEqual(self.headline(), "1 matching time")
+                self.assertTrue(self.window.header_status.text().startswith("SHARED CACHE /"))
+                self.assertEqual(self.window.last_results, fresh["results"])
+                self.assertEqual(self.path.read_bytes() if self.path.exists() else None, original)
+
+    def test_multiday_shared_results_remain_loaded_when_local_writes_fail(self):
+        self.window.players.setCurrentText("4")
+        self.window.date.set_dates([QDate(2033, 1, 2), QDate(2033, 1, 4)])
+        previous = self.snapshot(self.result(decorated_rows=[{"time": "8:00 am", "minutes": 480, "spots": 2}]))
+        self.write_raw(previous)
+        original = self.path.read_bytes()
+        fresh = {date: cache.make_snapshot(date, "18", [self.result(
+            decorated_rows=[{"time": "9:00 am", "minutes": 540, "spots": 4}])])
+                 for date in (self.date, "2033-01-04")}
+        with (
+            patch.object(cache, "_cache_base_url", return_value="https://example.invalid/cache"),
+            patch.object(cache.urllib.request, "urlopen", side_effect=[io.BytesIO(json.dumps(p).encode()) for p in fresh.values()]),
+            patch.object(Path, "write_text", side_effect=OSError("Synthetic disk full")),
+        ):
+            fetched = {date: cache.fetch_shared_snapshot(date, "18") for date in fresh}
+        self.window.context = self.window.params()
+        with patch.object(self.window, "search_live") as live:
+            self.window.cache_finished(fetched)
+        live.assert_not_called()
+        self.assertEqual(self.headline(), "2 matching times across 2 days")
+        self.assertEqual(self.window.header_status.text(), "SHARED CACHE / 2 OF 2 DAYS")
+        self.assertEqual(self.path.read_bytes(), original)
+        self.assertFalse(cache.local_snapshot_path("2033-01-04", "18").exists())
+
     def test_nonobject_saved_results_do_not_abort_scheduled_shared_check(self):
         for invalid in (None, "course record"):
             with self.subTest(record=invalid):
