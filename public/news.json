@@ -1,7 +1,29 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-12T02:18:16.751024+00:00",
+  "generated_at": "2026-11-13T01:56:31.150675+00:00",
   "items": [
+    {
+      "id": "107a6f7dbc9af0e31b6d",
+      "course_id": "hartfield",
+      "title": "November Course Report",
+      "summary": "The post November Course Report appeared first on Hartfield Country Club .",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/november-course-report/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-13T01:38:56+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "bc3f9e2b67738d2a0717",
+      "course_id": "the-vines",
+      "title": "Festive Dinner Special Menu",
+      "summary": "'Tis the season to indulge with a festive feast in the lead up to",
+      "url": "https://www.vines.com.au/uncategorized/festive-dinner-menu/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-12T08:52:08+00:00",
+      "category": "Offers"
+    },
     {
       "id": "4df39dd3994f9aab7f63",
       "course_id": "sun-city",
@@ -125,19 +147,6 @@
       ],
       "published_at": "2026-11-08T07:40:31+00:00",
       "category": "Events"
-    },
-    {
-      "id": "cab146b6229812d4e7a5",
-      "course_id": "hartfield",
-      "title": "November Friday Night $25 Meals",
-      "summary": "The post November Friday Night $25 Meals appeared first on Hartfield Country Club .",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/november-friday-night-25-meals/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/November-Friday-Nights-Club-Special-1.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/November-Friday-Nights-Club-Special-1.png"
-      ],
-      "published_at": "2026-11-08T07:37:05+00:00",
-      "category": "Course news"
     },
     {
       "id": "45e7ee057d0ead613710",
@@ -548,7 +557,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
