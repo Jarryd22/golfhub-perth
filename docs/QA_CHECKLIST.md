@@ -70,7 +70,19 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 13 November 2026
+## Latest pass: 14 November 2026
+
+See the [daily QA/integration checkpoint](qa/2026-11-14/REPORT.md) and [compact evidence](qa/2026-11-14/evidence.json). No new application repair was justified; this separate documentation-only follow-up depends on unchanged PR30 `a3e522b5e2d79856f994fb342a7c6b1253a1143d`. The original main and exact-code QA checkouts remain clean; unavailable newer dirty source was not accessed. A pre-publication duplicate check found 34 branches, 28 unchanged drafts and no existing November 14 report.
+
+**Fresh November 14 passes:** 330 tests (198 desktop CI-selected + 95 cache/integrity + 37 additional), 28 isolated Linux/Python 3.12.14/Qt 6.11.2 processes, zero failures/errors/skips. Separately, 50 filter/control/render and five startup/fallback diagnostics pass with zero callback errors; all first executions. Data-only alert integrity matches all 16 members. Existing lifecycle tests ran once, without timeout relaxation or repeated Linux diagnosis. Compact source-widget guidance fits; existing punctuation/local-source work remains pending.
+
+**Existing November 13 CI, reread only:** exact PR30 Windows push/PR each passed 198 tests; Linux PR passed 95 plus workflow validation. All three events succeeded at attempt 1 and the PR checkout tree matches the head. These are not new CI runs, installed-device tests or documentation-head CI. A documentation-only head may have no exact-head run because `docs/**` is excluded; the publication PR records the actual head/run query.
+
+**Limited observation:** at 08:45:45 Perth, immutable cache `283141e` had an 8m02s-old index but Nov14/18 and Nov29/18 generations were 18m12s/17m49s old. Both had 37 null forecasts; Nov29 retained the known Wembley error. This two-payload sample establishes neither sustained failure nor cause; source schedule opportunities and publication age are not per-course freshness. It is separate from the supplied earlier 08:07 full-cache audit. No duplicate weather/provider/hourly repair.
+
+**Not run/blocked:** canonical-source integration; historical Windows cache_close diagnosis; installed Windows/Android, native accessibility/touch/DPI/resume, live providers/bookings/holds, updater/signatures and notification delivery. Public metadata remains Windows 5.1.17/Android 0.1.19. Both manifest-content reads returned connector 404 then restricted-URL errors; stopped without inferring broken public links or retrying denied endpoints. Existing prior failures and limitations remain retained. No application/test/workflow change or production action.
+
+## Previous pass: 13 November 2026
 
 See the [cache-persistence report](qa/2026-11-13-cache-persistence/REPORT.md). Exact PR29 discards valid downloaded data when saving it raises OSError, causing previous-data/live/unavailable fallback. A narrow save-only guard keeps validated shared data usable in memory. Network/validation handling, atomic replacement, workers, Qt code, workflows and existing tests/fixtures remain unchanged. Fresh data is not promised after restart/offline if persistence failed.
 

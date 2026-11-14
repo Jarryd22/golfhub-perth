@@ -1,0 +1,655 @@
+{
+  "scope": "Compact durable evidence for fresh November 14 QA, distinct from existing November 13 CI. No new application repair. Raw diagnostic artifacts remain preserved locally and are not copied into this documentation-only change.",
+  "dependency": {
+    "pr": "https://github.com/Jarryd22/golfhub-perth/pull/30",
+    "branch": "fix/desktop-cache-persistence-20261113",
+    "tested_code_head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "merge_checkout": "ef3d078d0c73e6fa3e29f112397f197b16fe9eb0",
+    "merge_tree_matches_head": true,
+    "head_and_merge_tree": "7e1555208491ce06b7c3bf29b99748c8d3c925b3"
+  },
+  "duplicate_check": {
+    "checked_at_perth": "2026-11-14 08:51–08:53",
+    "branches": 34,
+    "open_draft_prs": 28,
+    "all_prior_heads_unchanged": true,
+    "prs_created_since_2026_11_14": 0,
+    "nov14_paths_in_qa_stack_tree": 0,
+    "backlog_latest_before_edit": "2026-11-13",
+    "scope": "All-state new-PR search, complete PR30 tree, branch pagination exhausted; no new source branch names. Main and agent/golfhub-v5-final-20260729 have no docs paths."
+  },
+  "fresh_aggregate": {
+    "timestamp_utc": "2026-11-14T00:44:37.127158+00:00",
+    "commit": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "status": "",
+    "source_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "cache_source_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+    "ui_source_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "core_source_sha256": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+    "shard_source_sha256": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9",
+    "regression_sha256": {
+      "test_cache_snapshot_shape.py": "3ec2aa79edccfa7cb58f9576a994d81166ed24b4f83136b15aa8e570c86d3cd2",
+      "test_startup_cache.py": "7437c4efce5355444559adcf706150ee925cd1803e95905a056327003ca2b5d3",
+      "test_multiday_ui.py": "a96fb70c52423e64ac89bf76076fc729f7b980c17f0eefa17f0cfea2b760289c",
+      "test_course_controls.py": "6198a2434f3121d26b89e2ba0dd30177f2834504f940826460316a4cb4bbd6de",
+      "test_responsive_grid.py": "97f91e4fe215c1e90c5c05578526ea7b4396aeb833091910e9ff5a2249ca965c",
+      "test_empty_result_links.py": "ee804b56a7fe4dd2e193b54652bd90455bd4b0858d735f2bb547b60b85d3463b",
+      "test_live_button_state.py": "295ba855ed1d0f63df2752993a9be179506a6be09aa0957b77b97d8e89aac16a",
+      "test_live_recovery_states.py": "66bafc8d3d54cf0e93d2c34a01a783918eb7b2c9099670213cb9ca78151cc3a0",
+      "test_thread_lifecycle.py": "6bc5e9c8c0d5c486173fab55be3c8429ee529637cfabf3cfd7da113586c2139d"
+    },
+    "kind": "Linux offscreen source checks; blocked sockets and browser; separate module processes",
+    "modules": [
+      {
+        "module": "test_responsive_grid.py",
+        "exit_code": 0,
+        "run": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "d6272abb291684c1df38b3df0b81de81dcce9aa30147708ad9473455872575a2"
+      },
+      {
+        "module": "test_empty_result_links.py",
+        "exit_code": 0,
+        "run": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "8577f6ae27762021d716cf182fc647391dd6d914c46cff0c1918a3390e98b0c7"
+      },
+      {
+        "module": "test_live_button_state.py",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "0225d497c87dd5f1fe0aef4b68dd2bad570840eb1458efa4d9e1b7d334d835e9"
+      },
+      {
+        "module": "test_live_recovery_states.py",
+        "exit_code": 0,
+        "run": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "97c92bae16c73abbd05a69b60212c8bc95f3ba3f23d9d0f6b76c07d6cea48ed4"
+      },
+      {
+        "module": "test_offline_course_links.py",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "9c915cc0893589ee9e5c3dd9f9445a4b4a8222e2cf96e32c63511bbdeb10f86a"
+      },
+      {
+        "module": "test_calendar_mouse.py",
+        "exit_code": 0,
+        "run": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "3e6aba3f18cc1a509250786562ff6635de416caac247a61504788f25629a9e0a"
+      },
+      {
+        "module": "test_provider_exceptions.py",
+        "exit_code": 0,
+        "run": 9,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "1e08df2811d716c22ba0c9de3030e1b4f53bf8c2f3358f4cbf107507a728de34"
+      },
+      {
+        "module": "test_retained_search_context.py",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "13ae7536edb59aef54636491b365f7dea193d67383e6dcf9a35611e88913daae"
+      },
+      {
+        "module": "test_startup_cache.py",
+        "exit_code": 0,
+        "run": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "54a16377bb5f38740e8a5da9bb52e032c563a86b10a868d8e278cd3a310f7a75"
+      },
+      {
+        "module": "test_provider_error_states.py",
+        "exit_code": 0,
+        "run": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "f14957a40b7b6a4eefd7ac6d803aff389d0c6f84123494dfecb02f5d00437e17"
+      },
+      {
+        "module": "test_result_counts.py",
+        "exit_code": 0,
+        "run": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "3045bc25e57b59a11584fe70908f38de22c23eb0742b67e6fb4d39767674a6a2"
+      },
+      {
+        "module": "test_booking_assist.py",
+        "exit_code": 0,
+        "run": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "72a607bc2bc8f2d9333fdc0919861b1f664824819889fd6c8802f4cd6ac86b4a"
+      },
+      {
+        "module": "test_booking_assist_guards.py",
+        "exit_code": 0,
+        "run": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "7cda398860ea19fa150e010162a9704c2d3752ff06c3d4ccb808ef0e873ccca3"
+      },
+      {
+        "module": "test_booking_assist_optin.py",
+        "exit_code": 0,
+        "run": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "d595761a84163d7229b01da94f66c3a27313d5f79118368afdcaf1c95b9290c4"
+      },
+      {
+        "module": "test_booking_ui_integration.py",
+        "exit_code": 0,
+        "run": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "0ac67c1f90234615240978dac56a8d73a6ab2240d07eddd67e7995fe753a2541"
+      },
+      {
+        "module": "test_v5_ui_requirements.py",
+        "exit_code": 0,
+        "run": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "6f974aabdc008da6ae91cc6613b324c99a2e57736aa7ea994e6b164742556404"
+      },
+      {
+        "module": "test_collier_behavior.py",
+        "exit_code": 0,
+        "run": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "c9c9ddfe5f3ed3baf639dcf1e2e7eb736d5668fe5d3bbfeb0834564f2ee2aadd"
+      },
+      {
+        "module": "test_multiday_cache_states.py",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "3d152fb0cdf3d737ff7113b791081d176f5dc2f145caf2c575ff9480e3b9f19e"
+      },
+      {
+        "module": "test_midnight_rollover.py",
+        "exit_code": 0,
+        "run": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "7f492a53489bd97f52fdbbe1c07449c58023e88039521dec1ac4ef49633c8603"
+      },
+      {
+        "module": "test_booking_context.py",
+        "exit_code": 0,
+        "run": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "62bf87f1dfd51a5bb789058ee30e29e3ad5924dab2b9a63ec24da12dc8d953aa"
+      },
+      {
+        "module": "test_course_controls.py",
+        "exit_code": 0,
+        "run": 12,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "79501bead0017388f18fdc84eefac7bcfeef0854a5276a03dd7310e0bddede9b"
+      },
+      {
+        "module": "test_calendar_keyboard.py",
+        "exit_code": 0,
+        "run": 8,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "67e5d757790533ae970c932f8edc3c6c77fc25990c3d3ddcff0765e188344bbc"
+      },
+      {
+        "module": "test_multiday_ui.py",
+        "exit_code": 0,
+        "run": 20,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "f746dcf5f0c513ff68c0ee533e49f4b9ea7b829d1136cdba08a91a3a8b4ce35f"
+      },
+      {
+        "module": "test_perth_dates.py",
+        "exit_code": 0,
+        "run": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "b3b96264c2abfb1409f834aa10f1dc17e2a64f85046c7a79199082e6c0e32405"
+      },
+      {
+        "module": "test_time_range_ui.py",
+        "exit_code": 0,
+        "run": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "b24a5c109a875f1cc02697234cee940c66cc5542ad6e53a11600433fccaae543"
+      },
+      {
+        "module": "test_search_race.py",
+        "exit_code": 0,
+        "run": 4,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "3bb17aad7cf7b87537e8cb31629f68091265575d6e2882b19a08ab914dab1c35"
+      },
+      {
+        "module": "test_thread_lifecycle.py",
+        "exit_code": 0,
+        "run": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "6a811bf830553a5ea42e4111d62caa1e669861480ae6ca76f56736b5bbc35c84"
+      },
+      {
+        "module": "test_cache*.py",
+        "exit_code": 0,
+        "run": 95,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "original_log_sha256": "2f1a428197223903dc326426303f4198ff4c9061bdaf6c3acd6063292e60236b"
+      }
+    ],
+    "totals": {
+      "run": 330,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  },
+  "fresh_diagnostics": {
+    "timestamp_utc": "2026-11-14T00:46:19.163237+00:00",
+    "source_head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "source_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "qt": "6.11.2",
+    "python": "3.12.14",
+    "journey_diagnostic": {
+      "passed": 50,
+      "failed": 0,
+      "exit_code": 0,
+      "callback_errors": [],
+      "scope": "Actual mouse round/search actions plus programmatic combo/date/course input; 2 rounds x 5 player choices x 5 time presets; synthetic partial cache, intercepted worker launch"
+    },
+    "startup_diagnostic": {
+      "passed": 5,
+      "failed": 0,
+      "exit_code": 0,
+      "callback_errors": [],
+      "scope": "Real startup/cache-finished methods; saved empty/error, no saved data, missing single/multi-date caches; scheduled/cache/live workers intercepted"
+    },
+    "relocation": {
+      "description": "Byte-identical journeys.py in isolated mirrored layout with source/config links to exact checkout; all pre-existing dated outputs untouched. JSON/image copied to top-level evidence for convenience.",
+      "script_sha256": "8331416bdc5d5c3b3b429170f5ff438d8ce9df9f2bbc4a74e13e9930739669fa",
+      "bytes_identical_to_original": true
+    },
+    "visual_review": {
+      "logical_size": [
+        980,
+        640
+      ],
+      "inspected": true,
+      "observations": [
+        "Primary Find Tee Times action and 9-hole/custom-range/four-player controls fit; Refresh Live is disabled for three selected dates.",
+        "Summary reports four matching times across one loaded day; other date shows Availability not checked and usable retry/single-date guidance.",
+        "The recovery sentence fits at compact width and the result area is scrollable.",
+        "Date-button mojibake is visible; this is the already-documented date-punctuation/local-source reconciliation item, not a new repair candidate."
+      ],
+      "limits": [
+        "Only one static Linux/offscreen view; no native appearance, screen-reader, DPI or keyboard traversal validation.",
+        "Fixed 2033 fixture timestamps and synthetic source age are not weather/cache freshness evidence."
+      ],
+      "original_screenshot_sha256": "5c3a1e986ad896528956c6ee084f62c36db1cd5fb4bbe273089134e912640059"
+    },
+    "not_run": [
+      "Installed Windows/Android",
+      "Native screen reader, touch, DPI or resume",
+      "Real worker/thread lifecycle in these diagnostics",
+      "Booking handoff action (browser calls guarded but not invoked by these two scripts)",
+      "Provider/network calls, booking holds, notifications"
+    ],
+    "warnings": "Existing Qt Unknown property cursor warnings retained in raw logs; assertions and callback checks pass.",
+    "source_unchanged": true
+  },
+  "alert_integrity": {
+    "ok": true,
+    "member_count": 16,
+    "archive_sha256": "63d7b944607ff8ce29f293adb64d647cbb6636f227da63971c0c1a181cfdaf30",
+    "manifest_sha256": "1e91d57d248b0f5b89ecb471cd5cd198b0d2a92cb620eb83b720362e83717f36",
+    "errors": [],
+    "scope": "Data-only archive/member integrity; no extraction, import, runtime or delivery."
+  },
+  "existing_nov13_ci_reread_nov14": [
+    {
+      "id": 43337787479,
+      "url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/43337787479",
+      "event": "pull_request",
+      "name": "Test desktop search controls",
+      "path": ".github/workflows/test-desktop.yml",
+      "head_sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+      "status": "completed",
+      "conclusion": "success",
+      "attempt": 1,
+      "job_id": 131598264293,
+      "test_modules": 21,
+      "test_count": 198,
+      "all_module_results_ok": true,
+      "failed_or_error_summary": false,
+      "checkout_sha": "ef3d078d0c73e6fa3e29f112397f197b16fe9eb0",
+      "qt_version": "6.12.0"
+    },
+    {
+      "id": 43337785151,
+      "url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/43337785151",
+      "event": "pull_request",
+      "name": "Test cache refresh",
+      "path": ".github/workflows/test-cache.yml",
+      "head_sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+      "status": "completed",
+      "conclusion": "success",
+      "attempt": 1,
+      "job_id": 131598258392,
+      "test_modules": 1,
+      "test_count": 95,
+      "all_module_results_ok": true,
+      "failed_or_error_summary": false,
+      "checkout_sha": "ef3d078d0c73e6fa3e29f112397f197b16fe9eb0",
+      "qt_version": null
+    },
+    {
+      "id": 43337706548,
+      "url": "https://github.com/Jarryd22/golfhub-perth/actions/runs/43337706548",
+      "event": "push",
+      "name": "Test desktop search controls",
+      "path": ".github/workflows/test-desktop.yml",
+      "head_sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+      "status": "completed",
+      "conclusion": "success",
+      "attempt": 1,
+      "job_id": 131597991391,
+      "test_modules": 21,
+      "test_count": 198,
+      "all_module_results_ok": true,
+      "failed_or_error_summary": false,
+      "checkout_sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+      "qt_version": "6.12.0"
+    }
+  ],
+  "published_sample": {
+    "checked_at_utc": "2026-11-14T00:45:45Z",
+    "checked_at_perth": "2026-11-14T08:45:45+08:00",
+    "repository": "Jarryd22/golfhub-perth",
+    "cache_commit": "283141efe555ece6324e29cd1902eece240895d7",
+    "cache_tree": "393113d372a18f6056c7e5724b050e4ac1b46644",
+    "cache_published_at": "2026-11-14T00:37:44Z",
+    "cache_publication_age_seconds": 481,
+    "scope": "One immutable cache revision; index plus only Nov14/18 and Nov29/18 payloads. No provider access, production-history lookup, dispatch or notification/booking action.",
+    "index": {
+      "path": "public/cache/index.json",
+      "blob_sha": "cd8bdc7e1f827817fa33ea1210d39711d86a6d8f",
+      "generated_at": "2026-11-14T00:37:43+00:00",
+      "generated_age_seconds": 482,
+      "refresh_minutes": 10,
+      "range_days": 28,
+      "listed_dates": 28,
+      "listed_date_round_pairs": 56,
+      "generated_within_target": true,
+      "immutable_url": "https://raw.githubusercontent.com/Jarryd22/golfhub-perth/283141efe555ece6324e29cd1902eece240895d7/public/cache/index.json"
+    },
+    "clear_all_zero_signature": {
+      "definition": "weather is an object, label exactly Clear, and every numeric metric listed is present, finite, and exactly zero",
+      "metrics": [
+        "tmax",
+        "tmin",
+        "rain_chance",
+        "rain_mm",
+        "wind"
+      ],
+      "caveat": "A match is a diagnostic signature, not proof of meteorological invalidity or its cause."
+    },
+    "snapshots": [
+      {
+        "date": "2026-11-14",
+        "holes": "18",
+        "path": "public/cache/2026-11-14/18.json",
+        "blob_sha": "349921a8cf2d2b27ae244d3705988ab02e610ea9",
+        "generated_at": "2026-11-14T00:27:33+00:00",
+        "generated_age_seconds": 1092,
+        "generated_within_target": false,
+        "generated_age_at_publication_seconds": 611,
+        "records": 37,
+        "tee_time_rows": 37,
+        "health": {
+          "live_provider_count": 19,
+          "fresh_live_successes": 19,
+          "minimum_live_successes": 10,
+          "stale_fallbacks": 0,
+          "transient_retries": 0,
+          "transient_retry_recoveries": 0
+        },
+        "error_records": [],
+        "stale_true_records": [],
+        "weather": {
+          "null_count": 37,
+          "missing_count": 0,
+          "object_count": 0,
+          "other_count": 0,
+          "clear_all_zero_count": 0,
+          "clear_all_zero_courses": []
+        },
+        "record_timestamp_fields": [],
+        "immutable_url": "https://raw.githubusercontent.com/Jarryd22/golfhub-perth/283141efe555ece6324e29cd1902eece240895d7/public/cache/2026-11-14/18.json"
+      },
+      {
+        "date": "2026-11-29",
+        "holes": "18",
+        "path": "public/cache/2026-11-29/18.json",
+        "blob_sha": "1ed35d3514eae19bb7d33c6ec97fa3ec235e4581",
+        "generated_at": "2026-11-14T00:27:56+00:00",
+        "generated_age_seconds": 1069,
+        "generated_within_target": false,
+        "generated_age_at_publication_seconds": 588,
+        "records": 37,
+        "tee_time_rows": 145,
+        "health": {
+          "live_provider_count": 19,
+          "fresh_live_successes": 18,
+          "minimum_live_successes": 10,
+          "stale_fallbacks": 0,
+          "transient_retries": 0,
+          "transient_retry_recoveries": 0
+        },
+        "error_records": [
+          {
+            "site_name": "Wembley",
+            "error": "Wembley calendar response did not contain the configured booking products",
+            "stale": false,
+            "stale_since": null
+          }
+        ],
+        "stale_true_records": [],
+        "weather": {
+          "null_count": 37,
+          "missing_count": 0,
+          "object_count": 0,
+          "other_count": 0,
+          "clear_all_zero_count": 0,
+          "clear_all_zero_courses": []
+        },
+        "record_timestamp_fields": [],
+        "immutable_url": "https://raw.githubusercontent.com/Jarryd22/golfhub-perth/283141efe555ece6324e29cd1902eece240895d7/public/cache/2026-11-29/18.json"
+      }
+    ],
+    "interpretation": [
+      "At observation time both sampled snapshot generation ages exceed the ten-minute target, although the index and publication are within target. An index age is not the age of every date/round payload.",
+      "Both sampled payloads contain 37 weather=null values and no weather objects. Nov29's prior Clear/all-zero signature is absent; unavailable forecasts do not establish successful weather recovery or freshness.",
+      "Nov14/18 has zero course errors. Nov29/18 retains the known Wembley configured-product error. Neither sampled payload has stale=true records; no claim is made about the other 54 listed date/round payloads.",
+      "No cause of the stale generations or weather unavailability is established by this sample. The previously supplied 08:07 Perth full audit is a separate earlier observation: 56 snapshots/2072 records fresh to target, 34 known Wembley errors, Quick18 recovered, prior Nov29 zero-weather recovered.",
+      "Existing PR8 covers the incomplete-weather false-zero class; no duplicate repair or production action is proposed."
+    ],
+    "acquisition_notes": [
+      "Immutable cache branch, tree, index and both payload reads succeeded.",
+      "An auxiliary attempt to locate shared_cache.py at repository root on PR30 returned 404. It was not used as sample evidence; weather output field names were read from available app/golfhub_core.py without executing it.",
+      "Initial local artifact copies had a patch-tool-added trailing newline, so their first blob checks did not match. Removed that single newline only after verifying the resulting Git blob hashes against remote values. All final raw index/payload files now match the remote blobs byte-for-byte."
+    ],
+    "raw_files": [
+      {
+        "filename": "cache-index-283141e.json",
+        "bytes": 2702,
+        "sha256": "258022627471d5582f9619f6634397cb05b30ed9cca632186dbdc020c27d2c16",
+        "git_blob": "cd8bdc7e1f827817fa33ea1210d39711d86a6d8f",
+        "matches_remote_git_blob": true
+      },
+      {
+        "filename": "cache-2026-11-14-18-283141e.json",
+        "bytes": 54620,
+        "sha256": "1d53f754d163f5056c1ec30a9c0313d3ba9861c47d485509d806ff93d5646b3b",
+        "git_blob": "349921a8cf2d2b27ae244d3705988ab02e610ea9",
+        "matches_remote_git_blob": true
+      },
+      {
+        "filename": "cache-2026-11-29-18-283141e.json",
+        "bytes": 154913,
+        "sha256": "d9865acb38f5bb7ad0682af94ba951fe9fc0672af503224f1f435a81b54f20a3",
+        "git_blob": "1ed35d3514eae19bb7d33c6ec97fa3ec235e4581",
+        "matches_remote_git_blob": true
+      }
+    ]
+  },
+  "update_repositories": [
+    {
+      "repository": "Jarryd22/golfhub-perth-updates",
+      "branches": [
+        {
+          "name": "main",
+          "head_sha": "b53909b8edac42055071e01914aff7d1921a8305"
+        }
+      ],
+      "tree_paths": [
+        "README.md"
+      ],
+      "open_pull_requests": 0,
+      "release": {
+        "tag": "v5.1.17",
+        "version": "5.1.17",
+        "url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "published_at": "2026-09-25T19:20:44Z",
+        "draft": false,
+        "prerelease": false,
+        "release_notes_evidence": "Version-verification release with same functionality as 5.1.16. Release notes explicitly say successful updating on the previously affected laptop remains to be confirmed."
+      },
+      "manifest_retrieval": {
+        "target_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json",
+        "connector_result": {
+          "is_error": true,
+          "error_code": "NOT_FOUND",
+          "error": "GitHub API error 404: {\r\n  \"message\": \"Not Found\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"404\"\r\n}"
+        },
+        "web_fallback_result": {
+          "is_error": true,
+          "error": "Failed to fetch https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json: Failed to fetch restricted URL"
+        },
+        "further_retries": false,
+        "status": "Manifest content unavailable through attempted tools; no conclusion that public link is broken"
+      }
+    },
+    {
+      "repository": "Jarryd22/golfhub-perth-android-updates",
+      "branches": [
+        {
+          "name": "main",
+          "head_sha": "cfec2bbd6205edae0f733f6931e0e535db284e48"
+        }
+      ],
+      "tree_paths": [
+        "README.md"
+      ],
+      "open_pull_requests": 0,
+      "release": {
+        "tag": "android-v0.1.19",
+        "version": "0.1.19",
+        "url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "published_at": "2026-10-02T08:28:11Z",
+        "draft": false,
+        "prerelease": false,
+        "release_notes_evidence": "Notes describe selected-date opening notices in Perth time, published schedules for 12 courses, and course information for 41 courses. These are release claims, not newly verified installed-device behavior."
+      },
+      "manifest_retrieval": {
+        "target_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json",
+        "connector_result": {
+          "is_error": true,
+          "error_code": "NOT_FOUND",
+          "error": "GitHub API error 404: {\r\n  \"message\": \"Not Found\",\r\n  \"documentation_url\": \"https://docs.github.com/rest\",\r\n  \"status\": \"404\"\r\n}"
+        },
+        "web_fallback_result": {
+          "is_error": true,
+          "error": "Failed to fetch https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json: Failed to fetch restricted URL"
+        },
+        "further_retries": false,
+        "status": "Manifest content unavailable through attempted tools; no conclusion that public link is broken"
+      }
+    }
+  ],
+  "original_artifact_sha256": {
+    "validation/summary.json": "d3aafce9fe788d03c1fa52b9c9cc88e7980ecbb74d3f0164f1d1942009482f37",
+    "journey-startup-summary.json": "ca2c3bcbddd0a4cd774a0af1134ee95e51bda4a38c2da3889c08ab2c10233cea",
+    "journeys/journeys.json": "8ef782e1ab5a5c5f9c7e3ff699205d3720d5288224f3b8e9a3d85da5a4bde9ba",
+    "journeys/run.log": "fa33a359412c9f923791c04e97026d391911202bf607fb2c7a7bbdbc2065ad9f",
+    "startup/startup-decisions.json": "4ec740af492649eda1c4260c86429f23014cc1c165af18583672274361c1471d",
+    "startup-run.log": "9b0a00437088b3173afcecdea3c1560b17a24b21bfaaccce313e8fdec555fd36",
+    "alerts-integrity.json": "21da13a9ec76cc2f3ae5a923154854cef4fdb1a80c261b1249dba5506fe46d96",
+    "remote-audit.json": "f5d841e57c378a623e2c077f95fcb1628c4670b59e8900a29aac0ef4047046e9",
+    "published-sample.json": "2e96d6d793ffa6ca5cdc365435a223ee2fdbbb40caf5e9bf256c372b678c3bac",
+    "update-repositories.json": "99061ae26cfcc23f8d9bbc117ddb6fd18462dbd68f85947132ff6ab7b25b855b"
+  },
+  "limits": [
+    "Source/offscreen tests are not installed Windows/Android behavior.",
+    "Canonical source, historical Windows cache_close diagnosis, native accessibility/resume/updater/signatures and notification delivery remain unresolved or not run.",
+    "The two-payload cache observation does not establish sustained failure, actual workflow cadence, per-course freshness or cause.",
+    "Manifest retrieval errors are tool-access limitations, not evidence of broken public URLs; no retries after restricted-URL failures.",
+    "No production-history lookup, manual workflow dispatch, booking/hold, notification, merge, deployment, release or security change.",
+    "Documentation-only head may have no exact-head CI; publication verification is recorded separately on its PR."
+  ]
+}
