@@ -1,0 +1,343 @@
+{
+  "checked_at_utc": "2026-11-17T00:11:25.404594+00:00",
+  "task_date_perth": "2026-11-17",
+  "scope": "Read-only local documentation, stored logs, Git metadata and artifact-byte consistency review. No tests/diagnostic/UI execution, network/remote reads, provider/cache sampling, workflow execution or remote writes.",
+  "checkout": {
+    "path": "/workspace/golfhub-20261116",
+    "head": "663a21fc5ec25b6a74b0c60c3467b67d6fe19b2b",
+    "branch": "qa/local-verification-20261116",
+    "parent": "ac3bd33e25f5f614d18e4b5daf4170895c42b93b",
+    "commit_timestamp_utc": "2026-11-16T00:30:28Z",
+    "status_short": "",
+    "runtime_origin_pr30": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "changed_vs_prior_docs": 30,
+    "changed_vs_pr30": 65,
+    "outside_docs_changes": []
+  },
+  "instructions": {
+    "known_paths_checked": [
+      "/workspace/AGENTS.md",
+      "/workspace/golfhub-20261116/AGENTS.md",
+      "/workspace/.agents/skills",
+      "/workspace/golfhub-20261116/.agents/skills"
+    ],
+    "paths_present": [],
+    "method": "Known authorized paths only, without restricted-directory access or broad filesystem scan"
+  },
+  "inspected_records": [
+    "docs/qa/2026-11-16/REPORT.md",
+    "docs/qa/2026-11-16/evidence.json",
+    "docs/qa/2026-11-16/review.md",
+    "docs/qa/2026-11-16/journey-scope.md",
+    "docs/qa/2026-11-16/journey-provenance.json",
+    "docs/qa/2026-11-16/full-window/probe.json",
+    "docs/qa/2026-11-16/validation/summary.json",
+    "docs/qa/2026-11-16/validation/*.log",
+    "docs/qa/2026-11-16/alerts-source-assessment.json",
+    "docs/qa/2026-11-16/source-inspection-note.json",
+    "docs/qa/2026-11-16/ci-status.json",
+    "docs/QA_CHECKLIST.md",
+    "docs/IMPROVEMENT_BACKLOG.md"
+  ],
+  "today_read_only_checks": {
+    "stored_QA_RESULT_records": 11,
+    "stored_method_total": 119,
+    "stored_results_agree_with_summary": true,
+    "recorded_artifact_hashes": 27,
+    "artifact_hash_matches": 27,
+    "artifact_hash_mismatches": [],
+    "selected_regression_file_hashes": 11,
+    "selected_regression_hash_mismatches": [],
+    "recorded_source_or_bundle_hashes": 5,
+    "source_or_bundle_hash_mismatches": [],
+    "all_five_source_or_bundle_items_byte_identical_to_pr30": true,
+    "screenshots_visually_reinspected": false,
+    "archive_code_imported_extracted_or_executed": false
+  },
+  "nov17_execution_counts": {
+    "runtime_tests": 0,
+    "diagnostic_processes": 0,
+    "native_or_UI_tests": 0,
+    "network_reads": 0,
+    "workflow_dispatches": 0,
+    "remote_writes": 0,
+    "application_or_test_edits": 0,
+    "repository_docs_edits": 0
+  },
+  "historical_nov16_regressions": {
+    "execution_date": "2026-11-16",
+    "tested_checkout": "ac3bd33e25f5f614d18e4b5daf4170895c42b93b",
+    "runtime_origin_pr30": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "environment": "Linux / Python 3.12.14 / Qt 6.11.2 / offscreen",
+    "methods": 119,
+    "module_processes": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "first_executions": true,
+    "module_count_limit": "Alert CLI fixture tests add child processes; 11 is not a count of every OS process.",
+    "modules": [
+      {
+        "module": "test_cache_alerts_runtime_integrity.py",
+        "log": "test_cache_alerts_runtime_integrity.log",
+        "exit_code": 0,
+        "run": 27,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_startup_cache.py",
+        "log": "test_startup_cache.log",
+        "exit_code": 0,
+        "run": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_multiday_cache_states.py",
+        "log": "test_multiday_cache_states.log",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_provider_error_states.py",
+        "log": "test_provider_error_states.log",
+        "exit_code": 0,
+        "run": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_offline_course_links.py",
+        "log": "test_offline_course_links.log",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_live_recovery_states.py",
+        "log": "test_live_recovery_states.log",
+        "exit_code": 0,
+        "run": 11,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_live_button_state.py",
+        "log": "test_live_button_state.log",
+        "exit_code": 0,
+        "run": 10,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_time_range_ui.py",
+        "log": "test_time_range_ui.log",
+        "exit_code": 0,
+        "run": 5,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_midnight_rollover.py",
+        "log": "test_midnight_rollover.log",
+        "exit_code": 0,
+        "run": 15,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_perth_dates.py",
+        "log": "test_perth_dates.log",
+        "exit_code": 0,
+        "run": 6,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      {
+        "module": "test_empty_result_links.py",
+        "log": "test_empty_result_links.log",
+        "exit_code": 0,
+        "run": 7,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      }
+    ],
+    "source_hashes": {
+      "app/qt_golfhub_app.py": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+      "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+      "scripts/validate_alerts_runtime.py": "0b8ee734b09c85addcbdfe9c4fed52bfa099351b61a874e7c9185e247a04d077",
+      ".github/alerts-runtime.zip": "63d7b944607ff8ce29f293adb64d647cbb6636f227da63971c0c1a181cfdaf30",
+      ".github/alerts-runtime-manifest.json": "1e91d57d248b0f5b89ecb471cd5cd198b0d2a92cb620eb83b720362e83717f36"
+    },
+    "status": "Historical execution evidence read today; no rerun."
+  },
+  "historical_nov16_full_window": {
+    "status": "Historical separate diagnostic, not four unittest methods and not rerun today.",
+    "cases": 4,
+    "passed_cases": 4,
+    "callback_errors": 0,
+    "date_sections": 112,
+    "intercepted_booking_callbacks": 8,
+    "replacement_searches": 4,
+    "observations": [
+      {
+        "holes": "9",
+        "players": 1,
+        "summary": "14 matching times across 21 loaded days",
+        "header": "SHARED CACHE / 21 OF 28 DAYS",
+        "expanded_dates": 28,
+        "range_official_link_count": 1,
+        "replacement_rows": 1,
+        "remaining_old_day_sections": 0
+      },
+      {
+        "holes": "9",
+        "players": 4,
+        "summary": "7 matching times across 21 loaded days",
+        "header": "SHARED CACHE / 21 OF 28 DAYS",
+        "expanded_dates": 28,
+        "range_official_link_count": 1,
+        "replacement_rows": 1,
+        "remaining_old_day_sections": 0
+      },
+      {
+        "holes": "18",
+        "players": 1,
+        "summary": "14 matching times across 21 loaded days",
+        "header": "SHARED CACHE / 21 OF 28 DAYS",
+        "expanded_dates": 28,
+        "range_official_link_count": 1,
+        "replacement_rows": 1,
+        "remaining_old_day_sections": 0
+      },
+      {
+        "holes": "18",
+        "players": 4,
+        "summary": "7 matching times across 21 loaded days",
+        "header": "SHARED CACHE / 21 OF 28 DAYS",
+        "expanded_dates": 28,
+        "range_official_link_count": 1,
+        "replacement_rows": 1,
+        "remaining_old_day_sections": 0
+      }
+    ],
+    "fixture": "28 January-2033 synthetic dates: seven valid, seven checked-empty, seven provider-error, seven missing; 09:00-14:00 inclusive with two/four available spots.",
+    "coverage": "Pending-control edits retain submitted context in lazy date rows, error/unchecked text and intercepted BOOK callbacks; official links deduplicate and one-date replacement cleans up old sections.",
+    "limits": "Workers/network/providers/weather/persistence/browser/booking-dialog blocked. BOOK intercepted before plan or hold logic. No real QThreads, live availability/freshness, native device, performance or delivery claim."
+  },
+  "historical_alert_scope": {
+    "integrity_methods": 27,
+    "committed_bundle_members": 16,
+    "worker_import_or_execution": false,
+    "source_assessment": "Known loose service/push_logic.py, service/recurrence.py and service/push_worker.py match bundled bytes; service/checker_gate.py and app/cache_schema.py remain absent from loose PR30 source.",
+    "prior_static_coverage_gap": "Some exact quiet-hours/TTL/reopening combinations are absent from prior pure-helper fixtures. This is a coverage gap, not a reproduced defect, and no archive logic was executed in this audit.",
+    "canonical_provenance_or_delivery_resolved": false
+  },
+  "historical_ci": {
+    "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "run_date": "2026-11-13",
+    "recorded_query_utc": "2026-11-16T00:24:39.414Z",
+    "total_count": 3,
+    "runs": [
+      {
+        "id": 43337787479,
+        "event": "pull_request",
+        "workflow": "Test desktop search controls",
+        "conclusion": "success",
+        "attempt": 1
+      },
+      {
+        "id": 43337785151,
+        "event": "pull_request",
+        "workflow": "Test cache refresh",
+        "conclusion": "success",
+        "attempt": 1
+      },
+      {
+        "id": 43337706548,
+        "event": "push",
+        "workflow": "Test desktop search controls",
+        "conclusion": "success",
+        "attempt": 1
+      }
+    ],
+    "current_remote_requery": false,
+    "local_documentation_status": "Report records unpublished local-only docs with no new CI; not rechecked remotely today."
+  },
+  "cumulative_notes": {
+    "latest_date": "2026-11-16",
+    "new_coverage_recorded": "119 selected regressions and four mixed-state full-window diagnostic cases added separately from prior results.",
+    "prior_results_kept_separate": [
+      "November 15: 74 selected methods and separate 50-filter/5-startup/153-link checks",
+      "November 14: 330-method full aggregate",
+      "November 13: three PR30 CI runs"
+    ],
+    "prior_failure_preservation": [
+      "PR30 six baseline failures and corrected diagnostic-age fixture",
+      "PR29 completion failures",
+      "Responsive-grid intermediate failure",
+      "November 15 archived whitespace-check exit 2",
+      "Historical Windows cache_close: 76 passes and one timeout; later green CI and 40 Linux non-reproductions do not diagnose or fix it"
+    ],
+    "nov16_source_lookup_exit_2": {
+      "path": "app/cache_schema.py",
+      "meaning": "Known missing loose-source module, recorded source absence rather than a test failure or access denial.",
+      "source_note": "docs/qa/2026-11-16/source-inspection-note.json"
+    },
+    "no_nov16_test_or_diagnostic_failure_recorded": true
+  },
+  "denied_docs_PR_status": {
+    "action": "Create documentation-only draft PR",
+    "target": "Jarryd22/golfhub-perth docs/qa-20261114 at 78e49768652d59b9ff64b69728c28a4d5e9a6edc",
+    "status": "Parent-reported automatic approval-review denial; original reason not supplied.",
+    "last_recorded_state": "Remote branch exists, no corresponding PR; local November 15/16 docs remain unpublished. No fresh remote verification by this audit.",
+    "equivalent_or_renamed_retry_permitted": false,
+    "new_owner_approval_required_before_retry": true,
+    "attempts_today": 0,
+    "correction": "November 15/16 report and cumulative checklist/backlog supersede older prospective PR wording; that wording is not evidence of creation."
+  },
+  "remaining_limits": [
+    "Canonical desktop/mobile release-candidate reconciliation remains first integration priority.",
+    "Native Windows cache_close diagnosis remains unresolved; no repeated Linux investigation or weakened timeout/assertions.",
+    "Existing freshness/subset-cache and punctuation fixes require canonical reconciliation, not competing code.",
+    "Known weather reliability/false-zero repairs remain PR4/PR6/PR8; parent supplied outage observations are not measurements by this audit.",
+    "Installed/native Windows/Android, screen readers/touch/DPI/resume, real disk failures, live booking/holds, updater/signatures, notification delivery and performance benchmarks remain unperformed."
+  ],
+  "no_new_fix_inference": "Stored counts, hashes and diagnostic totals agree; runtime is unchanged and no new defect was reproduced by this read-only audit. The existing 119-method/four-window coverage should not be repeated merely for a new pass. Coverage gaps alone do not justify a speculative repair.",
+  "inherited_restricted_reads_not_attempted": [
+    {
+      "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+      "status": "Prior connector allow-list denial; no retry or alternate route"
+    },
+    {
+      "target": "/tmp/codex-daemon-1000",
+      "status": "Parent-reported prior denial; no access or rerouting"
+    },
+    {
+      "target": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json",
+      "status": "Prior connector 404/restricted-URL failure; no retry"
+    },
+    {
+      "target": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json",
+      "status": "Prior connector 404/restricted-URL failure; no retry"
+    }
+  ],
+  "new_blockers": [],
+  "pending_or_uncertain_actions": [],
+  "evidence_only_write": "/workspace/scratch/golfhub-20261117-local-docs-audit.json"
+}

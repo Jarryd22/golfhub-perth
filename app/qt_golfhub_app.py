@@ -1001,6 +1001,8 @@ class GolfHub(QMainWindow):
         self.cache_worker = None
         self._active_cache_context = None
         self._pending_cache_context = None
+        self._pending_live_context = None
+        self._live_result_pending = False
         self.context = {}
         self.last_results = []
         self._closing = False
@@ -1458,6 +1460,7 @@ class GolfHub(QMainWindow):
         if not p:
             return
         p = self._snapshot_search_context(p)
+        self._pending_live_context = None
         if self.cache_thread is not None:
             self._pending_cache_context = p
             self.search_button.setText('SEARCH QUEUED')
@@ -1537,6 +1540,11 @@ class GolfHub(QMainWindow):
             payload = combined.get(dates[0])
             if payload:
                 self.render_snapshot(payload, sources[dates[0]])
+            elif self.scan_thread is not None:
+                # Cache searches can finish while a previous live request is still owned.
+                self._pending_live_context = self._snapshot_search_context(self.context)
+                self.status.setText("Waiting for the previous live request to finish...")
+                self.header_status.setText("LIVE REFRESH QUEUED")
             else:
                 self.search_live(self.context)
             return
@@ -1600,6 +1608,7 @@ class GolfHub(QMainWindow):
             self.status.setText("Live refresh is available for one date; multi-day results use the 10-minute cache")
             return
         self.context = p
+        self._live_result_pending = True
         if not self.last_results:
             self.render_empty("Checking courses live...")
         self.status.setText("Checking courses live...")
@@ -1637,6 +1646,7 @@ class GolfHub(QMainWindow):
 
     @Slot(list, bool)
     def scan_finished(self, results, cancelled):
+        self._live_result_pending = False
         self.search_button.setEnabled(True)
         self.update_day_mode()
         self.stop_button.setVisible(False)
@@ -1661,6 +1671,7 @@ class GolfHub(QMainWindow):
 
     @Slot(str)
     def scan_failed(self, error):
+        self._live_result_pending = False
         self.search_button.setEnabled(True)
         self.update_day_mode()
         self.stop_button.setVisible(False)
@@ -1706,9 +1717,10 @@ class GolfHub(QMainWindow):
             self._pending_cache_context = None
             self._start_cache_search(pending)
             return
-        self.search_button.setEnabled(not self._thread_running(self.scan_thread))
+        live_pending = self.scan_thread is not None and self._live_result_pending
+        self.search_button.setEnabled(not self._closing and not live_pending)
         self.search_button.setText('FIND TEE TIMES')
-        if not self._thread_running(self.scan_thread):
+        if not live_pending:
             self.progress.setVisible(False)
         self.update_day_mode()
         self._finish_pending_close()
@@ -1724,6 +1736,12 @@ class GolfHub(QMainWindow):
         thread.deleteLater()
         self.scan_thread = None
         self.scan_worker = None
+        self._live_result_pending = False
+        pending = self._pending_live_context
+        self._pending_live_context = None
+        if pending is not None and not self._closing:
+            self.search_live(pending)
+        self.search_button.setEnabled(not self._closing and not self._live_result_pending)
         self.update_day_mode()
         self._finish_pending_close()
 
@@ -1881,6 +1899,7 @@ class GolfHub(QMainWindow):
             return
         if self.cache_thread is not None or self.scan_thread is not None:
             self._closing = True
+            self._pending_live_context = None
             self._stop_deferred_timers()
             if self.scan_worker:
                 self.scan_worker.request_cancel()

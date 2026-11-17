@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-17T00:21:02.280505+00:00",
+  "source_root": "/workspace/golfhub-20261117-repair",
+  "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+  "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+  "test_file": "/workspace/golfhub-20261117-repair/tests/test_live_button_state.py",
+  "test_sha256": "829f8c9e6305a883bd60806c01bf63da1e9a1bdff08c2c2b60c041a11d82ba49",
+  "tests_run": 22,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "failure_ids": [],
+  "error_ids": []
+}

@@ -1,0 +1,243 @@
+{
+  "timestamp_utc": "2026-11-17T00:13:10.537941+00:00",
+  "head": "663a21fc5ec25b6a74b0c60c3467b67d6fe19b2b",
+  "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+  "cases": [
+    {
+      "terminal": "failed",
+      "retained_before_live": false,
+      "completion_mode": "missing_before_cleanup",
+      "find_enabled_after_terminal": true,
+      "old_live_owner_retained": true,
+      "terminal_status": "Live refresh failed - no results available",
+      "thread_instances_after_cache_miss": 2,
+      "live_owner_after_cache_miss_is_old": true,
+      "context": {
+        "date": "2033-01-05",
+        "dates": [
+          "2033-01-05"
+        ],
+        "holes": "9",
+        "from": 360,
+        "to": 690,
+        "players": 1,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "CHECKING SHARED CACHE",
+      "status": "Checking shared cache for 1 day...",
+      "labels": [
+        "Find a round that fits your day",
+        "Checking the shared cache..."
+      ],
+      "thread_instances_after_cleanup": 2,
+      "scan_owner_present": false,
+      "cache_owner_present": false,
+      "progress_visible": false,
+      "find_enabled": true,
+      "live_enabled": true,
+      "row_count": 0
+    },
+    {
+      "terminal": "failed",
+      "retained_before_live": true,
+      "completion_mode": "missing_before_cleanup",
+      "find_enabled_after_terminal": true,
+      "old_live_owner_retained": true,
+      "terminal_status": "Live refresh failed - previous results kept",
+      "thread_instances_after_cache_miss": 2,
+      "live_owner_after_cache_miss_is_old": true,
+      "context": {
+        "date": "2033-01-05",
+        "dates": [
+          "2033-01-05"
+        ],
+        "holes": "9",
+        "from": 360,
+        "to": 690,
+        "players": 1,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "CHECKING SHARED CACHE",
+      "status": "Checking shared cache for 1 day...",
+      "labels": [
+        "Find a round that fits your day",
+        "Checking the shared cache..."
+      ],
+      "thread_instances_after_cleanup": 2,
+      "scan_owner_present": false,
+      "cache_owner_present": false,
+      "progress_visible": false,
+      "find_enabled": true,
+      "live_enabled": true,
+      "row_count": 0
+    },
+    {
+      "terminal": "failed",
+      "retained_before_live": false,
+      "completion_mode": "cache_hit",
+      "find_enabled_after_terminal": true,
+      "old_live_owner_retained": true,
+      "terminal_status": "Live refresh failed - no results available",
+      "thread_instances_after_cache_miss": 2,
+      "live_owner_after_cache_miss_is_old": true,
+      "context": {
+        "date": "2033-01-05",
+        "dates": [
+          "2033-01-05"
+        ],
+        "holes": "9",
+        "from": 360,
+        "to": 690,
+        "players": 1,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+      "status": "1 matching tee time across 1 course",
+      "labels": [
+        "1 matching time",
+        "1 availability feeds",
+        "0 official course links",
+        "Shared cache - updated less than a minute ago",
+        "Araluen",
+        "1 matching tee time - 9 holes",
+        "",
+        "Forecast unavailable",
+        "10:00 am",
+        "2 spots"
+      ],
+      "thread_instances_after_cleanup": 2,
+      "scan_owner_present": false,
+      "cache_owner_present": false,
+      "progress_visible": false,
+      "find_enabled": true,
+      "live_enabled": true,
+      "row_count": 1
+    },
+    {
+      "terminal": "failed",
+      "retained_before_live": false,
+      "completion_mode": "missing_after_cleanup",
+      "find_enabled_after_terminal": true,
+      "old_live_owner_retained": true,
+      "terminal_status": "Live refresh failed - no results available",
+      "thread_instances_after_cache_miss": 3,
+      "live_owner_after_cache_miss_is_old": false,
+      "context": {
+        "date": "2033-01-05",
+        "dates": [
+          "2033-01-05"
+        ],
+        "holes": "9",
+        "from": 360,
+        "to": 690,
+        "players": 1,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "LIVE REFRESH IN PROGRESS",
+      "status": "Checking courses live...",
+      "labels": [
+        "Find a round that fits your day",
+        "Checking courses live..."
+      ],
+      "thread_instances_after_cleanup": 3,
+      "scan_owner_present": true,
+      "cache_owner_present": false,
+      "progress_visible": true,
+      "find_enabled": false,
+      "live_enabled": false,
+      "row_count": 0,
+      "fallback_context": {
+        "date": "2033-01-05",
+        "holes": "9",
+        "players": 1,
+        "from": 360,
+        "to": 690,
+        "sites": [
+          "Araluen"
+        ]
+      }
+    },
+    {
+      "terminal": "cancelled",
+      "retained_before_live": false,
+      "completion_mode": "missing_before_cleanup",
+      "find_enabled_after_terminal": true,
+      "old_live_owner_retained": true,
+      "terminal_status": "Stopped - partial results were not saved",
+      "thread_instances_after_cache_miss": 2,
+      "live_owner_after_cache_miss_is_old": true,
+      "context": {
+        "date": "2033-01-05",
+        "dates": [
+          "2033-01-05"
+        ],
+        "holes": "9",
+        "from": 360,
+        "to": 690,
+        "players": 1,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "CHECKING SHARED CACHE",
+      "status": "Checking shared cache for 1 day...",
+      "labels": [
+        "Find a round that fits your day",
+        "Checking the shared cache..."
+      ],
+      "thread_instances_after_cleanup": 2,
+      "scan_owner_present": false,
+      "cache_owner_present": false,
+      "progress_visible": false,
+      "find_enabled": true,
+      "live_enabled": true,
+      "row_count": 0
+    },
+    {
+      "terminal": "cancelled",
+      "retained_before_live": true,
+      "completion_mode": "missing_before_cleanup",
+      "find_enabled_after_terminal": true,
+      "old_live_owner_retained": true,
+      "terminal_status": "Stopped - partial results were not saved",
+      "thread_instances_after_cache_miss": 2,
+      "live_owner_after_cache_miss_is_old": true,
+      "context": {
+        "date": "2033-01-05",
+        "dates": [
+          "2033-01-05"
+        ],
+        "holes": "9",
+        "from": 360,
+        "to": 690,
+        "players": 1,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "CHECKING SHARED CACHE",
+      "status": "Checking shared cache for 1 day...",
+      "labels": [
+        "Find a round that fits your day",
+        "Checking the shared cache..."
+      ],
+      "thread_instances_after_cleanup": 2,
+      "scan_owner_present": false,
+      "cache_owner_present": false,
+      "progress_visible": false,
+      "find_enabled": true,
+      "live_enabled": true,
+      "row_count": 0
+    }
+  ],
+  "callback_errors": [],
+  "scope": "Actual Find/Refresh/Stop buttons and real worker QObject terminal signals; inert QThread mocks with explicitly deferred owner cleanup. No native thread, network/provider, persistence, booking/hold or notification execution. Synthetic ordering, not historical Windows shutdown diagnosis or production incidence."
+}

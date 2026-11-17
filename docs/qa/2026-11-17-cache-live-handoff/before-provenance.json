@@ -1,0 +1,60 @@
+{
+  "recorded_utc": "2026-11-17T00:19:35.305599+00:00",
+  "baseline_regression": {
+    "timestamp_utc": "2026-11-17T00:17:52.700329+00:00",
+    "source_root": "/workspace/golfhub-20261113",
+    "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "test_file": "/workspace/golfhub-20261117-repair/tests/test_live_button_state.py",
+    "test_sha256": "829f8c9e6305a883bd60806c01bf63da1e9a1bdff08c2c2b60c041a11d82ba49",
+    "tests_run": 22,
+    "failures": 8,
+    "errors": 0,
+    "skipped": 0,
+    "successful": false,
+    "failure_ids": [
+      "test_cache_cleanup_keeps_new_fallback_busy_while_its_owner_is_retained (test_live_button_state.LiveButtonStateTests.test_cache_cleanup_keeps_new_fallback_busy_while_its_owner_is_retained)",
+      "test_cancelled_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_cancelled_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+      "test_cancelled_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_cancelled_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)",
+      "test_failed_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_failed_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+      "test_failed_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_failed_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)",
+      "test_invalid_new_search_does_not_discard_the_valid_waiting_fallback (test_live_button_state.LiveButtonStateTests.test_invalid_new_search_does_not_discard_the_valid_waiting_fallback)",
+      "test_successful_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_successful_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+      "test_successful_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_successful_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)"
+    ],
+    "error_ids": []
+  },
+  "baseline_probe": {
+    "head": "663a21fc5ec25b6a74b0c60c3467b67d6fe19b2b",
+    "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "runtime_same_as_PR30": true,
+    "script_sha256": "3b83fc27fe24e90359c6f3059c4a17c05af06554f57ab3ddef416c0b61798002",
+    "cases": 6,
+    "callback_errors": 0,
+    "execution_exit_code": 0,
+    "lost_handoffs": 4,
+    "controls": 2
+  },
+  "initial_fixture_execution": {
+    "exit_code": 1,
+    "callback_errors": 8,
+    "reason": "Fake thread.quit side-effect lacked signal payload arguments; corrected only lambda adapter to accept *args. Original script/log/JSON/PNG retained.",
+    "script_sha256": "4a1f87a134b3dea017eeda353f1a41a44c2aac36adf8d35d20474e3b9c3e5919",
+    "diff_uncompressed_sha256": "9242270e9a895a98def59fc156267f667afa6bd246ca66ea0c78a1c1038b9f5e",
+    "diff_storage": "gzip preserves exact original bytes, avoiding whitespace normalization"
+  },
+  "intermediate_four_case_baseline": {
+    "exit_code": 0,
+    "cases": 4,
+    "callback_errors": 0,
+    "script_sha256": "5c82d1550132ed341bd65871568e371170e1defa6004f84fd7629dd6d242fdcf",
+    "reason": "Clean four-case reproduction retained before adding two control scenarios."
+  },
+  "existing_module_preservation": {
+    "all_original_functions_AST_unchanged": true,
+    "original_test_methods": 10,
+    "added_test_methods": 12,
+    "current_test_sha256": "829f8c9e6305a883bd60806c01bf63da1e9a1bdff08c2c2b60c041a11d82ba49"
+  },
+  "limits": "No native QThread, provider, browser, booking/hold, persistence or notification execution. Baseline probe used documentation descendant with same runtime; regressions used exact PR30 checkout. No claim about natural incidence or historical Windows cache_close."
+}
