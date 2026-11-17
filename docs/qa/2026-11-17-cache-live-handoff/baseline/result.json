@@ -1,0 +1,24 @@
+{
+  "timestamp_utc": "2026-11-17T00:22:13.592861+00:00",
+  "source_root": "/workspace/golfhub-20261113",
+  "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+  "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+  "test_file": "/workspace/golfhub-20261117-repair/tests/test_live_button_state.py",
+  "test_sha256": "2192ab164afc11a0d4747a1e35e835821edb7c9ad85c0a58d975cc31d780689b",
+  "tests_run": 22,
+  "failures": 8,
+  "errors": 0,
+  "skipped": 0,
+  "successful": false,
+  "failure_ids": [
+    "test_cache_cleanup_keeps_new_fallback_busy_while_its_owner_is_retained (test_live_button_state.LiveButtonStateTests.test_cache_cleanup_keeps_new_fallback_busy_while_its_owner_is_retained)",
+    "test_cancelled_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_cancelled_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+    "test_cancelled_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_cancelled_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)",
+    "test_failed_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_failed_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+    "test_failed_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_failed_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)",
+    "test_invalid_new_search_does_not_discard_the_valid_waiting_fallback (test_live_button_state.LiveButtonStateTests.test_invalid_new_search_does_not_discard_the_valid_waiting_fallback)",
+    "test_successful_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_successful_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+    "test_successful_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_successful_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)"
+  ],
+  "error_ids": []
+}

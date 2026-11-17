@@ -1,0 +1,112 @@
+{
+  "recorded_utc": "2026-11-17T00:25:47.631256+00:00",
+  "final_test_sha256": "2192ab164afc11a0d4747a1e35e835821edb7c9ad85c0a58d975cc31d780689b",
+  "final_app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+  "baseline_formal_result": {
+    "timestamp_utc": "2026-11-17T00:22:13.592861+00:00",
+    "source_root": "/workspace/golfhub-20261113",
+    "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "test_file": "/workspace/golfhub-20261117-repair/tests/test_live_button_state.py",
+    "test_sha256": "2192ab164afc11a0d4747a1e35e835821edb7c9ad85c0a58d975cc31d780689b",
+    "tests_run": 22,
+    "failures": 8,
+    "errors": 0,
+    "skipped": 0,
+    "successful": false,
+    "failure_ids": [
+      "test_cache_cleanup_keeps_new_fallback_busy_while_its_owner_is_retained (test_live_button_state.LiveButtonStateTests.test_cache_cleanup_keeps_new_fallback_busy_while_its_owner_is_retained)",
+      "test_cancelled_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_cancelled_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+      "test_cancelled_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_cancelled_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)",
+      "test_failed_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_failed_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+      "test_failed_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_failed_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)",
+      "test_invalid_new_search_does_not_discard_the_valid_waiting_fallback (test_live_button_state.LiveButtonStateTests.test_invalid_new_search_does_not_discard_the_valid_waiting_fallback)",
+      "test_successful_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_successful_live_then_cache_miss_recovers_when_cache_cleanup_finishes_first)",
+      "test_successful_live_then_cache_miss_recovers_when_live_cleanup_finishes_first (test_live_button_state.LiveButtonStateTests.test_successful_live_then_cache_miss_recovers_when_live_cleanup_finishes_first)"
+    ],
+    "error_ids": []
+  },
+  "final_formal_result": {
+    "timestamp_utc": "2026-11-17T00:22:13.536345+00:00",
+    "source_root": "/workspace/golfhub-20261117-repair",
+    "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+    "test_file": "/workspace/golfhub-20261117-repair/tests/test_live_button_state.py",
+    "test_sha256": "2192ab164afc11a0d4747a1e35e835821edb7c9ad85c0a58d975cc31d780689b",
+    "tests_run": 22,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "successful": true,
+    "failure_ids": [],
+    "error_ids": []
+  },
+  "test_preservation": {
+    "all_original_functions_AST_unchanged": true,
+    "original_methods": 10,
+    "added_methods": 12
+  },
+  "baseline_diagnostic": {
+    "head": "663a21fc5ec25b6a74b0c60c3467b67d6fe19b2b",
+    "app_sha256": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+    "cases": 6,
+    "affected_observations": 4,
+    "asserted_controls": 2,
+    "callback_errors": 0,
+    "execution_exit_code": 0,
+    "note": "Exit zero records successful diagnostic execution, not absence of the four observed product defects."
+  },
+  "after_diagnostic": {
+    "head": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+    "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+    "cases": 6,
+    "restored_handoff_assertions_passed": 4,
+    "asserted_controls_passed": 2,
+    "callback_errors": 0,
+    "fixture_failures": 0,
+    "execution_exit_code": 0,
+    "cache_hit_immediate_Find_enabled_progress_hidden": true,
+    "context": {
+      "date": "2033-01-05",
+      "holes": "9",
+      "players": 1,
+      "from": 360,
+      "to": 690,
+      "sites": [
+        "Araluen"
+      ]
+    }
+  },
+  "preserved_history": {
+    "initial_probe": "initial-fixture-callback-arity: exit1; 8 TypeError callbacks from fake quit adapter receiving signal arguments. Exact script/log/JSON/PNG retained; only adapter changed to accept *args before clean replay.",
+    "clean_four_case_probe": "four-case-baseline: exit0, four affected observations, zero callback errors; retained before adding two controls.",
+    "initial_formal_22": "pre-review-start-assertion: baseline14pass/8fail; repair22pass; retained before adding one stronger start.assert_called_once assertion in shared fallback helper.",
+    "final_formal_22": "Identical strengthened file rerun against exact PR30 then repair source: baseline14pass/8fail; repair22pass. No assertion removed or loosened.",
+    "before_provenance_json": "Historical snapshot retained unchanged; it records the earlier 829f8c9e test hash. This file records final 2192ab16 test hash."
+  },
+  "source_provenance": "Formal baseline exact PR30 a3e522b; diagnostic baseline documentation descendant663a21f with byte-identical PR30 runtime09b17e1a. Final repair worktree started directly at exactPR30, runtimee739043b. Hashes distinguish uncommitted before/after source despite same initial HEAD.",
+  "script_changes": "Original before probe remains byte-exact. New after script adds fixed-behavior assertions and immediate cache-hit control observations; preserved compressed diff documents every change. No injected ordering or fixture relaxation.",
+  "visual_review": "Both980x640captures inspected. Baseline idle checking-cache view persists after both owners released; repair shows live-refresh header/checking-live text/progress/Stop. Labels fit in these captures. Runtime is synthetic and workers never execute.",
+  "limitations": [
+    "No real QThread execution or timing/performance/native shutdown assertion.",
+    "No provider/weather/network/browser or booking/hold/notification access.",
+    "Persistence and booking dispatch are mocked; formal tests assert payload/context only.",
+    "No production incidence or resolution of historical Windows cache_close claimed.",
+    "Known canonical/mobile reconciliation and existing text/freshness gaps remain outside scope."
+  ],
+  "artifact_sha256": {
+    "handoff-controller-probe.py": "3b83fc27fe24e90359c6f3059c4a17c05af06554f57ab3ddef416c0b61798002",
+    "handoff-controller-after.py": "0585dc669678fd35da47838692147086d9bb9f791f4bd0669e3d40e082997731",
+    "run-handoff-tests.py": "204288836b00c607d8bc9c43f7706af6da2a0aaeade138bdfb16eb794ae292d4",
+    "after-probe-oracle.diff.gz": "6ca34fcc66b3b1ebdc520b844e6ec2c81dc3f21a06b0605a9543019fc23dc45d",
+    "probe-before/probe.json": "6039d55389bc62c4fe447e016ed8e335f8aa9ece4cf016d3527138c2f15ea829",
+    "probe-after/probe.json": "1c9fd5423ba1c1ee172873698b1443da1a254a23e2212db0683dfcd4260ae501",
+    "probe-before/after-both-cleanups.png": "f5fbb521337baf9fe4c27a26be9ddf2d10b344c66301ec3e6a6ee60fd88ce3fe",
+    "probe-after/after-both-cleanups.png": "49b5e3efffa8aebe1543fad16b3bc580cb07ba39c6317ab6f5d678b15a308a45",
+    "initial-fixture-callback-arity/probe.py": "4a1f87a134b3dea017eeda353f1a41a44c2aac36adf8d35d20474e3b9c3e5919",
+    "initial-fixture-callback-arity/correction.diff.gz": "5a017c4a888cd9890a853384157e5961a3ffe12756c2f2b7e12295bf512d6827",
+    "four-case-baseline/probe.py": "5c82d1550132ed341bd65871568e371170e1defa6004f84fd7629dd6d242fdcf",
+    "pre-review-start-assertion/test_live_button_state.py": "829f8c9e6305a883bd60806c01bf63da1e9a1bdff08c2c2b60c041a11d82ba49",
+    "pre-review-start-assertion/start-assertion.diff.gz": "7a945d9e6b00f972288fa25f1054deff9256c726ffce247280688de92d5f16a7"
+  }
+}
