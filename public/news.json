@@ -1,7 +1,31 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-17T03:59:12.019285+00:00",
+  "generated_at": "2026-11-18T02:57:33.187520+00:00",
   "items": [
+    {
+      "id": "1cc3a551b59befd62304",
+      "course_id": "nedlands-golf-club",
+      "title": "Women’s Golf Sub-Committee Annual General Meeting",
+      "summary": "The Women’s AGM was held yesterday, 17th November, with a significant attendance following on",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/11/womens-golf-sub-committee-annual-general-meeting/",
+      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/11/IMG_4374-2048x1536.jpg",
+      "images": [
+        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/11/IMG_4374-2048x1536.jpg"
+      ],
+      "published_at": "2026-11-18T02:51:27+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "a8c9b1a399d4cd511957",
+      "course_id": "nedlands-golf-club",
+      "title": "2026 Annual General Meeting",
+      "summary": "NOTICE OF MEETING NOTICE is hereby given that the 94th Annual General Meeting of",
+      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/11/2026-annual-general-meeting/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-18T02:00:35+00:00",
+      "category": "Course news"
+    },
     {
       "id": "7e51d0884cdd6860f026",
       "course_id": "rockingham",
@@ -147,17 +171,6 @@
       "category": "Course news"
     },
     {
-      "id": "c5a004b8c075fced0018",
-      "course_id": "mosman-park",
-      "title": "Ping G440 Clearance at the Pro Shop",
-      "summary": "EX DEMO CLEARANCE G440 Drivers RRP $1150 Now $750 G440 Fairway Woods RRP $699",
-      "url": "https://www.mosmanparkgolfclub.com.au/cms/2026/11/ping-g440-clearance-at-the-pro-shop/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-09T02:52:26+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "c5a5e5aa791d4ea826af",
       "course_id": "hartfield",
       "title": "Christmas Buffet December 11th- 2 Course $45pp -Booking Essential",
@@ -257,38 +270,6 @@
       "images": [],
       "published_at": "2026-10-30T01:07:26+00:00",
       "category": "Course news"
-    },
-    {
-      "id": "4a3d0489c91259fb5c99",
-      "course_id": "nedlands-golf-club",
-      "title": "Women’s Club Championships Finals Wrap-Up",
-      "summary": "The Women’s Club Championships reached an exciting conclusion on Tuesday, 27 October, with outstanding",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/womens-club-championships-finals-wrap-up/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_6858-scaled.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_6858-scaled.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_1333.jpeg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/3db95656-9a51-4b5d-84f3-c7519bd6a13f.jpeg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/4ac848ae-0754-478b-97e5-7011146453d3.jpeg"
-      ],
-      "published_at": "2026-10-29T06:59:52+00:00",
-      "category": "Events"
-    },
-    {
-      "id": "1eb62ff122c02392a580",
-      "course_id": "nedlands-golf-club",
-      "title": "2026 CLUB CHAMPIONSHIPS – THE FINALS",
-      "summary": "As with the CG DUDLEY the Men’s Club Championship was sponsored by SHAW and",
-      "url": "https://www.nedlandsgolfclub.com.au/cms/2026/10/2026-club-championships-the-finals/",
-      "image": "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_4259-scaled.jpg",
-      "images": [
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_4259-scaled.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_4256-scaled-1.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_4254-scaled-1.jpg",
-        "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/10/IMG_4253-scaled-1.jpg"
-      ],
-      "published_at": "2026-10-27T01:21:17+00:00",
-      "category": "Events"
     },
     {
       "id": "abd5be0942d664137930",
@@ -440,17 +421,6 @@
       "category": "Course news"
     },
     {
-      "id": "852198831337a444bb72",
-      "course_id": "the-vines",
-      "title": "Aussie BBQ NYE Family Party",
-      "summary": "Celebrate the last night of 2026 with your family at our annual Aussie BBQ",
-      "url": "https://www.vines.com.au/nye/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-23T04:42:35+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "25f973ca6ada33a94379",
       "course_id": "pinjarra",
       "title": "CONGRATULATIONS JULIE REID!",
@@ -565,7 +535,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "unavailable"
+      "status": "no_feed"
     },
     {
       "course_id": "maylands",
@@ -633,7 +603,7 @@
     },
     {
       "course_id": "the-vines",
-      "status": "checked"
+      "status": "unavailable"
     },
     {
       "course_id": "wanneroo-golf-club",
