@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-18T02:57:33.187520+00:00",
+  "generated_at": "2026-11-19T02:39:33.434262+00:00",
   "items": [
+    {
+      "id": "8c1789c5015f6dd06736",
+      "course_id": "rockingham",
+      "title": "Lifestyle Membership",
+      "summary": "Members are advised that Lifestyle membership is available again. There are some changes to",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/lifestyle-membership/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-18T08:39:17+00:00",
+      "category": "Course news"
+    },
     {
       "id": "1cc3a551b59befd62304",
       "course_id": "nedlands-golf-club",
@@ -74,7 +85,7 @@
       "id": "4df39dd3994f9aab7f63",
       "course_id": "sun-city",
       "title": "AGM, Annual Report & General Committee Election Update",
-      "summary": "Dear Members, A few important reminders for members ahead of this year’s AGM on",
+      "summary": "UPDATE: 17 Nov 2026 FOR NON-VOTING MEMBERS ONLY – Access to the AGM online",
       "url": "https://www.suncitycountryclub.com.au/cms/2026/11/agm-annual-report-general-committee-election-update/",
       "image": null,
       "images": [],
@@ -258,17 +269,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-30T01:08:35+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "7c0d6364323d328bf253",
-      "course_id": "rockingham",
-      "title": "Financials August 2026",
-      "summary": "BS @ 31Aug26 P&L Aug YTD v Budget P&L Aug26 v’s Budget The post",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/financials-august-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-30T01:07:26+00:00",
       "category": "Course news"
     },
     {
@@ -535,7 +535,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
