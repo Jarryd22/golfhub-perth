@@ -70,7 +70,19 @@ Set `QT_QPA_PLATFORM=offscreen` and point `LOCALAPPDATA`, `TEMP` and `TMP` at is
 
 Before opening a draft, compare new regressions against baseline, visually inspect evidence, obtain an independent diff review, and confirm the branch has no production workflow trigger. Record known failures instead of relabeling them as passes. Enumerate **all workflow events/attempts** for the exact head (for example `actions/runs?head_sha=<sha>&per_page=100`, checking total count/pagination); the commit-workflow helper filters to PR events and cannot establish all-CI success. Keep push and PR executions distinct, retain failures alongside subsequent passes, and verify checkout head/merge tree. For documentation-only commits filtered out of CI, state that the exact new head has no run and name the tested code head.
 
-## Latest pass: 17 November 2026
+## Latest pass: 19 November 2026
+
+See the [startup-search report](qa/2026-11-19-startup-search/REPORT.md). Exact PR31's pending 100ms startup cache callback can run after accepted Refresh Live/Find and read unsubmitted controls. The controlled live reproduction passes January 3 / 18-hole rows to saving under a January 4 / nine-hole envelope and labels BOOK with the wrong date. Four targeted stop calls cancel only initial/automatic startup timers after valid acceptance, including queued Find; invalid/refused searches, normal automatic startup, scrolling and Perth rollover remain intact.
+
+**Passed:** eight added methods; final identical file gives baseline 10 pass/five fail and repair 15/15, with all seven original methods/helpers unchanged. Final applicable aggregate **350 passed = 218 desktop + 95 cache/integrity + 37 additional**, 28 isolated processes, zero failures/errors/skips. Two real-event-loop/inert-worker before/after cases pass 14 recovery assertions; three normal/early-close controls pass 25 assertions per source plus one separate start-once check. Original 0/100ms intervals and existing module/lifecycle bounds remain. Compilation, actionlint and independent review pass; exact remote head/CI is recorded after publication, not inferred from local hashes.
+
+**Retained failures:** three early diagnostic fixture-quit timeouts, subsequent fixture-only correction, unlaid-out initial captures, fixed-wait test results, unavailable QTest.qWaitFor capability lookup and audit/copy formatting errors. No failed assertion is discarded. **Inspection only:** 34 source refs and 24 preserved sources show no duplicate; update metadata and five workflows unchanged. **Not performed:** installed devices, natural ordering frequency, live availability/bookings/holds/delivery, updater/signatures or native accessibility. Existing real Linux lifecycle tests run once in aggregate; historical Windows cache_close and canonical-source reconciliation remain unresolved. No denied action or docs-only publication is retried.
+
+## Previous local-only pass: 18 November 2026
+
+Local QA commit `be76a38fa09d122690ebcf553a342276e8136e5c` on `qa/local-verification-20261118` retained 63 regressions, 100 custom-time boundary cases (90 intercepted BOOK callbacks/ten empty subsets), and two queued Apply/Escape journeys with no new defect. Its report/artifacts remain local and were inspected before this pass; that documentation chain is not republished here. Today selects a different startup-timer ordering. Original dirty checkout and prior evidence remain preserved.
+
+## Previous pass: 17 November 2026
 
 See the [cache-to-live handoff report](qa/2026-11-17-cache-live-handoff/REPORT.md). A repeated Find after a terminal live result can receive a cache miss before the previous live owner is released; the fallback is silently ignored, leaving a false checking-cache state. This distinct controller defect is repaired by retaining the submitted single-date fallback until cleanup, superseding it on a newer valid search and cancelling it on close. Cache hits and Find remain usable; result-pending state preserves busy controls for a new live request. Timeouts, native thread ownership, providers and workflows are unchanged.
 

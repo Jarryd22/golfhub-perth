@@ -1,0 +1,9 @@
+QA_RESULT {"run": 3, "failures": 0, "errors": 0, "skipped": 0}
+test_confirmed_hold_requires_resource_date_and_product_ids (test_booking_assist_guards.ConfirmedHoldGuardTests.test_confirmed_hold_requires_resource_date_and_product_ids) ... ok
+test_failure_cleanup_removes_golfhub_hold_marker (test_booking_assist_guards.ConfirmedHoldGuardTests.test_failure_cleanup_removes_golfhub_hold_marker) ... ok
+test_generated_script_respects_miclub_minimum_limit_state (test_booking_assist_guards.ConfirmedHoldGuardTests.test_generated_script_respects_miclub_minimum_limit_state) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 0.001s
+
+OK

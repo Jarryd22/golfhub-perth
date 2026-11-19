@@ -1,0 +1,9 @@
+An initial evidence-copy command failed before Python executed because its outer shell heredoc delimiter PY also occurred inside the literal capability-command transcription. Recorded tool output (exit 2):
+  File "<stdin>", line 12
+    cap='''Read-only capability inspection, not a test execution.
+        ^
+SyntaxError: unterminated triple-quoted string literal (detected at line 17)
+/bin/bash: -c: line 21: syntax error near unexpected token `('
+/bin/bash: -c: line 21: `Recorded tool-output transcription (exit 1):'
+
+The corrected copy used a distinct outer delimiter, then byte-verified every copied artifact. No test was run, no source was changed, and no artifact content was changed by this formatting correction.

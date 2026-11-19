@@ -1,0 +1,67 @@
+{
+  "recorded_utc": "2026-11-19T00:49:23.787660+00:00",
+  "source": "/workspace/golfhub-20261117-repair",
+  "source_head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "baseline_app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+  "runs": [
+    {
+      "artifact": "initial-timeout/changed_controls",
+      "exit": 124,
+      "bound_seconds": 15,
+      "final_json": false,
+      "classification": "Fixture exit blocked while retaining inert worker ownership; not product-stall evidence."
+    },
+    {
+      "artifact": "initial-timeout/unchanged_controls",
+      "exit": 124,
+      "bound_seconds": 15,
+      "final_json": false,
+      "classification": "Same fixture exit issue; raw script/log/image preserved."
+    },
+    {
+      "artifact": "instrumented-timeout/instrumented-changed",
+      "exit": 124,
+      "bound_seconds": 12,
+      "final_json": false,
+      "classification": "Phase logging reached initial and automatic observers, faulthandler then showed QApplication.exec. Adds instrumentation only."
+    },
+    {
+      "artifact": "clean-changed_controls",
+      "exit": 0,
+      "bound_seconds": 12,
+      "callback_errors": 0,
+      "classification": "Clean controlled reproduction: pendingJan4/9-hole context used to saveJan3/18-hole live rows. Save intercepted, not written."
+    },
+    {
+      "artifact": "clean-unchanged_controls",
+      "exit": 0,
+      "bound_seconds": 12,
+      "callback_errors": 0,
+      "classification": "Control observes duplicate automatic cache request; unchanged date/round remain consistent."
+    }
+  ],
+  "fixture_correction": "Write before-fixture-release.json, release inert worker references after observations, then QApplication.quit so product close guard can permit diagnostic exit. No runtime or startup interval change; bound reduced15\u219212seconds.",
+  "screenshot_limit": "Current clean PNGs captured synchronously before layout events; preserved, not claimed as settled product layout. JSON/labels/contexts/save arguments are the clean behavioral evidence.",
+  "limits": "Real owned0/100ms QTimers and QApplication.exec, injected action immediately after initial callback; no natural incidence or native worker/shutdown claim. Workers, network, provider, browser, persistence, booking/hold and notification blocked or intercepted.",
+  "sha256": {
+    "startup_timer_probe.py": "ed1dee1642481d76ca44edecdfc464b7d7e9f3351c830416149f625262a397da",
+    "instrumented-timeout/startup_timer_probe.py": "435774ca8865a7acff31a2204236e5e1479c3aa3f5e096448d8dfc11f9c34cbd",
+    "instrumented-timeout/fixture-release.diff.gz": "f6a1e652ae1fdb14ce26ccc607ba5701190135bbc329a9c504ac3ccd41342ac0",
+    "clean-unchanged_controls/after-live-completion.png": "1d4b335f391f6ad899ce5af7a2ccb5d0644b09d6a92633be8800a2f25d8ed1cf",
+    "clean-unchanged_controls/probe.json": "57bf0a0e6abd2fd8adbf5f31c737ec31407a89576f0963cf43bd398e6186e7e1",
+    "clean-unchanged_controls/before-fixture-release.json": "f919b62dec84b7079ea53d8ffbda90dc04dc0f2b32cd64d4be8fc99325de38c7",
+    "clean-unchanged_controls/run.log": "8f89d55daf618d744fe47b1242ce3652e4ac53fac270dce337ced2f98dc96e8b",
+    "initial-timeout/phase-instrumentation.diff.gz": "668eed27ea276269d91f16250cd59a900a81d1dec3a7e0ed6834e5f4d38512a0",
+    "initial-timeout/startup_timer_probe.py": "71289a9b400790e908e58d59dd37f2f0a8a081cdfb0dccec796b23a300737061",
+    "clean-changed_controls/after-live-completion.png": "a473b1fa30955e8e71db953b2e75ce170da640beed36eaba2ac81059edc659cd",
+    "clean-changed_controls/probe.json": "07c69b1178e332ad5f1b31d3e3ca0af8937594f5be093ed43cb4ff2976317b1a",
+    "clean-changed_controls/before-fixture-release.json": "499eb70a577bdf71745b4b781826a72ecb40b790e90e908700f8bd4f54020406",
+    "clean-changed_controls/run.log": "cd5247ff9ffcc8d6c72619a6397c2574ce632b1ab1fe7d437702c5832bfc3cf6",
+    "instrumented-timeout/instrumented-changed/after-live-completion.png": "a473b1fa30955e8e71db953b2e75ce170da640beed36eaba2ac81059edc659cd",
+    "instrumented-timeout/instrumented-changed/run.log": "6d1c1812e10ea2ebbe6df7318e34fce55f9dbedd8b2b57b92f8e7e897cabbb64",
+    "initial-timeout/changed_controls/after-live-completion.png": "a473b1fa30955e8e71db953b2e75ce170da640beed36eaba2ac81059edc659cd",
+    "initial-timeout/changed_controls/run.log": "10f1818c0ae721e74b0d010594759c7209791c4618c7ddfee80f1acb7cdb5a55",
+    "initial-timeout/unchanged_controls/after-live-completion.png": "1d4b335f391f6ad899ce5af7a2ccb5d0644b09d6a92633be8800a2f25d8ed1cf",
+    "initial-timeout/unchanged_controls/run.log": "1fc7aebfac7ce4d924bf9e1531435910169bd2f0b410328e47470fd7eb2392fa"
+  }
+}

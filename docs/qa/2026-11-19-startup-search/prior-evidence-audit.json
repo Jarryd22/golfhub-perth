@@ -1,0 +1,236 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "checked_at_utc": "2026-11-19T00:46:39.752858+00:00",
+  "scope": "Known local worktrees, November18 documentation, stored result summaries/logs and workflow hashes only. No tests/UI, network/remote calls, provider/cache watch, source or repository-document edits.",
+  "checkout": {
+    "path": "/workspace/golfhub-20261118",
+    "head": "be76a38fa09d122690ebcf553a342276e8136e5c",
+    "branch": "qa/local-verification-20261118",
+    "parent": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+    "commit_timestamp_utc": "2026-11-18T00:16:15Z",
+    "status_short": "",
+    "changed_files_vs_PR31": 27,
+    "outside_docs_changes": [],
+    "publication": "Local-only documentation per preserved report; this audit made no remote query or write."
+  },
+  "pr31_checkout": {
+    "path": "/workspace/golfhub-20261117-repair",
+    "head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+    "branch": "fix/desktop-cache-live-handoff-20261117",
+    "status_short": ""
+  },
+  "instructions": {
+    "known_paths_checked": [
+      "/workspace/AGENTS.md",
+      "/workspace/golfhub-20261118/AGENTS.md",
+      "/workspace/golfhub-20261117-repair/AGENTS.md",
+      "/workspace/.agents/skills",
+      "/workspace/golfhub-20261118/.agents/skills",
+      "/workspace/golfhub-20261117-repair/.agents/skills"
+    ],
+    "present": [],
+    "differences_from_prior": "None found at known authorized paths; no broad/restricted-directory discovery."
+  },
+  "workflow_comparison": {
+    "prior_context": "/workspace/scratch/golfhub-20261118-context.json",
+    "prior_context_sha256": "bbce82b9fdb8f6c5ecaad10e7480f787b95896bcbb913d9abc3e93be056567e6",
+    "current_docs_head": "be76a38fa09d122690ebcf553a342276e8136e5c",
+    "workflow_inventory_matches": true,
+    "workflow_hash_checks": [
+      {
+        "path": ".github/workflows/check-alerts.yml",
+        "sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/course-news.yml",
+        "sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/refresh-cache-10min.yml",
+        "sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/test-cache.yml",
+        "sha256": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/test-desktop.yml",
+        "sha256": "249034d9961e423cd1f9d5945c1972e3163a3b67da67ca9e53b60fdd2f7505ad",
+        "matches_prior_context": true
+      }
+    ],
+    "changed_workflows": [],
+    "trigger_reinspection_performed": false,
+    "reason": "All five exact Git-blob hashes match prior context and source has no non-documentation change. Existing trigger analysis reused; no workflow execution claim.",
+    "production_definitions_unchanged": true
+  },
+  "inspected_documents": [
+    "docs/qa/2026-11-18-targeted-verification/REPORT.md",
+    "docs/qa/2026-11-18-targeted-verification/evidence.json",
+    "docs/qa/2026-11-18-targeted-verification/review.md",
+    "docs/qa/2026-11-18-targeted-verification/navigation/scope.md",
+    "docs/qa/2026-11-18-targeted-verification/custom-time/result.json",
+    "docs/qa/2026-11-18-targeted-verification/navigation/first/probe.json",
+    "docs/qa/2026-11-18-targeted-verification/targeted-tests/summary.json",
+    "docs/qa/2026-11-18-targeted-verification/targeted-tests/*.log",
+    "docs/qa/2026-11-18-targeted-verification/remote-ci.json",
+    "docs/QA_CHECKLIST.md",
+    "docs/IMPROVEMENT_BACKLOG.md"
+  ],
+  "historical_nov18_evidence": {
+    "execution_date": "2026-11-18",
+    "code_commit": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+    "environment": {
+      "platform": "Linux offscreen",
+      "python": "3.12.14",
+      "qt": "6.11.2"
+    },
+    "counts": {
+      "unit_tests": 63,
+      "module_processes": 6,
+      "custom_time_cases": 100,
+      "intercepted_book_callbacks_subset": 90,
+      "empty_cases_subset": 10,
+      "navigation_journeys": 2,
+      "navigation_named_assertions": 53,
+      "additional_thread_start_assertions": 2,
+      "intercepted_static_course_callbacks": 2
+    },
+    "test_methods": 63,
+    "module_processes": 6,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "selected_modules": [
+      {
+        "module": "test_time_range_ui.py",
+        "recorded_run": 5,
+        "exit_code": 0
+      },
+      {
+        "module": "test_live_button_state.py",
+        "recorded_run": 22,
+        "exit_code": 0
+      },
+      {
+        "module": "test_retained_search_context.py",
+        "recorded_run": 10,
+        "exit_code": 0
+      },
+      {
+        "module": "test_course_controls.py",
+        "recorded_run": 12,
+        "exit_code": 0
+      },
+      {
+        "module": "test_search_race.py",
+        "recorded_run": 4,
+        "exit_code": 0
+      },
+      {
+        "module": "test_offline_course_links.py",
+        "recorded_run": 10,
+        "exit_code": 0
+      }
+    ],
+    "stored_QA_RESULT_records_read_today": 6,
+    "records_agree_with_summary": true,
+    "summary_regression_hash_map_entries": 9,
+    "hash_map_caveat": "The inherited nine-file hash map is metadata, not an execution list; six module records/logs establish actual coverage. Final evidence manifest names six selected test paths.",
+    "diagnostic_scope": "100 synthetic custom-time cases include90 intercepted BOOK callbacks and10 empty cases. Two queued calendar Apply/Escape journeys include53 named assertions plus2 additional start-once checks and2 static-course callbacks; these counts are separate from unit methods.",
+    "recorded_runtime_source_sha256": {
+      "app/qt_golfhub_app.py": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+      "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+      "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+      "scripts/refresh_cache_shard.py": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9"
+    },
+    "source_hash_measurement_note": "Hashes read as preserved provenance; runtime identity to PR31 follows today's docs-only Git diff. No exhaustive source/artifact rehash repeated.",
+    "artifact_rehash_today": false,
+    "screenshots_reinspected_today": false,
+    "archive_runtime_executed_today": false
+  },
+  "historical_ci": {
+    "source": "docs/qa/2026-11-18-targeted-verification/remote-ci.json",
+    "recorded_query_date": "2026-11-18",
+    "run_date": "2026-11-17",
+    "code_head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+    "stored_runs": [
+      {
+        "id": 43988122302,
+        "event": "push",
+        "workflow": "desktop",
+        "conclusion": "success",
+        "attempt": 1
+      },
+      {
+        "id": 43988504444,
+        "event": "pull_request",
+        "workflow": "desktop",
+        "conclusion": "success",
+        "attempt": 1
+      },
+      {
+        "id": 43988504524,
+        "event": "pull_request",
+        "workflow": "cache",
+        "conclusion": "success",
+        "attempt": 1
+      }
+    ],
+    "new_CI_claim": false,
+    "current_remote_requery": false
+  },
+  "cumulative_notes": {
+    "latest_date": "2026-11-18",
+    "status": "No newly confirmed defect/runtime change; documentation/evidence stay local. PR31 handoff backlog entry now identifies published draft31 instead of prepared branch; desktop historical CI count updated198 to210.",
+    "historical_aggregate": "November17 342-method aggregate was not repeated November18 or in this November19 audit.",
+    "release_metadata_note": "Preserved November18 docs distinguish designated Android latest0.1.19 from older0.1.8 at the top of a release list; no asset/installed-version conclusion and no new remote verification today.",
+    "historical_failures_retained": [
+      "November17 initial fixture callback TypeErrors",
+      "Windows cache_close timeout",
+      "Earlier Qt manual-pump stalls",
+      "Obsolete cron assertion",
+      "Blocked WebEngine cases"
+    ],
+    "remaining_limits": [
+      "Canonical desktop/mobile and release-candidate integration remains unresolved.",
+      "Historical native Windows cache_close remains unresolved; no repeated Linux diagnosis or weakened tests.",
+      "Existing date punctuation/freshness/subset work awaits canonical reconciliation.",
+      "Native Windows/Android, real lifecycle/first-launch/full-aggregate revalidation, provider/weather/cache freshness, booking/holds, notification delivery, updater/signatures, accessibility/DPI/resume and performance remain outside today's audit."
+    ]
+  },
+  "today_execution_counts": {
+    "tests": 0,
+    "diagnostic_or_UI_processes": 0,
+    "network_reads": 0,
+    "remote_writes": 0,
+    "source_test_or_repository_docs_edits": 0,
+    "workflow_dispatches": 0
+  },
+  "retained_restrictions": [
+    {
+      "target": "docs/qa-20261114 documentation-only or equivalent PR",
+      "status": "Prior parent-reported approval-review denial; reason not supplied; no retry without new owner approval."
+    },
+    {
+      "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+      "status": "Prior allow-list denial; no retry or alternate route."
+    },
+    {
+      "target": "/tmp/codex-daemon-1000",
+      "status": "Prior restricted-directory denial; no access or rerouting."
+    },
+    {
+      "target": "Windows update.json and Android android-update.json release assets",
+      "status": "Prior connector404/restricted-URL failures; no retry or rerouting."
+    }
+  ],
+  "new_blockers": [],
+  "pending_or_uncertain_actions": [],
+  "evidence_only_write": "/workspace/scratch/golfhub-20261119-local-audit.json"
+}

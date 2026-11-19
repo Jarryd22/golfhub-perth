@@ -1,0 +1,50 @@
+{
+  "case": "close_between_callbacks",
+  "utc": "2026-11-19T00:50:44.029373+00:00",
+  "source_root": "/workspace/golfhub-20261117-repair",
+  "head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+  "script_sha256": "237f1691b58b2165eab9884496a407b41f8ad67fabe91a87e954d984b459ddaf",
+  "assertions": [
+    {
+      "name": "owned initial callback displays isolated saved cache",
+      "passed": true
+    },
+    {
+      "name": "100ms automatic timer scheduled",
+      "passed": true
+    },
+    {
+      "name": "initial observer completed without failure",
+      "passed": true
+    },
+    {
+      "name": "close occurs at intended startup phase",
+      "passed": true
+    },
+    {
+      "name": "window closes",
+      "passed": true
+    },
+    {
+      "name": "early close starts no worker",
+      "passed": true
+    },
+    {
+      "name": "both startup timers inactive after close",
+      "passed": true
+    },
+    {
+      "name": "Perth timer stopped on close",
+      "passed": true
+    },
+    {
+      "name": "isolated saved cache bytes unchanged",
+      "passed": true
+    }
+  ],
+  "callback_errors": [],
+  "initial_callbacks": 1,
+  "initial_timer_remaining": 95,
+  "completed": true
+}
