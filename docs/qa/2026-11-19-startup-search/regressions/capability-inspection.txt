@@ -1,0 +1,17 @@
+Read-only capability inspection, not a test execution.
+Command (cwd /workspace/golfhub-20261119-repair):
+/workspace/golfhub-perth/.venv/bin/python - <<'PY'
+from PySide6.QtTest import QTest
+print(hasattr(QTest,'qWaitFor'))
+print(QTest.qWaitFor.__doc__)
+PY
+
+Recorded tool-output transcription (exit 1):
+False
+Traceback (most recent call last):
+  File "<stdin>", line 3, in <module>
+AttributeError: type object 'PySide6.QtTest.QTest' has no attribute 'qWaitFor'
+
+No unittest methods or application widgets were executed by this inspection.
+No retry of this absent capability was performed. The final helper uses the
+available QElapsedTimer and QTest.qWait APIs for bounded predicate polling.

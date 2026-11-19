@@ -1460,6 +1460,9 @@ class GolfHub(QMainWindow):
         if not p:
             return
         p = self._snapshot_search_context(p)
+        # An accepted search supersedes the deferred startup request.
+        self._initial_cache_timer.stop()
+        self._cache_search_timer.stop()
         self._pending_live_context = None
         if self.cache_thread is not None:
             self._pending_cache_context = p
@@ -1607,6 +1610,8 @@ class GolfHub(QMainWindow):
         if len(p.get("dates") or [p["date"]]) != 1:
             self.status.setText("Live refresh is available for one date; multi-day results use the 10-minute cache")
             return
+        self._initial_cache_timer.stop()
+        self._cache_search_timer.stop()
         self.context = p
         self._live_result_pending = True
         if not self.last_results:

@@ -1,0 +1,171 @@
+{
+  "utc": "2026-11-19T00:48:22.560914+00:00",
+  "case": "unchanged_controls",
+  "root": "/workspace/golfhub-20261117-repair",
+  "head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+  "script_sha256": "ed1dee1642481d76ca44edecdfc464b7d7e9f3351c830416149f625262a397da",
+  "callback_errors": [],
+  "stages": [
+    {
+      "phase": "after_initial_saved_render",
+      "context": {
+        "date": "2033-01-03",
+        "dates": [
+          "2033-01-03"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 4,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "SAVED CACHE / LESS THAN A MINUTE AGO",
+      "auto_timer_active": true,
+      "auto_timer_interval": 100,
+      "auto_timer_remaining": 105,
+      "rows": [
+        {
+          "time": "12:00 pm",
+          "minutes": 720,
+          "spots": 4
+        }
+      ]
+    },
+    {
+      "phase": "after_explicit_live",
+      "context": {
+        "date": "2033-01-03",
+        "dates": [
+          "2033-01-03"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 4,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "pending_controls": {
+        "date": "2033-01-03",
+        "dates": [
+          "2033-01-03"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 4,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "auto_timer_active": true,
+      "auto_timer_remaining": 102
+    },
+    {
+      "phase": "after_automatic_timer",
+      "context": {
+        "date": "2033-01-03",
+        "dates": [
+          "2033-01-03"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 4,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "cache_owner": true,
+      "live_owner": true,
+      "header": "CHECKING SHARED CACHE",
+      "thread_count": 2,
+      "auto_timer_active": false
+    }
+  ],
+  "live_submitted": {
+    "date": "2033-01-03",
+    "dates": [
+      "2033-01-03"
+    ],
+    "holes": "18",
+    "from": null,
+    "to": null,
+    "players": 4,
+    "sites": [
+      "Araluen"
+    ]
+  },
+  "automatic_cache_request": {
+    "dates": [
+      "2033-01-03"
+    ],
+    "holes": "18"
+  },
+  "saved_payloads": [
+    {
+      "date": "2033-01-03",
+      "holes": "18",
+      "results": [
+        {
+          "decorated_rows": [
+            {
+              "minutes": 540,
+              "spots": 4,
+              "time": "9:00 am"
+            }
+          ],
+          "error": null,
+          "hole_label": "18 holes",
+          "site_name": "Araluen",
+          "url": "https://example.invalid/2033-01-03/18",
+          "weather": null
+        }
+      ]
+    }
+  ],
+  "rendered": {
+    "context": {
+      "date": "2033-01-03",
+      "dates": [
+        "2033-01-03"
+      ],
+      "holes": "18",
+      "from": null,
+      "to": null,
+      "players": 4,
+      "sites": [
+        "Araluen"
+      ]
+    },
+    "header": "LIVE RESULTS / UPDATED NOW",
+    "status": "1 matching tee time across 1 course",
+    "labels": [
+      "1 matching time",
+      "1 availability feeds",
+      "0 official course links",
+      "Live results - updated now",
+      "Araluen",
+      "1 matching tee time - 18 holes",
+      "",
+      "Forecast unavailable",
+      "9:00 am",
+      "4 spots"
+    ],
+    "book_names": [
+      "Book: Araluen, 9:00 am, 18 holes, 3 January 2033"
+    ]
+  },
+  "live_payload_saved_with_submitted_date_round": true,
+  "initial_saved_bytes_unchanged": true,
+  "completed": true,
+  "fixture_release": {
+    "live_owner": true,
+    "cache_owner": true
+  },
+  "limits": "Real QApplication.exec and unchanged owned0ms/100ms startup timers; injected user action just after initial-render timeout. Native QThreads and all worker bodies inert. No provider/network/browser/bookings/holds/notification; save intercepted and only isolated synthetic file read. Controlled ordering does not establish natural incidence or historical Windows timeout cause."
+}

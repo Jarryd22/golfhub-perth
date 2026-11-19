@@ -1,0 +1,15 @@
+{
+  "timestamp_utc": "2026-11-19T00:54:37.870642+00:00",
+  "source_root": "/workspace/golfhub-20261119-repair",
+  "head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+  "test_file": "/workspace/golfhub-20261119-repair/tests/test_startup_cache.py",
+  "test_sha256": "f8d044df7d70854962b97ffab8039e85f0e9a921dfc030939699ca6d0b337d3a",
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 0,
+  "successful": true,
+  "failure_ids": [],
+  "error_ids": []
+}

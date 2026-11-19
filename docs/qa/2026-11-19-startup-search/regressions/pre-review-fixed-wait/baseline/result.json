@@ -1,0 +1,21 @@
+{
+  "timestamp_utc": "2026-11-19T00:52:24.168962+00:00",
+  "source_root": "/workspace/golfhub-20261117-repair",
+  "head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+  "test_file": "/workspace/golfhub-20261119-repair/tests/test_startup_cache.py",
+  "test_sha256": "b5fa8cba6610f01c5c14a1131fe81767baa182931ab3da209186f1c2b8cc3714",
+  "tests_run": 15,
+  "failures": 5,
+  "errors": 0,
+  "skipped": 0,
+  "successful": false,
+  "failure_ids": [
+    "test_explicit_queued_find_survives_later_startup_deadline (test_startup_cache.StartupSearchSchedulingTests.test_explicit_queued_find_survives_later_startup_deadline)",
+    "test_find_after_saved_startup_does_not_queue_unsubmitted_edits (test_startup_cache.StartupSearchSchedulingTests.test_find_after_saved_startup_does_not_queue_unsubmitted_edits)",
+    "test_find_before_initial_callback_does_not_queue_unsubmitted_edits (test_startup_cache.StartupSearchSchedulingTests.test_find_before_initial_callback_does_not_queue_unsubmitted_edits)",
+    "test_live_after_saved_startup_keeps_submitted_save_and_booking_context (test_startup_cache.StartupSearchSchedulingTests.test_live_after_saved_startup_keeps_submitted_save_and_booking_context)",
+    "test_live_before_initial_callback_keeps_submitted_save_and_booking_context (test_startup_cache.StartupSearchSchedulingTests.test_live_before_initial_callback_keeps_submitted_save_and_booking_context)"
+  ],
+  "error_ids": []
+}

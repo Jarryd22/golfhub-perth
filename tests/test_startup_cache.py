@@ -5,7 +5,7 @@ import os
 from pathlib import Path
 import tempfile
 import unittest
-from unittest.mock import patch
+from unittest.mock import MagicMock, patch
 
 
 _runtime = tempfile.TemporaryDirectory(prefix="golfhub-cached-startup-")
@@ -14,10 +14,12 @@ for _key in _previous_env:
     os.environ[_key] = _runtime.name
 os.environ.setdefault("QT_QPA_PLATFORM", "offscreen")
 
-from PySide6.QtCore import QDate
-from PySide6.QtWidgets import QApplication, QLabel
+from PySide6.QtCore import QDate, QElapsedTimer
+from PySide6.QtTest import QTest
+from PySide6.QtWidgets import QApplication, QLabel, QPushButton
 
 from app import shared_cache as cache
+from app import qt_golfhub_app as ui
 from app.qt_golfhub_app import GolfHub
 from tests.qt_test_support import cleanup_qt_widgets
 
@@ -190,3 +192,241 @@ class CachedStartupTests(unittest.TestCase):
         self.assertEqual(self.headline(), "1 matching time")
         self.assertTrue(self.window.header_status.text().startswith("SAVED CACHE /"))
         self.assertEqual(self.path.read_bytes(), original)
+
+
+class StartupSearchSchedulingTests(unittest.TestCase):
+    """Accepted searches supersede startup work without changing other timers."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.app = QApplication.instance() or QApplication([])
+
+    def setUp(self):
+        self.runtime = self.enterContext(tempfile.TemporaryDirectory(dir=_runtime.name))
+        self.enterContext(patch.object(cache, "LOCAL_CACHE_DIR", Path(self.runtime) / "cache"))
+        for target in ("socket.create_connection", "socket.socket.connect", "socket.socket.connect_ex",
+                       "socket.getaddrinfo", "webbrowser.open", "app.qt_golfhub_app.fetch_site_result",
+                       "app.course_results.get_weather_for_date", "app.qt_golfhub_app.BookingAssistDialog",
+                       "app.qt_golfhub_app.ScanWorker.run", "app.qt_golfhub_app.CacheWorker.run"):
+            self.enterContext(patch(target, side_effect=AssertionError("Offline startup scheduling test")))
+        self.enterContext(patch.object(ui, "perth_today", return_value=QDate(2033, 1, 2)))
+        self.enterContext(patch.object(ui.QMessageBox, "information"))
+        self.enterContext(patch.object(ui.QMessageBox, "exec"))
+        self.save = self.enterContext(patch.object(ui, "save_local_snapshot"))
+        self.callbacks, self.threads, self.workers = [], [], []
+        self.enterContext(patch("sys.excepthook", side_effect=lambda *a: self.callbacks.append(str(a[1]))))
+
+        def thread_factory():
+            thread = MagicMock()
+            thread.isRunning.return_value = True
+            thread.wait.return_value = True
+            self.threads.append(thread)
+            return thread
+
+        def worker_factory(worker_type):
+            def create(*args, **kwargs):
+                worker = worker_type(*args, **kwargs)
+                self.workers.append(worker)
+                return worker
+            return create
+
+        self.enterContext(patch.object(ui, "QThread", side_effect=thread_factory))
+        for name in ("CacheWorker", "ScanWorker"):
+            worker_type = getattr(ui, name)
+            self.enterContext(patch.object(worker_type, "moveToThread"))
+            self.enterContext(patch.object(ui, name, side_effect=worker_factory(worker_type)))
+        self.window = GolfHub()
+        self.window.set_all(False)
+        self.course = next(row for row in self.window.course_rows if row.site.name == "Araluen")
+        self.course.check.setChecked(True)
+        self.controls("2033-01-03", "18", 4)
+        self.saved = cache.make_snapshot("2033-01-03", "18", [self.result()])
+        self.path = cache.save_local_snapshot(self.saved)
+        self.saved_bytes = self.path.read_bytes()
+
+    def tearDown(self):
+        # Workers/signals are real QObjects; no native thread/body ever runs.
+        # Release inert owners before closing, so the production close guard
+        # does not intentionally keep this test window alive.
+        self.window.scan_thread = self.window.scan_worker = None
+        self.window.cache_thread = self.window.cache_worker = None
+        self.window._closing = False
+        self.window._stop_deferred_timers()
+        for worker in self.workers:
+            worker.deleteLater()
+        cleanup_qt_widgets()
+        self.assertEqual(self.callbacks, [], "Qt callbacks must not raise")
+        self.assertEqual(self.path.read_bytes(), self.saved_bytes)
+
+    def controls(self, date, holes, players):
+        self.window.date.set_dates([QDate.fromString(date, "yyyy-MM-dd")])
+        (self.window.holes9 if holes == "9" else self.window.holes18).setChecked(True)
+        self.window.players.setCurrentText(str(players))
+        self.window.time_preset.setCurrentText("Any time")
+
+    @staticmethod
+    def result():
+        return {"site_name": "Araluen", "url": "https://example.invalid/2033-01-03/18",
+                "hole_label": "18 holes", "error": None, "weather": None,
+                "decorated_rows": [{"time": "9:00 am", "minutes": 540, "spots": 4}]}
+
+    def start_saved_phase(self):
+        self.window._initial_cache_timer.stop()
+        self.window.show_initial_cache()
+        self.assertTrue(self.window.header_status.text().startswith("SAVED CACHE /"))
+        self.assertTrue(self.window._cache_search_timer.isActive())
+        self.assertEqual(self.window._cache_search_timer.interval(), 100)
+
+    def allow_startup_deadline(self):
+        # Wait for the owned 0/100ms timers to fire or be cancelled. Initial
+        # saved-result layout can take time before the 100ms timer is started.
+        elapsed = QElapsedTimer()
+        elapsed.start()
+        def startup_pending():
+            return self.window._initial_cache_timer.isActive() or self.window._cache_search_timer.isActive()
+        while startup_pending() and elapsed.elapsed() < 1000:
+            QTest.qWait(10)
+        self.assertFalse(startup_pending(), "Deferred startup must complete or be cancelled within one second")
+        self.app.processEvents()
+        self.assertEqual(self.callbacks, [])
+
+    def assert_live_context_survives_startup(self):
+        scroll_pending = self.window._scroll_timer.isActive()
+        self.window.live_button.click()
+        worker = self.window.scan_worker
+        self.assertIsNotNone(worker)
+        self.window.scan_thread.start.assert_called_once()
+        self.assertTrue(self.window._perth_date_timer.isActive())
+        self.assertEqual(self.window._scroll_timer.isActive(), scroll_pending)
+        self.controls("2033-01-04", "9", 1)
+        self.allow_startup_deadline()
+        worker.finished.emit([self.result()], False)
+        self.save.assert_called_once()
+        payload = self.save.call_args.args[0]
+        self.assertEqual((payload["date"], payload["holes"]), ("2033-01-03", "18"))
+        self.assertEqual(payload["results"], [self.result()])
+        self.assertEqual((self.window.context["date"], self.window.context["holes"], self.window.context["players"]),
+                         ("2033-01-03", "18", 4))
+        self.assertEqual(len(self.threads), 1)
+        self.assertIsNone(self.window.cache_thread)
+        book = next(b for b in self.window.results_body.findChildren(QPushButton) if b.text() == "BOOK")
+        self.assertIn("3 January 2033", book.accessibleName())
+        self.assertNotIn("4 January 2033", book.accessibleName())
+
+    def assert_find_context_survives_startup(self):
+        self.window.search_button.click()
+        worker = self.window.cache_worker
+        self.assertIsNotNone(worker)
+        self.window.cache_thread.start.assert_called_once()
+        self.assertTrue(self.window._perth_date_timer.isActive())
+        self.controls("2033-01-04", "9", 1)
+        self.allow_startup_deadline()
+        self.assertIsNone(self.window._pending_cache_context, "Unsubmitted edits must not become a queued search")
+        worker.finished.emit({"2033-01-03": self.saved})
+        self.assertEqual(self.window.context["date"], "2033-01-03")
+        self.assertEqual(self.window.context["holes"], "18")
+        self.assertEqual(self.window.last_results, self.saved["results"])
+        self.assertEqual(len(self.threads), 1)
+        self.save.assert_not_called()
+
+    def test_live_before_initial_callback_keeps_submitted_save_and_booking_context(self):
+        self.assertTrue(self.window._initial_cache_timer.isActive())
+        self.assert_live_context_survives_startup()
+
+    def test_live_after_saved_startup_keeps_submitted_save_and_booking_context(self):
+        self.start_saved_phase()
+        self.assertTrue(self.window._scroll_timer.isActive())
+        self.assert_live_context_survives_startup()
+
+    def test_find_before_initial_callback_does_not_queue_unsubmitted_edits(self):
+        self.assertTrue(self.window._initial_cache_timer.isActive())
+        self.assert_find_context_survives_startup()
+
+    def test_find_after_saved_startup_does_not_queue_unsubmitted_edits(self):
+        self.start_saved_phase()
+        self.assert_find_context_survives_startup()
+
+    def test_explicit_queued_find_survives_later_startup_deadline(self):
+        self.start_saved_phase()
+        self.window._start_cache_search(self.window.params())
+        old_worker = self.window.cache_worker
+        self.controls("2033-01-04", "9", 1)
+        self.window.search_button.click()
+        self.controls("2033-01-05", "18", 4)
+        self.allow_startup_deadline()
+        self.assertEqual((self.window._pending_cache_context["date"], self.window._pending_cache_context["holes"]),
+                         ("2033-01-04", "9"))
+        old_worker.finished.emit({"2033-01-03": self.saved})
+        self.window.cache_thread_done()
+        self.assertEqual((self.window.context["date"], self.window.context["holes"], self.window.context["players"]),
+                         ("2033-01-04", "9", 1))
+        self.assertEqual(len(self.threads), 2)
+        for thread in self.threads:
+            thread.start.assert_called_once()
+        self.assertIsNone(self.window._pending_cache_context)
+
+    def test_uninterrupted_startup_renders_saved_data_and_starts_one_shared_search(self):
+        with patch.object(self.window, "render_snapshot", wraps=self.window.render_snapshot) as render:
+            self.allow_startup_deadline()
+        self.assertGreaterEqual(render.call_count, 1)
+        self.assertEqual(render.call_args_list[0].args, (self.saved, "Saved on this device"))
+        self.assertEqual(len(self.threads), 1)
+        self.window.cache_thread.start.assert_called_once()
+        self.assertIsNone(self.window.scan_thread)
+        self.assertEqual((self.window.context["date"], self.window.context["holes"]), ("2033-01-03", "18"))
+        self.window.cache_worker.finished.emit({"2033-01-03": self.saved})
+        self.assertEqual(self.window.last_results, self.saved["results"])
+        self.assertTrue(self.window.header_status.text().startswith("SHARED CACHE /"))
+        self.assertTrue(self.window._perth_date_timer.isActive())
+        self.save.assert_not_called()
+
+    def test_invalid_and_refused_requests_preserve_scheduled_startup(self):
+        def assert_timers_unchanged(initial, shared):
+            self.assertEqual(self.window._initial_cache_timer.isActive(), initial)
+            self.assertEqual(self.window._cache_search_timer.isActive(), shared)
+            self.assertEqual(self.threads, [])
+
+        for phase in ("initial", "shared"):
+            with self.subTest(phase=phase):
+                if phase == "shared":
+                    self.start_saved_phase()
+                expected = (phase == "initial", phase == "shared")
+                self.course.check.setChecked(False)
+                self.window.search_cache()
+                self.window.search_live()
+                assert_timers_unchanged(*expected)
+                self.course.check.setChecked(True)
+                self.window.time_preset.setCurrentText("Custom range")
+                self.window.time_from.setCurrentText("3:00 pm")
+                self.window.time_to.setCurrentText("9:00 am")
+                self.window.search_cache()
+                self.window.search_live()
+                assert_timers_unchanged(*expected)
+                self.window.time_preset.setCurrentText("Any time")
+                self.window.date.set_dates([QDate(2033, 1, 3), QDate(2033, 1, 4)])
+                self.window.search_live()
+                assert_timers_unchanged(*expected)
+                self.window.date.set_dates([QDate(2033, 1, 3)])
+                self.window.scan_thread = MagicMock()
+                self.window.search_live()
+                assert_timers_unchanged(*expected)
+                self.window.scan_thread = None
+                self.window._closing = True
+                self.window.search_cache()
+                self.window.search_live()
+                assert_timers_unchanged(*expected)
+                self.window._closing = False
+        self.allow_startup_deadline()
+        self.assertEqual(len(self.threads), 1)
+        self.assertIsNotNone(self.window.cache_worker)
+
+    def test_close_before_initial_callback_prevents_startup_work(self):
+        self.assertTrue(self.window._initial_cache_timer.isActive())
+        self.window.close()
+        self.allow_startup_deadline()
+        self.assertEqual(self.threads, [])
+        self.assertIsNone(self.window.cache_worker)
+        self.assertIsNone(self.window.scan_worker)
+        self.assertFalse(self.window._initial_cache_timer.isActive())
+        self.assertFalse(self.window._cache_search_timer.isActive())
+        self.save.assert_not_called()

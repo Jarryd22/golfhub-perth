@@ -1,0 +1,60 @@
+{
+  "case": "automatic_latest_controls",
+  "utc": "2026-11-19T00:51:17.751830+00:00",
+  "source_root": "/workspace/golfhub-20261119-repair",
+  "head": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+  "script_sha256": "237f1691b58b2165eab9884496a407b41f8ad67fabe91a87e954d984b459ddaf",
+  "assertions": [
+    {
+      "name": "owned initial callback displays isolated saved cache",
+      "passed": true
+    },
+    {
+      "name": "100ms automatic timer scheduled",
+      "passed": true
+    },
+    {
+      "name": "initial observer completed without failure",
+      "passed": true
+    },
+    {
+      "name": "initial callback delivered once",
+      "passed": true
+    },
+    {
+      "name": "automatic cache search starts once",
+      "passed": true
+    },
+    {
+      "name": "automatic search uses latest controls when no manual search is submitted",
+      "passed": true
+    },
+    {
+      "name": "automatic check does not start live work",
+      "passed": true
+    },
+    {
+      "name": "Perth rollover timer remains active",
+      "passed": true
+    },
+    {
+      "name": "isolated saved cache bytes unchanged",
+      "passed": true
+    }
+  ],
+  "callback_errors": [],
+  "initial_callbacks": 1,
+  "initial_timer_remaining": 95,
+  "automatic_request": {
+    "dates": [
+      "2033-01-04"
+    ],
+    "holes": "9",
+    "players": 1,
+    "sites": [
+      "Araluen"
+    ]
+  },
+  "completed": true
+}

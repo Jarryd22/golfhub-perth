@@ -1,0 +1,85 @@
+{
+  "base_commit": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+  "test_file": "tests/test_startup_cache.py",
+  "final_test_sha256": "f8d044df7d70854962b97ffab8039e85f0e9a921dfc030939699ca6d0b337d3a",
+  "original_top_level_definitions_ast_identical": [
+    "tearDownModule",
+    "CachedStartupTests"
+  ],
+  "original_test_methods": 7,
+  "added_test_methods": [
+    "test_live_before_initial_callback_keeps_submitted_save_and_booking_context",
+    "test_live_after_saved_startup_keeps_submitted_save_and_booking_context",
+    "test_find_before_initial_callback_does_not_queue_unsubmitted_edits",
+    "test_find_after_saved_startup_does_not_queue_unsubmitted_edits",
+    "test_explicit_queued_find_survives_later_startup_deadline",
+    "test_uninterrupted_startup_renders_saved_data_and_starts_one_shared_search",
+    "test_invalid_and_refused_requests_preserve_scheduled_startup",
+    "test_close_before_initial_callback_prevents_startup_work"
+  ],
+  "copied_artifacts": [
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/baseline/result.json",
+      "destination": "baseline/result.json",
+      "sha256": "b8707d4d84304bddc41d6881430ba20051fa387a477788e8faf0d713b1dfb667"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/baseline/test.log",
+      "destination": "baseline/test.log",
+      "sha256": "3c056699140f267ef4acb0a3aa8ec185646679678123eab5fc75c83020003670"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/baseline/result.json",
+      "destination": "pre-review-fixed-wait/baseline/result.json",
+      "sha256": "3ac9bf4761257aa7ae96a97ff59211e4756b4442bfc6cb73c635e28820ea0200"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/baseline/test.log",
+      "destination": "pre-review-fixed-wait/baseline/test.log",
+      "sha256": "11dff9d3c5f2e62b2a9f7dad2a76ea0bfeaf0168b46a41ccf3d77521f1907feb"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/repaired/result.json",
+      "destination": "pre-review-fixed-wait/repaired/result.json",
+      "sha256": "ab2edd9ea534833f2aba9707fb91f6028b0b0ee94921c25e10efb79bf96c5fc6"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/repaired/test.log",
+      "destination": "pre-review-fixed-wait/repaired/test.log",
+      "sha256": "7038175341a459dded86425275dfb5e73fd7b129de61411d8e1a0e5982ebf981"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/review-note.json",
+      "destination": "pre-review-fixed-wait/review-note.json",
+      "sha256": "edce17bc390a4ab5ee601930682c19d8ccf1c74c845929493fd1cb036729f382"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/test_startup_cache.py",
+      "destination": "pre-review-fixed-wait/test_startup_cache.py",
+      "sha256": "b5fa8cba6610f01c5c14a1131fe81767baa182931ab3da209186f1c2b8cc3714"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/pre-review-fixed-wait/wait-for-completion.diff.gz",
+      "destination": "pre-review-fixed-wait/wait-for-completion.diff.gz",
+      "sha256": "73430162d900380301a012cb9f44e8ae4648eb67637d20e0bc21de4c14209181"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/repaired/result.json",
+      "destination": "repaired/result.json",
+      "sha256": "512fdbf719add2f30407bcf79929c33eeba987a8fcc8b3ca2917f5ea0b1511f3"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/repaired/test.log",
+      "destination": "repaired/test.log",
+      "sha256": "199a4bac86d06ada0c3fcd21ee9e63245f2942d3585981475c4d30730d1b1352"
+    },
+    {
+      "origin": "/workspace/scratch/golfhub-20261119-regressions/run-startup-tests.py",
+      "destination": "run-startup-tests.py",
+      "sha256": "63a85db45be14f22e77db722e8828545c6a083a0267fe52b17a4c07e4c6458c7"
+    }
+  ],
+  "capability_record": "capability-inspection.txt is a transcription of the read-only tool response; it is not a new test run or a preexisting log file.",
+  "copy_command_note": "copy-command-note.txt records a shell/heredoc formatting failure before corrected copying; no test/source execution.",
+  "counts_note": "Final identical test file: baseline15run/5fail/0errors/skips; repair15run/0fail/errors/skips. Earlier fixed-wait runs are retained separately and not extra unique tests."
+}

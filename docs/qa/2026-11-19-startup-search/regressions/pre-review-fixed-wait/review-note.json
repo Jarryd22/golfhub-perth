@@ -1,0 +1,6 @@
+{
+  "reason": "Fixed180ms wait was passing locally but could race slow initial layout on Windows; wait for owned timers to finish/cancel within1s instead. Production0/100ms and existing lifecycle timeouts unchanged.",
+  "fixed_wait_test_sha256": "b5fa8cba6610f01c5c14a1131fe81767baa182931ab3da209186f1c2b8cc3714",
+  "final_test_sha256": "f8d044df7d70854962b97ffab8039e85f0e9a921dfc030939699ca6d0b337d3a",
+  "capability_probe": "QTest.qWaitFor absent in PySide6 6.11.2; attribute lookup raised AttributeError during inspection, not a test run. QElapsedTimer bounded polling used."
+}
