@@ -1,0 +1,23 @@
+{
+  "checked_at_utc": "2026-11-20 01:05:10 UTC",
+  "base_ref": {
+    "ref": "refs/heads/fix/desktop-startup-search-20261119",
+    "node_id": "REF_kwDOTYKfyNoALnJlZnMvaGVhZHMvZml4L2Rlc2t0b3Atc3RhcnR1cC1zZWFyY2gtMjAyNjExMTk",
+    "url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/refs/heads/fix/desktop-startup-search-20261119",
+    "object": {
+      "sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+      "type": "commit",
+      "url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/commits/66eaf00f76e748cf6f76ef6a758574a3d996360c"
+    }
+  },
+  "main_ref": {
+    "ref": "refs/heads/main",
+    "node_id": "REF_kwDOTYKfyK9yZWZzL2hlYWRzL21haW4",
+    "url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/refs/heads/main",
+    "object": {
+      "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "type": "commit",
+      "url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/commits/25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    }
+  }
+}

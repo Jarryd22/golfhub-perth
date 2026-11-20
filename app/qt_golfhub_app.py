@@ -240,6 +240,33 @@ class CourseRow(QFrame):
         super().mousePressEvent(event)
 
 
+def _open_browser(parent: QWidget, url: str) -> bool:
+    """Report a failed browser handoff without retrying or changing its target."""
+    try:
+        if webbrowser.open(url):
+            return True
+    except (OSError, webbrowser.Error):
+        pass
+    message = QMessageBox(parent)
+    message.setWindowTitle("Could not open browser")
+    message.setIcon(QMessageBox.Warning)
+    message.setTextFormat(Qt.PlainText)
+    message.setText(
+        "GolfHub could not open this link in your browser.\n\n"
+        f"Open this address manually:\n{url}"
+    )
+    message.setStandardButtons(QMessageBox.Ok)
+    message.setStyleSheet(
+        "QMessageBox { background:#111111; color:#F6F6F6; }"
+        "QMessageBox QLabel { color:#F6F6F6; }"
+        "QMessageBox QPushButton { background:#F59E0B; color:#090909; "
+        "padding:8px 18px; border:0; border-radius:7px; font-weight:800; }"
+    )
+    message.setTextInteractionFlags(Qt.TextSelectableByMouse | Qt.TextSelectableByKeyboard)
+    message.exec()
+    return False
+
+
 def _booking_action_name(action, result, date_str=None, tee_time=None):
     """Identify an action using its displayed result, never pending filters."""
     context = [str(result.get("site_name") or "Golf course")]
@@ -291,7 +318,7 @@ class TeeTimeCard(QFrame):
         if self.booking_handler:
             self.booking_handler(self.result, self.row)
         elif self.url:
-            webbrowser.open(self.url)
+            _open_browser(self, self.url)
 
 
 class WeatherBadge(QFrame):
@@ -365,7 +392,7 @@ class DirectCourseCard(QFrame):
 
     def open_url(self):
         if self.result.get("url"):
-            webbrowser.open(self.result["url"])
+            _open_browser(self, self.result["url"])
 
 
 class ResponsiveCardGrid(QWidget):
@@ -933,7 +960,7 @@ class ResultCard(QFrame):
 
     def open_url(self):
         if self.result.get("url"):
-            webbrowser.open(self.result["url"])
+            _open_browser(self, self.result["url"])
 
 
 class DaySection(QFrame):
@@ -1828,7 +1855,7 @@ class GolfHub(QMainWindow):
 
         players = (self.context if context is None else context).get("players")
         if players is None:
-            webbrowser.open(source_url)
+            _open_browser(self, source_url)
             return
 
         try:
@@ -1847,7 +1874,7 @@ class GolfHub(QMainWindow):
                 f"GolfHub cannot safely preselect this tee time: {exc}\n\n"
                 "The official page will open for manual selection.",
             )
-            webbrowser.open(source_url)
+            _open_browser(self, source_url)
             return
 
         if not plan.capability.confirmed_temporary_hold_supported:
@@ -1857,12 +1884,12 @@ class GolfHub(QMainWindow):
                 "This provider does not offer a verified GolfHub player-count hand-off. "
                 f"The official page will open; select {players} player(s) there.",
             )
-            webbrowser.open(plan.open_url)
+            _open_browser(self, plan.open_url)
             return
 
         choice = self._booking_choice(plan)
         if choice == "manual":
-            webbrowser.open(plan.open_url)
+            _open_browser(self, plan.open_url)
             return
         if choice != "hold":
             return
@@ -1885,7 +1912,7 @@ class GolfHub(QMainWindow):
                 f"GolfHub did not hold any spots: {exc}\n\n"
                 "The official page will open for manual selection.",
             )
-            webbrowser.open(plan.open_url)
+            _open_browser(self, plan.open_url)
             return
         self._keep_booking_dialog(dialog)
 

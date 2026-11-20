@@ -1,0 +1,136 @@
+{
+  "utc": "2026-11-20T00:55:14.306206+00:00",
+  "source_root": "/workspace/golfhub-20261119-repair",
+  "head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+  "script_sha256": "f5aac2368f36ebfa36406cf34505f6a1ccd95d69faf6e0117caafb5a8e0f0714",
+  "expect_warning": false,
+  "cases": [
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "assertions": [
+        {
+          "name": "Space dispatches the exact configured URL once",
+          "passed": true
+        },
+        {
+          "name": "scheduled failure observer ran once",
+          "passed": true
+        },
+        {
+          "name": "failure modal presence matches baseline or repaired contract",
+          "passed": true
+        },
+        {
+          "name": "no modal remains after failure stage",
+          "passed": true
+        },
+        {
+          "name": "focus returns to the course action",
+          "passed": true
+        },
+        {
+          "name": "failure leaves result data unchanged",
+          "passed": true
+        },
+        {
+          "name": "mouse retry dispatches the same URL once more",
+          "passed": true
+        },
+        {
+          "name": "True browser result has no warning",
+          "passed": true
+        },
+        {
+          "name": "successful intercepted retry leaves results unchanged",
+          "passed": true
+        }
+      ],
+      "modals": [
+        {
+          "stage": "failure",
+          "found": false
+        },
+        {
+          "stage": "retry",
+          "found": false
+        }
+      ],
+      "url": "https://www.altoneparkgolfcourse.com.au",
+      "action_name": "View course: Altone Park, 18 holes, 3 January 2033",
+      "focus_returned_to_action": true,
+      "completed": true
+    },
+    {
+      "viewport": [
+        980,
+        640
+      ],
+      "assertions": [
+        {
+          "name": "Space dispatches the exact configured URL once",
+          "passed": true
+        },
+        {
+          "name": "scheduled failure observer ran once",
+          "passed": true
+        },
+        {
+          "name": "failure modal presence matches baseline or repaired contract",
+          "passed": true
+        },
+        {
+          "name": "no modal remains after failure stage",
+          "passed": true
+        },
+        {
+          "name": "focus returns to the course action",
+          "passed": true
+        },
+        {
+          "name": "failure leaves result data unchanged",
+          "passed": true
+        },
+        {
+          "name": "mouse retry dispatches the same URL once more",
+          "passed": true
+        },
+        {
+          "name": "True browser result has no warning",
+          "passed": true
+        },
+        {
+          "name": "successful intercepted retry leaves results unchanged",
+          "passed": true
+        }
+      ],
+      "modals": [
+        {
+          "stage": "failure",
+          "found": false
+        },
+        {
+          "stage": "retry",
+          "found": false
+        }
+      ],
+      "url": "https://www.altoneparkgolfcourse.com.au",
+      "action_name": "View course: Altone Park, 18 holes, 3 January 2033",
+      "focus_returned_to_action": true,
+      "completed": true
+    }
+  ],
+  "callback_errors": [],
+  "summary": {
+    "viewports": 2,
+    "completed": 2,
+    "recorded_assertions": 18,
+    "failed_assertions": 0,
+    "exceptions": 0,
+    "callback_errors": 0
+  },
+  "limits": "Actual course Space/mouse actions, realQMessageBox and queued inspector; OKReturn with explicitfocus anchor. BrowserFalse/True intercepted. No externalbrowser/network/provider,worker,persistence,booking/hold/notification/native device execution."
+}

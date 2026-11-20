@@ -1,0 +1,184 @@
+{
+  "recorded_utc": "2026-11-20T01:03:41.462218+00:00",
+  "artifact_origin": "/workspace/scratch/golfhub-20261120-browser-modal",
+  "artifact_destination": "/workspace/golfhub-20261120/docs/qa/2026-11-20-browser-handoff/browser-modal",
+  "source_roots": {
+    "baseline": "/workspace/golfhub-20261119-repair",
+    "repair": "/workspace/golfhub-20261120"
+  },
+  "baseline_head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "baseline_app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+  "source_stages": {
+    "static_warning": "f6692c7c46bff54027cf12012cc78e045d2381d9fa6f10f64c3f75ffaa05212e",
+    "styled_flags_reset": "e109b3e6805b72352309b0c2231090e6d8294cae737a2595a6a124c995be3441",
+    "final": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403"
+  },
+  "runs": [
+    {
+      "name": "Exact PR32 direct baseline",
+      "result": "before/probe.json",
+      "log": "before/run.log",
+      "exit_code": 0,
+      "cases": 2,
+      "recorded_assertions": 18,
+      "failed_assertions": 0,
+      "meaning": "Observed browserFalse with no warning; True retry control succeeds."
+    },
+    {
+      "name": "Initial static-message candidate",
+      "result": "after/probe.json",
+      "log": "after/run.log",
+      "exit_code": 1,
+      "cases": 2,
+      "recorded_assertions": 18,
+      "failed_assertions": 2,
+      "meaning": "Exact warning visible and Return-dismissed; automatic focus-return assertion fails at both sizes. Retry stage not reached."
+    },
+    {
+      "name": "Plain Qt focus reference",
+      "result": "plain-qt-reference/result.json",
+      "log": "plain-qt-reference/run.log",
+      "exit_code": 0,
+      "meaning": "Without Golf Hub, QMessageBox dismissal also leaves activeWindow/focusWidget None; explicit host activation restores previous button focus."
+    },
+    {
+      "name": "Styled direct observation",
+      "result": "candidate-inspection/direct/probe.json",
+      "log": "candidate-inspection/direct/run.log",
+      "exit_code": 0,
+      "cases": 2,
+      "recorded_assertions": 26,
+      "failed_assertions": 0,
+      "meaning": "Gold OK and explicit-reactivation retry work; shown flags5 reveal missing keyboard selection despite source setter."
+    },
+    {
+      "name": "Styled long-URL observation",
+      "result": "candidate-inspection/long_booking/probe.json",
+      "log": "candidate-inspection/long_booking/run.log",
+      "exit_code": 0,
+      "cases": 2,
+      "recorded_assertions": 26,
+      "failed_assertions": 0,
+      "meaning": "Long exact URL wraps and fits; keyboard selection still absent from flags5. This is intermediate evidence."
+    },
+    {
+      "name": "Plain Qt setter-order reference",
+      "result": "flags-order/result.json",
+      "log": "flags-order/run.log",
+      "exit_code": 0,
+      "meaning": "Three setter-order observations: stylesheet resets prior flags3 to5; flags set after stylesheet stay3 after actual show."
+    },
+    {
+      "name": "Final direct modal",
+      "result": "final/direct/probe.json",
+      "log": "final/direct/run.log",
+      "exit_code": 0,
+      "cases": 2,
+      "recorded_assertions": 34,
+      "failed_assertions": 0,
+      "meaning": "Final exactURL, shown flags3, palette/fit, Return dismissal and explicit-reactivation True retry pass."
+    },
+    {
+      "name": "Final long-URL modal",
+      "result": "final/long_booking/probe.json",
+      "log": "final/long_booking/run.log",
+      "exit_code": 0,
+      "cases": 2,
+      "recorded_assertions": 34,
+      "failed_assertions": 0,
+      "meaning": "Same final assertions pass with long MiClub-shaped synthetic booking URL."
+    }
+  ],
+  "counts": {
+    "diagnostic_process_executions": 8,
+    "UI_process_executions": 6,
+    "plain_Qt_reference_processes": 2,
+    "UI_case_executions_including_replays": 12,
+    "final_unique_route_viewport_cases": 4,
+    "final_recorded_assertions": 68,
+    "failed_processes": 1,
+    "historical_failed_focus_assertions": 2,
+    "timeouts": 0,
+    "final_failures_errors_callback_errors": 0,
+    "new_unittest_methods": 0
+  },
+  "visual_review": {
+    "inspected": [
+      "after/failure-modal-1280x800.png",
+      "after/failure-modal-980x640.png",
+      "candidate-inspection/direct/failure-modal-980x640.png",
+      "candidate-inspection/long_booking/failure-modal-980x640.png",
+      "final/direct/failure-modal-980x640.png",
+      "final/long_booking/failure-modal-980x640.png"
+    ],
+    "final_1280_images_byte_identical_to_inspected_980": {
+      "direct": true,
+      "long_booking": true
+    },
+    "findings": "Initial static warning has dark low-contrast OK label. Final modal uses #090909 button text and sampled #f59e0b background. Direct dialog353x125, long dialog525x155; exact long URL wraps. Both fit each parent viewport; actual OK rectangle is mapped into dialog coordinates. Dialog title is asserted by property because QWidget grabs exclude native window decorations."
+  },
+  "focus_limit": "Automatic return to the source action remains false in all final offscreen cases. Plain Qt reference has the same activeWindow/focusWidget loss. Final retry explicitly activates the parent window, which restores previous button focus; no source focus workaround or native automatic-focus claim.",
+  "selection_limit": "Final shown QMessageBox and body QLabel flags are3: mouse and keyboard selection enabled. No Ctrl+A, selected-text content, clipboard copy, screen reader or native device copyability test was run.",
+  "instrumentation_history": {
+    "geometry": "Original baseline script retained; separate observer maps OK coordinates into dialog frame rather than using button-box-local rectangle.",
+    "focus": "Initial failed assertion retained. Plain Qt comparison justified separate documented reactivation fixture for retry; no formal application assertion was weakened.",
+    "final": "Final-only oracles require shown PlainText, flags3, gold/dark palette, parent fit and unchanged source hash during probe. Diffs are compressed byte-exact."
+  },
+  "browser_boundary": "Every browser invocation is intercepted: False for failure and True for retry. Direct VIEW COURSE and manual Any-player BOOK paths execute their application handlers, but no real browser, network or hold is launched.",
+  "limits": [
+    "Actual Qt Space/mouse actions and real QMessageBox nested modal loop; Return on OK uses explicit focus anchor.",
+    "Window context/results are synthetic, startup timers/workers stopped or blocked; no production data write.",
+    "No native Windows/Android, real browser success, booking/hold, provider/weather/network, persistence or notification delivery.",
+    "No denied route, remote write, workflow/security/credentials/spending/outreach or WebEngine bypass.",
+    "Historical Windows cache_close and canonical integration remain unresolved."
+  ],
+  "artifact_sha256": {
+    "activation-instrumentation.diff.gz": "726a5d1b663ce0ec8a9bd04988084064936bdb550ce6f29d83c8c820e4567869",
+    "after/failure-modal-1280x800.png": "2465a4f4073cd0002e61ac49d245ec8de850aa501eddcce152cf33a6e24bf755",
+    "after/failure-modal-980x640.png": "2465a4f4073cd0002e61ac49d245ec8de850aa501eddcce152cf33a6e24bf755",
+    "after/modal_probe_geometry.py": "ece9b2ee2e25b0cdf9ceda8c808aed31063b61985ecadfe2b72123c70f7109c8",
+    "after/probe.json": "ba02347461e3ab93247ee8c0a682f7e3f0d33541700171f4cb8113ead862b1b0",
+    "after/run.log": "b471ceddefaab791e494f3622c2ffde67c136c738674f2002cf6187bfd03cb9d",
+    "before/after-retry-1280x800.png": "dcaf412d9730629d673e4dab50deab5f6320e67e601a3a1504c72f269965ec64",
+    "before/after-retry-980x640.png": "bbf8e189b6c65c16536e7328ba481df18a6ce69ed1f3bedfde80794b7d94ce33",
+    "before/modal_probe.py": "f5aac2368f36ebfa36406cf34505f6a1ccd95d69faf6e0117caafb5a8e0f0714",
+    "before/probe.json": "2fb652e08bf8f1c21f1443c9ee5b09eab8f8ebb599cc4ea6b2d57e7299b5ad63",
+    "before/run.log": "cfe5ed30213ad77c166425bcae3c6de6fdb600b4284ea5fa8290dd22a0e7442b",
+    "candidate-inspection/direct/after-retry-1280x800.png": "dcaf412d9730629d673e4dab50deab5f6320e67e601a3a1504c72f269965ec64",
+    "candidate-inspection/direct/after-retry-980x640.png": "bbf8e189b6c65c16536e7328ba481df18a6ce69ed1f3bedfde80794b7d94ce33",
+    "candidate-inspection/direct/failure-modal-1280x800.png": "f8f1b98de0d9375def4cde99649da9d32e76fbf10ac3d95bafb92d46a3e938fc",
+    "candidate-inspection/direct/failure-modal-980x640.png": "f8f1b98de0d9375def4cde99649da9d32e76fbf10ac3d95bafb92d46a3e938fc",
+    "candidate-inspection/direct/probe.json": "8b9e94bb4d476769de3c5d7c3e722b9da3527a2ae83b5a454f9e2d0f149c2ad5",
+    "candidate-inspection/direct/run.log": "b11158d138c51e41dd9e83ec761cbc28570115617238391dc133c450e67af05d",
+    "candidate-inspection/long_booking/after-retry-1280x800.png": "0aa87a1c372172aab6132e90a1619120016d088fad87ab12670b42a5d10edd3d",
+    "candidate-inspection/long_booking/after-retry-980x640.png": "1ca64fd51c9df3419c962e4d193a5bbe9a20750f7529d63cbda36287f6ca4448",
+    "candidate-inspection/long_booking/failure-modal-1280x800.png": "9fecc1f09affee59540ae80d24917d102dae24940f2fb58ac4660dbfe1fde103",
+    "candidate-inspection/long_booking/failure-modal-980x640.png": "9fecc1f09affee59540ae80d24917d102dae24940f2fb58ac4660dbfe1fde103",
+    "candidate-inspection/long_booking/probe.json": "4862a22e878d5f614b659ba3379c2419f480dab3741c03b9ef8d6e078ef4c0eb",
+    "candidate-inspection/long_booking/run.log": "995f7dbae700cb8e26643b59b92b06869d38f7ed64b8ad2a08a6e81701ac3a92",
+    "final/direct/after-retry-1280x800.png": "dcaf412d9730629d673e4dab50deab5f6320e67e601a3a1504c72f269965ec64",
+    "final/direct/after-retry-980x640.png": "bbf8e189b6c65c16536e7328ba481df18a6ce69ed1f3bedfde80794b7d94ce33",
+    "final/direct/failure-modal-1280x800.png": "f8f1b98de0d9375def4cde99649da9d32e76fbf10ac3d95bafb92d46a3e938fc",
+    "final/direct/failure-modal-980x640.png": "f8f1b98de0d9375def4cde99649da9d32e76fbf10ac3d95bafb92d46a3e938fc",
+    "final/direct/probe.json": "578be0546755aab864985fead8a6adfb9f9c5bc31c08a09bc59a4d2c6824bb85",
+    "final/direct/run.log": "dbb0ca06c61c8d0a61985254fa4a6e91a92338e7b1a151f2c88104de7ef44f4d",
+    "final/long_booking/after-retry-1280x800.png": "0aa87a1c372172aab6132e90a1619120016d088fad87ab12670b42a5d10edd3d",
+    "final/long_booking/after-retry-980x640.png": "1ca64fd51c9df3419c962e4d193a5bbe9a20750f7529d63cbda36287f6ca4448",
+    "final/long_booking/failure-modal-1280x800.png": "9fecc1f09affee59540ae80d24917d102dae24940f2fb58ac4660dbfe1fde103",
+    "final/long_booking/failure-modal-980x640.png": "9fecc1f09affee59540ae80d24917d102dae24940f2fb58ac4660dbfe1fde103",
+    "final/long_booking/probe.json": "582d01353ec4d07007574b18cf79909bc978f23af4ef00fbd7c894d0a9b72821",
+    "final/long_booking/run.log": "05e3021f401fd673fee2a0123de913c35d7350d51c36e43c6e44842cccd774de",
+    "final-oracles.diff.gz": "4b02b9613ce81f794d9ccd5ed60cb46ca36314f21ac7187e95f924e88f5099fd",
+    "flags-order/result.json": "84c706edcd2ae7d871dfee2a9d1afed0aa1e29840759da68df128b910c877fb9",
+    "flags-order/run.log": "cebf4ae58df1685fed07660203316f26723f014876c3db8a19bf8bacaff11cfd",
+    "flags_order_probe.py": "043fd4d3786afe606ed2c0be503e77c98be260f63a5ce4a94f55ad3bd0f70a17",
+    "geometry-instrumentation.diff.gz": "84abcdab941a7f7cb807cca31108d04c6188f65e62fd46d644eacd4c0da3e0b8",
+    "modal_probe.py": "f5aac2368f36ebfa36406cf34505f6a1ccd95d69faf6e0117caafb5a8e0f0714",
+    "modal_probe_activation.py": "10cc7a578174cd404aa55322c69722538cf69514a9539b89a09596c28a916030",
+    "modal_probe_final.py": "b06d60e6f86c240a8476abc48a2ebca74939e8b77f5942f8a49ec8329171a851",
+    "modal_probe_geometry.py": "ece9b2ee2e25b0cdf9ceda8c808aed31063b61985ecadfe2b72123c70f7109c8",
+    "plain-qt-reference/result.json": "a44d0e571646b1d41602a786d00e000f489e2cc478e29adcc0f40bc9ecfd175c",
+    "plain-qt-reference/run.log": "483eb1422ad8bfaf748e38f1cb667b1be658fc32fe694b6680e7c09697b0f90e",
+    "plain_qt_focus.py": "ba11386f9c13c2cbceeae20b5a5f20e67854785b2a2899711af77037212ca84c"
+  }
+}

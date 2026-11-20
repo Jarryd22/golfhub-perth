@@ -1,0 +1,26 @@
+{
+  "script_sha256": "ba11386f9c13c2cbceeae20b5a5f20e67854785b2a2899711af77037212ca84c",
+  "callback_errors": [],
+  "before": {
+    "focus_class": "QPushButton",
+    "focus_text": "Plain Qt warning",
+    "active_window_class": "QWidget",
+    "button_has_focus": true,
+    "window_active": true
+  },
+  "real_message_box": true,
+  "after_keyboard_dismissal": {
+    "focus_class": null,
+    "focus_text": null,
+    "active_window_class": null,
+    "button_has_focus": false,
+    "window_active": false
+  },
+  "after_explicit_window_activation": {
+    "focus_class": "QPushButton",
+    "focus_text": "Plain Qt warning",
+    "active_window_class": "QWidget",
+    "button_has_focus": true,
+    "window_active": true
+  }
+}

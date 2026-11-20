@@ -1,0 +1,421 @@
+{
+  "recorded_at_utc": "2026-11-20T00:56:44.131495+00:00",
+  "base_commit": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "source_root": "/workspace/golfhub-20261120",
+  "head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "app_sha256": "f6692c7c46bff54027cf12012cc78e045d2381d9fa6f10f64c3f75ffaa05212e",
+  "test_file": "/workspace/golfhub-20261120/tests/test_booking_context.py",
+  "test_sha256": "c254663d82f33195ab6593b692f44a9252815e54e76d445240205a933f883a90",
+  "original_class_ast_identical": true,
+  "tests_run": 19,
+  "passed_methods": 19,
+  "failure_records": 0,
+  "error_records": 0,
+  "skipped": 0,
+  "successful": true,
+  "method_ids": [
+    "test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs",
+    "test_booking_context.BookingContextTests.test_direct_course_links_preserve_literal_ampersands_and_single_day_context",
+    "test_booking_context.BookingContextTests.test_lazy_days_keep_their_own_dates_when_opened_after_filters_change",
+    "test_booking_context.BookingContextTests.test_missing_context_is_not_invented_and_row_url_still_wins",
+    "test_booking_context.BookingContextTests.test_range_course_link_has_no_invented_single_date",
+    "test_booking_context.BookingContextTests.test_repeated_times_distinguish_course_and_round_without_changing_visible_text",
+    "test_booking_context.BookingContextTests.test_show_all_action_keeps_course_date_context_after_toggle",
+    "test_booking_context.BookingContextTests.test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff",
+    "test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_cancel_button_path_does_not_open_or_warn",
+    "test_booking_context.BrowserHandoffTests.test_confirmed_hold_button_path_keeps_dialog_handoff_without_browser",
+    "test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards",
+    "test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure"
+  ],
+  "passed_method_ids": [
+    "test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs",
+    "test_booking_context.BookingContextTests.test_direct_course_links_preserve_literal_ampersands_and_single_day_context",
+    "test_booking_context.BookingContextTests.test_lazy_days_keep_their_own_dates_when_opened_after_filters_change",
+    "test_booking_context.BookingContextTests.test_missing_context_is_not_invented_and_row_url_still_wins",
+    "test_booking_context.BookingContextTests.test_range_course_link_has_no_invented_single_date",
+    "test_booking_context.BookingContextTests.test_repeated_times_distinguish_course_and_round_without_changing_visible_text",
+    "test_booking_context.BookingContextTests.test_show_all_action_keeps_course_date_context_after_toggle",
+    "test_booking_context.BookingContextTests.test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff",
+    "test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_cancel_button_path_does_not_open_or_warn",
+    "test_booking_context.BrowserHandoffTests.test_confirmed_hold_button_path_keeps_dialog_handoff_without_browser",
+    "test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards",
+    "test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure",
+    "test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure"
+  ],
+  "failure_ids": [],
+  "error_ids": [],
+  "subscenarios": [
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure",
+      "params": {
+        "route": "any_players",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure",
+      "params": {
+        "route": "any_players",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure",
+      "params": {
+        "route": "any_players",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure",
+      "params": {
+        "route": "any_players",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure",
+      "params": {
+        "route": "dialog_failure",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure",
+      "params": {
+        "route": "dialog_failure",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure",
+      "params": {
+        "route": "dialog_failure",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure",
+      "params": {
+        "route": "dialog_failure",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure",
+      "params": {
+        "route": "direct_card",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure",
+      "params": {
+        "route": "direct_card",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure",
+      "params": {
+        "route": "direct_card",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure",
+      "params": {
+        "route": "direct_card",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure",
+      "params": {
+        "route": "invalid_plan",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure",
+      "params": {
+        "route": "invalid_plan",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure",
+      "params": {
+        "route": "invalid_plan",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure",
+      "params": {
+        "route": "invalid_plan",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure",
+      "params": {
+        "route": "manual_choice",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure",
+      "params": {
+        "route": "manual_choice",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure",
+      "params": {
+        "route": "manual_choice",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure",
+      "params": {
+        "route": "manual_choice",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards",
+      "params": {
+        "route": "tee_card"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards",
+      "params": {
+        "route": "direct_card"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards",
+      "params": {
+        "route": "result_card"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards",
+      "params": {
+        "route": "any_players"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure",
+      "params": {
+        "route": "result_card",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure",
+      "params": {
+        "route": "result_card",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure",
+      "params": {
+        "route": "result_card",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure",
+      "params": {
+        "route": "result_card",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure",
+      "params": {
+        "route": "tee_card",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure",
+      "params": {
+        "route": "tee_card",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure",
+      "params": {
+        "route": "tee_card",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure",
+      "params": {
+        "route": "tee_card",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure",
+      "params": {
+        "route": "unsupported_provider",
+        "outcome": "true"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure",
+      "params": {
+        "route": "unsupported_provider",
+        "outcome": "false"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure",
+      "params": {
+        "route": "unsupported_provider",
+        "outcome": "os_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure",
+      "params": {
+        "route": "unsupported_provider",
+        "outcome": "browser_error"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    }
+  ],
+  "matrix_subscenarios": 32,
+  "guard_subscenarios": 4,
+  "limits": "Qt button.click, intercepted browser/dialogs/persistence, blocked sockets/DNS/worker bodies; no native browser, provider, WebEngine or hold"
+}
