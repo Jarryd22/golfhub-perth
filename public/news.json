@@ -1,7 +1,51 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-19T02:39:33.434262+00:00",
+  "generated_at": "2026-11-20T02:24:44.385989+00:00",
   "items": [
+    {
+      "id": "8ed21052a9fc1156336b",
+      "course_id": "sun-city",
+      "title": "Christmas is Just around the corner",
+      "summary": "CHRISTMAS AT SUN CITY COUNTRY CLUB 🎄 Christmas is just around the corner, and",
+      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/christmas-is-just-around-the-corner/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-19T06:31:11+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "8d872ff95014811a172a",
+      "course_id": "rockingham",
+      "title": "Financials October 2026",
+      "summary": "Finance Directors Report October 2026 Financials Oct 26 The post Financials October 2026 appeared",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/financials-october-2026/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-19T05:03:35+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "a302dc28d3c98408a7ee",
+      "course_id": "rockingham",
+      "title": "Board Minutes October 2026",
+      "summary": "Minutes Board Meeting Rockingham Golf Club – October 2026 The post Board Minutes October",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/board-minutes-october-2026/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-19T05:00:36+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "ba5863c0efa11f239b7f",
+      "course_id": "rockingham",
+      "title": "Revised Constitution and By-Laws",
+      "summary": "At the AGM on 9 September, Members voted in favour of three special resolutions",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/revised-constitution-and-by-laws/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-19T04:58:30+00:00",
+      "category": "Course news"
+    },
     {
       "id": "8c1789c5015f6dd06736",
       "course_id": "rockingham",
@@ -35,17 +79,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-11-18T02:00:35+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "7e51d0884cdd6860f026",
-      "course_id": "rockingham",
-      "title": "Secret Santa (Super Six) – Saturday 5th December 2026",
-      "summary": "Dear Members, Thanks to our sponsors Ron Abel, Tony Calladine & Bruce Gordon the",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/secret-santa-super-six-saturday-7th-december-2024/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-17T02:50:06+00:00",
       "category": "Course news"
     },
     {
@@ -125,20 +158,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-11-10T10:14:17+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "1039fa9c707aae150795",
-      "course_id": "sun-city",
-      "title": "Friday Night Karaoke and Dinner",
-      "summary": "FRIDAY KARAOKE IS BACK AT Sun City Country Club. Party with Artie is back",
-      "url": "https://www.suncitycountryclub.com.au/cms/2026/11/friday-night-karaoke-and-dinner/",
-      "image": "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Purple-and-Beige-Indian-Classical-Music-Competition-Flyer-6.png",
-      "images": [
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Purple-and-Beige-Indian-Classical-Music-Competition-Flyer-6.png",
-        "https://www.suncitycountryclub.com.au/cms/wp-content/uploads/2026/11/Purple-and-Beige-Indian-Classical-Music-Competition-Flyer-2.png"
-      ],
-      "published_at": "2026-11-10T06:52:05+00:00",
       "category": "Course news"
     },
     {
@@ -224,17 +243,6 @@
       "category": "Course news"
     },
     {
-      "id": "9124762971e20aeb4a9e",
-      "course_id": "rockingham",
-      "title": "Ladies Amateur Open – Results",
-      "summary": "Rockingham Golf Club’s Lovells Jewellery Studio Ladies Amateur Open concluded after two days of",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/ladies-amateur-open-results/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-03T04:28:28+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "30c56a55ca07d92ce0fc",
       "course_id": "mosman-park",
       "title": "Mixed Foursomes Championship, Sunday November 29",
@@ -259,17 +267,6 @@
       ],
       "published_at": "2026-10-30T03:20:32+00:00",
       "category": "Events"
-    },
-    {
-      "id": "9edc2ce370c1aa577740",
-      "course_id": "rockingham",
-      "title": "Financials September 2026",
-      "summary": "Balance_Sheet Budget_Variance-6 The post Financials September 2026 appeared first on Rockingham Golf Club .",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/10/financials-september-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-30T01:08:35+00:00",
-      "category": "Course news"
     },
     {
       "id": "abd5be0942d664137930",
@@ -418,6 +415,17 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-02T02:36:25+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "852198831337a444bb72",
+      "course_id": "the-vines",
+      "title": "Aussie BBQ NYE Family Party",
+      "summary": "Celebrate the last night of 2026 with your family at our annual Aussie BBQ",
+      "url": "https://www.vines.com.au/nye/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-09-23T04:42:35+00:00",
       "category": "Course news"
     },
     {
@@ -603,7 +611,7 @@
     },
     {
       "course_id": "the-vines",
-      "status": "unavailable"
+      "status": "checked"
     },
     {
       "course_id": "wanneroo-golf-club",
