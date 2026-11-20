@@ -1,0 +1,1918 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "checked_at_utc": "2026-11-20T00:51:38.053308+00:00",
+  "last_github_observation_at_utc": "2026-11-20T00:48:56.312Z",
+  "last_github_observation_at_perth": "2026-11-20T08:48:56.312000+08:00",
+  "scope": "Fresh read-only repository/branch/open-PR/non-PR-issue/release metadata, exact update README trees/content, local documentation/instruction/workflow comparison. No runtime/provider/cache-payload sampling.",
+  "source_repository": "Jarryd22/golfhub-perth",
+  "repositories": {
+    "source": {
+      "metadata": {
+        "full_name": "Jarryd22/golfhub-perth",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth",
+        "default_branch": "main",
+        "pushed_at": "2026-11-20T00:47:28Z",
+        "updated_at": "2026-10-04T05:58:24Z",
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 30,
+        "size": 9673
+      },
+      "branches": [
+        {
+          "name": "agent/golfhub-v5-final-20260729",
+          "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+          "protected": false
+        },
+        {
+          "name": "cache",
+          "sha": "e04f613fd56c8e5e42dc0f8a6d887304c42e7390",
+          "protected": false
+        },
+        {
+          "name": "docs/qa-20261114",
+          "sha": "78e49768652d59b9ff64b69728c28a4d5e9a6edc",
+          "protected": false
+        },
+        {
+          "name": "fix/alerts-runtime-integrity-20261026",
+          "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-heartbeat",
+          "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-incomplete-weather",
+          "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-provider-circuit",
+          "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-resilience",
+          "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-cooldown",
+          "sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-weather-timeouts",
+          "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-fallback",
+          "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "protected": false
+        },
+        {
+          "name": "fix/cache-refresh-wembley-rendered",
+          "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-booking-context-20261020",
+          "sha": "93d4763451358be608bff06fd0013936af36764c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-completion-20261112",
+          "sha": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-live-handoff-20261117",
+          "sha": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-persistence-20261113",
+          "sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-shape-20261030",
+          "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-cache-thread-lifecycle-20261020",
+          "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-calendar-mouse-20261102",
+          "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-course-controls-20261019",
+          "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-course-count-20261108",
+          "sha": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-empty-link-guidance-20261106",
+          "sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-keyboard-date-selection",
+          "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-live-button-state-20261105",
+          "sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-live-recovery-20261104",
+          "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-matching-course-count-20261028",
+          "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-missing-cache-20261027",
+          "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-offline-course-links-20261103",
+          "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-perth-midnight-20261021",
+          "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-error-wording-20261029",
+          "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-provider-exception-20261101",
+          "sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-responsive-grid-20261107",
+          "sha": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-retained-search-context-20261031",
+          "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-search-dates-and-times",
+          "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "protected": false
+        },
+        {
+          "name": "fix/desktop-startup-search-20261119",
+          "sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+          "protected": false
+        },
+        {
+          "name": "main",
+          "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "protected": false
+        },
+        {
+          "name": "news",
+          "sha": "161be849853e31be7f15d91d3bab96726848d602",
+          "protected": false
+        }
+      ],
+      "pulls": [
+        {
+          "number": 32,
+          "title": "Cancel deferred startup refresh after explicit searches",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/32",
+          "draft": true,
+          "head_ref": "fix/desktop-startup-search-20261119",
+          "head_sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+          "base_ref": "fix/desktop-cache-live-handoff-20261117",
+          "base_sha": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+          "updated_at": "2026-11-19T01:04:35Z"
+        },
+        {
+          "number": 31,
+          "title": "Resume live fallback after repeated searches",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/31",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-live-handoff-20261117",
+          "head_sha": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+          "base_ref": "fix/desktop-cache-persistence-20261113",
+          "base_sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+          "updated_at": "2026-11-17T00:34:45Z"
+        },
+        {
+          "number": 30,
+          "title": "Keep valid shared data when local saving fails",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/30",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-persistence-20261113",
+          "head_sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+          "base_ref": "fix/desktop-cache-completion-20261112",
+          "base_sha": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+          "updated_at": "2026-11-13T00:33:55Z"
+        },
+        {
+          "number": 29,
+          "title": "Complete cache searches after executor failures",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/29",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-completion-20261112",
+          "head_sha": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+          "base_ref": "fix/desktop-course-count-20261108",
+          "base_sha": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+          "updated_at": "2026-11-12T01:08:24Z"
+        },
+        {
+          "number": 28,
+          "title": "Keep course counts visible after closing the picker",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/28",
+          "draft": true,
+          "head_ref": "fix/desktop-course-count-20261108",
+          "head_sha": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+          "base_ref": "fix/desktop-responsive-grid-20261107",
+          "base_sha": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+          "updated_at": "2026-11-08T01:02:58Z"
+        },
+        {
+          "number": 27,
+          "title": "Reclaim unused responsive grid columns after narrowing",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/27",
+          "draft": true,
+          "head_ref": "fix/desktop-responsive-grid-20261107",
+          "head_sha": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+          "base_ref": "fix/desktop-empty-link-guidance-20261106",
+          "base_sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+          "updated_at": "2026-11-07T00:39:49Z"
+        },
+        {
+          "number": 26,
+          "title": "Keep empty-result guidance consistent with available course links",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/26",
+          "draft": true,
+          "head_ref": "fix/desktop-empty-link-guidance-20261106",
+          "head_sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+          "base_ref": "fix/desktop-live-button-state-20261105",
+          "base_sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+          "updated_at": "2026-11-06T01:10:27Z"
+        },
+        {
+          "number": 25,
+          "title": "Align live refresh availability and disabled appearance",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/25",
+          "draft": true,
+          "head_ref": "fix/desktop-live-button-state-20261105",
+          "head_sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+          "base_ref": "fix/desktop-live-recovery-20261104",
+          "base_sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+          "updated_at": "2026-11-05T00:27:14Z"
+        },
+        {
+          "number": 24,
+          "title": "Show accurate recovery after live refresh failure or stop",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/24",
+          "draft": true,
+          "head_ref": "fix/desktop-live-recovery-20261104",
+          "head_sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+          "base_ref": "fix/desktop-offline-course-links-20261103",
+          "base_sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+          "updated_at": "2026-11-04T01:05:44Z"
+        },
+        {
+          "number": 23,
+          "title": "Retain official course links when multi-date cache is unavailable",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/23",
+          "draft": true,
+          "head_ref": "fix/desktop-offline-course-links-20261103",
+          "head_sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+          "base_ref": "fix/desktop-calendar-mouse-20261102",
+          "base_sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "updated_at": "2026-11-03T00:40:44Z"
+        },
+        {
+          "number": 22,
+          "title": "Fix calendar mouse selection for months starting Monday",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/22",
+          "draft": true,
+          "head_ref": "fix/desktop-calendar-mouse-20261102",
+          "head_sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+          "base_ref": "fix/desktop-provider-exception-20261101",
+          "base_sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "updated_at": "2026-11-02T01:00:38Z"
+        },
+        {
+          "number": 21,
+          "title": "Preserve failures for message-less provider exceptions",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/21",
+          "draft": true,
+          "head_ref": "fix/desktop-provider-exception-20261101",
+          "head_sha": "9aa16f733458db871c2452a18a247536ab348498",
+          "base_ref": "fix/desktop-retained-search-context-20261031",
+          "base_sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "updated_at": "2026-11-01T00:28:13Z"
+        },
+        {
+          "number": 20,
+          "title": "Preserve displayed search context during live refresh",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/20",
+          "draft": true,
+          "head_ref": "fix/desktop-retained-search-context-20261031",
+          "head_sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+          "base_ref": "fix/desktop-cache-shape-20261030",
+          "base_sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "updated_at": "2026-10-31T00:27:45Z"
+        },
+        {
+          "number": 19,
+          "title": "Reject malformed cache records before saving or rendering",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/19",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-shape-20261030",
+          "head_sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+          "base_ref": "fix/desktop-provider-error-wording-20261029",
+          "base_sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "updated_at": "2026-10-30T00:44:33Z"
+        },
+        {
+          "number": 18,
+          "title": "Distinguish provider failures from empty tee-time results",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/18",
+          "draft": true,
+          "head_ref": "fix/desktop-provider-error-wording-20261029",
+          "head_sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+          "base_ref": "fix/desktop-matching-course-count-20261028",
+          "base_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "updated_at": "2026-10-29T00:19:46Z"
+        },
+        {
+          "number": 17,
+          "title": "Count only courses with matching exact tee times",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/17",
+          "draft": true,
+          "head_ref": "fix/desktop-matching-course-count-20261028",
+          "head_sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+          "base_ref": "fix/desktop-missing-cache-20261027",
+          "base_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "updated_at": "2026-10-28T00:15:54Z"
+        },
+        {
+          "number": 16,
+          "title": "Distinguish missing date cache from empty tee times",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/16",
+          "draft": true,
+          "head_ref": "fix/desktop-missing-cache-20261027",
+          "head_sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+          "base_ref": "fix/alerts-runtime-integrity-20261026",
+          "base_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "updated_at": "2026-10-27T00:33:07Z"
+        },
+        {
+          "number": 15,
+          "title": "Validate alert runtime ZIP integrity without executing it",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/15",
+          "draft": true,
+          "head_ref": "fix/alerts-runtime-integrity-20261026",
+          "head_sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+          "base_ref": "fix/desktop-perth-midnight-20261021",
+          "base_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "updated_at": "2026-10-26T00:57:34Z"
+        },
+        {
+          "number": 14,
+          "title": "Refresh desktop booking dates across Perth midnight",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/14",
+          "draft": true,
+          "head_ref": "fix/desktop-perth-midnight-20261021",
+          "head_sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+          "base_ref": "fix/desktop-cache-thread-lifecycle-20261020",
+          "base_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "updated_at": "2026-10-21T01:16:03Z"
+        },
+        {
+          "number": 13,
+          "title": "Retain desktop workers until native thread cleanup completes",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/13",
+          "draft": true,
+          "head_ref": "fix/desktop-cache-thread-lifecycle-20261020",
+          "head_sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+          "base_ref": "fix/desktop-booking-context-20261020",
+          "base_sha": "93d4763451358be608bff06fd0013936af36764c",
+          "updated_at": "2026-10-20T00:31:20Z"
+        },
+        {
+          "number": 12,
+          "title": "Identify booking actions and label custom time controls",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/12",
+          "draft": true,
+          "head_ref": "fix/desktop-booking-context-20261020",
+          "head_sha": "93d4763451358be608bff06fd0013936af36764c",
+          "base_ref": "fix/desktop-course-controls-20261019",
+          "base_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "updated_at": "2026-10-20T00:14:31Z"
+        },
+        {
+          "number": 11,
+          "title": "Fix course selection counts and label desktop filters",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/11",
+          "draft": true,
+          "head_ref": "fix/desktop-course-controls-20261019",
+          "head_sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+          "base_ref": "fix/desktop-keyboard-date-selection",
+          "base_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "updated_at": "2026-10-19T00:29:25Z"
+        },
+        {
+          "number": 10,
+          "title": "Enable keyboard date selection and cover desktop search in CI",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/10",
+          "draft": true,
+          "head_ref": "fix/desktop-keyboard-date-selection",
+          "head_sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+          "base_ref": "fix/desktop-search-dates-and-times",
+          "base_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "updated_at": "2026-10-18T01:08:03Z"
+        },
+        {
+          "number": 9,
+          "title": "Use Perth booking dates and reject reversed search times",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/9",
+          "draft": true,
+          "head_ref": "fix/desktop-search-dates-and-times",
+          "head_sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-16T23:32:04Z"
+        },
+        {
+          "number": 8,
+          "title": "Keep incomplete weather forecasts unavailable instead of clear and zero",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/8",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-incomplete-weather",
+          "head_sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+          "base_ref": "fix/cache-refresh-weather-cooldown",
+          "base_sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "updated_at": "2026-10-09T16:46:54Z"
+        },
+        {
+          "number": 7,
+          "title": "Collect rendered Wembley tee times with bounded calendar fallback",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/7",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-wembley-rendered",
+          "head_sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+          "base_ref": "fix/cache-refresh-wembley-fallback",
+          "base_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "updated_at": "2026-10-07T08:28:10Z"
+        },
+        {
+          "number": 6,
+          "title": "Persist bounded forecasts and respect weather rate-limit cooldown",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/6",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-weather-cooldown",
+          "head_sha": "e84985a713d008301cdef96db7582c420b712d61",
+          "base_ref": "fix/cache-refresh-weather-timeouts",
+          "base_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "updated_at": "2026-10-07T04:35:09Z"
+        },
+        {
+          "number": 5,
+          "title": "Keep missing Wembley products unknown and expire stale fallback",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/5",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-wembley-fallback",
+          "head_sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-07T04:22:00Z"
+        },
+        {
+          "number": 4,
+          "title": "Bound weather timeout retries within shared preparation",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/4",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-weather-timeouts",
+          "head_sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-06T23:02:02Z"
+        },
+        {
+          "number": 3,
+          "title": "Bound repeated Quick18 failures across each cache shard",
+          "url": "https://github.com/Jarryd22/golfhub-perth/pull/3",
+          "draft": true,
+          "head_ref": "fix/cache-refresh-provider-circuit",
+          "head_sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+          "base_ref": "main",
+          "base_sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+          "updated_at": "2026-10-04T09:44:25Z"
+        }
+      ],
+      "non_pr_issues": [],
+      "releases": []
+    },
+    "windows": {
+      "metadata": {
+        "full_name": "Jarryd22/golfhub-perth-updates",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-updates",
+        "default_branch": "main",
+        "pushed_at": "2026-09-25T19:20:44Z",
+        "updated_at": "2026-09-25T12:58:51Z",
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "size": 1
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+          "protected": false
+        }
+      ],
+      "pulls": [],
+      "non_pr_issues": [],
+      "releases": [
+        {
+          "id": 396867076,
+          "tag_name": "v5.1.17",
+          "name": "GolfHub Perth 5.1.17",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T19:20:44Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+              "size": 140883946,
+              "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+              "updated_at": "2026-09-25T19:18:56Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 689,
+              "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+              "updated_at": "2026-09-25T19:18:34Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 1432,
+              "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+              "updated_at": "2026-09-25T19:18:34Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396855169,
+          "tag_name": "v5.1.16",
+          "name": "GolfHub Perth 5.1.16",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T19:03:51Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.16",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_16.exe",
+              "size": 140927207,
+              "digest": "sha256:1ebbc1c8e627d211ced82bdb789bc30cbe23bac008b535165fdedca32444f78f",
+              "updated_at": "2026-09-25T18:59:55Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.16/GolfHub_Perth_Setup_v5_1_16.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1080,
+              "digest": "sha256:3f640488a9dabae50fe6c9cfed70d9c9fd8f9c6095e782210951f60fa430d6ac",
+              "updated_at": "2026-09-25T18:59:32Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.16/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 1956,
+              "digest": "sha256:aa1f8f666710fd48ad6ff205a05833a63733bb59e4db279f4d0c51c865669382",
+              "updated_at": "2026-09-25T18:59:32Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.16/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396837930,
+          "tag_name": "v5.1.15",
+          "name": "GolfHub Perth 5.1.15",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T18:31:59Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.15",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_15.exe",
+              "size": 140911948,
+              "digest": "sha256:3ee4db2c4c8ebc0046bf2927ff63405b3cbc70fb089059fad3184698372abd21",
+              "updated_at": "2026-09-25T18:30:10Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.15/GolfHub_Perth_Setup_v5_1_15.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 916,
+              "digest": "sha256:a6659912ad3770a35560d1dbcfd4641e2e57b1cc1b5660ca3bcbfead8e3ce2d9",
+              "updated_at": "2026-09-25T18:29:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.15/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 1736,
+              "digest": "sha256:c69f9091c8f328df99f8d87272c5ee9a1f3bddb1a7eb8303eda92ac12a7d73b2",
+              "updated_at": "2026-09-25T18:29:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.15/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396758052,
+          "tag_name": "v5.1.13",
+          "name": "GolfHub Perth 5.1.13",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T16:24:24Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.13",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_13.exe",
+              "size": 140763550,
+              "digest": "sha256:ef67d83a831abea9a9cdc0b9f12572be307e73ebc708dd776e4cea73325150aa",
+              "updated_at": "2026-09-25T16:22:55Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.13/GolfHub_Perth_Setup_v5_1_13.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1841,
+              "digest": "sha256:43ffcaf7f4924a13aeebcb3c6b7711d3becb4cb0454c5aff122bbffc67a33421",
+              "updated_at": "2026-09-25T16:22:39Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.13/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 2968,
+              "digest": "sha256:b59f66b6a4d3864ad4838d13e1d609c5646135478412c3e3c6b318a0216a851e",
+              "updated_at": "2026-09-25T16:22:39Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.13/update.json"
+            }
+          ]
+        },
+        {
+          "id": 396551413,
+          "tag_name": "v5.1.11",
+          "name": "GolfHub Perth 5.1.11",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-25T12:58:46Z",
+          "published_at": "2026-09-25T12:59:44Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.11",
+          "assets": [
+            {
+              "name": "GolfHub_Perth_Setup_v5_1_11.exe",
+              "size": 140734746,
+              "digest": "sha256:ed378432ed26ceef890b4f97b769004bed17d3a1e9bd71f3b0bbc1e4adaad49c",
+              "updated_at": "2026-09-25T12:58:18Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.11/GolfHub_Perth_Setup_v5_1_11.exe"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1675,
+              "digest": "sha256:8a13a37abbd11bacbe4d277b25dea7a96501c558167f1730ffca39dac05d2941",
+              "updated_at": "2026-09-25T11:34:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.11/release-notes.md"
+            },
+            {
+              "name": "update.json",
+              "size": 2748,
+              "digest": "sha256:5de5ca4ed6d587101e3ee19d5b33600b1c3ae2f4acc1eb9cc29865602a392f98",
+              "updated_at": "2026-09-25T11:34:38Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.11/update.json"
+            }
+          ]
+        }
+      ],
+      "newest_published_stable_release": {
+        "id": 396867076,
+        "tag_name": "v5.1.17",
+        "name": "GolfHub Perth 5.1.17",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-09-25T12:58:46Z",
+        "published_at": "2026-09-25T19:20:44Z",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "updated_at": "2026-09-25T19:18:56Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "updated_at": "2026-09-25T19:18:34Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "updated_at": "2026-09-25T19:18:34Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      },
+      "designated_latest_release": {
+        "id": 396867076,
+        "tag_name": "v5.1.17",
+        "name": "GolfHub Perth 5.1.17",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-09-25T12:58:46Z",
+        "published_at": "2026-09-25T19:20:44Z",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/tag/v5.1.17",
+        "assets": [
+          {
+            "name": "GolfHub_Perth_Setup_v5_1_17.exe",
+            "size": 140883946,
+            "digest": "sha256:6951e916d066e7598564c09ae98503b65e5d805e9c48692a7b7223c2ebc0f0e4",
+            "updated_at": "2026-09-25T19:18:56Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/GolfHub_Perth_Setup_v5_1_17.exe"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 689,
+            "digest": "sha256:a89c47c66fbb761d4e6229258d8d3c83cc4f94990f68e0427d1dfc15e071a8c7",
+            "updated_at": "2026-09-25T19:18:34Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/release-notes.md"
+          },
+          {
+            "name": "update.json",
+            "size": 1432,
+            "digest": "sha256:a273fa7634fb3e4679f4d8843c63af541f00d632f19e9417a853c26b6e55be1b",
+            "updated_at": "2026-09-25T19:18:34Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json"
+          }
+        ]
+      },
+      "tree": {
+        "sha": "b53909b8edac42055071e01914aff7d1921a8305",
+        "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/git/trees/b53909b8edac42055071e01914aff7d1921a8305",
+        "tree": [
+          {
+            "path": "README.md",
+            "mode": "100644",
+            "type": "blob",
+            "sha": "d487aed9fd40fd2089e010bb5a1640367c3e60c9",
+            "size": 1264,
+            "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/git/blobs/d487aed9fd40fd2089e010bb5a1640367c3e60c9"
+          }
+        ],
+        "truncated": false
+      },
+      "readme": {
+        "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-updates/contents/README.md?ref=b53909b8edac42055071e01914aff7d1921a8305",
+        "content": "# GolfHub Perth\n\nFind public golf tee times around Perth, with North/South filters, course information, scorecards and course maps.\n\n## Download for Windows\n\n**[Download the latest GolfHub installer](https://github.com/Jarryd22/golfhub-perth-updates/releases/latest)**\n\n[Release notes and all versions](https://github.com/Jarryd22/golfhub-perth-updates/releases)\n\nDownload the `.exe` from the latest release and run it on your Windows 10/11 64-bit laptop. Finish any booking and close GolfHub before installing. If you already have GolfHub, install over the existing copy.\n\n## Future updates\n\nGolfHub 5.1.11 and later include an **Updates** button and optional checks when the app starts. When a newer stable release is available, select **Update available**, download it, then select **Install and restart**.\n\nNo GitHub account is required. Updates are announced inside GolfHub. The application verifies a signed release record and the downloaded installer before installation.\n\nVersions are published only after the owner explicitly requests a release. Development and testing do not publish updates automatically.\n\nThis repository contains official installers and update records. You only need the `.exe`; `update.json` is for the application's update checker.\n",
+        "blob_sha": "d487aed9fd40fd2089e010bb5a1640367c3e60c9",
+        "bytes": 1264,
+        "sha256": "a57146bd8570761dc32abbf7ab64405d21820f3886ef7a424b14c429c8500f0a",
+        "git_blob_matches_tree": true
+      }
+    },
+    "android": {
+      "metadata": {
+        "full_name": "Jarryd22/golfhub-perth-android-updates",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates",
+        "default_branch": "main",
+        "pushed_at": "2026-10-02T08:28:10Z",
+        "updated_at": "2026-09-27T16:11:07Z",
+        "archived": false,
+        "disabled": false,
+        "open_issues_count": 0,
+        "size": 1
+      },
+      "branches": [
+        {
+          "name": "main",
+          "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+          "protected": false
+        }
+      ],
+      "pulls": [],
+      "non_pr_issues": [],
+      "releases": [
+        {
+          "id": 397715996,
+          "tag_name": "android-v0.1.8",
+          "name": "GolfHub Perth for Android 0.1.8",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-27T16:11:37Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.8",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 2408,
+              "digest": "sha256:b206cdba407cc5d178e0d6132a8815d08ab7880731ccb92c122c3e6fa5ca625a",
+              "updated_at": "2026-09-27T16:09:42Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.8/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.8.apk",
+              "size": 64105987,
+              "digest": "sha256:9cde9765c300c1ab4f1d2cea1d6ec12da3d18458b7d376cfb8ed1362979cb5a1",
+              "updated_at": "2026-09-27T16:10:04Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.8/GolfHub_Perth_Android_0.1.8.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1250,
+              "digest": "sha256:f2da2b4a3a0da18480892b379dc340118fcc0daa84d308568b4d342eb928b430",
+              "updated_at": "2026-09-27T16:09:42Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.8/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 401647726,
+          "tag_name": "android-v0.1.19",
+          "name": "GolfHub Perth Android 0.1.19",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-10-02T08:28:11Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 1744,
+              "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+              "updated_at": "2026-10-02T08:26:03Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.19.apk",
+              "size": 77035309,
+              "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+              "updated_at": "2026-10-02T08:26:40Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 747,
+              "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+              "updated_at": "2026-10-02T08:26:03Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 400601980,
+          "tag_name": "android-v0.1.18",
+          "name": "GolfHub Perth Android 0.1.18",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-10-01T02:36:15Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.18",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 2636,
+              "digest": "sha256:6e3e672bd1a4ecff85f15bc6ad214eac732926412f2566dd1855fa49db2ef5ff",
+              "updated_at": "2026-10-01T02:32:01Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.18/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.18.apk",
+              "size": 77033681,
+              "digest": "sha256:86386e3c085ec00ed0726459a36f0c3926a5bff6e09d1708e310acdd23c7797d",
+              "updated_at": "2026-10-01T02:33:37Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.18/GolfHub_Perth_Android_0.1.18.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1417,
+              "digest": "sha256:ed59429b94e3786fa9b412dcb4bccc1d5571dcf154100b639ef1f9e5b740c120",
+              "updated_at": "2026-10-01T02:32:01Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.18/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 398516681,
+          "tag_name": "android-v0.1.17",
+          "name": "GolfHub Perth Android 0.1.17",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-28T18:33:48Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.17",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 3464,
+              "digest": "sha256:23aeb787bb677cd218bb38a643070eb63bafa61ba9d12d65ac86d5b47c8561c7",
+              "updated_at": "2026-09-28T18:32:37Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.17/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.17.apk",
+              "size": 65163853,
+              "digest": "sha256:2eee92bb612eadff4988f191289923ee50fec40043f04e59dddfbc5a08a39eab",
+              "updated_at": "2026-09-28T18:32:42Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.17/GolfHub_Perth_Android_0.1.17.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 2036,
+              "digest": "sha256:c8ea77806eb6087eea238ad24c89e43344d8897a291b6b510d7e1cb6d28c6459",
+              "updated_at": "2026-09-28T18:32:37Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.17/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 397832899,
+          "tag_name": "android-v0.1.16",
+          "name": "GolfHub Perth Android 0.1.16",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-27T22:15:32Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.16",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 2208,
+              "digest": "sha256:458c936cdc95ef6723e3faabcacd60d25e70645f83323153c0b1860142f630bc",
+              "updated_at": "2026-09-27T22:10:15Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.16/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.16.apk",
+              "size": 64851519,
+              "digest": "sha256:2e91d067998be1c85d05c6a1fd34f44710f221a1ae918d5c4b8fe1508cee6235",
+              "updated_at": "2026-09-27T22:11:29Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.16/GolfHub_Perth_Android_0.1.16.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1096,
+              "digest": "sha256:32ae8c695ac86284dec87e446f07ad76aee73504c784566974f3aacf5757fce0",
+              "updated_at": "2026-09-27T22:10:15Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.16/release-notes.md"
+            }
+          ]
+        },
+        {
+          "id": 397800114,
+          "tag_name": "android-v0.1.13",
+          "name": "GolfHub Perth for Android 0.1.13",
+          "target_commitish": "main",
+          "draft": false,
+          "prerelease": false,
+          "created_at": "2026-09-27T16:11:03Z",
+          "published_at": "2026-09-27T20:31:07Z",
+          "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.13",
+          "assets": [
+            {
+              "name": "android-update.json",
+              "size": 3164,
+              "digest": "sha256:1d8f700843b1538bab24e96339a56bbed20cde09678ef0c96f06ee3a996e022a",
+              "updated_at": "2026-09-27T20:28:46Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.13/android-update.json"
+            },
+            {
+              "name": "GolfHub_Perth_Android_0.1.13.apk",
+              "size": 64567387,
+              "digest": "sha256:c5dc0491eeb9bf8499da7d0baad6bf031cf7e968a67e2879e2d7ef1793d25104",
+              "updated_at": "2026-09-27T20:29:02Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.13/GolfHub_Perth_Android_0.1.13.apk"
+            },
+            {
+              "name": "release-notes.md",
+              "size": 1813,
+              "digest": "sha256:c446aef93d676f900c4b6ad97be64e7541dad820b2ea8f7fbf5f52aca00d8bc2",
+              "updated_at": "2026-09-27T20:28:46Z",
+              "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.13/release-notes.md"
+            }
+          ]
+        }
+      ],
+      "newest_published_stable_release": {
+        "id": 401647726,
+        "tag_name": "android-v0.1.19",
+        "name": "GolfHub Perth Android 0.1.19",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-09-27T16:11:03Z",
+        "published_at": "2026-10-02T08:28:11Z",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "updated_at": "2026-10-02T08:26:03Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "updated_at": "2026-10-02T08:26:40Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "updated_at": "2026-10-02T08:26:03Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      },
+      "designated_latest_release": {
+        "id": 401647726,
+        "tag_name": "android-v0.1.19",
+        "name": "GolfHub Perth Android 0.1.19",
+        "target_commitish": "main",
+        "draft": false,
+        "prerelease": false,
+        "created_at": "2026-09-27T16:11:03Z",
+        "published_at": "2026-10-02T08:28:11Z",
+        "html_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/tag/android-v0.1.19",
+        "assets": [
+          {
+            "name": "android-update.json",
+            "size": 1744,
+            "digest": "sha256:b77ab42d40aa55372da337d82c2283ec8f010a50ae69df279028fecd073a5f3e",
+            "updated_at": "2026-10-02T08:26:03Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+          },
+          {
+            "name": "GolfHub_Perth_Android_0.1.19.apk",
+            "size": 77035309,
+            "digest": "sha256:461c302b3e436366623c15d372a879a52188ff283eaa38071c41875158e03aff",
+            "updated_at": "2026-10-02T08:26:40Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/GolfHub_Perth_Android_0.1.19.apk"
+          },
+          {
+            "name": "release-notes.md",
+            "size": 747,
+            "digest": "sha256:8cebb2430f9808dd938560519489c9da838571aa1b626ca7e60ae7e82e819d23",
+            "updated_at": "2026-10-02T08:26:03Z",
+            "browser_download_url": "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/release-notes.md"
+          }
+        ]
+      },
+      "tree": {
+        "sha": "cfec2bbd6205edae0f733f6931e0e535db284e48",
+        "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/git/trees/cfec2bbd6205edae0f733f6931e0e535db284e48",
+        "tree": [
+          {
+            "path": "README.md",
+            "mode": "100644",
+            "type": "blob",
+            "sha": "26d6766727141b152bc20190544311fe6c678151",
+            "size": 1320,
+            "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/git/blobs/26d6766727141b152bc20190544311fe6c678151"
+          }
+        ],
+        "truncated": false
+      },
+      "readme": {
+        "url": "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/contents/README.md?ref=cfec2bbd6205edae0f733f6931e0e535db284e48",
+        "content": "# GolfHub Perth for Android\n\n[Download the latest approved Android release](https://github.com/Jarryd22/golfhub-perth-android-updates/releases/latest)\n\nThis repository contains the official APK downloads, release notes and signed Android update feed. Releases are published only when approved by GolfHub's owner.\n\n## Install\n\nDownload the APK from the latest release on an Android 7.0 or newer ARM64 phone, open it, and approve Android's installation prompt. Open GolfHub, choose your dates and courses, and find tee times. Allow notifications if you want preferred-date availability alerts.\n\n## Update\n\nOpen GolfHub and use **Updates** to check now. The app can download verified updates automatically; Android may ask you to approve installation. Production updates preserve favourites, saved alerts and settings.\n\nPrivate debug/test builds have a separate signing identity. Contact Jarryd before changing from a test build to this production APK; do not uninstall it just to force an update.\n\nAvailability checks are periodic and may be delayed. Confirm the time on the course booking website before booking. This is direct APK distribution, not a Google Play listing.\n\nAndroid update feed: [android-update.json](https://github.com/Jarryd22/golfhub-perth-android-updates/releases/latest/download/android-update.json)\n",
+        "blob_sha": "26d6766727141b152bc20190544311fe6c678151",
+        "bytes": 1320,
+        "sha256": "990e62521d60e708384bae47408cbdb6e95aa4abbc0e7d47c9817fe6ad90088d",
+        "git_blob_matches_tree": true
+      }
+    }
+  },
+  "open_drafts": 30,
+  "open_non_pr_issues": 0,
+  "pagination": {
+    "per_page": 100,
+    "source_branches": 37,
+    "source_pulls": 30,
+    "source_issue_rows_including_PRs": 30,
+    "update_branches_each": 1,
+    "update_PRs_and_non_PR_issues_each": 0,
+    "windows_releases": 5,
+    "android_releases": 6,
+    "all_collections_below_page_limit": true,
+    "update_trees_truncated": false
+  },
+  "comparison_to_nov19": {
+    "branch_count_before_after": [
+      36,
+      37
+    ],
+    "branch_changes": [
+      {
+        "name": "cache",
+        "old_sha": "6ae67187df04ce8c960b246be3ee4c1892ca5ff6",
+        "current_sha": "e04f613fd56c8e5e42dc0f8a6d887304c42e7390",
+        "status": "changed"
+      },
+      {
+        "name": "fix/desktop-startup-search-20261119",
+        "old_sha": null,
+        "current_sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+        "status": "added"
+      },
+      {
+        "name": "news",
+        "old_sha": "3cda05b8616a649e9536842d91ed5a859e87d7d8",
+        "current_sha": "161be849853e31be7f15d91d3bab96726848d602",
+        "status": "changed"
+      }
+    ],
+    "added_branches": [
+      "fix/desktop-startup-search-20261119"
+    ],
+    "removed_branches": [],
+    "prior_34_non_data_heads_unchanged": true,
+    "current_non_data_head_count": 35,
+    "open_draft_count_before_after": [
+      29,
+      30
+    ],
+    "new_pr_numbers": [
+      32
+    ],
+    "prior_PR_metadata_unchanged": true,
+    "open_non_pr_issue_count": 0,
+    "repository_metadata_changes": {
+      "source": {
+        "pushed_at": {
+          "old": "2026-11-19T00:37:39Z",
+          "new": "2026-11-20T00:47:28Z"
+        },
+        "open_issues_count": {
+          "old": 29,
+          "new": 30
+        },
+        "size": {
+          "old": 9206,
+          "new": 9673
+        }
+      },
+      "windows": {},
+      "android": {}
+    },
+    "update_repositories": {
+      "windows": {
+        "branches_unchanged": true,
+        "all_release_metadata_unchanged": true,
+        "designated_latest_unchanged": true,
+        "README_content_and_blob_unchanged": true
+      },
+      "android": {
+        "branches_unchanged": true,
+        "all_release_metadata_unchanged": true,
+        "designated_latest_unchanged": true,
+        "README_content_and_blob_unchanged": true
+      }
+    }
+  },
+  "previous_context": {
+    "path": "/workspace/scratch/golfhub-20261119-context.json",
+    "sha256": "b715ef03086db9bb4d3abc4cee01dabc30dd36bf3c4daa1921e49a4869cbcfea"
+  },
+  "source_refs": {
+    "remote_heads_freshly_verified": 35,
+    "previously_inspected_immutable_heads_reused": 34,
+    "new_blob_reinspection_count": 1,
+    "refs": [
+      {
+        "ref": "agent/golfhub-v5-final-20260729",
+        "sha": "da17f97bb41a362dfd6f3c27d8d4f6b05dc5d356",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "ab294442dce6c7c6a1f591430ac6c6277cb30cb26544aa067bf3677cca23728a",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "docs/qa-20261114",
+        "sha": "78e49768652d59b9ff64b69728c28a4d5e9a6edc",
+        "kind": "documentation branch with unchangedPR30runtime",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/alerts-runtime-integrity-20261026",
+        "sha": "4ce2be23255edc9d7579d8529ef2f7e366c304ca",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-heartbeat",
+        "sha": "2942c98afcde252a69dc99d8945ff2a02fec742a",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-incomplete-weather",
+        "sha": "cd70fd63bad89bed73b12a60d7c5d14c30c29da6",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+          "app/golfhub_core.py": "a8014b5cf656b5c0088698241087e26eb31d6a1a7cfb1ed5095c6d652bd94c09",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-provider-circuit",
+        "sha": "cb901e9c601fa4f001ed8110215340a25bd594ec",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-resilience",
+        "sha": "f97ef6634b7bd948826baf18358d54aed7e4f10f",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-weather-cooldown",
+        "sha": "e84985a713d008301cdef96db7582c420b712d61",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "ef9edba6159710a699e4ba08fd5e50680cf6c9ab604eaa39afcda1204a28cc00",
+          "app/golfhub_core.py": "50cddc4fbeccbaeeedb80fcb971c1090cce6a9db593f92182eb273a6b7d091cc",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-weather-timeouts",
+        "sha": "a5555824cfc5123efcfcc3ca1eae7860855f1d66",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "ccf8e181279e2510cc39c62e0550e62e738bdd24ab2692c994e34645b8bb18f7",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-fallback",
+        "sha": "982c243b7e2645a87ecccedef4d50c93b1ebfc16",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "a695f5003d09ba8beb4f4eee378800c6ea5e495048a62d1b22226af60c62a906",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/cache-refresh-wembley-rendered",
+        "sha": "f1e0eb01170e70eda14cbf7b9030b25de751365d",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "33ce366bb6cfbb641f88bc5c88d55716569b724408517a1546f80dd5fc18dcc6",
+          "app/golfhub_core.py": "342cb0dad8ab27812257f30fcd24277876712d039b12b315be5f127f5741ca58",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-booking-context-20261020",
+        "sha": "93d4763451358be608bff06fd0013936af36764c",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "594b5dfc57928f1f879bc0be7bd71640aa6c1f1b6ccbbc8a5c06cb82596beb73",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-completion-20261112",
+        "sha": "8dff803ebc6e61b1a309d7c17c5277909392f5d2",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-live-handoff-20261117",
+        "sha": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+          "scripts/refresh_cache_shard.py": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-persistence-20261113",
+        "sha": "a3e522b5e2d79856f994fb342a7c6b1253a1143d",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "09b17e1a6a89a164d96ed6fc82413d0fa9f64d37244736b225a1150a12736ca1",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-shape-20261030",
+        "sha": "ba1faeae0dc9cf3314e8dc884f79b13e2520d22c",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-cache-thread-lifecycle-20261020",
+        "sha": "8b01866f3783d9ef021e114c81c139dede1facc1",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "97b08fc865c67e7fea5f660f39a9191bf00f924820a3ad55917067622723091d",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-calendar-mouse-20261102",
+        "sha": "bddf4ff537c4e2e5d6d18ab061fa6011cba5430d",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "b439bb2ba3a4449d2cf039a1c9146ec361a5d47fec600ed1c06b395c1db4fbd8",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-course-controls-20261019",
+        "sha": "6d60354a90d7a32807a3f7867cb9180d449433ce",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "ba4931b5f8b15181f67fe37cc45b17287c5305cf659d33e40309ce80a21a9401",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-course-count-20261108",
+        "sha": "4616694b65bf50d481dfd985b94e0fc213c38f0a",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "cc56759453ab2b4f1793d44571f1e5d62b69fc251a9efa75d01911dcc7d13339",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-empty-link-guidance-20261106",
+        "sha": "2fa359011391f5307aeb60c0f18ba9370190d77f",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "f6e948cfe9460e861365e8bca23d48102843bd30c12bb513e2c725370bdb39e6",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-keyboard-date-selection",
+        "sha": "99057788e335fa8d50e0e353c2ca5613917bf600",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "4582502e782da347cea1a0da0291d299e2bb23ce0be80c0903516668a6ff7c90",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-live-button-state-20261105",
+        "sha": "0d09ee3dbbb16b8a2a53851b532e6e59b7c16269",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "addf599e372aa821069385621f73e85d1e681de4760298634ebacf634d9263db",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-live-recovery-20261104",
+        "sha": "53cbfd463af717b3e1e7670af1911e0cd11c4714",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "fc61c95941605ba2bb79608fdf619d988ca9e3037f595377b353c10be3bfbfc3",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-matching-course-count-20261028",
+        "sha": "d7da8b8b02f58b319a5db1178a49839ec2a009bd",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "55e381413d3681c3afff01cfb5ced3b99675b7a5d8089e3ce10a29a8782879a6",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-missing-cache-20261027",
+        "sha": "62d1b1c569e3a47004ef85eb6de9133054f354d2",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-offline-course-links-20261103",
+        "sha": "50ae64a00b4372d1f8c33dd787c2d5406510da2e",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "316ff3f3263828191298e63817e1e5d84cc2415dc45eeb9ea5e96b162b5af383",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-perth-midnight-20261021",
+        "sha": "55579cb135f360b114f7705516d3b21bbd8e1632",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "214cf0e3cff96f5014c75d70178abf8ca1470c0d271bad64a0c5734677a6ba50",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-provider-error-wording-20261029",
+        "sha": "eb6697c76a38e4e5c2117ed4444ef1f61cc619d3",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "bbe26b95b0c89fa9cede6a7ecbab099bef733c592b544b19ec8d6ef19339847c",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-provider-exception-20261101",
+        "sha": "9aa16f733458db871c2452a18a247536ab348498",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "2b9a9f23efcfa4a25a4cbd9b1ca809149f6da39c34b82fc196e7bd1e607264d5",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-responsive-grid-20261107",
+        "sha": "405cbec95ed5b9fc84e23dba9fb64a7df98a29bf",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "9b35080c55f9a987ae0ecc204e8be5e23bddf3cb85f9b78af9ba464ef1d1cc0b",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-retained-search-context-20261031",
+        "sha": "63c910556c4f4dc210e41c3e6db665845436a8f0",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "47e7a530a528816894e19ed3524c2c6bbab5830d0c27bf07f1eb169ab502a428",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "412cca2cb9fc6b2cdc734e7abcf61003ee3669b219277cd1e1d12a2ccb8772b4"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-search-dates-and-times",
+        "sha": "6da0074de11999a5382d00822ee9cacfc1def0a4",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "819ca098bb4dbcadc7276fab3c8510e4aafc5c5bf59c8d0f2b3b445929b650b5",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "fix/desktop-startup-search-20261119",
+        "sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+          "app/golfhub_core.py": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+          "app/shared_cache.py": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+          "scripts/refresh_cache_shard.py": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9"
+        },
+        "instruction_files": []
+      },
+      {
+        "ref": "main",
+        "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+        "kind": "source branch",
+        "source_blobs_sha256": {
+          "app/qt_golfhub_app.py": "3a2e5dd4a00cc0125b9992994971dcb122be703eff8531460180143fa77fc63e",
+          "app/golfhub_core.py": "70c5de9f1f5c9b5f81be5389d82a5a5a2729b0dab65d5802cdfabeeeea132cd2",
+          "app/shared_cache.py": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f"
+        },
+        "instruction_files": []
+      }
+    ],
+    "provenance": "Fresh branch/head equality permits reuse of prior immutable source/instruction inspections. New PR32 exact source bytes read locally. Candidate-specific source comparisons are reported separately.",
+    "excluded_data_only_refs": [
+      "cache",
+      "news"
+    ]
+  },
+  "repair_coverage": {
+    "changed": true,
+    "latest_draft": {
+      "number": 32,
+      "title": "Cancel deferred startup refresh after explicit searches",
+      "url": "https://github.com/Jarryd22/golfhub-perth/pull/32",
+      "draft": true,
+      "head_ref": "fix/desktop-startup-search-20261119",
+      "head_sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+      "base_ref": "fix/desktop-cache-live-handoff-20261117",
+      "base_sha": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+      "updated_at": "2026-11-19T01:04:35Z"
+    },
+    "finding": "PR32 is the only new repair. Four stop calls cancel the two startup timers after valid accepted cache/live search; no provider, persistence, timeout, scrolling, rollover, ownership or workflow rewrite. Do not duplicate PR32 or earlier cumulative repairs. Main remains unmerged.",
+    "source_scope": {
+      "defect": "Pending0/100ms startup callbacks can run after accepted Live/Find, read unsubmitted controls and overwrite submitted live context or a valid explicit queue.",
+      "change": "Four targeted stop calls for _initial_cache_timer and _cache_search_timer after existing acceptance guards, plus one comment.",
+      "preserved": "Invalid/refused requests, normal automatic startup, valid explicit queue, scrolling, Perth rollover, native worker ownership, persistence and providers retain existing scope.",
+      "regressions": "Eight methods added in separate class within tests/test_startup_cache.py. Review records original seven methods/helpers AST-identical.",
+      "distinction": "Separate from PR31 cache-miss/terminal-live-owner handoff and historical Windows native shutdown timeout."
+    },
+    "historical_validation": {
+      "status": "Stored summary/result inspection only; not executed November20.",
+      "baseline": {
+        "source": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+        "methods": 15,
+        "passed": 10,
+        "failed": 5,
+        "errors": 0,
+        "skipped": 0,
+        "app_sha256": "e739043b8c4e60556cee1b713fe28464d2dc72242b39b02df4c99d8ffca94927"
+      },
+      "repaired": {
+        "methods": 15,
+        "passed": 15,
+        "failed": 0,
+        "errors": 0,
+        "skipped": 0,
+        "app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+        "same_final_external_test_file": true
+      },
+      "aggregate": {
+        "methods": 350,
+        "desktop_ci_selected": 218,
+        "cache_integrity": 95,
+        "additional": 37,
+        "module_processes": 28,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "all_recorded_module_exits_zero": true,
+        "timestamp_utc": "2026-11-19T00:55:30.028451+00:00"
+      },
+      "initial_unchanged_source_selection": {
+        "methods": 32,
+        "module_processes": 3,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0,
+        "tested_head": "be76a38fa09d122690ebcf553a342276e8136e5c",
+        "timestamp_utc": "2026-11-19T00:45:31.017674+00:00",
+        "not_added_to_aggregate": true
+      },
+      "diagnostics": {
+        "unique_cases": 5,
+        "repaired_live_cases": 2,
+        "recovery_assertions": 14,
+        "normal_and_early_close_controls": 3,
+        "control_assertions_per_source": 25,
+        "separate_normal_start_check_per_source": 1,
+        "fixture_timeouts": 3,
+        "completed_diagnostic_executions": 12,
+        "scope": "Real QApplication event loop and unchanged owned0/100ms timers with inert workers and intercepted saving; repeats/capture replays are not new unique cases or unit tests."
+      },
+      "environment": "Linux/Python3.12.14/Qt6.11.2/offscreen; declared source APP_VERSION5.0 is not an installed Windows5.1.17 package.",
+      "uncommitted_candidate_provenance": "Candidate runs record starting HEADPR31 plus final source/test hashes. Those hashes match committed PR32; starting HEAD alone is not the tested candidate identity.",
+      "lifecycle_limit": "Unchanged11-method real Linux QThread suite ran once in historical aggregate; startup probes use inert native-worker stand-ins and do not establish natural incidence or native Windows scheduling."
+    },
+    "historical_failed_or_intermediate_work": [
+      {
+        "item": "Formal regression baseline",
+        "status": "Five product failures retained; all seven original methods passed."
+      },
+      {
+        "item": "Diagnostic fixture termination",
+        "status": "Three timeouts15s/15s/12s because fake owners triggered normal close guard. Fixture-only correction flushed output and released inert owners; no product interval or bound increased."
+      },
+      {
+        "item": "New helper fixed180ms wait",
+        "status": "Initial baseline/repair file/results preserved. Review replaced it with asserted1s timer-completion/cancellation predicate; production intervals and existing test/lifecycle bounds unchanged."
+      },
+      {
+        "item": "QTest.qWaitFor capability lookup",
+        "status": "Binding lacks helper; read-only lookup exit1, not test execution. Final helper uses QElapsedTimer and short event-processing waits."
+      },
+      {
+        "item": "Audit/evidence assembly",
+        "status": "Quoting SyntaxError and heredoc SyntaxError occurred before execution/writes; retained notes distinguish them. Reviewer metadata summary also initially treated an integer as list and raised TypeError before corrected read."
+      },
+      {
+        "item": "Earlier unresolved history",
+        "status": "Windows cache_close, manual-pump stalls, obsolete cron and blocked WebEngine cases retained; no inference of repair from new startup fix."
+      }
+    ],
+    "current_auditor_runtime_executions": 0
+  },
+  "android_release_discrepancy": {
+    "designated_latest_endpoint": "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/releases/latest",
+    "designated_latest_tag": "android-v0.1.19",
+    "designated_latest_published_at": "2026-10-02T08:28:11Z",
+    "newest_by_stable_published_at": "android-v0.1.19",
+    "release_list_endpoint": "https://api.github.com/repos/Jarryd22/golfhub-perth-android-updates/releases?per_page=100",
+    "first_listed_tag": "android-v0.1.8",
+    "first_listed_published_at": "2026-09-27T16:11:37Z",
+    "finding": "Dedicated latest endpoint and newest stable publication both identify0.1.19 (Oct2); list order starts with older0.1.8 (Sep27). Array position does not establish latest. READMEs link to designated latest without naming0.1.8. No release assets or manifests downloaded."
+  },
+  "checkout": {
+    "path": "/workspace/golfhub-20261119-repair",
+    "head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+    "branch": "fix/desktop-startup-search-20261119",
+    "parent": "23defe0efec9cd98e31c65af3744d5730a1391d2",
+    "status_short": "",
+    "commit_timestamp_utc": "2026-11-19T01:01:28Z",
+    "changed_files_vs_PR31": 122,
+    "changed_non_documentation_paths": [
+      "app/qt_golfhub_app.py",
+      "tests/test_startup_cache.py"
+    ],
+    "non_docs_diff_stat": {
+      "app/qt_golfhub_app.py": "+5 lines",
+      "tests/test_startup_cache.py": "+243/-3 lines; eight new methods in existing selected module"
+    }
+  },
+  "prior_local_docs": {
+    "path": "/workspace/golfhub-20261119",
+    "head": "352b74f151fe70e5a860850792bcb80a7de9d646",
+    "branch": "qa/local-verification-20261119",
+    "parent": "be76a38fa09d122690ebcf553a342276e8136e5c",
+    "status_short": "",
+    "commit_timestamp_utc": "2026-11-19T00:49:28Z",
+    "role": "Preserves initial November19 startup checks locally; not the final PR32 repair report. Initial unchanged-source32-test evidence copied into dated repair evidence and kept separate from aggregate."
+  },
+  "instructions": {
+    "known_paths_checked": [
+      "/workspace/AGENTS.md",
+      "/workspace/golfhub-20261119-repair/AGENTS.md",
+      "/workspace/golfhub-20261119/AGENTS.md",
+      "/workspace/.agents/skills",
+      "/workspace/golfhub-20261119-repair/.agents/skills",
+      "/workspace/golfhub-20261119/.agents/skills"
+    ],
+    "present": [],
+    "differences_from_prior": "None at known paths; no broad or restricted-directory scan."
+  },
+  "workflow_trigger_audit": {
+    "prior_context": "/workspace/scratch/golfhub-20261119-context.json",
+    "prior_context_sha256": "b715ef03086db9bb4d3abc4cee01dabc30dd36bf3c4daa1921e49a4869cbcfea",
+    "workflow_inventory_matches": true,
+    "workflow_hash_checks": [
+      {
+        "path": ".github/workflows/check-alerts.yml",
+        "sha256": "7506c924a7dff57b658c5fce283d7f1e797f6828dc406ebf2089887a21c1fe38",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/course-news.yml",
+        "sha256": "ac88359f6171de02b663706008ea7949efc35675996d69a98e7e36c40ee06a26",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/refresh-cache-10min.yml",
+        "sha256": "0882c7a48c22b5eb6199a85694c7abd209eff63abab2dd6d145cf41614594391",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/test-cache.yml",
+        "sha256": "319ff262f3859505efa88d7b9ddbcdf76f5fcef921de18c92d2b26ca6346eb7d",
+        "matches_prior_context": true
+      },
+      {
+        "path": ".github/workflows/test-desktop.yml",
+        "sha256": "249034d9961e423cd1f9d5945c1972e3163a3b67da67ca9e53b60fdd2f7505ad",
+        "matches_prior_context": true
+      }
+    ],
+    "changed_workflows": [],
+    "trigger_reinspection_performed": false,
+    "reason": "All five exact Git-blob hashes match previous context. No workflow path/module selection changes; tests extend already selected test_startup_cache.py.",
+    "production_definitions_unchanged": true,
+    "inherited_trigger_summary": "An app-changing fix/desktop-* push selects desktop CI; stacked app-changing PR selects desktop/cache CI. Existing test workflow names do not match the production alert-completion chain. This is static source evidence, not proof of CI execution."
+  },
+  "prior_documentation_inspected": {
+    "evidence_file": "/workspace/scratch/golfhub-20261120-local-audit.json",
+    "sha256": "95697e62e8c2de2c7ba0e379a00db2dacaec0e81849351e9d923ad45cf605beb",
+    "inspected_records": [
+      "docs/qa/2026-11-19-startup-search/REPORT.md",
+      "docs/qa/2026-11-19-startup-search/review.md",
+      "docs/qa/2026-11-19-startup-search/evidence.json",
+      "docs/qa/2026-11-19-startup-search/regressions/baseline/result.json",
+      "docs/qa/2026-11-19-startup-search/regressions/repaired/result.json",
+      "docs/qa/2026-11-19-startup-search/final-aggregate/summary.json",
+      "docs/qa/2026-11-19-startup-search/initial-targeted-tests/targeted-tests/summary.json",
+      "docs/QA_CHECKLIST.md",
+      "docs/IMPROVEMENT_BACKLOG.md"
+    ],
+    "cumulative_notes": {
+      "latest_date": "2026-11-19",
+      "new_backlog_entry": "P1 preserve accepted searches through deferred startup; focused repair prepared onPR31 base, natural incidence/device/canonical integration pending.",
+      "prior_local_continuity": "Nov18 localdocs be76a38 and63 regressions/100 custom-time cases/two navigation journeys are explicitly historical and not republished as a docs-only chain.",
+      "publication_record": "Committed report is prepublication local evidence. Parent separately reports fresh PR32 metadata at66eaf00/basePR31; no remote head/CI assertion independently verified by this delegate."
+    }
+  },
+  "health_observations": {
+    "payloads_sampled": 0,
+    "provider_requests": 0,
+    "production_workflow_history_reads": 0,
+    "finding": "Cache/news head changes alone do not establish publication freshness, workflow success, provider availability or delivery."
+  },
+  "execution_notes": {
+    "source_test_edits": false,
+    "repository_docs_edits": false,
+    "runtime_tests": false,
+    "remote_writes": false,
+    "new_blockers": [],
+    "pending_or_uncertain_actions": [],
+    "retained_restrictions": [
+      {
+        "action": "Create/retry documentation-only PR or equivalent for docs/qa-20261114",
+        "status": "Parent-reported Nov14 approval-review denial remains in force; original reason not supplied. Do not retry or route around without new owner approval; docs-only work remains local."
+      },
+      {
+        "action": "Read production refresh workflow history",
+        "target": "https://api.github.com/repos/Jarryd22/golfhub-perth/actions/workflows/refresh-cache-10min.yml/runs?per_page=5",
+        "status": "Prior connector allow-list denial retained; no retry or alternate route."
+      },
+      {
+        "action": "Search/inspect restricted temporary directory",
+        "target": "/tmp/codex-daemon-1000",
+        "status": "Prior OS permission denial retained; no inspection/retry/escalation/alternate route."
+      },
+      {
+        "action": "Read restricted release manifests",
+        "targets": [
+          "https://github.com/Jarryd22/golfhub-perth-updates/releases/download/v5.1.17/update.json",
+          "https://github.com/Jarryd22/golfhub-perth-android-updates/releases/download/android-v0.1.19/android-update.json"
+        ],
+        "status": "Nov14 connector404/restricted-URL failures retained; metadata-only today, no retry or alternate route."
+      }
+    ],
+    "status": "Metadata and bounded candidate source audit complete. No denied action retried or alternate route used. No runtime tests/browser launches or source edits by auditor.",
+    "scratch_evidence_files": [
+      "/workspace/scratch/golfhub-20261120-metadata.json",
+      "/workspace/scratch/golfhub-20261120-local-audit.json",
+      "/workspace/scratch/golfhub-20261120-context.json",
+      "/workspace/scratch/golfhub-20261120-browser-duplicates.json"
+    ]
+  },
+  "limitations": [
+    "Historical Windows cache_close timeout remains unresolved despite later green checks; no repeated Linux diagnosis.",
+    "Canonical desktop/mobile/service/source reconciliation remains pending.",
+    "No fresh runtime/UI/device/provider/booking/notification/installer/signature verification in this audit. Stored Nov19 counts are historical, not current executions.",
+    "No docs-only publication retry; original Nov14 automatic-review denial reason was not supplied. No production-history, restricted-manifest or restricted-temp-directory reads/retries/reroutes.",
+    "No merge, deployment, release, workflow dispatch, credentials/security change, spending or third-party contact."
+  ],
+  "raw_metadata_evidence": {
+    "path": "/workspace/scratch/golfhub-20261120-metadata.json",
+    "sha256": "706b97e0ed09a99d66aa6f010a27b173274b5a0f1b1341f2df4b23dd731030e4",
+    "connector_reads": 20,
+    "all_succeeded": true
+  },
+  "candidate_duplicate_audit": {
+    "path": "/workspace/scratch/golfhub-20261120-browser-duplicates.json",
+    "sha256": "bc3f595b9d120af07ecdbf2bf4e2ea362114c7f58524ac2c1d6e911fd65bba85",
+    "source_refs_examined": 35,
+    "known_local_archive_files_examined": 26,
+    "errors": [],
+    "status": "Complete source-only duplicate comparison; no competing existing repair. Parent owns controlled reproduction.",
+    "finding": "No competing browser-handoff feedback repair found across35 current non-data refs and26 known preserved local/archive Qt sources. Each has8 direct webbrowser.open calls across3 card handlers and5 GolfHub.open_tee_time branches. All488 audited call occurrences discard the return value as an expression; no call is inside a try body whose handlers catch its exception. No shared browser-opening wrapper, webbrowser reassignment or alternative platform opener handles these paths."
+  }
+}

@@ -1,0 +1,196 @@
+{
+  "utc": "2026-11-20T00:56:09.576490+00:00",
+  "source_root": "/workspace/golfhub-20261120",
+  "head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "app_sha256": "f6692c7c46bff54027cf12012cc78e045d2381d9fa6f10f64c3f75ffaa05212e",
+  "script_sha256": "ece9b2ee2e25b0cdf9ceda8c808aed31063b61985ecadfe2b72123c70f7109c8",
+  "expect_warning": true,
+  "cases": [
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "assertions": [
+        {
+          "name": "Space dispatches the exact configured URL once",
+          "passed": true
+        },
+        {
+          "name": "scheduled failure observer ran once",
+          "passed": true
+        },
+        {
+          "name": "failure modal presence matches baseline or repaired contract",
+          "passed": true
+        },
+        {
+          "name": "real warning has expected title",
+          "passed": true
+        },
+        {
+          "name": "real warning includes recovery guidance and exact URL",
+          "passed": true
+        },
+        {
+          "name": "warning is actually visible and modal",
+          "passed": true
+        },
+        {
+          "name": "OK is inside dialog and modal inspection succeeds",
+          "passed": true
+        },
+        {
+          "name": "no modal remains after failure stage",
+          "passed": true
+        },
+        {
+          "name": "focus returns to the course action",
+          "passed": false
+        }
+      ],
+      "modals": [
+        {
+          "stage": "failure",
+          "found": true,
+          "title": "Could not open browser",
+          "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://www.altoneparkgolfcourse.com.au",
+          "geometry": {
+            "x": 447,
+            "y": 344,
+            "width": 353,
+            "height": 117
+          },
+          "visible": true,
+          "modal": true,
+          "text_interaction_flags": 5,
+          "label_metrics": [
+            {
+              "name": "qt_msgbox_label",
+              "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://www.altoneparkgolfcourse.com.au",
+              "geometry": {
+                "x": 78,
+                "y": 11,
+                "width": 264,
+                "height": 60
+              },
+              "word_wrap": false,
+              "mouse_selectable": true,
+              "keyboard_selectable": false
+            }
+          ],
+          "ok_button_geometry_in_dialog": {
+            "x": 262,
+            "y": 83,
+            "width": 80,
+            "height": 23
+          },
+          "ok_inside_dialog": true,
+          "dismissed_by": "Return on actual OK button (explicit focus anchor)"
+        }
+      ],
+      "url": "https://www.altoneparkgolfcourse.com.au",
+      "action_name": "View course: Altone Park, 18 holes, 3 January 2033",
+      "focus_returned_to_action": false,
+      "failure": "Traceback (most recent call last):\n  File \"/workspace/scratch/golfhub-20261120-browser-modal/modal_probe_geometry.py\", line 117, in <module>\n    expect(record['focus_returned_to_action'],'focus returns to the course action')\n  File \"/workspace/scratch/golfhub-20261120-browser-modal/modal_probe_geometry.py\", line 51, in expect\n    assert condition,name\n           ^^^^^^^^^\nAssertionError: focus returns to the course action\n"
+    },
+    {
+      "viewport": [
+        980,
+        640
+      ],
+      "assertions": [
+        {
+          "name": "Space dispatches the exact configured URL once",
+          "passed": true
+        },
+        {
+          "name": "scheduled failure observer ran once",
+          "passed": true
+        },
+        {
+          "name": "failure modal presence matches baseline or repaired contract",
+          "passed": true
+        },
+        {
+          "name": "real warning has expected title",
+          "passed": true
+        },
+        {
+          "name": "real warning includes recovery guidance and exact URL",
+          "passed": true
+        },
+        {
+          "name": "warning is actually visible and modal",
+          "passed": true
+        },
+        {
+          "name": "OK is inside dialog and modal inspection succeeds",
+          "passed": true
+        },
+        {
+          "name": "no modal remains after failure stage",
+          "passed": true
+        },
+        {
+          "name": "focus returns to the course action",
+          "passed": false
+        }
+      ],
+      "modals": [
+        {
+          "stage": "failure",
+          "found": true,
+          "title": "Could not open browser",
+          "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://www.altoneparkgolfcourse.com.au",
+          "geometry": {
+            "x": 316,
+            "y": 264,
+            "width": 353,
+            "height": 117
+          },
+          "visible": true,
+          "modal": true,
+          "text_interaction_flags": 5,
+          "label_metrics": [
+            {
+              "name": "qt_msgbox_label",
+              "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://www.altoneparkgolfcourse.com.au",
+              "geometry": {
+                "x": 78,
+                "y": 11,
+                "width": 264,
+                "height": 60
+              },
+              "word_wrap": false,
+              "mouse_selectable": true,
+              "keyboard_selectable": false
+            }
+          ],
+          "ok_button_geometry_in_dialog": {
+            "x": 262,
+            "y": 83,
+            "width": 80,
+            "height": 23
+          },
+          "ok_inside_dialog": true,
+          "dismissed_by": "Return on actual OK button (explicit focus anchor)"
+        }
+      ],
+      "url": "https://www.altoneparkgolfcourse.com.au",
+      "action_name": "View course: Altone Park, 18 holes, 3 January 2033",
+      "focus_returned_to_action": false,
+      "failure": "Traceback (most recent call last):\n  File \"/workspace/scratch/golfhub-20261120-browser-modal/modal_probe_geometry.py\", line 117, in <module>\n    expect(record['focus_returned_to_action'],'focus returns to the course action')\n  File \"/workspace/scratch/golfhub-20261120-browser-modal/modal_probe_geometry.py\", line 51, in expect\n    assert condition,name\n           ^^^^^^^^^\nAssertionError: focus returns to the course action\n"
+    }
+  ],
+  "callback_errors": [],
+  "summary": {
+    "viewports": 2,
+    "completed": 0,
+    "recorded_assertions": 18,
+    "failed_assertions": 2,
+    "exceptions": 2,
+    "callback_errors": 0
+  },
+  "limits": "Actual course Space/mouse actions, realQMessageBox and queued inspector; OKReturn with explicitfocus anchor. BrowserFalse/True intercepted. No externalbrowser/network/provider,worker,persistence,booking/hold/notification/native device execution."
+}

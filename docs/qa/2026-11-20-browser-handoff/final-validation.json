@@ -1,0 +1,36 @@
+{
+  "final_aggregate": {
+    "modules": 28,
+    "tests": 361,
+    "desktop_selected": 229,
+    "cache_integrity": 95,
+    "additional": 37,
+    "failure_records": 0,
+    "errors": 0,
+    "skips": 0
+  },
+  "source_hash_matches_aggregate": true,
+  "test_hash_matches_aggregate": true,
+  "original_checkout_head": "55579cb135f360b114f7705516d3b21bbd8e1632",
+  "original_checkout_status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-10-22-cache-availability/\n?? tests/test_multiday_cache_states.py\n",
+  "original_qt_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+  "original_qt_matches_prework_duplicate_audit": true,
+  "workflows_match_base": true,
+  "normal_trigger_scope": "desktop repair push; desktop and cache pull_request checks; no matching production push, no workflow dispatch",
+  "instruction_paths_checked_absent": [
+    "/AGENTS.md",
+    "/workspace/AGENTS.md",
+    "/workspace/golfhub-20261120/AGENTS.md",
+    "/workspace/golfhub-20261120/.agents/skills",
+    "/workspace/golfhub-perth/.agents/skills"
+  ],
+  "compile_actionlint_diff_check": {
+    "status": "passed",
+    "executed_by": "root tools; exit0 on finalsource",
+    "commands": [
+      "/workspace/golfhub-perth/.venv/bin/python -m py_compile app/qt_golfhub_app.py tests/test_booking_context.py",
+      "/workspace/scratch/actionlint-1.7.12/actionlint",
+      "git -c core.whitespace=cr-at-eol diff --check"
+    ]
+  }
+}

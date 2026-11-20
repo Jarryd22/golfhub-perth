@@ -1,0 +1,90 @@
+{
+  "recorded_at_utc": "2026-11-20T00:57:56.466547+00:00",
+  "base_commit": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "test_file": "/workspace/golfhub-20261120/tests/test_booking_context.py",
+  "test_sha256": "c254663d82f33195ab6593b692f44a9252815e54e76d445240205a933f883a90",
+  "original_class_ast_identical": true,
+  "original_test_methods": 8,
+  "added_methods": [
+    "test_tee_card_reports_browser_failure",
+    "test_direct_card_reports_browser_failure",
+    "test_result_card_reports_browser_failure",
+    "test_any_players_reports_browser_failure",
+    "test_invalid_plan_fallback_reports_browser_failure",
+    "test_unsupported_provider_reports_browser_failure",
+    "test_manual_choice_reports_browser_failure",
+    "test_dialog_failure_fallback_reports_browser_failure",
+    "test_cancel_button_path_does_not_open_or_warn",
+    "test_missing_links_preserve_existing_button_guards",
+    "test_confirmed_hold_button_path_keeps_dialog_handoff_without_browser"
+  ],
+  "added_method_count": 11,
+  "original_test_source_sha256": "fd6deefc9ef033e288abb53c2bc14509d776bdb3d41c6f64462b1a988a275374",
+  "baseline_source_root": "/workspace/golfhub-20261119-repair",
+  "candidate_source_root": "/workspace/golfhub-20261120",
+  "baseline_app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+  "candidate_app_sha256": "f6692c7c46bff54027cf12012cc78e045d2381d9fa6f10f64c3f75ffaa05212e",
+  "counts": {
+    "baseline_methods_run": 19,
+    "baseline_methods_pass": 11,
+    "baseline_failed_matrix_methods": 8,
+    "baseline_assertion_failure_records": 24,
+    "baseline_errors": 0,
+    "candidate_methods_pass": 19,
+    "candidate_failures": 0,
+    "candidate_errors": 0,
+    "skips": 0,
+    "matrix_subscenarios_each_source": 32,
+    "missing_url_subscenarios_each_source": 4,
+    "separate_cancel_and_confirmed_plan_control_methods": 2
+  },
+  "execution_history": [
+    {
+      "directory": "pre-review-missing-card-owner",
+      "source_root": "/workspace/golfhub-20261120",
+      "exit_code": 1,
+      "method_pass": 10,
+      "failure_records": 24,
+      "error_records": 3,
+      "reason": "Three standalone missing-link cards lost their last Python owner because repeated/starred underscore assignment discarded it before click. The Qt button was deleted. Matrix product failures independently remained24."
+    },
+    {
+      "directory": "baseline",
+      "source_root": "/workspace/golfhub-20261119-repair",
+      "exit_code": 1,
+      "method_pass": 11,
+      "failure_records": 24,
+      "error_records": 0,
+      "reason": "Final test file against unchanged exact PR32: expected product failures, all original and guard methods pass."
+    },
+    {
+      "directory": "repaired",
+      "source_root": "/workspace/golfhub-20261120",
+      "exit_code": 0,
+      "method_pass": 19,
+      "failure_records": 0,
+      "error_records": 0,
+      "reason": "Same frozen test file against focused candidate."
+    }
+  ],
+  "command_template": "timeout --signal=TERM --kill-after=5s 60s /workspace/golfhub-perth/.venv/bin/python -X faulthandler /workspace/scratch/golfhub-20261120-browser/run-booking-tests.py --root <source_root> --test-file /workspace/golfhub-20261120/tests/test_booking_context.py --output /workspace/scratch/golfhub-20261120-browser/<directory> > /workspace/scratch/golfhub-20261120-browser/<directory>/test.log 2>&1",
+  "limits": [
+    "QPushButton.click dispatch with sys.excepthook capture, not native browser launch.",
+    "Browser, dialog construction/retention and persistence are mocked; sockets/DNS/provider/weather/worker bodies blocked.",
+    "Confirmed-plan control builds pure plan data and passes it to a mocked dialog only; no hold script executes.",
+    "No WebEngine object, browser, provider, live booking, notification or denied route is used."
+  ],
+  "artifact_sha256": {
+    "baseline/result.json": "5c6d77ee1c12df01e0d913b2bfafd22c009525dd96c226b83b5b7920aebe6808",
+    "baseline/test.log": "36e0717b5ee892aa610e112d60fe22dc2901a8252b2139236cd5d34ebab24357",
+    "pre-review-missing-card-owner/ownership-correction.diff.gz": "81fc764e7473205298cfb8db4898927450d592ae10f51d16c63ed55293c81f89",
+    "pre-review-missing-card-owner/result.json": "1d28907a517571eefb26909f74019baccb62b043a500b10a94cba0a5c50d5362",
+    "pre-review-missing-card-owner/test.log": "f18fe227fbc0b6f0ca6b9f3a31a2b070e93a5eb33bd149b6e354bc4b51180366",
+    "pre-review-missing-card-owner/test_booking_context.py": "86d2bdcf57548135a493a9489295fbabc4992af41161dd628ef26ceae0992bb4",
+    "repaired/result.json": "cdee00bb059b05770aa14cde454d723b1afbda9d5c1e6acc4725723aa4a49fa5",
+    "repaired/test.log": "6ec0eded01912fdfeb9608f698cc0c7e34e9586bc364c763218519be3190d5c9",
+    "run-booking-tests.py": "71ab6241b8e488c9f48caadb821a7891b673bfffd3d16a9499a0261e2ac362a0",
+    "test_booking_context.py": "c254663d82f33195ab6593b692f44a9252815e54e76d445240205a933f883a90",
+    "scope.md": "2d21d6f4d2ec7adc4c66cb3e44654fbb15067573cfba257350d87cb2fabac1fc"
+  }
+}

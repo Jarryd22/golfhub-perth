@@ -1,0 +1,47 @@
+{
+  "recorded_utc": "2026-11-20T00:52:29.322864+00:00",
+  "artifact_origin": "/workspace/scratch/golfhub-20261120-expansion",
+  "source_root": "/workspace/golfhub-20261119-repair",
+  "source_head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "app_sha256": "531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35",
+  "source_status": "",
+  "command": "timeout --signal=TERM --kill-after=5s 30s /workspace/golfhub-perth/.venv/bin/python expansion_probe.py --root /workspace/golfhub-20261119-repair --output first > first/run.log 2>&1",
+  "working_directory": "/workspace/scratch/golfhub-20261120-expansion",
+  "exit_code": 0,
+  "execution_count": 1,
+  "probe_revisions": 0,
+  "results": {
+    "viewports": 2,
+    "completed": 2,
+    "recorded_assertions": 84,
+    "failed_assertions": 0,
+    "exceptions": 0,
+    "callback_errors": 0
+  },
+  "intercepted_BOOK_callbacks": 4,
+  "scope": "One new keyboard expansion/collapse/lazy-section sequence repeated at two viewport sizes. Existing source-only review found no defect; actual input diagnostic passed without source/test edits.",
+  "input_boundary": "Explicit focus anchors at date headers and selected actions; actualTab/ShiftTab/Space between them. Pending date/round/group/time values use fixture setters. Not keyboard-only traversal from app launch.",
+  "browser_boundary": "window.open_tee_time is intercepted before its implementation. These fourBOOK dispatches do not test browser returnvalues, providerplans,dialogs,holds orrealbooking. webbrowser.open itself remains blocked.",
+  "visual_review": {
+    "inspected": [
+      "first/expanded-980x640.png",
+      "first/expanded-1280x800.png"
+    ],
+    "observations": "Scrolled lower portion of expanded second date; final rowBOOK andSHOW FIRST12 fully visible at both sizes. Compactview begins partwaythroughrows due scrollposition. HeaderCACHE READY is unchanged constructorcopy because syntheticresults are rendered directly, not an assertion ofcachefetchstate. Pending9hole/Afternoon/1player controls intentionallydifferfromretained18hole/morning/4playerresults."
+  },
+  "coverage_comparison": "Existingtests use set_expanded/button.click/set_visible_limit and checkcounts/names/layout; November16and18 diagnostics expandsectionsprogrammatically. Thisrunaddsactualfocus traversalaftervisibilitychanges and3close/reopencycles perviewport.",
+  "limits": [
+    "No nativeWindows/Android,screenreader,touch,DPI/resume,performance ornatural-user testing.",
+    "No worker/network/provider/weather/browsernavigation,persistence,booking/hold ornotificationdelivery.",
+    "No newunittestmethods;84countsare nameddiagnosticassertions.",
+    "No deniedroute,remote write,workflow,security/credentials/spend/outreach orWebEnginebypass.",
+    "HistoricalWindowscache_close/canonicalintegrationremainunresolved."
+  ],
+  "artifact_sha256": {
+    "expansion_probe.py": "26b6752b0d9c87bdfef0ecc77966b9a97fcf0117cf332de71d64a0db869b7347",
+    "first/probe.json": "e3dfd7684865ad65460960eff1ad2deccce73812e75b94330f45d611ea2577fe",
+    "first/run.log": "853e43a7130b9628befcdb97f5a5cd0e1d6b0cda6d33d0d53afdb04721a9a3c6",
+    "first/expanded-980x640.png": "570fe06023007bc28a3eadf2a4946967909c6e7240f18b4a9ad40f626cb41c09",
+    "first/expanded-1280x800.png": "5874f70f3f7b7ead630a8990b7f5d5f9a64822e7b83cac5458413f9d4c59fc5d"
+  }
+}

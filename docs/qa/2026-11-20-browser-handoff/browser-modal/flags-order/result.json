@@ -1,0 +1,107 @@
+[
+  {
+    "flags_position": "before_text",
+    "stages": [
+      {
+        "stage": "created",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "before_text",
+        "message_flags": 3,
+        "label_flags": 3
+      },
+      {
+        "stage": "after_text",
+        "message_flags": 3,
+        "label_flags": 3
+      },
+      {
+        "stage": "after_stylesheet_before_flags",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "before_show",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "shown",
+        "message_flags": 5,
+        "label_flags": 5
+      }
+    ]
+  },
+  {
+    "flags_position": "after_text",
+    "stages": [
+      {
+        "stage": "created",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "before_text",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "after_text",
+        "message_flags": 3,
+        "label_flags": 3
+      },
+      {
+        "stage": "after_stylesheet_before_flags",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "before_show",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "shown",
+        "message_flags": 5,
+        "label_flags": 5
+      }
+    ]
+  },
+  {
+    "flags_position": "after_stylesheet",
+    "stages": [
+      {
+        "stage": "created",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "before_text",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "after_text",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "after_stylesheet_before_flags",
+        "message_flags": 5,
+        "label_flags": 5
+      },
+      {
+        "stage": "before_show",
+        "message_flags": 3,
+        "label_flags": 3
+      },
+      {
+        "stage": "shown",
+        "message_flags": 3,
+        "label_flags": 3
+      }
+    ]
+  }
+]

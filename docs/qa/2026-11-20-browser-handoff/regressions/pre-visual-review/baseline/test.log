@@ -1,0 +1,1110 @@
+test_course_action_variants_have_context_and_preserve_official_handoffs (test_booking_context.BookingContextTests.test_course_action_variants_have_context_and_preserve_official_handoffs) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_direct_course_links_preserve_literal_ampersands_and_single_day_context (test_booking_context.BookingContextTests.test_direct_course_links_preserve_literal_ampersands_and_single_day_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_lazy_days_keep_their_own_dates_when_opened_after_filters_change (test_booking_context.BookingContextTests.test_lazy_days_keep_their_own_dates_when_opened_after_filters_change) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_missing_context_is_not_invented_and_row_url_still_wins (test_booking_context.BookingContextTests.test_missing_context_is_not_invented_and_row_url_still_wins) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_range_course_link_has_no_invented_single_date (test_booking_context.BookingContextTests.test_range_course_link_has_no_invented_single_date) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_repeated_times_distinguish_course_and_round_without_changing_visible_text (test_booking_context.BookingContextTests.test_repeated_times_distinguish_course_and_round_without_changing_visible_text) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_show_all_action_keeps_course_date_context_after_toggle (test_booking_context.BookingContextTests.test_show_all_action_keeps_course_date_context_after_toggle) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff (test_booking_context.BookingContextTests.test_single_day_book_exposes_submitted_context_and_keeps_keyboard_handoff) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) (route='any_players', outcome='false') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) (route='any_players', outcome='os_error') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) (route='any_players', outcome='browser_error') ... FAIL
+test_cancel_button_path_does_not_open_or_warn (test_booking_context.BrowserHandoffTests.test_cancel_button_path_does_not_open_or_warn) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_confirmed_hold_button_path_keeps_dialog_handoff_without_browser (test_booking_context.BrowserHandoffTests.test_confirmed_hold_button_path_keeps_dialog_handoff_without_browser) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) (route='dialog_failure', outcome='false') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) (route='dialog_failure', outcome='os_error') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) (route='dialog_failure', outcome='browser_error') ... FAIL
+test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) (route='direct_card', outcome='false') ... FAIL
+  test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) (route='direct_card', outcome='os_error') ... FAIL
+  test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) (route='direct_card', outcome='browser_error') ... FAIL
+test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) (route='invalid_plan', outcome='false') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) (route='invalid_plan', outcome='os_error') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) (route='invalid_plan', outcome='browser_error') ... FAIL
+test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) (route='manual_choice', outcome='false') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) (route='manual_choice', outcome='os_error') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) (route='manual_choice', outcome='browser_error') ... FAIL
+test_missing_links_preserve_existing_button_guards (test_booking_context.BrowserHandoffTests.test_missing_links_preserve_existing_button_guards) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) (route='result_card', outcome='false') ... FAIL
+  test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) (route='result_card', outcome='os_error') ... FAIL
+  test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) (route='result_card', outcome='browser_error') ... FAIL
+test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) (route='tee_card', outcome='false') ... FAIL
+  test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) (route='tee_card', outcome='os_error') ... FAIL
+  test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) (route='tee_card', outcome='browser_error') ... FAIL
+test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) (route='unsupported_provider', outcome='false') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) (route='unsupported_provider', outcome='os_error') ... FAIL
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+  test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) (route='unsupported_provider', outcome='browser_error') ... FAIL
+
+======================================================================
+FAIL: test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) (route='any_players', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) (route='any_players', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_any_players_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_any_players_reports_browser_failure) (route='any_players', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) (route='dialog_failure', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) (route='dialog_failure', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_dialog_failure_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_dialog_failure_fallback_reports_browser_failure) (route='dialog_failure', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) (route='direct_card', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) (route='direct_card', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_direct_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_direct_card_reports_browser_failure) (route='direct_card', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) (route='invalid_plan', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) (route='invalid_plan', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_invalid_plan_fallback_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_invalid_plan_fallback_reports_browser_failure) (route='invalid_plan', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) (route='manual_choice', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) (route='manual_choice', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_manual_choice_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_manual_choice_reports_browser_failure) (route='manual_choice', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) (route='result_card', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) (route='result_card', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_result_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_result_card_reports_browser_failure) (route='result_card', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) (route='tee_card', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) (route='tee_card', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_tee_card_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_tee_card_reports_browser_failure) (route='tee_card', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) (route='unsupported_provider', outcome='false')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 281, in check_route
+    self.assertEqual(len(failure), 0 if response is True else 1)
+AssertionError: 0 != 1
+
+======================================================================
+FAIL: test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) (route='unsupported_provider', outcome='os_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [OSError('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+OSError('Injected browser failure')
+
+- [OSError('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+======================================================================
+FAIL: test_unsupported_provider_reports_browser_failure (test_booking_context.BrowserHandoffTests.test_unsupported_provider_reports_browser_failure) (route='unsupported_provider', outcome='browser_error')
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261120/tests/test_booking_context.py", line 280, in check_route
+    self.assertEqual(self.callbacks, [], "A failed handoff must not escape the Qt callback")
+AssertionError: Lists differ: [Error('Injected browser failure')] != []
+
+First list contains 1 additional elements.
+First extra element 0:
+Error('Injected browser failure')
+
+- [Error('Injected browser failure')]
++ [] : A failed handoff must not escape the Qt callback
+
+----------------------------------------------------------------------
+Ran 19 tests in 2.483s
+
+FAILED (failures=24)
+QA_RESULT {"tests_run": 19, "passed_methods": 11, "failure_records": 24, "error_records": 0, "skipped": 0, "matrix_subscenarios": 32, "guard_subscenarios": 4, "successful": false}

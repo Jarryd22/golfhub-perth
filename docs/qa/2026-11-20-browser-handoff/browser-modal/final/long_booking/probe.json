@@ -1,0 +1,291 @@
+{
+  "utc": "2026-11-20T01:01:18.261536+00:00",
+  "source_root": "/workspace/golfhub-20261120",
+  "head": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+  "app_sha256": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "script_sha256": "b06d60e6f86c240a8476abc48a2ebca74939e8b77f5942f8a49ec8329171a851",
+  "expect_warning": true,
+  "route": "long_booking",
+  "cases": [
+    {
+      "viewport": [
+        1280,
+        800
+      ],
+      "assertions": [
+        {
+          "name": "Space dispatches the exact configured URL once",
+          "passed": true
+        },
+        {
+          "name": "scheduled failure observer ran once",
+          "passed": true
+        },
+        {
+          "name": "failure modal presence matches baseline or repaired contract",
+          "passed": true
+        },
+        {
+          "name": "real warning has expected title",
+          "passed": true
+        },
+        {
+          "name": "real warning includes recovery guidance and exact URL",
+          "passed": true
+        },
+        {
+          "name": "warning is actually visible and modal",
+          "passed": true
+        },
+        {
+          "name": "OK is inside dialog and modal inspection succeeds",
+          "passed": true
+        },
+        {
+          "name": "message uses plain text for exact URL",
+          "passed": true
+        },
+        {
+          "name": "shown body retains mouse and keyboard selection flags",
+          "passed": true
+        },
+        {
+          "name": "shown OK has existing dark-text and gold-background palette",
+          "passed": true
+        },
+        {
+          "name": "message fits parent viewport at this size",
+          "passed": true
+        },
+        {
+          "name": "no modal remains after failure stage",
+          "passed": true
+        },
+        {
+          "name": "explicit window activation restores the course action in offscreen fixture",
+          "passed": true
+        },
+        {
+          "name": "failure leaves result data unchanged",
+          "passed": true
+        },
+        {
+          "name": "mouse retry dispatches the same URL once more",
+          "passed": true
+        },
+        {
+          "name": "True browser result has no warning",
+          "passed": true
+        },
+        {
+          "name": "successful intercepted retry leaves results unchanged",
+          "passed": true
+        }
+      ],
+      "modals": [
+        {
+          "stage": "failure",
+          "found": true,
+          "title": "Could not open browser",
+          "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+          "geometry": {
+            "x": 275,
+            "y": 325,
+            "width": 525,
+            "height": 155
+          },
+          "visible": true,
+          "modal": true,
+          "text_interaction_flags": 3,
+          "text_format": 0,
+          "fits_parent_viewport": true,
+          "label_metrics": [
+            {
+              "name": "qt_msgbox_label",
+              "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+              "geometry": {
+                "x": 78,
+                "y": 11,
+                "width": 436,
+                "height": 90
+              },
+              "word_wrap": true,
+              "mouse_selectable": true,
+              "keyboard_selectable": true
+            }
+          ],
+          "ok_button_geometry_in_dialog": {
+            "x": 459,
+            "y": 113,
+            "width": 55,
+            "height": 31
+          },
+          "ok_inside_dialog": true,
+          "ok_palette_button_text": "#090909",
+          "ok_rendered_background_samples": [
+            "#f59e0b",
+            "#f59e0b"
+          ],
+          "dismissed_by": "Return on actual OK button (explicit focus anchor)"
+        },
+        {
+          "stage": "retry",
+          "found": false
+        }
+      ],
+      "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+      "action_name": "Book: Araluen, 9:00 am, 18 holes, 3 January 2033",
+      "focus_returned_to_action": false,
+      "active_window_after_dismissal": null,
+      "explicit_window_activation_used": true,
+      "focus_after_activation": true,
+      "completed": true
+    },
+    {
+      "viewport": [
+        980,
+        640
+      ],
+      "assertions": [
+        {
+          "name": "Space dispatches the exact configured URL once",
+          "passed": true
+        },
+        {
+          "name": "scheduled failure observer ran once",
+          "passed": true
+        },
+        {
+          "name": "failure modal presence matches baseline or repaired contract",
+          "passed": true
+        },
+        {
+          "name": "real warning has expected title",
+          "passed": true
+        },
+        {
+          "name": "real warning includes recovery guidance and exact URL",
+          "passed": true
+        },
+        {
+          "name": "warning is actually visible and modal",
+          "passed": true
+        },
+        {
+          "name": "OK is inside dialog and modal inspection succeeds",
+          "passed": true
+        },
+        {
+          "name": "message uses plain text for exact URL",
+          "passed": true
+        },
+        {
+          "name": "shown body retains mouse and keyboard selection flags",
+          "passed": true
+        },
+        {
+          "name": "shown OK has existing dark-text and gold-background palette",
+          "passed": true
+        },
+        {
+          "name": "message fits parent viewport at this size",
+          "passed": true
+        },
+        {
+          "name": "no modal remains after failure stage",
+          "passed": true
+        },
+        {
+          "name": "explicit window activation restores the course action in offscreen fixture",
+          "passed": true
+        },
+        {
+          "name": "failure leaves result data unchanged",
+          "passed": true
+        },
+        {
+          "name": "mouse retry dispatches the same URL once more",
+          "passed": true
+        },
+        {
+          "name": "True browser result has no warning",
+          "passed": true
+        },
+        {
+          "name": "successful intercepted retry leaves results unchanged",
+          "passed": true
+        }
+      ],
+      "modals": [
+        {
+          "stage": "failure",
+          "found": true,
+          "title": "Could not open browser",
+          "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+          "geometry": {
+            "x": 230,
+            "y": 245,
+            "width": 525,
+            "height": 155
+          },
+          "visible": true,
+          "modal": true,
+          "text_interaction_flags": 3,
+          "text_format": 0,
+          "fits_parent_viewport": true,
+          "label_metrics": [
+            {
+              "name": "qt_msgbox_label",
+              "text": "GolfHub could not open this link in your browser.\n\nOpen this address manually:\nhttps://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+              "geometry": {
+                "x": 78,
+                "y": 11,
+                "width": 436,
+                "height": 90
+              },
+              "word_wrap": true,
+              "mouse_selectable": true,
+              "keyboard_selectable": true
+            }
+          ],
+          "ok_button_geometry_in_dialog": {
+            "x": 459,
+            "y": 113,
+            "width": 55,
+            "height": 31
+          },
+          "ok_inside_dialog": true,
+          "ok_palette_button_text": "#090909",
+          "ok_rendered_background_samples": [
+            "#f59e0b",
+            "#f59e0b"
+          ],
+          "dismissed_by": "Return on actual OK button (explicit focus anchor)"
+        },
+        {
+          "stage": "retry",
+          "found": false
+        }
+      ],
+      "url": "https://araluenestategolfcourse.miclub.com.au/guests/bookings/ViewPublicTimesheet.msp?bookingResourceId=3000000&selectedDate=2033-01-03&feeGroupId=102807",
+      "action_name": "Book: Araluen, 9:00 am, 18 holes, 3 January 2033",
+      "focus_returned_to_action": false,
+      "active_window_after_dismissal": null,
+      "explicit_window_activation_used": true,
+      "focus_after_activation": true,
+      "completed": true
+    }
+  ],
+  "callback_errors": [],
+  "summary": {
+    "viewports": 2,
+    "completed": 2,
+    "recorded_assertions": 34,
+    "failed_assertions": 0,
+    "exceptions": 0,
+    "callback_errors": 0
+  },
+  "source_sha256_after": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "source_unchanged_during_probe": true,
+  "limits": "Actual course/BOOK Space/mouse actions, realQMessageBox and queued inspector; OKReturn with explicitfocus anchor; explicitwindowreactivation after demonstratedplainQt focusloss. BrowserFalse/True intercepted. No externalbrowser/network/provider,worker,persistence,booking/hold/notification/native device execution."
+}

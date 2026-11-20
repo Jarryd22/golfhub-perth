@@ -1,0 +1,28 @@
+# Browser handoff regressions — November 20
+
+Eleven methods are added to CI-selected `tests/test_booking_context.py`, preserving the original eight-method `BookingContextTests` class AST exactly. No workflow, runtime or other test file was changed by the test author. Final test SHA256: `e0aa2858de8a0e5ab940d9003f78c8e23e4c3816cc6df71ab83f3a5ef63f7e2c`.
+
+Eight methods cover the eight external browser call sites: standalone tee, direct-course and result-card buttons; integrated Any-player, invalid-plan fallback, unsupported-provider, manual-choice and dialog-construction-failure fallback BOOK paths. Each method checks `True`, `False`, `OSError` and `webbrowser.Error`, giving **32 subscenarios per source**, not 32 additional unittest methods. Browser dispatch is once to the exact existing destination. Failure feedback must have the initiating card/window parent, title `Could not open browser`, the exact URL and a failure/manual-recovery explanation. A replacement `QMessageBox.exec` records the actual constructed dialog and checks plain text plus mouse/keyboard selection. True adds no browser-failure dialog; existing static booking information and dialog-failure warnings remain independently mocked and checked. No helper name is assumed.
+
+Three further methods check cancel, missing links (four card/integrated subscenarios), and confirmed-plan handoff to a fake dialog. The latter checks pure consent/plan data and mock calls only: no temporary hold, JavaScript or WebEngine runs. Existing booking UI integration tests remain untouched for the parent's aggregate.
+
+## Final identical-file results
+
+- **Exact PR32 baseline:** 19 methods, 11 passed and eight matrix methods failed through **24 assertion records**; zero errors/skips. All eight original methods and three guard methods passed. All eight `True` cases passed. Eight false returns lacked feedback; 16 injected exceptions escaped into captured Qt callbacks.
+- **Repair:** 19/19 methods passed, zero failures/errors/skips. All 32 matrix and four missing-link subscenarios passed; cancel and confirmed-plan controls passed separately.
+- Baseline source root `/workspace/golfhub-20261119-repair`, commit `66eaf00f76e748cf6f76ef6a758574a3d996360c`, Qt SHA256 `531055544bc6cab4707d29a1293d4356e2852cb1426eb7955029b97c15d1cd35`.
+- Candidate source root `/workspace/golfhub-20261120`, same starting HEAD plus uncommitted Qt SHA256 `bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403`.
+
+The external runner imports the explicit source root and final external test file. It blocks sockets/DNS and browser access, records method/subtest outcomes separately, uses isolated writable runtime directories, and flushes Qt widgets. Each subprocess has the same 60-second outer bound. Commands and hashes are in `provenance.json`; full stdout/stderr and results are in `baseline/` and `repaired/`. Baseline exits 1 for expected assertion failures; repair exits 0. Existing Qt/offscreen stylesheet warnings are retained.
+
+## Preserved initial fixture correction
+
+The first execution on unchanged November 20 PR32 source ran all 32 matrix scenarios and recorded the same 24 product failures, plus three missing-link fixture errors. Repeated/starred `_` unpacking discarded the standalone card's last Python owner before its button was clicked; Qt correctly deleted the button. The one-line test-only correction retains the card owner. Initial file, complete log, result and compressed correction diff remain under `pre-review-missing-card-owner/`. The corrected test was rerun against the separate unchanged PR32 source before evaluating the repair. No assertion, app behavior or bound was relaxed.
+
+## Visual-review adaptation and detected candidate regression
+
+The initial static-warning test file (`c254663d…`) and its baseline/19-pass repaired results are retained under `pre-visual-review/`, together with the original runner/scope/provenance. Separate actual-dialog visual review found the newly introduced warning's default OK button unreadable in the dark style. The parent replaced only this new helper's static warning with a constructed styled message box. The tests therefore inspect the real message instance through intercepted `exec`, adding plain-text and mouse/keyboard-selectability requirements while retaining all existing URL, callback, consent and recovery assertions. No new method was added by this adaptation. A compressed diff preserves the test changes.
+
+The revised final file was rerun against exact PR32: the same 11 pass/eight failed methods and 24 product failure records, zero errors/skips. Its first run against constructed-dialog candidate `e109b3e6…` then caught **24 new selection failures**: applying the stylesheet after the flags left only mouse selection. Full logs/results, exact intermediate app gzip and unchanged final test are preserved in `pre-style-selection-failure/`. The parent moved the flag assignment after styling. The same final test file then passed 19/19 against `bbf50a77…`; no assertion was weakened. Actual visible-button colour, shown-dialog focus and long-URL layout belong to the separate UI probe, not this intercepted-dialog suite. Clipboard checks were not performed.
+
+These checks execute Qt `QPushButton.click()` signals and capture `sys.excepthook`; they are not native mouse/browser/device tests. Browser calls, modal dialogs and persistence are intercepted; native workers and provider/weather operations are blocked. Natural failure frequency, successful page loading, real bookings, notification delivery, native accessibility and historical Windows `cache_close` remain unverified. The only new code written by this agent is the regression class/imports and this scratch evidence.
