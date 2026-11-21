@@ -1,0 +1,148 @@
+{
+  "recorded_at_utc": "2026-11-21T00:25:48.462110+00:00",
+  "base_commit": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "test_file": "/workspace/golfhub-20261121/tests/test_startup_cache.py",
+  "test_sha256": "80c7676bb983b558adcbc092c8edea7530e3b4be9862c68403d33a6b692e63cc",
+  "preserved_original_ast": [
+    "tearDownModule",
+    "CachedStartupTests",
+    "StartupSearchSchedulingTests"
+  ],
+  "original_methods": 15,
+  "added_methods": [
+    "test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+    "test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+    "test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+    "test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes",
+    "test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context"
+  ],
+  "counts": {
+    "baseline_passed_methods": 16,
+    "baseline_errored_methods": 4,
+    "baseline_error_records": 11,
+    "baseline_assertion_failures": 0,
+    "candidate_passed_methods": 20,
+    "candidate_failures": 0,
+    "candidate_errors": 0,
+    "skips": 0,
+    "new_subscenarios_per_source": 26
+  },
+  "baseline_shared_cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+  "candidate_shared_cache_sha256": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d",
+  "unchanged_qt_sha256": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "execution_history": [
+    {
+      "directory": "pre-review-lazy-handler",
+      "source_root": "/workspace/golfhub-20261120",
+      "test_sha256": "28676d960f7fe89fdd7a410e8070b3d5b022bc806759628d8d65a6eba275280b",
+      "shared_cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+      "tests_run": 20,
+      "passed_methods": 16,
+      "failure_records": 0,
+      "error_records": 11,
+      "skipped": 0,
+      "exit_code": 1,
+      "note": "Initial baseline; reviewed before any repaired execution to intercept lazy handler before expansion."
+    },
+    {
+      "directory": "pre-review-range-context/baseline",
+      "source_root": "/workspace/golfhub-20261120",
+      "test_sha256": "8b0b733b32fc2a37186fc686696ac8693eca6359d4c543b063544eef0006a2ca",
+      "shared_cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+      "tests_run": 20,
+      "passed_methods": 16,
+      "failure_records": 0,
+      "error_records": 11,
+      "skipped": 0,
+      "exit_code": 1,
+      "note": "Baseline after handler and modal guards; expected11AttributeError records."
+    },
+    {
+      "directory": "pre-review-range-context/repaired",
+      "source_root": "/workspace/golfhub-20261121",
+      "test_sha256": "8b0b733b32fc2a37186fc686696ac8693eca6359d4c543b063544eef0006a2ca",
+      "shared_cache_sha256": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d",
+      "tests_run": 20,
+      "passed_methods": 19,
+      "failure_records": 1,
+      "error_records": 0,
+      "skipped": 0,
+      "exit_code": 1,
+      "note": "Candidate reached incorrect range-date fixture oracle:19pass/1assertion failure."
+    },
+    {
+      "directory": "baseline",
+      "source_root": "/workspace/golfhub-20261120",
+      "test_sha256": "80c7676bb983b558adcbc092c8edea7530e3b4be9862c68403d33a6b692e63cc",
+      "shared_cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+      "tests_run": 20,
+      "passed_methods": 16,
+      "failure_records": 0,
+      "error_records": 11,
+      "skipped": 0,
+      "exit_code": 1,
+      "note": "Final identical test against exactPR33:16pass/four errored methods,11AttributeError records."
+    },
+    {
+      "directory": "repaired",
+      "source_root": "/workspace/golfhub-20261121",
+      "test_sha256": "80c7676bb983b558adcbc092c8edea7530e3b4be9862c68403d33a6b692e63cc",
+      "shared_cache_sha256": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d",
+      "tests_run": 20,
+      "passed_methods": 20,
+      "failure_records": 0,
+      "error_records": 0,
+      "skipped": 0,
+      "exit_code": 0,
+      "note": "Final candidate:20pass,0failure/error/skip."
+    }
+  ],
+  "command_template": "timeout --signal=TERM --kill-after=5s 60s /workspace/golfhub-perth/.venv/bin/python -X faulthandler /workspace/scratch/golfhub-20261121-cache-age/regressions/run-startup-tests.py --root <source_root> --test-file /workspace/golfhub-20261121/tests/test_startup_cache.py --output /workspace/scratch/golfhub-20261121-cache-age/regressions/<directory> > /workspace/scratch/golfhub-20261121-cache-age/regressions/<directory>/test.log 2>&1",
+  "scope": "Isolated real JSON, mocked download, intercepted scheduling/BOOK; no native workers/network/browser/provider/holds/delivery. Direct controller unit calls distinct from root actual0msprobe.",
+  "artifact_sha256": {
+    "baseline/result.json": "43fb6dbe9d5961f0a529262e74ece8d778d84c7a313d1dbe4fbd57dae6cc0b7e",
+    "baseline/test.log": "7b5626e1f712985e85e9d3a2691c81141e6b25e8bd51660fb967161ff6da35c1",
+    "pre-review-lazy-handler/result.json": "992d74613d0920c9c296000fcefcc83250b54abbad8eb211b081f7d3695df98f",
+    "pre-review-lazy-handler/review-correction.diff.gz": "95b1ab817c8edf6df0b3d93e450b0374f775b7adce9df1c3791aa8682705529e",
+    "pre-review-lazy-handler/test.log": "95633d3197009bef444c0d52cd295ad96be5f65513f180eb2d1ca91ff6db2c51",
+    "pre-review-lazy-handler/test_startup_cache.py": "28676d960f7fe89fdd7a410e8070b3d5b022bc806759628d8d65a6eba275280b",
+    "pre-review-range-context/baseline/result.json": "ddd0409a46c529d5575bcd6ce2a907ad79caab5cce26409a99b42438a9706751",
+    "pre-review-range-context/baseline/test.log": "82a1cdd0ce8922d03f044c199cf6406a628dc148afb1ed3dbb602e5ca7520570",
+    "pre-review-range-context/repaired/result.json": "54e47a244da0236646366025d31ca089f302ebd13fb00e6af0203dca1aa4fdf7",
+    "pre-review-range-context/repaired/test.log": "8ed052267f39db8bf41f884501875d0cb9c26cd03dbb48facbacb33d1bcc341d",
+    "pre-review-range-context/review-correction.diff.gz": "2419017fcf88449a88c266cf33d11aa2e296c107db7df7dca68ccb42171bad5a",
+    "pre-review-range-context/test_startup_cache.py": "8b0b733b32fc2a37186fc686696ac8693eca6359d4c543b063544eef0006a2ca",
+    "repaired/result.json": "7b90cfc65ea2f3b7732cb6b425efaf01fd9bed1e5c24a0dc38e04da6d6491f9a",
+    "repaired/test.log": "9eddf8a1f7ddefae161fde5127576970946a595ee98490d268b3231188ad3945",
+    "run-startup-tests.py": "7b618afec722a5d28c0c6d65361addd2f226fd93bd579b3791e709c0ed634f08",
+    "scope.md": "2bc688e53556a266ac5bded335214114896d24e484ea576929f03cbe682353eb",
+    "test_startup_cache.py": "80c7676bb983b558adcbc092c8edea7530e3b4be9862c68403d33a6b692e63cc",
+    "baseline/test.raw.log.gz": "122b0a9163d61d3e609573bb57a5babdc5c4ec3e22fe07e10fdbedf7db4767ac",
+    "pre-review-lazy-handler/test.raw.log.gz": "d2748a1dbdf5a477416e873c6de1bfd547d00b371ab7a6084baf473cc4f4ce36",
+    "pre-review-range-context/baseline/test.raw.log.gz": "ccabfa237dc5ed1fc0dfcfc6615f430728f3640d2dce27874d925d0b55cfedc3",
+    "whitespace-normalization.json": "04f25edcee4a261c2384d6f3ae91eb55969434c529673c45ff7967baaa825a61"
+  },
+  "raw_log_preservation": [
+    {
+      "readable_log": "baseline/test.log",
+      "raw_archive": "baseline/test.raw.log.gz",
+      "original_sha256": "75af6316540cf940da4d5ea7d57a4c2255fbdc0928cb1619cfe03750079e4360",
+      "normalized_sha256": "7b5626e1f712985e85e9d3a2691c81141e6b25e8bd51660fb967161ff6da35c1",
+      "archive_sha256": "122b0a9163d61d3e609573bb57a5babdc5c4ec3e22fe07e10fdbedf7db4767ac"
+    },
+    {
+      "readable_log": "pre-review-lazy-handler/test.log",
+      "raw_archive": "pre-review-lazy-handler/test.raw.log.gz",
+      "original_sha256": "c8a8bbc00ca33d22d815d7661337f21e19ffb907daf3fad3ec991fd22add1efc",
+      "normalized_sha256": "95633d3197009bef444c0d52cd295ad96be5f65513f180eb2d1ca91ff6db2c51",
+      "archive_sha256": "d2748a1dbdf5a477416e873c6de1bfd547d00b371ab7a6084baf473cc4f4ce36"
+    },
+    {
+      "readable_log": "pre-review-range-context/baseline/test.log",
+      "raw_archive": "pre-review-range-context/baseline/test.raw.log.gz",
+      "original_sha256": "d8d17b6976e15e2f1f3a830bd06d725ae120e168ef094831a1deec0f846a0c1b",
+      "normalized_sha256": "82a1cdd0ce8922d03f044c199cf6406a628dc148afb1ed3dbb602e5ca7520570",
+      "archive_sha256": "ccabfa237dc5ed1fc0dfcfc6615f430728f3640d2dce27874d925d0b55cfedc3"
+    }
+  ]
+}

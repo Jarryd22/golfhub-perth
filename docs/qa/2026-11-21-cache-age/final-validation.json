@@ -1,0 +1,40 @@
+{
+  "local_validation": {
+    "focused_methods": 20,
+    "aggregate_tests": 366,
+    "desktop_selected": 234,
+    "cache_integrity": 95,
+    "additional": 37,
+    "aggregate_processes": 28,
+    "failures": 0,
+    "errors": 0,
+    "skips": 0,
+    "startup_probe": {
+      "unique_cases": 7,
+      "baseline_pass": 3,
+      "baseline_fail": 4,
+      "repaired_pass": 7
+    },
+    "recovery_journey": {
+      "assertions": 43,
+      "recorded_failures": 0,
+      "launcher_exit_status": "not retained; complete JSON/log and process completion verified"
+    }
+  },
+  "original_checkout_head": "55579cb135f360b114f7705516d3b21bbd8e1632",
+  "original_checkout_status": " M .github/workflows/test-desktop.yml\n M app/qt_golfhub_app.py\n?? docs/qa/2026-10-22-cache-availability/\n?? tests/test_multiday_cache_states.py\n",
+  "original_cache_sha256": "5d75e18a3301596dae72acee9dd2b205c61e942e8ef8043b8ab94720ff73be1f",
+  "original_cache_matches_initial_audit": true,
+  "original_qt_sha256": "66ea8e273a7071d469fa2b88d15ff1c8b07627339f79ef362fc79aaab10aeba4",
+  "workflows_match_base": true,
+  "trigger_scope": "Normal desktop repair push; desktop/cache pull_request checks. No production main push match; no manual dispatch.",
+  "instruction_paths_checked_absent": [
+    "/AGENTS.md",
+    "/workspace/AGENTS.md",
+    "/workspace/golfhub-20261121/AGENTS.md",
+    "/workspace/golfhub-20261121/.agents/skills",
+    "/workspace/golfhub-perth/.agents/skills"
+  ],
+  "compile_actionlint_whitespace": "Passed root tools exit0 on finalsource; commands in REPORT.md",
+  "raw_evidence_whitespace": "Initial full staged check failed on three raw progress-line trailing spaces; preserved original gzips and normalized readable copies. Final whole-patch check repeated before publication."
+}

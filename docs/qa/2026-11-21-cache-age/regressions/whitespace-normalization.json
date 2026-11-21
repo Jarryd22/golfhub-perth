@@ -1,0 +1,29 @@
+{
+  "initial_local_unpublished_commit": "bc180d6c16ee81ca0812833c509ce9892a3badf2",
+  "failed_check": "git -c core.whitespace=cr-at-eol diff --cached --check",
+  "failure": "Three raw unittest progress lines ended with a space before newline. No application/test failure. Initial local commit was created before this check output was inspected; it was not pushed.",
+  "correction": "Preserve original bytes as deterministic gzip archives; remove trailing horizontal whitespace only from the three human-readable logs. No tests were changed or rerun.",
+  "logs": [
+    {
+      "readable_log": "baseline/test.log",
+      "raw_archive": "baseline/test.raw.log.gz",
+      "original_sha256": "75af6316540cf940da4d5ea7d57a4c2255fbdc0928cb1619cfe03750079e4360",
+      "normalized_sha256": "7b5626e1f712985e85e9d3a2691c81141e6b25e8bd51660fb967161ff6da35c1",
+      "archive_sha256": "122b0a9163d61d3e609573bb57a5babdc5c4ec3e22fe07e10fdbedf7db4767ac"
+    },
+    {
+      "readable_log": "pre-review-lazy-handler/test.log",
+      "raw_archive": "pre-review-lazy-handler/test.raw.log.gz",
+      "original_sha256": "c8a8bbc00ca33d22d815d7661337f21e19ffb907daf3fad3ec991fd22add1efc",
+      "normalized_sha256": "95633d3197009bef444c0d52cd295ad96be5f65513f180eb2d1ca91ff6db2c51",
+      "archive_sha256": "d2748a1dbdf5a477416e873c6de1bfd547d00b371ab7a6084baf473cc4f4ce36"
+    },
+    {
+      "readable_log": "pre-review-range-context/baseline/test.log",
+      "raw_archive": "pre-review-range-context/baseline/test.raw.log.gz",
+      "original_sha256": "d8d17b6976e15e2f1f3a830bd06d725ae120e168ef094831a1deec0f846a0c1b",
+      "normalized_sha256": "82a1cdd0ce8922d03f044c199cf6406a628dc148afb1ed3dbb602e5ca7520570",
+      "archive_sha256": "ccabfa237dc5ed1fc0dfcfc6615f430728f3640d2dce27874d925d0b55cfedc3"
+    }
+  ]
+}

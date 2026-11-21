@@ -1,0 +1,51 @@
+{
+  "checked_at_utc": "2026-11-21 00:27:51 UTC",
+  "base_pr": {
+    "url": "https://github.com/Jarryd22/golfhub-perth/pull/33",
+    "number": 33,
+    "state": "open",
+    "merged": false,
+    "mergeable": true,
+    "draft": true,
+    "body": "Golf Hub silently ignored a browser launch returning false, while launch exceptions escaped eight course/booking button paths. A shared handoff now attempts the same URL once and displays a parented, readable warning with the exact plain-text address for manual opening. Successful launches, destinations, player/date context, cancellation and booking consent remain unchanged.\n\nStacked on #32 (`66eaf00f76e748cf6f76ef6a758574a3d996360c`). This is a desktop source repair; canonical source integration and installed-device validation remain pending.\n\nValidation at `4fe841359f1d0b3e4a261649c286f04d0bfbac54`:\n- Same final test file: baseline 11 passed / eight failed methods (24 assertion records); repair 19/19. Eleven added methods cover 32 browser-outcome subscenarios and missing-link/cancel/confirmed-plan guards. Original eight methods remain unchanged.\n- Final local aggregate: **361 passed = 229 desktop + 95 cache/integrity + 37 additional**, 28 isolated processes; zero failures/errors/skips.\n- Four actual offscreen modal cases: 68 assertions, short/long URLs at 980\u00d7640 and 1280\u00d7800. Separate keyboard expansion verification on PR32: 84 assertions and four intercepted BOOK callbacks; no expansion repair needed.\n- Compile, actionlint, whitespace/artifact checks and independent review passed. All five workflows unchanged; only normal repair push/PR CI. All three exact-head CI runs passed on attempt 1; no failed/cancelled runs were returned by the complete all-event query.\n\n[Full report and cumulative evidence](https://github.com/Jarryd22/golfhub-perth/blob/4fe841359f1d0b3e4a261649c286f04d0bfbac54/docs/qa/2026-11-20-browser-handoff/REPORT.md).\n\nPreserved failures: three initial fixture ownership errors; a visually unreadable early warning despite passing tests; 24 intermediate selection-order failures, corrected without weakening tests; two automatic-focus failures also reproduced in plain Qt. Final retry probes explicitly reactivate the host. Native focus, clipboard, real browser/page loading, live bookings/holds and notification delivery were not tested. Historical Windows `cache_close` and canonical desktop/mobile reconciliation remain unresolved. No merge, release, deployment or production dispatch.\n\nExact-head CI:\n- [Windows desktop push](https://github.com/Jarryd22/golfhub-perth/actions/runs/44651318146/job/136006627165): 229 tests, 21 isolated modules.\n- [Windows desktop PR](https://github.com/Jarryd22/golfhub-perth/actions/runs/44651385641/job/136006857096): 229 tests, 21 isolated modules.\n- [Linux cache PR](https://github.com/Jarryd22/golfhub-perth/actions/runs/44651385696/job/136006857485): 95 tests plus actionlint.\n\nThe pushed branch and PR head match `4fe841359f1d0b3e4a261649c286f04d0bfbac54`. PR merge `0308ba5ba253c7544bb63ea631e783f64daa90bb` has the expected parents and tree `4af8d47da7c848ef6d7549d273bfea80e8b71910`, equal to the tested repair tree. Main is unchanged; this PR remains draft/unmerged. Hosted Windows CI is source-test evidence, not installed-device QA.\n\nPublication audit retained two optional encoded branch-metadata lookups rejected with HTTP400 INVALID_ARGUMENT and a missing local merge-object lookup. None was retried; prior permitted ref metadata, independent PR metadata and distinct Git commit/tree metadata verified the required publication facts. These were read-only lookup failures, not approval denials or uncertain writes.",
+    "title": "Fix desktop browser handoff failure feedback",
+    "base": "fix/desktop-startup-search-20261119",
+    "base_sha": "66eaf00f76e748cf6f76ef6a758574a3d996360c",
+    "head": "fix/desktop-browser-handoff-20261120",
+    "head_sha": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+    "head_repo_id": 1300406216,
+    "head_repo_full_name": "Jarryd22/golfhub-perth",
+    "merge_commit_sha": "0308ba5ba253c7544bb63ea631e783f64daa90bb",
+    "user": {
+      "login": "Jarryd22",
+      "name": "Jarryd22",
+      "email": null,
+      "avatar_url": "https://avatars.githubusercontent.com/u/216836955?v=4",
+      "id": 216836955
+    },
+    "requested_reviewers": null,
+    "requested_team_reviewers": null,
+    "diff": null,
+    "comments": null,
+    "created_at": "2026-11-20T01:08:37Z",
+    "updated_at": "2026-11-20T01:11:51Z",
+    "closed_at": null,
+    "merged_at": null,
+    "commits": 1,
+    "changed_files": 183,
+    "additions": 39183,
+    "deletions": 11,
+    "display_url": "https://github.com/Jarryd22/golfhub-perth/pull/33",
+    "display_title": "Fix desktop browser handoff failure feedback"
+  },
+  "main_ref": {
+    "ref": "refs/heads/main",
+    "node_id": "REF_kwDOTYKfyK9yZWZzL2hlYWRzL21haW4",
+    "url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/refs/heads/main",
+    "object": {
+      "sha": "25de15b65af6f9dcad4a4d13788fb87ab976df31",
+      "type": "commit",
+      "url": "https://api.github.com/repos/Jarryd22/golfhub-perth/git/commits/25de15b65af6f9dcad4a4d13788fb87ab976df31"
+    }
+  }
+}

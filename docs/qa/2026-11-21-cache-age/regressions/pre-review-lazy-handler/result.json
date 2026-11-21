@@ -1,0 +1,320 @@
+{
+  "recorded_at_utc": "2026-11-21T00:22:04.043203+00:00",
+  "base_commit": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "source_root": "/workspace/golfhub-20261120",
+  "head": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "qt_sha256": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "shared_cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+  "test_file": "/workspace/golfhub-20261121/tests/test_startup_cache.py",
+  "test_sha256": "28676d960f7fe89fdd7a410e8070b3d5b022bc806759628d8d65a6eba275280b",
+  "preserved_original_ast": [
+    "tearDownModule",
+    "CachedStartupTests",
+    "StartupSearchSchedulingTests"
+  ],
+  "tests_run": 20,
+  "passed_methods": 16,
+  "failure_records": 0,
+  "error_records": 11,
+  "skipped": 0,
+  "successful": false,
+  "method_ids": [
+    "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+    "test_startup_cache.CacheAgeMetadataTests.test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes",
+    "test_startup_cache.CacheAgeMetadataTests.test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context",
+    "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+    "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+    "test_startup_cache.CachedStartupTests.test_absent_or_invalid_json_cache_still_schedules_shared_check",
+    "test_startup_cache.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker",
+    "test_startup_cache.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check",
+    "test_startup_cache.CachedStartupTests.test_multiday_shared_results_remain_loaded_when_local_writes_fail",
+    "test_startup_cache.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check",
+    "test_startup_cache.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh",
+    "test_startup_cache.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails",
+    "test_startup_cache.StartupSearchSchedulingTests.test_close_before_initial_callback_prevents_startup_work",
+    "test_startup_cache.StartupSearchSchedulingTests.test_explicit_queued_find_survives_later_startup_deadline",
+    "test_startup_cache.StartupSearchSchedulingTests.test_find_after_saved_startup_does_not_queue_unsubmitted_edits",
+    "test_startup_cache.StartupSearchSchedulingTests.test_find_before_initial_callback_does_not_queue_unsubmitted_edits",
+    "test_startup_cache.StartupSearchSchedulingTests.test_invalid_and_refused_requests_preserve_scheduled_startup",
+    "test_startup_cache.StartupSearchSchedulingTests.test_live_after_saved_startup_keeps_submitted_save_and_booking_context",
+    "test_startup_cache.StartupSearchSchedulingTests.test_live_before_initial_callback_keeps_submitted_save_and_booking_context",
+    "test_startup_cache.StartupSearchSchedulingTests.test_uninterrupted_startup_renders_saved_data_and_starts_one_shared_search"
+  ],
+  "passed_method_ids": [
+    "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+    "test_startup_cache.CachedStartupTests.test_absent_or_invalid_json_cache_still_schedules_shared_check",
+    "test_startup_cache.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker",
+    "test_startup_cache.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check",
+    "test_startup_cache.CachedStartupTests.test_multiday_shared_results_remain_loaded_when_local_writes_fail",
+    "test_startup_cache.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check",
+    "test_startup_cache.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh",
+    "test_startup_cache.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails",
+    "test_startup_cache.StartupSearchSchedulingTests.test_close_before_initial_callback_prevents_startup_work",
+    "test_startup_cache.StartupSearchSchedulingTests.test_explicit_queued_find_survives_later_startup_deadline",
+    "test_startup_cache.StartupSearchSchedulingTests.test_find_after_saved_startup_does_not_queue_unsubmitted_edits",
+    "test_startup_cache.StartupSearchSchedulingTests.test_find_before_initial_callback_does_not_queue_unsubmitted_edits",
+    "test_startup_cache.StartupSearchSchedulingTests.test_invalid_and_refused_requests_preserve_scheduled_startup",
+    "test_startup_cache.StartupSearchSchedulingTests.test_live_after_saved_startup_keeps_submitted_save_and_booking_context",
+    "test_startup_cache.StartupSearchSchedulingTests.test_live_before_initial_callback_keeps_submitted_save_and_booking_context",
+    "test_startup_cache.StartupSearchSchedulingTests.test_uninterrupted_startup_renders_saved_data_and_starts_one_shared_search"
+  ],
+  "failure_ids": [],
+  "error_ids": [
+    "test_startup_cache.CacheAgeMetadataTests.test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes",
+    "test_startup_cache.CacheAgeMetadataTests.test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context",
+    "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (timestamp=True)",
+    "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (timestamp=1)",
+    "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (timestamp=1.5)",
+    "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (timestamp=['timestamp'])",
+    "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (timestamp={'epoch': 1})",
+    "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (timestamp=1)",
+    "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (timestamp=True)",
+    "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (timestamp=['timestamp'])",
+    "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (timestamp={'epoch': 1})"
+  ],
+  "new_test_subscenarios": [
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-01-02T11:58:00+00:00"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-01-02T11:58:00Z"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-01-02T19:58:00+08:00"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-01-02T11:59:30+00:00"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-01-02T10:00:00+00:00"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-01-02T12:01:00+00:00"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": ""
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "not an ISO timestamp"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved",
+      "parameters": {
+        "timestamp": "2033-02-31T12:00:00Z"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": null
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": false
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": 0
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": 0.0
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": []
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": {}
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": true
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'bool' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": 1
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'int' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": 1.5
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'float' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": [
+          "timestamp"
+        ]
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'list' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation",
+      "parameters": {
+        "timestamp": {
+          "epoch": 1
+        }
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'dict' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+      "parameters": {
+        "timestamp": 1
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'int' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+      "parameters": {
+        "timestamp": true
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'bool' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+      "parameters": {
+        "timestamp": [
+          "timestamp"
+        ]
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'list' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+      "parameters": {
+        "timestamp": {
+          "epoch": 1
+        }
+      },
+      "status": "error",
+      "exception": "AttributeError",
+      "message": "'dict' object has no attribute 'replace'"
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+      "parameters": {
+        "timestamp": null
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    },
+    {
+      "method": "test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh",
+      "parameters": {
+        "timestamp": "invalid timestamp"
+      },
+      "status": "pass",
+      "exception": null,
+      "message": null
+    }
+  ],
+  "limits": "Isolated actual JSON files and intercepted HTTP bytes/scheduling; workers/browser/provider/booking blocked. No real native/device/live behavior."
+}

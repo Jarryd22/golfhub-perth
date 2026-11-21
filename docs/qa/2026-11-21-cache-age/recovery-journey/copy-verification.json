@@ -1,0 +1,44 @@
+{
+  "original": "/workspace/scratch/golfhub-20261121-recovery",
+  "destination": "/workspace/golfhub-20261121/docs/qa/2026-11-21-cache-age/recovery-journey",
+  "files": [
+    {
+      "path": "first/partial-missing-guidance.png",
+      "original_sha256": "7dcbc51a99f9809c2d867db4980f3f25f99aad71b3b203388e30541b58a1d0c6",
+      "copied_sha256": "7dcbc51a99f9809c2d867db4980f3f25f99aad71b3b203388e30541b58a1d0c6",
+      "identical": true
+    },
+    {
+      "path": "first/probe.json",
+      "original_sha256": "6008091c28a730279856eb26f01d1ab192f2c4098aabb2d8450254aa125c0f0e",
+      "copied_sha256": "6008091c28a730279856eb26f01d1ab192f2c4098aabb2d8450254aa125c0f0e",
+      "identical": true
+    },
+    {
+      "path": "first/run.log",
+      "original_sha256": "79748bfb49fb781bdcd34de182c8663a90f0715a5f9b7aab34723021a30bdc19",
+      "copied_sha256": "79748bfb49fb781bdcd34de182c8663a90f0715a5f9b7aab34723021a30bdc19",
+      "identical": true
+    },
+    {
+      "path": "first/successful-corrected-retry.png",
+      "original_sha256": "ed9b8e050ce1a4a3a5d9c67d14301f5c0363fcc95b0c32bb3ad06a9951eead82",
+      "copied_sha256": "ed9b8e050ce1a4a3a5d9c67d14301f5c0363fcc95b0c32bb3ad06a9951eead82",
+      "identical": true
+    },
+    {
+      "path": "recovery_probe.py",
+      "original_sha256": "4c19edf6bce76259fd32296f626aadda25f351bc84133286c0223aae8f4ca2e4",
+      "copied_sha256": "4c19edf6bce76259fd32296f626aadda25f351bc84133286c0223aae8f4ca2e4",
+      "identical": true
+    },
+    {
+      "path": "scope.md",
+      "original_sha256": "5bf26c4f9e13ea03de0475f35f5b2d44d1aeb9229e2a711e42ef7fc38072dbca",
+      "copied_sha256": "5bf26c4f9e13ea03de0475f35f5b2d44d1aeb9229e2a711e42ef7fc38072dbca",
+      "identical": true
+    }
+  ],
+  "count": 6,
+  "all_identical": true
+}
