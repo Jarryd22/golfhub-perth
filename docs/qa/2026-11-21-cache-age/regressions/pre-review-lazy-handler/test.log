@@ -1,0 +1,726 @@
+test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved (test_startup_cache.CacheAgeMetadataTests.test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved) ... ok
+test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes (test_startup_cache.CacheAgeMetadataTests.test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context (test_startup_cache.CacheAgeMetadataTests.test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ERROR
+test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) ...
+  test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=True) ... ERROR
+  test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=1) ... ERROR
+  test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=1.5) ... ERROR
+  test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=['timestamp']) ... ERROR
+  test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp={'epoch': 1}) ... ERROR
+test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+
+  test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp=1) ... ERROR
+  test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp=True) ... ERROR
+  test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp=['timestamp']) ... ERROR
+  test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp={'epoch': 1}) ... ERROR
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+test_absent_or_invalid_json_cache_still_schedules_shared_check (test_startup_cache.CachedStartupTests.test_absent_or_invalid_json_cache_still_schedules_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_invalid_download_falls_back_to_existing_saved_result_without_live_worker (test_startup_cache.CachedStartupTests.test_invalid_download_falls_back_to_existing_saved_result_without_live_worker) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_malformed_saved_rows_do_not_abort_scheduled_shared_check (test_startup_cache.CachedStartupTests.test_malformed_saved_rows_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_multiday_shared_results_remain_loaded_when_local_writes_fail (test_startup_cache.CachedStartupTests.test_multiday_shared_results_remain_loaded_when_local_writes_fail) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_nonobject_saved_results_do_not_abort_scheduled_shared_check (test_startup_cache.CachedStartupTests.test_nonobject_saved_results_do_not_abort_scheduled_shared_check) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_valid_saved_states_render_before_scheduled_refresh (test_startup_cache.CachedStartupTests.test_valid_saved_states_render_before_scheduled_refresh) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails (test_startup_cache.CachedStartupTests.test_valid_shared_data_wins_over_saved_or_missing_data_when_write_fails) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_close_before_initial_callback_prevents_startup_work (test_startup_cache.StartupSearchSchedulingTests.test_close_before_initial_callback_prevents_startup_work) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_explicit_queued_find_survives_later_startup_deadline (test_startup_cache.StartupSearchSchedulingTests.test_explicit_queued_find_survives_later_startup_deadline) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_find_after_saved_startup_does_not_queue_unsubmitted_edits (test_startup_cache.StartupSearchSchedulingTests.test_find_after_saved_startup_does_not_queue_unsubmitted_edits) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_find_before_initial_callback_does_not_queue_unsubmitted_edits (test_startup_cache.StartupSearchSchedulingTests.test_find_before_initial_callback_does_not_queue_unsubmitted_edits) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_invalid_and_refused_requests_preserve_scheduled_startup (test_startup_cache.StartupSearchSchedulingTests.test_invalid_and_refused_requests_preserve_scheduled_startup) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_live_after_saved_startup_keeps_submitted_save_and_booking_context (test_startup_cache.StartupSearchSchedulingTests.test_live_after_saved_startup_keeps_submitted_save_and_booking_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_live_before_initial_callback_keeps_submitted_save_and_booking_context (test_startup_cache.StartupSearchSchedulingTests.test_live_before_initial_callback_keeps_submitted_save_and_booking_context) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+test_uninterrupted_startup_renders_saved_data_and_starts_one_shared_search (test_startup_cache.StartupSearchSchedulingTests.test_uninterrupted_startup_renders_saved_data_and_starts_one_shared_search) ... Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+Unknown property cursor
+ok
+
+======================================================================
+ERROR: test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes (test_startup_cache.CacheAgeMetadataTests.test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 554, in test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes
+    self.window.cache_finished({self.date: fetched})
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1572, in cache_finished
+    self.render_snapshot(payload, sources[dates[0]])
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1598, in render_snapshot
+    age = cache_age_label(payload.get("generated_at"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context (test_startup_cache.CacheAgeMetadataTests.test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 576, in test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context
+    self.window.cache_finished(snapshots)
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1583, in cache_finished
+    self.render_snapshot_batch(combined, sources)
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1610, in render_snapshot_batch
+    age = cache_age_label(payload.get("generated_at"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 497, in test_nonstring_json_timestamp_values_use_unknown_age_without_mutation
+    self.assertEqual(cache.cache_age_label(value), "saved earlier")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 497, in test_nonstring_json_timestamp_values_use_unknown_age_without_mutation
+    self.assertEqual(cache.cache_age_label(value), "saved earlier")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=1.5)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 497, in test_nonstring_json_timestamp_values_use_unknown_age_without_mutation
+    self.assertEqual(cache.cache_age_label(value), "saved earlier")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'float' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp=['timestamp'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 497, in test_nonstring_json_timestamp_values_use_unknown_age_without_mutation
+    self.assertEqual(cache.cache_age_label(value), "saved earlier")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_nonstring_json_timestamp_values_use_unknown_age_without_mutation (test_startup_cache.CacheAgeMetadataTests.test_nonstring_json_timestamp_values_use_unknown_age_without_mutation) (timestamp={'epoch': 1})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 497, in test_nonstring_json_timestamp_values_use_unknown_age_without_mutation
+    self.assertEqual(cache.cache_age_label(value), "saved earlier")
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp=1)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 529, in test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1460, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1598, in render_snapshot
+    age = cache_age_label(payload.get("generated_at"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp=True)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 529, in test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1460, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1598, in render_snapshot
+    age = cache_age_label(payload.get("generated_at"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'bool' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp=['timestamp'])
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 529, in test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1460, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1598, in render_snapshot
+    age = cache_age_label(payload.get("generated_at"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'list' object has no attribute 'replace'
+
+======================================================================
+ERROR: test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh (test_startup_cache.CacheAgeMetadataTests.test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh) (timestamp={'epoch': 1})
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "/workspace/golfhub-20261121/tests/test_startup_cache.py", line 529, in test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh
+    self.window.show_initial_cache()
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1460, in show_initial_cache
+    self.render_snapshot(payload, "Saved on this device")
+  File "/workspace/golfhub-20261120/app/qt_golfhub_app.py", line 1598, in render_snapshot
+    age = cache_age_label(payload.get("generated_at"))
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspace/golfhub-20261120/app/shared_cache.py", line 127, in cache_age_label
+    stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))
+                                   ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'dict' object has no attribute 'replace'
+
+----------------------------------------------------------------------
+Ran 20 tests in 1.114s
+
+FAILED (errors=11)
+QA_RESULT {"tests_run": 20, "passed_methods": 16, "failure_records": 0, "error_records": 11, "skipped": 0, "successful": false}

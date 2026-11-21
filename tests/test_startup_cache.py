@@ -2,6 +2,7 @@
 import io
 import json
 import os
+from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import tempfile
 import unittest
@@ -430,3 +431,184 @@ class StartupSearchSchedulingTests(unittest.TestCase):
         self.assertFalse(self.window._initial_cache_timer.isActive())
         self.assertFalse(self.window._cache_search_timer.isActive())
         self.save.assert_not_called()
+
+
+class CacheAgeMetadataTests(unittest.TestCase):
+    """Unknown optional timestamp metadata must not block usable cache rows."""
+
+    date = "2033-01-02"
+    now = datetime(2033, 1, 2, 12, 0, tzinfo=timezone.utc)
+
+    @classmethod
+    def setUpClass(cls):
+        cls.app = QApplication.instance() or QApplication([])
+
+    def setUp(self):
+        runtime = self.enterContext(tempfile.TemporaryDirectory(dir=_runtime.name))
+        self.enterContext(patch.object(cache, "LOCAL_CACHE_DIR", Path(runtime) / "cache"))
+        for target in (
+            "socket.create_connection", "socket.socket.connect", "socket.socket.connect_ex",
+            "socket.getaddrinfo", "webbrowser.open", "app.qt_golfhub_app.CacheWorker",
+            "app.qt_golfhub_app.ScanWorker", "app.qt_golfhub_app.BookingAssistDialog",
+            "app.qt_golfhub_app.fetch_site_result", "app.course_results.get_weather_for_date",
+            "app.qt_golfhub_app.save_local_snapshot",
+        ):
+            self.enterContext(patch(target, side_effect=AssertionError("Offline cache-age test")))
+        self.clock = self.enterContext(patch.object(cache, "datetime", wraps=datetime))
+        self.clock.now.return_value = self.now
+        self.enterContext(patch.object(ui, "perth_today", return_value=QDate(2033, 1, 2)))
+        self.callback_errors = []
+        self.enterContext(patch("sys.excepthook", side_effect=lambda *args: self.callback_errors.append(str(args[1]))))
+        self.messages = [self.enterContext(patch.object(ui.QMessageBox, name))
+                         for name in ("information", "warning", "critical", "exec")]
+        self.window = None
+
+    def tearDown(self):
+        if self.window is not None:
+            self.assertIsNone(self.window.cache_thread)
+            self.assertIsNone(self.window.scan_thread)
+        cleanup_qt_widgets()
+        self.assertEqual(self.callback_errors, [])
+        for message in self.messages:
+            message.assert_not_called()
+
+    def make_window(self):
+        with patch.object(GolfHub, "show_initial_cache"):
+            self.window = GolfHub()
+        self.window._stop_deferred_timers()
+        self.window.date.set_dates([QDate(2033, 1, 2)])
+        self.window.set_all(False)
+        next(row for row in self.window.course_rows if row.site.name == "Araluen").check.setChecked(True)
+        self.window.players.setCurrentText("4")
+        self.window.context = self.window.params()
+        self.schedule = self.enterContext(patch.object(self.window._cache_search_timer, "start"))
+
+    def payload(self, date=None):
+        date = date or self.date
+        return cache.make_snapshot(date, "18", [{
+            "site_name": "Araluen", "url": f"https://example.invalid/booking?date={date}&holes=18",
+            "hole_label": "18 holes", "weather": None, "error": None,
+            "decorated_rows": [{"time": "9:00 am", "minutes": 540, "spots": 4}],
+        }])
+
+    def headline(self):
+        return self.window.results_body.findChild(QLabel, "SummaryValue").text()
+
+    def test_nonstring_json_timestamp_values_use_unknown_age_without_mutation(self):
+        for value in (None, False, 0, 0.0, [], {}, True, 1, 1.5, ["timestamp"], {"epoch": 1}):
+            with self.subTest(timestamp=value):
+                original = json.dumps(value, sort_keys=True)
+                self.assertEqual(cache.cache_age_label(value), "saved earlier")
+                self.assertEqual(json.dumps(value, sort_keys=True), original)
+
+    def test_aware_iso_and_existing_invalid_string_age_behaviour_is_preserved(self):
+        cases = [
+            ("2033-01-02T11:58:00+00:00", "2 minutes ago"),
+            ("2033-01-02T11:58:00Z", "2 minutes ago"),
+            ("2033-01-02T19:58:00+08:00", "2 minutes ago"),
+            ("2033-01-02T11:59:30+00:00", "less than a minute ago"),
+            ("2033-01-02T10:00:00+00:00", "2 hours ago"),
+            ("2033-01-02T12:01:00+00:00", "less than a minute ago"),
+            ("", "saved earlier"), ("not an ISO timestamp", "saved earlier"),
+            ("2033-02-31T12:00:00Z", "saved earlier"),
+        ]
+        for value, expected in cases:
+            with self.subTest(timestamp=value):
+                self.assertEqual(cache.cache_age_label(value), expected)
+        # Preserve the existing host-local interpretation; do not assign UTC to naive input.
+        local_naive = (self.now.astimezone() - timedelta(minutes=2)).replace(tzinfo=None).isoformat()
+        self.assertEqual(cache.cache_age_label(local_naive), "2 minutes ago")
+
+    def test_saved_file_unknown_age_retains_rows_and_schedules_shared_refresh(self):
+        self.make_window()
+        path = cache.local_snapshot_path(self.date, "18")
+        for value in (1, True, ["timestamp"], {"epoch": 1}, None, "invalid timestamp"):
+            with self.subTest(timestamp=value):
+                payload = self.payload()
+                payload["generated_at"] = value
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(json.dumps(payload), encoding="utf-8")
+                original = path.read_bytes()
+                self.schedule.reset_mock()
+                self.window.show_initial_cache()
+                self.schedule.assert_called_once_with(100)
+                self.assertEqual(self.headline(), "1 matching time")
+                self.assertEqual(self.window.last_results, payload["results"])
+                self.assertEqual(self.window.header_status.text(), "SAVED CACHE / SAVED EARLIER")
+                self.assertEqual(path.read_bytes(), original)
+                self.assertEqual(cache.load_local_snapshot(self.date, "18"), payload)
+
+    def test_downloaded_single_day_unknown_age_stays_shared_and_preserves_saved_bytes(self):
+        self.make_window()
+        payload = self.payload()
+        payload["generated_at"] = {"epoch": 1}
+        wire = json.dumps(payload).encode()
+        with (
+            patch.object(cache, "_cache_base_url", return_value="https://example.invalid/cache"),
+            patch.object(cache.urllib.request, "urlopen", return_value=io.BytesIO(wire)) as download,
+        ):
+            fetched = cache.fetch_shared_snapshot(self.date, "18")
+        download.assert_called_once()
+        self.assertEqual(fetched, payload)
+        self.assertIs(cache.validate_snapshot(fetched, self.date, "18"), fetched)
+        path = cache.local_snapshot_path(self.date, "18")
+        saved = path.read_bytes()
+        self.assertEqual(json.loads(saved), payload)
+        with patch.object(self.window, "search_live", side_effect=AssertionError("Usable rows must not trigger live recovery")):
+            self.window.cache_finished({self.date: fetched})
+        self.assertEqual(self.headline(), "1 matching time")
+        self.assertEqual(self.window.header_status.text(), "SHARED CACHE / SAVED EARLIER")
+        self.assertEqual(self.window.last_results, payload["results"])
+        self.assertEqual(fetched, payload)
+        self.assertEqual(path.read_bytes(), saved)
+
+    def test_mixed_date_metadata_keeps_loaded_counts_and_lazy_submitted_context(self):
+        self.make_window()
+        dates = [self.date, "2033-01-04", "2033-01-06", "2033-01-08"]
+        self.window.date.set_dates([QDate.fromString(date, "yyyy-MM-dd") for date in dates])
+        self.window.context = self.window.params()
+        submitted = dict(self.window.context, sites=list(self.window.context["sites"]),
+                         dates=list(self.window.context["dates"]))
+        snapshots = {date: self.payload(date) for date in dates[:3]}
+        snapshots[dates[0]]["generated_at"] = "2033-01-02T11:58:00Z"
+        snapshots[dates[1]]["generated_at"] = ["timestamp"]
+        del snapshots[dates[2]]["generated_at"]
+        before = json.dumps(snapshots, sort_keys=True)
+        saved = {}
+        for date, payload in snapshots.items():
+            path = cache.save_local_snapshot(payload)
+            saved[path] = path.read_bytes()
+        with patch.object(self.window, "search_live", side_effect=AssertionError("No multi-date live fallback")):
+            self.window.cache_finished(snapshots)
+        self.assertEqual(self.headline(), "3 matching times across 3 loaded days")
+        self.assertEqual(self.window.header_status.text(), "SHARED CACHE / 3 OF 4 DAYS")
+        self.assertFalse(self.window.day_sections[1]._built)
+        self.assertFalse(self.window.day_sections[2]._built)
+        self.window.context = dict(self.window.context, date="2033-01-09", dates=["2033-01-09"],
+                                   holes="9", players=1, **{"from": 720, "to": 1080})
+        for index in (1, 2):
+            section = self.window.day_sections[index]
+            with patch.object(self.window, "open_tee_time") as handoff:
+                section.set_expanded(True)
+                labels = [label.text() for label in section.findChildren(QLabel)]
+                self.assertTrue(any("saved earlier" in text for text in labels))
+                books = [button for button in section.findChildren(QPushButton) if button.text() == "BOOK"]
+                self.assertEqual(len(books), 1)
+                self.assertIn(QDate.fromString(dates[index], "yyyy-MM-dd").toString("d MMMM yyyy"),
+                              books[0].accessibleName())
+                books[0].click()
+            handoff.assert_called_once()
+            context = handoff.call_args.kwargs["context"]
+            self.assertEqual(context, submitted)
+            result, row = handoff.call_args.args
+            self.assertEqual(result, snapshots[dates[index]]["results"][0])
+            self.assertEqual(result["url"], f"https://example.invalid/booking?date={dates[index]}&holes=18")
+            self.assertEqual(row, result["decorated_rows"][0])
+        missing = self.window.day_sections[3]
+        missing.set_expanded(True)
+        self.assertIn("Availability not checked", missing.toggle.text())
+        self.assertFalse(any(b.text() == "BOOK" for b in missing.findChildren(QPushButton)))
+        self.assertEqual(json.dumps(snapshots, sort_keys=True), before)
+        for path, original in saved.items():
+            self.assertEqual(path.read_bytes(), original)
+        self.assertFalse(cache.local_snapshot_path(dates[3], "18").exists())

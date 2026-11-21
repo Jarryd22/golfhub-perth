@@ -1,0 +1,302 @@
+{
+  "base_code_commit": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "timestamp_utc": "2026-11-21T00:24:53.312873+00:00",
+  "commit": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "status": " M app/shared_cache.py\n M tests/test_startup_cache.py\n?? docs/qa/2026-11-21-cache-age/\n",
+  "source_sha256": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "cache_source_sha256": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d",
+  "ui_source_sha256": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "core_source_sha256": "9cf1a68e591357a5493f69e9df5ad7699c39b361e051531b4fda95a6d6c4ee41",
+  "shard_source_sha256": "1283da3245eb5053989646cbcd4c1322561d6d8d9837449f96762404c3ce83f9",
+  "regression_sha256": {
+    "test_booking_assist.py": "5181f9f04083a32d73f49e1e7e553f73e54958bcbe3895c12b99283959294b62",
+    "test_booking_assist_guards.py": "24e167dc04747fc0a891cf44d5e9234141591c811bb40384328fd4115cba048b",
+    "test_booking_assist_optin.py": "567cb2b848e0fb84468a7ff4f9a0bd0452db7b72e9860aa0b5851333e6f5e8da",
+    "test_booking_context.py": "e0aa2858de8a0e5ab940d9003f78c8e23e4c3816cc6df71ab83f3a5ef63f7e2c",
+    "test_booking_ui_integration.py": "befae58a33f3630aa1e5f1bbf06a6f3a8fd8eaa41c4f0ca27eccf7b1664e6262",
+    "test_cache_alerts_runtime_integrity.py": "3ea544526a45cbc172514db8e970b3ee0811b0eee0610237ee19263f50d15946",
+    "test_cache_pipeline.py": "a290c793876c63693d2895e6c6d1a951a11e4725eb1e97c73ab7d122c52cea5c",
+    "test_cache_provider_exceptions.py": "06bcb967ef7e465c31ab9f1208db054f2fef739de4cee8bd48c95c8064204f21",
+    "test_cache_refresh_status.py": "ad074682f9a3e0ab5c366632d48b81a64f0ca757279d8ab645dc0c7d1477b068",
+    "test_cache_snapshot_shape.py": "3ec2aa79edccfa7cb58f9576a994d81166ed24b4f83136b15aa8e570c86d3cd2",
+    "test_cache_transient_retry.py": "0173fe04d1fc5af15731ee1fffdef35f72e860a3f5ccac0d1d44c8f78e1d9ecf",
+    "test_cache_weather_budget.py": "b4d0f0a63061693b05dc45f03edfcf29776b7de9b291f5eef61c03574b31be14",
+    "test_calendar_keyboard.py": "ecb2557bcc65e3207d26f30482c9ba2e3d4ecccb78bc8241ea7b8d76fb9be229",
+    "test_calendar_mouse.py": "e046b5511d05345be8dc197c7867b7872b9fd107b7570cc5f2569b5327b54530",
+    "test_collier_behavior.py": "b13b97520afeb1a597d01650a4f1ad2bc72a3bb389c177f5993ea8210f69763f",
+    "test_course_controls.py": "6198a2434f3121d26b89e2ba0dd30177f2834504f940826460316a4cb4bbd6de",
+    "test_empty_result_links.py": "ee804b56a7fe4dd2e193b54652bd90455bd4b0858d735f2bb547b60b85d3463b",
+    "test_live_button_state.py": "2192ab164afc11a0d4747a1e35e835821edb7c9ad85c0a58d975cc31d780689b",
+    "test_live_recovery_states.py": "66bafc8d3d54cf0e93d2c34a01a783918eb7b2c9099670213cb9ca78151cc3a0",
+    "test_midnight_rollover.py": "4c783f5aebdd05ae60111a5d7572fed086d4894624f630d982cd58c14a07c73f",
+    "test_multiday_cache_states.py": "85be195451c0463b71a3805d11c22741e37c6ec64b820d0137cedfe184f668c7",
+    "test_multiday_ui.py": "a96fb70c52423e64ac89bf76076fc729f7b980c17f0eefa17f0cfea2b760289c",
+    "test_offline_course_links.py": "abe56e19c09242cb2177ff20a41ef227e67914b44734a7179d89e130124f8f90",
+    "test_perth_dates.py": "ef095d02e15b40a2d713f307bced0a06f160f7fc3856876ec9312221823c9c84",
+    "test_provider_error_states.py": "31bc15c3eed75ed3aec731652a7bea6383605d7aa1b71c4df9005d2f5a5cf03e",
+    "test_provider_exceptions.py": "38db58c7899a997440d836d58e83c29a0dcce013b3122b3fbabc5693ca5165e4",
+    "test_responsive_grid.py": "97f91e4fe215c1e90c5c05578526ea7b4396aeb833091910e9ff5a2249ca965c",
+    "test_result_counts.py": "76c8627c6bf4cc9854d96358a185ca0b54ec53b5d4484b9055d68d99c2ca2b24",
+    "test_retained_search_context.py": "088d129c4b9dc998304a3d125d687fee83a4b3f6b9212889e80a8e64c7e33143",
+    "test_search_race.py": "0e670430e4873fe90d384bb2fb7019dcd36539b1f713c8cad4b5cc242af414c1",
+    "test_startup_cache.py": "80c7676bb983b558adcbc092c8edea7530e3b4be9862c68403d33a6b692e63cc",
+    "test_thread_lifecycle.py": "6bc5e9c8c0d5c486173fab55be3c8429ee529637cfabf3cfd7da113586c2139d",
+    "test_time_range_ui.py": "6a0fedd8659f5328f56d267f031fa1a3bca9f9dbf7c47a352135d4ab1df28e3c",
+    "test_v5_ui_requirements.py": "009768ad191b9239b5df6f496ebea346abb3aeba4e422d8abf41bde73a805149"
+  },
+  "kind": "Linux offscreen source checks; blocked sockets and browser; separate module processes",
+  "modules": [
+    {
+      "module": "test_responsive_grid.py",
+      "log": "test_responsive_grid.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_empty_result_links.py",
+      "log": "test_empty_result_links.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_live_button_state.py",
+      "log": "test_live_button_state.log",
+      "exit_code": 0,
+      "run": 22,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_live_recovery_states.py",
+      "log": "test_live_recovery_states.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_offline_course_links.py",
+      "log": "test_offline_course_links.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_mouse.py",
+      "log": "test_calendar_mouse.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_provider_exceptions.py",
+      "log": "test_provider_exceptions.log",
+      "exit_code": 0,
+      "run": 9,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_retained_search_context.py",
+      "log": "test_retained_search_context.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_startup_cache.py",
+      "log": "test_startup_cache.log",
+      "exit_code": 0,
+      "run": 20,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_provider_error_states.py",
+      "log": "test_provider_error_states.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_result_counts.py",
+      "log": "test_result_counts.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist.py",
+      "log": "test_booking_assist.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_guards.py",
+      "log": "test_booking_assist_guards.log",
+      "exit_code": 0,
+      "run": 3,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_assist_optin.py",
+      "log": "test_booking_assist_optin.log",
+      "exit_code": 0,
+      "run": 7,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_ui_integration.py",
+      "log": "test_booking_ui_integration.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_v5_ui_requirements.py",
+      "log": "test_v5_ui_requirements.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_collier_behavior.py",
+      "log": "test_collier_behavior.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_cache_states.py",
+      "log": "test_multiday_cache_states.log",
+      "exit_code": 0,
+      "run": 10,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_midnight_rollover.py",
+      "log": "test_midnight_rollover.log",
+      "exit_code": 0,
+      "run": 15,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_booking_context.py",
+      "log": "test_booking_context.log",
+      "exit_code": 0,
+      "run": 19,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_course_controls.py",
+      "log": "test_course_controls.log",
+      "exit_code": 0,
+      "run": 12,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_calendar_keyboard.py",
+      "log": "test_calendar_keyboard.log",
+      "exit_code": 0,
+      "run": 8,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_multiday_ui.py",
+      "log": "test_multiday_ui.log",
+      "exit_code": 0,
+      "run": 20,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_perth_dates.py",
+      "log": "test_perth_dates.log",
+      "exit_code": 0,
+      "run": 6,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_time_range_ui.py",
+      "log": "test_time_range_ui.log",
+      "exit_code": 0,
+      "run": 5,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_search_race.py",
+      "log": "test_search_race.log",
+      "exit_code": 0,
+      "run": 4,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_thread_lifecycle.py",
+      "log": "test_thread_lifecycle.log",
+      "exit_code": 0,
+      "run": 11,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    {
+      "module": "test_cache*.py",
+      "log": "test_cache-all.log",
+      "exit_code": 0,
+      "run": 95,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    }
+  ]
+}

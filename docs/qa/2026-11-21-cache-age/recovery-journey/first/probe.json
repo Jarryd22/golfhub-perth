@@ -1,0 +1,296 @@
+{
+  "utc": "2026-11-21T00:20:24.949353+00:00",
+  "source_root": "/workspace/golfhub-20261121",
+  "head": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "source_sha256": {
+    "app/qt_golfhub_app.py": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+    "app/shared_cache.py": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d"
+  },
+  "script_sha256": "4c19edf6bce76259fd32296f626aadda25f351bc84133286c0223aae8f4ca2e4",
+  "assertions": [
+    {
+      "name": "initial three-date Find starts one inert cache worker",
+      "passed": true
+    },
+    {
+      "name": "initial cache ownership explicitly released before next action",
+      "passed": true
+    },
+    {
+      "name": "saved fallback reports two loaded days",
+      "passed": true
+    },
+    {
+      "name": "partial totals describe loaded days only",
+      "passed": true
+    },
+    {
+      "name": "all three requested date sections remain present",
+      "passed": true
+    },
+    {
+      "name": "loaded provider error stays distinct from empty results",
+      "passed": true
+    },
+    {
+      "name": "missing date stays unchecked",
+      "passed": true
+    },
+    {
+      "name": "configured direct course link remains once for the range",
+      "passed": true
+    },
+    {
+      "name": "keyboard opens actionable missing-date guidance",
+      "passed": true
+    },
+    {
+      "name": "calendar starts with displayed three-date selection",
+      "passed": true
+    },
+    {
+      "name": "keyboard removes first two dates and retains missing date",
+      "passed": true
+    },
+    {
+      "name": "Apply commits the missing date alone",
+      "passed": true
+    },
+    {
+      "name": "single-date recovery enables Refresh Live",
+      "passed": true
+    },
+    {
+      "name": "actual Refresh Live starts one inert request",
+      "passed": true
+    },
+    {
+      "name": "live request uses narrowed submitted date and filters",
+      "passed": true
+    },
+    {
+      "name": "live request retains the earlier partial view",
+      "passed": true
+    },
+    {
+      "name": "actual Stop requests cancellation",
+      "passed": true
+    },
+    {
+      "name": "cancelled partial result is not saved",
+      "passed": true
+    },
+    {
+      "name": "cancel leaves both original saved files byte-identical",
+      "passed": true
+    },
+    {
+      "name": "cancel truthfully reports retained results",
+      "passed": true
+    },
+    {
+      "name": "cancel keeps the original partial sections and result list",
+      "passed": true
+    },
+    {
+      "name": "cancel preserves unknown-date guidance",
+      "passed": true
+    },
+    {
+      "name": "cancel preserves original matching card identity",
+      "passed": true
+    },
+    {
+      "name": "retained BOOK keeps original submitted range/group/round context",
+      "passed": true
+    },
+    {
+      "name": "retained BOOK dispatches original row rather than cancelled partial row",
+      "passed": true
+    },
+    {
+      "name": "retry availability returns after explicit inert cleanup",
+      "passed": true
+    },
+    {
+      "name": "actual name filter and bulk buttons select only intended course",
+      "passed": true
+    },
+    {
+      "name": "corrected request has intended date/round/group/preset",
+      "passed": true
+    },
+    {
+      "name": "corrected Find starts one new cache request",
+      "passed": true
+    },
+    {
+      "name": "retry worker receives corrected date and round",
+      "passed": true
+    },
+    {
+      "name": "new uncached request clears previous display metadata",
+      "passed": true
+    },
+    {
+      "name": "successful cache retry applies corrected group and time filters",
+      "passed": true
+    },
+    {
+      "name": "retry summary agrees with two rendered exact times",
+      "passed": true
+    },
+    {
+      "name": "retry status describes current results",
+      "passed": true
+    },
+    {
+      "name": "retry replaces cancellation header with shared-cache provenance",
+      "passed": true
+    },
+    {
+      "name": "single-date success removes old date sections",
+      "passed": true
+    },
+    {
+      "name": "unselected static course card is removed",
+      "passed": true
+    },
+    {
+      "name": "old missing/provider-error notes do not leak into successful replacement",
+      "passed": true
+    },
+    {
+      "name": "final active context matches corrected submission",
+      "passed": true
+    },
+    {
+      "name": "replacement BOOK uses corrected submitted context",
+      "passed": true
+    },
+    {
+      "name": "replacement BOOK dispatches expected filtered row",
+      "passed": true
+    },
+    {
+      "name": "cached completion performs no UI persistence and leaves original bytes unchanged",
+      "passed": true
+    },
+    {
+      "name": "chain ends without worker ownership",
+      "passed": true
+    }
+  ],
+  "stages": [
+    {
+      "name": "partial cache",
+      "context": {
+        "date": "2033-01-02",
+        "dates": [
+          "2033-01-02",
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 1,
+        "sites": [
+          "Altone Park",
+          "Araluen"
+        ]
+      },
+      "header": "SHARED CACHE / 2 OF 3 DAYS",
+      "summary": "1 matching time across 2 loaded days",
+      "section_titles": [
+        "-  SUNDAY, 2 JANUARY 2033  -  1 time across 1 course",
+        "+  MONDAY, 3 JANUARY 2033  -  Availability incomplete - 1 course unavailable",
+        "-  TUESDAY, 4 JANUARY 2033  -  Availability not checked"
+      ],
+      "guidance": "Availability could not be checked for this date. Try Find Tee Times again, or select this date alone and use Refresh Live."
+    },
+    {
+      "name": "after Stop",
+      "active_context": {
+        "date": "2033-01-04",
+        "dates": [
+          "2033-01-04"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 1,
+        "sites": [
+          "Altone Park",
+          "Araluen"
+        ]
+      },
+      "display_context": {
+        "date": "2033-01-02",
+        "dates": [
+          "2033-01-02",
+          "2033-01-03",
+          "2033-01-04"
+        ],
+        "holes": "18",
+        "from": null,
+        "to": null,
+        "players": 1,
+        "sites": [
+          "Altone Park",
+          "Araluen"
+        ]
+      },
+      "header": "REFRESH STOPPED / PREVIOUS RESULTS KEPT",
+      "status": "Stopped - partial results were not saved",
+      "saved_calls": 0
+    },
+    {
+      "name": "successful corrected retry",
+      "context": {
+        "date": "2033-01-04",
+        "dates": [
+          "2033-01-04"
+        ],
+        "holes": "9",
+        "from": 900,
+        "to": 1110,
+        "players": 4,
+        "sites": [
+          "Araluen"
+        ]
+      },
+      "header": "SHARED CACHE / LESS THAN A MINUTE AGO",
+      "status": "2 matching tee times across 1 course",
+      "rows": [
+        {
+          "time": "3:30 pm",
+          "minutes": 930,
+          "spots": 4
+        },
+        {
+          "time": "4:00 pm",
+          "minutes": 960,
+          "spots": 4
+        }
+      ],
+      "booking_callbacks": 2,
+      "constructed_threads": 3
+    }
+  ],
+  "callback_errors": [],
+  "completed": true,
+  "source_sha256_after": {
+    "app/qt_golfhub_app.py": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+    "app/shared_cache.py": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d"
+  },
+  "source_unchanged_during_probe": true,
+  "summary": {
+    "completed": true,
+    "recorded_assertions": 43,
+    "failed_assertions": 0,
+    "exceptions": 0,
+    "callback_errors": 0
+  },
+  "limits": "One controlled input chain at980x640. Real Qt mouse/keyboard and workerQObject signals; inertQThread mocks and explicitly simulated completion. Synthetic isolated savedfiles, intercepted persistence/BOOK, blocked network/provider/browser/holds/delivery. No nativeWindows/Android orrealworker timing."
+}

@@ -121,7 +121,7 @@ def fetch_shared_snapshot(date_str: str, hole_type: str, timeout: int = 5) -> di
 
 
 def cache_age_label(generated_at: str | None) -> str:
-    if not generated_at:
+    if not isinstance(generated_at, str) or not generated_at:
         return "saved earlier"
     try:
         stamp = datetime.fromisoformat(generated_at.replace("Z", "+00:00"))

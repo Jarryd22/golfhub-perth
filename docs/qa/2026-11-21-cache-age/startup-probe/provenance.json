@@ -1,0 +1,54 @@
+{
+  "recorded_at_utc": "2026-11-21T00:21:14.899481+00:00",
+  "baseline_commit": "4fe841359f1d0b3e4a261649c286f04d0bfbac54",
+  "source_worktree": "/workspace/golfhub-20261121",
+  "runtime": "Linux,Python3.12.14,Qt6.11.2,offscreen; QApplication.exec with actual owned initial zero-ms timer; shared-timer start intercepted; worker/network/browser prohibited",
+  "source_hashes": {
+    "baseline_cache": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+    "repaired_cache": "ca42e9054d611e8368556328266479b320baf96217c8a69d5997a198a448885d",
+    "unchanged_qt": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403"
+  },
+  "counts": {
+    "process_executions": 2,
+    "unique_cases": 7,
+    "baseline_pass": 3,
+    "baseline_fail": 4,
+    "repaired_pass": 7
+  },
+  "commands": [
+    "/workspace/golfhub-perth/.venv/bin/python /workspace/scratch/golfhub-20261121-cache-age/startup_probe.py --root /workspace/golfhub-20261121 --output /workspace/scratch/golfhub-20261121-cache-age/baseline > /workspace/scratch/golfhub-20261121-cache-age/baseline.log 2>&1",
+    "/workspace/golfhub-perth/.venv/bin/python /workspace/scratch/golfhub-20261121-cache-age/startup_probe.py --root /workspace/golfhub-20261121 --output /workspace/scratch/golfhub-20261121-cache-age/repaired > /workspace/scratch/golfhub-20261121-cache-age/repaired.log 2>&1"
+  ],
+  "exit_codes": {
+    "baseline": 1,
+    "repaired": 0
+  },
+  "fixture_clock": "Perth booking day2033-01-02; cache datetime.now fixed UTC2033-01-02T00:00; default booking date2033-01-03",
+  "metadata_values": [
+    "valid ISO five minutes old",
+    "None",
+    "invalid string",
+    "integer123",
+    "booleanTrue",
+    "nonempty array",
+    "nonempty object"
+  ],
+  "file_boundary": "Each case loads a real isolated JSON file accepted by validate_snapshot; saved bytes unchanged before/after; no providers, network, browser, holds or notifications. Shared timer start(100) is asserted but worker execution is not performed.",
+  "visual_review": "Root inspected baseline/repaired integer captures,1000x730 logical screenshots: initial onboarding prompt becomes saved row+unknown-age label. Existing date punctuation remains prior backlog scope.",
+  "limits": [
+    "No production incidence or deployed cache corruption observed",
+    "No native Windows/Android,actualbrowser,livebookings,delivery or performance test",
+    "No assertion about naive timestamp timezone or age freshness semantics beyond existing controls"
+  ],
+  "artifact_sha256": {
+    "startup_probe.py": "bf26d03fa885182ff5dfd13c7853ebc7b7f4d61e531034c4f8a34ab4aabc5208",
+    "baseline.log": "b004ac4717abc432572e0865662d5edd13cfc55d0b95900198fd4f89dde32c0a",
+    "repaired.log": "822a54a0577166a5aa4cc308a26b84075164999f76f6cc84df54590db3ca2cb7",
+    "baseline/result.json": "609c4b2ec5c7ef5c13f5fe7415d80658148a34344593d335c280cb3860ffc3d2",
+    "repaired/result.json": "e83e6f8a0e67f71ce1018195ce087c6e74863d6181d0811cc89ad31a64b7e8ec",
+    "baseline/integer.png": "d34cbc6ab3526926fbe3bc936d4b0b873e780bf14d62dc35aa66bbd01e04f9a9",
+    "baseline/valid.png": "c7f17da701e580d8304baf8513cd40a7438d73226ecf6245e97751c9c624db58",
+    "repaired/integer.png": "51c19ba2c170a3fecda381a8b0149f9f692ab8e4156c0f0e2517f9e6f041344e",
+    "repaired/valid.png": "c7f17da701e580d8304baf8513cd40a7438d73226ecf6245e97751c9c624db58"
+  }
+}

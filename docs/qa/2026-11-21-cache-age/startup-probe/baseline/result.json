@@ -1,0 +1,138 @@
+{
+  "source_root": "/workspace/golfhub-20261121",
+  "qt_sha256": "bbf50a775cfbfbe8e126fac8b0fd958545d7455567fc76d72e9aac5ff0cc7403",
+  "cache_sha256": "9a42d4156486c7000a61492d9041e11c1a68c5c84b3634037f6f600a2f90459f",
+  "cases": [
+    {
+      "name": "valid",
+      "generated_at": "2033-01-01T23:55:00Z",
+      "callbacks": [],
+      "accepted_by_loader": true,
+      "shared_schedule": [
+        [
+          100
+        ]
+      ],
+      "headline": [
+        "1 matching time"
+      ],
+      "header": "SAVED CACHE / 5 MINUTES AGO",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": true
+    },
+    {
+      "name": "absent",
+      "generated_at": null,
+      "callbacks": [],
+      "accepted_by_loader": true,
+      "shared_schedule": [
+        [
+          100
+        ]
+      ],
+      "headline": [
+        "1 matching time"
+      ],
+      "header": "SAVED CACHE / SAVED EARLIER",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": true
+    },
+    {
+      "name": "invalid_string",
+      "generated_at": "not a timestamp",
+      "callbacks": [],
+      "accepted_by_loader": true,
+      "shared_schedule": [
+        [
+          100
+        ]
+      ],
+      "headline": [
+        "1 matching time"
+      ],
+      "header": "SAVED CACHE / SAVED EARLIER",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": true
+    },
+    {
+      "name": "integer",
+      "generated_at": 123,
+      "callbacks": [
+        {
+          "type": "AttributeError",
+          "message": "'int' object has no attribute 'replace'"
+        }
+      ],
+      "accepted_by_loader": true,
+      "shared_schedule": [],
+      "headline": [],
+      "header": "41 COURSES  /  CACHE READY",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": false
+    },
+    {
+      "name": "boolean",
+      "generated_at": true,
+      "callbacks": [
+        {
+          "type": "AttributeError",
+          "message": "'bool' object has no attribute 'replace'"
+        }
+      ],
+      "accepted_by_loader": true,
+      "shared_schedule": [],
+      "headline": [],
+      "header": "41 COURSES  /  CACHE READY",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": false
+    },
+    {
+      "name": "array",
+      "generated_at": [
+        "2033-01-01"
+      ],
+      "callbacks": [
+        {
+          "type": "AttributeError",
+          "message": "'list' object has no attribute 'replace'"
+        }
+      ],
+      "accepted_by_loader": true,
+      "shared_schedule": [],
+      "headline": [],
+      "header": "41 COURSES  /  CACHE READY",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": false
+    },
+    {
+      "name": "object",
+      "generated_at": {
+        "timestamp": "2033-01-01"
+      },
+      "callbacks": [
+        {
+          "type": "AttributeError",
+          "message": "'dict' object has no attribute 'replace'"
+        }
+      ],
+      "accepted_by_loader": true,
+      "shared_schedule": [],
+      "headline": [],
+      "header": "41 COURSES  /  CACHE READY",
+      "bytes_unchanged": true,
+      "worker_owners_absent": true,
+      "recovery_pass": false
+    }
+  ],
+  "counts": {
+    "cases": 7,
+    "recovery_pass": 3,
+    "recovery_fail": 4
+  }
+}
