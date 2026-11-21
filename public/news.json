@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-20T02:24:44.385989+00:00",
+  "generated_at": "2026-11-21T02:30:07.093384+00:00",
   "items": [
+    {
+      "id": "4b9d5ac360d1ae63c7b6",
+      "course_id": "rockingham",
+      "title": "Xmas Buffet – Friday 18th December 2026",
+      "summary": "🎄 Celebrate Christmas with Us at Rockingham Golf Club! 🎄 Gather your family and",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/xmas-buffet-friday-18th-december-2026/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-20T06:09:02+00:00",
+      "category": "Course news"
+    },
     {
       "id": "8ed21052a9fc1156336b",
       "course_id": "sun-city",
@@ -44,17 +55,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-11-19T04:58:30+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "8c1789c5015f6dd06736",
-      "course_id": "rockingham",
-      "title": "Lifestyle Membership",
-      "summary": "Members are advised that Lifestyle membership is available again. There are some changes to",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/lifestyle-membership/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-18T08:39:17+00:00",
       "category": "Course news"
     },
     {
@@ -450,21 +450,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-09-08T02:28:17+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "26686f24b0e8162d488f",
-      "course_id": "pinjarra",
-      "title": "Congratulations to our 2026 Club Champion Hayley Rasmussen",
-      "summary": "See below for full results from our 2026 Women’s Championship Winners. Congratulations to all",
-      "url": "https://www.pinjarragolf.com.au/cms/2026/08/congratulations-to-our-2026-club-champion-hayley-rasmussen/",
-      "image": "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/Hayley-1.jpg",
-      "images": [
-        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/Hayley-1.jpg",
-        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/40ad99ec-77fc-47e3-acde-fe9561b68376.jpg",
-        "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/08/1a0b77b1-26f8-4e72-99fd-875ffcac737a-1.jpg"
-      ],
-      "published_at": "2026-08-22T04:44:31+00:00",
       "category": "Course news"
     }
   ],
