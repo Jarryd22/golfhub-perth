@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-22T01:25:25.602550+00:00",
+  "generated_at": "2026-11-23T01:50:01.614625+00:00",
   "items": [
+    {
+      "id": "9857ac5a4e4f51a6f021",
+      "course_id": "gosnells-golf-club",
+      "title": "Vale Notice – William “Billy” Rankin (1945–2026)",
+      "summary": "The post Vale Notice – William “Billy” Rankin (1945–2026) appeared first on Gosnells Golf",
+      "url": "https://www.gosnellsgc.com.au/cms/2026/11/vale-notice-william-billy-rankin-1945-2026/",
+      "image": "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/Gosnells-Golf-Club-Memorial-Tribute.png",
+      "images": [
+        "https://www.gosnellsgc.com.au/cms/wp-content/uploads/2026/11/Gosnells-Golf-Club-Memorial-Tribute.png"
+      ],
+      "published_at": "2026-11-23T00:48:09+00:00",
+      "category": "Course news"
+    },
     {
       "id": "4b9d5ac360d1ae63c7b6",
       "course_id": "rockingham",
@@ -295,17 +308,6 @@
       "category": "Course works"
     },
     {
-      "id": "8ed880054ffbd4f5bc83",
-      "course_id": "gosnells-golf-club",
-      "title": "VALE – Andrew Gadsdon – Funeral",
-      "summary": "Vale – Andrew Gadsdon (“Drew” / “Gaddo”) Funeral Service Details The funeral service for",
-      "url": "https://www.gosnellsgc.com.au/cms/2026/10/vale-andrew-gadsdon-funeral/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-20T05:29:33+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "d69c06be4287d3be431b",
       "course_id": "collier-park",
       "title": "Take The Next Step: Upcoming Sessions",
@@ -528,7 +530,7 @@
     },
     {
       "course_id": "marri-park",
-      "status": "no_feed"
+      "status": "unavailable"
     },
     {
       "course_id": "maylands",
