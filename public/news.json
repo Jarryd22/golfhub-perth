@@ -1,11 +1,71 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-24T05:21:44.785372+00:00",
+  "generated_at": "2026-11-25T04:19:42.184500+00:00",
   "items": [
+    {
+      "id": "a0ea5cd304b23160d0ac",
+      "course_id": "the-vines",
+      "title": "Heineken Classic",
+      "summary": "Tee off with our annual Heineken Classic in January 2027. The post Heineken Classic",
+      "url": "https://www.vines.com.au/heinekenclassic/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-25T03:34:10+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "11b2b8aeb23ed9c46087",
+      "course_id": "pinjarra",
+      "title": "Amended Yvonne Bower draw",
+      "summary": "Thankyou to all who have nominated and are playing in the Annual Yvonne Bower",
+      "url": "https://www.pinjarragolf.com.au/cms/2026/11/amended-yvonne-bower-draw/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-25T03:15:04+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "a333c637000a3b08b7f7",
+      "course_id": "wembley",
+      "title": "Free Photos with Santa at Wembley Golf Course",
+      "summary": "Enjoy free Santa photos at Wembley Golf Course from 21-23 December, 5pm-7pm. Bring your",
+      "url": "https://www.wembleygolf.com.au/cms/2026/11/events-free-photos-with-santa/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-25T03:11:00+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "d2373f315e5f9c224a37",
+      "course_id": "pinjarra",
+      "title": "Women’s Summer Cup",
+      "summary": "For the Women’s Summer Cup draw – click here The post Women’s Summer Cup",
+      "url": "https://www.pinjarragolf.com.au/cms/2026/11/womens-summer-cup/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-24T21:52:06+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "5e5714ae53f3f5e51d11",
+      "course_id": "wembley",
+      "title": "Why Golf Seems Easier After a Break",
+      "summary": "Forced into an unexpected break by illness and injury, Michael Long shares why time",
+      "url": "https://www.wembleygolf.com.au/cms/2026/11/why-golf-seems-easier-after-a-break/",
+      "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/11/m-long-article-pics-dec-26.png",
+      "images": [
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/11/m-long-article-pics-dec-26.png",
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/11/m-long-article-pics-dec-26-2.png",
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/11/m-long-article-pics-dec-26-1.png",
+        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/11/m-long-article-pics-dec-26-3.png"
+      ],
+      "published_at": "2026-11-24T07:54:38+00:00",
+      "category": "Course news"
+    },
     {
       "id": "afc026bd2740f76a8e32",
       "course_id": "wembley",
-      "title": "Junior Girls Golf at Wembley",
+      "title": "Junior Girls’ Golf at Wembley",
       "summary": "Looking to start your daughter's golf journey? Discover the coaching, scholarships and on-course opportunities",
       "url": "https://www.wembleygolf.com.au/cms/2026/11/junior-girls-golf-at-wembley/",
       "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/11/Untitled-Design-32.png",
@@ -345,31 +405,6 @@
       "category": "Course news"
     },
     {
-      "id": "beed0211f60615abb3f0",
-      "course_id": "wembley",
-      "title": "November NTP Challenge",
-      "summary": "Visit the driving range at Wembley Golf Course during November to enter the NTP",
-      "url": "https://www.wembleygolf.com.au/cms/2026/10/november-ntp-challenge/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-10-15T02:00:00+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "032e3cf745059179ec12",
-      "course_id": "wembley",
-      "title": "Wembley Women: Practice with Purpose",
-      "summary": "Learn how to make the most of your golf practice with Claire from Wembley",
-      "url": "https://www.wembleygolf.com.au/cms/2026/10/wembley-women-practice-with-purpose/",
-      "image": "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-784-WEB-ONLY.jpg",
-      "images": [
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-784-WEB-ONLY.jpg",
-        "https://www.wembleygolf.com.au/cms/wp-content/uploads/2026/10/toc-260119-wgc-stock-769-WEB-ONLY.jpg"
-      ],
-      "published_at": "2026-10-14T01:55:29+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "ae171d9d730357b7c3ea",
       "course_id": "collier-park",
       "title": "The Longest Day at Collier Park",
@@ -439,17 +474,6 @@
         "https://www.pinjarragolf.com.au/cms/wp-content/uploads/2026/09/Julie-Winner.jpg"
       ],
       "published_at": "2026-09-22T02:20:39+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "8796e23e65ff70db4223",
-      "course_id": "pinjarra",
-      "title": "FOOTY TIPPING 2026",
-      "summary": "Thanks to all that participated in this years Footy Tipping Comp! The season flew",
-      "url": "https://www.pinjarragolf.com.au/cms/2026/09/footy-tipping-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-08T02:28:17+00:00",
       "category": "Course news"
     }
   ],
