@@ -1,7 +1,80 @@
 {
   "schema": 1,
-  "generated_at": "2026-11-25T04:19:42.184500+00:00",
+  "generated_at": "2026-11-26T03:38:50.526373+00:00",
   "items": [
+    {
+      "id": "56ff8047afa4dbe2345c",
+      "course_id": "rockingham",
+      "title": "Junior Bowl / Salver 2027",
+      "summary": "Dear Members, Entries are now open via MiTournament for the 2027 Junior Bowl &",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/junior-bowl-salver-2027/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-26T03:33:09+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "d5fe14fac9cd0ba98838",
+      "course_id": "hartfield",
+      "title": "Music Quiz Night Friday December 18th",
+      "summary": "The post Music Quiz Night Friday December 18th appeared first on Hartfield Country Club",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/music-quiz-night-friday-december-18th/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Quiz-Night-December-2026-1.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Quiz-Night-December-2026-1.png"
+      ],
+      "published_at": "2026-11-25T07:21:46+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "a11d5240255edd8e55c2",
+      "course_id": "hartfield",
+      "title": "Kids Christmas Party This Friday!",
+      "summary": "The post Kids Christmas Party This Friday! appeared first on Hartfield Country Club .",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/kids-christmas-party-this-friday/",
+      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Hartfield-Kids-Christmas-Party-2026-1.png",
+      "images": [
+        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Hartfield-Kids-Christmas-Party-2026-1.png"
+      ],
+      "published_at": "2026-11-25T07:18:57+00:00",
+      "category": "Events"
+    },
+    {
+      "id": "1cf13995c80c02f2bb3e",
+      "course_id": "rockingham",
+      "title": "Movember – Fundraising",
+      "summary": "Our Movember Mo’s Are Looking Magnificent! The Rockingham Golf Club Movember Team is growing",
+      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/movember-fundraising/",
+      "image": "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/11/Mov-scaled.jpg",
+      "images": [
+        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/11/Mov-scaled.jpg",
+        "https://www.rockinghamgolfclub.com.au/cms/wp-content/uploads/2026/11/mov-1-scaled.jpg"
+      ],
+      "published_at": "2026-11-25T06:15:39+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "065dbc83e076387bbd83",
+      "course_id": "hartfield",
+      "title": "2026 Annual General Meeting Minutes",
+      "summary": "The post 2026 Annual General Meeting Minutes appeared first on Hartfield Country Club .",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/2026-annual-general-meeting-minutes/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-25T05:59:15+00:00",
+      "category": "Course news"
+    },
+    {
+      "id": "187cbcf93cc2e9b4d51e",
+      "course_id": "hartfield",
+      "title": "Minutes of Management and House Committee with P&L Report",
+      "summary": "The post Minutes of Management and House Committee with P&L Report appeared first on",
+      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/minutes-of-management-and-house-committee-with-pl-report/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-25T05:53:43+00:00",
+      "category": "Course news"
+    },
     {
       "id": "a0ea5cd304b23160d0ac",
       "course_id": "the-vines",
@@ -122,28 +195,6 @@
       "category": "Course news"
     },
     {
-      "id": "a302dc28d3c98408a7ee",
-      "course_id": "rockingham",
-      "title": "Board Minutes October 2026",
-      "summary": "Minutes Board Meeting Rockingham Golf Club – October 2026 The post Board Minutes October",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/board-minutes-october-2026/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-19T05:00:36+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "ba5863c0efa11f239b7f",
-      "course_id": "rockingham",
-      "title": "Revised Constitution and By-Laws",
-      "summary": "At the AGM on 9 September, Members voted in favour of three special resolutions",
-      "url": "https://www.rockinghamgolfclub.com.au/cms/2026/11/revised-constitution-and-by-laws/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-19T04:58:30+00:00",
-      "category": "Course news"
-    },
-    {
       "id": "1cc3a551b59befd62304",
       "course_id": "nedlands-golf-club",
       "title": "Women’s Golf Sub-Committee Annual General Meeting",
@@ -168,6 +219,17 @@
       "category": "Course news"
     },
     {
+      "id": "d07e39e2d78372164ef7",
+      "course_id": "the-vines",
+      "title": "Pixar Quiz Night",
+      "summary": "To Infinity and Beyond for our next family friendly quiz night! The post Pixar",
+      "url": "https://www.vines.com.au/quiz/",
+      "image": null,
+      "images": [],
+      "published_at": "2026-11-14T03:38:02+00:00",
+      "category": "Course news"
+    },
+    {
       "id": "94a90bbce9c7a10c8ee1",
       "course_id": "the-vines",
       "title": "Dinner & Show – Music of Billy Joel & Adele",
@@ -176,17 +238,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-11-13T02:16:05+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "107a6f7dbc9af0e31b6d",
-      "course_id": "hartfield",
-      "title": "November Course Report",
-      "summary": "The post November Course Report appeared first on Hartfield Country Club .",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/november-course-report/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-13T01:38:56+00:00",
       "category": "Course news"
     },
     {
@@ -257,46 +308,6 @@
         "https://www.nedlandsgolfclub.com.au/cms/wp-content/uploads/2026/11/Screenshot-2026-11-10-134346-1.png"
       ],
       "published_at": "2026-11-10T05:45:30+00:00",
-      "category": "Events"
-    },
-    {
-      "id": "c4cba06f0530ec4a9731",
-      "course_id": "hartfield",
-      "title": "John Forrest Course Director Report- Control of Invasive Species On Course",
-      "summary": "I had an enquiry about a bush that was removed from the back of",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/john-forrest-course-director-report-control-of-invasive-species-on-course/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-11-10T04:30:20+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "b0ebcd448c278989c35c",
-      "course_id": "hartfield",
-      "title": "Hartfield Open 2026",
-      "summary": "Well done to everyone who participated in the Hartfield Open over the weekend. Congratulations",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/hartfield-open-2026-2/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5295-scaled.jpg",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5295-scaled.jpg",
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5299-scaled.jpg",
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5301-scaled-1.jpg",
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/IMG_5310-scaled-1.jpg"
-      ],
-      "published_at": "2026-11-10T02:58:25+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "c5a5e5aa791d4ea826af",
-      "course_id": "hartfield",
-      "title": "Christmas Buffet December 11th- 2 Course $45pp -Booking Essential",
-      "summary": "The post Christmas Buffet December 11th- 2 Course $45pp -Booking Essential appeared first on",
-      "url": "https://www.hartfieldgolf.com.au/cms/2026/11/christmas-buffet-december-11th-2-course-45pp-booking-essential/",
-      "image": "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Christmas-Buffet-Dec-11.png",
-      "images": [
-        "https://www.hartfieldgolf.com.au/cms/wp-content/uploads/2026/11/Christmas-Buffet-Dec-11.png"
-      ],
-      "published_at": "2026-11-08T07:40:31+00:00",
       "category": "Events"
     },
     {
@@ -450,17 +461,6 @@
       "image": null,
       "images": [],
       "published_at": "2026-10-02T02:36:25+00:00",
-      "category": "Course news"
-    },
-    {
-      "id": "852198831337a444bb72",
-      "course_id": "the-vines",
-      "title": "Aussie BBQ NYE Family Party",
-      "summary": "Celebrate the last night of 2026 with your family at our annual Aussie BBQ",
-      "url": "https://www.vines.com.au/nye/",
-      "image": null,
-      "images": [],
-      "published_at": "2026-09-23T04:42:35+00:00",
       "category": "Course news"
     },
     {
